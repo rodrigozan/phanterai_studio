@@ -2354,6 +2354,7 @@ __metadata:
   dependencies:
     "@remotion/cli": "npm:^4.0.536"
     "@remotion/google-fonts": "npm:^4.0.536"
+    "@remotion/media-utils": "npm:4.0.536"
     react: "npm:^19.3.1"
     react-dom: "npm:^19.3.1"
     remotion: "npm:^4.0.536"

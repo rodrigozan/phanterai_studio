@@ -52,7 +52,10 @@ repo root:
   placeholder frame when `slug` is empty or the timeline doesn't exist yet — don't make this throw).
 - `src/Episode.jsx` — walks `timeline.json`'s `scenes[]`, renders each one in a `<Sequence>` using
   the component from `src/templates/index.js` matching `scene.template`, and layers `voz.mp3` +
-  optional background music (`MUSIC_VOLUME` in `src/theme.js`, -24dB under the voice).
+  optional background music, looped for the whole video (`MUSIC_VOLUME` in `src/theme.js`, -24dB
+  under the voice, rising to `MUSIC_VOLUME_PAUSA` in the narration pauses `align.js` writes to
+  `timeline.pausas`). The last repetition is placed so the track's own fade-out ends with the video
+  (duration read via `@remotion/media-utils` in `calculateMetadata`).
 - `src/templates/*.jsx` — one file per scene template listed in the skill (`titulo-impacto`,
   `checklist-cards`, `contador`, `grafico-barras`, `studio-mockup`, `comparacao`, `lista-numerada`,
   `analogia`, `print`, `gravacao-tela`, `cta`). New template in a roteiro → add the file here *and*
@@ -64,9 +67,10 @@ repo root:
 - `scripts/align.js` — no dependencies. Parses `roteiro.md`'s `### Cxx` blocks against `words.json`
   by normalized approximate matching (never guesses a timestamp — it fails loudly with the scene id
   and excerpt instead) and writes `timeline.json`. **The `roteiro.md` grammar is defined in the
-  comment header of this file** (`template:`, `pose:`, `fala:`, `dados.<path>:`, `ao.<palavra>:`) —
-  it's not specified anywhere else, so that comment is the source of truth; keep it in sync with the
-  parser.
+  comment header of this file** (`### Cxx | template: … | pose: …` header, then `fala:`, `dados: {…}`,
+  `eventos: [{ ao, acao }]`; only the `## CENAS` section is read). It's the same format the
+  `pauta-roteiro-aprenda-youtube` skill emits, so roteiros can come from there or be written here —
+  keep the parser, that comment, the README and both skills in sync.
 - `public/pantera/`, `public/sfx/`, `public/music/` — binary assets Rod supplies; each has a
   `README.md` listing the exact filenames the components expect (poses, SFX names). Don't invent
   placeholder media here — if a file is missing, the skill's Etapa 1 says to stop and list what's

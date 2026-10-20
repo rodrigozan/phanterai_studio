@@ -71,19 +71,27 @@ out/                         vídeos renderizados (gitignored)
 
 Registrados em `src/templates/index.js`, usados no roteiro via `template: <nome>`:
 
-| Nome no roteiro | Componente |
-|---|---|
-| `titulo-impacto` | `TituloImpacto` |
-| `checklist-cards` | `ChecklistCards` |
-| `contador` | `Contador` |
-| `grafico-barras` | `GraficoBarras` |
-| `studio-mockup` | `StudioMockup` |
-| `comparacao` | `Comparacao` |
-| `lista-numerada` | `ListaNumerada` |
-| `analogia` | `Analogia` |
-| `print` | `Print` |
-| `gravacao-tela` | `GravacaoTela` |
-| `cta` | `Cta` |
+| Nome no roteiro | `dados` | Eventos próprios |
+|---|---|---|
+| `titulo-impacto` | `titulo`, `subtitulo?`, `destaque?` | `zoom-mascote` |
+| `checklist-cards` | `itens` (texto ou `{ texto, feito }`) | `card-N`, `check-N`, `riscar-item-N` |
+| `contador` | `de?`, `ate`, `rotulo` | `contar` |
+| `grafico-barras` | `barras: [{ rotulo, valor }]` | `crescer-barra-N` |
+| `studio-mockup` | `videos`/`thumbs`, `iguais?`, `layout?`, `embaralhar?` (ou `imagem`) | `clonar-cards`, `entrar-thumbs`, `embaralhar` |
+| `comparacao` | `esquerda`/`direita: { titulo, valor }` | `destacar-esquerda`, `destacar-direita` |
+| `lista-numerada` | `itens`, `ativo?` | `destacar-N`, `destacar-todos` |
+| `analogia` | `imagem?`, `emoji?`, `titulo?`, `texto?` (sem eles, a fala vira texto animado) | palavra de cada evento acende |
+| `print` | `arquivo`, `legenda?`, `recorte?`, `borrar?` | `zoom-print` |
+| `gravacao-tela` | `arquivo`, `legenda?`, `recorte?`, `borrar?`, `inicio?` (s), `velocidade?` | `zoom-tela` |
+| `cta` | `botao?`, `pergunta?`, `titulo?` | `clicar-botao`, `balao-comentario` |
+
+N começa em 1. Em qualquer template valem também `carimbo-vermelho`, `carimbo-verde`, `tremer`,
+`zoom-in`, `brilho`, `lupa`, `relogio-girando`, `sirene` e `riscar` (`src/components/Acoes.jsx`),
+e todo evento toca um SFX (`sfxDaAcao` em `src/components/eventos.js`).
+
+`recorte` e cada área de `borrar` são `{ x, y, w, h }` em % do arquivo original; `arquivo` é o
+nome dentro de `public/episodes/<slug>/`. O borrão é fixo na tela: numa gravação que rola, o
+conteúdo sai de baixo dele.
 
 Template novo: crie o arquivo em `src/templates/` seguindo `theme.js` e registre-o em
 `templates/index.js`.
@@ -184,7 +192,8 @@ convertido para frames a 30fps). Para cada bloco `### Cxx`:
 - localiza o campo `fala:` dentro de `words.json` por correspondência aproximada (acentos e
   pontuação normalizados, tolera pequenas diferenças da transcrição);
 - `start` da cena = início da primeira palavra da fala; `end` = início da cena seguinte;
-- eventos `ao.<palavra>:` recebem o frame exato daquela palavra, relativo ao início da cena.
+- cada item de `eventos:` recebe o frame exato da palavra em `ao`, relativo ao início da cena
+  (palavra não encontrada também para o script).
 
 Se uma `fala:` não for encontrada no áudio, o script **para e informa a cena e o trecho** — ele
 nunca chuta um tempo. Corrija o roteiro ou a transcrição e rode de novo.
@@ -233,37 +242,37 @@ Grammar completa documentada no cabeçalho de `scripts/align.js` — é a fonte 
 mudar o parser, atualize esse comentário também. Resumo:
 
 ```markdown
-musica: trilha-feliz.mp3          (opcional, uma vez no topo do arquivo)
+musica: trilha.mp3                (opcional; public/music/, em loop, sobe nas pausas da fala)
+musica_fim: 163.5                 (opcional; onde o loop volta, antes do fade out da faixa)
+
+## CENAS
+
+### C01 | template: titulo-impacto | pose: surpresa
+fala: "Primeiro de fevereiro de 2027. Anota essa data."
+dados: { titulo: "01/02/2027", subtitulo: "anota essa data" }
+eventos: [{ ao: "Anota", acao: "carimbo-vermelho" }]
+
+### C01b | template: checklist-cards | pose: pensando
+fala: "Não é bug. Não é azar."
+dados: { itens: ["Bug", "Azar"] }
+eventos: [{ ao: "bug", acao: "riscar-item-1" }, { ao: "azar", acao: "riscar-item-2" }]
 
 ## ASSETS_DO_ROD
-- print-dashboard.png
-
-### C01
-template: titulo-impacto
-pose: feliz
-fala: Isso aqui vai mudar sua vida.
-ao.vida: riser
-dados.titulo: ISSO VAI MUDAR
-dados.subtitulo: sua vida
-
-### C02
-template: checklist-cards
-pose: pensando
-fala: Primeiro o título, depois a thumbnail.
-dados.itens.0.texto: Título
-dados.itens.0.feito: true
-dados.itens.1.texto: Thumbnail
-dados.itens.1.feito: false
+- `print-01.png`: o que printar
 ```
 
-- `template:` — um dos nomes da [tabela de templates](#templates-de-cena-disponíveis).
-- `pose:` — uma das poses em `public/pantera/` (ver `theme.js: POSES`).
-- `fala:` — o trecho exato (ou muito próximo) do que é dito nessa cena; usado para localizar o
-  tempo no `words.json`.
-- `dados.<caminho>:` — vira o objeto `dados` passado ao template; índices numéricos no caminho
-  (`itens.0.texto`) criam arrays.
-- `ao.<palavra>:` — evento de SFX (ver `theme.js: SFX`) disparado no instante em que aquela
-  palavra é dita.
+É o mesmo formato que a skill `pauta-roteiro-aprenda-youtube` entrega, então o roteiro pode vir
+de lá ou ser escrito aqui. Só a seção `## CENAS` é lida pelo `align.js`.
+
+- `### <id> | template: <nome> | pose: <pose>` — id livre começando com `C` (`C04`, `C04a`,
+  `C55b`); a ordem das cenas é a ordem no arquivo. `template` é um dos nomes da
+  [tabela de templates](#templates-de-cena-disponíveis); `pose`, uma das poses em `public/pantera/`.
+- `fala:` — trecho literal da narração, entre aspas duplas; usado para localizar o tempo no
+  `words.json`.
+- `dados:` — objeto em sintaxe de JS (chaves sem aspas, strings em aspas duplas), passado ao
+  template como `dados`. Opcional.
+- `eventos:` — array de `{ ao: "<palavra da fala>", acao: "<acao>" }`; cada um ganha o frame
+  daquela palavra, relativo ao início da cena. Opcional.
 
 ### Usando as skills via Claude Code
 

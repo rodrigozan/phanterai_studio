@@ -49,11 +49,22 @@ python3 scripts/transcribe.py public/episodes/<slug>/voz.mp3
 node scripts/align.js <slug>
 ```
 
+O roteiro segue o formato da skill `pauta-roteiro-aprenda-youtube` (gramática completa no cabeçalho de `scripts/align.js`). Só a seção `## CENAS` é lida:
+
+```
+### C04a | template: print | pose: apontando
+fala: "O YouTube já escreveu, preto no branco,"
+dados: { arquivo: "print-09.png", legenda: "TechCrunch, 20/jul/2026" }
+eventos: [{ ao: "preto", acao: "zoom-print" }]
+```
+
+Se o Rod pedir o roteiro aqui em vez de mandar pronto, escreva nesse mesmo formato.
+
 1. Para cada bloco `### Cxx` do roteiro, localize o campo `fala:` dentro de `words.json` usando correspondência aproximada: normalize acentos e pontuação e aceite pequenas diferenças da transcrição.
 2. `start` da cena = início da primeira palavra da fala. `end` = início da cena seguinte.
-3. Os eventos internos (`ao: "palavra"`) recebem o tempo dessa palavra dentro da fala.
+3. Cada item de `eventos` (`ao: "palavra"`) recebe o tempo dessa palavra dentro da fala. Palavra não encontrada também para o script.
 4. Converta tudo para frames a 30 fps e grave `timeline.json`.
-5. Se alguma fala não for encontrada, informe o ID da cena e o trecho. Não chute tempo.
+5. Se alguma fala ou palavra de evento não for encontrada, informe o ID da cena e o trecho. Não chute tempo.
 
 ## Etapa 4 — Montar as cenas
 
@@ -62,7 +73,7 @@ node scripts/align.js <slug>
 - Template inexistente no roteiro: crie o componente novo em `templates/` seguindo `theme.js` e avise o Rod.
 - Pose: troque o PNG com um pop de escala (spring de cerca de 6 frames) e toque `sfx/pop.mp3`.
 - Toda entrada de card, badge ou número tem SFX sincronizado.
-- Música de fundo a −24 dB sob a voz, com fade in e fade out.
+- Música de fundo (`musica: <arquivo>` no roteiro, arquivo em `public/music/`) em loop o vídeo todo: −24 dB sob a voz, sobe para −14 dB nas pausas da narração (≥ 0,7 s, calculadas pelo `align.js`), com fade in. A última repetição toca a faixa inteira e termina junto com o vídeo, no fade out natural da faixa; `musica_fim:` (opcional) corta as repetições anteriores antes desse fade, em crossfade.
 
 ## Etapa 5 — Preview
 

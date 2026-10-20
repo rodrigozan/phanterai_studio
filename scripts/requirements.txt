@@ -1,1 +1,4 @@
 faster-whisper
+# av 15+ removeu o parâmetro metadata_errors que o faster-whisper 1.2.x usa em av.open();
+# 14.2.0 é a última < 15 com wheel pronto (as outras compilam do código-fonte e falham).
+av==14.2.0
