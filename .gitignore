@@ -17,9 +17,12 @@ node_modules
 .pnp.*
 
 # Saída de render do Remotion e artefatos gerados por episódio
-/out
+# /out
 public/episodes/*/words.json
 public/episodes/*/timeline.json
 
 # Virtualenv Python para scripts/transcribe.py
 /.venv
+
+# Variáveis de ambiente locais (podem ter chaves)
+.env
