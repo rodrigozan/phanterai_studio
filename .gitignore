@@ -17,7 +17,7 @@ node_modules
 .pnp.*
 
 # Saída de render do Remotion e artefatos gerados por episódio
-# /out
+/out
 public/episodes/*/words.json
 public/episodes/*/timeline.json
 
