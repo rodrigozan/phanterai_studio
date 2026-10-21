@@ -48,11 +48,12 @@ export const SFX = ["pop", "ding", "whoosh", "coin", "error", "riser"];
 // Trecho de cada arquivo de public/sfx/ que toca, em segundos: começa em `inicio` (pula o
 // silêncio inicial do arquivo) e dura no máximo `duracao`, com fade no fim. Medido nos
 // arquivos atuais com ffmpeg silencedetect - trocou um arquivo, meça e ajuste aqui.
+// `volume` é linear (1 = arquivo original): o error ficou alto demais sob a voz no preview.
 export const SFX_TRECHO = {
-  pop: { inicio: 0.19, duracao: 0.4 },
-  ding: { inicio: 0, duracao: 1.0 },
-  whoosh: { inicio: 0, duracao: 0.5 },
-  coin: { inicio: 3.28, duracao: 1.2 },
-  error: { inicio: 0, duracao: 0.5 },
-  riser: { inicio: 0.9, duracao: 1.5 },
+  pop: { inicio: 0.19, duracao: 0.4, volume: 0.8 },
+  ding: { inicio: 0, duracao: 1.0, volume: 0.8 },
+  whoosh: { inicio: 0, duracao: 0.5, volume: 0.8 },
+  coin: { inicio: 3.28, duracao: 1.2, volume: 0.8 },
+  error: { inicio: 0, duracao: 0.5, volume: 0.5 },
+  riser: { inicio: 0.9, duracao: 1.5, volume: 0.8 },
 };

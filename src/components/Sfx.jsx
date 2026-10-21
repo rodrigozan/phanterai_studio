@@ -15,7 +15,7 @@ export const Sfx = ({ name, atFrame = 0 }) => {
     );
   }
 
-  const trecho = SFX_TRECHO[name] ?? { inicio: 0, duracao: 1 };
+  const trecho = SFX_TRECHO[name] ?? { inicio: 0, duracao: 1, volume: 1 };
   const duracao = Math.round(trecho.duracao * fps);
 
   return (
@@ -24,6 +24,7 @@ export const Sfx = ({ name, atFrame = 0 }) => {
         src={staticFile(`sfx/${name}.mp3`)}
         trimBefore={Math.round(trecho.inicio * fps)}
         volume={(f) =>
+          (trecho.volume ?? 1) *
           interpolate(f, [duracao - FADE_FRAMES, duracao], [1, 0], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
