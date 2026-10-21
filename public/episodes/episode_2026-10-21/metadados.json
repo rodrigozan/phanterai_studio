@@ -1,0 +1,41 @@
+{
+  "responsavel": "Louis Lane",
+  "canal": "Aprenda Blogando",
+  "status": "rascunho para revisão do Gladiador Dourado",
+  "title": "YouTube Vai Exigir 8.000 Horas em 2027? Entenda a Regra",
+  "thumbnail": {
+    "texto": "3 CATEGORIAS",
+    "brief": "Pantera surpresa à direita, expressão de alerta; enquadramento fechado. À esquerda, texto grande ‘3 CATEGORIAS’. Fundo dividido em três cartões visuais simples (repetição, alerta, persona digital), alto contraste violeta e amarelo. Não repetir ‘8.000 horas’ da promessa do título."
+  },
+  "description": "A partir de 1º de fevereiro de 2027, quem solicitar entrada no Programa de Parcerias do YouTube precisará de 8.000 horas públicas nos últimos 365 dias ou 20 milhões de visualizações qualificadas de Shorts em 90 dias.\n\nNeste vídeo, explico também a atualização sobre conteúdo inautêntico: formatos repetitivos ou produzidos em massa, conteúdo feito para provocar aflição e personas de IA que se passam por especialistas em temas sensíveis. O uso de IA, por si só, não é proibido.\n\nCapítulos:\n00:00 A mudança anunciada para 2027\n00:14 Três tipos de conteúdo em foco\n01:16 Conteúdo repetitivo ou feito em template\n02:50 Conteúdo criado para causar aflição\n03:29 Personas de IA em temas sensíveis\n04:22 O novo requisito de horas e Shorts\n04:55 O que fazer se o canal for recusado\n06:34 Faça o teste das cinco thumbnails\n\nFontes oficiais e reportagem:\nYouTube: https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/\nYouTube Ajuda: https://support.google.com/youtube/answer/72851\nTechCrunch: https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/\n\nSe inscreve no canal e comenta: quantas horas faltam para você chegar ao requisito atual?",
+  "tags": [
+    "monetização YouTube 2027",
+    "8 mil horas YouTube",
+    "8.000 horas monetização",
+    "requisitos YouTube Partner Program",
+    "Programa de Parcerias do YouTube",
+    "YPP 2027",
+    "monetização de Shorts",
+    "20 milhões de views Shorts",
+    "conteúdo inautêntico YouTube",
+    "conteúdo repetitivo YouTube",
+    "IA no YouTube",
+    "canal dark monetização",
+    "Aprenda Blogando"
+  ],
+  "queries": [
+    "requisitos de monetização do YouTube em 2027",
+    "quantas horas precisa para monetizar no YouTube em 2027",
+    "quais vídeos podem perder monetização no YouTube"
+  ],
+  "title_candidates": [
+    { "title": "YouTube Vai Dobrar as Horas para Monetizar em 2027?", "score": 100, "note": "Direto e curto; a prévia móvel pode cortar o final da frase." },
+    { "title": "Em 2027, Monetizar no YouTube Vai Ficar Mais Difícil?", "score": 100, "note": "Bom gancho, mas a prévia móvel corta o final e não antecipa o novo requisito." },
+    { "title": "YouTube Vai Exigir 8.000 Horas em 2027? Entenda a Regra", "score": 98, "note": "Vencedor: específica o número e a data; a prévia móvel corta ‘Entenda a Regra’." }
+  ],
+  "sources": [
+    "https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/",
+    "https://support.google.com/youtube/answer/72851",
+    "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/"
+  ]
+}
