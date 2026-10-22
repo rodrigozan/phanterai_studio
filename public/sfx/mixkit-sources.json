@@ -1,0 +1,182 @@
+{
+  "pop": [
+    {
+      "id": "2358",
+      "file": "variants/pop/pop-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2358/2358-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/pop/",
+      "bytes": 15239
+    },
+    {
+      "id": "2364",
+      "file": "variants/pop/pop-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2364/2364-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/pop/",
+      "bytes": 39145
+    },
+    {
+      "id": "2354",
+      "file": "variants/pop/pop-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2354/2354-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/pop/",
+      "bytes": 13059
+    },
+    {
+      "id": "3005",
+      "file": "variants/pop/pop-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/3005/3005-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/pop/",
+      "bytes": 7829
+    }
+  ],
+  "ding": [
+    {
+      "id": "2574",
+      "file": "variants/ding/ding-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2574/2574-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 71725
+    },
+    {
+      "id": "2575",
+      "file": "variants/ding/ding-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2575/2575-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 41969
+    },
+    {
+      "id": "2357",
+      "file": "variants/ding/ding-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2357/2357-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 12316
+    },
+    {
+      "id": "2867",
+      "file": "variants/ding/ding-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2867/2867-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 43636
+    }
+  ],
+  "whoosh": [
+    {
+      "id": "1489",
+      "file": "variants/whoosh/whoosh-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1489/1489-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "bytes": 71724
+    },
+    {
+      "id": "1492",
+      "file": "variants/whoosh/whoosh-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1492/1492-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "bytes": 44574
+    },
+    {
+      "id": "1491",
+      "file": "variants/whoosh/whoosh-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1491/1491-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "bytes": 36954
+    },
+    {
+      "id": "1714",
+      "file": "variants/whoosh/whoosh-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1714/1714-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "bytes": 133622
+    }
+  ],
+  "coin": [
+    {
+      "id": "2047",
+      "file": "variants/coin/coin-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2047/2047-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/game/",
+      "bytes": 43535
+    },
+    {
+      "id": "2059",
+      "file": "variants/coin/coin-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2059/2059-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/game/",
+      "bytes": 111334
+    },
+    {
+      "id": "2069",
+      "file": "variants/coin/coin-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2069/2069-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/game/",
+      "bytes": 35075
+    },
+    {
+      "id": "211",
+      "file": "variants/coin/coin-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/211/211-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/game/",
+      "bytes": 42437
+    }
+  ],
+  "error": [
+    {
+      "id": "2356",
+      "file": "variants/error/error-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2356/2356-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 9706
+    },
+    {
+      "id": "2576",
+      "file": "variants/error/error-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2576/2576-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 66138
+    },
+    {
+      "id": "2861",
+      "file": "variants/error/error-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2861/2861-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 126313
+    },
+    {
+      "id": "2976",
+      "file": "variants/error/error-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2976/2976-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/alerts/",
+      "bytes": 337316
+    }
+  ],
+  "riser": [
+    {
+      "id": "1143",
+      "file": "variants/riser/riser-02.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1143/1143-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/cinematic/",
+      "bytes": 115904
+    },
+    {
+      "id": "488",
+      "file": "variants/riser/riser-03.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/488/488-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/cinematic/",
+      "bytes": 237176
+    },
+    {
+      "id": "2290",
+      "file": "variants/riser/riser-04.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/2290/2290-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/cinematic/",
+      "bytes": 217771
+    },
+    {
+      "id": "1486",
+      "file": "variants/riser/riser-05.mp3",
+      "source": "https://assets.mixkit.co/active_storage/sfx/1486/1486-preview.mp3",
+      "page": "https://mixkit.co/free-sound-effects/cinematic/",
+      "bytes": 201481
+    }
+  ]
+}

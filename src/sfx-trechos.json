@@ -1,0 +1,152 @@
+{
+  "coin.mp3": {
+    "inicio": 3.272,
+    "duracao": 1.2,
+    "ganho": 1.995
+  },
+  "ding.mp3": {
+    "inicio": 0.05,
+    "duracao": 0.996,
+    "ganho": 1.189
+  },
+  "error.mp3": {
+    "inicio": 0.039,
+    "duracao": 0.328,
+    "ganho": 0.359
+  },
+  "pop.mp3": {
+    "inicio": 0.18,
+    "duracao": 0.25,
+    "ganho": 0.668
+  },
+  "riser.mp3": {
+    "inicio": 0.89,
+    "duracao": 1.8,
+    "ganho": 0.676
+  },
+  "variants/coin/coin-02.mp3": {
+    "inicio": 0.09,
+    "duracao": 0.368,
+    "ganho": 0.55
+  },
+  "variants/coin/coin-03.mp3": {
+    "inicio": 0.036,
+    "duracao": 1.2,
+    "ganho": 0.7
+  },
+  "variants/coin/coin-04.mp3": {
+    "inicio": 0,
+    "duracao": 0.513,
+    "ganho": 0.49
+  },
+  "variants/coin/coin-05.mp3": {
+    "inicio": 0.173,
+    "duracao": 0.35,
+    "ganho": 1.216
+  },
+  "variants/ding/ding-02.mp3": {
+    "inicio": 0,
+    "duracao": 1,
+    "ganho": 0.794
+  },
+  "variants/ding/ding-03.mp3": {
+    "inicio": 0,
+    "duracao": 0.92,
+    "ganho": 0.794
+  },
+  "variants/ding/ding-04.mp3": {
+    "inicio": 0,
+    "duracao": 0.418,
+    "ganho": 0.977
+  },
+  "variants/ding/ding-05.mp3": {
+    "inicio": 0,
+    "duracao": 0.71,
+    "ganho": 0.767
+  },
+  "variants/error/error-02.mp3": {
+    "inicio": 0,
+    "duracao": 0.34,
+    "ganho": 1.259
+  },
+  "variants/error/error-03.mp3": {
+    "inicio": 0,
+    "duracao": 0.8,
+    "ganho": 0.692
+  },
+  "variants/error/error-04.mp3": {
+    "inicio": 0.055,
+    "duracao": 0.8,
+    "ganho": 0.432
+  },
+  "variants/error/error-05.mp3": {
+    "inicio": 0,
+    "duracao": 0.8,
+    "ganho": 1.109
+  },
+  "variants/pop/pop-02.mp3": {
+    "inicio": 0,
+    "duracao": 0.522,
+    "ganho": 0.891
+  },
+  "variants/pop/pop-03.mp3": {
+    "inicio": 0,
+    "duracao": 0.25,
+    "ganho": 0.776
+  },
+  "variants/pop/pop-04.mp3": {
+    "inicio": 0.043,
+    "duracao": 0.25,
+    "ganho": 1.023
+  },
+  "variants/pop/pop-05.mp3": {
+    "inicio": 0,
+    "duracao": 0.209,
+    "ganho": 0.624
+  },
+  "variants/riser/riser-02.mp3": {
+    "inicio": 0.16,
+    "duracao": 1.554,
+    "ganho": 0.61
+  },
+  "variants/riser/riser-03.mp3": {
+    "inicio": 0.179,
+    "duracao": 1.8,
+    "ganho": 0.327
+  },
+  "variants/riser/riser-04.mp3": {
+    "inicio": 0.024,
+    "duracao": 1.8,
+    "ganho": 0.462
+  },
+  "variants/riser/riser-05.mp3": {
+    "inicio": 0.16,
+    "duracao": 1.8,
+    "ganho": 0.367
+  },
+  "variants/whoosh/whoosh-02.mp3": {
+    "inicio": 0.087,
+    "duracao": 0.9,
+    "ganho": 0.841
+  },
+  "variants/whoosh/whoosh-03.mp3": {
+    "inicio": 0,
+    "duracao": 0.9,
+    "ganho": 1.995
+  },
+  "variants/whoosh/whoosh-04.mp3": {
+    "inicio": 0.116,
+    "duracao": 0.3,
+    "ganho": 0.676
+  },
+  "variants/whoosh/whoosh-05.mp3": {
+    "inicio": 0.324,
+    "duracao": 0.9,
+    "ganho": 0.417
+  },
+  "whoosh.mp3": {
+    "inicio": 0.057,
+    "duracao": 0.518,
+    "ganho": 0.861
+  }
+}

@@ -49,11 +49,21 @@ export const SFX = ["pop", "ding", "whoosh", "coin", "error", "riser"];
 // silêncio inicial do arquivo) e dura no máximo `duracao`, com fade no fim. Medido nos
 // arquivos atuais com ffmpeg silencedetect - trocou um arquivo, meça e ajuste aqui.
 // `volume` é linear (1 = arquivo original): o error ficou alto demais sob a voz no preview.
-export const SFX_TRECHO = {
-  pop: { inicio: 0.19, duracao: 0.4, volume: 0.8 },
-  ding: { inicio: 0, duracao: 1.0, volume: 0.8 },
-  whoosh: { inicio: 0, duracao: 0.5, volume: 0.8 },
-  coin: { inicio: 3.28, duracao: 1.2, volume: 0.8 },
-  error: { inicio: 0, duracao: 0.5, volume: 0.5 },
-  riser: { inicio: 0.9, duracao: 1.5, volume: 0.8 },
+// Cinco opções por família: original e quatro alternativas Mixkit.
+// A escolha usa nome + frame do evento, então é variada e reproduzível no render.
+export const SFX_VARIANTS = {
+  pop: ["pop.mp3", "variants/pop/pop-02.mp3", "variants/pop/pop-03.mp3", "variants/pop/pop-04.mp3", "variants/pop/pop-05.mp3"],
+  ding: ["ding.mp3", "variants/ding/ding-02.mp3", "variants/ding/ding-03.mp3", "variants/ding/ding-04.mp3", "variants/ding/ding-05.mp3"],
+  whoosh: ["whoosh.mp3", "variants/whoosh/whoosh-02.mp3", "variants/whoosh/whoosh-03.mp3", "variants/whoosh/whoosh-04.mp3", "variants/whoosh/whoosh-05.mp3"],
+  coin: ["coin.mp3", "variants/coin/coin-02.mp3", "variants/coin/coin-03.mp3", "variants/coin/coin-04.mp3", "variants/coin/coin-05.mp3"],
+  error: ["error.mp3", "variants/error/error-02.mp3", "variants/error/error-03.mp3", "variants/error/error-04.mp3", "variants/error/error-05.mp3"],
+  riser: ["riser.mp3", "variants/riser/riser-02.mp3", "variants/riser/riser-03.mp3", "variants/riser/riser-04.mp3", "variants/riser/riser-05.mp3"],
 };
+
+// Volume final de todo SFX (linear, 1 = nível de referência). Cada arquivo ainda recebe o
+// `ganho` de sfx-trechos.json, que iguala o nível entre as opções (mesmo volume percebido).
+export const SFX_VOLUME = 0.3;
+
+// Início, duração e ganho de CADA arquivo (original e variações), medidos com ffmpeg por
+// `node scripts/measure-sfx.js`. Trocou/adicionou arquivo em public/sfx? Rode o script de novo.
+export { default as SFX_TRECHO } from "./sfx-trechos.json";
