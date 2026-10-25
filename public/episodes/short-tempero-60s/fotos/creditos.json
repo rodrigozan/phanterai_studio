@@ -1,0 +1,62 @@
+{
+  "cafe": {
+    "id": 16155698,
+    "fotografo": "Beyzaa Yurtkuran",
+    "pagina": "https://www.pexels.com/photo/interior-design-of-bar-16155698/",
+    "termo": "coffee shop cozy interior"
+  },
+  "sunset": {
+    "id": 28846601,
+    "fotografo": "Anderson Santos",
+    "pagina": "https://www.pexels.com/photo/sunset-waves-against-mountainous-horizon-28846601/",
+    "termo": "golden sunset mountain landscape"
+  },
+  "biblioteca": {
+    "id": 6761492,
+    "fotografo": "Rachel Claire",
+    "pagina": "https://www.pexels.com/photo/books-arranged-on-a-wooden-bookcase-6761492/",
+    "termo": "old library books candle"
+  },
+  "chuva": {
+    "id": 10882999,
+    "fotografo": "Iryna Olar",
+    "pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-wet-glass-10882999/",
+    "termo": "rainy night window city lights"
+  },
+  "churrasqueira": {
+    "id": 28309049,
+    "fotografo": "HACI HÜSEYİN EROL",
+    "pagina": "https://www.pexels.com/photo/meat-28309049/",
+    "termo": "barbecue grill fire meat"
+  },
+  "carne": {
+    "id": 20187067,
+    "fotografo": "Boys in Bristol Photography",
+    "pagina": "https://www.pexels.com/photo/juicy-meat-steak-20187067/",
+    "termo": "butcher raw beef steak"
+  },
+  "tempero": {
+    "id": 971076,
+    "fotografo": "Miguel Á. Padriñán",
+    "pagina": "https://www.pexels.com/photo/four-assorted-spices-on-brown-wooden-spoon-971076/",
+    "termo": "spices seasoning wooden spoon"
+  },
+  "churrasco": {
+    "id": 8841183,
+    "fotografo": "Julia M Cameron",
+    "pagina": "https://www.pexels.com/photo/brothers-standing-by-barbecue-in-garden-8841183/",
+    "termo": "family barbecue backyard friends"
+  },
+  "criador": {
+    "id": 13929350,
+    "fotografo": "Mizuno K",
+    "pagina": "https://www.pexels.com/photo/woman-using-on-a-laptop-and-looking-at-a-smart-phone-on-a-tripod-13929350/",
+    "termo": "content creator laptop night desk"
+  },
+  "gato": {
+    "id": 26077123,
+    "fotografo": "damla selen demir",
+    "pagina": "https://www.pexels.com/photo/photo-of-a-cat-sitting-on-a-windowsill-26077123/",
+    "termo": "cat sitting cozy"
+  }
+}
