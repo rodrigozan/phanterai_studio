@@ -19,12 +19,12 @@ const f = (a) => Math.round((a + LEAD) * SHORT_FPS);
 const foto = (nome) => staticFile(`episodes/${SHORT_SLUG}/fotos/${nome}`);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" };
 
-const FONT = { fontFamily, fontWeight: 900, textTransform: "uppercase", lineHeight: 1.05, textAlign: "center" };
+export const FONT = { fontFamily, fontWeight: 900, textTransform: "uppercase", lineHeight: 1.05, textAlign: "center" };
 
 // ---------- blocos básicos ----------
 
 // Foto em tela cheia com Ken Burns (zoom + deslocamento lento), escurecida para o texto ler bem.
-const Fundo = ({ src, escurecer = 0.45, zoom = [1.08, 1.28], dx = [0, -40], dy = [0, -30], blur = 0, tom }) => {
+export const Fundo = ({ src, escurecer = 0.45, zoom = [1.08, 1.28], dx = [0, -40], dy = [0, -30], blur = 0, tom }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const p = interpolate(frame, [0, durationInFrames], [0, 1], clamp);
@@ -47,7 +47,7 @@ const Fundo = ({ src, escurecer = 0.45, zoom = [1.08, 1.28], dx = [0, -40], dy =
 };
 
 // Fundo roxo da marca, com manchas de luz em movimento.
-const FundoMarca = () => {
+export const FundoMarca = () => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 30%, ${colors.bgInner} 0%, ${colors.bgOuter} 75%)`, overflow: "hidden" }}>
@@ -58,7 +58,7 @@ const FundoMarca = () => {
 };
 
 // Texto cinético: entra com mola no frame `em` (local da cena), com leve rotação.
-const Texto = ({ children, em = 0, size = 120, color = colors.text, y = 400, rot = 0, fundo, saiEm, style = {} }) => {
+export const Texto = ({ children, em = 0, size = 120, color = colors.text, y = 400, rot = 0, fundo, saiEm, style = {}, lado = 40 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame - em;
@@ -67,7 +67,7 @@ const Texto = ({ children, em = 0, size = 120, color = colors.text, y = 400, rot
   const sai = saiEm != null ? interpolate(frame, [saiEm, saiEm + 8], [1, 0], clamp) : 1;
   if (sai <= 0) return null;
   return (
-    <div style={{ position: "absolute", left: 40, right: 40, top: y, display: "flex", justifyContent: "center", opacity: sai, transform: `scale(${s * (0.9 + 0.1 * sai)}) rotate(${rot * s}deg)` }}>
+    <div style={{ position: "absolute", left: lado, right: lado, top: y, display: "flex", justifyContent: "center", opacity: sai, transform: `scale(${s * (0.9 + 0.1 * sai)}) rotate(${rot * s}deg)` }}>
       <div
         style={{
           ...FONT,
@@ -90,7 +90,7 @@ const Texto = ({ children, em = 0, size = 120, color = colors.text, y = 400, rot
 };
 
 // Cartão de foto: borda branca, sombra, entra girando com mola.
-const Foto = ({ src, em = 0, left = "50%", top = 700, w = 900, h, rot = 0, ken = true, borda = 12, flutua = true }) => {
+export const Foto = ({ src, em = 0, left = "50%", top = 700, w = 900, h, rot = 0, ken = true, borda = 12, flutua = true }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame - em;
@@ -143,7 +143,7 @@ const Anel = ({ em, x, y, size = 190, rotulo, cor = colors.gold, cardLeft, cardT
 };
 
 // Pantera com flutuação e leve balanço; entra com o pop do componente original.
-const Pantera = ({ pose, left = "80%", top = 1500, width = 520, em = 0 }) => {
+export const Pantera = ({ pose, left = "80%", top = 1500, width = 520, em = 0 }) => {
   const frame = useCurrentFrame();
   if (frame < em) return null;
   return (
@@ -156,7 +156,7 @@ const Pantera = ({ pose, left = "80%", top = 1500, width = 520, em = 0 }) => {
 };
 
 // Chuva de faíscas douradas/violeta subindo (determinística, mesma em todo render).
-const Faiscas = ({ n = 26, cor = colors.gold }) => {
+export const Faiscas = ({ n = 26, cor = colors.gold }) => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{ pointerEvents: "none", overflow: "hidden" }}>
@@ -183,7 +183,7 @@ const Cena = ({ de, ate, children, whoosh = true, flash = true, tremer = 14 }) =
     </Sequence>
   );
 };
-const CenaInterna = ({ children, whoosh, flash, tremer }) => {
+export const CenaInterna = ({ children, whoosh, flash, tremer }) => {
   const frame = useCurrentFrame();
   const punch = interpolate(frame, [0, 10], [1, 0], clamp);
   const sx = Math.sin(frame * 3.1) * tremer * punch;

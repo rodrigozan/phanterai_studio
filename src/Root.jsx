@@ -1,6 +1,7 @@
 import { Composition, registerRoot } from "remotion";
 import { Episode, calculateEpisodeMetadata } from "./Episode";
 import { ShortTempero, SHORT_FPS, SHORT_FRAMES, calculateShortMetadata } from "./short/ShortTempero";
+import { ShortMinecraft, MC_FPS, MC_FRAMES, calculateMinecraftMetadata } from "./short/ShortMinecraft";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 const RemotionRoot = () => (
@@ -24,6 +25,16 @@ const RemotionRoot = () => (
     durationInFrames={SHORT_FRAMES}
     defaultProps={{ palavras: null }}
     calculateMetadata={calculateShortMetadata}
+  />
+  <Composition
+    id="ShortMinecraft"
+    component={ShortMinecraft}
+    width={1080}
+    height={1920}
+    fps={MC_FPS}
+    durationInFrames={MC_FRAMES}
+    defaultProps={{ palavras: null }}
+    calculateMetadata={calculateMinecraftMetadata}
   />
   <Composition
     id="TesteSfx"
