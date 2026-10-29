@@ -2,6 +2,7 @@ import { Composition, registerRoot } from "remotion";
 import { Episode, calculateEpisodeMetadata } from "./Episode";
 import { ShortTempero, SHORT_FPS, SHORT_FRAMES, calculateShortMetadata } from "./short/ShortTempero";
 import { ShortMinecraft, MC_FPS, MC_FRAMES, calculateMinecraftMetadata } from "./short/ShortMinecraft";
+import { ShortOllama, OL_FPS, OL_FRAMES, calculateOllamaMetadata } from "./short/ShortOllama";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 const RemotionRoot = () => (
@@ -35,6 +36,16 @@ const RemotionRoot = () => (
     durationInFrames={MC_FRAMES}
     defaultProps={{ palavras: null }}
     calculateMetadata={calculateMinecraftMetadata}
+  />
+  <Composition
+    id="ShortOllama"
+    component={ShortOllama}
+    width={1080}
+    height={1920}
+    fps={OL_FPS}
+    durationInFrames={OL_FRAMES}
+    defaultProps={{ palavras: null }}
+    calculateMetadata={calculateOllamaMetadata}
   />
   <Composition
     id="TesteSfx"
