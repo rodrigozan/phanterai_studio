@@ -1,0 +1,10 @@
+{
+  "slug": "reels-opencode-ollama-qwen",
+  "title": "Agente de código offline e grátis: OpenCode + Ollama + Qwen3.5",
+  "description": "Dá para rodar um agente de código inteiro no notebook, sem internet, sem chave de API e sem pagar por token. A stack: OpenCode (lê, roda testes e edita), Ollama (serve o modelo local) e Qwen3.5 de 9B (o cérebro).\n\nNo vídeo: configuração do opencode.json, Ollama só em localhost, teste do bug no calculador de despesas, prova offline com curl e a correção que passou nos 5 testes.\n\nAtenção: foi um exercício. Modelos locais menores ficam atrás dos grandes nos benchmarks e a velocidade não foi medida. Comece com tarefas pequenas e testes prontos.\n\nSalve o vídeo e siga a PhanterAI para mais tutoriais de IA.\n\n#IA #OpenCode #Ollama #Qwen #Shorts",
+  "tags": ["opencode", "ollama", "qwen3.5", "agente de código", "IA local", "IA offline", "LLM local", "programação com IA", "tutorial IA", "PhanterAI"],
+  "searchTerms": ["opencode ollama", "agente de código offline", "qwen3.5 ollama"],
+  "thumbnailBrief": "Terminal com código e o texto 'Agente de IA 100% offline'. Shorts, sem thumbnail dedicada.",
+  "sources": ["Roteiro do Rod (Drive, pasta Open code e ollama); iMasters"],
+  "author": "carol-denvers"
+}
