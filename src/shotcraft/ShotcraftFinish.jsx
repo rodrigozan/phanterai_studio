@@ -8,12 +8,14 @@
 //   blur-slide            (typography) — rótulo/kicker: opacidade, y e blur no mesmo p, EASE.out, 4f entre palavras
 //   crash-zoom-punch      (camera)     — preparo 6f (-3%), soco 6f ease-in forte, rebote amortecido, devolve com mola
 //   shot-transitions      (transition) — flash de exposição de 8f no quadro do impacto (FlashCut da lib)
-//   title-demote-to-label (typography) — vinheta de capítulo: título sobe, segura 20f, rebaixa 26f para rótulo
+//   title-demote-to-label (typography) — vinheta de capítulo: título sobe, segura 20f, rebaixa 26f para rótulo;
+//                                        fundo opaco da série enquanto o título está no centro (chapter.js)
 import React from "react";
 import { AbsoluteFill, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { EASE, ramp, mix, velocity, SpeedBlur } from "./sc";
 import { MOTION, motionSpring } from "./motionSpring";
 import { getLook } from "./looks";
+import { CHAPTER, assertOpaqueBackdrop, chapterBackdropOpacity } from "./chapter";
 
 export const SHOTCRAFT_CARDS = ["blur-slide", "crash-zoom-punch", "shot-transitions", "title-demote-to-label"];
 
@@ -117,20 +119,20 @@ const Chapter = ({ shot, look, W, H }) => {
   const size = shot.size ?? (vertical ? 92 : 104);
   const slot = { x: vertical ? 64 : 96, y: vertical ? 220 : 64 };
   const LABEL = 0.3;
-  const demoteAt = 36;
-  const dAt = (f) => ramp(f, demoteAt, 26, EASE.swift); // 26f, in-out assimétrico (Polish.EASE.swift)
+  const demoteAt = CHAPTER.demoteAt;
+  const dAt = (f) => ramp(f, demoteAt, CHAPTER.demoteDur, EASE.swift); // 26f, in-out assimétrico (Polish.EASE.swift)
   const d = dAt(frame);
   const vx = velocity((f) => mix(W / 2, slot.x, dAt(f)), frame);
   const vy = velocity((f) => mix(H / 2 - size, slot.y, dAt(f)), frame);
-  const scrim = 1 - ramp(frame, demoteAt, 26, EASE.out);
+  const backdrop = chapterBackdropOpacity(frame, d);
   const push = 1 + 0.015 * ramp(frame, 16, 20, EASE.smooth);
-  const eyebrow = 1 - ramp(frame, demoteAt, 6, EASE.out);
+  const eyebrow = ramp(frame, CHAPTER.textAt, 8, EASE.out) * (1 - ramp(frame, demoteAt, 6, EASE.out));
   const out = ramp(frame, shot.dur - 12, 12, EASE.exit);
   const num = String(shot.index ?? 1).padStart(2, "0");
   const labelIn = ramp(frame, demoteAt + 20, 10, EASE.out);
   return (
     <AbsoluteFill style={{ opacity: 1 - out }}>
-      <AbsoluteFill style={{ background: look.scrim, opacity: scrim }} />
+      <AbsoluteFill style={{ background: look.chapterBackdrop, opacity: backdrop }} />
       <SpeedBlur vx={vx} vy={vy}>
         <div style={{ position: "absolute", left: mix(W / 2, slot.x, d), top: mix(H / 2 - size, slot.y, d), transform: `translateX(${mix(-50, 0, d)}%) scale(${mix(push, LABEL, d).toFixed(4)})`, transformOrigin: "left top", textAlign: d > 0.5 ? "left" : "center", whiteSpace: "nowrap" }}>
           <div style={{ ...look.label, fontSize: Math.round(size * 0.3), opacity: eyebrow, marginBottom: 18, textShadow: look.label.textShadow || look.shadow }}>
@@ -138,7 +140,7 @@ const Chapter = ({ shot, look, W, H }) => {
           </div>
           <div style={{ display: "flex", alignItems: "baseline", gap: "0.3em" }}>
             <span style={{ ...look.label, fontSize: size * 0.9, opacity: labelIn, color: look.accent, letterSpacing: "0.02em" }}>{num} /</span>
-            <Words words={String(shot.text).split(/\s+/)} start={0} step={3} dur={16} dy={size * 0.38} blur={size * 0.1} gap="0.26em"
+            <Words words={String(shot.text).split(/\s+/)} start={CHAPTER.textAt} step={3} dur={16} dy={size * 0.38} blur={size * 0.1} gap="0.26em"
               style={{ ...look.title, fontSize: size, lineHeight: 1.05, flexWrap: "nowrap", textShadow: look.title.textShadow || look.shadow }} />
           </div>
         </div>
@@ -154,6 +156,7 @@ export const ShotcraftFinish = (props) => {
   }
   const look = getLook(props.look);
   const shots = props.shots || [];
+  if (shots.some((s) => s.card === "title-demote-to-label")) assertOpaqueBackdrop(props.look, look.chapterBackdrop);
   const punches = shots.filter((s) => s.card === "crash-zoom-punch");
   return (
     <AbsoluteFill style={{ background: "#000" }}>
