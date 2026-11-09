@@ -26,3 +26,6 @@ public/episodes/*/timeline.json
 
 # Variáveis de ambiente locais (podem ter chaves)
 .env
+
+# Staging temporário dos cortes usados no acabamento Shotcraft
+/public/shotcraft-runs/

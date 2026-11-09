@@ -6,6 +6,7 @@ import { ShortOllama, OL_FPS, OL_FRAMES, calculateOllamaMetadata } from "./short
 import { ShortOrcamento, OR_FPS, OR_FRAMES, calculateOrcamentoMetadata } from "./short/ShortOrcamento";
 import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } from "./short/ShortScion";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
+import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
 
 const RemotionRoot = () => (
   <>
@@ -71,6 +72,16 @@ const RemotionRoot = () => (
   />
   <Composition id="ScionCapa" component={ScionCapa} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition id="ScionThumb" component={ScionThumb} width={1280} height={720} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShotcraftFinish"
+    component={ShotcraftFinish}
+    width={1080}
+    height={1920}
+    fps={30}
+    durationInFrames={30}
+    defaultProps={{ base: null, look: "phanterai", shots: [] }}
+    calculateMetadata={calculateShotcraftMetadata}
+  />
   <Composition
     id="TesteSfx"
     component={TesteSfx}
