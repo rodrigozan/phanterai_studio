@@ -3,6 +3,8 @@ import { Episode, calculateEpisodeMetadata } from "./Episode";
 import { ShortTempero, SHORT_FPS, SHORT_FRAMES, calculateShortMetadata } from "./short/ShortTempero";
 import { ShortMinecraft, MC_FPS, MC_FRAMES, calculateMinecraftMetadata } from "./short/ShortMinecraft";
 import { ShortOllama, OL_FPS, OL_FRAMES, calculateOllamaMetadata } from "./short/ShortOllama";
+import { ShortOrcamento, OR_FPS, OR_FRAMES, calculateOrcamentoMetadata } from "./short/ShortOrcamento";
+import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } from "./short/ShortScion";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 const RemotionRoot = () => (
@@ -47,6 +49,28 @@ const RemotionRoot = () => (
     defaultProps={{ palavras: null }}
     calculateMetadata={calculateOllamaMetadata}
   />
+  <Composition
+    id="ShortOrcamento"
+    component={ShortOrcamento}
+    width={1080}
+    height={1920}
+    fps={OR_FPS}
+    durationInFrames={OR_FRAMES}
+    defaultProps={{ voz: null }}
+    calculateMetadata={calculateOrcamentoMetadata}
+  />
+  <Composition
+    id="ShortScion"
+    component={ShortScion}
+    width={1080}
+    height={1920}
+    fps={SC_FPS}
+    durationInFrames={1500}
+    defaultProps={{ voz: null }}
+    calculateMetadata={calculateScionMetadata}
+  />
+  <Composition id="ScionCapa" component={ScionCapa} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition id="ScionThumb" component={ScionThumb} width={1280} height={720} fps={30} durationInFrames={1} />
   <Composition
     id="TesteSfx"
     component={TesteSfx}
