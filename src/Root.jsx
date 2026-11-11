@@ -4,6 +4,7 @@ import { ShortTempero, SHORT_FPS, SHORT_FRAMES, calculateShortMetadata } from ".
 import { ShortMinecraft, MC_FPS, MC_FRAMES, calculateMinecraftMetadata } from "./short/ShortMinecraft";
 import { ShortOllama, OL_FPS, OL_FRAMES, calculateOllamaMetadata } from "./short/ShortOllama";
 import { ShortOrcamento, OR_FPS, OR_FRAMES, calculateOrcamentoMetadata } from "./short/ShortOrcamento";
+import { ShortHyperframes, HF_FPS, HF_FRAMES, calculateHyperframesMetadata } from "./short/ShortHyperframes";
 import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } from "./short/ShortScion";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
@@ -59,6 +60,16 @@ const RemotionRoot = () => (
     durationInFrames={OR_FRAMES}
     defaultProps={{ voz: null }}
     calculateMetadata={calculateOrcamentoMetadata}
+  />
+  <Composition
+    id="ShortHyperframes"
+    component={ShortHyperframes}
+    width={1080}
+    height={1920}
+    fps={HF_FPS}
+    durationInFrames={HF_FRAMES}
+    defaultProps={{ voz: "episodes/short-hyperframes/locucao.wav" }}
+    calculateMetadata={calculateHyperframesMetadata}
   />
   <Composition
     id="ShortScion"
