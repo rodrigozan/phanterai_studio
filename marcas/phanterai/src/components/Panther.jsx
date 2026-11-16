@@ -23,7 +23,7 @@ export const Panther = ({ pose = "feliz", left = "50%", top = "62%", width = 520
     <>
       <Sfx name="pop" atFrame={0} />
       <Img
-        src={staticFile(`pantera/${pose}.png`)}
+        src={staticFile(`phanterai/pantera/${pose}.png`)}
         style={{
           position: "absolute",
           left,

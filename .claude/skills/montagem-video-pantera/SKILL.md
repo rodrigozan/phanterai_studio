@@ -10,34 +10,35 @@ Pipeline fixo. Siga as etapas na ordem e não pule nenhuma.
 ## Estrutura do projeto
 
 ```
-~/aprenda-youtube-video/
-  src/
-    Root.jsx
+/root/phanterai_studio/          (uma pasta por marca; esta skill é da marca phanterai)
+  src/Root.jsx                   junta as marcas (não registre composição aqui)
+  marcas/phanterai/src/
+    composicoes.jsx  registro das <Composition> da marca
     theme.js
     components/   Stage, Card, Badge, Title, Panther, Sfx
     templates/    um arquivo por template de cena
-    Episode.jsx   lê episodes/<slug>/timeline.json e monta as cenas
+    Episode.jsx   lê phanterai/episodes/<slug>/timeline.json e monta as cenas
   public/
-    pantera/      feliz, triste, surpresa, comemorando, pensando, apontando (.png)
-    sfx/          pop, ding, whoosh, coin, error, riser (.mp3)
-    music/        trilhas de fundo
-    episodes/<slug>/  voz.mp3, roteiro.md, assets do Rod, words.json, timeline.json
+    sfx/                    pop, ding, whoosh, coin, error, riser (.mp3), comum às marcas
+    phanterai/pantera/      feliz, triste, surpresa, comemorando, pensando, apontando (.png)
+    phanterai/music/        trilhas de fundo
+    phanterai/episodes/<slug>/  voz.mp3, roteiro.md, assets do Rod, words.json, timeline.json
   scripts/
     transcribe.py     faster-whisper com word_timestamps → words.json
     align.js          roteiro.md + words.json → timeline.json
-  out/
+  out/phanterai/
 ```
 
 ## Etapa 1 — Receber o episódio
 
-1. Confirme que existe `public/episodes/<slug>/` contendo `roteiro.md` e `voz.mp3`.
+1. Confirme que existe `public/phanterai/episodes/<slug>/` contendo `roteiro.md` e `voz.mp3`.
 2. Leia a seção `## ASSETS_DO_ROD` do roteiro e confira se cada arquivo listado está na pasta.
 3. Se faltar algum arquivo, pare e liste exatamente o que falta. Não invente substitutos.
 
 ## Etapa 2 — Transcrever com tempo por palavra
 
 ```
-python3 scripts/transcribe.py public/episodes/<slug>/voz.mp3
+python3 scripts/transcribe.py public/phanterai/episodes/<slug>/voz.mp3
 ```
 
 - Modelo: `faster-whisper` `medium`, idioma `pt`, `word_timestamps=True`.
@@ -73,12 +74,12 @@ Se o Rod pedir o roteiro aqui em vez de mandar pronto, escreva nesse mesmo forma
 - Template inexistente no roteiro: crie o componente novo em `templates/` seguindo `theme.js` e avise o Rod.
 - Pose: troque o PNG com um pop de escala (spring de cerca de 6 frames) e toque `sfx/pop.mp3`.
 - Toda entrada de card, badge ou número tem SFX sincronizado.
-- Música de fundo (`musica: <arquivo>` no roteiro, arquivo em `public/music/`) em loop o vídeo todo: −24 dB sob a voz, sobe para −14 dB nas pausas da narração (≥ 0,7 s, calculadas pelo `align.js`), com fade in. A última repetição toca a faixa inteira e termina junto com o vídeo, no fade out natural da faixa; `musica_fim:` (opcional) corta as repetições anteriores antes desse fade, em crossfade.
+- Música de fundo (`musica: <arquivo>` no roteiro, arquivo em `public/phanterai/music/`) em loop o vídeo todo: −24 dB sob a voz, sobe para −14 dB nas pausas da narração (≥ 0,7 s, calculadas pelo `align.js`), com fade in. A última repetição toca a faixa inteira e termina junto com o vídeo, no fade out natural da faixa; `musica_fim:` (opcional) corta as repetições anteriores antes desse fade, em crossfade.
 
 ## Etapa 5 — Preview
 
 ```
-yarn remotion render src/Root.jsx Episode out/<slug>-preview.mp4 --scale=0.5 --props=public/episodes/<slug>/props.json
+yarn remotion render src/Root.jsx Episode out/phanterai/<slug>-preview.mp4 --scale=0.5 --props=public/phanterai/episodes/<slug>/props.json
 ```
 
 Avise o Rod que o preview está pronto e aguarde aprovação ou ajustes. Não faça o render final sem aprovação.
@@ -86,7 +87,7 @@ Avise o Rod que o preview está pronto e aguarde aprovação ou ajustes. Não fa
 ## Etapa 6 — Render final
 
 ```
-yarn remotion render src/Root.jsx Episode out/<slug>.mp4 --props=public/episodes/<slug>/props.json
+yarn remotion render src/Root.jsx Episode out/phanterai/<slug>.mp4 --props=public/phanterai/episodes/<slug>/props.json
 ```
 
 Ao terminar, informe o caminho do arquivo, a duração e o tempo de render.

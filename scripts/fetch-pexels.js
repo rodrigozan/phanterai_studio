@@ -4,7 +4,8 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 
 const ROOT = path.resolve(__dirname, "..");
-const EPISODES = path.join(ROOT, "public", "episodes");
+const MARCA = process.env.MARCA || "phanterai"; // pasta da marca em public/ e marcas/
+const EPISODES = path.join(ROOT, "public", MARCA, "episodes");
 
 const readEnv = async () => {
   let text;
@@ -76,7 +77,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   }
 
   await fs.writeFile(path.join(episodeDir, "pexels-manifest.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), photos }, null, 2)}\n`);
-  console.log(`${photos.length} imagens salvas em public/episodes/${slug}/pexels/`);
+  console.log(`${photos.length} imagens salvas em public/<marca>/episodes/${slug}/pexels/`);
 })().catch((error) => {
   console.error(error.message);
   process.exitCode = 1;

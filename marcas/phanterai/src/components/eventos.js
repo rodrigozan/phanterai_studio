@@ -24,8 +24,8 @@ export const sfxDaAcao = (acao) => {
   return "pop";
 };
 
-// Assets do episódio (prints, gravações) ficam em public/episodes/<slug>/.
-export const arquivoDoEpisodio = (slug, nome) => staticFile(`episodes/${slug}/${nome}`);
+// Assets do episódio (prints, gravações) ficam em public/phanterai/episodes/<slug>/.
+export const arquivoDoEpisodio = (slug, nome) => staticFile(`phanterai/episodes/${slug}/${nome}`);
 
 // Números no padrão brasileiro: 20000000 -> "20.000.000".
 export const numeroBR = (n) => Math.round(n).toLocaleString("pt-BR");

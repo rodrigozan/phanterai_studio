@@ -197,11 +197,11 @@ const Cena6 = () => (
   </Centro>
 );
 
-export const ShortHyperframes = ({ voz = `episodes/${HF_SLUG}/locucao.wav` }) => {
+export const ShortHyperframes = ({ voz = `phanterai/episodes/${HF_SLUG}/locucao.wav` }) => {
   const cenas = [Cena1, Cena2, Cena3, Cena4, Cena5, Cena6];
   return (
     <AbsoluteFill style={{ background: BG }}>
-      <Audio src={staticFile("music/CuriousFocus.mp3")} volume={MUSIC_VOLUME} />
+      <Audio src={staticFile("phanterai/music/CuriousFocus.mp3")} volume={MUSIC_VOLUME} />
       {voz ? <Audio src={staticFile(voz)} /> : null}
       <Fundo />
       {cenas.map((C, i) => (

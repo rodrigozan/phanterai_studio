@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # reel-agendado.sh - disparado pelo cron 45 min antes de cada horário de publicação.
-# Lê calendario/reels.json, acha o reel de hoje (Brasília) no horário pedido e aciona o
+# Lê marcas/<marca>/calendario/reels.json (MARCA, padrão phanterai), acha o reel de hoje (Brasília) no horário pedido e aciona o
 # Claude Code para rodar a skill make-reels-phanterai.
 #
 #   scripts/reel-agendado.sh 12:00            roda o reel de hoje das 12:00
@@ -11,8 +11,9 @@ set -euo pipefail
 export HOME=/root
 export PATH="/root/.local/bin:/root/.nvm/versions/node/v22.23.3/bin:/usr/local/bin:/usr/bin:/bin"
 STUDIO=/root/phanterai_studio
-CAL="$STUDIO/calendario/reels.json"
-LOGDIR="$STUDIO/out/agendador"
+MARCA="${MARCA:-phanterai}"
+CAL="$STUDIO/marcas/$MARCA/calendario/reels.json"
+LOGDIR="$STUDIO/out/$MARCA/agendador"
 HORA="${1:?informe o horário, ex.: 12:00}"
 DRY="${2:-}"
 DATA="${DATA:-$(TZ=America/Sao_Paulo date +%F)}"

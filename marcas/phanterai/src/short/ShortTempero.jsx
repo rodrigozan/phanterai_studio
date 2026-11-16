@@ -16,7 +16,7 @@ export const SHORT_FRAMES = Math.round((LEAD + FIM_FALA + CAUDA) * SHORT_FPS);
 
 // Tempo da narração (s) -> frame do vídeo.
 const f = (a) => Math.round((a + LEAD) * SHORT_FPS);
-const foto = (nome) => staticFile(`episodes/${SHORT_SLUG}/fotos/${nome}`);
+const foto = (nome) => staticFile(`phanterai/episodes/${SHORT_SLUG}/fotos/${nome}`);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" };
 
 export const FONT = { fontFamily, fontWeight: 900, textTransform: "uppercase", lineHeight: 1.05, textAlign: "center" };
@@ -507,9 +507,9 @@ export const ShortTempero = ({ palavras }) => {
   const musica = interpolate(frame, [0, 20, durationInFrames - 45, durationInFrames], [0, VOLUME_MUSICA, VOLUME_MUSICA, 0], clamp);
   return (
     <AbsoluteFill style={{ background: colors.bgOuter }}>
-      <Audio src={staticFile("music/CuriousFocus.mp3")} volume={musica} />
+      <Audio src={staticFile("phanterai/music/CuriousFocus.mp3")} volume={musica} />
       <Sequence from={Math.round(LEAD * SHORT_FPS)}>
-        <Audio src={staticFile(`episodes/${SHORT_SLUG}/voz.mp3`)} />
+        <Audio src={staticFile(`phanterai/episodes/${SHORT_SLUG}/voz.mp3`)} />
       </Sequence>
 
       <Cena de={-LEAD} ate={4.6} whoosh={false} flash={false}><CenaTeste /></Cena>
@@ -533,7 +533,7 @@ export const ShortTempero = ({ palavras }) => {
 };
 
 export const calculateShortMetadata = async ({ props }) => {
-  const resp = await fetch(staticFile(`episodes/${SHORT_SLUG}/words.json`));
+  const resp = await fetch(staticFile(`phanterai/episodes/${SHORT_SLUG}/words.json`));
   const palavras = await resp.json();
   return { durationInFrames: SHORT_FRAMES, fps: SHORT_FPS, props: { ...props, palavras } };
 };

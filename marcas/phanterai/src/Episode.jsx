@@ -26,7 +26,7 @@ const volumeMusica = (f, pausas) => {
 
 const FALLBACK_METADATA = { durationInFrames: 150, fps: 30, width: 1920, height: 1080 };
 
-// Busca public/episodes/<slug>/timeline.json e usa a última cena para fixar a duração
+// Busca public/phanterai/episodes/<slug>/timeline.json e usa a última cena para fixar a duração
 // do vídeo antes do render começar. Sem slug (ou sem timeline ainda gerado por
 // scripts/align.js), cai num placeholder em vez de quebrar o preview.
 export const calculateEpisodeMetadata = async ({ props }) => {
@@ -37,12 +37,12 @@ export const calculateEpisodeMetadata = async ({ props }) => {
   }
 
   try {
-    const response = await fetch(staticFile(`episodes/${slug}/timeline.json`));
+    const response = await fetch(staticFile(`phanterai/episodes/${slug}/timeline.json`));
     const timeline = await response.json();
     const last = timeline.scenes[timeline.scenes.length - 1];
     // Duração da faixa inteira: a última repetição da música termina no fade out natural dela.
     const musicDuration = timeline.music
-      ? await getAudioDurationInSeconds(staticFile(`music/${timeline.music}`))
+      ? await getAudioDurationInSeconds(staticFile(`phanterai/music/${timeline.music}`))
       : null;
 
     return {
@@ -107,7 +107,7 @@ export const Episode = ({ slug, timeline }) => {
       <AbsoluteFill style={{ background: colors.bgOuter, alignItems: "center", justifyContent: "center", padding: 120 }}>
         <Title size={44} color={colors.text}>
           {slug
-            ? `public/episodes/${slug}/timeline.json não encontrado — rode scripts/align.js`
+            ? `public/phanterai/episodes/${slug}/timeline.json não encontrado — rode scripts/align.js`
             : "Passe { slug } em props.json para carregar um episódio"}
         </Title>
       </AbsoluteFill>
@@ -116,10 +116,10 @@ export const Episode = ({ slug, timeline }) => {
 
   return (
     <AbsoluteFill>
-      <Audio src={staticFile(`episodes/${slug}/voz.mp3`)} />
+      <Audio src={staticFile(`phanterai/episodes/${slug}/voz.mp3`)} />
       {timeline.music ? (
         <Musica
-          src={staticFile(`music/${timeline.music}`)}
+          src={staticFile(`phanterai/music/${timeline.music}`)}
           pausas={timeline.pausas ?? []}
           fimSegundos={timeline.musicEnd}
           faixaSegundos={timeline.musicDuration}

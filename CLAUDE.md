@@ -4,6 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
+**One folder per brand (since 2026-11-16).** The studio serves more than one brand (`phanterai`,
+`anime-power-biblia`, more to come). Brand code lives in `marcas/<marca>/src/`, brand media in
+`public/<marca>/` (Remotion has a single public dir, so `staticFile("phanterai/music/x.mp3")`), renders
+in `out/<marca>/`, calendar in `marcas/<marca>/calendario/`. Only what every brand shares stays at the
+root: `src/Root.jsx` (joins each brand's `composicoes.jsx`), `src/shotcraft/`, `public/sfx/`, `scripts/`
+(brand via `MARCA=<marca>`, default `phanterai`). Never put brand files loose at the root and never
+recreate `public/episodes`, `public/music`, `public/pantera` or `src/short`. See `marcas/README.md`.
+
 Two things in one repo: a Claude Code **skills library** for Rodrigo's "Aprenda YouTube" (pantera)
 channel (`.claude/skills/`), and the **Remotion video project** those skills operate on (`src/`,
 `public/`, `scripts/` at the repo root). Yarn is Berry with `nodeLinker: node-modules` (see
@@ -12,9 +20,9 @@ don't remove that override or re-add `.pnp.*`.
 
 Commands:
 - `yarn studio` — opens Remotion Studio (`remotion studio src/Root.jsx`) for interactive preview.
-- `yarn remotion render src/Root.jsx Episode out/<slug>.mp4 --props=public/episodes/<slug>/props.json`
+- `yarn remotion render src/Root.jsx Episode out/phanterai/<slug>.mp4 --props=public/phanterai/episodes/<slug>/props.json`
   — renders an episode; add `--scale=0.5` for a fast preview.
-- `.venv/bin/python scripts/transcribe.py public/episodes/<slug>/voz.mp3` — venv created with
+- `.venv/bin/python scripts/transcribe.py public/phanterai/episodes/<slug>/voz.mp3` — venv created with
   `python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt` (faster-whisper).
 - `node scripts/align.js <slug>` — no npm deps, pure Node.
 
@@ -47,20 +55,20 @@ The remaining skills (`yt-audit`, `yt-comment`, `yt-plan`, `yt-seo`, `yt-shorts`
 `.claude/skills/montagem-video-pantera/SKILL.md` is the recipe; the code it drives lives at the
 repo root:
 
-- `src/Root.jsx` — Remotion entry point, registers the single `Episode` composition and fetches
-  `public/episodes/<slug>/timeline.json` in `calculateMetadata` to size the video (falls back to a
+- `marcas/phanterai/src/composicoes.jsx` — registers the brand's compositions (joined by `src/Root.jsx`); `Episode` fetches
+  `public/phanterai/episodes/<slug>/timeline.json` in `calculateMetadata` to size the video (falls back to a
   placeholder frame when `slug` is empty or the timeline doesn't exist yet — don't make this throw).
-- `src/Episode.jsx` — walks `timeline.json`'s `scenes[]`, renders each one in a `<Sequence>` using
-  the component from `src/templates/index.js` matching `scene.template`, and layers `voz.mp3` +
-  optional background music, looped for the whole video (`MUSIC_VOLUME` in `src/theme.js`, -24dB
+- `marcas/phanterai/src/Episode.jsx` — walks `timeline.json`'s `scenes[]`, renders each one in a `<Sequence>` using
+  the component from `marcas/phanterai/src/templates/index.js` matching `scene.template`, and layers `voz.mp3` +
+  optional background music, looped for the whole video (`MUSIC_VOLUME` in `marcas/phanterai/src/theme.js`, -24dB
   under the voice, rising to `MUSIC_VOLUME_PAUSA` in the narration pauses `align.js` writes to
   `timeline.pausas`). The last repetition is placed so the track's own fade-out ends with the video
   (duration read via `@remotion/media-utils` in `calculateMetadata`).
-- `src/templates/*.jsx` — one file per scene template listed in the skill (`titulo-impacto`,
+- `marcas/phanterai/src/templates/*.jsx` — one file per scene template listed in the skill (`titulo-impacto`,
   `checklist-cards`, `contador`, `grafico-barras`, `studio-mockup`, `comparacao`, `lista-numerada`,
   `analogia`, `print`, `gravacao-tela`, `cta`). New template in a roteiro → add the file here *and*
   register it in `templates/index.js`, per the skill's own instruction.
-- `src/components/` — shared building blocks (`Stage` background, `Card`, `Badge`, `Title`,
+- `marcas/phanterai/src/components/` — shared building blocks (`Stage` background, `Card`, `Badge`, `Title`,
   `Panther`, `Sfx`). `Panther` never mirrors the mascot (fixed cap side) and always pops in with a
   short spring + `pop.mp3` — don't add a `flip` prop.
 - `scripts/transcribe.py` — faster-whisper (`medium`, `pt`, word timestamps) → `words.json`.
@@ -71,11 +79,11 @@ repo root:
   `eventos: [{ ao, acao }]`; only the `## CENAS` section is read). It's the same format the
   `pauta-roteiro-aprenda-youtube` skill emits, so roteiros can come from there or be written here —
   keep the parser, that comment, the README and both skills in sync.
-- `public/pantera/`, `public/sfx/`, `public/music/` — binary assets Rod supplies; each has a
+- `public/phanterai/pantera/`, `public/sfx/`, `public/phanterai/music/` — binary assets Rod supplies; each has a
   `README.md` listing the exact filenames the components expect (poses, SFX names). Don't invent
   placeholder media here — if a file is missing, the skill's Etapa 1 says to stop and list what's
   missing, and `Episode.jsx`/`Panther`/`Sfx` throw a clear error if a pose/sfx name doesn't exist.
-- `public/episodes/<slug>/` — one folder per episode (`roteiro.md`, `voz.mp3`, `props.json`, plus
+- `public/phanterai/episodes/<slug>/` — one folder per episode (`roteiro.md`, `voz.mp3`, `props.json`, plus
   the generated `words.json`/`timeline.json`, gitignored). Not created yet for any real episode.
 
 ## Editing skills

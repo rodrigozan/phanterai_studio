@@ -12,7 +12,7 @@ export const OR_SLUG = "short-orcamento-ia";
 export const OR_FPS = 30;
 export const OR_FRAMES = 32 * OR_FPS;
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" };
-const EP = (p) => staticFile(`episodes/${OR_SLUG}/${p}`);
+const EP = (p) => staticFile(`phanterai/episodes/${OR_SLUG}/${p}`);
 
 // ---------- linha do tempo (s) ----------
 // Ajustar aqui quando a locução da Dinah chegar (words.json define os tempos finais).
@@ -335,7 +335,7 @@ export const ShortOrcamento = ({ voz = null }) => {
   return (
     <AbsoluteFill style={{ background: colors.bgOuter }}>
       <FundoMarca />
-      <Audio src={staticFile("music/CuriousFocus.mp3")} volume={MUSIC_VOLUME * 1.4} />
+      <Audio src={staticFile("phanterai/music/CuriousFocus.mp3")} volume={MUSIC_VOLUME * 1.4} />
       {voz ? <Audio src={staticFile(voz)} /> : null}
 
       {/* fundos de mídia por cena */}

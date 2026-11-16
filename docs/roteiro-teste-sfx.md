@@ -1,7 +1,7 @@
 # Roteiro de teste — composição TesteSfx
 
-Vídeo: render da composição `TesteSfx` (`src/TesteSfx.jsx`), 1920×1080, 30 fps, **1:00**, sem voz nem música.
-30 efeitos = 6 famílias × 5 opções, **2 s por trecho**, na ordem de `SFX`/`SFX_VARIANTS` (`src/theme.js`):
+Vídeo: render da composição `TesteSfx` (`marcas/phanterai/src/TesteSfx.jsx`), 1920×1080, 30 fps, **1:00**, sem voz nem música.
+30 efeitos = 6 famílias × 5 opções, **2 s por trecho**, na ordem de `SFX`/`SFX_VARIANTS` (`marcas/phanterai/src/theme.js`):
 pop → ding → whoosh → coin → error → riser. Opção 1 = arquivo original; 2–5 = alternativas Mixkit.
 
 Testador: ____________  Data: ___/___/____  Arquivo MP4: ______________________  Fone/caixa: ____________

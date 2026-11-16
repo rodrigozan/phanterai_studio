@@ -298,9 +298,9 @@ export const ShortOllama = ({ palavras }) => {
   const musica = interpolate(frame, [0, 20, durationInFrames - 45, durationInFrames], [0, VOLUME_MUSICA, VOLUME_MUSICA, 0], clamp);
   return (
     <AbsoluteFill style={{ background: colors.bgOuter }}>
-      <Audio src={staticFile("music/Daniel.mp3")} volume={musica} />
+      <Audio src={staticFile("phanterai/music/Daniel.mp3")} volume={musica} />
       <Sequence from={Math.round(LEAD * OL_FPS)}>
-        <Audio src={staticFile(`episodes/${OL_SLUG}/voz.mp3`)} />
+        <Audio src={staticFile(`phanterai/episodes/${OL_SLUG}/voz.mp3`)} />
       </Sequence>
       <Cena de={-LEAD} ate={8.0} whoosh={false} flash={false}><C1 /></Cena>
       <Cena de={8.0} ate={15.2}><C2 /></Cena>
@@ -317,7 +317,7 @@ export const ShortOllama = ({ palavras }) => {
 };
 
 export const calculateOllamaMetadata = async ({ props }) => {
-  const resp = await fetch(staticFile(`episodes/${OL_SLUG}/words-corrigido.json`));
+  const resp = await fetch(staticFile(`phanterai/episodes/${OL_SLUG}/words-corrigido.json`));
   const palavras = await resp.json();
   return { durationInFrames: OL_FRAMES, fps: OL_FPS, props: { ...props, palavras } };
 };

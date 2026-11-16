@@ -1,0 +1,15 @@
+{
+  "id": "anime-power-biblia",
+  "nome": "Anime Power Bíblia",
+  "descricao": "Reels de histórias bíblicas em estilo anime, sem narrador.",
+  "contas": {
+    "instagram": "@animepowerbiblia",
+    "youtube": { "canal": "Anime Power Biblia", "channelId": "UCSSTh2ZUHq_lsYhz2t4MyPA" }
+  },
+  "pauta": ["Só o que o texto bíblico diz, com livro, capítulo e versículo."],
+  "musica": "Instrumental cinematográfica, sem voz; trilhas em public/anime-power-biblia/music.",
+  "pastas": {
+    "publico": "public/anime-power-biblia",
+    "saida": "out/anime-power-biblia"
+  }
+}

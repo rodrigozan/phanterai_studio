@@ -1,4 +1,4 @@
-// Mede cada arquivo de SFX (início/fim do som audível e nível) e grava src/sfx-trechos.json.
+// Mede cada arquivo de SFX (início/fim do som audível e nível) e grava marcas/phanterai/src/sfx-trechos.json.
 // Uso: node scripts/measure-sfx.js   (precisa de ffmpeg). Rodar de novo ao trocar/adicionar arquivos.
 const { execFileSync, spawnSync } = require("child_process");
 const fs = require("fs");
@@ -6,7 +6,7 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const SFX_DIR = path.join(ROOT, "public", "sfx");
-const OUT = path.join(ROOT, "src", "sfx-trechos.json");
+const OUT = path.join(ROOT, "marcas", "phanterai", "src", "sfx-trechos.json");
 
 // Duração máxima tocada por família (s) e nível-alvo (dB RMS do trecho) para igualar volume.
 const MAX = { pop: 0.7, ding: 1.0, whoosh: 0.9, coin: 1.2, error: 0.8, riser: 1.8 };

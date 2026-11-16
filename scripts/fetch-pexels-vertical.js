@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 // Fotos verticais do Pexels para Shorts: baixa a original e reduz para 1300 px de largura (ffmpeg).
 // Uso: node scripts/fetch-pexels-vertical.js <slug> nome="termo de busca" [nome="termo" ...]
-// Salva em public/episodes/<slug>/fotos/<nome>.jpg e registra autoria em fotos/creditos.json.
+// Salva em public/<marca>/episodes/<slug>/fotos/<nome>.jpg e registra autoria em fotos/creditos.json.
 const fs = require("node:fs");
 const path = require("node:path");
 const { execFileSync } = require("node:child_process");
 
 const ROOT = path.resolve(__dirname, "..");
+const MARCA = process.env.MARCA || "phanterai"; // pasta da marca em public/ e marcas/
 const env = Object.fromEntries(
   fs.readFileSync(path.join(ROOT, ".env"), "utf8").split(/\r?\n/).flatMap((l) => {
     const m = l.match(/^\s*([A-Za-z_]\w*)\s*=\s*(.*?)\s*$/);
@@ -17,7 +18,7 @@ const [slug, ...pares] = process.argv.slice(2);
 if (!slug || !pares.length) { console.error('Uso: node scripts/fetch-pexels-vertical.js <slug> nome="termo" ...'); process.exit(2); }
 if (!env.PX_API_KEY) { console.error("PX_API_KEY ausente no .env"); process.exit(1); }
 
-const dir = path.join(ROOT, "public", "episodes", slug, "fotos");
+const dir = path.join(ROOT, "public", MARCA, "episodes", slug, "fotos");
 fs.mkdirSync(dir, { recursive: true });
 const creditosFile = path.join(dir, "creditos.json");
 const creditos = fs.existsSync(creditosFile) ? JSON.parse(fs.readFileSync(creditosFile, "utf8")) : {};

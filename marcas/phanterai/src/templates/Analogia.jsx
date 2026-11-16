@@ -13,7 +13,7 @@ const normalizar = (s) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 // dados: { imagem?, emoji?, titulo?, texto?, cena? }
-//   imagem  ilustração da analogia em public/episodes/<slug>/ (o Rod fornece)
+//   imagem  ilustração da analogia em public/phanterai/episodes/<slug>/ (o Rod fornece)
 //   cena    descrição da ilustração desejada - não aparece na tela
 // Sem imagem/titulo, a própria fala vira texto animado: cada palavra entra em sequência e
 // a palavra de cada evento (`ao`) acende em dourado no momento em que é dita.

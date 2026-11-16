@@ -18,8 +18,8 @@ node_modules
 
 # Saída de render do Remotion e artefatos gerados por episódio
 /out
-public/episodes/*/words.json
-public/episodes/*/timeline.json
+public/*/episodes/*/words.json
+public/*/episodes/*/timeline.json
 
 # Virtualenv Python para scripts/transcribe.py
 /.venv

@@ -234,7 +234,7 @@ const Pant = ({ pose, x, y, w, f, em = 0, sai = null, bob = true, extra = "" }) 
   const rot = bob ? Math.sin(f / 14) * 3 : 0;
   return (
     <Img
-      src={staticFile(`pantera/${pose}.png`)}
+      src={staticFile(`phanterai/pantera/${pose}.png`)}
       style={{ position: "absolute", left: x, top: y, width: w, transform: `translate(-50%, -50%) translateY(${by}px) rotate(${rot}deg) scale(${s * (0.6 + 0.4 * o)}) ${extra}`, opacity: o, filter: "drop-shadow(0 18px 28px rgba(0,0,0,0.6))" }}
     />
   );
@@ -586,7 +586,7 @@ const C06 = ({ f, h }) => {
       </div>
       {/* a pantera salta pela divisória */}
       {salto > 0 ? (
-        <Img src={staticFile("pantera/comemorando.png")} style={{ position: "absolute", left: lerp(170, 900, salto), top: 1230 - Math.sin(salto * Math.PI) * 330, width: 290, transform: `translate(-50%, -50%) rotate(${salto * 360}deg)`, filter: "drop-shadow(0 18px 28px rgba(0,0,0,0.6))" }} />
+        <Img src={staticFile("phanterai/pantera/comemorando.png")} style={{ position: "absolute", left: lerp(170, 900, salto), top: 1230 - Math.sin(salto * Math.PI) * 330, width: 290, transform: `translate(-50%, -50%) rotate(${salto * 360}deg)`, filter: "drop-shadow(0 18px 28px rgba(0,0,0,0.6))" }} />
       ) : (
         <Pant pose="comemorando" x={170} y={1230} w={290} f={f} em={8} />
       )}
@@ -606,7 +606,7 @@ const C07 = ({ f, h }) => {
         const aceso = f >= t7 + k * 3;
         const s = pop(f, 2 + k * 2);
         return (
-          <Img key={k} src={staticFile("pantera/feliz.png")} style={{ position: "absolute", left: 50 + k * 140, top: 380, width: 140, opacity: s, transform: `translateY(${aceso ? -14 * pop(f, t7 + k * 3) + 14 : 0}px) scale(${0.7 + 0.3 * s})`, filter: aceso ? `drop-shadow(0 0 18px ${C.m2})` : "brightness(0) opacity(0.45)" }} />
+          <Img key={k} src={staticFile("phanterai/pantera/feliz.png")} style={{ position: "absolute", left: 50 + k * 140, top: 380, width: 140, opacity: s, transform: `translateY(${aceso ? -14 * pop(f, t7 + k * 3) + 14 : 0}px) scale(${0.7 + 0.3 * s})`, filter: aceso ? `drop-shadow(0 0 18px ${C.m2})` : "brightness(0) opacity(0.45)" }} />
         );
       })}
       <div style={{ position: "absolute", top: 600, left: 0, right: 0, display: "flex", alignItems: "center", justifyContent: "center", gap: 26 }}>
@@ -860,7 +860,7 @@ const Transicao = ({ tipo, modo, p, render, k }) => {
       <>
         <Abs style={{ clipPath: poly(rev) }}>{render()}</Abs>
         <div style={{ position: "absolute", inset: 0, clipPath: poly(faixa), background: GRAD, boxShadow: `0 0 60px ${C.m2}` }} />
-        <Img src={staticFile("pantera/comemorando.png")} style={{ position: "absolute", left: s + band / 2, top: 960, width: 360, transform: "translate(-50%, -50%) rotate(-8deg)", filter: "drop-shadow(0 14px 24px rgba(0,0,0,0.6))" }} />
+        <Img src={staticFile("phanterai/pantera/comemorando.png")} style={{ position: "absolute", left: s + band / 2, top: 960, width: 360, transform: "translate(-50%, -50%) rotate(-8deg)", filter: "drop-shadow(0 14px 24px rgba(0,0,0,0.6))" }} />
       </>
     );
   }
@@ -960,11 +960,11 @@ export const ShortScion = ({ voz }) => {
       {atual >= 0 ? <AbsoluteFill style={{ zIndex: 200 }}><Legenda i={atual} f={frame - ab[atual][0]} h={hs[atual]} /></AbsoluteFill> : null}
 
       <Sequence from={mus0} layout="none">
-        <Audio src={staticFile("music/Coding_at_Night.mp3")} volume={volMus} />
+        <Audio src={staticFile("phanterai/music/Coding_at_Night.mp3")} volume={volMus} />
       </Sequence>
       {CENAS.map((c, i) => (
         <Sequence key={`v${c.id}`} from={Math.round(tl.cenas[i].voz * F)} layout="none">
-          <Audio src={staticFile(`episodes/${SC_SLUG}/voz-eleven/${c.id}.mp3`)} />
+          <Audio src={staticFile(`phanterai/episodes/${SC_SLUG}/voz-eleven/${c.id}.mp3`)} />
         </Sequence>
       ))}
       {SONS.flatMap((fn, i) => fn(hs[i]).map((s, k) => <Sfx key={`s${i}-${k}`} name={s.n} atFrame={Math.max(0, ab[i][0] + s.f)} />))}
@@ -978,7 +978,7 @@ export const calculateScionMetadata = async ({ props }) => {
   const voz = await Promise.all(
     CENAS.map(async (c) => {
       try {
-        return await getAudioDurationInSeconds(staticFile(`episodes/${SC_SLUG}/voz-eleven/${c.id}.mp3`));
+        return await getAudioDurationInSeconds(staticFile(`phanterai/episodes/${SC_SLUG}/voz-eleven/${c.id}.mp3`));
       } catch {
         return c.fala.length / 15;
       }
@@ -1000,7 +1000,7 @@ export const ScionCapa = () => (
     <Fundo f={30} />
     <BarraCapa left={130} top={380} w={360} h={1240} />
     <div style={{ position: "absolute", left: 130, width: 360, top: 600, textAlign: "center", fontFamily: mono, fontWeight: 700, fontSize: 30, letterSpacing: 4, color: C.text }}>MERGES/DIA</div>
-    <Img src={staticFile("pantera/apontando.png")} style={{ position: "absolute", left: 610, top: 1130, width: 420, filter: "drop-shadow(0 20px 30px rgba(0,0,0,0.6))" }} />
+    <Img src={staticFile("phanterai/pantera/apontando.png")} style={{ position: "absolute", left: 610, top: 1130, width: 420, filter: "drop-shadow(0 20px 30px rgba(0,0,0,0.6))" }} />
     <div style={{ position: "absolute", left: 560, right: 30, top: 420, fontFamily: sora, fontWeight: 800, fontSize: 132, lineHeight: 1.0, color: C.text, textShadow: sombra }}>
       GIT
       <br />
@@ -1017,7 +1017,7 @@ export const ScionThumb = () => (
   <AbsoluteFill style={{ background: C.bg }}>
     <Fundo f={30} />
     <BarraCapa left={830} top={90} w={250} h={640} />
-    <Img src={staticFile("pantera/apontando.png")} style={{ position: "absolute", left: 1040, top: 400, width: 250, filter: "drop-shadow(0 16px 24px rgba(0,0,0,0.6))" }} />
+    <Img src={staticFile("phanterai/pantera/apontando.png")} style={{ position: "absolute", left: 1040, top: 400, width: 250, filter: "drop-shadow(0 16px 24px rgba(0,0,0,0.6))" }} />
     <div style={{ position: "absolute", left: 60, top: 130, width: 780, whiteSpace: "nowrap", fontFamily: sora, fontWeight: 800, fontSize: 116, lineHeight: 1.02, color: C.text, textShadow: sombra }}>
       GIT NÃO
       <br />

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """transcribe.py - transcreve a voz do episódio com tempo por palavra.
 
-    python3 scripts/transcribe.py public/episodes/<slug>/voz.mp3
+    python3 scripts/transcribe.py public/<marca>/episodes/<slug>/voz.mp3
 
 Usa faster-whisper (modelo "medium", idioma "pt", word_timestamps=True) e grava
 words.json na mesma pasta do áudio, no formato que scripts/align.js espera:

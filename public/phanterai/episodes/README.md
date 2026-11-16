@@ -1,4 +1,4 @@
-# public/episodes/<slug>/
+# public/phanterai/episodes/<slug>/
 
 Uma pasta por episódio, criada ao receber o material do Rod (Etapa 1 da skill
 `montagem-video-pantera`):

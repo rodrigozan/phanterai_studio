@@ -6,24 +6,24 @@ const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";
 
-export const SKC_SLUG = "episodes/reel-2026-11-16-1200-8-skills-gratis-claude";
-export const SKC_FPS = 30;
-const f = (p) => staticFile(`${SKC_SLUG}/${p}`);
+export const SIA_SLUG = "phanterai/episodes/semana-ia-2026-11-15";
+export const SIA_FPS = 30;
+const f = (p) => staticFile(`${SIA_SLUG}/${p}`);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" };
 
 const PINK = "rgb(222,64,200)";
 const BODY = "rgb(205,202,222)";
 const GREY = "rgb(150,150,175)";
 const BG = "#08080D";
-const TOTAL = 12;
+const TOTAL = 16;
 
-export const calculateSkillsClaudeMetadata = async () => {
+export const calculateSemanaIAMetadata = async () => {
   const [scenes, wordsJson, times] = await Promise.all(
     ["data/scenes.json", "audio/words.json", "audio/scene-times.json"].map((p) => fetch(f(p)).then((r) => r.json()))
   );
   const end = wordsJson.words[wordsJson.words.length - 1].e;
   return {
-    durationInFrames: Math.ceil((end + 1.2) * SKC_FPS),
+    durationInFrames: Math.ceil((end + 1.2) * SIA_FPS),
     props: { scenes, words: wordsJson.words, times, endSec: end + 1.2 },
   };
 };
@@ -70,21 +70,27 @@ const Panterinha = ({ pose, style, size = 300 }) => {
   const rot = Math.sin(fr / 38) * 3;
   const dy = Math.sin(fr / 30 + 1) * 10;
   return (
-    <Img src={staticFile(`pantera/${pose}.png`)} style={{ position: "absolute", height: size, transform: `translateY(${dy}px) rotate(${rot}deg)`, transformOrigin: "50% 100%", ...style }} />
+    <Img src={staticFile(`phanterai/pantera/${pose}.png`)} style={{ position: "absolute", height: size, transform: `translateY(${dy}px) rotate(${rot}deg)`, transformOrigin: "50% 100%", ...style }} />
   );
 };
 
 // ---------- legendas ----------
 const SUBS = [
-  [["m", "c", "p"], "MCP"],
-  [["p", "d", "f"], "PDF"],
-  [["p", "n", "g"], "PNG"],
-  [["x", "l", "s", "x"], "XLSX"],
-  [["anthropics", "barra", "skills"], "anthropics/skills"],
+  [["cinco", "ponto", "dois"], "5.2"],
+  [["cinco", "ponto", "cinco"], "5.5"],
+  [["claude", "ponto", "a", "i"], "claude.ai"],
   [["arroba", "phanter", "a", "i", "creative"], "@phanteraicreative"],
-  [["dezenove"], "19"],
-  [["oito"], "8"],
-  [["dez"], "10"],
+  [["edge", "zero", "cento", "e", "quarenta", "e", "cinco", "b"], "Edge0-145B"],
+  [["trezentos", "e", "sessenta", "e", "cinco"], "365"],
+  [["mil", "cento", "e", "vinte", "e", "dois"], "1.122"],
+  [["cento", "e", "oitenta", "e", "seis"], "186"],
+  [["setenta", "e", "quatro"], "74"],
+  [["setenta", "e", "oito"], "78"],
+  [["quarenta", "e", "um"], "41"],
+  [["vinte", "e", "nove"], "29"],
+  [["vinte", "e", "sete"], "27"],
+  [["vinte", "e", "quatro"], "24"],
+  [["cento", "e", "quarenta", "e", "cinco"], "145"],
 ];
 const norm = (w) => w.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
 
@@ -114,16 +120,14 @@ const buildCaptions = (words) => {
 
 const Legendas = ({ chunks }) => {
   const fr = useCurrentFrame();
-  const t = fr / SKC_FPS;
+  const t = fr / SIA_FPS;
   let ci = -1;
   chunks.forEach((c, i) => { if (c[0].s <= t + 0.02) ci = i; });
   if (ci < 0) return null;
   const chunk = chunks[ci];
-  const len = chunk.map((c) => c.t).join(" ").length;
-  const fs = len > 28 ? 46 : len > 20 ? 58 : 72;
   return (
     <div style={{ position: "absolute", left: 60, right: 60, top: 1500, height: 200, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center" }}>
-      <div style={{ fontFamily: inter, fontWeight: 800, fontSize: fs, lineHeight: 1.12, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.85)" }}>
+      <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 72, lineHeight: 1.12, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.85)" }}>
         {chunk.map((w, i) => {
           const cur = t >= w.s - 0.02 && t < (chunk[i + 1] ? chunk[i + 1].s : w.e + 0.4);
           return <span key={i} style={{ color: cur ? PINK : "#fff", marginRight: i < chunk.length - 1 ? 18 : 0 }}>{w.t}</span>;
@@ -184,7 +188,7 @@ const TextCard = ({ headline, italic, source }) => (
 
 const Metrica = ({ big, small, source }) => {
   const fr = useCurrentFrame();
-  const p = spring({ frame: fr - 14, fps: SKC_FPS, config: { damping: 16 } });
+  const p = spring({ frame: fr - 14, fps: SIA_FPS, config: { damping: 16 } });
   return (
     <div style={{ position: "absolute", left: 60, right: 60, top: 1186, textAlign: "center", opacity: p, transform: `translateY(${(1 - p) * 30}px)` }}>
       <div style={{ fontFamily: inter, fontWeight: 800, fontSize: big.length > 20 ? 62 : 78, lineHeight: 1.05, color: PINK, letterSpacing: -2, textShadow: "0 0 40px rgba(222,64,200,0.45)" }}>{big}</div>
@@ -196,7 +200,7 @@ const Metrica = ({ big, small, source }) => {
 
 const Lateral = ({ text }) => {
   const fr = useCurrentFrame();
-  const p = spring({ frame: fr - 30, fps: SKC_FPS, config: { damping: 14 } });
+  const p = spring({ frame: fr - 30, fps: SIA_FPS, config: { damping: 14 } });
   return (
     <div style={{ position: "absolute", right: 56, top: 1056, maxWidth: 520, transform: `rotate(-3deg) scale(${p})`, fontFamily: MONO, fontSize: 25, lineHeight: 1.3, color: "#fff", background: "#1a1226", border: `2px solid ${PINK}`, borderRadius: 16, padding: "14px 20px", boxShadow: "0 0 30px rgba(222,64,200,0.4)" }}>{text}</div>
   );
@@ -223,18 +227,18 @@ const Cena = ({ s, dur }) => {
 
 const Gancho = () => {
   const fr = useCurrentFrame();
-  const p = (d) => spring({ frame: fr - d, fps: SKC_FPS, config: { damping: 14 } });
-  const pant = spring({ frame: fr - 6, fps: SKC_FPS, config: { damping: 13 } });
+  const p = (d) => spring({ frame: fr - d, fps: SIA_FPS, config: { damping: 14 } });
+  const pant = spring({ frame: fr - 6, fps: SIA_FPS, config: { damping: 13 } });
   return (
     <AbsoluteFill>
       <Fundo />
       <Topo n={1} />
-      <div style={{ position: "absolute", left: 0, right: 0, top: 400, textAlign: "center" }}>
-        <div style={{ fontFamily: MONO, fontSize: 40, color: BODY, letterSpacing: 4, opacity: p(2), border: "1px solid rgba(255,255,255,0.3)", display: "inline-block", padding: "10px 26px", borderRadius: 12 }}>GRÁTIS · OFICIAIS</div>
-        <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 200, lineHeight: 0.98, color: "#fff", letterSpacing: -6, marginTop: 50, opacity: p(6), transform: `translateY(${(1 - p(6)) * 60}px)` }}><span style={{ color: PINK }}>8</span> skills<br />do Claude</div>
-        <div style={{ fontFamily: inter, fontWeight: 400, fontSize: 56, color: BODY, marginTop: 40, opacity: p(14) }}>uma <span style={{ fontFamily: lora, fontStyle: "italic", color: PINK }}>linha</span> por skill</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 430, textAlign: "center" }}>
+        <div style={{ fontFamily: MONO, fontSize: 40, color: BODY, letterSpacing: 4, opacity: p(2), border: "1px solid rgba(255,255,255,0.3)", display: "inline-block", padding: "10px 26px", borderRadius: 12 }}>9–15 NOV</div>
+        <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 190, lineHeight: 0.98, color: "#fff", letterSpacing: -6, marginTop: 50, opacity: p(6), transform: `translateY(${(1 - p(6)) * 60}px)` }}>Universo<br />da <span style={{ color: PINK }}>IA</span></div>
+        <div style={{ fontFamily: inter, fontWeight: 400, fontSize: 56, color: BODY, marginTop: 40, opacity: p(14) }}>o que rolou na última <span style={{ fontFamily: lora, fontStyle: "italic", color: PINK }}>semana</span></div>
       </div>
-      <Img src={staticFile("pantera/feliz.png")} style={{ position: "absolute", height: 420, right: -420 + pant * 470, top: 1010, transform: `rotate(${Math.sin(fr / 38) * 3}deg)` }} />
+      <Img src={staticFile("phanterai/pantera/feliz.png")} style={{ position: "absolute", height: 420, right: -420 + pant * 470, top: 1010 - 0, transform: `rotate(${Math.sin(fr / 38) * 3}deg)` }} />
       <Rodape />
     </AbsoluteFill>
   );
@@ -242,14 +246,14 @@ const Gancho = () => {
 
 const Cta = () => {
   const fr = useCurrentFrame();
-  const p = (d) => spring({ frame: fr - d, fps: SKC_FPS, config: { damping: 14 } });
+  const p = (d) => spring({ frame: fr - d, fps: SIA_FPS, config: { damping: 14 } });
   return (
     <AbsoluteFill>
       <Fundo />
-      <Topo n={12} />
+      <Topo n={16} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 480, textAlign: "center" }}>
         <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 170, lineHeight: 1, color: "#fff", letterSpacing: -5, opacity: p(2), transform: `translateY(${(1 - p(2)) * 50}px)` }}>
-          <span style={{ color: PINK }}>Salva</span> e<br /><span style={{ fontFamily: lora, fontStyle: "italic", fontWeight: 500 }}>segue</span>
+          <span style={{ color: PINK }}>Siga</span> pra<br />ver <span style={{ fontFamily: lora, fontStyle: "italic", fontWeight: 500 }}>mais</span>
         </div>
         <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 64, color: "#fff", marginTop: 60, opacity: p(14) }}>@phanteraicreative</div>
       </div>
@@ -260,15 +264,14 @@ const Cta = () => {
 };
 
 // ---------- composição ----------
-export const ShortSkillsClaude = ({ scenes, words, times, endSec }) => {
+export const ShortSemanaIA = ({ scenes, words, times, endSec }) => {
   if (!scenes) return null;
   const chunks = buildCaptions(words);
-  const starts = times.map((t, i) => (i === 0 ? 0 : Math.round(t.s * SKC_FPS) - 3));
-  const totalFrames = Math.ceil(endSec * SKC_FPS);
+  const starts = times.map((t, i) => (i === 0 ? 0 : Math.round(t.s * SIA_FPS) - 3));
+  const totalFrames = Math.ceil(endSec * SIA_FPS);
   return (
     <AbsoluteFill style={{ background: BG }}>
       <Audio src={f("audio/narracao.mp3")} />
-      <Audio src={staticFile("music/CuriousFocus.mp3")} loop volume={0.2} />
       {scenes.map((s, i) => {
         const from = starts[i];
         const to = i + 1 < scenes.length ? starts[i + 1] : totalFrames;
@@ -287,21 +290,21 @@ export const ShortSkillsClaude = ({ scenes, words, times, endSec }) => {
 
 
 // ---------- capa (still 1080x1920; zona segura do grid do IG: y 285–1635) ----------
-export const CapaSkillsClaude = () => (
+export const CapaSemanaIA = () => (
   <AbsoluteFill>
     <Fundo />
     <CapaTopo />
     <div style={{ position: "absolute", left: 0, right: 0, top: 380, textAlign: "center" }}>
       <div style={{ display: "inline-flex", gap: 16, alignItems: "center" }}>
-        <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 36, letterSpacing: 3, color: "#fff", background: "rgba(222,64,200,0.18)", border: `2px solid ${PINK}`, borderRadius: 999, padding: "14px 34px" }}>SKILLS GRÁTIS</div>
-        <div style={{ fontFamily: MONO, fontSize: 34, color: BODY, border: "1px solid rgba(255,255,255,0.3)", borderRadius: 12, padding: "12px 20px" }}>8 de 19</div>
+        <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 36, letterSpacing: 3, color: "#fff", background: "rgba(222,64,200,0.18)", border: `2px solid ${PINK}`, borderRadius: 999, padding: "14px 34px" }}>RESUMO DA SEMANA</div>
+        <div style={{ fontFamily: MONO, fontSize: 34, color: BODY, border: "1px solid rgba(255,255,255,0.3)", borderRadius: 12, padding: "12px 20px" }}>9–15 NOV</div>
       </div>
       <div style={{ fontFamily: inter, fontWeight: 800, fontSize: 168, lineHeight: 1, color: "#fff", letterSpacing: -5, marginTop: 70 }}>
-        <span style={{ color: PINK }}>8</span> skills<br />que <span style={{ fontFamily: lora, fontStyle: "italic", fontWeight: 500, color: PINK }}>mudam</span><br />o Claude
+        O que <span style={{ fontFamily: lora, fontStyle: "italic", fontWeight: 500, color: PINK }}>rolou</span><br />no Universo<br />da <span style={{ color: PINK }}>IA</span>
       </div>
-      <div style={{ fontFamily: MONO, fontSize: 32, color: GREY, marginTop: 50, letterSpacing: 1 }}>repositório oficial anthropics/skills</div>
+      <div style={{ fontFamily: MONO, fontSize: 32, color: GREY, marginTop: 50, letterSpacing: 1 }}>Fable 5.2 · Gemini 4 · IPO da Anthropic</div>
     </div>
-    <Img src={staticFile("pantera/surpresa.png")} style={{ position: "absolute", height: 400, right: 60, top: 1180 }} />
+    <Img src={staticFile("phanterai/pantera/surpresa.png")} style={{ position: "absolute", height: 400, right: 60, top: 1180 }} />
     <div style={{ position: "absolute", left: 80, right: 80, bottom: 70, textAlign: "center", fontFamily: MONO, fontSize: 28, color: GREY }}>@phanteraicreative</div>
   </AbsoluteFill>
 );

@@ -6,7 +6,7 @@ import { Midia } from "../components/Midia";
 import { arquivoDoEpisodio, frameDe, progresso } from "../components/eventos";
 
 // dados: { arquivo, legenda?, recorte?, borrar?, foco? }
-//   arquivo  nome do print em public/episodes/<slug>/ (aceita também `imagem`)
+//   arquivo  nome do print em public/phanterai/episodes/<slug>/ (aceita também `imagem`)
 //   recorte  { x, y, w, h } em % - mostra só essa área do print
 //   borrar   [{ x, y, w, h }] em % - áreas borradas
 //   foco     { x, y } em % - origem do ken burns (padrão: centro)

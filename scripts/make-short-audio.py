@@ -4,10 +4,10 @@
 Uso: python3 scripts/make-short-audio.py <slug-origem> <slug-destino> ini-fim [ini-fim ...]
 Cada trecho em segundos do episódio de origem; os cortes devem cair entre frases.
 """
-import json, subprocess, sys
+import json, os, subprocess, sys
 from pathlib import Path
 
-root = Path(__file__).resolve().parent.parent / "public" / "episodes"
+root = Path(__file__).resolve().parent.parent / "public" / os.environ.get("MARCA", "phanterai") / "episodes"
 src, dst, *cuts = sys.argv[1:]
 segs = [tuple(map(float, c.split("-"))) for c in cuts]
 words = json.loads((root / src / "words.json").read_text())

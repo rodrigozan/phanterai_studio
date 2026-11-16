@@ -12,9 +12,9 @@ export const MC_FRAMES = Math.round((LEAD + FIM_FALA + CAUDA) * MC_FPS);
 
 const f = (a) => Math.round((a + LEAD) * MC_FPS);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" };
-const foto = (n) => staticFile(`episodes/${MC_SLUG}/fotos/${n}.jpg`);
-const video = (n) => staticFile(`episodes/${MC_SLUG}/videos/${n}.mp4`);
-const print = (n) => staticFile(`episodes/${MC_SLUG}/prints/${n}.png`);
+const foto = (n) => staticFile(`phanterai/episodes/${MC_SLUG}/fotos/${n}.jpg`);
+const video = (n) => staticFile(`phanterai/episodes/${MC_SLUG}/videos/${n}.mp4`);
+const print = (n) => staticFile(`phanterai/episodes/${MC_SLUG}/prints/${n}.png`);
 const Texto = (p) => <TextoBase lado={145} {...p} size={(p.size ?? 120) * 0.86} />;
 const DUR_VIDEO = { gamer: 6, servidor: 21, codigo: 9, robo: 19, escritorio: 26, radar: 12 };
 const PRINT_WH = { tnw: [1000, 520], tomshw: [860, 720], cnbc: [740, 560], bleeping: [740, 560], techcrunch: [1066, 660], cyberscoop: [850, 710], decoder: [680, 580] };
@@ -338,9 +338,9 @@ export const ShortMinecraft = ({ palavras }) => {
   const musica = interpolate(frame, [0, 20, durationInFrames - 45, durationInFrames], [0, VOLUME_MUSICA, VOLUME_MUSICA, 0], clamp);
   return (
     <AbsoluteFill style={{ background: colors.bgOuter }}>
-      <Audio src={staticFile("music/CuriousFocus.mp3")} volume={musica} />
+      <Audio src={staticFile("phanterai/music/CuriousFocus.mp3")} volume={musica} />
       <Sequence from={Math.round(LEAD * MC_FPS)}>
-        <Audio src={staticFile(`episodes/${MC_SLUG}/voz.mp3`)} />
+        <Audio src={staticFile(`phanterai/episodes/${MC_SLUG}/voz.mp3`)} />
       </Sequence>
       <Cena de={-LEAD} ate={4.4} whoosh={false} flash={false}><C1 /></Cena>
       <Cena de={4.4} ate={6.8}><C2 /></Cena>
@@ -370,7 +370,7 @@ export const ShortMinecraft = ({ palavras }) => {
 };
 
 export const calculateMinecraftMetadata = async ({ props }) => {
-  const resp = await fetch(staticFile(`episodes/${MC_SLUG}/words-corrigido.json`));
+  const resp = await fetch(staticFile(`phanterai/episodes/${MC_SLUG}/words-corrigido.json`));
   const palavras = await resp.json();
   return { durationInFrames: MC_FRAMES, fps: MC_FPS, props: { ...props, palavras } };
 };

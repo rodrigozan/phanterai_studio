@@ -3,7 +3,7 @@
 import { loadFont as loadSora } from "@remotion/google-fonts/Sora";
 import { loadFont as loadMono } from "@remotion/google-fonts/JetBrainsMono";
 import { loadFont as loadPoppins } from "@remotion/google-fonts/Poppins";
-import { colors as pantera } from "../theme";
+import { colors as pantera } from "../../marcas/phanterai/src/theme";
 
 const sora = loadSora("normal", { weights: ["800"], subsets: ["latin", "latin-ext"] }).fontFamily;
 const mono = loadMono("normal", { weights: ["500", "700"], subsets: ["latin", "latin-ext"] }).fontFamily;
@@ -21,7 +21,7 @@ export const LOOKS = {
     flash: "rgba(255,91,214,0.55)",
     shadow: "0 6px 30px rgba(0,0,0,0.65)",
   },
-  // canal Aprenda YouTube (src/theme.js: Poppins 900, violeta/dourado)
+  // canal Aprenda YouTube (marcas/phanterai/src/theme.js: Poppins 900, violeta/dourado)
   pantera: {
     title: { fontFamily: poppins, fontWeight: 900, color: pantera.text },
     label: { fontFamily: poppins, fontWeight: 700, color: pantera.text, letterSpacing: "0.12em", textTransform: "uppercase" },

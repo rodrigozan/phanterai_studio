@@ -1,4 +1,4 @@
-# public/pantera/
+# public/phanterai/pantera/
 
 PNGs da mascote enviados pelo Rod (fundo transparente). Um arquivo por pose, nomes exatos:
 

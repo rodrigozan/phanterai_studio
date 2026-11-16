@@ -4,13 +4,13 @@
  *
  *     node scripts/align.js <slug>
  *
- * Lê public/episodes/<slug>/roteiro.md e public/episodes/<slug>/words.json
- * (gerado por scripts/transcribe.py) e grava public/episodes/<slug>/timeline.json.
+ * Lê public/<marca>/episodes/<slug>/roteiro.md e public/<marca>/episodes/<slug>/words.json
+ * (gerado por scripts/transcribe.py) e grava public/<marca>/episodes/<slug>/timeline.json.
  *
  * FORMATO DE roteiro.md - o mesmo que a skill pauta-roteiro-aprenda-youtube entrega.
  * Só a seção "## CENAS" é lida; TEXTO_ELEVENLABS, ASSETS_DO_ROD e PUBLICACAO são ignorados.
  *
- *     musica: trilha.mp3              (opcional, uma linha solta; arquivo em public/music/, toca em
+ *     musica: trilha.mp3              (opcional, uma linha solta; arquivo em public/<marca>/music/, toca em
  *                                      loop o vídeo todo e sobe nas pausas da narração)
  *     musica_fim: 163.5               (opcional: segundo da faixa onde o loop volta ao início,
  *                                      antes de um fade out; as repetições entram em crossfade)
@@ -42,6 +42,7 @@
  */
 const fs = require("fs");
 const path = require("path");
+const MARCA = process.env.MARCA || "phanterai"; // pasta da marca em public/ e marcas/
 
 const FPS = 30;
 // Intervalo sem fala (entre palavras, antes da primeira e depois da última) a partir do qual a
@@ -258,7 +259,7 @@ function main() {
     process.exit(1);
   }
 
-  const episodeDir = path.join(process.cwd(), "public", "episodes", slug);
+  const episodeDir = path.join(process.cwd(), "public", MARCA, "episodes", slug);
   const roteiroPath = path.join(episodeDir, "roteiro.md");
   const wordsPath = path.join(episodeDir, "words.json");
   const outPath = path.join(episodeDir, "timeline.json");

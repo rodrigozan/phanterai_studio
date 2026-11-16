@@ -12,6 +12,10 @@ Se você só quer renderizar um vídeo de um episódio já preparado, vá direto
 
 ---
 
+> **Uma pasta por marca.** O studio atende a PhanterAI e o Anime Power Bíblia. O código de cada marca
+> fica em `marcas/<marca>/src/`, a mídia em `public/<marca>/` e os renders em `out/<marca>/`. Veja
+> [marcas/README.md](marcas/README.md).
+
 ## Especificações técnicas
 
 | Item | Valor |
@@ -42,9 +46,11 @@ compositor do Remotion e do Chrome headless usados no render. Por isso o `.yarnr
                               skills de estratégia de canal (sem vídeo), ver tabela abaixo
 
 src/
-  Root.jsx                   entry point do Remotion — registra a composition "Episode"
-                              (1920x1080, 30fps) e usa calculateMetadata para dimensionar
-                              o vídeo a partir de public/episodes/<slug>/timeline.json
+  Root.jsx                   entry point do Remotion — só junta as composições de cada marca
+  shotcraft/                 acabamento Shotcraft, comum às marcas
+
+marcas/phanterai/src/        código Remotion da marca PhanterAI
+  composicoes.jsx            registra as compositions da marca ("Episode", os Shorts, capas)
   Episode.jsx                percorre timeline.json, renderiza cada cena num <Sequence>
                               com o template de templates/index.js, mixa voz.mp3 + música
   theme.js                   cores, fontes, volume de música, listas de poses/sfx válidas
@@ -53,11 +59,12 @@ src/
                               (registro nome-no-roteiro -> componente)
 
 public/
-  pantera/                   PNGs da mascote (poses), fundo transparente — ver README local
-  sfx/                       efeitos sonoros curtos (.mp3) — ver README local
-  music/                     trilhas de fundo (.mp3) — ver README local
-  episodes/<slug>/           uma pasta por episódio (roteiro.md, voz.mp3, assets do Rod;
+  sfx/                       efeitos sonoros curtos (.mp3), comuns às marcas — ver README local
+  phanterai/pantera/         PNGs da mascote (poses), fundo transparente — ver README local
+  phanterai/music/           trilhas de fundo (.mp3) — ver README local
+  phanterai/episodes/<slug>/ uma pasta por episódio (roteiro.md, voz.mp3, assets do Rod;
                               words.json e timeline.json são gerados e gitignored)
+  anime-power-biblia/        episódios e trilhas do Anime Power Bíblia
 
 scripts/
   transcribe.py              faster-whisper -> words.json (transcrição com tempo por palavra)
@@ -69,7 +76,7 @@ out/                         vídeos renderizados (gitignored)
 
 ### Templates de cena disponíveis
 
-Registrados em `src/templates/index.js`, usados no roteiro via `template: <nome>`:
+Registrados em `marcas/phanterai/src/templates/index.js`, usados no roteiro via `template: <nome>`:
 
 | Nome no roteiro | `dados` | Eventos próprios |
 |---|---|---|
@@ -86,17 +93,17 @@ Registrados em `src/templates/index.js`, usados no roteiro via `template: <nome>
 | `cta` | `botao?`, `pergunta?`, `titulo?` | `clicar-botao`, `balao-comentario` |
 
 N começa em 1. Em qualquer template valem também `carimbo-vermelho`, `carimbo-verde`, `tremer`,
-`zoom-in`, `brilho`, `lupa`, `relogio-girando`, `sirene` e `riscar` (`src/components/Acoes.jsx`),
-e todo evento toca um SFX (`sfxDaAcao` em `src/components/eventos.js`).
+`zoom-in`, `brilho`, `lupa`, `relogio-girando`, `sirene` e `riscar` (`marcas/phanterai/src/components/Acoes.jsx`),
+e todo evento toca um SFX (`sfxDaAcao` em `marcas/phanterai/src/components/eventos.js`).
 
 `recorte` e cada área de `borrar` são `{ x, y, w, h }` em % do arquivo original; `arquivo` é o
-nome dentro de `public/episodes/<slug>/`. O borrão é fixo na tela: numa gravação que rola, o
+nome dentro de `public/phanterai/episodes/<slug>/`. O borrão é fixo na tela: numa gravação que rola, o
 conteúdo sai de baixo dele.
 
-Template novo: crie o arquivo em `src/templates/` seguindo `theme.js` e registre-o em
+Template novo: crie o arquivo em `marcas/phanterai/src/templates/` seguindo `theme.js` e registre-o em
 `templates/index.js`.
 
-### Identidade visual (`src/theme.js`)
+### Identidade visual (`marcas/phanterai/src/theme.js`)
 
 - Fundo: radial `#140B2E` → `#05040C`, manchas de luz roxa e dourada em movimento, spotlight e chão.
 - Cores: violeta `#8B5CF6` / `#C084FC`, dourado `#FBBF24`, vermelho `#FB4B6B`, verde `#34D399`, texto `#F5F3FF`.
@@ -109,12 +116,12 @@ Template novo: crie o arquivo em `src/templates/` seguindo `theme.js` e registre
 
 ### Assets esperados (fornecidos pelo Rod, não versionados aqui)
 
-- `public/pantera/*.png` — uma pose por arquivo, nomes exatos: `feliz`, `triste`, `surpresa`,
+- `public/phanterai/pantera/*.png` — uma pose por arquivo, nomes exatos: `feliz`, `triste`, `surpresa`,
   `comemorando`, `pensando`, `apontando`.
 - `public/sfx/*.mp3` — nomes exatos: `pop` (entrada/troca de pose), `ding` (checklist OK),
   `whoosh` (item de lista numerada), `coin` (contador subindo), `error` (checklist não feito),
   `riser` (abertura de cena de impacto/CTA).
-- `public/music/*.mp3` — trilhas de fundo, referenciadas pelo campo `musica:` do roteiro.
+- `public/phanterai/music/*.mp3` — trilhas de fundo, referenciadas pelo campo `musica:` do roteiro.
 
 Se um arquivo esperado não existir, `Episode.jsx`/`Panther`/`Sfx` lançam erro explícito — nunca
 monte um placeholder no lugar.
@@ -159,7 +166,7 @@ python3 -m venv .venv
 
 ### 1. Preparar a pasta do episódio
 
-Crie `public/episodes/<slug>/` e coloque dentro:
+Crie `public/phanterai/episodes/<slug>/` e coloque dentro:
 
 - `roteiro.md` — o roteiro marcado (ver [formato abaixo](#formato-do-roteiromd))
 - `voz.mp3` — o áudio gravado da voz do Rod
@@ -171,10 +178,10 @@ seguir. Se faltar algo, pare aqui e resolva — não existe placeholder.
 ### 2. Transcrever a voz com tempo por palavra
 
 ```bash
-.venv/bin/python scripts/transcribe.py public/episodes/<slug>/voz.mp3
+.venv/bin/python scripts/transcribe.py public/phanterai/episodes/<slug>/voz.mp3
 ```
 
-Gera `public/episodes/<slug>/words.json`, no formato:
+Gera `public/phanterai/episodes/<slug>/words.json`, no formato:
 
 ```json
 [{ "w": "palavra", "start": 1.23, "end": 1.51 }]
@@ -186,7 +193,7 @@ Gera `public/episodes/<slug>/words.json`, no formato:
 node scripts/align.js <slug>
 ```
 
-Lê `roteiro.md` + `words.json` e grava `public/episodes/<slug>/timeline.json` (tudo já
+Lê `roteiro.md` + `words.json` e grava `public/phanterai/episodes/<slug>/timeline.json` (tudo já
 convertido para frames a 30fps). Para cada bloco `### Cxx`:
 
 - localiza o campo `fala:` dentro de `words.json` por correspondência aproximada (acentos e
@@ -204,14 +211,14 @@ nunca chuta um tempo. Corrija o roteiro ou a transcrição e rode de novo.
 { "slug": "<slug>" }
 ```
 
-Salve em `public/episodes/<slug>/props.json`. É o que diz ao Remotion qual episódio renderizar.
+Salve em `public/phanterai/episodes/<slug>/props.json`. É o que diz ao Remotion qual episódio renderizar.
 
 ### 5. Preview rápido
 
 ```bash
-yarn remotion render src/Root.jsx Episode out/<slug>-preview.mp4 \
+yarn remotion render src/Root.jsx Episode out/phanterai/<slug>-preview.mp4 \
   --scale=0.5 \
-  --props=public/episodes/<slug>/props.json
+  --props=public/phanterai/episodes/<slug>/props.json
 ```
 
 `--scale=0.5` renderiza em metade da resolução, bem mais rápido, só para validar timing, cores
@@ -230,11 +237,11 @@ Abre o Remotion Studio (`remotion studio src/Root.jsx`) com player e scrubber.
 Só depois de aprovar o preview:
 
 ```bash
-yarn remotion render src/Root.jsx Episode out/<slug>.mp4 \
-  --props=public/episodes/<slug>/props.json
+yarn remotion render src/Root.jsx Episode out/phanterai/<slug>.mp4 \
+  --props=public/phanterai/episodes/<slug>/props.json
 ```
 
-O arquivo final sai em `out/<slug>.mp4`, 1920×1080 a 30fps.
+O arquivo final sai em `out/phanterai/<slug>.mp4`, 1920×1080 a 30fps.
 
 ### Formato do `roteiro.md`
 
@@ -242,7 +249,7 @@ Grammar completa documentada no cabeçalho de `scripts/align.js` — é a fonte 
 mudar o parser, atualize esse comentário também. Resumo:
 
 ```markdown
-musica: trilha.mp3                (opcional; public/music/, em loop, sobe nas pausas da fala)
+musica: trilha.mp3                (opcional; public/phanterai/music/, em loop, sobe nas pausas da fala)
 musica_fim: 163.5                 (opcional; onde o loop volta, antes do fade out da faixa)
 
 ## CENAS
@@ -266,7 +273,7 @@ de lá ou ser escrito aqui. Só a seção `## CENAS` é lida pelo `align.js`.
 
 - `### <id> | template: <nome> | pose: <pose>` — id livre começando com `C` (`C04`, `C04a`,
   `C55b`); a ordem das cenas é a ordem no arquivo. `template` é um dos nomes da
-  [tabela de templates](#templates-de-cena-disponíveis); `pose`, uma das poses em `public/pantera/`.
+  [tabela de templates](#templates-de-cena-disponíveis); `pose`, uma das poses em `public/phanterai/pantera/`.
 - `fala:` — trecho literal da narração, entre aspas duplas; usado para localizar o tempo no
   `words.json`.
 - `dados:` — objeto em sintaxe de JS (chaves sem aspas, strings em aspas duplas), passado ao
@@ -285,7 +292,7 @@ asset ou se uma fala não alinhar.
 
 | Sintoma | Causa provável |
 |---|---|
-| `Episode.jsx`/`Panther`/`Sfx` lança erro de pose/sfx inexistente | nome usado no roteiro não bate com os arquivos em `public/pantera/` ou `public/sfx/` (confira os READMEs dessas pastas) |
+| `Episode.jsx`/`Panther`/`Sfx` lança erro de pose/sfx inexistente | nome usado no roteiro não bate com os arquivos em `public/phanterai/pantera/` ou `public/sfx/` (confira os READMEs dessas pastas) |
 | `align.js` para informando cena + trecho | a `fala:` daquele bloco não foi encontrada em `words.json` — revise o roteiro ou regrave/retranscreva o trecho |
-| Vídeo abre em frame de placeholder no Studio | `slug` vazio ou `public/episodes/<slug>/timeline.json` ainda não existe — rode as etapas 2–3 |
+| Vídeo abre em frame de placeholder no Studio | `slug` vazio ou `public/phanterai/episodes/<slug>/timeline.json` ainda não existe — rode as etapas 2–3 |
 | Render muito lento | use `--scale=0.5` para preview; o render final sem `--scale` é mais lento por natureza |
