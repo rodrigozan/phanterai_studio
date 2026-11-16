@@ -1,0 +1,223 @@
+{
+  "conta_instagram": "@phanteraicreative",
+  "canal_youtube": "Aprenda YouTube",
+  "fuso": "America/Sao_Paulo",
+  "antecedencia_minutos": 15,
+  "regras": [
+    "Só tema de IA.",
+    "O sinal de origem é só a pista do tema: não é fonte e não é para copiar.",
+    "Todo número do título precisa ser conferido na fonte primária antes de narrar."
+  ],
+  "reels": [
+    {
+      "data": "2026-11-16",
+      "hora": "07:00",
+      "slug": "reel-2026-11-16-0700-claude-no-meet",
+      "titulo": "O Claude agora entra na sua reunião do Meet",
+      "promessa": "O que ele faz enquanto vocês conversam",
+      "sinal": "@nelmoricalde 14x; Authority Hacker 15/11",
+      "referencia": "https://www.instagram.com/reel/Dfsp5AJD5ja/",
+      "status": "perdido"
+    },
+    {
+      "data": "2026-11-16",
+      "hora": "12:00",
+      "slug": "reel-2026-11-16-1200-8-skills-gratis-claude",
+      "titulo": "8 skills grátis que mudam o Claude",
+      "promessa": "A lista, uma linha por skill",
+      "sinal": "@matheushunoff 37x",
+      "referencia": "https://www.instagram.com/reel/DfwpHpkvrfd/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-16",
+      "hora": "18:00",
+      "slug": "reel-2026-11-16-1800-google-flow-cenas-gratis",
+      "titulo": "O Google gera as cenas do seu canal de graça",
+      "promessa": "Como manter o mesmo estilo em todas as cenas",
+      "sinal": "@maestrosdaiahub 3,6x",
+      "referencia": "https://www.instagram.com/reel/Dfs1LAEyihc/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-17",
+      "hora": "07:00",
+      "slug": "reel-2026-11-17-0700-chatgpt-wallet",
+      "titulo": "A IA ganhou uma carteira, e o cartão é o seu",
+      "promessa": "O que é o ChatGPT Wallet e o que muda",
+      "sinal": "@nelmoricalde 16/11",
+      "referencia": "https://www.instagram.com/reel/DfyDNmenIyF/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-17",
+      "hora": "12:00",
+      "slug": "reel-2026-11-17-1200-head-of-content",
+      "titulo": "Pare de rolar o feed atrás de ideia",
+      "promessa": "Um pacote grátis que acha os vídeos acima da média",
+      "sinal": "@maestrosdaiahub 3,3x",
+      "referencia": "https://www.instagram.com/reel/DfuqiaoycoA/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-17",
+      "hora": "18:00",
+      "slug": "reel-2026-11-17-1800-6-sistemas-claude",
+      "titulo": "6 sistemas que dá para montar com o Claude e vender",
+      "promessa": "Os 6, com quem compra cada um",
+      "sinal": "@matheushunoff 2,7x",
+      "referencia": "https://www.instagram.com/reel/Dfrfgb0vBdJ/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-18",
+      "hora": "07:00",
+      "slug": "reel-2026-11-18-0700-claude-cria-recursos",
+      "titulo": "O Claude agora cria recursos para ele mesmo",
+      "promessa": "O que ele consegue adicionar sozinho e como pedir",
+      "sinal": "Futurepedia 3,5x (12/11): Claude can now add features to itself",
+      "referencia": "https://www.youtube.com/@futurepedia_io/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-18",
+      "hora": "12:00",
+      "slug": "reel-2026-11-18-1200-99-estilos-animacao",
+      "titulo": "Canal de desenho animado sem saber desenhar",
+      "promessa": "99 estilos prontos numa skill grátis",
+      "sinal": "@maestrosdaiahub 2,9x; Futurepedia 1,6x",
+      "referencia": "https://www.instagram.com/reel/DfvW9kHyJtD/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-18",
+      "hora": "18:00",
+      "slug": "reel-2026-11-18-1800-primeiro-agente-1-tarefa",
+      "titulo": "Seu primeiro agente: escolha 1 tarefa da semana",
+      "promessa": "O passo a passo do menor agente útil",
+      "sinal": "Sabrina Ramonov 1,7x: Build Your First AI Agent Around 1 Weekly Task",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-19",
+      "hora": "07:00",
+      "slug": "reel-2026-11-19-0700-claude-quadro-branco",
+      "titulo": "O Claude ganhou quadro branco e planilha",
+      "promessa": "O que dá para fazer hoje sem abrir o Docs",
+      "sinal": "AI Advantage 13/11; Authority Hacker 13/11",
+      "referencia": "https://www.youtube.com/@aiadvantage/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-19",
+      "hora": "12:00",
+      "slug": "reel-2026-11-19-1200-claude-code-79-habilidades-jogo",
+      "titulo": "Seu Claude Code cria um jogo inteiro",
+      "promessa": "79 habilidades grátis num pacote só",
+      "sinal": "@maestrosdaiahub 47x",
+      "referencia": "https://www.instagram.com/reel/Dfnp-Rzyvud/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-19",
+      "hora": "18:00",
+      "slug": "reel-2026-11-19-1800-10-negocios-ia",
+      "titulo": "10 negócios de IA para tocar sem funcionário",
+      "promessa": "A lista, do mais simples ao mais difícil",
+      "sinal": "Sabrina Ramonov 14/11: These 10 AI Businesses Will Make You $10k/Month",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-20",
+      "hora": "07:00",
+      "slug": "reel-2026-11-20-0700-claude-code-edicao-5x",
+      "titulo": "O Claude Code percebeu sozinho o que travava a edição",
+      "promessa": "O que ele achou e o ganho de 5x",
+      "sinal": "@maestrosdaiahub 6,9x",
+      "referencia": "https://www.instagram.com/reel/DfsC1yqS4Xx/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-20",
+      "hora": "12:00",
+      "slug": "reel-2026-11-20-1200-tirar-dados-da-internet",
+      "titulo": "Tire seus dados da internet com IA",
+      "promessa": "Os comandos, copia e cola",
+      "sinal": "@quebakana 26x",
+      "referencia": "https://www.instagram.com/reel/DfIQOVuMCwY/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-20",
+      "hora": "18:00",
+      "slug": "reel-2026-11-20-1800-empresa-no-chatgpt",
+      "titulo": "Coloque sua empresa dentro do ChatGPT",
+      "promessa": "O cadastro, passo a passo",
+      "sinal": "@nelmoricalde 3,5x; Authority Hacker 16/11",
+      "referencia": "https://www.instagram.com/reel/Dfnkj6YAB-s/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-21",
+      "hora": "07:00",
+      "slug": "reel-2026-11-21-0700-fable-5-2-nao-3x",
+      "titulo": "Fable 5.2 é melhor. Mas não 3x melhor",
+      "promessa": "O que mudou de verdade e para quem vale",
+      "sinal": "Authority Hacker 15/11; Matt Wolfe 2x; @nelmoricalde 4,3x",
+      "referencia": "https://www.youtube.com/@AuthorityHackerPodcast/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-21",
+      "hora": "12:00",
+      "slug": "reel-2026-11-21-1200-34-estilos-de-luz",
+      "titulo": "34 estilos de luz para a IA parar de gerar imagem chapada",
+      "promessa": "A lista com o prompt de cada um",
+      "sinal": "@rourke 12x",
+      "referencia": "https://www.instagram.com/reel/DfXaQcyoaJ5/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-21",
+      "hora": "18:00",
+      "slug": "reel-2026-11-21-1800-3-prompts-grok-bot",
+      "titulo": "3 prompts para configurar seu primeiro Grok Bot",
+      "promessa": "Os 3 prompts, na ordem",
+      "sinal": "Sabrina Ramonov 1,7x: 3 Prompts to Set Up Your First Grok Bot",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-22",
+      "hora": "07:00",
+      "slug": "reel-2026-11-22-0700-seedance-2-5-4k",
+      "titulo": "Seedance 2.5 agora gera em 4K",
+      "promessa": "O que dá para fazer e quanto custa",
+      "sinal": "@rourke 13/11",
+      "referencia": "https://www.instagram.com/reel/DfsJvJQqTv5/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-22",
+      "hora": "12:00",
+      "slug": "reel-2026-11-22-1200-claude-comanda-conversas",
+      "titulo": "Uma conversa do Claude comanda todas as outras",
+      "promessa": "Como ligar e para que serve",
+      "sinal": "Futurepedia 3,2x: One Claude chat can run all your other chats",
+      "referencia": "https://www.youtube.com/@futurepedia_io/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-22",
+      "hora": "18:00",
+      "slug": "reel-2026-11-22-1800-resumo-da-semana",
+      "titulo": "Resumo da semana no Universo da IA",
+      "promessa": "As notícias da semana em 2 minutos",
+      "sinal": "formato semanal; pauta: Matt Wolfe AI News 13/11",
+      "referencia": "https://www.youtube.com/@mreflow/videos",
+      "status": "pendente"
+    }
+  ]
+}
