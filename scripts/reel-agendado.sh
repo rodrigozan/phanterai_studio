@@ -56,7 +56,8 @@ Regras desta rodada
 1. Só tema de IA. O sinal acima é só a pista do tema: não é fonte e não é para copiar roteiro, texto nem imagem de lá.
 2. Ache a fonte primária (anúncio oficial, repositório, documentação) e confira cada fato e cada número antes de narrar. Se o número do título não bater com a fonte, ajuste o título para o que a fonte diz.
 3. Se não der para confirmar o tema em fonte primária, NÃO gere narração, NÃO renderize e NÃO publique: grave o motivo no arquivo de resultado e encerre.
-4. Reel de um tema só, de 40 a 60 segundos (exceção: o "Resumo da semana" segue a duração da skill). Narração no ElevenLabs gerada uma única vez, depois de revisar o texto.
+4. Visual: siga a seção "Direção visual" da skill. Cada cena mostra a coisa de que a fala trata (vídeo/demo oficial do produto, gravação da interface, imagem representativa gerada, Pexels, motion graphic), com movimento. Print de documentação com texto grifado NÃO é cena (só serve para conferir fatos). Se o contact sheet tiver cena de texto de documentação, corrija antes de agendar.
+4b. Reel de um tema só, de 40 a 60 segundos (exceção: o "Resumo da semana" segue a duração da skill). Narração no ElevenLabs gerada uma única vez, depois de revisar o texto.
 5. Agende no Instagram @phanteraicreative e no YouTube para {r['data']} {r['hora']} de Brasília. Se na hora de agendar faltar menos de 5 minutos para esse horário (ou ele já tiver passado), agende para 6 minutos depois do momento atual.
 6. Nunca refaça nem republique o que já foi publicado ou agendado. Antes de agendar, confira nas APIs se este slug já existe.
 7. Ao terminar, grave {feito} com: slug, titulo_final, fontes (urls), horario_agendado, ids e links do Instagram e do YouTube, faixa de música usada, e "status" ("agendado", "publicado" ou "nao_publicado" com o motivo). Grave esse arquivo mesmo em caso de falha.
