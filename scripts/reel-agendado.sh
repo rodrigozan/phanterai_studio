@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# reel-agendado.sh - disparado pelo cron 15 min antes de cada horário de publicação.
+# reel-agendado.sh - disparado pelo cron 45 min antes de cada horário de publicação.
 # Lê calendario/reels.json, acha o reel de hoje (Brasília) no horário pedido e aciona o
 # Claude Code para rodar a skill make-reels-phanterai.
 #
