@@ -6,6 +6,7 @@ import { ShortOllama, OL_FPS, OL_FRAMES, calculateOllamaMetadata } from "./short
 import { ShortOrcamento, OR_FPS, OR_FRAMES, calculateOrcamentoMetadata } from "./short/ShortOrcamento";
 import { ShortHyperframes, HF_FPS, HF_FRAMES, calculateHyperframesMetadata } from "./short/ShortHyperframes";
 import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } from "./short/ShortScion";
+import { ShortSkillsClaude, CapaSkillsClaude, SKC_FPS, calculateSkillsClaudeMetadata } from "./short/ShortSkillsClaude";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
 
@@ -71,6 +72,17 @@ const RemotionRoot = () => (
     defaultProps={{ voz: "episodes/short-hyperframes/locucao.wav" }}
     calculateMetadata={calculateHyperframesMetadata}
   />
+  <Composition
+    id="ShortSkillsClaude"
+    component={ShortSkillsClaude}
+    width={1080}
+    height={1920}
+    fps={SKC_FPS}
+    durationInFrames={1800}
+    defaultProps={{ scenes: null, words: [], times: [], endSec: 0 }}
+    calculateMetadata={calculateSkillsClaudeMetadata}
+  />
+  <Composition id="CapaSkillsClaude" component={CapaSkillsClaude} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}

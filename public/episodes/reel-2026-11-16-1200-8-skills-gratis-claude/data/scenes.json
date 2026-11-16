@@ -1,0 +1,210 @@
+[
+ {
+  "n": 1,
+  "type": "hook"
+ },
+ {
+  "n": 2,
+  "id": "c02",
+  "pill": "FONTE OFICIAL",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "19 skills",
+  "small": "código aberto · Apache 2.0",
+  "bg": false,
+  "pose": "pensando",
+  "type": "card",
+  "box": {
+   "x": 65,
+   "y": 299.578125,
+   "w": 377.078125,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills"
+ },
+ {
+  "n": 3,
+  "id": "c03",
+  "pill": "SKILL 1/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "frontend-design",
+  "small": "interfaces sem cara de template",
+  "bg": true,
+  "pose": "apontando",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 345.09375,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md"
+ },
+ {
+  "n": 4,
+  "id": "c04",
+  "pill": "SKILL 2/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "skill-creator",
+  "small": "cria, melhora e testa skills",
+  "bg": false,
+  "pose": "pensando",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 367.25,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md"
+ },
+ {
+  "n": 5,
+  "id": "c05",
+  "pill": "SKILL 3/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "mcp-builder",
+  "small": "servidores MCP para outros serviços",
+  "bg": false,
+  "pose": "surpresa",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 491.46875,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md"
+ },
+ {
+  "n": 6,
+  "id": "c06",
+  "pill": "SKILL 4/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "webapp-testing",
+  "small": "testa o app local com Playwright",
+  "bg": true,
+  "pose": "apontando",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 543.40625,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md"
+ },
+ {
+  "n": 7,
+  "id": "c07",
+  "pill": "SKILL 5/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "pdf",
+  "small": "extrai, junta, divide, preenche",
+  "bg": false,
+  "pose": "pensando",
+  "type": "card",
+  "box": {
+   "x": 985.453125,
+   "y": 467,
+   "w": 117.359375,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md"
+ },
+ {
+  "n": 8,
+  "id": "c08",
+  "pill": "SKILL 6/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "xlsx",
+  "small": "planilhas com fórmulas e gráficos",
+  "bg": false,
+  "pose": "surpresa",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 491.78125,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md"
+ },
+ {
+  "n": 9,
+  "id": "c09",
+  "pill": "SKILL 7/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "canvas-design",
+  "small": "pôsteres e artes em PNG e PDF",
+  "bg": true,
+  "pose": "comemorando",
+  "type": "card",
+  "box": {
+   "x": 497.234375,
+   "y": 419,
+   "w": 378.90625,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md"
+ },
+ {
+  "n": 10,
+  "id": "c10",
+  "pill": "SKILL 8/8",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "theme-factory",
+  "small": "10 temas prontos de cores e fontes",
+  "bg": false,
+  "pose": "surpresa",
+  "type": "card",
+  "box": {
+   "x": 683.109375,
+   "y": 443,
+   "w": 202.78125,
+   "h": 17
+  },
+  "url": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md"
+ },
+ {
+  "n": 11,
+  "id": "c11",
+  "pill": "COMO INSTALAR",
+  "date": null,
+  "source": "github.com/anthropics/skills",
+  "print": true,
+  "big": "/plugin marketplace add",
+  "small": "anthropics/skills · no Claude Code",
+  "bg": true,
+  "pose": "apontando",
+  "type": "card",
+  "box": {
+   "x": 81,
+   "y": 299.921875,
+   "w": 334.46875,
+   "h": 15
+  },
+  "url": "https://github.com/anthropics/skills"
+ },
+ {
+  "n": 12,
+  "type": "cta"
+ }
+]
