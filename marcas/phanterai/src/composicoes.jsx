@@ -10,6 +10,7 @@ import { ShortHyperframes, HF_FPS, HF_FRAMES, calculateHyperframesMetadata } fro
 import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } from "./short/ShortScion";
 import { ShortSemanaIA, CapaSemanaIA, SIA_FPS, calculateSemanaIAMetadata } from "./short/ShortSemanaIA";
 import { ShortSkillsClaude, CapaSkillsClaude, SKC_FPS, calculateSkillsClaudeMetadata } from "./short/ShortSkillsClaude";
+import { ShortGoogleFlow, CapaGoogleFlow, GFL_FPS, calculateGoogleFlowMetadata } from "./short/ShortGoogleFlow";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 export const ComposicoesPhanterAI = () => (
@@ -96,6 +97,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateSkillsClaudeMetadata}
   />
   <Composition id="CapaSkillsClaude" component={CapaSkillsClaude} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortGoogleFlow"
+    component={ShortGoogleFlow}
+    width={1080}
+    height={1920}
+    fps={GFL_FPS}
+    durationInFrames={1800}
+    defaultProps={{ scenes: null, words: [], times: [], endSec: 0 }}
+    calculateMetadata={calculateGoogleFlowMetadata}
+  />
+  <Composition id="CapaGoogleFlow" component={CapaGoogleFlow} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
