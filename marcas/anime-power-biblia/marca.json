@@ -4,12 +4,26 @@
   "descricao": "Reels de histórias bíblicas em estilo anime, sem narrador.",
   "contas": {
     "instagram": "@animepowerbiblia",
-    "youtube": { "canal": "Anime Power Biblia", "channelId": "UCSSTh2ZUHq_lsYhz2t4MyPA" }
+    "youtube": {
+      "canal": "Anime Power Biblia",
+      "channelId": "UCSSTh2ZUHq_lsYhz2t4MyPA"
+    }
   },
-  "pauta": ["Só o que o texto bíblico diz, com livro, capítulo e versículo."],
+  "pauta": [
+    "Só o que o texto bíblico diz, com livro, capítulo e versículo."
+  ],
   "musica": "Instrumental cinematográfica, sem voz; trilhas em public/anime-power-biblia/music.",
   "pastas": {
+    "scripts": "marcas/anime-power-biblia/scripts",
+    "prompts": "marcas/anime-power-biblia/PROMPTS.md",
     "publico": "public/anime-power-biblia",
-    "saida": "out/anime-power-biblia"
-  }
+    "saida": "out/anime-power-biblia",
+    "rodadas": "out/anime-power-biblia/rotina/<AAAA-MM-DD-HHMM>"
+  },
+  "imagem": {
+    "provedor": "openrouter",
+    "modelo": "google/gemini-2.5-flash-image",
+    "proporcao": "9:16"
+  },
+  "temasUsados": "/root/obsidian/brainiac/conhecimento/wiki/anime-power-biblia-temas.md"
 }
