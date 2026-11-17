@@ -8,7 +8,7 @@ Atualização do Rod (17/11): insumos já estão em `public/afro-ww2-tales/`:
 - Episódio do dia: `public/afro-ww2-tales/episodes/2026-11_17/{Narration/audio.mp3, Images/*.jpg}` (26 imagens: 01–24, 20_B e BASE.jpg, que não consta do briefing)
 - Músicas, comuns a todos os vídeos do canal: `public/afro-ww2-tales/musics/*.mp3`
 - Se não houver `audio.mp3`, a voz é ElevenLabs com `ELEVENLABS_AFRO_WWW_TALES_VOICE_ID` do `.env` do studio. Neste vídeo há áudio, então não gerar voz.
-- Ao final, fazer o upload do vídeo pela API do phantertools (canal já cadastrado), só após aprovação do Rod.
+- Ao final, fazer o upload do vídeo pela API do phantertools (canal já cadastrado) (o Rod dispensou aprovação para o upload).
 - Trabalho/saídas intermediárias: `out/afro-ww2-tales/massaquoi-hamburg/{sync,work,qa}`; `input/` fica só com relatórios (`inputs-report.json`, `images-index.json`).
 
 ## Insumos originais (Google Drive, referência)
@@ -61,4 +61,4 @@ Fontes na web para: nascimento e família de Hans Massaquoi; episódio de 1934 e
 1 baixar+validar | 2 images-index | 3 transcrever+capítulos (aprovação se faltar âncora) | 4 narration-final | 5 trilha | 6 scenes.json (aprovação do mapeamento) | 7 montar | 8 QA | 9 factcheck | 10 packaging | 11 entregar ao Rod.
 
 ## Upload (phantertools)
-Canal já cadastrado no phantertools_api (`/root/phantertools/phantertools_api/src/routes/youtube.ts`): `GET /youtube/channels` para achar o canal Afro WW2 Tales, `POST /youtube/upload` para enviar (ver o handler para o corpo). Só depois da aprovação do Rod; marcar conteúdo sintético (`ai_disclosure`).
+Canal já cadastrado no phantertools_api (`/root/phantertools/phantertools_api/src/routes/youtube.ts`): `GET /youtube/channels` para achar o canal Afro WW2 Tales, `POST /youtube/upload` para enviar (ver o handler para o corpo). Sem esperar aprovação do Rod (dispensada em 17/11); marcar conteúdo sintético (`ai_disclosure`).
