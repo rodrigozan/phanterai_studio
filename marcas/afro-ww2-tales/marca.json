@@ -1,0 +1,26 @@
+{
+  "id": "afro-ww2-tales",
+  "nome": "Afro WW2 Tales",
+  "descricao": "Documentários faceless longos sobre pessoas negras na Segunda Guerra Mundial. Narração em inglês, imagens P&B geradas por IA quase estáticas, música ambiente a 20%.",
+  "contas": {
+    "youtube": { "canal": "Afro WW2 Tales", "handle": "@AfroWW2Tales" }
+  },
+  "idioma": "en",
+  "voz": { "provedor": "elevenlabs", "envVoiceId": "ELEVENLABS_AFRO_WWW_TALES_VOICE_ID", "uso": "só quando o Rod não enviar narração pronta" },
+  "pauta": [
+    "Documentário faceless, sem avatar, narração contínua.",
+    "Imagens P&B geradas por IA, nunca apresentadas como foto histórica real.",
+    "Sem título, cartela ou número de capítulo na tela; capítulos só na descrição do YouTube.",
+    "Marcar conteúdo alterado/sintético no YouTube (ai_disclosure)."
+  ],
+  "musica": "Faixas da pasta Musics de cada vídeo, sempre a 20% (volume=0.20), narração a 100%, sem ducking. Hour of Decision e Courage in Olive Drab reservadas para vídeos de combate.",
+  "pastas": {
+    "videos": "marcas/afro-ww2-tales/videos/<slug>",
+    "publico": "public/afro-ww2-tales",
+    "episodios": "public/afro-ww2-tales/episodes/<AAAA-MM_DD>/{Narration,Images}",
+    "musicas": "public/afro-ww2-tales/musics",
+    "saida": "out/afro-ww2-tales/<slug>"
+  },
+  "video": { "resolucao": "1920x1080", "fps": 30, "codec": "H.264", "audio": "AAC 192k", "transicao": "xfade fade 1.5s", "movimento": "Ken Burns 100-108%" },
+  "legendaRodape": "Imagens geradas por IA meramente ilustrativas (idioma a confirmar com o Rod: PT ou EN)"
+}

@@ -6,6 +6,7 @@ O studio atende mais de uma marca. Cada marca tem a própria pasta e nada de uma
 |---|---|---|
 | PhanterAI | `marcas/phanterai` | Instagram @phanteraicreative, YouTube Aprenda YouTube |
 | Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram @animepowerbiblia, YouTube Anime Power Biblia |
+| Afro WW2 Tales | `marcas/afro-ww2-tales` | YouTube @AfroWW2Tales |
 
 ## Onde fica cada coisa
 
