@@ -11,6 +11,7 @@ import { ShortScion, ScionCapa, ScionThumb, SC_FPS, calculateScionMetadata } fro
 import { ShortSemanaIA, CapaSemanaIA, SIA_FPS, calculateSemanaIAMetadata } from "./short/ShortSemanaIA";
 import { ShortSkillsClaude, CapaSkillsClaude, SKC_FPS, calculateSkillsClaudeMetadata } from "./short/ShortSkillsClaude";
 import { ShortGoogleFlow, CapaGoogleFlow, GFL_FPS, calculateGoogleFlowMetadata } from "./short/ShortGoogleFlow";
+import { ShortChatgptWallet, CapaChatgptWallet, CWL_FPS, calculateChatgptWalletMetadata } from "./short/ShortChatgptWallet";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 export const ComposicoesPhanterAI = () => (
@@ -108,6 +109,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateGoogleFlowMetadata}
   />
   <Composition id="CapaGoogleFlow" component={CapaGoogleFlow} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortChatgptWallet"
+    component={ShortChatgptWallet}
+    width={1080}
+    height={1920}
+    fps={CWL_FPS}
+    durationInFrames={1800}
+    defaultProps={{ scenes: null, words: [], times: [], endSec: 0 }}
+    calculateMetadata={calculateChatgptWalletMetadata}
+  />
+  <Composition id="CapaChatgptWallet" component={CapaChatgptWallet} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
