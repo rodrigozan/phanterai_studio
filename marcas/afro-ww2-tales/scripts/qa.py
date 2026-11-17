@@ -53,8 +53,8 @@ bright = []
 for i, t in enumerate(fts, 1):
     out = f"{V}/qa/frames/frame{i:02d}_{t}s.jpg"
     run(["ffmpeg","-v","error","-y","-ss",str(t),"-i",video,"-frames:v","1","-q:v","3",out])
-    r = run(["ffmpeg","-v","error","-ss",str(t),"-i",video,"-frames:v","1","-vf","crop=700:44:610:988,signalstats,metadata=print:key=lavfi.signalstats.YMAX","-f","null","-"])
-    m = re.findall(r"YMAX=(\d+)", r.stderr); bright.append(int(m[0]) if m else 0)
+    raw = subprocess.run(["ffmpeg","-v","error","-ss",str(t),"-i",video,"-frames:v","1","-vf","crop=700:44:610:988,format=gray","-f","rawvideo","-"], capture_output=True).stdout
+    bright.append(max(raw) if raw else 0)
 chk(all(b >= 150 for b in bright), f"texto da legenda detectado (YMAX da faixa inferior) em 12 frames: {bright}")
 L.append("- 12 frames extraídos para revisão visual em qa/frames/")
 L.append("- Nenhum título, cartela ou número de capítulo é desenhado: o único drawtext do render é a legenda fixa do rodapé (marcas/afro-ww2-tales/scripts/render_part.py).")
