@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "excerpt", "content", "tags"],
+  "properties": {
+    "title": {"type": "string"},
+    "excerpt": {"type": "string"},
+    "content": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}
