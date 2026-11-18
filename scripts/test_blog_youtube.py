@@ -88,6 +88,16 @@ class BlogTest(unittest.TestCase):
                 blog.publish(video(), article(), self.config)
         self.assertFalse(any(c.args[0].endswith('/api/admin/posts') for c in request.call_args_list))
 
+    def test_new_publication_sets_rod_byline_and_embed_metadata(self):
+        existing = {**article(), 'status': 'published'}
+        with patch.object(blog, 'find_post', side_effect=[None, existing]), \
+             patch.object(blog, 'request_json', side_effect=[[], {'token': 'test'}, {}]) as request, \
+             patch.object(blog, 'youtube', return_value={'channelId': blog.CHANNEL, 'privacyStatus': 'public'}):
+            blog.publish(video(), article(), self.config)
+        payload = request.call_args_list[-1].args[2]
+        self.assertEqual(payload['author'], 'Rod Zandonadi')
+        self.assertEqual(payload['youtubeVideoId'], video()['id'])
+
     def test_failed_generation_remains_retryable(self):
         self.scan(video())
         with patch.object(blog, 'youtube', return_value={'channelId': blog.CHANNEL, 'privacyStatus': 'public'}), \

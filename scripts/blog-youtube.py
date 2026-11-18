@@ -252,7 +252,8 @@ def publish(video, article, config):
     remote = youtube(video['id'])
     if remote.get('channelId') != CHANNEL or remote.get('privacyStatus') != 'public':
         raise ValueError('Vídeo deixou de ser público; publicação suspensa')
-    payload = {**article, 'slug': slug, 'category': category, 'author': 'PhanterAI',
+    payload = {**article, 'slug': slug, 'category': category, 'author': 'Rod Zandonadi',
+               'youtubeVideoId': video['id'],
                'status': 'published', 'featured': False,
                'coverImage': f"https://i.ytimg.com/vi/{video['id']}/hqdefault.jpg",
                'readTime': math.ceil(validate(article, video['id']) / 200)}

@@ -17,6 +17,12 @@ substitui. O Codex CLI gera JSON em modo de leitura. O publicador valida HTML,
 link do vídeo e pelo menos 500 palavras visíveis, e confere novamente o status
 público no YouTube imediatamente antes de enviar ao blog.
 
+Toda nova publicação usa a assinatura **Rod Zandonadi** e salva `youtubeVideoId`.
+O frontend monta o player incorporado na seção “Assista ao vídeo”, mantém o link
+para abrir no YouTube e liga a assinatura à página `/autor/rod-zandonadi`.
+O contador do blog registra aberturas do artigo por sessão; leituras da API feitas
+pelo publicador não incrementam visualizações. Não representa views do YouTube.
+
 O slug `youtube-<videoId em minúsculas>` é fixo, e o banco do blog já exige slug
 único. Uma resposta perdida do POST é recuperada lendo esse slug antes de tentar
 novamente. Um artigo existente nunca é sobrescrito automaticamente. O link do
