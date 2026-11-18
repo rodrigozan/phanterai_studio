@@ -17,6 +17,8 @@ import { ShortSeisSistemas, CapaSeisSistemas, SSC_FPS, calculateSeisSistemasMeta
 import { ShortClaudeMods, CapaClaudeMods, SCM_FPS, calculateClaudeModsMetadata } from "./short/ShortClaudeMods";
 import { ShortOpuscar, CapaOpuscar, SOP_FPS, calculateOpuscarMetadata } from "./short/ShortOpuscar";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
+import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
+import { LongCapa } from "./long/Capa";
 
 export const ComposicoesPhanterAI = () => (
   <>
@@ -30,6 +32,17 @@ export const ComposicoesPhanterAI = () => (
     defaultProps={{ slug: "" }}
     calculateMetadata={calculateEpisodeMetadata}
   />
+  <Composition
+    id="LongVideo"
+    component={LongVideo}
+    width={1920}
+    height={1080}
+    fps={30}
+    durationInFrames={150}
+    defaultProps={{ slug: "" }}
+    calculateMetadata={calculateLongMetadata}
+  />
+  <Composition id="LongCapa" component={LongCapa} width={1280} height={720} fps={30} durationInFrames={1} defaultProps={{ slug: "" }} />
   <Composition
     id="ShortTempero"
     component={ShortTempero}

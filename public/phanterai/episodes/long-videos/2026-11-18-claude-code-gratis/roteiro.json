@@ -1,0 +1,759 @@
+{
+  "slug": "2026-11-18-claude-code-gratis",
+  "titulo": "Claude Code de graça: instale em 10 minutos (Windows, Mac e Linux)",
+  "cenas": [
+    {
+      "id": "C01",
+      "tipo": "gancho",
+      "fala": "Você não precisa pagar nada para usar o Claude Code. Isso mesmo: de graça, no seu computador, em menos de dez minutos. E hoje eu te mostro tudo, tela por tela.",
+      "dados": {
+        "bg": "pexels/gancho-dev.mp4",
+        "a": {
+          "ao": "nada"
+        },
+        "b": {
+          "ao": "dez"
+        },
+        "c": {
+          "ao": "tela"
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "tipo": "o-que-faz",
+      "fala": "O Claude Code é o agente de programação que todo mundo está comentando. Ele lê o seu projeto, escreve o código, roda os comandos e corrige os erros sozinho. E, normalmente, para usar, você precisa de uma assinatura paga.",
+      "dados": {
+        "bg": "pexels/codigo.mp4",
+        "itens": [
+          {
+            "ao": "lê",
+            "titulo": "Lê o projeto",
+            "sub": "entende tudo"
+          },
+          {
+            "ao": "escreve",
+            "titulo": "Escreve o código",
+            "sub": "a partir de um pedido"
+          },
+          {
+            "ao": "roda",
+            "titulo": "Roda comandos",
+            "sub": "no seu terminal"
+          },
+          {
+            "ao": "corrige",
+            "titulo": "Corrige erros",
+            "sub": "sozinho"
+          }
+        ],
+        "pago": {
+          "ao": "assinatura"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C03",
+      "tipo": "promessa",
+      "fala": "Hoje você vai usar sem pagar. Eu mostro no Windows, no Mac e no Linux, com cada clique e cada comando. E no final eu mostro como escolher o melhor modelo para a sua máquina.",
+      "dados": {
+        "win": {
+          "ao": "Windows"
+        },
+        "mac": {
+          "ao": "Mac"
+        },
+        "linux": {
+          "ao": "Linux"
+        },
+        "lim": {
+          "ao": "escolher"
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "tipo": "terminal-conceito",
+      "fala": "Primeiro, o que é o Claude Code de verdade. É um programa que roda no terminal. Você abre a pasta de um projeto, escreve em português o que quer, e ele lê os arquivos, edita o código e executa comandos, sempre pedindo a sua permissão.",
+      "dados": {
+        "t1": {
+          "ao": "abre"
+        },
+        "t2": {
+          "ao": "escreve"
+        },
+        "t3": {
+          "ao": "lê"
+        },
+        "passos": [
+          {
+            "ao": "abre",
+            "titulo": "Abre a pasta",
+            "sub": "do seu projeto"
+          },
+          {
+            "ao": "escreve",
+            "titulo": "Pede em português",
+            "sub": "o que você quer"
+          },
+          {
+            "ao": "lê",
+            "titulo": "Ele trabalha",
+            "sub": "com a sua permissão"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C04b",
+      "tipo": "terminal-ou-desktop",
+      "pantera": false,
+      "fala": "E se você não gosta de terminal, calma. O Claude Code também funciona no aplicativo Claude Desktop, na aba Code, com uma interface gráfica, sem digitar comando nenhum.",
+      "dados": {
+        "t": {
+          "ao": "terminal"
+        },
+        "desk": {
+          "ao": "Desktop"
+        },
+        "code": {
+          "ao": "Code#2"
+        },
+        "gui": {
+          "ao": "interface"
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "tipo": "diagrama-cerebro",
+      "fala": "Agora, o segredo que quase ninguém explica. O Claude Code é só a ferramenta. O cérebro dele é um modelo de inteligência artificial, e esse cérebro pode ser trocado.",
+      "dados": {
+        "a": {
+          "ao": "ferramenta"
+        },
+        "b": {
+          "ao": "cérebro"
+        },
+        "c": {
+          "ao": "trocado"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C06",
+      "tipo": "diagrama-troca",
+      "fala": "Então o truque é simples: a gente mantém o Claude Code e coloca um modelo gratuito no lugar do cérebro. Um modelo que roda dentro do seu computador, sem assinatura, e até sem internet.",
+      "dados": {
+        "bg": "pexels/ia-abstrata.mp4",
+        "a": {
+          "ao": "mantém"
+        },
+        "b": {
+          "ao": "gratuito"
+        },
+        "c": {
+          "ao": "computador"
+        },
+        "d": {
+          "ao": "internet"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C07",
+      "tipo": "escolha-cerebro",
+      "fala": "E o melhor: você escolhe o cérebro. O Ollama tem modelos de vários tamanhos, inclusive modelos grandes e muito bons. O Open Router tem um monte de opções boas, várias gratuitas. E quanto mais potente a sua máquina, mais longe você vai.",
+      "dados": {
+        "bg": "pexels/pensando.mp4",
+        "a": {
+          "ao": "escolhe"
+        },
+        "o": {
+          "ao": "Ollama"
+        },
+        "r": {
+          "ao": "Open"
+        },
+        "m": {
+          "ao": "máquina"
+        }
+      }
+    },
+    {
+      "id": "C07b",
+      "tipo": "o-que-criar",
+      "fala": "Com o Claude Code você cria sites, sistemas e conteúdo. E dá para transformar ele em um agente completo, que trabalha no seu computador, lê os seus arquivos e executa tarefas para você. Se você quer aprender como fazer isso, comenta guia completo aqui embaixo. Se tiver demanda, eu faço um vídeo sobre isso na próxima semana.",
+      "dados": {
+        "bg": "pexels/estudo.mp4",
+        "itens": [
+          {
+            "ao": "sites",
+            "t": "Sites",
+            "sub": "páginas e landing pages"
+          },
+          {
+            "ao": "sistemas",
+            "t": "Sistemas",
+            "sub": "apps e automações"
+          },
+          {
+            "ao": "conteúdo",
+            "t": "Conteúdo",
+            "sub": "textos, roteiros, posts"
+          },
+          {
+            "ao": "agente",
+            "t": "Agente completo",
+            "sub": "trabalha no seu computador"
+          }
+        ],
+        "guia": {
+          "ao": "guia"
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "tipo": "cta",
+      "fala": "Antes de instalar, um pedido rápido. Se esse vídeo já está te ajudando, deixa o like e se inscreve no Aprenda YouTube. É assim que eu consigo continuar trazendo tutorial de inteligência artificial, passo a passo, de graça.",
+      "dados": {
+        "bg": "pexels/comemora.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        }
+      }
+    },
+    {
+      "id": "C09",
+      "tipo": "plano-tres-passos",
+      "fala": "O plano tem três passos. Um: instalar o Ollama, o programa que roda os modelos no seu computador. Dois: instalar o Claude Code. Três: baixar o modelo gratuito e ligar tudo com um único comando.",
+      "dados": {
+        "bg": "pexels/foto-dev.jpg",
+        "passos": [
+          {
+            "ao": "Um",
+            "titulo": "Instalar o Ollama",
+            "sub": "roda os modelos no seu PC"
+          },
+          {
+            "ao": "Dois",
+            "titulo": "Instalar o Claude Code",
+            "sub": "a ferramenta"
+          },
+          {
+            "ao": "Três#2",
+            "titulo": "Baixar o modelo grátis",
+            "sub": "e ligar tudo com um comando"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C10",
+      "tipo": "requisitos",
+      "fala": "O que você precisa? Windows dez ou mais novo, Mac com macOS treze ou mais novo, ou Linux, como o Ubuntu vinte ponto zero quatro. Para o Claude Code, quatro gigas de memória bastam. Para o modelo que eu vou usar, o ideal é ter dezesseis gigas ou mais. Placa de vídeo ajuda, mas não é obrigatória.",
+      "dados": {
+        "bg": "pexels/setup.mp4",
+        "itens": [
+          {
+            "ao": "Windows"
+          },
+          {
+            "ao": "macOS"
+          },
+          {
+            "ao": "Linux"
+          },
+          {
+            "ao": "quatro#2"
+          },
+          {
+            "ao": "dezesseis"
+          },
+          {
+            "ao": "Placa"
+          }
+        ],
+        "sistemas": [
+          {
+            "t": "Windows 10+",
+            "sub": "versão 1809 ou mais nova"
+          },
+          {
+            "t": "macOS 13+",
+            "sub": "Ventura ou mais novo"
+          },
+          {
+            "t": "Linux",
+            "sub": "Ubuntu 20.04+ / Debian 10+"
+          }
+        ],
+        "memoria": [
+          {
+            "t": "4 GB de RAM",
+            "sub": "para o Claude Code"
+          },
+          {
+            "t": "16 GB ou mais",
+            "sub": "ideal para o modelo local"
+          },
+          {
+            "t": "Placa de vídeo",
+            "sub": "ajuda, mas é opcional"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C11",
+      "tipo": "navegador-url",
+      "fala": "Passo um. Abra o navegador e entre em olama ponto com, barra download.",
+      "dados": {
+        "t": {
+          "ao": "entre"
+        }
+      }
+    },
+    {
+      "id": "C12",
+      "tipo": "navegador-download",
+      "fala": "O site tem uma aba para cada sistema. Escolha a sua e clique em Download manually, logo abaixo do comando. No Windows, baixa o arquivo Ollama Setup ponto exe. No Mac, baixa o Ollama ponto dmg.",
+      "dados": {
+        "tab": {
+          "ao": "Escolha"
+        },
+        "link": {
+          "ao": "manually"
+        },
+        "mac": {
+          "ao": "Mac"
+        }
+      }
+    },
+    {
+      "id": "C13",
+      "tipo": "instalador-windows",
+      "fala": "No Windows, abra o instalador que você baixou e clique em Install. Ele instala e já deixa o Ollama rodando em segundo plano.",
+      "dados": {
+        "b": {
+          "ao": "Install"
+        },
+        "c": {
+          "ao": "segundo"
+        }
+      }
+    },
+    {
+      "id": "C14",
+      "tipo": "instalador-mac",
+      "fala": "No Mac, é ainda mais simples: abra o arquivo que você baixou e arraste o Ollama para a pasta Aplicativos. Depois, abra o app uma vez.",
+      "dados": {
+        "b": {
+          "ao": "arraste"
+        },
+        "c": {
+          "ao": "abra#2"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C15",
+      "tipo": "instalador-linux",
+      "fala": "No Linux, abra o terminal e cole este comando. Ele baixa e instala tudo sozinho.",
+      "dados": {
+        "t": {
+          "ao": "cole"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C16",
+      "tipo": "terminal-versao-ollama",
+      "fala": "Para conferir, digite ollama, espaço, dois traços, version. Se aparecer um número de versão, o passo um está pronto.",
+      "dados": {
+        "t": {
+          "ao": "digite"
+        },
+        "ok": {
+          "ao": "aparecer"
+        },
+        "pronto": {
+          "ao": "pronto"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C17",
+      "tipo": "terminais-claude",
+      "fala": "Passo dois: instalar o Claude Code. No Windows, abra o PowerShell e cole este comando. No Mac e no Linux, abra o terminal e use este outro.",
+      "dados": {
+        "win": {
+          "ao": "PowerShell"
+        },
+        "mac": {
+          "ao": "Mac"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C18",
+      "tipo": "terminal-versao-claude",
+      "fala": "Quando terminar, feche o terminal e abra de novo. Digite claude, dois traços, version. Apareceu a versão? Então o Claude Code está instalado. Se o terminal disser que não achou o comando, feche e abra mais uma vez, o instalador explica como ajustar o caminho.",
+      "dados": {
+        "t": {
+          "ao": "Digite"
+        },
+        "ok": {
+          "ao": "Apareceu"
+        },
+        "err": {
+          "ao": "disser"
+        },
+        "fix": {
+          "ao": "explica"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C19",
+      "tipo": "terminal-pull",
+      "fala": "Passo três, o mais importante: baixar o modelo gratuito. No terminal, digite: ollama pull, quen três ponto cinco, dois pontos, nove b. Esse é o Quen três ponto cinco, na versão de nove bilhões de parâmetros. Ele sabe usar ferramentas e ocupa uns sete gigas, então confira o espaço em disco. O download pode demorar alguns minutos.",
+      "dados": {
+        "t": {
+          "ao": "digite"
+        },
+        "m": {
+          "ao": "Quen#2"
+        },
+        "gb": {
+          "ao": "sete"
+        },
+        "tools": {
+          "ao": "ferramentas"
+        },
+        "disco": {
+          "ao": "disco"
+        }
+      }
+    },
+    {
+      "id": "C20",
+      "tipo": "modelo-menor",
+      "fala": "Se a sua máquina tem pouca memória, existe a versão de quatro bilhões, que ocupa uns quatro gigas e roda em computador mais simples. E se a sua máquina é forte, escolha um modelo maior. O Ollama tem opções de todos os tamanhos.",
+      "dados": {
+        "bg": "pexels/foto-estudo.jpg",
+        "a": {
+          "ao": "quatro"
+        },
+        "b": {
+          "ao": "forte"
+        },
+        "c": {
+          "ao": "tamanhos"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C21",
+      "tipo": "terminal-launch",
+      "fala": "Com o modelo baixado, entre na pasta do seu projeto, ou crie uma pasta vazia, e digite: ollama launch claude, dois traços model, quen três ponto cinco, dois pontos, nove b.",
+      "dados": {
+        "a": {
+          "ao": "entre"
+        },
+        "b": {
+          "ao": "digite"
+        },
+        "model": {
+          "ao": "model"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C22",
+      "tipo": "claude-aberto",
+      "fala": "Pronto! O Claude Code abre, já funcionando com o modelo que está dentro do seu computador. Sem assinatura, sem chave de API, e o modelo roda aqui, na sua máquina.",
+      "dados": {
+        "a": {
+          "ao": "Sem"
+        },
+        "b": {
+          "ao": "chave"
+        },
+        "c": {
+          "ao": "máquina"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C23",
+      "tipo": "claude-teste",
+      "fala": "Vamos testar. Eu escrevo: crie uma página HTML com um botão que muda de cor quando eu clico. Repara: antes de criar o arquivo, o Claude Code pede a sua permissão. Você lê, e aprova.",
+      "dados": {
+        "a": {
+          "ao": "escrevo"
+        },
+        "perm": {
+          "ao": "permissão"
+        },
+        "ok": {
+          "ao": "aprova"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C24",
+      "tipo": "resultado-pagina",
+      "fala": "Pronto, página criada. Abre o arquivo no navegador, e o botão funciona. Foi o Claude Code, rodando de graça, que escreveu isso.",
+      "dados": {
+        "a": {
+          "ao": "Abre"
+        },
+        "b": {
+          "ao": "botão"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C25",
+      "tipo": "comandos-uteis",
+      "fala": "Três comandos que você vai usar o tempo todo. Barra help mostra a ajuda. Barra clear limpa a conversa e economiza memória. E barra model deixa você trocar de modelo sem sair. Para interromper uma resposta, aperte Esc.",
+      "dados": {
+        "cmds": [
+          {
+            "ao": "help",
+            "cmd": "/help",
+            "txt": "mostra a ajuda"
+          },
+          {
+            "ao": "clear",
+            "cmd": "/clear",
+            "txt": "limpa a conversa"
+          },
+          {
+            "ao": "model",
+            "cmd": "/model",
+            "txt": "troca de modelo"
+          },
+          {
+            "ao": "Esc",
+            "cmd": "Esc",
+            "txt": "interrompe a resposta"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C26",
+      "tipo": "dica-prompt",
+      "fala": "Uma dica para render mais com qualquer modelo: seja específico e peça uma coisa de cada vez. Em vez de, crie um sistema completo, peça: crie só a tela de login. Pedido claro dá resultado melhor. Outros bons pedidos para testar: explique o que esse projeto faz, e crie testes para esta função.",
+      "dados": {
+        "bg": "pexels/foto-nuvem.jpg",
+        "ruim": {
+          "ao": "completo"
+        },
+        "bom": {
+          "ao": "login"
+        },
+        "ex1": {
+          "ao": "explique"
+        },
+        "ex2": {
+          "ao": "testes"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C27",
+      "tipo": "plano-b-intro",
+      "fala": "E se o seu computador for fraco? Tem um plano B, também gratuito: o Open Router, que oferece modelos gratuitos na nuvem.",
+      "dados": {
+        "bg": "pexels/nuvem.mp4",
+        "a": {
+          "ao": "fraco"
+        },
+        "b": {
+          "ao": "plano"
+        },
+        "c": {
+          "ao": "Open"
+        },
+        "d": {
+          "ao": "nuvem"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C28",
+      "tipo": "navegador-openrouter",
+      "fala": "Entre em openrouter ponto ai, crie a sua conta, vá em Settings, depois Keys, e gere uma chave de API. Copie e guarde essa chave, ela é como uma senha.",
+      "dados": {
+        "conta": {
+          "ao": "conta"
+        },
+        "set": {
+          "ao": "Settings"
+        },
+        "chave": {
+          "ao": "chave"
+        },
+        "copie": {
+          "ao": "Copie"
+        },
+        "guarde": {
+          "ao": "guarde"
+        }
+      }
+    },
+    {
+      "id": "C29",
+      "tipo": "terminal-env",
+      "fala": "Depois, configure estas variáveis no terminal: o endereço do Open Router, a sua chave, e a chave da Anthropic vazia. No PowerShell, o comando muda um pouco, mas a ideia é a mesma.",
+      "dados": {
+        "u": {
+          "ao": "endereço"
+        },
+        "k": {
+          "ao": "chave"
+        },
+        "v": {
+          "ao": "vazia"
+        },
+        "ps": {
+          "ao": "PowerShell"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C30",
+      "tipo": "terminal-free",
+      "fala": "E rode: claude, dois traços model, openrouter barra free. Esse nome escolhe, sozinho, um modelo gratuito que estiver disponível. Eu testei aqui e funcionou. Mas o próprio Open Router avisa que só garante tudo funcionando com os modelos da Anthropic, então pode dar erro. É o plano B.",
+      "dados": {
+        "a": {
+          "ao": "rode"
+        },
+        "esc": {
+          "ao": "escolhe"
+        },
+        "ok": {
+          "ao": "testei"
+        },
+        "aviso": {
+          "ao": "avisa"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C31",
+      "tipo": "limites",
+      "fala": "Agora, alguns cuidados importantes. Um: cada modelo tem o seu jeito, então teste mais de um e escolha o melhor para o seu caso. Dois: os modelos gratuitos da nuvem têm limite diário de pedidos, e os modelos grandes na nuvem do Ollama são cobrados por uso. Três: na nuvem gratuita, dependendo do modelo, o provedor pode registrar o que você envia. Então nunca mande senha, chave ou código de cliente. No modelo local, isso não acontece.",
+      "dados": {
+        "bg": "pexels/cadeado.mp4",
+        "a": {
+          "ao": "Um"
+        },
+        "b": {
+          "ao": "Dois"
+        },
+        "c": {
+          "ao": "Três"
+        },
+        "loc": {
+          "ao": "local"
+        }
+      }
+    },
+    {
+      "id": "C32",
+      "tipo": "voltar-ao-normal",
+      "fala": "E quando você quiser usar o Claude de verdade, é só abrir o terminal e rodar claude, sem o ollama launch, e entrar com a sua conta.",
+      "dados": {
+        "bg": "pexels/dinheiro.mp4",
+        "a": {
+          "ao": "sem"
+        },
+        "b": {
+          "ao": "claude#2"
+        },
+        "conta": {
+          "ao": "conta"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C33",
+      "tipo": "resumo",
+      "fala": "Resumindo: instalou o Ollama, instalou o Claude Code, baixou um modelo e rodou um comando. Zero assinatura. É o jeito mais barato de começar com um agente de inteligência artificial que cria sites, sistemas e conteúdo.",
+      "dados": {
+        "bg": "pexels/teclado.mp4",
+        "itens": [
+          {
+            "ao": "Ollama",
+            "t": "Instalou o Ollama"
+          },
+          {
+            "ao": "Code",
+            "t": "Instalou o Claude Code"
+          },
+          {
+            "ao": "baixou",
+            "t": "Baixou um modelo"
+          },
+          {
+            "ao": "rodou",
+            "t": "Rodou um comando"
+          }
+        ],
+        "zero": {
+          "ao": "Zero"
+        }
+      }
+    },
+    {
+      "id": "C34",
+      "tipo": "cta-final",
+      "fala": "Se esse vídeo te ajudou, deixa o like, se inscreve no Aprenda YouTube e comenta guia completo, se você quer o vídeo sobre transformar o Claude Code em um agente completo. E me conta: qual projeto você vai criar primeiro? Até o próximo vídeo!",
+      "dados": {
+        "bg": "pexels/robo.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        },
+        "guia": {
+          "ao": "guia"
+        },
+        "q": {
+          "ao": "projeto"
+        }
+      }
+    }
+  ]
+}
