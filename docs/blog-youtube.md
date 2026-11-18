@@ -30,6 +30,7 @@ Arquivo `/root/.config/phanterai-blog/config.json`, modo 0600:
 {
   "start_at": "2026-11-18T20:12:00Z",
   "blog_url": "https://phanterai.com",
+  "blog_api_url": "https://api.phanterai.com",
   "blog_email": "<usuário autorizado do blog>",
   "blog_password": "<senha armazenada apenas neste arquivo>",
   "category_id": "<id de uma categoria existente>"
@@ -78,11 +79,11 @@ log do Codex. Esses arquivos não vão para o Git.
 
 O teste confirmou o vídeo `CvBU1nv7W7w` público e encontrou
 `public/phanterai/episodes/long-videos/2026-11-18-claude-code-gratis/roteiro.json`.
-O artigo foi gerado e validado localmente.
+O artigo foi gerado, revisado e validado localmente, com 924 palavras.
 
-A hospedagem de `phanterai.com` está configurada como Vite estático: o build
-publica apenas `dist`, não inicia o servidor Express presente no código. Não há
-variáveis de ambiente Node configuradas. `/blog` retorna o frontend, mas
-`/api/posts` e `/api/categories` retornam HTTP 404. O publicador precisa que o
-backend do blog esteja ativo e que os dados de acesso/categoria sejam configurados.
-Enquanto isso, mantém a fila e o artigo sem alegar publicação concluída.
+A API foi separada do frontend: `blog_api_url` recebe a origem da API no VPS,
+enquanto `blog_url` continua sendo a origem pública dos artigos. O MongoDB
+instalado no VPS atende o banco exclusivo `phanterai_blog`, apenas por loopback.
+O backend tem serviço próprio `phanterai-backend` e HTTPS em `api.phanterai.com`;
+o frontend permanece na Hostinger, compilado com `VITE_API_BASE_URL` apontando
+para essa API. Configuração e bootstrap em `/root/phanterai/deploy/README.md`.

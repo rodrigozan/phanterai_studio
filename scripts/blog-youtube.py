@@ -231,14 +231,15 @@ def find_post(base, slug):
 
 
 def publish(video, article, config):
-    base = config['blog_url'].rstrip('/')
+    base = config.get('blog_api_url', config['blog_url']).rstrip('/')
+    public_base = config['blog_url'].rstrip('/')
     slug = 'youtube-' + video['id'].lower()  # Unique stable key, including after a lost POST response.
     existing = find_post(base, slug)
     if existing:
         validate(existing, video['id'])
         if existing.get('status') != 'published':
             raise ValueError('Artigo existente não está publicado; não sobrescrevo')
-        return base + '/blog/' + slug
+        return public_base + '/blog/' + slug
     # Fail before POST if the production API is absent or login is unavailable.
     categories = request_json(base + '/api/categories')
     category = config.get('category_id')
@@ -260,7 +261,7 @@ def publish(video, article, config):
     if not confirmed or confirmed.get('status') != 'published':
         raise RuntimeError('POST enviado, mas artigo ainda não confirmado publicamente')
     validate(confirmed, video['id'])
-    return base + '/blog/' + slug
+    return public_base + '/blog/' + slug
 
 
 def work(db, config):

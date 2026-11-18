@@ -73,6 +73,13 @@ class BlogTest(unittest.TestCase):
         self.assertIn('/blog/youtube-', url)
         request.assert_not_called()
 
+    def test_separate_api_host_preserves_public_blog_link(self):
+        self.config['blog_api_url'] = 'https://api.blog.example'
+        with patch.object(blog, 'find_post', return_value={**article(), 'status': 'published'}) as find:
+            url = blog.publish(video(), article(), self.config)
+        self.assertTrue(url.startswith('https://blog.example/blog/'))
+        self.assertEqual(find.call_args.args[0], 'https://api.blog.example')
+
     def test_private_video_blocks_post_after_generation(self):
         with patch.object(blog, 'find_post', return_value=None), \
              patch.object(blog, 'request_json', side_effect=[[], {'token': 'test'}]) as request, \
