@@ -16,6 +16,7 @@ import { ShortHeadOfContent, CapaHeadOfContent, HOC_FPS, calculateHeadOfContentM
 import { ShortSeisSistemas, CapaSeisSistemas, SSC_FPS, calculateSeisSistemasMetadata } from "./short/ShortSeisSistemas";
 import { ShortClaudeMods, CapaClaudeMods, SCM_FPS, calculateClaudeModsMetadata } from "./short/ShortClaudeMods";
 import { ShortOpuscar, CapaOpuscar, SOP_FPS, calculateOpuscarMetadata } from "./short/ShortOpuscar";
+import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
 import { LongCapa } from "./long/Capa";
@@ -181,6 +182,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateOpuscarMetadata}
   />
   <Composition id="CapaOpuscar" component={CapaOpuscar} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortPrimeiroAgente"
+    component={ShortPrimeiroAgente}
+    width={1080}
+    height={1920}
+    fps={SPA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculatePrimeiroAgenteMetadata}
+  />
+  <Composition id="CapaPrimeiroAgente" component={CapaPrimeiroAgente} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
