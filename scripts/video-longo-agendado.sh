@@ -22,6 +22,7 @@ PUBLISH_AT="$(date -u -d "$DATA $HORA_BRT -03:00" +%Y-%m-%dT%H:%M:%SZ)"
 mkdir -p "$LOGDIR" "$REELDIR"
 LOG="$LOGDIR/$DATA.log"
 FEITO="$LOGDIR/$DATA.json"
+ok() { [ -e "$FEITO" ] && python3 -I -c 'import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get("status") in ("agendado","publicado") else 1)' "$FEITO" 2>/dev/null; }
 log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }
 
 PROMPT="Rodada agendada do vídeo longo da PhanterAI. Ninguém está acompanhando: não faça perguntas, não espere aprovação de ninguém, decida e registre.
@@ -48,20 +49,31 @@ if [ "$DRY" = "--dry-run" ]; then
   echo "== $DATA =="; echo "$PROMPT"; exit 0
 fi
 
-if [ -e "$FEITO" ]; then log "vídeo longo de $DATA já tem resultado em $FEITO; não refaço"; exit 0; fi
+if ok; then log "vídeo longo de $DATA já agendado/publicado ($FEITO); não refaço"; exit 0; fi
 
 # Compartilha o lock dos reels: render pesado e reels não rodam juntos (3 processos já estouraram a memória).
 exec 9>"$REELDIR/.lock"
 if ! flock -w 3600 9; then log "outro render ainda rodando depois de 60 min; desisti de $DATA"; exit 1; fi
 
-log "iniciando vídeo longo $DATA (publishAt $PUBLISH_AT)"
+MAX=2   # tentativas seguidas, de até 2h cada
 cd "$STUDIO"
-set +e
-IS_SANDBOX=1 timeout 6h claude -p "$PROMPT" --permission-mode bypassPermissions >>"$LOG" 2>&1
-RC=$?
-set -e
-log "claude terminou com código $RC"
-if [ ! -e "$FEITO" ]; then
-  printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$DATA" "$RC" "$LOG" >"$FEITO"
-fi
-exit "$RC"
+RC=1
+for T in $(seq 1 $MAX); do
+  log "iniciando vídeo longo $DATA, tentativa $T/$MAX (publishAt $PUBLISH_AT)"
+  P="$PROMPT"
+  if [ "$T" -gt 1 ]; then P="$PROMPT
+
+ATENÇÃO: esta é a tentativa $T de $MAX. A anterior falhou (ver $LOG e $FEITO.tentativa$((T-1))). Reaproveite o que já existe na pasta do episódio (roteiro, voz, prints), corrija a causa da falha e termine o processo. Se o vídeo deste dia já estiver agendado no YouTube, não suba outro: só grave o resultado."; fi
+  set +e
+  IS_SANDBOX=1 timeout 2h claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1
+  RC=$?
+  set -e
+  log "claude terminou com código $RC (tentativa $T)"
+  if [ ! -e "$FEITO" ]; then
+    printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$DATA" "$RC" "$LOG" >"$FEITO"
+  fi
+  if ok; then log "vídeo longo $DATA ok"; exit 0; fi
+  [ "$T" -lt "$MAX" ] && mv -f "$FEITO" "$FEITO.tentativa$T"
+done
+log "vídeo longo $DATA NÃO foi agendado depois de $MAX tentativas"
+exit 1

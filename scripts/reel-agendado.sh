@@ -22,6 +22,7 @@ mkdir -p "$LOGDIR"
 ID="$DATA-${HORA/:/}"
 LOG="$LOGDIR/$ID.log"
 FEITO="$LOGDIR/$ID.json"
+ok() { [ -e "$FEITO" ] && python3 -I -c 'import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get("status") in ("agendado","publicado") else 1)' "$FEITO" 2>/dev/null; }
 log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }
 
 ITEM="$(python3 -I - "$CAL" "$DATA" "$HORA" <<'PY'
@@ -36,7 +37,7 @@ PY
 if [ -z "$ITEM" ]; then log "sem reel no calendário para $DATA $HORA; nada a fazer"; exit 0; fi
 STATUS="$(python3 -I -c 'import json,sys; print(json.loads(sys.argv[1])["status"])' "$ITEM")"
 if [ "$STATUS" != "pendente" ]; then log "reel $ID com status '$STATUS'; pulando"; exit 0; fi
-if [ -e "$FEITO" ]; then log "reel $ID já tem resultado em $FEITO; não refaço"; exit 0; fi
+if ok; then log "reel $ID já agendado/publicado ($FEITO); não refaço"; exit 0; fi
 
 PROMPT="$(python3 -I - "$ITEM" "$FEITO" <<'PY'
 import json, sys
@@ -69,18 +70,29 @@ if [ "$DRY" = "--dry-run" ]; then
   echo "== $ID =="; echo "$PROMPT"; exit 0
 fi
 
-# Um reel por vez: se o anterior ainda estiver renderizando, espera até 40 min.
+# Um reel por vez: se o anterior ainda estiver renderizando, espera até 5h.
 exec 9>"$LOGDIR/.lock"
-if ! flock -w 2400 9; then log "outro reel ainda está rodando depois de 40 min; desisti de $ID"; exit 1; fi
+if ! flock -w 18000 9; then log "outro reel ainda está rodando depois de 5h; desisti de $ID"; exit 1; fi
 
-log "iniciando $ID"
+MAX=3   # tentativas seguidas, de até 40 min cada
 cd "$STUDIO"
-set +e
-IS_SANDBOX=1 timeout 90m claude -p "$PROMPT" --permission-mode bypassPermissions >>"$LOG" 2>&1
-RC=$?
-set -e
-log "claude terminou com código $RC"
-if [ ! -e "$FEITO" ]; then
-  printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$ID" "$RC" "$LOG" >"$FEITO"
-fi
-exit "$RC"
+RC=1
+for T in $(seq 1 $MAX); do
+  log "iniciando $ID, tentativa $T/$MAX"
+  P="$PROMPT"
+  if [ "$T" -gt 1 ]; then P="$PROMPT
+
+ATENÇÃO: esta é a tentativa $T de $MAX. A anterior falhou (ver $LOG e $FEITO.tentativa$((T-1))). Reaproveite o que já existe na pasta do reel, corrija a causa da falha e termine. Se este reel já estiver agendado no Instagram/YouTube, não suba outro: só grave o resultado. Se o tema não se confirmar em fonte primária, escolha outro tema de IA do calendário para este horário."; fi
+  set +e
+  IS_SANDBOX=1 timeout 40m claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1
+  RC=$?
+  set -e
+  log "claude terminou com código $RC (tentativa $T)"
+  if [ ! -e "$FEITO" ]; then
+    printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$ID" "$RC" "$LOG" >"$FEITO"
+  fi
+  if ok; then log "reel $ID ok"; exit 0; fi
+  [ "$T" -lt "$MAX" ] && mv -f "$FEITO" "$FEITO.tentativa$T"
+done
+log "reel $ID NÃO foi agendado depois de $MAX tentativas"
+exit 1
