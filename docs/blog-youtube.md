@@ -79,7 +79,12 @@ log do Codex. Esses arquivos não vão para o Git.
 
 O teste confirmou o vídeo `CvBU1nv7W7w` público e encontrou
 `public/phanterai/episodes/long-videos/2026-11-18-claude-code-gratis/roteiro.json`.
-O artigo foi gerado, revisado e validado localmente, com 924 palavras.
+O artigo foi gerado, revisado e publicado com 924 palavras:
+https://phanterai.com/blog/youtube-cvbu1nv7w7w
+
+A leitura pública confirmou o conteúdo e o link do vídeo. A fila marcou o ID
+como `published`, e a conferência em Chromium confirmou o artigo completo,
+sua presença na listagem do blog e o login administrativo no frontend publicado.
 
 A API foi separada do frontend: `blog_api_url` recebe a origem da API no VPS,
 enquanto `blog_url` continua sendo a origem pública dos artigos. O MongoDB
