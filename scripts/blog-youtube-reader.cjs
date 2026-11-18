@@ -31,6 +31,8 @@ async function main() {
     const data = await read(() => api.videos.list({id: [process.argv[3]], part: ['snippet', 'status']}));
     const v = data.items?.[0];
     process.stdout.write(JSON.stringify({id: v?.id, channelId: v?.snippet?.channelId,
+      title: v?.snippet?.title, description: v?.snippet?.description,
+      publishedAt: v?.snippet?.publishedAt, publishAt: v?.status?.publishAt || null,
       privacyStatus: v?.status?.privacyStatus, uploadStatus: v?.status?.uploadStatus}));
     return;
   }
@@ -71,6 +73,7 @@ async function main() {
       states[v.id] = v.status?.privacyStatus;
       items.push({id: v.id, title: v.snippet.title, description: v.snippet.description,
         publishedAt: v.snippet.publishedAt, privacyStatus: v.status?.privacyStatus,
+        publishAt: v.status?.publishAt || null,
         uploadStatus: v.status?.uploadStatus, videoPath: paths.get(v.id) || null});
     }
   }

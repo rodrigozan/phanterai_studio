@@ -1,9 +1,24 @@
-# Vídeo público → artigo do blog
+# Vídeo agendado → artigo preparado e agendado
 
 `scripts/blog-youtube-cron.sh` roda a cada minuto no VPS. O detector lê o canal
 `UCYHsuiYTaYCV_bfuyvW86Kw` diretamente no YouTube usando a conexão OAuth já
 armazenada no Phantertools. Nenhum status de vídeo é alterado. Longos e Shorts
-entram na mesma fila ao ficarem públicos.
+entram na fila quando são agendados (`private` + `publishAt`). Se um vídeo for
+publicado diretamente, o fluxo anterior continua como recuperação.
+
+O artigo é escrito antecipadamente a partir do roteiro e da descrição, com pelo
+menos 500 palavras, passo a passo organizado e os links originais de apoio. Ele
+é salvo no blog com status `scheduled`, a data do vídeo, a assinatura Rod Zandonadi
+e o ID necessário ao player incorporado. A URL definitiva já fica reservada para
+ser incluída na descrição do YouTube. Antes da estreia, essa URL não expõe o texto
+publicamente; o artigo fica no painel administrativo como **Agendado**.
+
+Na estreia, o cron só precisa confirmar o vídeo público e liberar o artigo pronto.
+Não chama a IA novamente. A conferência acontece a cada minuto, portanto pode haver
+um pequeno intervalo após o YouTube liberar o vídeo; não é sincronização por webhook.
+Se o horário mudar, a data do artigo é atualizada sem trocar URL ou reescrever
+edições humanas. Se o agendamento for cancelado, o artigo volta a rascunho e
+permanece oculto. A passagem do relógio, sozinha, nunca publica um vídeo ainda privado.
 
 O detector e o publicador têm locks separados: gerar um artigo não impede a
 detecção do próximo vídeo. A fila SQLite persiste reinícios e só marca publicado
@@ -14,8 +29,8 @@ O roteiro é associado primeiro pelo caminho real do arquivo enviado ao YouTube;
 como alternativa, por título exato nos metadados locais. Sem associação inequívoca,
 a tarefa fica pendente. A descrição do YouTube complementa o roteiro, mas não o
 substitui. O Codex CLI gera JSON em modo de leitura. O publicador valida HTML,
-link do vídeo e pelo menos 500 palavras visíveis, e confere novamente o status
-público no YouTube imediatamente antes de enviar ao blog.
+link do vídeo, os links de apoio e pelo menos 500 palavras visíveis. Confere
+novamente o YouTube antes de salvar o agendamento ou efetivar a publicação.
 
 Toda nova publicação usa a assinatura **Rod Zandonadi** e salva `youtubeVideoId`.
 O frontend monta o player incorporado na seção “Assista ao vídeo”, mantém o link
@@ -24,8 +39,9 @@ O contador do blog registra aberturas do artigo por sessão; leituras da API fei
 pelo publicador não incrementam visualizações. Não representa views do YouTube.
 
 O slug `youtube-<videoId em minúsculas>` é fixo, e o banco do blog já exige slug
-único. Uma resposta perdida do POST é recuperada lendo esse slug antes de tentar
-novamente. Um artigo existente nunca é sobrescrito automaticamente. O link do
+único. Uma resposta perdida do POST é recuperada consultando o artigo público ou
+administrativo antes de tentar novamente. O texto existente nunca é sobrescrito
+automaticamente; só status e horário são conciliados com o vídeo. O link do
 vídeo original é validado também na recuperação, impedindo associação incorreta.
 
 ## Configuração privada
@@ -74,12 +90,32 @@ O cron recarrega esse arquivo automaticamente; não precisa reiniciar vídeos ou
 python3 -I scripts/blog-youtube.py --scan
 python3 -I scripts/blog-youtube.py --work
 python3 -I scripts/blog-youtube.py --prepare CvBU1nv7W7w
+python3 -I scripts/blog-youtube.py --link ID_DO_VIDEO
+python3 -I scripts/blog-youtube.py --schedule ID_DO_VIDEO
 python3 -m unittest discover -s scripts -p test_blog_youtube.py -v
 ```
 
 Resultados privados em `out/phanterai/blog/`: `jobs.sqlite`, `scan-health.json`,
 `videos.json`, `cron.log` e uma pasta por vídeo com artigo, prompt, validação e
 log do Codex. Esses arquivos não vão para o Git.
+
+## Integração com a criação do vídeo
+
+Depois de obter o ID e confirmar o agendamento do YouTube, a receita de criação
+pode chamar `--schedule ID_DO_VIDEO`. O comando só termina com sucesso quando
+o artigo está confirmado como agendado ou publicado; imprime JSON com `url`,
+`status`, `publishAt`, `post_id` e `video_id`. Erros e trabalho ainda pendente
+retornam código diferente de zero, para que o criador não prometa material inexistente.
+`--link ID_DO_VIDEO` devolve a mesma URL imediatamente, sem gerar ou publicar texto.
+
+O resultado também fica em `out/phanterai/blog/<ID>/publication.json` e
+`blog-link.txt`. Quando o roteiro é localizado, esses dois dados são exportados
+para a pasta do episódio como `blog-publication.json` e `blog-link.txt`.
+São arquivos gerados, ignorados pelo Git. O cron cobre automaticamente o caso em
+que a criação ainda não chama `--schedule`.
+
+A alteração do roteiro/skill de criação e a inserção do link na descrição do
+YouTube são uma etapa separada; este fluxo não edita nem publica metadados de vídeos.
 
 ## Estado da publicação em 18/11/2026
 

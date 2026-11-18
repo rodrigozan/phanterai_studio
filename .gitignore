@@ -29,3 +29,7 @@ public/*/episodes/*/timeline.json
 
 # Staging temporário dos cortes usados no acabamento Shotcraft
 /public/shotcraft-runs/
+
+# Generated blog scheduling receipts for the video creation workflow
+/public/phanterai/episodes/**/blog-publication.json
+/public/phanterai/episodes/**/blog-link.txt
