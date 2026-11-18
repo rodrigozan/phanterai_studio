@@ -14,6 +14,7 @@ import { ShortGoogleFlow, CapaGoogleFlow, GFL_FPS, calculateGoogleFlowMetadata }
 import { ShortChatgptWallet, CapaChatgptWallet, CWL_FPS, calculateChatgptWalletMetadata } from "./short/ShortChatgptWallet";
 import { ShortHeadOfContent, CapaHeadOfContent, HOC_FPS, calculateHeadOfContentMetadata } from "./short/ShortHeadOfContent";
 import { ShortSeisSistemas, CapaSeisSistemas, SSC_FPS, calculateSeisSistemasMetadata } from "./short/ShortSeisSistemas";
+import { ShortClaudeMods, CapaClaudeMods, SCM_FPS, calculateClaudeModsMetadata } from "./short/ShortClaudeMods";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 
 export const ComposicoesPhanterAI = () => (
@@ -144,6 +145,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateSeisSistemasMetadata}
   />
   <Composition id="CapaSeisSistemas" component={CapaSeisSistemas} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortClaudeMods"
+    component={ShortClaudeMods}
+    width={1080}
+    height={1920}
+    fps={SCM_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateClaudeModsMetadata}
+  />
+  <Composition id="CapaClaudeMods" component={CapaClaudeMods} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
