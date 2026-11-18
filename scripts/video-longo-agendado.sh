@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+# video-longo-agendado.sh - disparado pelo cron seg/qua/sex às 01:00 de Brasília (04:00 UTC).
+# Aciona o Claude Code para rodar a skill make-long-videos-phanterai do começo ao fim, direto em 1080p (sem rascunho),
+# e subir o vídeo agendado (private + publishAt) para o mesmo dia às 12:16 de Brasília (15:16 UTC).
+#
+#   scripts/video-longo-agendado.sh             roda o vídeo longo de hoje (Brasília)
+#   scripts/video-longo-agendado.sh --dry-run   só mostra o prompt (não chama o Claude)
+#   DATA=2026-11-20 scripts/video-longo-agendado.sh --dry-run
+set -euo pipefail
+
+export HOME=/root
+export PATH="/root/.local/bin:/root/.nvm/versions/node/v22.23.3/bin:/usr/local/bin:/usr/bin:/bin"
+STUDIO=/root/phanterai_studio
+MARCA="${MARCA:-phanterai}"
+LOGDIR="$STUDIO/out/$MARCA/agendador-longos"
+REELDIR="$STUDIO/out/$MARCA/agendador"
+DRY="${1:-}"
+DATA="${DATA:-$(TZ=America/Sao_Paulo date +%F)}"
+HORA_BRT="12:16"
+PUBLISH_AT="$(date -u -d "$DATA $HORA_BRT -03:00" +%Y-%m-%dT%H:%M:%SZ)"
+
+mkdir -p "$LOGDIR" "$REELDIR"
+LOG="$LOGDIR/$DATA.log"
+FEITO="$LOGDIR/$DATA.json"
+log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }
+
+PROMPT="Rodada agendada do vídeo longo da PhanterAI. Ninguém está acompanhando: não faça perguntas, não espere aprovação de ninguém, decida e registre.
+
+Use a skill make-long-videos-phanterai e siga o fluxo dela do começo ao fim para criar, renderizar e agendar UM vídeo longo.
+
+Vídeo de hoje
+- Data (Brasília): $DATA
+- Publicação: $DATA às $HORA_BRT de Brasília (UTC-3) = publishAt $PUBLISH_AT (sempre private + publishAt, canal Aprenda YouTube)
+- Slug: $DATA-<tema-curto>
+
+Regras desta rodada (valem acima do que a skill diz sobre pedir aprovação)
+1. Tema: escolha você mesmo, sem esperar aprovação. Pesquise o que está viral na semana no YouTube gringo (passo 1 da skill, sem vidIQ, usando as skills yt-*), escolha o melhor candidato dentro do nicho de IA/ferramentas que ensinam o público a criar, e confira em $STUDIO/public/phanterai/episodes/long-videos/ que o tema ainda não foi feito. Nunca repita tema.
+2. Valide o método na fonte oficial ANTES de escrever (passo 2 da skill). Se não der para confirmar em fonte primária, NÃO gere narração, NÃO renderize e NÃO publique: grave o motivo no arquivo de resultado e encerre.
+3. NÃO faça rascunho. Pule o passo 11 (render a 0,5 e envio ao Rod). Depois dos stills conferidos e corrigidos, vá direto para a versão final em 1080p (passo 13), capa, pacote e upload agendado.
+4. Siga todas as regras de tom, visual, áudio e sincronismo da skill (passos 3 a 10 e 12). Gaste crédito de voz uma vez só, depois de fechar o texto.
+5. Se na hora de subir faltar menos de 10 minutos para $PUBLISH_AT (ou já tiver passado), agende para 15 minutos depois do momento atual.
+6. Nunca refaça nem republique o que já foi publicado ou agendado. Antes de subir, confira na API do canal se o slug/título já existe.
+7. Memória do servidor: render sempre com a concorrência padrão do long-render.mjs, nunca rode dois renders ao mesmo tempo.
+8. Depois de agendar, confira na API e faça commit + push do código novo por nome de arquivo (nunca mídia nem renders).
+9. Ao terminar, grave $FEITO com: slug, titulo_final, fontes (urls), horario_agendado, id e link do YouTube, e \"status\" (\"agendado\", \"publicado\" ou \"nao_publicado\" com o motivo). Grave esse arquivo mesmo em caso de falha."
+
+if [ "$DRY" = "--dry-run" ]; then
+  echo "== $DATA =="; echo "$PROMPT"; exit 0
+fi
+
+if [ -e "$FEITO" ]; then log "vídeo longo de $DATA já tem resultado em $FEITO; não refaço"; exit 0; fi
+
+# Compartilha o lock dos reels: render pesado e reels não rodam juntos (3 processos já estouraram a memória).
+exec 9>"$REELDIR/.lock"
+if ! flock -w 3600 9; then log "outro render ainda rodando depois de 60 min; desisti de $DATA"; exit 1; fi
+
+log "iniciando vídeo longo $DATA (publishAt $PUBLISH_AT)"
+cd "$STUDIO"
+set +e
+IS_SANDBOX=1 timeout 6h claude -p "$PROMPT" --permission-mode bypassPermissions >>"$LOG" 2>&1
+RC=$?
+set -e
+log "claude terminou com código $RC"
+if [ ! -e "$FEITO" ]; then
+  printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$DATA" "$RC" "$LOG" >"$FEITO"
+fi
+exit "$RC"
