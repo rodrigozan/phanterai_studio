@@ -18,6 +18,7 @@ import { ShortClaudeMods, CapaClaudeMods, SCM_FPS, calculateClaudeModsMetadata }
 import { ShortOpuscar, CapaOpuscar, SOP_FPS, calculateOpuscarMetadata } from "./short/ShortOpuscar";
 import { ShortQuadroBranco, CapaQuadroBranco, SQB_FPS, calculateQuadroBrancoMetadata } from "./short/ShortQuadroBranco";
 import { ShortGameStudios, CapaGameStudios, SGS_FPS, calculateGameStudiosMetadata } from "./short/ShortGameStudios";
+import { ShortDezNegocios, CapaDezNegocios, SDN_FPS, calculateDezNegociosMetadata } from "./short/ShortDezNegocios";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -217,6 +218,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateGameStudiosMetadata}
   />
   <Composition id="CapaGameStudios" component={CapaGameStudios} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortDezNegocios"
+    component={ShortDezNegocios}
+    width={1080}
+    height={1920}
+    fps={SDN_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateDezNegociosMetadata}
+  />
+  <Composition id="CapaDezNegocios" component={CapaDezNegocios} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
