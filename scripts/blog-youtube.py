@@ -379,6 +379,10 @@ def publish(video, article, config):
 def save_receipt(video, receipt):
     folder = OUT / video['id']
     folder.mkdir(exist_ok=True)
+    proof_path = folder / 'description-link.json'
+    if proof_path.exists():
+        proof = json.loads(proof_path.read_text())
+        receipt = {**receipt, 'description_linked': proof.get('verified') is True and proof.get('url') == receipt['url']}
     data = {'youtube_id': video['id'], **receipt, 'updated_at': datetime.now(timezone.utc).isoformat()}
     atomic_json(folder / 'publication.json', data)
     (folder / 'blog-link.txt').write_text(receipt['url'] + '\n')
@@ -399,6 +403,67 @@ def fresh_snapshot():
         return (datetime.now(timezone.utc) - parse_date(value['checked_at'])).total_seconds() < 90
     except (OSError, ValueError, KeyError, TypeError):
         return False
+
+
+def link_descriptions(db, config, only_id=None):
+    """Independent retries: a YouTube failure must never undo a ready article."""
+    if not config.get('link_descriptions_enabled'):
+        return
+    handle = lock('descriptions')
+    if not handle:
+        return
+    try:
+        snapshot = json.loads((OUT / 'videos.json').read_text()) if (OUT / 'videos.json').exists() else {'items': []}
+        observed = {v['id']: v for v in snapshot['items']}
+        for row in db.execute("SELECT * FROM jobs WHERE status IN ('scheduled','published')").fetchall():
+            if only_id and row['id'] != only_id:
+                continue
+            folder = OUT / row['id']
+            folder.mkdir(exist_ok=True)
+            receipt_path = folder / 'description-link.json'
+            receipt = json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
+            current = observed.get(row['id'])
+            # Recheck removal using the scanner's existing reads, without spending extra quota.
+            if receipt.get('verified') and receipt.get('url') == row['article_url']:
+                if not current or snapshot.get('checkedAt', '') <= receipt.get('checked_at', ''):
+                    continue
+                urls = re.findall(r'https://[^\s<>"\']+', current.get('description', ''))
+                target = urlsplit(row['article_url'])
+                if any((urlsplit(u.rstrip(').,;!')).netloc, urlsplit(u.rstrip(').,;!')).path) ==
+                       (target.netloc, target.path) for u in urls):
+                    continue
+            if not only_id and receipt.get('next_attempt', 0) > datetime.now(timezone.utc).timestamp():
+                continue
+            try:
+                url = article_url(row['id'], config)
+                if row['article_url'] != url:
+                    raise ValueError('URL do artigo não corresponde ao vídeo')
+                base = config.get('blog_api_url', config['blog_url']).rstrip('/')
+                post = find_post(base, 'youtube-' + row['id'].lower())
+                if not post:
+                    login = request_json(base + '/api/auth/login', 'POST',
+                        {'email': config['blog_email'], 'password': config['blog_password']})
+                    post = find_admin_post(base, 'youtube-' + row['id'].lower(), login['token'])
+                if not post or post.get('status') not in ('scheduled', 'published') or post.get('youtubeVideoId') != row['id']:
+                    raise ValueError('Artigo vinculado ainda não está pronto')
+                validate(post, row['id'])
+                result = subprocess.run(['node', str(ROOT / 'scripts/blog-youtube-description.cjs'),
+                    row['id'], url, str(folder)], capture_output=True, text=True, timeout=120)
+                if result.returncode:
+                    raise RuntimeError(result.stderr[-1000:])
+                proof = json.loads(result.stdout)
+                if proof.get('verified') is not True or proof.get('url') != url or proof.get('video_id') != row['id']:
+                    raise ValueError('Confirmação da descrição inválida')
+                atomic_json(receipt_path, proof)
+                save_receipt(json.loads(row['video']), {'url': url, 'post_id': row['post_id'],
+                    'status': row['status'], 'publishAt': row['publish_at'], 'description_linked': True})
+                log.info('Descrição vinculada: %s', row['id'])
+            except Exception as error:
+                atomic_json(receipt_path, {'verified': False, 'error': str(error)[:1000],
+                    'next_attempt': datetime.now(timezone.utc).timestamp() + 300})
+                log.error('Descrição pendente %s: %s', row['id'], error)
+    finally:
+        handle.close()
 
 
 def work(db, config, only_id=None):
@@ -482,11 +547,16 @@ def main():
             queue_video(db, video, config)
             db.commit()
             work(db, config, only_id=requested)
+            link_descriptions(db, config, only_id=requested)
             row = db.execute('SELECT * FROM jobs WHERE id=?', (requested,)).fetchone()
             if row['status'] not in ('scheduled', 'published'):
                 raise RuntimeError('Artigo ainda não confirmado: ' + (row['error'] or row['status']))
+            proof_path = OUT / requested / 'description-link.json'
+            proof = json.loads(proof_path.read_text()) if proof_path.exists() else {}
+            if not config.get('link_descriptions_enabled') or not proof.get('verified') or proof.get('url') != row['article_url']:
+                raise RuntimeError('Vídeo/artigo preservados; link na descrição ainda pendente: ' + proof.get('error', 'sem confirmação'))
             print(json.dumps({'video_id': requested, 'status': row['status'], 'url': row['article_url'],
-                              'publishAt': row['publish_at'], 'post_id': row['post_id']}, ensure_ascii=False))
+                              'publishAt': row['publish_at'], 'post_id': row['post_id'], 'description_linked': True}, ensure_ascii=False))
             return
         article = prepare(video)
         print(json.dumps({'video_id': video['id'], 'words': validate(article, video['id']),
@@ -496,6 +566,7 @@ def main():
         scan(db, config)
     if not args.scan:
         work(db, config)
+        link_descriptions(db, config)
 
 
 if __name__ == '__main__':
