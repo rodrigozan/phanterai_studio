@@ -15,5 +15,31 @@
     "episodios": "public/rodzandonadi/episodes",
     "musicas": "public/rodzandonadi/music",
     "saida": "out/rodzandonadi"
+  },
+  "identidadeVisual": {
+    "documento": "marcas/rodzandonadi/assets/rodzandonadi_ent2.pdf",
+    "guia": "marcas/rodzandonadi/IDENTIDADE-VISUAL.md",
+    "autoria": "Estúdio Taco",
+    "ano": 2021,
+    "atributos": [
+      "geek",
+      "jovem",
+      "contemporânea",
+      "objetiva"
+    ],
+    "tipografia": {
+      "familia": "Darker Grotesk",
+      "uso": "Base do logotipo conforme o PDF; o desenho original deve ser preservado."
+    },
+    "cores": {
+      "roxoEscuro": "#1F0526",
+      "roxo": "#572173",
+      "amarelo": "#F2CC45",
+      "preto": "#241F21",
+      "cinza": "#DEDEDE",
+      "branco": "#FFFFFF"
+    },
+    "origemCores": "Valores RGB extraídos dos elementos vetoriais da página 2 do PDF; o documento não apresenta códigos de cor por escrito.",
+    "simbolo": "Monograma R/Z inspirado em hieróglifos e runas, com versões circular e retangular."
   }
 }
