@@ -1,0 +1,19 @@
+{
+  "id": "rodzandonadi",
+  "nome": "Rod Zandonadi",
+  "descricao": "Projeto do canal do YouTube e do perfil do Instagram @rodzandonadi.",
+  "contas": {
+    "instagram": "@rodzandonadi",
+    "youtube": {
+      "handle": "@rodzandonadi"
+    }
+  },
+  "pauta": [],
+  "pastas": {
+    "calendario": "marcas/rodzandonadi/calendario",
+    "publico": "public/rodzandonadi",
+    "episodios": "public/rodzandonadi/episodes",
+    "musicas": "public/rodzandonadi/music",
+    "saida": "out/rodzandonadi"
+  }
+}
