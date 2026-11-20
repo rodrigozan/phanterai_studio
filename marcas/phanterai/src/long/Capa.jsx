@@ -1,6 +1,7 @@
 // Capa (miniatura 1280x720) de um vídeo longo. Texto curto e que NÃO repete o título.
 import { AbsoluteFill, Img } from "remotion";
 import { colors } from "../theme";
+import { CapaV2 } from "./CapaV2";
 import { FONT, MONO, LARANJA, CIANO, pasta } from "./base";
 
 // Modo resultado: `shot` = quadro REAL do que o vídeo produz (sem foto de banco de imagem), ao lado da frase digitada.
@@ -17,7 +18,7 @@ const CapaResultado = ({ slug, shot, prompt, linha1, linha2, pose }) => (
   </AbsoluteFill>
 );
 
-export const LongCapa = ({ slug, bg = "pexels/capa-bg.jpg", linha1 = "R$ 0", linha2 = "SEM ASSINATURA", pose = "surpresa", size1 = 330, shot, prompt = "faz um vídeo pra mim" }) => shot ? <CapaResultado slug={slug} shot={shot} prompt={prompt} linha1={linha1} linha2={linha2} pose={pose} /> : (
+export const LongCapa = ({ variante, antes, depois, slug, bg = "pexels/capa-bg.jpg", linha1 = "R$ 0", linha2 = "SEM ASSINATURA", pose = "surpresa", size1 = 330, shot, prompt = "faz um vídeo pra mim" }) => variante ? <CapaV2 variante={variante} slug={slug} linha1={linha1} linha2={linha2} shot={shot} prompt={prompt} antes={antes} depois={depois} pose={opt_pose(variante, pose)} /> : shot ? <CapaResultado slug={slug} shot={shot} prompt={prompt} linha1={linha1} linha2={linha2} pose={pose} /> : (
   <AbsoluteFill style={{ background: colors.bgOuter }}>
     <Img src={pasta(slug, bg)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.15)" }} />
     <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(5,4,12,0.88) 0%, rgba(20,11,46,0.7) 55%, rgba(5,4,12,0.35) 100%)" }} />
@@ -30,3 +31,5 @@ export const LongCapa = ({ slug, bg = "pexels/capa-bg.jpg", linha1 = "R$ 0", lin
     <Img src={pasta(slug, "../../../pantera/" + pose + ".png")} style={{ position: "absolute", right: -30, bottom: -30, width: 480 }} />
   </AbsoluteFill>
 );
+
+const opt_pose = (v, pose) => (pose === "surpresa" ? (v === "b" ? "apontando" : "surpresa") : pose);

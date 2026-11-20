@@ -5,6 +5,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig 
 import { getAudioDurationInSeconds } from "@remotion/media-utils";
 import { colors } from "../theme";
 import { CENAS } from "./cenas";
+import { Corte } from "./cortes";
 import { Cena, Legendas, PanteraCtx, pasta } from "./base";
 
 const FALLBACK = { durationInFrames: 150, fps: 30, width: 1920, height: 1080 };
@@ -55,6 +56,9 @@ export const LongVideo = ({ slug, timeline }) => {
           </Sequence>
         );
       })}
+      {(timeline.cortes ?? []).map((c) => (
+        <Sequence key={c.id} from={c.startFrame} durationInFrames={c.endFrame - c.startFrame}><Corte slug={slug} c={c} /></Sequence>
+      ))}
       <Legendas palavras={timeline.words} />
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 50%, transparent 60%, rgba(5,4,12,0.5) 100%)", pointerEvents: "none" }} />
     </AbsoluteFill>
