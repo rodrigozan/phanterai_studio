@@ -8,13 +8,20 @@
       "handle": "@rodzandonadi"
     }
   },
-  "pauta": [],
+  "pauta": [
+    "Vídeo longo sem apresentador: narração em português, capturas de tela, clipes de tela e motion graphics.",
+    "Modelo de produção dos vídeos longos da PhanterAI, mas sem a marca PhanterAI (sem pantera, sem paleta neon).",
+    "Cena dirigida por cenas.json derivado do áudio real; sem comentários no código; yarn, nunca npm."
+  ],
   "pastas": {
     "calendario": "marcas/rodzandonadi/calendario",
     "publico": "public/rodzandonadi",
     "episodios": "public/rodzandonadi/episodes",
     "musicas": "public/rodzandonadi/music",
-    "saida": "out/rodzandonadi"
+    "saida": "out/rodzandonadi",
+    "referencias": "marcas/rodzandonadi/referencias",
+    "videos": "marcas/rodzandonadi/videos/<slug>",
+    "tema": "marcas/rodzandonadi/src/theme.js"
   },
   "identidadeVisual": {
     "documento": "marcas/rodzandonadi/assets/rodzandonadi_ent2.pdf",
@@ -41,5 +48,20 @@
     },
     "origemCores": "Valores RGB extraídos dos elementos vetoriais da página 2 do PDF; o documento não apresenta códigos de cor por escrito.",
     "simbolo": "Monograma R/Z inspirado em hieróglifos e runas, com versões circular e retangular."
-  }
+  },
+  "idioma": "pt-BR",
+  "video": {
+    "resolucao": "1920x1080",
+    "fps": 30,
+    "formato": "16:9"
+  },
+  "videos": [
+    {
+      "slug": "escrever-livro-com-ia",
+      "titulo": "Como escrever um livro com IA",
+      "roteiro": "marcas/rodzandonadi/videos/escrever-livro-com-ia/ROTEIRO.md",
+      "midia": "public/rodzandonadi/episodes/escrever-livro-com-ia",
+      "estado": "aguardando narração, capturas e clipes"
+    }
+  ]
 }

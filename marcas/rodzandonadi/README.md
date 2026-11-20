@@ -16,7 +16,12 @@ Projeto do YouTube e do Instagram @rodzandonadi no PhanterAI Studio.
 - Obter arquivos individuais do símbolo e do logotipo para produção.
 - Definir voz, trilhas e formatos para cada plataforma.
 
-O projeto ainda não tem composições Remotion, episódios ou publicações agendadas.
+## Vídeos
+
+- `escrever-livro-com-ia` — "Como escrever um livro com IA" (~9 min, 16:9). Roteiro em `videos/escrever-livro-com-ia/ROTEIRO.md`, pendências em `PENDENCIAS.md` na mesma pasta, mídia em `public/rodzandonadi/episodes/escrever-livro-com-ia/{audio,capturas,clipes,texto}`.
+- Tema por tokens (cores e fonte da identidade): `src/theme.js`. Prints do canal/Instagram vão em `referencias/` e prevalecem sobre o tema.
+
+O projeto ainda não tem composições Remotion nem publicações agendadas.
 Quando houver um formato definido, o código ficará em `marcas/rodzandonadi/src/`
 e suas composições serão registradas em `src/Root.jsx`.
 
