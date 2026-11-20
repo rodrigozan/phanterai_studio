@@ -1,0 +1,90 @@
+{
+ "fps": 30,
+ "total": 14523,
+ "cenas": [
+  {
+   "id": "S01",
+   "inicio": 0,
+   "fim": 768,
+   "inicioS": 0,
+   "fimS": 25.6
+  },
+  {
+   "id": "S02",
+   "inicio": 779,
+   "fim": 1498,
+   "inicioS": 25.95,
+   "fimS": 49.95
+  },
+  {
+   "id": "S03",
+   "inicio": 1509,
+   "fim": 2275,
+   "inicioS": 50.3,
+   "fimS": 75.82
+  },
+  {
+   "id": "S04",
+   "inicio": 2285,
+   "fim": 3687,
+   "inicioS": 76.17,
+   "fimS": 122.89
+  },
+  {
+   "id": "S05",
+   "inicio": 3697,
+   "fim": 4981,
+   "inicioS": 123.24,
+   "fimS": 166.04
+  },
+  {
+   "id": "S06",
+   "inicio": 4992,
+   "fim": 6374,
+   "inicioS": 166.39,
+   "fimS": 212.47
+  },
+  {
+   "id": "S07",
+   "inicio": 6385,
+   "fim": 7486,
+   "inicioS": 212.82,
+   "fimS": 249.54
+  },
+  {
+   "id": "S08",
+   "inicio": 7497,
+   "fim": 8867,
+   "inicioS": 249.89,
+   "fimS": 295.57
+  },
+  {
+   "id": "S09",
+   "inicio": 8878,
+   "fim": 10262,
+   "inicioS": 295.92,
+   "fimS": 342.08
+  },
+  {
+   "id": "S10",
+   "inicio": 10273,
+   "fim": 11638,
+   "inicioS": 342.43,
+   "fimS": 387.95
+  },
+  {
+   "id": "S11",
+   "inicio": 11649,
+   "fim": 13528,
+   "inicioS": 388.3,
+   "fimS": 450.94
+  },
+  {
+   "id": "S12",
+   "inicio": 13539,
+   "fim": 14523,
+   "inicioS": 451.29,
+   "fimS": 484.09
+  }
+ ]
+}
