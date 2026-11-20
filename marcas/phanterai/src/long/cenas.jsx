@@ -2,6 +2,7 @@
 // Tipo novo: crie o componente em cenas-a.jsx / cenas-b.jsx e registre aqui.
 import * as A from "./cenas-a";
 import * as B from "./cenas-b";
+import * as C from "./cenas-c";
 
 export const CENAS = {
   gancho: A.Gancho,
@@ -41,4 +42,13 @@ export const CENAS = {
   limites: B.Limites,
   "voltar-ao-normal": B.VoltarAoNormal,
   resumo: B.Resumo,
+  // genéricas (tudo vem do roteiro.json)
+  "gancho-video": C.GanchoVideo,
+  cartoes: C.Cartoes,
+  fluxo: C.Fluxo,
+  "navegador-print": C.NavegadorPrint,
+  "instalador-assistente": C.InstaladorAssistente,
+  terminal: C.Terminal,
+  "claude-pedido": C.ClaudePedido,
+  "studio-preview": C.StudioPreview,
 };

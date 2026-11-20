@@ -13,7 +13,7 @@ const pub = `/tmp/pub-capa-${slug}`;
 fs.rmSync(pub, { recursive: true, force: true });
 for (const rel of [`${MARCA}/pantera`, `${MARCA}/episodes/long-videos/${slug}`]) { fs.mkdirSync(path.dirname(`${pub}/${rel}`), { recursive: true }); fs.symlinkSync(path.resolve("public", rel), `${pub}/${rel}`); }
 const serveUrl = await bundle({ entryPoint: path.resolve("src/Root.jsx"), publicDir: pub });
-const inputProps = { slug, ...(opt("linha1") && { linha1: opt("linha1") }), ...(opt("linha2") && { linha2: opt("linha2") }) };
+const inputProps = { slug, ...(opt("linha1") && { linha1: opt("linha1") }), ...(opt("linha2") && { linha2: opt("linha2") }), ...(opt("size1") && { size1: opt("size1") }), ...(opt("pose") && { pose: opt("pose") }) };
 const composition = await selectComposition({ serveUrl, id: "LongCapa", inputProps });
 await renderStill({ composition, serveUrl, output: saida, inputProps, imageFormat: "jpeg", jpegQuality: 88 });
 console.log("capa:", saida, (fs.statSync(saida).size / 1e6).toFixed(2) + "MB");

@@ -219,12 +219,12 @@ export const Cta = ({ slug, d, pose }) => {
       <Cursor pontos={[{ f: d.like.em - 30, x: 900, y: 800 }, { f: d.like.em, x: 400, y: 470 }, { f: d.sub.em - 4, x: 400, y: 470 }, { f: d.sub.em + 4, x: 960, y: 470 }]} cliques={[d.like.em + 2, d.sub.em + 6]} />
       {d.guia ? (
         <Pop em={d.guia.em} sfx="coin" style={{ position: "absolute", left: 250, top: 600 }}>
-          <div style={{ background: colors.gold, color: "#140B2E", borderRadius: 40, padding: "18px 44px", ...FONT, textTransform: "none", fontSize: 54, boxShadow: "0 14px 40px rgba(0,0,0,0.45)" }}>Comente: Guia Completo</div>
+          <div style={{ background: colors.gold, color: "#140B2E", borderRadius: 40, padding: "18px 44px", ...FONT, textTransform: "none", fontSize: 54, boxShadow: "0 14px 40px rgba(0,0,0,0.45)" }}>{d.guiaTxt ?? "Comente: Guia Completo"}</div>
         </Pop>
       ) : null}
       {d.q ? (
         <Pop em={d.q.em} style={{ position: "absolute", left: 250, top: 750 }}>
-          <div style={{ background: "#fff", color: "#140B2E", borderRadius: 40, padding: "18px 44px", ...FONT, textTransform: "none", fontSize: 46, maxWidth: 1000, boxShadow: "0 14px 40px rgba(0,0,0,0.45)" }}>Qual projeto você vai criar primeiro?</div>
+          <div style={{ background: "#fff", color: "#140B2E", borderRadius: 40, padding: "18px 44px", ...FONT, textTransform: "none", fontSize: 46, maxWidth: 1000, boxShadow: "0 14px 40px rgba(0,0,0,0.45)" }}>{d.qTxt ?? "Qual projeto você vai criar primeiro?"}</div>
         </Pop>
       ) : null}
       <Pant pose={pose ?? "comemorando"} x={1620} y={730} w={470} em={6} />
