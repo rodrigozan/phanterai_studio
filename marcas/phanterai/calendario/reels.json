@@ -151,7 +151,10 @@
       "promessa": "O que ele achou e o ganho de 5x",
       "sinal": "@maestrosdaiahub 6,9x",
       "referencia": "https://www.instagram.com/reel/DfsC1yqS4Xx/",
-      "status": "pendente"
+      "status": "agendado",
+      "obs": "tema original (edição 5x/agent-aware) não confirmado em fonte primária; na tentativa 2 o horário foi usado pelo tema Fable 5.2 (antes em 21/11 07:00), slug reel-2026-11-20-0700-fable-5-2, IG 6affe6f7d8327557e3b40eba, YT CDdoFUeMV1g",
+      "slug_publicado": "reel-2026-11-20-0700-fable-5-2",
+      "titulo_publicado": "Fable 5.2 é melhor. Mas não é para tudo"
     },
     {
       "data": "2026-11-20",
@@ -181,7 +184,8 @@
       "promessa": "O que mudou de verdade e para quem vale",
       "sinal": "Authority Hacker 15/11; Matt Wolfe 2x; @nelmoricalde 4,3x",
       "referencia": "https://www.youtube.com/@AuthorityHackerPodcast/shorts",
-      "status": "pendente"
+      "status": "adiantado",
+      "obs": "tema publicado em 20/11 07:00 (reel-2026-11-20-0700-fable-5-2, YT CDdoFUeMV1g); não refazer. Este horário precisa de outro tema de IA"
     },
     {
       "data": "2026-11-21",

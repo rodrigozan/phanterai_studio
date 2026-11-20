@@ -19,6 +19,7 @@ import { ShortOpuscar, CapaOpuscar, SOP_FPS, calculateOpuscarMetadata } from "./
 import { ShortQuadroBranco, CapaQuadroBranco, SQB_FPS, calculateQuadroBrancoMetadata } from "./short/ShortQuadroBranco";
 import { ShortGameStudios, CapaGameStudios, SGS_FPS, calculateGameStudiosMetadata } from "./short/ShortGameStudios";
 import { ShortDezNegocios, CapaDezNegocios, SDN_FPS, calculateDezNegociosMetadata } from "./short/ShortDezNegocios";
+import { ShortFable52, CapaFable52, SF52_FPS, calculateFable52Metadata } from "./short/ShortFable52";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -229,6 +230,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateDezNegociosMetadata}
   />
   <Composition id="CapaDezNegocios" component={CapaDezNegocios} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortFable52"
+    component={ShortFable52}
+    width={1080}
+    height={1920}
+    fps={SF52_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateFable52Metadata}
+  />
+  <Composition id="CapaFable52" component={CapaFable52} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
