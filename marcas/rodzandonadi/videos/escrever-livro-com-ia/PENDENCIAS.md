@@ -7,7 +7,7 @@ Pasta de mídia: `public/rodzandonadi/episodes/escrever-livro-com-ia/`
 
 | Falta | Onde colocar |
 |---|---|
-| `narracao.mp3` (12 parágrafos, um por cena) e o texto `narracao-rodzandonadi-escrever-livro-com-ia.md` | `audio/` (texto também em `marcas/rodzandonadi/videos/escrever-livro-com-ia/`) |
+| `narracao.mp3` (12 parágrafos, um por cena); o texto já está em `marcas/rodzandonadi/videos/escrever-livro-com-ia/narracao-rodzandonadi-escrever-livro-com-ia.md` | `audio/` |
 | 28 capturas `Captura_de_tela_2026-11-19_HHMMSS.png` (lista na seção 7 do ROTEIRO) | `capturas/` |
 | `planejamento.mp4` e `cena_1.mp4` | `clipes/` |
 | `cena_1.txt` (versão reescrita) | `texto/` |
