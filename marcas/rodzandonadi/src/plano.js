@@ -1,4 +1,5 @@
 import { CENAS } from "./roteiro-dados.js";
+import { CORTES, DUR_CORTE } from "./cortes.js";
 
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
 
@@ -37,6 +38,13 @@ export const montarPlano = (timeline) => {
       return { ...s, inicio: starts[i], dur: fim - starts[i], marcas, ate };
     });
     const etiquetas = (def.etiquetas ?? []).map((e) => ({ ...e, inicio: quando(cena, e.de, 0) }));
-    return { id: def.id, etapa: def.etapa, inicio: cena.start, dur, words: cena.words, shots, etiquetas };
+    const defs = CORTES[def.id] ?? [];
+    let cur = 0;
+    const iniciosC = defs.map((c) => { const f = quando(cena, c.de, cur); cur = f; return f; });
+    const cortes = defs.map((c, i) => {
+      const lim = i < defs.length - 1 ? iniciosC[i + 1] - 10 : dur - 4;
+      return { ...c, inicio: iniciosC[i], dur: Math.max(24, Math.min(c.dur ?? DUR_CORTE, lim - iniciosC[i])) };
+    });
+    return { id: def.id, etapa: def.etapa, inicio: cena.start, dur, words: cena.words, shots, etiquetas, cortes };
   });
 };

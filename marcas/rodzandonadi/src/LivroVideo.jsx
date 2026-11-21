@@ -2,6 +2,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig 
 import { BarraCapitulos, Captura, Clip, Entrada, Etiqueta, Legendas, Palco, SlugCtx, Titulo, pasta } from "./base";
 import { Anansi, Beats, Ciclo, Escritorio, Estrutura, Faltam, Final, Kalunga, Mapa, QuatroEmUm, Texto } from "./graficos";
 import { montarPlano } from "./plano.js";
+import { Corte } from "./Corte";
 import { colors } from "./theme";
 
 const GRAFICOS = { Anansi, Beats, Ciclo, Escritorio, Estrutura, Faltam, Final, Kalunga, Mapa, QuatroEmUm };
@@ -50,7 +51,6 @@ export const LivroVideo = ({ slug, plano, erro, musica, musicaVolume }) => {
         {musica && <Musica faixa={musica} volume={musicaVolume ?? 0.2} />}
         {plano.map((c) => (
           <Sequence key={c.id} from={c.inicio} durationInFrames={c.dur}>
-            {c.etapa !== null && <BarraCapitulos ativa={c.etapa} />}
             {c.shots.map((s, i) => (
               <Sequence key={i} from={s.inicio} durationInFrames={s.dur}>
                 <Entrada dur={s.dur} sair={i < c.shots.length - 1}>
@@ -58,6 +58,12 @@ export const LivroVideo = ({ slug, plano, erro, musica, musicaVolume }) => {
                 </Entrada>
               </Sequence>
             ))}
+            {c.cortes.map((k, i) => (
+              <Sequence key={`c${i}`} from={k.inicio} durationInFrames={k.dur}>
+                <Corte c={k} dur={k.dur} />
+              </Sequence>
+            ))}
+            {c.etapa !== null && <BarraCapitulos ativa={c.etapa} />}
             {c.etiquetas.map((e, i) => (
               <Sequence key={`e${i}`} from={e.inicio} durationInFrames={e.dur}>
                 <Etiqueta fonte={e.fonte} dur={e.dur} />
