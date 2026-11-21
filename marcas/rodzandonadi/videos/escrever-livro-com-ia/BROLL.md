@@ -15,13 +15,24 @@ Os tempos vêm do timeline.json atual.
 | S05 | 2:03–2:46 | Skills, zip, aviso de confiança | 3 | vídeo | `person installing software laptop`, `zip file download`, `reading carefully screen` |
 | S06 | 2:46–3:33 | Instalar pelo GitHub, 36 beats, três fios | 4 | vídeo | `person coding github laptop`, `sticky notes wall story`, `timeline notes board`, `reading documentation` |
 | S07 | 3:33–4:10 | Ferramentas por etapa: Word, Canva, KDP | 3 | vídeo | `book cover design`, `typing manuscript`, `stack of books` |
-| S08 | 4:10–4:56 | Ideia, irmãos Lara e Pedro, Santa Branca, mitos africanos no Brasil | 6 | 3 vídeo + 3 imagem | vídeo: `small town brazil street`, `two teenagers walking`, `notebook story ideas`; imagem: ilustração de **dois irmãos gêmeos negros adolescentes**, de **Anansi**, de **Kalunga / oceano e ancestrais** |
-| S09 | 4:56–5:42 | Planejamento, mitos bantu e akan, Anansi, Nyame, Osebo, Mmoatia | 6 | 3 vídeo + 3 imagem | vídeo: `spider web morning`, `leopard`, `writer researching books`; imagem: ilustração de **Nyame**, **Osebo (leopardo)**, **Mmoatia** |
-| S10 | 5:42–6:28 | Erros do plano, Kalunga, Atlântico, pergunte sem medo | 5 | 3 vídeo + 2 imagem | vídeo: `ocean horizon waves`, `person correcting notebook`, `pen crossing out text`; imagem: ilustração de **Kalunga** ou **Atlântico como fronteira dos ancestrais**, **kikongo / bakongo** |
+| S08 | 4:10–4:56 | Ideia, irmãos Lara e Pedro, Santa Branca, mitos africanos no Brasil | 7 | 3 vídeo + 4 imagem | vídeo: `small town brazil street`, `overgrown abandoned street`, `notebook story ideas`; imagem (arte própria): **Lara** ("dois irmãos gêmeos"), **Pedro**, **Claudia (humana)**, **Claudia cobra** quando a narração falar de gente se transformando em seres do folclore |
+| S09 | 4:56–5:42 | Planejamento, mitos bantu e akan, Anansi, Nyame, Osebo, Mmoatia | 6 | 3 vídeo + 3 imagem | vídeo: `spider web morning`, `leopard`, `writer researching books`; imagem (Google Imagens, a menos que você tenha arte): **Nyame**, **Osebo (leopardo)**, **Mmoatia** |
+| S10 | 5:42–6:28 | Erros do plano, Kalunga, Atlântico, pergunte sem medo | 5 | 3 vídeo + 2 imagem | vídeo: `ocean horizon waves`, `person correcting notebook`, `pen crossing out text`; imagem: ilustração de **Kalunga / Atlântico como fronteira dos ancestrais** (Google Imagens) e **Anansi** |
 | S11 | 6:28–7:31 | Primeira cena, Swain, estilo de IA, reescrita estilo Riordan, voz da Lara | 7 | vídeo | `person writing notebook`, `person reading manuscript`, `teenager smartphone`, `writer frustrated crossing out`, `person typing late night`, `book pages turning`, `coffee desk writing` |
 | S12 | 7:31–8:08 | Atualizar o plano, o que falta, inscreva-se | 4 | vídeo | `finished book on table`, `person closing laptop`, `stack of books`, `hands holding book` |
 
-Total: 50 cortes. 41 vídeos e 9 imagens, ou seja, 82% e 18%.
+Total: 51 cortes. 41 vídeos e 10 imagens (4 de arte própria), ou seja, 80% e 20%.
+
+## Arte própria dos personagens
+
+Arquivos em `public/rodzandonadi/episodes/long-videos/escrever-livro-com-ia/personagens/`:
+
+- `lara.jpg`: Lara, adolescente de coque com estilingue, numa rua tomada pela vegetação.
+- `pedro.jpg`: Pedro, de óculos, com manta do Corinthians e um livro, num rio com neblina.
+- `claudia.jpg`: Claudia, mãe dos meninos, de uniforme de saúde, em frente ao posto do bairro.
+- `claudia-cobra.jpg`: Claudia transformada, mulher com cauda de serpente num rio, à noite.
+
+Cuidados: a imagem do Pedro mostra o escudo do Corinthians, uma marca registrada; é arte sua, mas vale conferir antes de monetizar. A Claudia-cobra revela uma virada da história; só entra se você quiser esse spoiler, senão fica fora.
 
 ## Onde entra cada tipo
 
