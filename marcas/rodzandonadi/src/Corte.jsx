@@ -2,8 +2,6 @@ import { AbsoluteFill, Img, OffthreadVideo, interpolate, useCurrentFrame } from 
 import { AREA, FONT, Rotulo, clamp, pasta, useSlug } from "./base";
 import { colors, radii } from "./theme";
 
-const Sombra = () => <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(31,5,38,0.15) 0%, rgba(31,5,38,0) 30%, rgba(31,5,38,0) 55%, rgba(31,5,38,0.78) 100%)" }} />;
-
 const Video = ({ c, dur }) => {
   const slug = useSlug();
   const frame = useCurrentFrame();
@@ -15,12 +13,9 @@ const Video = ({ c, dur }) => {
           src={pasta(slug, `pexels/${c.v}.mp4`)}
           muted
           startFrom={Math.round((c.ss ?? 1) * 30)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(1) contrast(1.08) brightness(1.3)", mixBlendMode: "screen" }}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: "#a574ca", mixBlendMode: "multiply" }} />
-      <AbsoluteFill style={{ background: `radial-gradient(ellipse at center, rgba(31,5,38,0) 55%, rgba(31,5,38,0.55) 100%)` }} />
-      <Sombra />
     </AbsoluteFill>
   );
 };
@@ -34,7 +29,6 @@ const Arte = ({ c, dur }) => {
       <AbsoluteFill style={{ transform: `scale(${z})` }}>
         <Img src={pasta(slug, c.img)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </AbsoluteFill>
-      <Sombra />
       {c.rotulo && <Rotulo>{c.rotulo}</Rotulo>}
     </AbsoluteFill>
   );
