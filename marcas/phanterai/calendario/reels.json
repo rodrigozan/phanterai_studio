@@ -197,7 +197,9 @@
       "promessa": "A lista com o prompt de cada um",
       "sinal": "@rourke 12x",
       "referencia": "https://www.instagram.com/reel/DfXaQcyoaJ5/",
-      "status": "pendente"
+      "status": "agendado",
+      "titulo_final": "9 estilos de luz para a IA parar de gerar imagem chapada",
+      "obs": "o 34 do sinal não bate com a fonte: a ajuda oficial do Adobe Firefly lista 9 estilos de Lighting. IG 6b013e93d8327557e3b40ec3, YT KbvJrG7s4BY, 15:00Z"
     },
     {
       "data": "2026-11-21",
