@@ -5,6 +5,13 @@ const slug = process.argv[2];
 if (!slug) { console.error("uso: node marcas/rodzandonadi/scripts/timeline.mjs <slug>"); process.exit(2); }
 const dir = path.join("public", "rodzandonadi", "episodes", "long-videos", slug);
 const roteiro = JSON.parse(fs.readFileSync(path.join(dir, "roteiro.json"), "utf8"));
+const musicDir = path.join("public", "phanterai", "music");
+const tlPath = path.join(dir, "timeline.json");
+let musica = !process.argv.includes("--nova-musica") && fs.existsSync(tlPath) ? JSON.parse(fs.readFileSync(tlPath, "utf8")).musica : null;
+if (!musica) {
+  const faixas = fs.readdirSync(musicDir).filter((f) => /\.(mp3|wav|m4a)$/i.test(f));
+  musica = faixas[Math.floor(Math.random() * faixas.length)];
+}
 const FPS = 30, GAP = 0.35, TAIL = 4;
 let t = 0;
 const cenas = roteiro.cenas.map((c) => {
@@ -17,5 +24,6 @@ const cenas = roteiro.cenas.map((c) => {
 });
 const total = cenas[cenas.length - 1].end + TAIL * FPS;
 cenas.forEach((c, i) => { if (i < cenas.length - 1) c.end = cenas[i + 1].start; else c.end = total; });
-fs.writeFileSync(path.join(dir, "timeline.json"), JSON.stringify({ fps: FPS, total, cenas }));
+fs.writeFileSync(path.join(dir, "timeline.json"), JSON.stringify({ fps: FPS, total, musica, musicaVolume: 0.2, cenas }));
+console.log("música", musica);
 console.log("frames", total, (total / FPS).toFixed(1) + "s");

@@ -1,4 +1,4 @@
-import { AbsoluteFill, Audio, Sequence } from "remotion";
+import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig } from "remotion";
 import { BarraCapitulos, Captura, Clip, Entrada, Etiqueta, Legendas, Palco, SlugCtx, Titulo, pasta } from "./base";
 import { Anansi, Beats, Ciclo, Escritorio, Estrutura, Faltam, Final, Kalunga, Mapa, QuatroEmUm, Texto } from "./graficos";
 import { montarPlano } from "./plano.js";
@@ -12,7 +12,7 @@ export const calculateLivroMetadata = async ({ props }) => {
   if (!slug) return { ...FALLBACK, props: { ...props, plano: null } };
   try {
     const timeline = await (await fetch(pasta(slug, "timeline.json"))).json();
-    return { fps: timeline.fps, durationInFrames: timeline.total, width: 1920, height: 1080, props: { ...props, plano: montarPlano(timeline) } };
+    return { fps: timeline.fps, durationInFrames: timeline.total, width: 1920, height: 1080, props: { ...props, plano: montarPlano(timeline), musica: timeline.musica, musicaVolume: timeline.musicaVolume } };
   } catch (e) {
     return { ...FALLBACK, props: { ...props, plano: null, erro: String(e) } };
   }
@@ -28,7 +28,18 @@ const Shot = ({ s }) => {
   return <G marcas={s.marcas} dur={s.dur} />;
 };
 
-export const LivroVideo = ({ slug, plano, erro }) => {
+const Musica = ({ faixa, volume }) => {
+  const { durationInFrames } = useVideoConfig();
+  return (
+    <Audio
+      src={staticFile(`phanterai/music/${faixa}`)}
+      loop
+      volume={(f) => volume * interpolate(f, [0, 30, durationInFrames - 75, durationInFrames - 1], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+    />
+  );
+};
+
+export const LivroVideo = ({ slug, plano, erro, musica, musicaVolume }) => {
   if (!plano) {
     return <AbsoluteFill style={{ background: colors.roxoEscuro, color: "#fff", alignItems: "center", justifyContent: "center", fontSize: 40, fontFamily: "sans-serif", padding: 80, textAlign: "center" }}>{erro ?? (slug ? `timeline.json não encontrado para ${slug}` : "Passe { slug } em props")}</AbsoluteFill>;
   }
@@ -36,6 +47,7 @@ export const LivroVideo = ({ slug, plano, erro }) => {
     <SlugCtx.Provider value={slug}>
       <Palco>
         <Audio src={pasta(slug, "voz.mp3")} />
+        {musica && <Musica faixa={musica} volume={musicaVolume ?? 0.2} />}
         {plano.map((c) => (
           <Sequence key={c.id} from={c.inicio} durationInFrames={c.dur}>
             {c.etapa !== null && <BarraCapitulos ativa={c.etapa} />}
