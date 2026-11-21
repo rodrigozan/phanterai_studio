@@ -38,3 +38,25 @@ O escudo do Corinthians na manta do Pedro foi aprovado por você. A história é
 
 - Anansi: `Anansi-34.png`, Pamela Colman Smith, *Annancy Stories* (1899), domínio público, Wikimedia Commons.
 - Kalunga: `Kongo Cosmogram`, CC BY-SA 4.0, Wikimedia Commons. Crédito do autor e do arquivo na descrição do vídeo.
+
+## Onde entra cada tipo
+
+- Caderno e caneta: planejar, estrutura, cenas, plano atualizado (S02, S04, S06, S09, S11).
+- Pessoa digitando no notebook: escrever a história, revisar, ajustar (S01, S11).
+- Folha em branco ou pessoa pensando: abertura e dúvida (S01, S08).
+- Livro fechado, pilha de livros, mãos com livro: fechamento (S07, S12).
+- Ilustrações: S08 a S10, nos nomes de personagens e seres.
+
+## Cuidados
+
+- Pexels: prefiro mãos, ombros e nuca. Descarto rosto repetido, logo visível, tela legível que contradiga a narração e escritório corporativo.
+- Personagens: só a arte própria do Rod (Lara, Pedro, Claudia).
+- Imagens externas: só domínio público e Creative Commons (Wikimedia Commons), com autor e link nos créditos. Nada do Google Imagens sem licença clara.
+- Nenhum clipe se repete.
+
+## Como fica depois da aprovação
+
+1. Montar `broll.json` com as buscas acima e rodar `node scripts/long-broll.js escrever-livro-com-ia` com `MARCA=rodzandonadi`.
+2. Baixar Anansi e o cosmograma do Wikimedia Commons e registrar autor e licença.
+3. Conferir tudo num contact sheet e descartar o que não tiver relação.
+4. Ligar cada corte à palavra falada, usar o duotone, renderizar e mandar.
