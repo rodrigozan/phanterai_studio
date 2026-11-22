@@ -33,3 +33,7 @@ public/*/episodes/*/timeline.json
 # Generated blog scheduling receipts for the video creation workflow
 /public/phanterai/episodes/**/blog-publication.json
 /public/phanterai/episodes/**/blog-link.txt
+
+# Gerados pelo pipeline shorts-blocos
+public/shorts-blocos/episodes/*/timing.json
+public/shorts-blocos/episodes/*/props.json

@@ -1,0 +1,19 @@
+{
+  "id": "shorts-blocos",
+  "nome": "Shorts Blocos",
+  "descricao": "Shorts/Reels animados por código com personagens estilo blocos, roteiro brasileiro, vozes ElevenLabs e auditoria de retenção.",
+  "dono": "Phanter AI",
+  "pauta": [
+    "Visual só estilo blocos: sem marca, logo, nome ou personagem oficial de jogo de terceiros.",
+    "Escalada de 5 dias, reviravolta, CTA de comentário de uma palavra, loop perfeito.",
+    "Sem pedido de inscrição no meio. Yarn, nunca npm. Sem comentários no código."
+  ],
+  "pastas": {
+    "publico": "public/shorts-blocos",
+    "episodios": "public/shorts-blocos/episodes",
+    "musicas": "public/shorts-blocos/music",
+    "saida": "out/shorts-blocos",
+    "videos": "marcas/shorts-blocos/videos/<slug>",
+    "skill": ".claude/skills/shorts-blocos/SKILL.md"
+  }
+}

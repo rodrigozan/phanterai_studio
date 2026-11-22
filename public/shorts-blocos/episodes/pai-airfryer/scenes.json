@@ -1,0 +1,80 @@
+{
+  "slug": "pai-airfryer",
+  "title": "Meu pai descobriu a airfryer",
+  "hook": "Meu pai descobriu a airfryer",
+  "ctaComment": "AIRFRYER",
+  "loop": { "firstSceneId": "s0", "lastSceneId": "s7" },
+  "characters": [
+    { "id": "narrador", "name": "Narrador", "voiceId": "$NARRATOR", "narrator": true },
+    { "id": "leo", "name": "Léo", "voiceId": "36rVQA1AOIPwpA3Hg1tC", "look": { "build": "kid", "height": 0.95, "skinColor": "#F2C38B", "skinSide": "#D9A66E", "hairColor": "#4A2E1A", "hairStyle": "short", "browColor": "#151515", "accessory": "cap", "capColor": "#2F7FE0", "capBrimColor": "#2459A8", "shirtColor": "#2F7FE0", "pantsColor": "#1F2A44", "shoeColor": "#F5F5F5" } },
+    { "id": "pai", "name": "Seu Carlos", "voiceId": "CstacWqMhJQlnfLPxRG4", "look": { "build": "adult", "height": 1.02, "skinColor": "#E0AC69", "skinSide": "#C4914F", "hairColor": "#5A3A22", "hairStyle": "bald-sides", "accessory": "none", "mustache": true, "belly": true, "sleeveless": true, "shirtColor": "#F5F5F5", "pantsColor": "#6B7A3A", "shorts": true, "shoeColor": "#2459A8", "item": "none" } }
+  ],
+  "scenes": [
+    { "id": "s0", "setting": "cozinha", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l01", "characterId": "narrador", "focusCharacterId": "leo", "text": "Meu pai descobriu a airfryer. E a casa nunca mais foi a mesma.", "expression": "shocked", "shot": "close",
+        "visualBeats": [ { "atWord": "airfryer", "type": "punchIn" }, { "atWord": "casa", "type": "cut", "value": "medium" }, { "atWord": "mesma", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "mesma", "file": "whoosh" } ] }
+    ]},
+    { "id": "s1", "day": 1, "setting": "cozinha", "props": ["airfryer"], "cast": ["leo", "pai"], "lines": [
+      { "id": "l02", "characterId": "narrador", "focusCharacterId": "pai", "text": "No primeiro dia, ele fez batata frita.", "expression": "happy", "pose": "hold", "item": "airfryer", "shot": "medium",
+        "visualBeats": [ { "atWord": "batata", "type": "punchIn" }, { "atWord": "frita", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "frita", "file": "ding" } ] },
+      { "id": "l03", "characterId": "pai", "text": "Sem uma gota de óleo, filho! Isso aqui é o futuro!", "expression": "happy", "pose": "hold", "item": "airfryer", "shot": "close",
+        "visualBeats": [ { "atWord": "óleo", "type": "punchIn" }, { "atWord": "futuro", "type": "shake" }, { "atWord": "futuro", "type": "pan", "value": "leo" }, { "atWord": "futuro", "type": "expression", "value": "leo:suspicious" } ] }
+    ]},
+    { "id": "s2", "day": 2, "setting": "quintal", "props": ["airfryer"], "cast": ["leo", "pai"], "lines": [
+      { "id": "l04", "characterId": "narrador", "focusCharacterId": "pai", "text": "No segundo dia, fez churrasco na airfryer.", "expression": "happy", "pose": "hold", "item": "tongs", "shot": "wide",
+        "visualBeats": [ { "atWord": "churrasco", "type": "cut", "value": "medium" }, { "atWord": "airfryer", "type": "cut", "value": "close" }, { "atWord": "airfryer", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "churrasco", "file": "pop" } ] },
+      { "id": "l05", "characterId": "leo", "text": "Pai, a churrasqueira tá bem ali!", "expression": "shocked", "pose": "point", "shot": "close",
+        "visualBeats": [ { "atWord": "churrasqueira", "type": "punchIn" }, { "atWord": "ali", "type": "pan", "value": "pai" }, { "atWord": "ali", "type": "expression", "value": "pai:sleepy" } ] },
+      { "id": "l06", "characterId": "pai", "text": "Carvão? Na volta a gente compra.", "expression": "sleepy", "pose": "hold", "item": "tongs", "shot": "close",
+        "visualBeats": [ { "atWord": "Carvão", "type": "punchIn" }, { "atWord": "volta", "type": "cut", "value": "medium" }, { "atWord": "compra", "type": "punchIn" } ] }
+    ]},
+    { "id": "s3", "day": 3, "setting": "cozinha", "props": ["airfryer"], "cast": ["leo", "pai"], "lines": [
+      { "id": "l07", "characterId": "narrador", "focusCharacterId": "pai", "text": "No terceiro dia, ele fez pudim na airfryer.", "expression": "evil-smile", "pose": "hold", "item": "airfryer", "shot": "medium",
+        "visualBeats": [ { "atWord": "pudim", "type": "punchIn" }, { "atWord": "airfryer", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "pudim", "file": "ding" } ] },
+      { "id": "l08", "characterId": "leo", "text": "Pai, por que o pudim tá crocante?", "expression": "suspicious", "shot": "close",
+        "visualBeats": [ { "atWord": "pudim", "type": "punchIn" }, { "atWord": "crocante", "type": "expression", "value": "shocked" }, { "atWord": "crocante", "type": "shake" } ],
+        "sfx": [ { "atWord": "crocante", "file": "error" } ] },
+      { "id": "l09", "characterId": "pai", "text": "É pudim gourmet, filho. Come quieto.", "expression": "happy", "pose": "crossed", "shot": "close",
+        "visualBeats": [ { "atWord": "gourmet", "type": "punchIn" }, { "atWord": "Come", "type": "cut", "value": "medium" }, { "atWord": "quieto", "type": "expression", "value": "sleepy" } ] }
+    ]},
+    { "id": "s4", "day": 4, "setting": "cozinha", "props": ["airfryer", "airfryer", "airfryer"], "cast": ["leo", "pai"], "music": { "track": "brasil", "transition": "crossfade" }, "lines": [
+      { "id": "l10", "characterId": "narrador", "focusCharacterId": "pai", "text": "No quarto dia, ele comprou mais três airfryers.", "expression": "happy", "pose": "armsUp", "shot": "wide",
+        "visualBeats": [ { "atWord": "comprou", "type": "cut", "value": "medium" }, { "atWord": "três", "type": "punchIn" }, { "atWord": "airfryers", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "três", "file": "coin" } ] },
+      { "id": "l11", "characterId": "pai", "text": "Uma pra carne, uma pra batata e uma pra sobremesa!", "expression": "evil-smile", "pose": "point", "shot": "close",
+        "visualBeats": [ { "atWord": "carne", "type": "punchIn" }, { "atWord": "batata", "type": "cut", "value": "medium" }, { "atWord": "sobremesa", "type": "cut", "value": "close" }, { "atWord": "sobremesa", "type": "shake" } ] },
+      { "id": "l12", "characterId": "leo", "text": "Pai, a gente não tem mais tomada!", "expression": "shocked", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "mais", "type": "shake" }, { "atWord": "tomada", "type": "punchIn" }, { "atWord": "tomada", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "tomada", "file": "error" } ] }
+    ]},
+    { "id": "s5", "day": 5, "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l13", "characterId": "narrador", "focusCharacterId": "pai", "text": "No quinto dia, ele levou a airfryer pro jogo do time.", "expression": "happy", "pose": "hold", "item": "airfryer", "shot": "wide",
+        "visualBeats": [ { "atWord": "levou", "type": "cut", "value": "medium" }, { "atWord": "airfryer", "type": "punchIn" }, { "atWord": "jogo", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "quinto", "file": "riser" } ] },
+      { "id": "l14", "characterId": "pai", "text": "Olha a batata no intervalo! Quem vai querer?", "expression": "happy", "pose": "hold", "item": "airfryer", "shot": "close",
+        "visualBeats": [ { "atWord": "batata", "type": "punchIn" }, { "atWord": "intervalo", "type": "cut", "value": "medium" }, { "atWord": "querer", "type": "shake" } ],
+        "sfx": [ { "atWord": "querer", "file": "pop" } ] },
+      { "id": "l15", "characterId": "leo", "text": "Pai, o segurança tá vindo!", "expression": "shocked", "pose": "point", "shot": "close",
+        "visualBeats": [ { "atWord": "segurança", "type": "punchIn" }, { "atWord": "vindo", "type": "shake" }, { "atWord": "vindo", "type": "expression", "value": "crying" } ] }
+    ]},
+    { "id": "s6", "setting": "sala", "props": [], "cast": ["leo", "pai"], "music": { "track": "none", "transition": "stop" }, "lines": [
+      { "id": "l16", "characterId": "narrador", "focusCharacterId": "pai", "text": "Aí chegou a conta de luz.", "expression": "neutral", "pose": "hold", "item": "paper", "shot": "medium",
+        "visualBeats": [ { "atWord": "conta", "type": "punchIn" }, { "atWord": "luz", "type": "cut", "value": "close" }, { "atWord": "luz", "type": "expression", "value": "shocked" } ],
+        "sfx": [ { "atWord": "Aí", "file": "ding" } ] },
+      { "id": "l17", "characterId": "pai", "text": "Mil reais?! Léo! Apaga essa luz!", "expression": "angry", "pose": "point", "item": "paper", "shot": "close",
+        "visualBeats": [ { "atWord": "Mil", "type": "punchIn" }, { "atWord": "reais", "type": "shake" }, { "atWord": "Léo", "type": "pan", "value": "leo" }, { "atWord": "Léo", "type": "expression", "value": "leo:shocked" } ],
+        "sfx": [ { "atWord": "luz", "file": "error" } ] },
+      { "id": "l18", "characterId": "leo", "text": "Pai, eu tô no escuro faz cinco dias!", "expression": "crying", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "escuro", "type": "punchIn" }, { "atWord": "cinco", "type": "cut", "value": "medium" }, { "atWord": "dias", "type": "shake" } ],
+        "sfx": [ { "atWord": "dias", "file": "pop" } ] }
+    ]},
+    { "id": "s7", "setting": "cozinha", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l19", "characterId": "narrador", "focusCharacterId": "leo", "text": "Comenta airfryer se o seu também é assim. Porque tudo começou quando...", "expression": "suspicious", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "Comenta", "type": "punchIn" }, { "atWord": "seu", "type": "cut", "value": "medium" }, { "atWord": "Porque", "type": "cut", "value": "close" }, { "atWord": "tudo", "type": "expression", "value": "shocked" } ] }
+    ]}
+  ]
+}

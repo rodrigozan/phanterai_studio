@@ -97,3 +97,12 @@ repo root:
 - Several `SKILL.md` files and scripts are bilingual by content: `montagem-video-pantera` is written
   in Portuguese (Rod's working language for that pipeline), the `yt-*` skills are in English. Keep
   each skill internally consistent in whichever language it already uses.
+
+## `shorts-blocos` pipeline
+
+Shorts 1080x1920 at 60fps with block-style characters drawn in code (no third-party game branding).
+Recipe: `.claude/skills/shorts-blocos/SKILL.md`; subagents `animador`/`roteirista`/`auditor`/`operador`
+in `.claude/agents/`. Code in `marcas/shorts-blocos/src/` (TypeScript: Zod schema, Remotion components,
+`pipeline/` run with tsx). `yarn blocos <slug>` = validate → ElevenLabs TTS (hash cache) → `timing.json`
+→ render `ShortBlocos` → `audit.json` (exit 2 if any metric fails). `TesteBlocos` is the 10s
+expression/shot test composition.

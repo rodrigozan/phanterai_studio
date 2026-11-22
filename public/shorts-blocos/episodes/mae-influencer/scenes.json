@@ -1,0 +1,86 @@
+{
+  "slug": "mae-influencer",
+  "title": "Minha mãe virou influencer",
+  "hook": "Minha mãe virou influencer",
+  "music": "bed.mp3",
+  "ctaComment": "MÃE",
+  "loop": { "firstSceneId": "s0", "lastSceneId": "s7" },
+  "characters": [
+    { "id": "narrador", "name": "Narrador", "voiceId": "$NARRATOR", "narrator": true },
+    { "id": "leo", "name": "Léo", "voiceId": "36rVQA1AOIPwpA3Hg1tC", "look": { "skinColor": "#f1c27d", "shirtColor": "#2f80ed", "pantsColor": "#273046", "hairColor": "#3b2416", "accessory": "cap", "height": 0.9 } },
+    { "id": "mae", "name": "Mãe", "voiceId": "cgSgspJ2msm6clMCkdW9", "look": { "skinColor": "#c68642", "shirtColor": "#eb5757", "pantsColor": "#4a3b6b", "hairColor": "#1e120c", "accessory": "glasses", "height": 1 } }
+  ],
+  "scenes": [
+    { "id": "s0", "setting": "sala", "props": [], "cast": ["leo", "mae"], "lines": [
+      { "id": "l01", "characterId": "narrador", "focusCharacterId": "leo", "text": "Minha mãe virou influencer. E a minha vida acabou.", "expression": "shocked", "shot": "close",
+        "visualBeats": [ { "atWord": "influencer", "type": "punchIn" }, { "atWord": "vida", "type": "cut", "value": "medium" }, { "atWord": "acabou", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "acabou", "file": "whoosh" } ] }
+    ]},
+    { "id": "s1", "day": 1, "setting": "cozinha", "props": [], "cast": ["leo", "mae"], "lines": [
+      { "id": "l02", "characterId": "narrador", "focusCharacterId": "mae", "text": "No primeiro dia, ela filmou o almoço.", "expression": "happy", "pose": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "filmou", "type": "punchIn" }, { "atWord": "almoço", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "filmou", "file": "pop" } ] },
+      { "id": "l03", "characterId": "mae", "text": "Gente, olha esse arroz soltinho!", "expression": "happy", "pose": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "arroz", "type": "punchIn" }, { "atWord": "soltinho", "type": "cut", "value": "medium" }, { "atWord": "soltinho", "type": "pan", "value": "leo" } ] },
+      { "id": "l04", "characterId": "leo", "text": "Mãe, o arroz tá frio.", "expression": "suspicious", "shot": "close",
+        "visualBeats": [ { "atWord": "arroz", "type": "punchIn" }, { "atWord": "frio", "type": "expression", "value": "angry" } ] }
+    ]},
+    { "id": "s2", "day": 2, "setting": "sala", "props": ["ringlight"], "cast": ["leo", "mae"], "lines": [
+      { "id": "l05", "characterId": "narrador", "focusCharacterId": "mae", "text": "No segundo dia, comprou um ring light.", "expression": "happy", "pose": "armsUp", "shot": "wide",
+        "visualBeats": [ { "atWord": "comprou", "type": "cut", "value": "medium" }, { "atWord": "ring", "type": "cut", "value": "close" }, { "atWord": "light", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "light", "file": "ding" } ] },
+      { "id": "l06", "characterId": "mae", "text": "Filho, faz a dancinha comigo!", "expression": "happy", "pose": "wave", "shot": "medium",
+        "visualBeats": [ { "atWord": "dancinha", "type": "punchIn" }, { "atWord": "comigo", "type": "pan", "value": "leo" }, { "atWord": "comigo", "type": "expression", "value": "leo:shocked" } ] },
+      { "id": "l07", "characterId": "leo", "text": "Eu tenho prova amanhã!", "expression": "shocked", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "prova", "type": "shake" }, { "atWord": "amanhã", "type": "expression", "value": "angry" }, { "atWord": "amanhã", "type": "punchIn" } ] }
+    ]},
+    { "id": "s3", "day": 3, "setting": "quarto", "props": ["ringlight", "camera"], "cast": ["leo", "mae"], "lines": [
+      { "id": "l08", "characterId": "narrador", "focusCharacterId": "leo", "text": "No terceiro dia, ela fez live às seis da manhã.", "expression": "crying", "shot": "close",
+        "visualBeats": [ { "atWord": "live", "type": "cut", "value": "wide" }, { "atWord": "seis", "type": "cut", "value": "close" }, { "atWord": "manhã", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "live", "file": "whoosh" } ] },
+      { "id": "l09", "characterId": "mae", "text": "Bom dia, meus amores! O Léo ainda tá de pijama!", "expression": "happy", "pose": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "amores", "type": "punchIn" }, { "atWord": "Léo", "type": "pan", "value": "leo" }, { "atWord": "pijama", "type": "expression", "value": "leo:shocked" }, { "atWord": "pijama", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "pijama", "file": "pop" } ] },
+      { "id": "l10", "characterId": "leo", "text": "Mãe! Em casa a gente conversa!", "expression": "angry", "pose": "crossed", "shot": "close",
+        "visualBeats": [ { "atWord": "Mãe", "type": "shake" }, { "atWord": "casa", "type": "cut", "value": "medium" }, { "atWord": "conversa", "type": "cut", "value": "close" }, { "atWord": "conversa", "type": "punchIn" } ] }
+    ]},
+    { "id": "s4", "day": 4, "setting": "sala", "props": ["ringlight", "camera", "caixas"], "cast": ["leo", "mae"], "lines": [
+      { "id": "l11", "characterId": "narrador", "focusCharacterId": "mae", "text": "No quarto dia, chegaram trinta caixas de publi.", "expression": "evil-smile", "pose": "armsUp", "shot": "wide",
+        "visualBeats": [ { "atWord": "trinta", "type": "cut", "value": "medium" }, { "atWord": "caixas", "type": "punchIn" }, { "atWord": "publi", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "publi", "file": "coin" } ] },
+      { "id": "l12", "characterId": "mae", "text": "Esse sofá foi presente! Cupom mãe dez!", "expression": "evil-smile", "pose": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "presente", "type": "punchIn" }, { "atWord": "Cupom", "type": "expression", "value": "happy" }, { "atWord": "dez", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "dez", "file": "ding" } ] },
+      { "id": "l13", "characterId": "leo", "text": "A gente vendeu o sofá?", "expression": "shocked", "pose": "point", "shot": "medium",
+        "visualBeats": [ { "atWord": "vendeu", "type": "cut", "value": "close" }, { "atWord": "sofá", "type": "shake" }, { "atWord": "sofá", "type": "punchIn" } ] }
+    ]},
+    { "id": "s5", "day": 5, "setting": "cozinha", "props": ["ringlight", "ringlight", "camera", "caixas", "plantas"], "cast": ["leo", "mae"], "lines": [
+      { "id": "l14", "characterId": "narrador", "focusCharacterId": "leo", "text": "No quinto dia, eu não achei mais a cozinha.", "expression": "suspicious", "shot": "close",
+        "visualBeats": [ { "atWord": "achei", "type": "cut", "value": "wide" }, { "atWord": "cozinha", "type": "punchIn" }, { "atWord": "cozinha", "type": "expression", "value": "shocked" } ],
+        "sfx": [ { "atWord": "quinto", "file": "riser" } ] },
+      { "id": "l15", "characterId": "mae", "text": "Agora é estúdio, filho! Tem comida em casa. No vídeo de ontem!", "expression": "happy", "pose": "wave", "shot": "medium",
+        "visualBeats": [ { "atWord": "estúdio", "type": "punchIn" }, { "atWord": "comida", "type": "cut", "value": "close" }, { "atWord": "vídeo", "type": "expression", "value": "evil-smile" }, { "atWord": "ontem", "type": "punchIn" } ] },
+      { "id": "l16", "characterId": "leo", "text": "Eu só queria um pão!", "expression": "crying", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "queria", "type": "punchIn" }, { "atWord": "pão", "type": "shake" } ],
+        "sfx": [ { "atWord": "pão", "file": "error" } ] }
+    ]},
+    { "id": "s6", "setting": "sala", "props": ["ringlight", "camera"], "cast": ["leo", "mae"], "lines": [
+      { "id": "l17", "characterId": "narrador", "focusCharacterId": "leo", "text": "Aí eu descobri o pior.", "expression": "neutral", "shot": "medium",
+        "visualBeats": [ { "atWord": "descobri", "type": "expression", "value": "suspicious" }, { "atWord": "pior", "type": "cut", "value": "close" }, { "atWord": "pior", "type": "punchIn" } ],
+        "sfx": [ { "atWord": "descobri", "file": "riser" } ] },
+      { "id": "l18", "characterId": "mae", "text": "Filho, bati um milhão de seguidores!", "expression": "happy", "pose": "armsUp", "shot": "close",
+        "visualBeats": [ { "atWord": "milhão", "type": "punchIn" }, { "atWord": "seguidores", "type": "shake" }, { "atWord": "seguidores", "type": "cut", "value": "medium" } ],
+        "sfx": [ { "atWord": "milhão", "file": "coin" } ] },
+      { "id": "l19", "characterId": "leo", "text": "Mãe, eu posto vídeo há três anos e tenho doze.", "expression": "shocked", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "posto", "type": "punchIn" }, { "atWord": "três", "type": "cut", "value": "medium" }, { "atWord": "doze", "type": "cut", "value": "close" }, { "atWord": "doze", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "doze", "file": "error" } ] },
+      { "id": "l20", "characterId": "mae", "text": "Quer fazer uma collab? Fala com a minha assessoria.", "expression": "evil-smile", "pose": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "collab", "type": "cut", "value": "close" }, { "atWord": "minha", "type": "punchIn" }, { "atWord": "assessoria", "type": "shake" } ],
+        "sfx": [ { "atWord": "assessoria", "file": "ding" } ] }
+    ]},
+    { "id": "s7", "setting": "sala", "props": [], "cast": ["leo", "mae"], "lines": [
+      { "id": "l21", "characterId": "narrador", "focusCharacterId": "leo", "text": "Comenta mãe se a sua também é assim. Porque tudo começou quando...", "expression": "suspicious", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "Comenta", "type": "punchIn" }, { "atWord": "sua", "type": "cut", "value": "medium" }, { "atWord": "Porque", "type": "cut", "value": "close" }, { "atWord": "tudo", "type": "expression", "value": "shocked" } ] }
+    ]}
+  ]
+}

@@ -8,6 +8,7 @@ O studio atende mais de uma marca. Cada marca tem a própria pasta e nada de uma
 | Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram @animepowerbiblia, YouTube Anime Power Biblia |
 | Afro WW2 Tales | `marcas/afro-ww2-tales` | YouTube @AfroWW2Tales |
 | Rod Zandonadi | `marcas/rodzandonadi` | YouTube e Instagram @rodzandonadi |
+| Shorts Blocos | `marcas/shorts-blocos` | YouTube Shorts e Instagram Reels (a definir) |
 
 ## Onde fica cada coisa
 
