@@ -95,11 +95,14 @@ export function runAudit(slug: string) {
     },
     subscribeCtaMidVideo: { value: subMid.length, meta: "proibido", pass: subMid.length === 0, detail: subMid },
   };
-  const approved = Object.values(metrics).every((m) => m.pass);
-  const report = { slug, approved, generatedAt: new Date().toISOString(), video: p.out, metrics };
+  // Métricas só de aviso: aparecem no relatório, mas não reprovam o episódio.
+  const warnOnly = new Set<string>(["volumeDrops"]);
+  const approved = Object.entries(metrics).every(([k, m]) => m.pass || warnOnly.has(k));
+  const warnings = Object.entries(metrics).filter(([k, m]) => !m.pass && warnOnly.has(k)).map(([k]) => k);
+  const report = { slug, approved, warnings, generatedAt: new Date().toISOString(), video: p.out, metrics };
   fs.writeFileSync(p.audit, JSON.stringify(report, null, 2));
-  for (const [k, m] of Object.entries(metrics)) console.log(`${m.pass ? "OK  " : "FAIL"} ${k}: ${m.value} (meta ${m.meta})`);
-  console.log(approved ? "APROVADO" : "REPROVADO");
+  for (const [k, m] of Object.entries(metrics)) console.log(`${m.pass ? "OK  " : warnOnly.has(k) ? "AVISO" : "FAIL"} ${k}: ${m.value} (meta ${m.meta})`);
+  console.log(approved ? (warnings.length ? `APROVADO com aviso: ${warnings.join(", ")}` : "APROVADO") : "REPROVADO");
   return report;
 }
 

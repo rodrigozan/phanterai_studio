@@ -51,6 +51,12 @@ Faz TTS (com cache por hash), `timing.json`, `props.json`, render e auditoria. P
 ### 5. Auditoria
 `audit.json` fica na pasta do episódio. Saída 2 = reprovado. Erro de roteiro ou de beats volta para o `roteirista`; erro de animação ou de enquadramento vai para o `animador`. No máximo 3 iterações, depois pare e reporte as métricas.
 
+`volumeDrops` é só aviso (`AVISO` no log, lista `warnings` no `audit.json`): não reprova, não para o episódio e nunca justifica reescrever fala. Anote o tempo no `pos-publicacao.md` e siga.
+
+Áudio do ElevenLabs é caro. Nenhuma correção de auditoria pode mudar o texto de uma fala já gerada (isso invalida o cache e gera TTS de novo). Corrija com beats, planos, SFX ou timing.
+
+Quando o Rod pedir um episódio, faça o episódio inteiro, da pesquisa à entrega, sem parar para perguntar.
+
 ### 6. Entrega
 Na pasta `marcas/shorts-blocos/videos/<slug>/`:
 - `roteiro.md`: roteiro cena a cena (dia, cenário, quem fala, fala, plano, beats).

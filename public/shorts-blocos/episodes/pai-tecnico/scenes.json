@@ -1,0 +1,78 @@
+{
+  "slug": "pai-tecnico",
+  "title": "Meu pai virou técnico do meu time",
+  "hook": "Meu pai virou técnico do meu time",
+  "ctaComment": "GOL",
+  "loop": { "firstSceneId": "s0", "lastSceneId": "s7" },
+  "characters": [
+    { "id": "narrador", "name": "Narrador", "voiceId": "$NARRATOR", "narrator": true },
+    { "id": "leo", "name": "Léo", "voiceId": "36rVQA1AOIPwpA3Hg1tC", "look": { "build": "kid", "height": 0.95, "skinColor": "#F2C38B", "skinSide": "#D9A66E", "hairColor": "#4A2E1A", "hairStyle": "short", "browColor": "#151515", "accessory": "cap", "capColor": "#2F7FE0", "capBrimColor": "#2459A8", "shirtColor": "#2F7FE0", "pantsColor": "#1F2A44", "shoeColor": "#F5F5F5" } },
+    { "id": "pai", "name": "Seu Carlos", "voiceId": "CstacWqMhJQlnfLPxRG4", "look": { "build": "adult", "height": 1.02, "skinColor": "#E0AC69", "skinSide": "#C4914F", "hairColor": "#5A3A22", "hairStyle": "bald-sides", "accessory": "none", "mustache": true, "belly": true, "sleeveless": true, "shirtColor": "#F5F5F5", "pantsColor": "#6B7A3A", "shorts": true, "shoeColor": "#2459A8", "item": "none" } },
+    { "id": "ze", "name": "Vô Zé", "voiceId": "RGbeQtiShYRDVCrd9b9w", "look": { "build": "adult", "height": 0.97, "skinColor": "#D9A066", "skinSide": "#BD8650", "hairColor": "#C9C9C9", "hairStyle": "bald-sides", "browColor": "#EDEDED", "accessory": "round-glasses", "glassesColor": "#D4AF37", "shirtColor": "#8B5A2B", "shirtLineColor": "#5C3A1A", "pantsColor": "#C8B48A", "shoeColor": "#4A2E1A", "stoop": true, "missingTooth": true, "item": "cane", "itemColor": "#8B5A2B" } }
+  ],
+  "scenes": [
+    { "id": "s0", "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l01", "characterId": "narrador", "focusCharacterId": "leo", "text": "Meu pai virou técnico do meu time. E o time nunca mais foi o mesmo.", "expression": "shocked", "shot": "close",
+        "visualBeats": [ { "atWord": "técnico", "type": "punchIn" }, { "atWord": "time", "type": "cut", "value": "medium" }, { "atWord": "mesmo", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "mesmo", "file": "whoosh" } ] }
+    ]},
+    { "id": "s1", "day": 1, "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l02", "characterId": "narrador", "focusCharacterId": "pai", "text": "No primeiro dia, ele gritou da arquibancada o jogo inteiro.", "expression": "angry", "pose": "point", "shot": "medium",
+        "visualBeats": [ { "atWord": "gritou", "type": "punchIn" }, { "atWord": "arquibancada", "type": "cut", "value": "wide" }, { "atWord": "inteiro", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "gritou", "file": "pop" } ] },
+      { "id": "l03", "characterId": "pai", "text": "Chuta, menino! Na volta a gente compra uma chuteira!", "expression": "angry", "pose": "armsUp", "shot": "close",
+        "visualBeats": [ { "atWord": "Chuta", "type": "punchIn" }, { "atWord": "Chuta", "type": "shake" }, { "atWord": "volta", "type": "cut", "value": "medium" }, { "atWord": "chuteira", "type": "pan", "value": "leo" }, { "atWord": "chuteira", "type": "expression", "value": "leo:embarrassed" } ] }
+    ]},
+    { "id": "s2", "day": 2, "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l04", "characterId": "narrador", "focusCharacterId": "pai", "text": "No segundo dia, ele invadiu o campo de chinelo.", "expression": "happy", "pose": "wave", "shot": "wide",
+        "visualBeats": [ { "atWord": "invadiu", "type": "cut", "value": "medium" }, { "atWord": "campo", "type": "punchIn" }, { "atWord": "chinelo", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "invadiu", "file": "whoosh" } ] },
+      { "id": "l05", "characterId": "leo", "text": "Pai, sai daqui! Isso aqui é sério!", "expression": "shocked", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "sai", "type": "punchIn" }, { "atWord": "sério", "type": "shake" }, { "atWord": "sério", "type": "expression", "value": "angry" } ],
+        "sfx": [ { "atWord": "sério", "file": "error" } ] }
+    ]},
+    { "id": "s3", "day": 3, "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l06", "characterId": "narrador", "focusCharacterId": "pai", "text": "No terceiro dia, ele apareceu com uma prancheta.", "expression": "suspicious", "pose": "hold", "item": "paper", "shot": "medium",
+        "visualBeats": [ { "atWord": "apareceu", "type": "cut", "value": "wide" }, { "atWord": "prancheta", "type": "punchIn" }, { "atWord": "prancheta", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "prancheta", "file": "ding" } ] },
+      { "id": "l07", "characterId": "pai", "text": "Esquema novo: todo mundo no ataque. Até o goleiro!", "expression": "evil-smile", "pose": "hold", "item": "paper", "shot": "close",
+        "visualBeats": [ { "atWord": "Esquema", "type": "punchIn" }, { "atWord": "ataque", "type": "cut", "value": "medium" }, { "atWord": "goleiro", "type": "pan", "value": "leo" }, { "atWord": "goleiro", "type": "expression", "value": "leo:shocked" } ],
+        "sfx": [ { "atWord": "goleiro", "file": "pop" } ] }
+    ]},
+    { "id": "s4", "day": 4, "setting": "estadio", "props": [], "cast": ["leo", "pai", "ze"], "music": { "track": "brasil", "transition": "crossfade" }, "lines": [
+      { "id": "l08", "characterId": "narrador", "focusCharacterId": "ze", "text": "No quarto dia, ele convocou um reforço.", "expression": "happy", "pose": "wave", "shot": "wide",
+        "visualBeats": [ { "atWord": "convocou", "type": "cut", "value": "medium" }, { "atWord": "reforço", "type": "punchIn" }, { "atWord": "reforço", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "reforço", "file": "riser" } ] },
+      { "id": "l09", "characterId": "ze", "text": "Ô, menino! No meu tempo a bola era de meia!", "expression": "happy", "pose": "point", "item": "cane", "shot": "close",
+        "visualBeats": [ { "atWord": "menino", "type": "punchIn" }, { "atWord": "tempo", "type": "cut", "value": "medium" }, { "atWord": "meia", "type": "cut", "value": "close" }, { "atWord": "meia", "type": "shake" } ] },
+      { "id": "l10", "characterId": "leo", "text": "Pai, o vô tem setenta e cinco anos!", "expression": "crying", "pose": "point", "shot": "close",
+        "visualBeats": [ { "atWord": "Pai", "type": "punchIn" }, { "atWord": "setenta", "type": "shake" }, { "atWord": "anos", "type": "pan", "value": "pai" }, { "atWord": "anos", "type": "expression", "value": "pai:sleepy" } ],
+        "sfx": [ { "atWord": "anos", "file": "error" } ] }
+    ]},
+    { "id": "s5", "day": 5, "setting": "estadio", "props": [], "cast": ["leo", "pai", "ze"], "lines": [
+      { "id": "l11", "characterId": "narrador", "focusCharacterId": "pai", "text": "No quinto dia, ele brigou com o juiz e foi expulso do jogo.", "expression": "angry", "pose": "point", "shot": "wide",
+        "visualBeats": [ { "atWord": "brigou", "type": "cut", "value": "medium" }, { "atWord": "juiz", "type": "punchIn" }, { "atWord": "expulso", "type": "cut", "value": "close" }, { "atWord": "expulso", "type": "shake" } ],
+        "sfx": [ { "atWord": "jogo", "file": "error" } ] },
+      { "id": "l12", "characterId": "pai", "text": "Isso aí é coisa da sua mãe, seu juiz!", "expression": "shocked", "pose": "armsUp", "shot": "close",
+        "visualBeats": [ { "atWord": "Isso", "type": "punchIn" }, { "atWord": "coisa", "type": "expression", "value": "angry" }, { "atWord": "juiz", "type": "shake" }, { "atWord": "mãe", "type": "pan", "value": "leo" }, { "atWord": "mãe", "type": "expression", "value": "leo:embarrassed" } ],
+        "sfx": [ { "atWord": "mãe", "file": "pop" } ] }
+    ]},
+    { "id": "s6", "setting": "estadio", "props": [], "cast": ["leo", "pai", "ze"], "music": { "track": "none", "transition": "stop" }, "lines": [
+      { "id": "l13", "characterId": "narrador", "focusCharacterId": "ze", "text": "Aí o vô chutou com a bengala no último minuto.", "expression": "suspicious", "pose": "idle", "item": "cane", "shot": "medium",
+        "visualBeats": [ { "atWord": "chutou", "type": "punchIn" }, { "atWord": "bengala", "type": "cut", "value": "close" }, { "atWord": "bengala", "type": "shake" }, { "atWord": "minuto", "type": "expression", "value": "evil-smile" } ],
+        "sfx": [ { "atWord": "Aí", "file": "ding" } ] },
+      { "id": "l14", "characterId": "ze", "text": "Gol! No meu tempo era tudo na mão!", "expression": "laughing", "pose": "armsUp", "item": "cane", "shot": "close",
+        "visualBeats": [ { "atWord": "Gol", "type": "punchIn" }, { "atWord": "Gol", "type": "shake" }, { "atWord": "tempo", "type": "cut", "value": "medium" }, { "atWord": "mão", "type": "pan", "value": "leo" }, { "atWord": "mão", "type": "expression", "value": "leo:happy" } ],
+        "sfx": [ { "atWord": "Gol", "file": "coin" } ] },
+      { "id": "l15", "characterId": "leo", "text": "Vô, você fez o gol da vitória!", "expression": "happy", "pose": "armsUp", "shot": "close",
+        "visualBeats": [ { "atWord": "fez", "type": "punchIn" }, { "atWord": "vitória", "type": "shake" }, { "atWord": "vitória", "type": "pan", "value": "pai" }, { "atWord": "vitória", "type": "expression", "value": "pai:evil-smile" } ] },
+      { "id": "l16", "characterId": "pai", "text": "Viu? Eu falei que o esquema funcionava!", "expression": "evil-smile", "pose": "crossed", "shot": "close",
+        "visualBeats": [ { "atWord": "Viu", "type": "punchIn" }, { "atWord": "esquema", "type": "cut", "value": "medium" }, { "atWord": "funcionava", "type": "pan", "value": "leo" }, { "atWord": "funcionava", "type": "expression", "value": "leo:angry" } ],
+        "sfx": [ { "atWord": "funcionava", "file": "ding" } ] }
+    ]},
+    { "id": "s7", "setting": "estadio", "props": [], "cast": ["leo", "pai"], "lines": [
+      { "id": "l17", "characterId": "narrador", "focusCharacterId": "leo", "text": "Comenta gol se o seu pai também é assim. Porque tudo começou quando...", "expression": "suspicious", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "Comenta", "type": "punchIn" }, { "atWord": "pai", "type": "cut", "value": "medium" }, { "atWord": "Porque", "type": "cut", "value": "close" }, { "atWord": "tudo", "type": "expression", "value": "shocked" } ] }
+    ]}
+  ]
+}
