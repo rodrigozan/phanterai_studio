@@ -248,7 +248,10 @@
       "promessa": "As notícias da semana em 2 minutos",
       "sinal": "formato semanal; pauta: Matt Wolfe AI News 13/11",
       "referencia": "https://www.youtube.com/@mreflow/videos",
-      "status": "pendente"
+      "status": "agendado",
+      "titulo_final": "Resumo da semana no Universo da IA: 5 notícias em 2 minutos",
+      "ig_post_id": "6b02993bd8327557e3b40ed7",
+      "yt_video_id": "zsvPJJFwJ9M"
     }
   ]
 }

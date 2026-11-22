@@ -25,6 +25,7 @@ import { ShortEstilosLuz, CapaEstilosLuz, SEL_FPS, calculateEstilosLuzMetadata }
 import { ShortGrokBot, CapaGrokBot, SGB_FPS, calculateGrokBotMetadata } from "./short/ShortGrokBot";
 import { ShortSeedance25, CapaSeedance25, SSD_FPS, calculateSeedance25Metadata } from "./short/ShortSeedance25";
 import { ShortClaudeComanda, CapaClaudeComanda, SCC_FPS, calculateClaudeComandaMetadata } from "./short/ShortClaudeComanda";
+import { ShortResumoSemana, CapaResumoSemana, SRS_FPS, calculateResumoSemanaMetadata } from "./short/ShortResumoSemana";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -301,6 +302,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateClaudeComandaMetadata}
   />
   <Composition id="CapaClaudeComanda" component={CapaClaudeComanda} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortResumoSemana"
+    component={ShortResumoSemana}
+    width={1080}
+    height={1920}
+    fps={SRS_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateResumoSemanaMetadata}
+  />
+  <Composition id="CapaResumoSemana" component={CapaResumoSemana} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
