@@ -1,0 +1,84 @@
+{
+  "slug": "vo-whatsapp",
+  "title": "Meu avô aprendeu a usar o WhatsApp",
+  "hook": "Meu avô aprendeu a usar o WhatsApp",
+  "ctaComment": "VÔ",
+  "loop": { "firstSceneId": "s0", "lastSceneId": "s7" },
+  "characters": [
+    { "id": "narrador", "name": "Narrador", "voiceId": "$NARRATOR", "narrator": true },
+    { "id": "leo", "name": "Léo", "voiceId": "36rVQA1AOIPwpA3Hg1tC", "look": { "build": "kid", "height": 0.95, "skinColor": "#F2C38B", "skinSide": "#D9A66E", "hairColor": "#4A2E1A", "hairStyle": "short", "browColor": "#151515", "accessory": "cap", "capColor": "#2F7FE0", "capBrimColor": "#2459A8", "shirtColor": "#2F7FE0", "pantsColor": "#1F2A44", "shoeColor": "#F5F5F5" } },
+    { "id": "ze", "name": "Vô Zé", "voiceId": "RGbeQtiShYRDVCrd9b9w", "look": { "build": "adult", "height": 0.97, "skinColor": "#D9A066", "skinSide": "#BD8650", "hairColor": "#C9C9C9", "hairStyle": "bald-sides", "browColor": "#EDEDED", "accessory": "round-glasses", "glassesColor": "#D4AF37", "shirtColor": "#8B5A2B", "shirtLineColor": "#5C3A1A", "pantsColor": "#C8B48A", "shoeColor": "#4A2E1A", "stoop": true, "missingTooth": true, "item": "cane", "itemColor": "#8B5A2B" } },
+    { "id": "mae", "name": "Dona Neide", "voiceId": "cgSgspJ2msm6clMCkdW9", "look": { "build": "adult", "height": 1, "skinColor": "#C68642", "skinSide": "#A86E33", "hairColor": "#2B1B12", "hairStyle": "volume", "accessory": "glasses", "glassesColor": "#1A1A1A", "blushColor": "#F08A8A", "shirtColor": "#E85A5A", "pantsColor": "#4B3A6B", "item": "phone", "itemColor": "#7AD7F0" } },
+    { "id": "pai", "name": "Seu Carlos", "voiceId": "CstacWqMhJQlnfLPxRG4", "look": { "build": "adult", "height": 1.02, "skinColor": "#E0AC69", "skinSide": "#C4914F", "hairColor": "#5A3A22", "hairStyle": "bald-sides", "accessory": "none", "mustache": true, "belly": true, "sleeveless": true, "shirtColor": "#F5F5F5", "pantsColor": "#6B7A3A", "shorts": true, "shoeColor": "#2459A8", "item": "remote" } }
+  ],
+  "scenes": [
+    { "id": "s0", "setting": "sala", "props": [], "cast": ["leo", "ze"], "lines": [
+      { "id": "l01", "characterId": "narrador", "focusCharacterId": "leo", "text": "Meu avô aprendeu a usar o WhatsApp. E a família nunca mais teve paz.", "expression": "shocked", "shot": "close",
+        "visualBeats": [ { "atWord": "WhatsApp", "type": "punchIn" }, { "atWord": "família", "type": "cut", "value": "medium" }, { "atWord": "paz", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "paz", "file": "whoosh" } ] }
+    ]},
+    { "id": "s1", "day": 1, "setting": "quarto-leo", "props": [], "cast": ["leo", "ze"], "lines": [
+      { "id": "l02", "characterId": "narrador", "focusCharacterId": "ze", "text": "No primeiro dia, ele mandou bom dia com flor às cinco da manhã.", "expression": "happy", "pose": "phone", "item": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "flor", "type": "punchIn" }, { "atWord": "cinco", "type": "cut", "value": "close" }, { "atWord": "manhã", "type": "pan", "value": "leo" }, { "atWord": "manhã", "type": "expression", "value": "leo:sleepy" } ],
+        "sfx": [ { "atWord": "flor", "file": "ding" } ] },
+      { "id": "l03", "characterId": "leo", "text": "Vô, são cinco da manhã! Eu tô dormindo!", "expression": "sleepy", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "cinco", "type": "punchIn" }, { "atWord": "dormindo", "type": "expression", "value": "crying" }, { "atWord": "dormindo", "type": "shake" } ] }
+    ]},
+    { "id": "s2", "day": 2, "setting": "sala", "props": [], "cast": ["leo", "ze"], "lines": [
+      { "id": "l04", "characterId": "narrador", "focusCharacterId": "ze", "text": "No segundo dia, mandou um áudio de doze minutos.", "expression": "happy", "pose": "phone", "item": "phone", "shot": "wide",
+        "visualBeats": [ { "atWord": "áudio", "type": "cut", "value": "medium" }, { "atWord": "doze", "type": "punchIn" }, { "atWord": "minutos", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "áudio", "file": "pop" } ] },
+      { "id": "l05", "characterId": "ze", "text": "Ô, menino! É só pra avisar que o almoço é às onze.", "expression": "happy", "pose": "phone", "item": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "menino", "type": "punchIn" }, { "atWord": "almoço", "type": "cut", "value": "medium" }, { "atWord": "onze", "type": "pan", "value": "leo" }, { "atWord": "onze", "type": "expression", "value": "leo:shocked" } ] },
+      { "id": "l06", "characterId": "leo", "text": "Vô, isso cabia num joinha!", "expression": "shocked", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "isso", "type": "punchIn" }, { "atWord": "joinha", "type": "shake" }, { "atWord": "joinha", "type": "expression", "value": "angry" } ],
+        "sfx": [ { "atWord": "joinha", "file": "error" } ] }
+    ]},
+    { "id": "s3", "day": 3, "setting": "sala", "props": [], "cast": ["leo", "ze"], "lines": [
+      { "id": "l07", "characterId": "narrador", "focusCharacterId": "ze", "text": "No terceiro dia, ele entrou em quarenta grupos.", "expression": "evil-smile", "pose": "phone", "item": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "entrou", "type": "cut", "value": "wide" }, { "atWord": "quarenta", "type": "punchIn" }, { "atWord": "grupos", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "quarenta", "file": "ding" } ] },
+      { "id": "l08", "characterId": "ze", "text": "Igreja, dominó, condomínio... e um de Portugal!", "expression": "laughing", "pose": "phone", "item": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "dominó", "type": "punchIn" }, { "atWord": "condomínio", "type": "cut", "value": "medium" }, { "atWord": "Portugal", "type": "cut", "value": "close" }, { "atWord": "Portugal", "type": "shake" } ],
+        "sfx": [ { "atWord": "Portugal", "file": "pop" } ] }
+    ]},
+    { "id": "s4", "day": 4, "setting": "cozinha", "props": [], "cast": ["leo", "ze", "mae"], "lines": [
+      { "id": "l09", "characterId": "narrador", "focusCharacterId": "ze", "text": "No quarto dia, encaminhou uma corrente pra família toda.", "expression": "evil-smile", "pose": "phone", "item": "phone", "shot": "wide",
+        "visualBeats": [ { "atWord": "encaminhou", "type": "cut", "value": "medium" }, { "atWord": "corrente", "type": "punchIn" }, { "atWord": "família", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "encaminhou", "file": "whoosh" } ] },
+      { "id": "l10", "characterId": "ze", "text": "Manda pra dez pessoas ou o chuveiro queima!", "expression": "angry", "pose": "point", "item": "cane", "shot": "close",
+        "visualBeats": [ { "atWord": "dez", "type": "punchIn" }, { "atWord": "chuveiro", "type": "cut", "value": "medium" }, { "atWord": "queima", "type": "shake" }, { "atWord": "queima", "type": "pan", "value": "mae" } ],
+        "sfx": [ { "atWord": "queima", "file": "error" } ] },
+      { "id": "l11", "characterId": "mae", "text": "Gente, olha isso! Já mandei pra vinte!", "expression": "shocked", "pose": "phone", "item": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "olha", "type": "punchIn" }, { "atWord": "mandei", "type": "expression", "value": "happy" }, { "atWord": "vinte", "type": "pan", "value": "leo" }, { "atWord": "vinte", "type": "expression", "value": "leo:shocked" } ],
+        "sfx": [ { "atWord": "vinte", "file": "coin" } ] }
+    ]},
+    { "id": "s5", "day": 5, "setting": "sala", "props": [], "cast": ["leo", "ze", "mae", "pai"], "lines": [
+      { "id": "l12", "characterId": "narrador", "focusCharacterId": "ze", "text": "No quinto dia, ele criou o grupo Família Quadrada Oficial.", "expression": "happy", "pose": "armsUp", "shot": "wide",
+        "visualBeats": [ { "atWord": "criou", "type": "cut", "value": "medium" }, { "atWord": "grupo", "type": "punchIn" }, { "atWord": "Oficial", "type": "cut", "value": "close" } ],
+        "sfx": [ { "atWord": "quinto", "file": "riser" } ] },
+      { "id": "l13", "characterId": "ze", "text": "Agora todo mundo é obrigado a dar bom dia!", "expression": "angry", "pose": "point", "item": "cane", "shot": "close",
+        "visualBeats": [ { "atWord": "obrigado", "type": "punchIn" }, { "atWord": "bom", "type": "shake" }, { "atWord": "dia", "type": "pan", "value": "pai" }, { "atWord": "dia", "type": "expression", "value": "pai:sleepy" } ] },
+      { "id": "l14", "characterId": "leo", "text": "Vô, você colocou até o padeiro!", "expression": "shocked", "pose": "point", "shot": "close",
+        "visualBeats": [ { "atWord": "colocou", "type": "punchIn" }, { "atWord": "padeiro", "type": "shake" }, { "atWord": "padeiro", "type": "expression", "value": "crying" } ],
+        "sfx": [ { "atWord": "padeiro", "file": "pop" } ] }
+    ]},
+    { "id": "s6", "setting": "sala", "props": [], "cast": ["leo", "ze", "mae", "pai"], "music": { "track": "none", "transition": "stop" }, "lines": [
+      { "id": "l15", "characterId": "narrador", "focusCharacterId": "ze", "text": "Aí ele descobriu o botão de administrador.", "expression": "neutral", "pose": "phone", "item": "phone", "shot": "medium",
+        "visualBeats": [ { "atWord": "botão", "type": "punchIn" }, { "atWord": "administrador", "type": "cut", "value": "close" }, { "atWord": "administrador", "type": "expression", "value": "evil-smile" } ],
+        "sfx": [ { "atWord": "Aí", "file": "ding" } ] },
+      { "id": "l16", "characterId": "ze", "text": "Tchau, Neide! Tchau, Carlos! Tchau, menino!", "expression": "evil-smile", "pose": "phone", "item": "phone", "shot": "close",
+        "visualBeats": [ { "atWord": "Neide", "type": "pan", "value": "mae" }, { "atWord": "Neide", "type": "expression", "value": "mae:shocked" }, { "atWord": "Carlos", "type": "pan", "value": "pai" }, { "atWord": "Carlos", "type": "expression", "value": "pai:shocked" }, { "atWord": "menino", "type": "pan", "value": "leo" } ],
+        "sfx": [ { "atWord": "Neide", "file": "pop" }, { "atWord": "Carlos", "file": "pop" }, { "atWord": "menino", "file": "pop" } ] },
+      { "id": "l17", "characterId": "leo", "text": "Vô, agora o grupo só tem você!", "expression": "crying", "pose": "facepalm", "shot": "close",
+        "visualBeats": [ { "atWord": "grupo", "type": "punchIn" }, { "atWord": "só", "type": "shake" }, { "atWord": "você", "type": "pan", "value": "ze" }, { "atWord": "você", "type": "expression", "value": "ze:sleepy" } ] },
+      { "id": "l18", "characterId": "ze", "text": "Finalmente, paz.", "expression": "sleepy", "pose": "crossed", "shot": "close",
+        "visualBeats": [ { "atWord": "Finalmente", "type": "punchIn" }, { "atWord": "paz", "type": "expression", "value": "happy" } ],
+        "sfx": [ { "atWord": "paz", "file": "ding" } ] }
+    ]},
+    { "id": "s7", "setting": "sala", "props": [], "cast": ["leo", "ze"], "lines": [
+      { "id": "l19", "characterId": "narrador", "focusCharacterId": "leo", "text": "Comenta vô se o seu também é assim. Porque tudo começou quando...", "expression": "suspicious", "pose": "idle", "shot": "close",
+        "visualBeats": [ { "atWord": "Comenta", "type": "punchIn" }, { "atWord": "seu", "type": "cut", "value": "medium" }, { "atWord": "Porque", "type": "cut", "value": "close" }, { "atWord": "tudo", "type": "expression", "value": "shocked" } ] }
+    ]}
+  ]
+}
