@@ -23,6 +23,7 @@ import { ShortFable52, CapaFable52, SF52_FPS, calculateFable52Metadata } from ".
 import { ShortTirarDados, CapaTirarDados, STD_FPS, calculateTirarDadosMetadata } from "./short/ShortTirarDados";
 import { ShortEstilosLuz, CapaEstilosLuz, SEL_FPS, calculateEstilosLuzMetadata } from "./short/ShortEstilosLuz";
 import { ShortGrokBot, CapaGrokBot, SGB_FPS, calculateGrokBotMetadata } from "./short/ShortGrokBot";
+import { ShortSeedance25, CapaSeedance25, SSD_FPS, calculateSeedance25Metadata } from "./short/ShortSeedance25";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -277,6 +278,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateGrokBotMetadata}
   />
   <Composition id="CapaGrokBot" component={CapaGrokBot} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortSeedance25"
+    component={ShortSeedance25}
+    width={1080}
+    height={1920}
+    fps={SSD_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateSeedance25Metadata}
+  />
+  <Composition id="CapaSeedance25" component={CapaSeedance25} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortScion"
     component={ShortScion}
