@@ -16,14 +16,27 @@ Reserva para teste A/B: "Meu avô comprou 50 dentaduras sem querer" (40 caracter
 ## Descrição (YouTube)
 
 ```
-Meu avô ganhou um celular novo e a casa virou um caos. Lanterna ligada o dia inteiro, chamada de vídeo pela orelha, 400 selfies sem querer, briga com o assistente de voz… até ele apertar o "botão bonitinho". 😂
+Meu avô ganhou um celular novo e a casa virou um caos. 📱
+Lanterna ligada o dia inteiro, chamada de vídeo pela orelha, 400 selfies sem querer, briga com o assistente de voz… até ele apertar o "botão bonitinho". 😂
 
 Comenta CELULAR se o seu avô também é assim!
 
-Família Quadrada: a família brasileira mais normal do mundo, só que feita de blocos. Toda semana uma história nova levada ao extremo, do jeito mais absurdo possível. Se aconteceu na sua casa, manda pra família inteira.
+Neste episódio da Família Quadrada:
+Dia 1: deixa a lanterna ligada o dia inteiro
+Dia 2: atende chamada de vídeo pela orelha
+Dia 3: tira 400 selfies sem querer
+Dia 4: briga com o assistente de voz
+Dia 5: compra coisa sem querer
+
+Episódio anterior:
+Meu pai virou técnico do meu time: https://youtube.com/shorts/yIiZpieLmII
+
+Família Quadrada: a família brasileira mais normal do mundo, só que feita de blocos. Mãe, pai, filho e avô em situações que acontecem em qualquer casa do Brasil, levadas ao extremo. História nova toda semana. Se aconteceu na sua casa, manda pra família inteira.
 
 #shorts #humor #familia #celular #avo
 ```
+
+Episódio anterior: EP05 "Meu pai virou técnico do meu time" (`yIiZpieLmII`, no ar a partir de 27/11 às 18h). O pacote que o cron envia está em `out/shorts-blocos/upload-vo-celular-novo/packaging.json`.
 
 ## Tags (YouTube)
 
