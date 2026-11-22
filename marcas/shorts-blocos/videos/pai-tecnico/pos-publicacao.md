@@ -1,7 +1,7 @@
 # Pós-publicação — EP05 "Meu pai virou técnico do meu time"
 
-Publicado em: ____ (preencher)
-Conferir em: ____ (publicação + 48h)
+Publicado em: 27/11/2026 18:00 (BRT), agendado. YouTube: https://youtube.com/shorts/yIiZpieLmII
+Conferir em: 29/11/2026 18:00
 
 1. Continuou assistindo vs. deslizou: meta > 80%. Baixo → refazer gancho e primeiro frame.
 2. Porcentagem visualizada média: meta perto de 100%. Baixa → revisar loop e ritmo.

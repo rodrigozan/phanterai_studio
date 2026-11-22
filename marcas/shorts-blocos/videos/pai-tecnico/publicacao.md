@@ -31,14 +31,14 @@ Dia 4: convoca o vô como reforço
 Dia 5: briga com o juiz e é expulso
 
 Você também pode gostar de:
-Meu avô aprendeu a usar o WhatsApp: [LINK DO EP03]
+Meu avô aprendeu a usar o WhatsApp: https://youtube.com/shorts/xKdHt5UCuwg
 
 Família Quadrada: a família brasileira mais normal do mundo, só que feita de blocos. Mãe, pai, filho e avô em situações que acontecem em qualquer casa do Brasil, levadas ao extremo. História nova toda semana. Se aconteceu na sua casa, manda pra família inteira.
 
 #shorts #humor #futebol #pai #familia
 ```
 
-Antes de publicar, troque `[LINK DO EP03]` pelo link do EP03. Se ele ainda não estiver no ar, use o último vídeo público do canal. Não achei o canal da Família Quadrada no servidor, por isso não pus link inventado.
+Link do EP03 (`xKdHt5UCuwg`): ele entra no ar em 25/11 às 18h. Até lá, o link abre um vídeo privado.
 
 ## Tags (YouTube)
 
