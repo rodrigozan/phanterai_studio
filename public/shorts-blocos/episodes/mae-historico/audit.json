@@ -1,0 +1,91 @@
+{
+  "slug": "mae-historico",
+  "approved": false,
+  "generatedAt": "2026-11-22T18:29:30.692Z",
+  "video": "/root/phanterai_studio/out/shorts-blocos/mae-historico.mp4",
+  "metrics": {
+    "visualChangesPer10s": {
+      "value": 18.05,
+      "meta": ">= 13",
+      "pass": true,
+      "detail": {
+        "changes": 84,
+        "seconds": 46.53
+      }
+    },
+    "closeShare": {
+      "value": 0.548,
+      "meta": ">= 0.33",
+      "pass": true
+    },
+    "firstFrameFace": {
+      "value": 0.464,
+      "meta": "0.40-0.50 da altura",
+      "pass": true,
+      "detail": {
+        "shot": "close",
+        "focus": "leo"
+      }
+    },
+    "volumeDrops": {
+      "value": 2,
+      "meta": "nenhuma janela 10 dB abaixo da média (fora da travessura e do silêncio da reviravolta)",
+      "pass": false,
+      "detail": {
+        "meanDb": -24,
+        "minDb": -40.7,
+        "drops": [
+          {
+            "t": 26,
+            "db": -34.7
+          },
+          {
+            "t": 38.75,
+            "db": -34.1
+          }
+        ]
+      }
+    },
+    "loop": {
+      "value": 0.0003,
+      "meta": "< 0.02",
+      "pass": true
+    },
+    "duration": {
+      "value": 46.55,
+      "meta": "<= 60s",
+      "pass": true
+    },
+    "music": {
+      "value": 0,
+      "meta": "só as 4 faixas, no máximo 3, silêncio só na reviravolta, final em tema",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "scenes": [
+          "s0:tema",
+          "s1:travessura",
+          "s2:travessura",
+          "s3:travessura",
+          "s4:escalada",
+          "s5:escalada",
+          "s6:none",
+          "s7:tema"
+        ],
+        "segments": [
+          "tema 0-196",
+          "travessura 188-1263",
+          "escalada 1255-2003",
+          "escalada 2033-2461",
+          "tema 2453-2792"
+        ]
+      }
+    },
+    "subscribeCtaMidVideo": {
+      "value": 0,
+      "meta": "proibido",
+      "pass": true,
+      "detail": []
+    }
+  }
+}

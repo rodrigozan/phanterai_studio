@@ -1,0 +1,812 @@
+{
+  "slug": "mae-historico",
+  "title": "Minha mãe viu meu histórico do celular",
+  "hook": "Minha mãe viu meu histórico do celular",
+  "ctaComment": "HISTÓRICO",
+  "loop": {
+    "firstSceneId": "s0",
+    "lastSceneId": "s7"
+  },
+  "characters": [
+    {
+      "id": "narrador",
+      "name": "Narrador",
+      "voiceId": "$NARRATOR",
+      "narrator": true
+    },
+    {
+      "id": "leo",
+      "name": "Léo",
+      "voiceId": "36rVQA1AOIPwpA3Hg1tC",
+      "look": {
+        "build": "kid",
+        "height": 0.95,
+        "skinColor": "#F2C38B",
+        "skinSide": "#D9A66E",
+        "hairColor": "#4A2E1A",
+        "hairStyle": "short",
+        "browColor": "#151515",
+        "accessory": "cap",
+        "capColor": "#2F7FE0",
+        "capBrimColor": "#2459A8",
+        "shirtColor": "#2F7FE0",
+        "pantsColor": "#1F2A44",
+        "shoeColor": "#F5F5F5"
+      }
+    },
+    {
+      "id": "mae",
+      "name": "Dona Neide",
+      "voiceId": "cgSgspJ2msm6clMCkdW9",
+      "look": {
+        "build": "adult",
+        "height": 1,
+        "skinColor": "#C68642",
+        "skinSide": "#A86E33",
+        "hairColor": "#2B1B12",
+        "hairStyle": "volume",
+        "accessory": "glasses",
+        "glassesColor": "#1A1A1A",
+        "blushColor": "#F08A8A",
+        "shirtColor": "#E85A5A",
+        "pantsColor": "#4B3A6B",
+        "item": "phone",
+        "itemColor": "#7AD7F0"
+      }
+    },
+    {
+      "id": "pai",
+      "name": "Seu Carlos",
+      "voiceId": "CstacWqMhJQlnfLPxRG4",
+      "look": {
+        "build": "adult",
+        "height": 1.02,
+        "skinColor": "#E0AC69",
+        "skinSide": "#C4914F",
+        "hairColor": "#5A3A22",
+        "hairStyle": "bald-sides",
+        "accessory": "none",
+        "mustache": true,
+        "belly": true,
+        "sleeveless": true,
+        "shirtColor": "#F5F5F5",
+        "pantsColor": "#6B7A3A",
+        "shorts": true,
+        "shoeColor": "#2459A8",
+        "item": "remote"
+      }
+    },
+    {
+      "id": "ze",
+      "name": "Vô Zé",
+      "voiceId": "RGbeQtiShYRDVCrd9b9w",
+      "look": {
+        "build": "adult",
+        "height": 0.97,
+        "skinColor": "#D9A066",
+        "skinSide": "#BD8650",
+        "hairColor": "#C9C9C9",
+        "hairStyle": "bald-sides",
+        "browColor": "#EDEDED",
+        "accessory": "round-glasses",
+        "glassesColor": "#D4AF37",
+        "shirtColor": "#8B5A2B",
+        "shirtLineColor": "#5C3A1A",
+        "pantsColor": "#C8B48A",
+        "shoeColor": "#4A2E1A",
+        "stoop": true,
+        "missingTooth": true,
+        "item": "cane",
+        "itemColor": "#8B5A2B"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s0",
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae"
+      ],
+      "lines": [
+        {
+          "id": "l01",
+          "characterId": "narrador",
+          "focusCharacterId": "leo",
+          "text": "Minha mãe viu o histórico do meu celular. E eu virei réu.",
+          "expression": "shocked",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "histórico",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "celular",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "réu",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "réu",
+              "type": "expression",
+              "value": "crying"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "réu",
+              "file": "whoosh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "day": 1,
+      "setting": "quarto-leo",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae"
+      ],
+      "music": {
+        "track": "travessura",
+        "transition": "crossfade"
+      },
+      "lines": [
+        {
+          "id": "l02",
+          "characterId": "narrador",
+          "focusCharacterId": "mae",
+          "text": "No primeiro dia, ela abriu o meu histórico.",
+          "expression": "suspicious",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "medium",
+          "visualBeats": [
+            {
+              "atWord": "abriu",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "histórico",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "histórico",
+              "type": "expression",
+              "value": "evil-smile"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "abriu",
+              "file": "pop"
+            }
+          ]
+        },
+        {
+          "id": "l03",
+          "characterId": "mae",
+          "text": "Léo! TV de oitenta e cinco polegadas?",
+          "expression": "shocked",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Léo",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "oitenta",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "polegadas",
+              "type": "pan",
+              "value": "leo"
+            },
+            {
+              "atWord": "polegadas",
+              "type": "expression",
+              "value": "leo:shocked"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "polegadas",
+              "file": "error"
+            }
+          ]
+        },
+        {
+          "id": "l04",
+          "characterId": "leo",
+          "text": "Mãe, eu tenho onze anos!",
+          "expression": "shocked",
+          "pose": "facepalm",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Mãe",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "onze",
+              "type": "shake"
+            },
+            {
+              "atWord": "anos",
+              "type": "expression",
+              "value": "angry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "day": 2,
+      "setting": "quarto-leo",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae"
+      ],
+      "lines": [
+        {
+          "id": "l05",
+          "characterId": "narrador",
+          "focusCharacterId": "mae",
+          "text": "No segundo dia, ela me interrogou com a lanterna do celular.",
+          "expression": "evil-smile",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "interrogou",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "lanterna",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "celular",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "lanterna",
+              "file": "ding"
+            }
+          ]
+        },
+        {
+          "id": "l06",
+          "characterId": "mae",
+          "text": "Quem pesquisou churrasco às três da manhã?",
+          "expression": "angry",
+          "pose": "point",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Quem",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "churrasco",
+              "type": "shake"
+            },
+            {
+              "atWord": "manhã",
+              "type": "pan",
+              "value": "leo"
+            },
+            {
+              "atWord": "manhã",
+              "type": "expression",
+              "value": "leo:crying"
+            }
+          ]
+        },
+        {
+          "id": "l07",
+          "characterId": "leo",
+          "text": "Não fui eu!",
+          "expression": "crying",
+          "pose": "facepalm",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Não",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "eu",
+              "type": "shake"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "eu",
+              "file": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "day": 3,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae",
+        "pai"
+      ],
+      "lines": [
+        {
+          "id": "l08",
+          "characterId": "narrador",
+          "focusCharacterId": "pai",
+          "text": "No terceiro dia, ela chamou meu pai como testemunha.",
+          "expression": "sleepy",
+          "pose": "idle",
+          "item": "remote",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "chamou",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "pai",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "testemunha",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "testemunha",
+              "file": "pop"
+            }
+          ]
+        },
+        {
+          "id": "l09",
+          "characterId": "pai",
+          "text": "Esse menino tá perdido, Neide.",
+          "expression": "sleepy",
+          "pose": "crossed",
+          "item": "remote",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "menino",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "perdido",
+              "type": "pan",
+              "value": "leo"
+            },
+            {
+              "atWord": "perdido",
+              "type": "expression",
+              "value": "leo:shocked"
+            },
+            {
+              "atWord": "Neide",
+              "type": "pan",
+              "value": "mae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "day": 4,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae",
+        "pai",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l10",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No quarto dia, convocou o meu avô.",
+          "expression": "suspicious",
+          "pose": "point",
+          "item": "cane",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "convocou",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "avô",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "avô",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "convocou",
+              "file": "whoosh"
+            }
+          ]
+        },
+        {
+          "id": "l11",
+          "characterId": "ze",
+          "text": "Ô, menino! No meu tempo histórico era caderneta!",
+          "expression": "angry",
+          "pose": "point",
+          "item": "cane",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "menino",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "tempo",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "caderneta",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "caderneta",
+              "type": "shake"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "caderneta",
+              "file": "pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "day": 5,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae",
+        "pai",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l12",
+          "characterId": "narrador",
+          "focusCharacterId": "mae",
+          "text": "No quinto dia, tribunal na sala.",
+          "expression": "evil-smile",
+          "pose": "armsUp",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "quinto",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "tribunal",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "sala",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "quinto",
+              "file": "riser"
+            }
+          ]
+        },
+        {
+          "id": "l13",
+          "characterId": "ze",
+          "text": "Ordem no tribunal!",
+          "expression": "angry",
+          "pose": "point",
+          "item": "cane",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Ordem",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "tribunal",
+              "type": "shake"
+            },
+            {
+              "atWord": "tribunal",
+              "type": "pan",
+              "value": "leo"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "tribunal",
+              "file": "error"
+            }
+          ]
+        },
+        {
+          "id": "l14",
+          "characterId": "mae",
+          "text": "Última pesquisa: como apagar o histórico antes da Neide ver.",
+          "expression": "evil-smile",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "pesquisa",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "apagar",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "Neide",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "ver",
+              "type": "expression",
+              "value": "suspicious"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "Neide",
+              "file": "ding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae",
+        "pai",
+        "ze"
+      ],
+      "music": {
+        "track": "none",
+        "transition": "stop"
+      },
+      "lines": [
+        {
+          "id": "l15",
+          "characterId": "leo",
+          "text": "Mãe... quem é que te chama de Neide?",
+          "expression": "suspicious",
+          "pose": "point",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Mãe",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "quem",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "Neide",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "Neide",
+              "type": "pan",
+              "value": "mae"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "Mãe",
+              "file": "ding"
+            }
+          ]
+        },
+        {
+          "id": "l16",
+          "characterId": "narrador",
+          "focusCharacterId": "pai",
+          "text": "Todo mundo olhou pro meu pai.",
+          "expression": "shocked",
+          "pose": "idle",
+          "item": "remote",
+          "shot": "medium",
+          "visualBeats": [
+            {
+              "atWord": "olhou",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "pai",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "pai",
+              "type": "expression",
+              "value": "embarrassed"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "pai",
+              "file": "pop"
+            }
+          ]
+        },
+        {
+          "id": "l17",
+          "characterId": "pai",
+          "text": "Isso aí... é coisa da sua mãe.",
+          "expression": "embarrassed",
+          "pose": "facepalm",
+          "item": "remote",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Isso",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "coisa",
+              "type": "shake"
+            },
+            {
+              "atWord": "mãe",
+              "type": "pan",
+              "value": "mae"
+            },
+            {
+              "atWord": "mãe",
+              "type": "expression",
+              "value": "mae:angry"
+            }
+          ]
+        },
+        {
+          "id": "l18",
+          "characterId": "mae",
+          "text": "Carlos! Em casa a gente conversa!",
+          "expression": "angry",
+          "pose": "point",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Carlos",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "Carlos",
+              "type": "shake"
+            },
+            {
+              "atWord": "casa",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "conversa",
+              "type": "pan",
+              "value": "pai"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "Carlos",
+              "file": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "mae"
+      ],
+      "lines": [
+        {
+          "id": "l19",
+          "characterId": "narrador",
+          "focusCharacterId": "leo",
+          "text": "Comenta histórico se na sua casa a culpa sempre cai em você. Porque tudo começou quando...",
+          "expression": "suspicious",
+          "pose": "idle",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Comenta",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "culpa",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "Porque",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "tudo",
+              "type": "expression",
+              "value": "shocked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
