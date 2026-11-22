@@ -98,6 +98,12 @@ repo root:
   in Portuguese (Rod's working language for that pipeline), the `yt-*` skills are in English. Keep
   each skill internally consistent in whichever language it already uses.
 
+## Commit rule for episodes
+
+Every new episode (any brand) ends with a commit and a push to the main branch (`main` in this repo,
+which Rod calls "master"). Add files by name, author Rod Zandonadi, push over SSH
+(`git@github.com:rodrigozan/phanterai_studio.git`). No side branches, no PRs.
+
 ## `shorts-blocos` pipeline
 
 Shorts 1080x1920 at 60fps with block-style characters drawn in code (no third-party game branding).
