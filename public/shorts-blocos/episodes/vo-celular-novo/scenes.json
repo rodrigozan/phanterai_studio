@@ -1,0 +1,840 @@
+{
+  "slug": "vo-celular-novo",
+  "title": "Meu avô ganhou um celular novo",
+  "hook": "Meu avô ganhou um celular novo",
+  "ctaComment": "CELULAR",
+  "loop": {
+    "firstSceneId": "s0",
+    "lastSceneId": "s7"
+  },
+  "characters": [
+    {
+      "id": "narrador",
+      "name": "Narrador",
+      "voiceId": "$NARRATOR",
+      "narrator": true
+    },
+    {
+      "id": "leo",
+      "name": "Léo",
+      "voiceId": "36rVQA1AOIPwpA3Hg1tC",
+      "look": {
+        "build": "kid",
+        "height": 0.95,
+        "skinColor": "#F2C38B",
+        "skinSide": "#D9A66E",
+        "hairColor": "#4A2E1A",
+        "hairStyle": "short",
+        "browColor": "#151515",
+        "accessory": "cap",
+        "capColor": "#2F7FE0",
+        "capBrimColor": "#2459A8",
+        "shirtColor": "#2F7FE0",
+        "pantsColor": "#1F2A44",
+        "shoeColor": "#F5F5F5"
+      }
+    },
+    {
+      "id": "mae",
+      "name": "Dona Neide",
+      "voiceId": "cgSgspJ2msm6clMCkdW9",
+      "look": {
+        "build": "adult",
+        "height": 1,
+        "skinColor": "#C68642",
+        "skinSide": "#A86E33",
+        "hairColor": "#2B1B12",
+        "hairStyle": "volume",
+        "accessory": "glasses",
+        "glassesColor": "#1A1A1A",
+        "blushColor": "#F08A8A",
+        "shirtColor": "#E85A5A",
+        "pantsColor": "#4B3A6B",
+        "item": "phone",
+        "itemColor": "#7AD7F0"
+      }
+    },
+    {
+      "id": "pai",
+      "name": "Seu Carlos",
+      "voiceId": "CstacWqMhJQlnfLPxRG4",
+      "look": {
+        "build": "adult",
+        "height": 1.02,
+        "skinColor": "#E0AC69",
+        "skinSide": "#C4914F",
+        "hairColor": "#5A3A22",
+        "hairStyle": "bald-sides",
+        "accessory": "none",
+        "mustache": true,
+        "belly": true,
+        "sleeveless": true,
+        "shirtColor": "#F5F5F5",
+        "pantsColor": "#6B7A3A",
+        "shorts": true,
+        "shoeColor": "#2459A8",
+        "item": "remote"
+      }
+    },
+    {
+      "id": "ze",
+      "name": "Vô Zé",
+      "voiceId": "RGbeQtiShYRDVCrd9b9w",
+      "look": {
+        "build": "adult",
+        "height": 0.97,
+        "skinColor": "#D9A066",
+        "skinSide": "#BD8650",
+        "hairColor": "#C9C9C9",
+        "hairStyle": "bald-sides",
+        "browColor": "#EDEDED",
+        "accessory": "round-glasses",
+        "glassesColor": "#D4AF37",
+        "shirtColor": "#8B5A2B",
+        "shirtLineColor": "#5C3A1A",
+        "pantsColor": "#C8B48A",
+        "shoeColor": "#4A2E1A",
+        "stoop": true,
+        "missingTooth": true,
+        "item": "cane",
+        "itemColor": "#8B5A2B"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s0",
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l01",
+          "characterId": "narrador",
+          "focusCharacterId": "leo",
+          "text": "Meu avô ganhou um celular novo. E a casa virou um caos.",
+          "expression": "shocked",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "celular",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "casa",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "caos",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "caos",
+              "type": "expression",
+              "value": "crying"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "caos",
+              "file": "whoosh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "day": 1,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l02",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No primeiro dia, ele deixou a lanterna ligada o dia inteiro.",
+          "expression": "happy",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "medium",
+          "visualBeats": [
+            {
+              "atWord": "lanterna",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "ligada",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "inteiro",
+              "type": "pan",
+              "value": "leo"
+            },
+            {
+              "atWord": "inteiro",
+              "type": "expression",
+              "value": "leo:suspicious"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "lanterna",
+              "file": "ding"
+            }
+          ]
+        },
+        {
+          "id": "l03",
+          "characterId": "leo",
+          "text": "Vô, a bateria acabou de novo!",
+          "expression": "angry",
+          "pose": "facepalm",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "bateria",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "acabou",
+              "type": "shake"
+            },
+            {
+              "atWord": "novo",
+              "type": "expression",
+              "value": "crying"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "acabou",
+              "file": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "day": 2,
+      "setting": "cozinha",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze",
+        "mae"
+      ],
+      "lines": [
+        {
+          "id": "l04",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No segundo dia, atendeu chamada de vídeo pela orelha.",
+          "expression": "happy",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "atendeu",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "vídeo",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "orelha",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "orelha",
+              "file": "pop"
+            }
+          ]
+        },
+        {
+          "id": "l05",
+          "characterId": "mae",
+          "text": "Seu Zé, eu só tô vendo a sua orelha!",
+          "expression": "shocked",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Zé",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "vendo",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "orelha",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "orelha",
+              "type": "pan",
+              "value": "ze"
+            }
+          ]
+        },
+        {
+          "id": "l06",
+          "characterId": "ze",
+          "text": "Ô, menina! Fala mais alto!",
+          "expression": "angry",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "menina",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "alto",
+              "type": "shake"
+            },
+            {
+              "atWord": "alto",
+              "type": "pan",
+              "value": "leo"
+            },
+            {
+              "atWord": "alto",
+              "type": "expression",
+              "value": "leo:shocked"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "alto",
+              "file": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "day": 3,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l07",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No terceiro dia, tirou quatrocentas selfies sem querer.",
+          "expression": "shocked",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "medium",
+          "visualBeats": [
+            {
+              "atWord": "tirou",
+              "type": "cut",
+              "value": "wide"
+            },
+            {
+              "atWord": "quatrocentas",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "selfies",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "querer",
+              "type": "shake"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "quatrocentas",
+              "file": "pop"
+            },
+            {
+              "atWord": "selfies",
+              "file": "pop"
+            },
+            {
+              "atWord": "querer",
+              "file": "pop"
+            }
+          ]
+        },
+        {
+          "id": "l08",
+          "characterId": "ze",
+          "text": "Como é que desliga isso?",
+          "expression": "suspicious",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Como",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "desliga",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "isso",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "isso",
+              "type": "expression",
+              "value": "angry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "day": 4,
+      "setting": "quintal",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze",
+        "pai"
+      ],
+      "lines": [
+        {
+          "id": "l09",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No quarto dia, ele brigou com o assistente de voz.",
+          "expression": "angry",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "brigou",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "assistente",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "voz",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "brigou",
+              "file": "whoosh"
+            }
+          ]
+        },
+        {
+          "id": "l10",
+          "characterId": "ze",
+          "text": "Eu não falei com você, coisa do diabo!",
+          "expression": "angry",
+          "pose": "point",
+          "item": "cane",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "falei",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "você",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "diabo",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "diabo",
+              "type": "shake"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "diabo",
+              "file": "error"
+            }
+          ]
+        },
+        {
+          "id": "l11",
+          "characterId": "pai",
+          "text": "Ele tá discutindo com o celular faz duas horas.",
+          "expression": "sleepy",
+          "pose": "crossed",
+          "item": "tongs",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "discutindo",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "celular",
+              "type": "pan",
+              "value": "ze"
+            },
+            {
+              "atWord": "duas",
+              "type": "pan",
+              "value": "pai"
+            },
+            {
+              "atWord": "horas",
+              "type": "expression",
+              "value": "suspicious"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "day": 5,
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "mae",
+        "leo",
+        "ze",
+        "pai"
+      ],
+      "lines": [
+        {
+          "id": "l12",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "No quinto dia, ele comprou coisa sem querer.",
+          "expression": "happy",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "wide",
+          "visualBeats": [
+            {
+              "atWord": "quinto",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "comprou",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "querer",
+              "type": "cut",
+              "value": "close"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "quinto",
+              "file": "riser"
+            },
+            {
+              "atWord": "comprou",
+              "file": "coin"
+            }
+          ]
+        },
+        {
+          "id": "l13",
+          "characterId": "ze",
+          "text": "Eu só apertei o botão bonitinho!",
+          "expression": "laughing",
+          "pose": "phone",
+          "item": "phone",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "apertei",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "botão",
+              "type": "shake"
+            },
+            {
+              "atWord": "bonitinho",
+              "type": "pan",
+              "value": "mae"
+            },
+            {
+              "atWord": "bonitinho",
+              "type": "expression",
+              "value": "mae:shocked"
+            }
+          ]
+        },
+        {
+          "id": "l14",
+          "characterId": "mae",
+          "text": "Gente, olha isso! Chegou uma caixa!",
+          "expression": "shocked",
+          "pose": "idle",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "olha",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "Chegou",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "caixa",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "caixa",
+              "type": "pan",
+              "value": "leo"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "caixa",
+              "file": "pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "setting": "sala",
+      "props": [
+        "caixas",
+        "caixas",
+        "caixas",
+        "caixas",
+        "caixas"
+      ],
+      "cast": [
+        "mae",
+        "leo",
+        "ze",
+        "pai"
+      ],
+      "music": {
+        "track": "none",
+        "transition": "stop"
+      },
+      "lines": [
+        {
+          "id": "l15",
+          "characterId": "narrador",
+          "focusCharacterId": "ze",
+          "text": "Aí chegaram cinquenta dentaduras pelo correio.",
+          "expression": "happy",
+          "shot": "medium",
+          "visualBeats": [
+            {
+              "atWord": "chegaram",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "cinquenta",
+              "type": "cut",
+              "value": "wide"
+            },
+            {
+              "atWord": "dentaduras",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "correio",
+              "type": "expression",
+              "value": "leo:crying"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "Aí",
+              "file": "ding"
+            }
+          ],
+          "pose": "idle",
+          "item": "cane"
+        },
+        {
+          "id": "l16",
+          "characterId": "leo",
+          "text": "Vô, cinquenta dentaduras?",
+          "expression": "shocked",
+          "pose": "point",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Vô",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "cinquenta",
+              "type": "shake"
+            },
+            {
+              "atWord": "dentaduras",
+              "type": "pan",
+              "value": "ze"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "dentaduras",
+              "file": "error"
+            }
+          ]
+        },
+        {
+          "id": "l17",
+          "characterId": "ze",
+          "text": "Agora eu tenho dente reserva!",
+          "expression": "laughing",
+          "pose": "armsUp",
+          "item": "cane",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Agora",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "dente",
+              "type": "shake"
+            },
+            {
+              "atWord": "reserva",
+              "type": "expression",
+              "value": "evil-smile"
+            },
+            {
+              "atWord": "reserva",
+              "type": "pan",
+              "value": "pai"
+            }
+          ],
+          "sfx": [
+            {
+              "atWord": "reserva",
+              "file": "coin"
+            }
+          ]
+        },
+        {
+          "id": "l18",
+          "characterId": "pai",
+          "text": "Na volta a gente devolve.",
+          "expression": "sleepy",
+          "pose": "crossed",
+          "item": "remote",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "volta",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "devolve",
+              "type": "pan",
+              "value": "mae"
+            },
+            {
+              "atWord": "devolve",
+              "type": "expression",
+              "value": "mae:angry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "setting": "sala",
+      "props": [],
+      "cast": [
+        "leo",
+        "ze"
+      ],
+      "lines": [
+        {
+          "id": "l19",
+          "characterId": "narrador",
+          "focusCharacterId": "leo",
+          "text": "Comenta celular se o seu avô também é assim. Porque tudo começou quando...",
+          "expression": "suspicious",
+          "pose": "idle",
+          "shot": "close",
+          "visualBeats": [
+            {
+              "atWord": "Comenta",
+              "type": "punchIn"
+            },
+            {
+              "atWord": "avô",
+              "type": "cut",
+              "value": "medium"
+            },
+            {
+              "atWord": "Porque",
+              "type": "cut",
+              "value": "close"
+            },
+            {
+              "atWord": "tudo",
+              "type": "expression",
+              "value": "shocked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
