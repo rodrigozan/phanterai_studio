@@ -1,0 +1,28 @@
+{
+  "qtd": 2,
+  "gap": 3.3,
+  "videos": {
+    "artista3d": "3d animation artist computer",
+    "digitando": "person typing on laptop at night",
+    "criador": "content creator editing video at desk",
+    "frustrado": "frustrated man at computer",
+    "comemora": "happy man celebrating in front of computer",
+    "modelagem": "3d modeling software on monitor"
+  },
+  "fotos": {
+    "render3d": "3d render low poly landscape",
+    "mesa": "computer desk monitor workspace",
+    "ideia": "person thinking with laptop"
+  },
+  "prints": {
+    "claude-tutorial": "https://claude.com/resources/tutorials/using-the-blender-connector-in-claude",
+    "claude-conector": "https://claude.com/connectors/blender",
+    "anthropic-criativo": "https://www.anthropic.com/news/claude-for-creative-work",
+    "claude-download": "https://claude.com/download"
+  },
+  "gatilhos": {
+    "Anthropic": "prints/anthropic-criativo.png",
+    "conector": "prints/claude-conector.png",
+    "oficial": "prints/claude-tutorial.png"
+  }
+}

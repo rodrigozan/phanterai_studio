@@ -1,0 +1,761 @@
+{
+  "slug": "2026-11-23-blender-com-claude",
+  "titulo": "Pedi uma animação 3D pro Claude e ele fez sozinho (grátis)",
+  "fontes": [
+    "https://claude.com/resources/tutorials/using-the-blender-connector-in-claude",
+    "https://www.anthropic.com/news/claude-for-creative-work",
+    "https://claude.com/connectors/blender",
+    "https://lab.blender.org/mcp-server/",
+    "https://claude.com/download",
+    "https://www.blender.org/download/",
+    "https://download.blender.org/release/Blender5.3/"
+  ],
+  "cenas": [
+    {
+      "id": "C01",
+      "tipo": "gancho-video",
+      "fala": "Eu abri o Claude e pedi, em português: crie uma ilha flutuante com casinha, árvores e lago, e faça a câmera girar em volta. E o Claude montou essa cena em três dê sozinho, dentro do Blender. O Blender é grátis, e isso funciona até no plano gratuito do Claude. Hoje eu te mostro o passo a passo, no Windows, no Mac e no Linux.",
+      "dados": {
+        "bg": "render/ilha.mp4",
+        "esc": 0.22,
+        "l1": "Animação 3D",
+        "l2": "só pedindo",
+        "pilulas": [
+          {
+            "ao": "português",
+            "txt": "Você pede em português",
+            "cor": "verde"
+          },
+          {
+            "ao": "sozinho",
+            "txt": "O Claude monta a cena 3D",
+            "cor": "violeta"
+          },
+          {
+            "ao": "grátis",
+            "txt": "Blender grátis",
+            "cor": "ouro"
+          },
+          {
+            "ao": "Windows",
+            "txt": "Windows · Mac · Linux",
+            "cor": "escuro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "tipo": "cartoes",
+      "pantera": false,
+      "fala": "O segredo é juntar duas coisas. A primeira é o Blender, o programa de três dê gratuito, usado de jogos independentes até produção de filmes. A segunda é o conector oficial do Blender para o Claude, criado pelos próprios desenvolvedores do Blender e lançado junto com a Anthropic. Ele deixa o Claude mexer no Blender por você.",
+      "dados": {
+        "bg": "pexels/artista3d-2.mp4",
+        "titulo": "Duas peças",
+        "cols": 1,
+        "w": 1350,
+        "itens": [
+          {
+            "ao": "primeira",
+            "t": "Blender",
+            "sub": "programa de 3D gratuito e de código aberto",
+            "icone": "◆",
+            "cor": "laranja"
+          },
+          {
+            "ao": "segunda",
+            "t": "Conector oficial do Blender",
+            "sub": "feito pelo Blender Lab, lançado com a Anthropic",
+            "icone": "✻",
+            "cor": "ciano"
+          }
+        ],
+        "pilula": {
+          "ao": "mexer",
+          "txt": "O Claude mexe no Blender por você",
+          "cor": "verde"
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "tipo": "fluxo",
+      "pantera": false,
+      "fala": "Funciona assim: você pede o que quer, em português. O Claude escreve o código em Python, que é a língua que o Blender entende. O conector roda esse código dentro do Blender. E a cena aparece na sua tela. Você não precisa saber programar nada.",
+      "dados": {
+        "titulo": "Como funciona",
+        "etapas": [
+          {
+            "ao": "pede",
+            "t": "Você pede",
+            "sub": "em português"
+          },
+          {
+            "ao": "escreve",
+            "t": "Claude escreve",
+            "sub": "o código em Python"
+          },
+          {
+            "ao": "roda",
+            "t": "O conector roda",
+            "sub": "dentro do Blender"
+          },
+          {
+            "ao": "aparece",
+            "t": "Cena pronta",
+            "sub": "na sua tela"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "tipo": "cartoes",
+      "fala": "Com isso você cria cenários para os seus vídeos, um logo em três dê para o seu canal, um produto girando para um anúncio, e animações curtas para Reels e Shorts. E se você já usa o Blender, ele também explica arquivos complicados e organiza a sua cena.",
+      "dados": {
+        "bg": "pexels/render3d-2.jpg",
+        "titulo": "O que dá pra criar",
+        "cols": 2,
+        "itens": [
+          {
+            "ao": "cenários",
+            "t": "Cenários",
+            "sub": "para os seus vídeos"
+          },
+          {
+            "ao": "logo",
+            "t": "Logo em 3D",
+            "sub": "para o seu canal"
+          },
+          {
+            "ao": "produto",
+            "t": "Produto girando",
+            "sub": "para anúncios"
+          },
+          {
+            "ao": "Reels",
+            "t": "Animações curtas",
+            "sub": "para Reels e Shorts"
+          }
+        ],
+        "pilula": {
+          "ao": "explica",
+          "txt": "E ainda explica e organiza a sua cena",
+          "cor": "ouro"
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "tipo": "cta",
+      "fala": "Antes de começar, um pedido rápido. Se esse vídeo já está te ajudando, deixa o like e se inscreve no Aprenda YouTube. Toda semana tem tutorial de inteligência artificial, passo a passo, para quem não é programador.",
+      "dados": {
+        "bg": "pexels/comemora-1.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "tipo": "cartoes",
+      "pantera": false,
+      "fala": "O plano tem três passos. Um: instalar o Blender. Dois: adicionar o conector do Blender no Claude Desktop, que é o aplicativo do Claude para computador. Três: ligar o complemento dentro do Blender. Depois disso, é só pedir.",
+      "dados": {
+        "bg": "pexels/mesa-1.jpg",
+        "titulo": "O plano em 3 passos",
+        "cols": 1,
+        "w": 1300,
+        "numerar": true,
+        "itens": [
+          {
+            "ao": "Um",
+            "t": "Instalar o Blender",
+            "sub": "grátis, no site oficial",
+            "cor": "laranja"
+          },
+          {
+            "ao": "Dois",
+            "t": "Adicionar o conector",
+            "sub": "no aplicativo Claude Desktop",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Três",
+            "t": "Ligar o complemento",
+            "sub": "dentro do Blender",
+            "cor": "verde"
+          }
+        ],
+        "pilula": {
+          "ao": "pedir",
+          "txt": "Depois é só pedir",
+          "cor": "ouro"
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "tipo": "cartoes",
+      "fala": "O que você precisa? Um computador com Windows, Mac ou Linux. O Claude Desktop, em qualquer plano, inclusive o gratuito. E o Blender na versão quatro ponto dois ou mais nova, que também é gratuito. Um detalhe importante: o conector não funciona no Claude pelo navegador. Tem que ser o aplicativo instalado.",
+      "dados": {
+        "bg": "pexels/digitando-1.mp4",
+        "titulo": "O que você precisa",
+        "cols": 1,
+        "w": 1300,
+        "itens": [
+          {
+            "ao": "Windows",
+            "t": "Windows, Mac ou Linux",
+            "sub": "qualquer um dos três",
+            "icone": "▣",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Desktop",
+            "t": "Claude Desktop",
+            "sub": "qualquer plano, inclusive o gratuito",
+            "icone": "✻",
+            "cor": "laranja"
+          },
+          {
+            "ao": "versão",
+            "t": "Blender 4.2 ou mais novo",
+            "sub": "também gratuito",
+            "icone": "◆",
+            "cor": "verde"
+          }
+        ],
+        "pilula": {
+          "ao": "navegador",
+          "txt": "Pelo navegador não funciona",
+          "cor": "vermelho",
+          "sfx": "error"
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "tipo": "navegador-print",
+      "pantera": false,
+      "fala": "Quem confirma isso é a própria página oficial do conector, da Anthropic. Os requisitos estão aqui: Claude Desktop, em qualquer plano, e o Blender quatro ponto dois ou mais novo, grátis em blender ponto org, barra download.",
+      "dados": {
+        "url": "claude.com/resources/tutorials/using-the-blender-connector-in-claude",
+        "selo": "Página oficial do conector",
+        "digitar": {
+          "ao": "Quem"
+        },
+        "telas": [
+          {
+            "ao": "Quem",
+            "arq": "cena-requisitos.png"
+          }
+        ],
+        "destaque": {
+          "ao": "requisitos",
+          "x": 410,
+          "y": 900,
+          "w": 420,
+          "h": 72
+        },
+        "zoom": {
+          "z": 1.5,
+          "vx": 300,
+          "vy": 640
+        }
+      }
+    },
+    {
+      "id": "C09",
+      "tipo": "instalador-sistemas",
+      "pantera": false,
+      "fala": "Passo um. Entre em blender ponto org, barra download, e baixe a versão do seu sistema. No Windows, abra o arquivo e vá clicando em Next até o final. No Mac, abra o arquivo e arraste o Blender para a pasta Aplicativos. No Linux, o jeito mais fácil é a loja de aplicativos do seu sistema: procure Blender e clique em instalar.",
+      "dados": {
+        "nome": "Blender",
+        "baixa": {
+          "ao": "baixe"
+        },
+        "win": {
+          "ao": "Windows"
+        },
+        "winFim": {
+          "ao": "final"
+        },
+        "mac": {
+          "ao": "Mac"
+        },
+        "macArrasta": {
+          "ao": "arraste"
+        },
+        "linux": {
+          "ao": "Linux"
+        },
+        "linuxBusca": {
+          "ao": "procure"
+        },
+        "linuxInstala": {
+          "ao": "instalar"
+        }
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C10",
+      "tipo": "navegador-print",
+      "pantera": false,
+      "fala": "Se você ainda não tem o Claude Desktop, entre em claude ponto com, barra download. O site já mostra o botão do seu sistema, tem Mac, Windows e Linux. Instale como qualquer programa e entre com a sua conta do Claude.",
+      "dados": {
+        "url": "claude.com/download",
+        "selo": "Claude Desktop",
+        "digitar": {
+          "ao": "entre"
+        },
+        "telas": [
+          {
+            "ao": "entre",
+            "arq": "cena-download-claude.png"
+          }
+        ],
+        "destaque": {
+          "ao": "botão",
+          "x": 700,
+          "y": 382,
+          "w": 200,
+          "h": 40
+        },
+        "cliques": [
+          {
+            "ao": "Instale",
+            "x": 800,
+            "y": 400,
+            "chip": "Claude Desktop (instalador)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "tipo": "desktop-conectores",
+      "pantera": false,
+      "fala": "Passo dois. Abra o Claude Desktop, clique em personalizar e abra o diretório de conectores. Na busca, digite Blender. Vai aparecer o conector oficial, feito pelo Blender Lab. Clique em instalar. Pronto: o Claude já sabe falar com o Blender.",
+      "dados": {
+        "menu": {
+          "ao": "personalizar"
+        },
+        "diretorio": {
+          "ao": "diretório"
+        },
+        "busca": {
+          "ao": "digite"
+        },
+        "achou": {
+          "ao": "Lab"
+        },
+        "instalar": {
+          "ao": "instalar"
+        },
+        "ok": {
+          "ao": "Pronto"
+        }
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C12",
+      "tipo": "navegador-print",
+      "pantera": false,
+      "fala": "Passo três. O conector precisa de um complemento dentro do Blender. Na página oficial do conector tem o link das instruções, que leva para a página do servidor, no site do Blender Lab. É de lá que você pega o link de instalação.",
+      "dados": {
+        "url": "claude.com/connectors/blender",
+        "selo": "Passo 3: complemento",
+        "digitar": {
+          "ao": "Passo"
+        },
+        "telas": [
+          {
+            "ao": "Passo",
+            "arq": "cena-conector.png"
+          }
+        ],
+        "destaque": {
+          "ao": "instruções",
+          "x": 440,
+          "y": 896,
+          "w": 630,
+          "h": 48
+        },
+        "zoom": {
+          "z": 1.25,
+          "vx": 250,
+          "vy": 520
+        }
+      }
+    },
+    {
+      "id": "C13",
+      "tipo": "blender-janela",
+      "pantera": false,
+      "fala": "Com o Blender aberto, arraste esse link de instalação da página para dentro da janela do Blender. Na primeira vez, ele pergunta se pode adicionar o repositório de extensões do Blender Lab. Clique em permitir. Depois, arraste o mesmo link mais uma vez. Agora sim, ele instala o complemento.",
+      "dados": {
+        "modo": "arrastar",
+        "arrasta": {
+          "ao": "arraste"
+        },
+        "pergunta": {
+          "ao": "pergunta"
+        },
+        "permitir": {
+          "ao": "permitir"
+        },
+        "arrasta2": {
+          "ao": "arraste#2"
+        },
+        "instala": {
+          "ao": "instala"
+        }
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C14",
+      "tipo": "blender-janela",
+      "pantera": false,
+      "fala": "Para ligar, vá em Edit, Preferences, e abra a aba Add-ons. Procure o Blender eme cê pê e clique em Start eme cê pê Server. Isso liga a ponte entre o Blender e o Claude. Toda vez que for trabalhar, abra o seu projeto e ligue o servidor de novo.",
+      "dados": {
+        "modo": "preferencias",
+        "edit": {
+          "ao": "Edit"
+        },
+        "addons": {
+          "ao": "Add-ons"
+        },
+        "procura": {
+          "ao": "Procure"
+        },
+        "start": {
+          "ao": "Start"
+        },
+        "ponte": {
+          "ao": "ponte"
+        },
+        "toda": {
+          "ao": "Toda"
+        }
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C15",
+      "tipo": "desktop-pedido",
+      "pantera": false,
+      "fala": "Hora do teste. Abra uma conversa nova no Claude e escreva: crie uma ilha flutuante em estilo low poly, com uma casinha, árvores, um lago e nuvens, e coloque uma câmera girando em volta. Na primeira vez, o Claude pede permissão para usar o Blender. Clique em permitir.",
+      "dados": {
+        "pedido": "Crie uma ilha flutuante em estilo low poly, com uma casinha, árvores, um lago e nuvens, e coloque uma câmera girando em volta.",
+        "a": {
+          "ao": "escreva"
+        },
+        "perm": {
+          "ao": "permissão"
+        },
+        "ok": {
+          "ao": "permitir"
+        },
+        "acoes": [
+          {
+            "ao": "permitir",
+            "txt": "Blender · executando código Python na cena aberta"
+          }
+        ]
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C16",
+      "tipo": "blender-janela",
+      "pantera": false,
+      "fala": "E aí é só assistir. O Claude cria o terreno, as árvores, a casinha, o lago, as nuvens, a luz e a câmera, uma coisa de cada vez, e lê a cena para conferir o que fez. Em poucos minutos, está tudo pronto na sua tela.",
+      "dados": {
+        "modo": "video",
+        "video": "render/ilha.mp4",
+        "videoDur": 5,
+        "itens": [
+          {
+            "ao": "terreno",
+            "t": "Ilha"
+          },
+          {
+            "ao": "árvores",
+            "t": "Árvores"
+          },
+          {
+            "ao": "casinha",
+            "t": "Casinha"
+          },
+          {
+            "ao": "lago",
+            "t": "Lago"
+          },
+          {
+            "ao": "nuvens",
+            "t": "Nuvens"
+          },
+          {
+            "ao": "luz",
+            "t": "Sol"
+          },
+          {
+            "ao": "câmera",
+            "t": "Câmera"
+          }
+        ],
+        "revela": {
+          "ao": "terreno"
+        },
+        "ok": {
+          "ao": "pronto",
+          "txt": "Cena criada pelo Claude"
+        }
+      },
+      "broll": false
+    },
+    {
+      "id": "C17",
+      "tipo": "desktop-pedido",
+      "pantera": false,
+      "fala": "Não gostou de alguma coisa? É só pedir. Por exemplo: deixe o céu com cor de pôr do sol e acenda uma luz nas janelas da casa. Ele muda só o que você pediu, e você vê a mudança na hora.",
+      "dados": {
+        "pedido": "Deixe o céu com cor de pôr do sol e acenda uma luz nas janelas da casa.",
+        "a": {
+          "ao": "Por"
+        },
+        "acoes": [
+          {
+            "ao": "muda",
+            "txt": "Blender · céu e janelas atualizados"
+          }
+        ],
+        "fim": {
+          "ao": "hora",
+          "txt": "Pronto! O céu agora tem as cores do pôr do sol e as janelas estão acesas."
+        },
+        "thumb": "render/ilha-final.jpg"
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C18",
+      "tipo": "blender-janela",
+      "pantera": false,
+      "fala": "Para transformar em vídeo, peça para ele configurar a saída em vídeo eme pê quatro. Depois, no Blender, clique em Render e em Render Animation. O Blender desenha quadro por quadro, e o vídeo sai pronto para postar.",
+      "dados": {
+        "modo": "render",
+        "video": "render/ilha.mp4",
+        "videoDur": 5,
+        "menu": {
+          "ao": "Render"
+        },
+        "anim": {
+          "ao": "Animation"
+        },
+        "fim": {
+          "ao": "postar"
+        }
+      },
+      "broll": "leve"
+    },
+    {
+      "id": "C19",
+      "tipo": "cartoes",
+      "fala": "E não é só criar do zero. Você também pode pedir: renomeie os objetos da cena com nomes que façam sentido. Explique como esse arquivo funciona. Ou: mostre quais objetos estão deixando a cena pesada. São exemplos que a própria Anthropic usa no tutorial oficial.",
+      "dados": {
+        "bg": "pexels/modelagem-2.mp4",
+        "titulo": "Outros pedidos que funcionam",
+        "cols": 1,
+        "w": 1350,
+        "itens": [
+          {
+            "ao": "renomeie",
+            "t": "Renomeie os objetos da cena",
+            "sub": "nomes que fazem sentido",
+            "icone": "1",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Explique",
+            "t": "Explique como esse arquivo funciona",
+            "sub": "ótimo para arquivos baixados",
+            "icone": "2",
+            "cor": "verde"
+          },
+          {
+            "ao": "mostre",
+            "t": "Mostre o que deixa a cena pesada",
+            "sub": "e o que dá para aliviar",
+            "icone": "3",
+            "cor": "ouro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C20",
+      "tipo": "cartoes",
+      "fala": "Três dicas para o resultado sair melhor. Um: diga o estilo, por exemplo, low poly, desenho animado ou realista. Dois: peça uma coisa de cada vez, e ajuste antes de seguir. Três: salve no Blender. O Claude trabalha na cena aberta, e as mudanças só vão para o arquivo quando você salva.",
+      "dados": {
+        "bg": "pexels/ideia-1.jpg",
+        "titulo": "3 dicas de pedido",
+        "cols": 1,
+        "w": 1350,
+        "numerar": true,
+        "itens": [
+          {
+            "ao": "Um",
+            "t": "Diga o estilo",
+            "sub": "low poly, desenho animado ou realista",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Dois",
+            "t": "Uma coisa de cada vez",
+            "sub": "ajuste antes de seguir",
+            "cor": "verde"
+          },
+          {
+            "ao": "Três",
+            "t": "Salve no Blender",
+            "sub": "a mudança só vai pro arquivo quando você salva",
+            "cor": "ouro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C21",
+      "tipo": "cartoes",
+      "pantera": false,
+      "pose": "pensando",
+      "fala": "Se o Claude disser que não encontrou o Blender, confira três coisas. O Blender está aberto. O servidor foi ligado, no Start eme cê pê Server. E você está no Claude Desktop, não no site. Depois, feche e abra o Claude Desktop de novo, e tente outra vez.",
+      "dados": {
+        "bg": "pexels/frustrado-2.mp4",
+        "titulo": "Não conectou?",
+        "cols": 1,
+        "w": 1300,
+        "check": true,
+        "itens": [
+          {
+            "ao": "aberto",
+            "t": "O Blender está aberto"
+          },
+          {
+            "ao": "ligado",
+            "t": "O servidor está ligado"
+          },
+          {
+            "ao": "Desktop",
+            "t": "Você está no Claude Desktop"
+          }
+        ],
+        "pilula": {
+          "ao": "feche",
+          "txt": "Feche e abra o Claude de novo",
+          "cor": "ouro"
+        }
+      }
+    },
+    {
+      "id": "C22",
+      "tipo": "cartoes",
+      "pose": "pensando",
+      "fala": "Alguns cuidados rápidos. O plano gratuito do Claude tem limite de uso, então cenas grandes podem pedir mais de uma sessão. O render final usa o seu computador, então pode demorar mais em máquina simples. E algumas telas deste vídeo são ilustrações. Os links certos estão na descrição.",
+      "dados": {
+        "bg": "pexels/mesa-2.jpg",
+        "titulo": "Cuidados rápidos",
+        "cols": 1,
+        "w": 1350,
+        "itens": [
+          {
+            "ao": "limite",
+            "t": "Plano gratuito tem limite de uso",
+            "sub": "cena grande pode levar mais de uma sessão",
+            "icone": "1",
+            "cor": "laranja"
+          },
+          {
+            "ao": "render",
+            "t": "O render usa o seu computador",
+            "sub": "máquina simples demora mais",
+            "icone": "2",
+            "cor": "ciano"
+          },
+          {
+            "ao": "ilustrações",
+            "t": "Algumas telas são ilustrações",
+            "sub": "links oficiais na descrição",
+            "icone": "3",
+            "cor": "violeta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C23",
+      "tipo": "cartoes",
+      "pose": "comemorando",
+      "fala": "Resumindo: instalou o Blender, adicionou o conector no Claude Desktop, ligou o servidor no Blender e pediu a cena em português. O passo a passo completo, com todos os links, está na descrição.",
+      "dados": {
+        "bg": "pexels/comemora-2.mp4",
+        "titulo": "Resumo",
+        "cols": 2,
+        "check": true,
+        "itens": [
+          {
+            "ao": "instalou",
+            "t": "Instalou o Blender"
+          },
+          {
+            "ao": "adicionou",
+            "t": "Adicionou o conector"
+          },
+          {
+            "ao": "ligou",
+            "t": "Ligou o servidor"
+          },
+          {
+            "ao": "pediu",
+            "t": "Pediu a cena"
+          }
+        ],
+        "pilula": {
+          "ao": "descrição",
+          "txt": "Passo a passo e links na descrição",
+          "cor": "ouro"
+        }
+      }
+    },
+    {
+      "id": "C24",
+      "tipo": "cta-final",
+      "fala": "Se esse vídeo te ajudou, deixa o like, se inscreve no Aprenda YouTube e comenta mundo três dê, se você quer um vídeo só com ideias de cenas para pedir. E me conta aqui embaixo: qual cena você vai pedir primeiro? Até o próximo!",
+      "dados": {
+        "bg": "pexels/artista3d-1.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        },
+        "guia": {
+          "ao": "mundo"
+        },
+        "guiaTxt": "Comente: Mundo 3D",
+        "q": {
+          "ao": "qual"
+        },
+        "qTxt": "Qual cena você vai pedir primeiro?"
+      }
+    }
+  ]
+}

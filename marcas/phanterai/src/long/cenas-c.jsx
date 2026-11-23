@@ -1,6 +1,6 @@
 // Cenas genéricas, guiadas só pelo `dados` do roteiro.json (texto, itens e comandos vêm do roteiro, nada
 // preso a um episódio). Criadas no vídeo "Crie vídeos com o Claude Code + Remotion" (20/11/2026).
-//   gancho-video          l1, l2, pilulas[{ ao, txt, cor }], bg
+//   gancho-video          l1, l2, pilulas[{ ao, txt, cor }], bg, esc (escurecimento do fundo, padrão 0.5)
 //   cartoes               titulo, itens[{ ao, t, sub, icone, cor }], cols 1|2, w, numerar, check, mono, pilula{ ao, txt, cor, sfx }, bg
 //   fluxo                 titulo, etapas[{ ao, t, sub }] (setas com pulso entre as etapas)
 //   navegador-print       url, digitar{ao}, telas[{ ao, arq }], destaque{ ao, x, y, w, h }, cliques[{ ao, x, y, chip }], zoom{ z, vx, vy }
@@ -32,7 +32,7 @@ const Fundo2 = ({ slug, d, esc = 0.72 }) => (d.bg ? <Fundo slug={slug} src={d.bg
 // ---------- gancho ----------
 export const GanchoVideo = ({ slug, d, pose }) => (
   <>
-    <Fundo slug={slug} src={d.bg} dur={d.bgDur} escurecer={0.5} />
+    <Fundo slug={slug} src={d.bg} dur={d.bgDur} escurecer={d.esc ?? 0.5} />
     <Faiscas169 n={22} />
     <Linha y={60}><Glitch size={170}>{d.l1}</Glitch></Linha>
     <Texto em={14} y={260} size={112} color="#140B2E" fundo={colors.gold} rot={-2} lado={200}>{d.l2}</Texto>

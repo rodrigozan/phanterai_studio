@@ -1,8 +1,9 @@
 // Registro dos tipos de cena do vídeo longo: roteiro.json -> cenas[].tipo -> componente.
-// Tipo novo: crie o componente em cenas-a.jsx / cenas-b.jsx e registre aqui.
+// Tipo novo: crie o componente em cenas-a/b/c/d.jsx e registre aqui.
 import * as A from "./cenas-a";
 import * as B from "./cenas-b";
 import * as C from "./cenas-c";
+import * as D from "./cenas-d";
 
 export const CENAS = {
   gancho: A.Gancho,
@@ -51,4 +52,9 @@ export const CENAS = {
   terminal: C.Terminal,
   "claude-pedido": C.ClaudePedido,
   "studio-preview": C.StudioPreview,
+  // Claude Desktop + programa conectado (cenas-d.jsx)
+  "desktop-conectores": D.DesktopConectores,
+  "desktop-pedido": D.DesktopPedido,
+  "blender-janela": D.BlenderJanela,
+  "instalador-sistemas": D.InstaladorSistemas,
 };
