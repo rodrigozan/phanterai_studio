@@ -253,6 +253,146 @@
       "titulo_final": "Resumo da semana no Universo da IA: 5 notícias em 2 minutos",
       "ig_post_id": "6b02993bd8327557e3b40ed7",
       "yt_video_id": "zsvPJJFwJ9M"
+    },
+    {
+      "data": "2026-11-23",
+      "hora": "07:00",
+      "slug": "reel-2026-11-23-0700-gpt-6-2-sol",
+      "titulo": "O modelo barato da OpenAI que chega perto do topo",
+      "promessa": "GPT-6.2 Sol quase empata com o Astra custando 1/5",
+      "sinal": "notícia 17/11 (GPT-6.2 Astra e Sol); Authority Hacker 4,3x e Matt Wolfe 3,0x falando de Astra",
+      "referencia": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-23",
+      "hora": "12:00",
+      "slug": "reel-2026-11-23-1200-claude-melhor-que-99",
+      "titulo": "Use o Claude melhor que 99% das pessoas",
+      "promessa": "3 ajustes que mudam o resultado do Claude hoje",
+      "sinal": "Futurepedia 5,5x: Use Claude Better Than 99% of People",
+      "referencia": "https://www.youtube.com/@futurepedia_io/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-24",
+      "hora": "07:00",
+      "slug": "reel-2026-11-24-0700-gemini-usa-seu-mac",
+      "titulo": "O Gemini agora mexe no seu Mac por você",
+      "promessa": "A IA clica, digita e preenche formulário numa janela à parte",
+      "sinal": "notícia 19/11 (computer use no Gemini para Mac); similar ao 'Claude no Meet' (@nelmoricalde 14x)",
+      "referencia": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-24",
+      "hora": "12:00",
+      "slug": "reel-2026-11-24-1200-codigos-secretos-chatgpt-claude",
+      "titulo": "Códigos secretos para o ChatGPT e o Claude",
+      "promessa": "Comandos curtos que mudam a resposta na hora",
+      "sinal": "Sabrina Ramonov 4,8x: Secret codes for ChatGPT & Claude; 4,3x: Secret Codes to Learn Anything",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-25",
+      "hora": "07:00",
+      "slug": "reel-2026-11-25-0700-replit-missions",
+      "titulo": "Um time de agentes que trabalha até bater a meta",
+      "promessa": "Replit Missions: você dá o objetivo e o teto de gasto, os agentes fazem",
+      "sinal": "notícia 17/11 (Replit Missions); similar a 'Uma conversa do Claude comanda as outras' (Futurepedia 3,6x)",
+      "referencia": "https://replit.com/blog/introducing-replit-missions",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-25",
+      "hora": "12:00",
+      "slug": "reel-2026-11-25-1200-canal-de-palitinho-com-ia",
+      "titulo": "Canal de vídeo de palitinho feito com IA",
+      "promessa": "O formato simples que dá para postar todo dia",
+      "sinal": "Sabrina Ramonov 4,0x: Make Stick Figure Videos With AI; similar ao 'desenho animado sem saber desenhar' (@maestrosdaiahub 2,9x)",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-26",
+      "hora": "07:00",
+      "slug": "reel-2026-11-26-0700-gemini-4-neon",
+      "titulo": "O Gemini novo entrou no top 3 das IAs",
+      "promessa": "Gemini 4 Neon: perto dos maiores por menos",
+      "sinal": "notícia 18/11 (Gemini 4 Neon, #3 no Artificial Analysis)",
+      "referencia": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-26",
+      "hora": "12:00",
+      "slug": "reel-2026-11-26-1200-editar-videos-com-claude",
+      "titulo": "Como editar seus vídeos com o Claude",
+      "promessa": "Do vídeo bruto ao corte pronto sem abrir editor",
+      "sinal": "AI Advantage 2,8x: How I Edit My Videos with Claude; similar ao nosso 'Claude Code percebeu o que travava a edição' (@maestrosdaiahub 6,9x)",
+      "referencia": "https://www.youtube.com/@aiadvantage/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-27",
+      "hora": "07:00",
+      "slug": "reel-2026-11-27-0700-voz-ia-1-centavo",
+      "titulo": "Uma IA de voz que custa 1 centavo por minuto",
+      "promessa": "MAI Realtime 1: conversa por voz em tempo real, barata",
+      "sinal": "notícia (Microsoft lança 7 modelos MAI, entre eles MAI Realtime 1)",
+      "referencia": "https://microsoft.ai/news/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-27",
+      "hora": "12:00",
+      "slug": "reel-2026-11-27-1200-claude-animacao-3d-1-prompt",
+      "titulo": "O Claude faz uma animação 3D com um prompt",
+      "promessa": "Um pedido em português e sai a cena 3D animada",
+      "sinal": "Futurepedia 1,9x: Claude made this 3D animation from one prompt; 4,0x: Claude Makes a New Kind of Video; similar ao 'Claude Code cria um jogo' (@maestrosdaiahub 47x)",
+      "referencia": "https://www.youtube.com/@futurepedia_io/shorts",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-28",
+      "hora": "07:00",
+      "slug": "reel-2026-11-28-0700-dots-do-chatgpt-1-minuto",
+      "titulo": "Os Dots do ChatGPT explicados em 1 minuto",
+      "promessa": "O assistente que trabalha sozinho 24 horas, num computador só dele",
+      "sinal": "AI Advantage 10x: ChatGPT Dots Explained in 1 Minute; 4,9x: How ChatGPT Dots Can Change Your Life",
+      "referencia": "https://openai.com/index/introducing-dots/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-28",
+      "hora": "12:00",
+      "slug": "reel-2026-11-28-1200-angulos-de-camera-ia",
+      "titulo": "Ângulos de câmera para a IA parar de gerar imagem sem graça",
+      "promessa": "Uma lista de enquadramentos para colar no prompt",
+      "sinal": "similar ao '34 estilos de luz' (@rourke 12x), nosso de 21/11",
+      "referencia": "https://www.instagram.com/reel/DfXaQcyoaJ5/",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-29",
+      "hora": "07:00",
+      "slug": "reel-2026-11-29-0700-negocio-de-1-pessoa-com-ia",
+      "titulo": "Como eu começaria um negócio de uma pessoa só com IA",
+      "promessa": "O kit de ferramentas para vender sem funcionário",
+      "sinal": "Sabrina Ramonov 5,1x: How I'd Start a 1-Person Business + Personal Brand; similar ao nosso '10 negócios de IA' (19/11)",
+      "referencia": "https://www.youtube.com/@sabrina_ramonov/videos",
+      "status": "pendente"
+    },
+    {
+      "data": "2026-11-29",
+      "hora": "12:00",
+      "slug": "reel-2026-11-29-1200-resumo-da-semana",
+      "titulo": "Resumo da semana no Universo da IA",
+      "promessa": "As notícias da semana em 2 minutos",
+      "sinal": "formato semanal; pauta: GPT-6.2, Gemini 4 Neon, Gemini no Mac, Replit Missions, MAI",
+      "referencia": "https://www.youtube.com/@mreflow/videos",
+      "status": "pendente"
     }
   ]
 }
