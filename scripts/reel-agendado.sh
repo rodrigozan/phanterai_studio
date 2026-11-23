@@ -22,11 +22,11 @@ mkdir -p "$LOGDIR"
 ID="$DATA-${HORA/:/}"
 LOG="$LOGDIR/$ID.log"
 
-# Dia de vídeo longo (seg/qua/sex, publica 12:16): só dois reels, 07:00 e 18:00. O das 12:00 não roda.
-DIA_SEMANA="$(date -d "$DATA" +%u)"
-if [ "$HORA" = "12:00" ] && { [ "$DIA_SEMANA" = 1 ] || [ "$DIA_SEMANA" = 3 ] || [ "$DIA_SEMANA" = 5 ]; }; then
-  echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $DATA tem vídeo longo às 12:16; sem reel das 12:00" | tee -a "$LOG"; exit 0
-fi
+# Regra desde 23/11/2026: só dois reels/shorts por dia, todos os dias, às 07:00 e às 12:00 (Brasília).
+case "$HORA" in
+  07:00|12:00) ;;
+  *) echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $HORA fora da grade (só 07:00 e 12:00); nada a fazer" | tee -a "$LOG"; exit 0 ;;
+esac
 FEITO="$LOGDIR/$ID.json"
 ok() { [ -e "$FEITO" ] && python3 -I -c 'import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get("status") in ("agendado","publicado") else 1)' "$FEITO" 2>/dev/null; }
 log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }

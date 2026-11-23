@@ -41,10 +41,9 @@ def linhas_item(rotulo, r, esperado):
 
 cal = ler(f"{STUDIO}/marcas/{MARCA}/calendario/reels.json") or {"reels": []}
 itens, falhas = [], 0
-hoje = sorted([x for x in cal["reels"] if x["data"] == DATA], key=lambda x: x["hora"])
-if dow in (0, 2, 4):   # dia de vídeo longo (12:16): só reels 07:00 e 18:00
-    hoje = [x for x in hoje if x["hora"] != "12:00"]
-esperados = 2 if dow in (0, 2, 4) else 3
+# Desde 23/11/2026: dois reels por dia, todos os dias, 07:00 e 12:00.
+hoje = sorted([x for x in cal["reels"] if x["data"] == DATA and x["hora"] in ("07:00", "12:00")], key=lambda x: x["hora"])
+esperados = 2
 if not hoje:
     itens.append(f"❌ Reels: nenhum reel no calendário para {DATA}"); falhas += 1
 for x in hoje:
