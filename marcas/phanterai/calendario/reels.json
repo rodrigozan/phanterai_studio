@@ -256,23 +256,25 @@
     },
     {
       "data": "2026-11-23",
-      "hora": "07:00",
-      "slug": "reel-2026-11-23-0700-gpt-6-2-sol",
+      "hora": "15:00",
+      "slug": "reel-2026-11-23-1500-gpt-6-2-sol",
       "titulo": "O modelo barato da OpenAI que chega perto do topo",
       "promessa": "GPT-6.2 Sol quase empata com o Astra custando 1/5",
       "sinal": "notícia 17/11 (GPT-6.2 Astra e Sol); Authority Hacker 4,3x e Matt Wolfe 3,0x falando de Astra",
       "referencia": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "status": "pendente"
+      "status": "pendente",
+      "observacao": "exceção de 23/11 pedida pelo Rod: 15:00 e 20:00 em vez de 07:00 e 12:00"
     },
     {
       "data": "2026-11-23",
-      "hora": "12:00",
-      "slug": "reel-2026-11-23-1200-claude-melhor-que-99",
+      "hora": "20:00",
+      "slug": "reel-2026-11-23-2000-claude-melhor-que-99",
       "titulo": "Use o Claude melhor que 99% das pessoas",
       "promessa": "3 ajustes que mudam o resultado do Claude hoje",
       "sinal": "Futurepedia 5,5x: Use Claude Better Than 99% of People",
       "referencia": "https://www.youtube.com/@futurepedia_io/videos",
-      "status": "pendente"
+      "status": "pendente",
+      "observacao": "exceção de 23/11 pedida pelo Rod: 15:00 e 20:00 em vez de 07:00 e 12:00"
     },
     {
       "data": "2026-11-24",
