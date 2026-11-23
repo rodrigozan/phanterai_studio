@@ -23,9 +23,10 @@ ID="$DATA-${HORA/:/}"
 LOG="$LOGDIR/$ID.log"
 
 # Regra desde 23/11/2026: só dois reels/shorts por dia, todos os dias, às 07:00 e às 12:00 (Brasília).
+# Exceção pontual pedida pelo Rod (ex.: 23/11 às 15:00 e 20:00): rodar à mão com FORA_DA_GRADE=1.
 case "$HORA" in
   07:00|12:00) ;;
-  *) echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $HORA fora da grade (só 07:00 e 12:00); nada a fazer" | tee -a "$LOG"; exit 0 ;;
+  *) [ "${FORA_DA_GRADE:-}" = 1 ] || { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $HORA fora da grade (só 07:00 e 12:00); nada a fazer" | tee -a "$LOG"; exit 0; } ;;
 esac
 FEITO="$LOGDIR/$ID.json"
 ok() { [ -e "$FEITO" ] && python3 -I -c 'import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get("status") in ("agendado","publicado") else 1)' "$FEITO" 2>/dev/null; }
