@@ -27,6 +27,7 @@ import { ShortSeedance25, CapaSeedance25, SSD_FPS, calculateSeedance25Metadata }
 import { ShortClaudeComanda, CapaClaudeComanda, SCC_FPS, calculateClaudeComandaMetadata } from "./short/ShortClaudeComanda";
 import { ShortResumoSemana, CapaResumoSemana, SRS_FPS, calculateResumoSemanaMetadata } from "./short/ShortResumoSemana";
 import { ShortGpt62Sol, CapaGpt62Sol, G62_FPS, calculateGpt62SolMetadata } from "./short/ShortGpt62Sol";
+import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -314,6 +315,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateGpt62SolMetadata}
   />
   <Composition id="CapaGpt62Sol" component={CapaGpt62Sol} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortClaudeAjustes"
+    component={ShortClaudeAjustes}
+    width={1080}
+    height={1920}
+    fps={SCA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateClaudeAjustesMetadata}
+  />
+  <Composition id="CapaClaudeAjustes" component={CapaClaudeAjustes} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortResumoSemana"
     component={ShortResumoSemana}
