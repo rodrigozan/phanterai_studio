@@ -51,6 +51,10 @@ for x in hoje:
     itens += l; falhas += (not ok)
 if len(hoje) < esperados and hoje:
     itens.append(f"⚠️ Só {len(hoje)} reel(s) no calendário de hoje (esperado {esperados})"); falhas += 1
+YTS=f"{STUDIO}/out/{MARCA}/agendador-yt-shorts"
+for h in ("10:00", "17:00"):
+    ok, l = linhas_item(f"Short YouTube {h}", ler(f"{YTS}/{DATA}-{h.replace(':','')}.json"), f"{DATA} {h}")
+    itens += l; falhas += (not ok)
 if dow in (0, 2, 4):
     ok, l = linhas_item("Vídeo longo 12:16", ler(f"{LONGO}/{DATA}.json"), f"{DATA} 12:16")
     itens += l; falhas += (not ok)
