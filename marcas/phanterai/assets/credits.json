@@ -1,12 +1,12 @@
 {
- "slug": "reel-2026-11-24-1200-codigos-secretos-chatgpt-claude",
  "fontes": [
-  "https://code.claude.com/docs/en/model-config",
-  "https://code.claude.com/docs/en/commands",
-  "https://code.claude.com/docs/en/interactive-mode",
-  "https://developers.openai.com/codex/reference/slash-commands"
+  "https://support.google.com/youtube/answer/10059070",
+  "https://support.google.com/youtube/thread/333869549",
+  "https://support.google.com/youtube/answer/2991785",
+  "https://support.google.com/youtube/answer/12220281"
  ],
- "visual": "interface recriada em motion graphics no Remotion (sem prints, sem Pexels, nada gerado por IA, sem logos oficiais)",
- "musica": "public/phanterai/music/Coding_at_Night.mp3 (loop, volume 0.17)",
- "sfx": ["sfx/whoosh.mp3", "sfx/error.mp3", "sfx/pop.mp3", "sfx/ding.mp3", "sfx/coin.mp3", "sfx/riser.mp3"]
+ "dados_canal": "YouTube Studio do Aprenda YouTube, 28 dias até 22/11/2026 (marcas/phanterai/dados-canal-2026-11-22.md)",
+ "musica": "public/phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.17)",
+ "sfx": "public/sfx (mixkit, ver mixkit-sources.json)",
+ "imagens_videos": "nenhum: tudo é motion graphic feito no Remotion; sem Pexels, sem IA"
 }

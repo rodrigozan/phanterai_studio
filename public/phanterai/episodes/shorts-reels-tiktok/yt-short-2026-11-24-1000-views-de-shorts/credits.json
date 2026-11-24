@@ -1,0 +1,12 @@
+{
+ "fontes": [
+  "https://support.google.com/youtube/answer/10059070",
+  "https://support.google.com/youtube/thread/333869549",
+  "https://support.google.com/youtube/answer/2991785",
+  "https://support.google.com/youtube/answer/12220281"
+ ],
+ "dados_canal": "YouTube Studio do Aprenda YouTube, 28 dias até 22/11/2026 (marcas/phanterai/dados-canal-2026-11-22.md)",
+ "musica": "public/phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.17)",
+ "sfx": "public/sfx (mixkit, ver mixkit-sources.json)",
+ "imagens_videos": "nenhum: tudo é motion graphic feito no Remotion; sem Pexels, sem IA"
+}

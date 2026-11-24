@@ -29,6 +29,7 @@ import { ShortResumoSemana, CapaResumoSemana, SRS_FPS, calculateResumoSemanaMeta
 import { ShortGpt62Sol, CapaGpt62Sol, G62_FPS, calculateGpt62SolMetadata } from "./short/ShortGpt62Sol";
 import { ShortGeminiMac, CapaGeminiMac, SGM_FPS, calculateGeminiMacMetadata } from "./short/ShortGeminiMac";
 import { ShortCodigosSecretos, CapaCodigosSecretos, SCS_FPS, calculateCodigosSecretosMetadata } from "./short/ShortCodigosSecretos";
+import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -339,6 +340,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateCodigosSecretosMetadata}
   />
   <Composition id="CapaCodigosSecretos" component={CapaCodigosSecretos} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortViewsShorts"
+    component={ShortViewsShorts}
+    width={1080}
+    height={1920}
+    fps={SVS_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateViewsShortsMetadata}
+  />
+  <Composition id="CapaViewsShorts" component={CapaViewsShorts} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}
