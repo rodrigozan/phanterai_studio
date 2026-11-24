@@ -1,0 +1,90 @@
+{
+ "slug": "yt-short-2026-11-24-1700-teste-ab-capa",
+ "quadro": "Mito vs. Realidade",
+ "composicao": "ShortTesteAB",
+ "musica": "phanterai/music/Coding_at_Night.mp3",
+ "volume_musica": 0.17,
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "de": 0,
+   "ate": 3.76
+  },
+  {
+   "pose": "apontando",
+   "de": 34.08,
+   "ate": 37.24
+  },
+  {
+   "pose": "comemorando",
+   "de": 43.48,
+   "ate": "fim"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "componente": "Hook: 2 capas 16:9 desenhadas em código, cliques chegando em A, barras cliques x tempo",
+   "acao": "'clique!' gigante desde o quadro 0 + whoosh/impacto; em 'PERDEU' vira vermelho com tremida e flash; em 'teste!' coroa em B, barra de tempo de B enche, carimbo 'B venceu'",
+   "palavra_gatilho": "PERDEU",
+   "inicio": 0
+  },
+  {
+   "id": "mito",
+   "componente": "Big 'Mito?' + card digitando a frase do mito + 3 cartas virando",
+   "acao": "'vence a capa mais clicada' digitada; cartas 1,2,3 viram; em 'não' risca o mito e 'não!' vermelho; carta 3 vira '?' e carimbo 'a 3ª surpreende'",
+   "palavra_gatilho": "não",
+   "inicio": 3.76
+  },
+  {
+   "id": "ate-3",
+   "componente": "Janela 'Studio · Teste A/B' com 3 slots",
+   "acao": "slots A, B, C acendem em 'três/títulos', títulos digitados, capas caem em 'capas', 'no mesmo vídeo' brilha; contador 0/3→3/3",
+   "palavra_gatilho": "três",
+   "inicio": 11.6
+  },
+  {
+   "id": "item1",
+   "componente": "Chip nº1 + painel com interruptor Cliques→Tempo de exibição + 3 barras",
+   "acao": "interruptor liga em 'TEMPO', barras reordenam (B passa A), coroa em B em 'exibição', carimbos 'CTR ✗' e 'tempo ✓'",
+   "palavra_gatilho": "TEMPO",
+   "inicio": 15.36
+  },
+  {
+   "id": "explica",
+   "componente": "Citação digitada + 2 capas: uma que promete outra coisa (sai) e uma honesta (barra de tempo enche)",
+   "acao": "cursor clica na capa A em 'clique', pessoa sai; barra de B enche; carimbo 'vídeo errado ✗' em 'errado'",
+   "palavra_gatilho": "errado",
+   "inicio": 19.84
+  },
+  {
+   "id": "item2",
+   "componente": "Chip nº2 + celular 🚫 x computador ✅ → janela 'Detalhes do vídeo' com botão Teste A/B, cursor clica, 3 opções aparecem, calendário dia 1→14",
+   "acao": "celular treme em 'computador'; cursor clica 'Teste A/B'; dias contam até 14; carimbo 'até 2 semanas'",
+   "palavra_gatilho": "Teste A B",
+   "inicio": 24.56
+  },
+  {
+   "id": "item3",
+   "componente": "Chip nº3 + celular Short com 'Teste A/B' trancado x capa de vídeo longo ✓ + moldura tracejada na tela",
+   "acao": "cadeado em 'não entram', carimbo 'nem este aqui', mão apontando, moldura pisca em 'este Short aqui'",
+   "palavra_gatilho": "não entram",
+   "inicio": 31.52
+  },
+  {
+   "id": "aviso",
+   "componente": "Janela com título sendo editado + barra do teste",
+   "acao": "título apagado e redigitado em 'mexe no título'; em 'para' a barra fica vermelha, capas em cinza, carimbos 'PAROU' e 'recomeça do zero'",
+   "palavra_gatilho": "para",
+   "inicio": 37.24
+  },
+  {
+   "id": "cta",
+   "componente": "Caixa de comentário digitando 'TESTE 🧪' + Inscrever-se → Inscrito + pill 'próxima cobaia'",
+   "acao": "emojis sobem, carimbo 'comece por um antigo', botão vira Inscrito em 'segue'",
+   "palavra_gatilho": "TESTE",
+   "inicio": 40.92
+  }
+ ],
+ "fonte": "https://support.google.com/youtube/answer/13861714"
+}
