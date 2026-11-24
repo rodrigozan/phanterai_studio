@@ -1,7 +1,12 @@
 {
- "slug": "reel-2026-11-24-0700-gemini-usa-seu-mac",
- "fontes": ["https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/", "https://gemini.google/mac"],
- "visual": "interface recriada em motion graphics no Remotion pela PhanterAI; sem prints, sem Pexels, nada gerado por IA, sem logo oficial",
- "musica": "phanterai/music/Code_and_Coffe.mp3 (biblioteca da PhanterAI)",
- "sfx": "public/sfx (whoosh, error, pop, ding, coin)"
+ "slug": "reel-2026-11-24-1200-codigos-secretos-chatgpt-claude",
+ "fontes": [
+  "https://code.claude.com/docs/en/model-config",
+  "https://code.claude.com/docs/en/commands",
+  "https://code.claude.com/docs/en/interactive-mode",
+  "https://developers.openai.com/codex/reference/slash-commands"
+ ],
+ "visual": "interface recriada em motion graphics no Remotion (sem prints, sem Pexels, nada gerado por IA, sem logos oficiais)",
+ "musica": "public/phanterai/music/Coding_at_Night.mp3 (loop, volume 0.17)",
+ "sfx": ["sfx/whoosh.mp3", "sfx/error.mp3", "sfx/pop.mp3", "sfx/ding.mp3", "sfx/coin.mp3", "sfx/riser.mp3"]
 }
