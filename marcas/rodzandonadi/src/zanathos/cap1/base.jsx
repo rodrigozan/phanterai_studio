@@ -134,15 +134,15 @@ const chunksDe = (words) => {
   return out.map((c, k) => ({ words: c, s: c[0].s, e: out[k + 1] ? Math.min(c[c.length - 1].e + 0.3, out[k + 1][0].s) : c[c.length - 1].e + 0.5 }));
 };
 
-export const Legendas = ({ t, chunks, fim }) => {
+export const Legendas = ({ t, chunks, fim, top = 1440, corAtiva = K.ouro, corBase = K.osso }) => {
   const c = chunks.find((ch) => t >= ch.s - 0.05 && t < ch.e);
   if (!c || t > fim + 0.3) return null;
   const p = interpolate(t, [c.s - 0.05, c.s + 0.08], [0.88, 1], cl);
   return (
-    <div style={{ position: "absolute", top: 1440, width: "100%", display: "flex", justifyContent: "center", padding: "0 60px", boxSizing: "border-box" }}>
+    <div style={{ position: "absolute", top, width: "100%", display: "flex", justifyContent: "center", padding: "0 60px", boxSizing: "border-box" }}>
       <div style={{ transform: `scale(${p})`, display: "flex", gap: 22, flexWrap: "wrap", justifyContent: "center", fontFamily: DG, fontWeight: 900, fontSize: 88, lineHeight: 1, textTransform: "uppercase" }}>
         {c.words.map((w) => (
-          <span key={w.i} style={{ color: t >= w.s - 0.03 ? K.ouro : K.osso, WebkitTextStroke: "11px #05070d", paintOrder: "stroke fill", textShadow: "0 6px 14px rgba(0,0,0,0.6)" }}>
+          <span key={w.i} style={{ color: t >= w.s - 0.03 ? corAtiva : corBase, WebkitTextStroke: "11px #05070d", paintOrder: "stroke fill", textShadow: "0 6px 14px rgba(0,0,0,0.6)" }}>
             {w.w.replace(/[.,:!?]$/, "")}
           </span>
         ))}
