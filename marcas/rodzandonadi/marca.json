@@ -62,6 +62,15 @@
       "roteiro": "marcas/rodzandonadi/videos/escrever-livro-com-ia/ROTEIRO.md",
       "midia": "public/rodzandonadi/episodes/escrever-livro-com-ia",
       "estado": "aguardando narração, capturas e clipes"
+    },
+    {
+      "slug": "personagens-com-ia",
+      "titulo": "Dando rosto aos personagens com IA",
+      "roteiro": "public/rodzandonadi/episodes/long-videos/personagens-com-ia/roteiro.json",
+      "producao": "marcas/rodzandonadi/videos/personagens-com-ia/PRODUCAO.md",
+      "midia": "public/rodzandonadi/episodes/long-videos/personagens-com-ia",
+      "composicao": "RodPersonagensIA",
+      "estado": "aguardando voz, b-roll do Pexels e render no VPS"
     }
   ]
 }

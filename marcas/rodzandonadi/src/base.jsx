@@ -60,7 +60,7 @@ const autoFoco = (d, w, h) => {
 
 const CLIP = `inset(${AREA.y - 24}px ${W - AREA.x - AREA.w - 24}px ${H - AREA.y - AREA.h - 24}px ${AREA.x - 24}px round 24px)`;
 
-const Camera = ({ w, h, foco, dest, children, maxZoom = 3.2, zoomIn = 18, pan }) => {
+export const Camera = ({ w, h, foco, dest, children, maxZoom = 3.2, zoomIn = 18, pan }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s0 = fitScale(w, h, 3.4);
@@ -165,9 +165,9 @@ export const Etiqueta = ({ fonte, dur = 150 }) => {
 
 export const ETAPAS = ["Preparar", "Skills", "Planejar", "Ajustar", "Escrever"];
 
-export const BarraCapitulos = ({ ativa, progresso = 1 }) => (
+export const BarraCapitulos = ({ ativa, progresso = 1, etapas = ETAPAS }) => (
   <div style={{ position: "absolute", left: 0, right: 0, top: 36, display: "flex", justifyContent: "center", gap: 14, opacity: progresso }}>
-    {ETAPAS.map((e, i) => {
+    {etapas.map((e, i) => {
       const on = i === ativa;
       const feito = i < ativa;
       return (

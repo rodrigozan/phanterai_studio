@@ -2,6 +2,7 @@ import { Composition, Still } from "remotion";
 import { ZANATHOS_FRAMES, ZanathosEp1 } from "./zanathos/Zanathos";
 import { CAP1_FRAMES, ZanathosCap1 } from "./zanathos/cap1/Cap1";
 import { LivroVideo, calculateLivroMetadata } from "./LivroVideo";
+import { PersonagensVideo, calcularPersonagensMetadata } from "./personagens/PersonagensVideo";
 
 export const ComposicoesRodZandonadi = () => (
   <>
@@ -19,6 +20,16 @@ export const ComposicoesRodZandonadi = () => (
     durationInFrames={150}
     defaultProps={{ slug: "escrever-livro-com-ia", plano: null }}
     calculateMetadata={calculateLivroMetadata}
+  />
+  <Composition
+    id="RodPersonagensIA"
+    component={PersonagensVideo}
+    width={1920}
+    height={1080}
+    fps={30}
+    durationInFrames={150}
+    defaultProps={{ slug: "personagens-com-ia", plano: null }}
+    calculateMetadata={calcularPersonagensMetadata}
   />
   </>
 );

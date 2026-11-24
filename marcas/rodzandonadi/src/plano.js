@@ -18,7 +18,7 @@ const quando = (cena, frase, desde) => {
   return Math.max(0, cena.words[i].s - 3);
 };
 
-export const montarPlano = (timeline) => {
+export const montarPlanoCom = (timeline, CENAS, CORTES, DUR_CORTE) => {
   const cenas = timeline.cenas;
   return CENAS.map((def) => {
     const cena = cenas.find((c) => c.id === def.id);
@@ -48,3 +48,5 @@ export const montarPlano = (timeline) => {
     return { id: def.id, etapa: def.etapa, inicio: cena.start, dur, words: cena.words, shots, etiquetas, cortes };
   });
 };
+
+export const montarPlano = (timeline) => montarPlanoCom(timeline, CENAS, CORTES, DUR_CORTE);

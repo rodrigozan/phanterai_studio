@@ -19,6 +19,7 @@ Projeto do YouTube e do Instagram @rodzandonadi no PhanterAI Studio.
 ## Vídeos
 
 - `escrever-livro-com-ia` — "Como escrever um livro com IA" (~9 min, 16:9). Roteiro em `videos/escrever-livro-com-ia/ROTEIRO.md`, pendências em `PENDENCIAS.md` na mesma pasta, mídia em `public/rodzandonadi/episodes/escrever-livro-com-ia/{audio,capturas,clipes,texto}`.
+- `personagens-com-ia` — "Dando rosto aos personagens com IA" (ep. 2, ~8 min, 16:9, composição `RodPersonagensIA`). Passo a passo em `videos/personagens-com-ia/PRODUCAO.md`.
 - Tema por tokens (cores e fonte da identidade): `src/theme.js`. Prints do canal/Instagram vão em `referencias/` e prevalecem sobre o tema.
 
 O projeto ainda não tem composições Remotion nem publicações agendadas.
