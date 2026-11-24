@@ -12,6 +12,7 @@ export const ComposicoesRodZandonadi = () => (
     <Composition key={n} id={`ZanathosCap1P${n}`} component={ZanathosCap1} width={1080} height={1920} fps={30} durationInFrames={CAP1_FRAMES[n]} defaultProps={{ parte: n, capa: false }} />
   ))}
   <Composition id="ZanathosEp2" component={ZanathosEp2} width={1080} height={1920} fps={30} durationInFrames={EP2_FRAMES} />
+  <Still id="ZanathosEp2Capa" component={ZanathosEp2} width={1080} height={1920} defaultProps={{ capa: true }} />
   <Still id="ZanathosEp1Capa" component={ZanathosEp1} width={1080} height={1920} defaultProps={{ capa: true }} />
   <Composition
     id="RodLivroIA"

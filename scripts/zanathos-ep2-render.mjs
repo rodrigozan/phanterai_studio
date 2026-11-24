@@ -15,7 +15,11 @@ for (const rel of ["sfx", "rodzandonadi/marca", "rodzandonadi/episodes/zanathos-
 const serveUrl = await bundle({ entryPoint: path.resolve("src/Root.jsx"), publicDir: pub });
 const out = "out/rodzandonadi/zanathos-ep2";
 fs.mkdirSync(out, { recursive: true });
-if (alvo.startsWith("still:")) {
+if (alvo === "capa") {
+  const comp = await selectComposition({ serveUrl, id: "ZanathosEp2Capa" });
+  await renderStill({ composition: comp, serveUrl, output: `${out}/capa.png`, scale });
+  console.log("capa ok");
+} else if (alvo.startsWith("still:")) {
   const [, secs] = alvo.split(":");
   const p = "";
   const comp = await selectComposition({ serveUrl, id: `ZanathosEp2` });

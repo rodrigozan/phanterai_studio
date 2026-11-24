@@ -51,7 +51,7 @@ const Chip = ({ t, itens, top = 268, claro = false }) => {
 const camMapa = (cam) => `translate(${540 - cam.x * cam.s} ${cam.sy - cam.y * cam.s}) scale(${cam.s})`;
 
 /* A: gancho, o mapa do Ep. 1 com os olhos no Fundo */
-const CenaA = ({ t, frame }) => {
+const CenaA = ({ t, frame, capa = false }) => {
   const op = win(t, -1, T.pedi + 0.15, 0.3);
   if (op <= 0) return null;
   const p = ramp(t, 0, 5.6, Easing.inOut(Easing.quad));
@@ -69,10 +69,12 @@ const CenaA = ({ t, frame }) => {
       <BordaAfricana op={1} frame={frame} />
       <AbsoluteFill style={{ background: "rgba(14,4,22,0.28)" }} />
       <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 62%, #fff 0%, ${C.violeta} 55%, transparent 80%)`, opacity: flash * 0.7 }} />
-      <div style={{ position: "absolute", top: 330, left: 50, right: 50, textAlign: "center", opacity: out, transform: `scale(${imp * hit})`, fontFamily: DG, lineHeight: 0.92 }}>
+      {capa ? <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(14,4,22,0.35) 0%, rgba(14,4,22,0.0) 35%)" }} /> : null}
+      <div style={{ position: "absolute", top: capa ? 300 : 330, left: 50, right: 50, textAlign: "center", opacity: capa ? 1 : out, transform: capa ? "none" : `scale(${imp * hit})`, fontFamily: DG, lineHeight: 0.92 }}>
         <div style={{ display: "inline-block", padding: "26px 44px 34px", borderRadius: 28, background: "rgba(31,5,38,0.94)", border: `4px solid ${C.canalAmarelo}`, boxShadow: "0 20px 60px rgba(0,0,0,0.6)" }}>
           <div style={{ fontSize: 88, fontWeight: 800, color: C.canalCinza }}>O mapa perfeito</div>
           <div style={{ fontSize: 104, fontWeight: 900, color: C.canalAmarelo, whiteSpace: "nowrap", textShadow: `0 0 40px ${C.canalAmarelo}66` }}>que causou a guerra.</div>
+          {capa ? <div style={{ fontSize: 52, fontWeight: 800, color: C.canalCinza, marginTop: 14 }}>Ep. 2 · Zanathos</div> : null}
         </div>
       </div>
     </AbsoluteFill>
@@ -452,12 +454,13 @@ const MEMES = (t) => [
   <Meme key="c" t={t} ini={T.sabe} fim={W("sua", 2) + 0.3} topo="Ouvir a própria voz gravada:" base="Essa não sou eu">{Pic.voz}</Meme>,
 ];
 
-export const ZanathosEp2 = () => {
-  const frame = useCurrentFrame();
+export const ZanathosEp2 = ({ capa = false }) => {
+  const fr0 = useCurrentFrame();
+  const frame = capa ? f(5.0) : fr0;
   const t = frame / FPS;
   return (
     <AbsoluteFill style={{ background: C.fundo, overflow: "hidden" }}>
-      <CenaA t={t} frame={frame} />
+      <CenaA t={t} frame={frame} capa={capa} />
       <CenaB t={t} frame={frame} />
       <CenaC t={t} frame={frame} />
       <CenaD t={t} frame={frame} />
@@ -465,11 +468,11 @@ export const ZanathosEp2 = () => {
       <CenaF t={t} frame={frame} />
       <CenaG t={t} frame={frame} />
       <Card t={t} frame={frame} />
-      {MEMES(t)}
-      <Legendas t={t} chunks={CHUNKS} fim={FIM} top={1300} corAtiva={C.canalAmarelo} corBase="#fff" />
-      <Audio src={A("narracao.mp3")} volume={1} />
-      <Trilha />
-      {SFX.map((s, i) => (
+      {capa ? null : MEMES(t)}
+      {capa ? null : <Legendas t={t} chunks={CHUNKS} fim={FIM} top={1300} corAtiva={C.canalAmarelo} corBase="#fff" />}
+      {capa ? null : <Audio src={A("narracao.mp3")} volume={1} />}
+      {capa ? null : <Trilha />}
+      {capa ? null : SFX.map((s, i) => (
         <Sequence key={i} from={f(s.t)} layout="none"><Audio src={s.src} volume={s.v} /></Sequence>
       ))}
     </AbsoluteFill>
