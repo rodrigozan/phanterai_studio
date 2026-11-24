@@ -1,0 +1,102 @@
+{
+ "slug": "reel-2026-11-24-0700-gemini-usa-seu-mac",
+ "composicao": "ShortGeminiMac",
+ "musica": "phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.17; reel anterior usou CuriousFocus)",
+ "panterinha": [
+  "surpresa 0–3,0 s",
+  "apontando no item 4 (35,6–38,0 s)",
+  "comemorando no CTA (56,0 s–fim)"
+ ],
+ "trechos": [
+  {
+   "inicio": 0,
+   "palavra_gatilho": "Dezenas de cliques",
+   "componente": "formulário de 8 campos + 9 cursores clicando + contador de cliques + palavra gigante",
+   "acao": "janela já em movimento no quadro 0, zoom 1,2→1; contador 3→47; whoosh + impacto"
+  },
+  {
+   "inicio": 2,
+   "palavra_gatilho": "não / nenhum",
+   "componente": "contador riscado + carimbo \"0 seus\" + palavra \"você: 0 cliques\"",
+   "acao": "flash rosa, tremida, impacto + coin"
+  },
+  {
+   "inicio": 3.13,
+   "palavra_gatilho": "Gemini",
+   "componente": "selo Gemini (estrela desenhada) + pill \"mexe sozinho\"",
+   "acao": "whoosh, selo entra; tela do Mac sobe com 3 janelas"
+  },
+  {
+   "inicio": 4.74,
+   "palavra_gatilho": "Mac",
+   "componente": "tela do Mac com cursor clicando",
+   "acao": "janelas pop + 4 fichas numeradas com ❓ e pill \"4 usos · o último\" desde ~3,8 s"
+  },
+  {
+   "inicio": 6.06,
+   "palavra_gatilho": "quatro usos / último / anúncios",
+   "componente": "4 cartões numerados",
+   "acao": "sobem um a um; o 4º treme e revela 🏷️ + carimbo \"anúncio pronto\""
+  },
+  {
+   "inicio": 9.68,
+   "palavra_gatilho": "descreve",
+   "componente": "chat do Gemini",
+   "acao": "pedido digitado letra a letra e enviado"
+  },
+  {
+   "inicio": 10.88,
+   "palavra_gatilho": "clica / digita / menus / formulário",
+   "componente": "janela de trabalho com botões, menu suspenso e campos",
+   "acao": "cursor clica, campo digitado, menu abre e escolhe, campos ficam verdes"
+  },
+  {
+   "inicio": 14.49,
+   "palavra_gatilho": "janela à parte / tela / mouse / livres",
+   "componente": "janela encolhe para prévia ao vivo + \"sua tela\" com cursor verde livre",
+   "acao": "pills verdes e carimbo \"livre\""
+  },
+  {
+   "inicio": 17.76,
+   "palavra_gatilho": "Número um / fotos em lote / cor",
+   "componente": "cabeçalho 1 + grade de 6 fotos + barras cor/exposição",
+   "acao": "fotos entram cinza, scanner passa e ganham cor uma a uma; contador 0→6/6"
+  },
+  {
+   "inicio": 22.3,
+   "palavra_gatilho": "Número dois / peso / medidas / endereço / frete",
+   "componente": "cabeçalho 2 + pedido.pdf + dados extraídos + janela cotação de frete",
+   "acao": "scanner no PDF, dados voam, campos digitados e marcados; carimbo \"cotação pronta\""
+  },
+  {
+   "inicio": 29.28,
+   "palavra_gatilho": "Número três / números / slides / Google Slides",
+   "componente": "cabeçalho 3 + painel ao vivo de 3 regiões + pilha de slides",
+   "acao": "contadores sobem, números caem até os slides, 4 slides empilham; carimbo \"slides prontos\""
+  },
+  {
+   "inicio": 35.63,
+   "palavra_gatilho": "Número quatro / analisa / preço / anúncios prontos",
+   "componente": "cabeçalho 4 + pasta de roupas + etiquetas de preço + cartões de anúncio",
+   "acao": "scanner por peça, spinner de pesquisa, etiquetas balançando, cartões ficam verdes; carimbo \"você só revisa\""
+  },
+  {
+   "inicio": 42.15,
+   "palavra_gatilho": "quem manda é você / apps / passo / pausa / aprova",
+   "componente": "selo 🕹️ + checklist de controle + diálogo de aprovação",
+   "acao": "apps ligam/desligam, ● ao vivo pisca, interruptor de pausa liga, cursor clica Aprovar"
+  },
+  {
+   "inicio": 48.56,
+   "palavra_gatilho": "por enquanto / inglês / EUA / chip Apple / pagos",
+   "componente": "selo ⚠️ + lista de requisitos + pill \"Brasil: ainda não\"",
+   "acao": "itens entram no tempo de cada palavra e ganham \"!\""
+  },
+  {
+   "inicio": 53.73,
+   "palavra_gatilho": "Qual primeiro / MAC / segue / Brasil",
+   "componente": "4 fichas dos usos + caixa de comentário + botão seguir + pill de aviso",
+   "acao": "destaque circula, MAC digitado + ❤️, botão vira \"Seguindo\""
+  }
+ ]
+}
