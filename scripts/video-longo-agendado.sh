@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# video-longo-agendado.sh - disparado pelo cron seg/qua/sex às 01:00 de Brasília (04:00 UTC).
-# Aciona o Claude Code para rodar a skill make-long-videos-phanterai do começo ao fim, direto em 1080p (sem rascunho),
-# e subir o vídeo agendado (private + publishAt) para o mesmo dia às 12:16 de Brasília (15:16 UTC).
+# video-longo-agendado.sh - disparado pelo cron dom/ter/qui às 23:00 de Brasília (02:00 UTC do dia seguinte), no dia anterior à publicação (seg/qua/sex).
+# Aciona o Claude Code para rodar a skill make-long-videos-aprenda-youtube do começo ao fim, direto em 1080p (sem rascunho),
+# e subir o vídeo agendado (private + publishAt) para o dia seguinte às 12:16 de Brasília (15:16 UTC).
 #
-#   scripts/video-longo-agendado.sh             roda o vídeo longo de hoje (Brasília)
+#   scripts/video-longo-agendado.sh             cria o vídeo longo que publica amanhã (Brasília)
 #   scripts/video-longo-agendado.sh --dry-run   só mostra o prompt (não chama o Claude)
 #   DATA=2026-11-20 scripts/video-longo-agendado.sh --dry-run
 set -euo pipefail
@@ -15,7 +15,7 @@ MARCA="${MARCA:-phanterai}"
 LOGDIR="$STUDIO/out/$MARCA/agendador-longos"
 REELDIR="$STUDIO/out/$MARCA/agendador"
 DRY="${1:-}"
-DATA="${DATA:-$(TZ=America/Sao_Paulo date +%F)}"
+DATA="${DATA:-$(TZ=America/Sao_Paulo date -d tomorrow +%F)}"   # DATA = dia da publicação
 HORA_BRT="12:16"
 PUBLISH_AT="$(date -u -d "$DATA $HORA_BRT -03:00" +%Y-%m-%dT%H:%M:%SZ)"
 
@@ -27,15 +27,16 @@ log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }
 
 PROMPT="Rodada agendada do vídeo longo da PhanterAI. Ninguém está acompanhando: não faça perguntas, não espere aprovação de ninguém, decida e registre.
 
-Use a skill make-long-videos-phanterai e siga o fluxo dela do começo ao fim para criar, renderizar e agendar UM vídeo longo.
+Use a skill make-long-videos-aprenda-youtube e siga o fluxo dela do começo ao fim para criar, renderizar e agendar UM vídeo longo.
 
-Vídeo de hoje
-- Data (Brasília): $DATA
+Vídeo desta rodada (criado hoje às 23h, publicado no dia seguinte)
+- Data de publicação (Brasília): $DATA
 - Publicação: $DATA às $HORA_BRT de Brasília (UTC-3) = publishAt $PUBLISH_AT (sempre private + publishAt, canal Aprenda YouTube)
 - Slug: $DATA-<tema-curto>
 
 Regras desta rodada (valem acima do que a skill diz sobre pedir aprovação)
 1. Tema (regra do Rod, 23/11/2026): TODO vídeo do canal Aprenda YouTube é sobre CRESCER NO YOUTUBE e GERENCIAR CANAIS DO YOUTUBE (com inteligência artificial como aliada, mas o assunto abrange tudo que é crescimento no YouTube, não só IA: ideia e nicho, título e capa, roteiro e retenção, SEO, Shorts, algoritmo, análise de métricas, rotina e automação do canal, monetização). Escolha você mesmo, sem esperar aprovação. Pesquise os melhores temas nos MELHORES e MAIS FAMOSOS canais do nicho de YouTube, de preferência gringos (passo 1 da skill, sem vidIQ, usando as skills yt-*, ex.: yt-viral), escolha o melhor candidato e confira em $STUDIO/public/phanterai/episodes/long-videos/ que o tema ainda não foi feito. Nunca repita tema. Tema de IA genérico sem relação com crescer ou gerenciar canal NÃO entra neste canal.
+IDENTIDADE (obrigatória, definida pelo Rod em 23/11/2026): leia $STUDIO/marcas/phanterai/identidade-aprenda-youtube.md ANTES de escolher o tema e escrever. Tom do Cobaia Honesto, PRA FRENTE e com energia, narração em frases curtas com exclamações e a moldura da conquista pequena, mais HUMOR LEVE com piadas e memes de heróis, animes, desenhos e Power Rangers só na fala, texto e panterinha, sem usar cena ou áudio protegido (veja as seções Tom e energia e Humor e memes do arquivo) (leve, bem-humorado, autoironia, sem pose de guru), título curto com contraste, quadro fixo (Garimpo da Semana ou Mito vs. Realidade; Teste na Prática só com os números reais de $STUDIO/marcas/phanterai/dados-canal-2026-11-22.md, nunca invente nem arredonde resultado). Isso vale acima das regras de duração e tom da skill: longo de 5 a 7 min, Short de 30 a 50 s. Sobre a regra do público leigo/Claude Desktop: aplique só quando o vídeo usar uma ferramenta.
 2. Valide o método na fonte oficial ANTES de escrever (passo 2 da skill). Se não der para confirmar em fonte primária, NÃO gere narração, NÃO renderize e NÃO publique: grave o motivo no arquivo de resultado e encerre.
 3. NÃO faça rascunho. Pule o passo 11 (render a 0,5 e envio ao Rod). Depois dos stills conferidos e corrigidos, vá direto para a versão final em 1080p (passo 13), capa, pacote e upload agendado.
 CAPAS (regra do Rod, 20/11/2026): gere 3 capas de alto clique com node scripts/long-capa.mjs <slug> out/phanterai/long-videos/<slug>/capa.jpg --variantes=a,b,c --linha1=... --linha2=... --prompt=... --shot=... --antes=... --depois=... (A = pantera gigante, B = o pedido no Claude Desktop + resultado, C = antes x depois; texto de 2 a 4 palavras, sem repetir o título). Olhe as 3 imagens. Suba a capa A no YouTube como padrão e envie as 3 para o WhatsApp do Rod com node scripts/enviar-whats.mjs \"Capas do vídeo <título>: A, B e C. Responda a letra\" capa-a.jpg capa-b.jpg capa-c.jpg. Se o Rod responder a letra, troque com yt-upload.mjs thumb. Vídeo para público leigo: Claude Desktop, sem terminal (ver regras inegociáveis da skill).
@@ -44,7 +45,7 @@ CAPAS (regra do Rod, 20/11/2026): gere 3 capas de alto clique com node scripts/l
 6. Nunca refaça nem republique o que já foi publicado ou agendado. Antes de subir, confira na API do canal se o slug/título já existe.
 7. Memória do servidor: render sempre com a concorrência padrão do long-render.mjs, nunca rode dois renders ao mesmo tempo.
 8. Depois de agendar, confira na API e faça commit + push do código novo por nome de arquivo (nunca mídia nem renders).
-Depois de concluir upload, capa e descrição do YouTube, execute python3 -I /root/phanterai_studio/scripts/blog-youtube.py --schedule VIDEO_ID (substitua pelo ID real). Leia docs/video-blog-handoff.md. Esse comando cria/confirma o artigo completo com embed e inclui seu link na descrição, com leitura de confirmação. Se o roteiro prometer links ou passo a passo na descrição, essa promessa deve apontar para o artigo desse mesmo vídeo. Inclua no resultado blog_url, blog_status e description_linked, usando o recibo do comando. Se falhar, registre blog_pendente e o motivo; preserve IDs e nunca reenvie um vídeo já agendado.
+Depois de concluir upload, capa e descrição do YouTube, ANTES, escreva o artigo e grave em /root/phanterai_studio/out/phanterai/blog/VIDEO_ID/article.json (o script não gera mais artigo; schema em scripts/blog-article.schema.json, regras em docs/video-blog-handoff.md: no mínimo 500 palavras, HTML simples, passo a passo, link do vídeo e todos os links de fonte da descrição, sem inventar). Depois execute python3 -I /root/phanterai_studio/scripts/blog-youtube.py --schedule VIDEO_ID (substitua pelo ID real). Leia docs/video-blog-handoff.md. Esse comando cria/confirma o artigo completo com embed e inclui seu link na descrição, com leitura de confirmação. Se o roteiro prometer links ou passo a passo na descrição, essa promessa deve apontar para o artigo desse mesmo vídeo. Inclua no resultado blog_url, blog_status e description_linked, usando o recibo do comando. Se falhar, registre blog_pendente e o motivo; preserve IDs e nunca reenvie um vídeo já agendado.
 9. Ao terminar, grave $FEITO com: slug, titulo_final, fontes (urls), horario_agendado, id e link do YouTube, e \"status\" (\"agendado\", \"publicado\" ou \"nao_publicado\" com o motivo). Grave esse arquivo mesmo em caso de falha."
 
 if [ "$DRY" = "--dry-run" ]; then
