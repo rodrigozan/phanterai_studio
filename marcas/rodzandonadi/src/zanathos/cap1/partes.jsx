@@ -7,7 +7,7 @@ const POP = "sfx/pop.mp3";
 
 const marca = (t, a, d = 0.5) => ramp(t, a, d, Easing.out(Easing.back(2)));
 
-const poliAte = (pts, comp, p) => {
+export const poliAte = (pts, comp, p) => {
   const total = comp[comp.length - 1];
   const alvo = total * Math.min(1, Math.max(0, p));
   const out = [pts[0]];
@@ -21,8 +21,8 @@ const poliAte = (pts, comp, p) => {
   }
   return { pts: out, cabeca };
 };
-const acumula = (pts) => pts.reduce((a, p, i) => { a.push(i ? a[i - 1] + Math.hypot(p[0] - pts[i - 1][0], p[1] - pts[i - 1][1]) : 0); return a; }, []);
-const str = (pts) => pts.map((p) => p.join(",")).join(" ");
+export const acumula = (pts) => pts.reduce((a, p, i) => { a.push(i ? a[i - 1] + Math.hypot(p[0] - pts[i - 1][0], p[1] - pts[i - 1][1]) : 0); return a; }, []);
+export const str = (pts) => pts.map((p) => p.join(",")).join(" ");
 
 /* ---------- Parte 1 ---------- */
 const CX = 540;
@@ -271,7 +271,7 @@ const P2 = {
 };
 
 /* ---------- Parte 3 ---------- */
-const Ondas = ({ t, t0, y, eco, cor }) => {
+export const Ondas = ({ t, t0, y, eco, cor }) => {
   const age = t - t0;
   if (age < 0 || age > 2.4) return null;
   const arcs = [0, 1, 2].map((k) => {
@@ -400,13 +400,13 @@ const P3 = {
 };
 
 /* ---------- Parte 4 ---------- */
-const SP = [[70, 960], [1010, 960]];
-const RG = [[1010, 960], [1010, 560], [697, 560], [697, 960], [697, 560], [383, 560], [383, 960], [383, 560], [70, 560], [70, 960], [70, 1360], [383, 1360], [383, 960], [383, 1360], [697, 1360], [697, 960], [697, 1360], [1010, 1360], [1010, 960]];
-const CS = [[226, 760], [540, 760], [853, 760], [226, 1160], [540, 1160], [853, 1160]];
-const RD = [[1010, 960], [540, 960], ...[2, 5, 4, 3, 0, 1].flatMap((k) => [CS[k], [540, 960]])];
-const CSP = acumula(SP);
-const CRG = acumula(RG);
-const CRD = acumula(RD);
+export const SP = [[70, 960], [1010, 960]];
+export const RG = [[1010, 960], [1010, 560], [697, 560], [697, 960], [697, 560], [383, 560], [383, 960], [383, 560], [70, 560], [70, 960], [70, 1360], [383, 1360], [383, 960], [383, 1360], [697, 1360], [697, 960], [697, 1360], [1010, 1360], [1010, 960]];
+export const CS = [[226, 760], [540, 760], [853, 760], [226, 1160], [540, 1160], [853, 1160]];
+export const RD = [[1010, 960], [540, 960], ...[2, 5, 4, 3, 0, 1].flatMap((k) => [CS[k], [540, 960]])];
+export const CSP = acumula(SP);
+export const CRG = acumula(RG);
+export const CRD = acumula(RD);
 
 const Mao = ({ x, y, r = 0, op = 1 }) => (
   <g transform={`translate(${x} ${y}) rotate(${r}) scale(1.7)`} opacity={op} fill="none" stroke={K.osso} strokeWidth={2.4} strokeDasharray="3 6" strokeLinecap="round">

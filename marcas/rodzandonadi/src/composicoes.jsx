@@ -1,6 +1,7 @@
 import { Composition, Still } from "remotion";
 import { ZANATHOS_FRAMES, ZanathosEp1 } from "./zanathos/Zanathos";
 import { CAP1_FRAMES, ZanathosCap1 } from "./zanathos/cap1/Cap1";
+import { EP2_FRAMES, ZanathosEp2 } from "./zanathos/Ep2";
 import { LivroVideo, calculateLivroMetadata } from "./LivroVideo";
 import { PersonagensVideo, calcularPersonagensMetadata } from "./personagens/PersonagensVideo";
 
@@ -10,6 +11,7 @@ export const ComposicoesRodZandonadi = () => (
   {[1, 2, 3, 4].map((n) => (
     <Composition key={n} id={`ZanathosCap1P${n}`} component={ZanathosCap1} width={1080} height={1920} fps={30} durationInFrames={CAP1_FRAMES[n]} defaultProps={{ parte: n, capa: false }} />
   ))}
+  <Composition id="ZanathosEp2" component={ZanathosEp2} width={1080} height={1920} fps={30} durationInFrames={EP2_FRAMES} />
   <Still id="ZanathosEp1Capa" component={ZanathosEp1} width={1080} height={1920} defaultProps={{ capa: true }} />
   <Composition
     id="RodLivroIA"

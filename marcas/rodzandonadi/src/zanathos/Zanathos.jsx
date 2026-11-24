@@ -9,8 +9,8 @@ import { MapaZanathos, prog } from "./Mapa";
 loadCinzelDec("normal", { weights: ["700", "900"] });
 loadCinzel("normal", { weights: ["700", "900"] });
 const darker = loadDarker("normal", { weights: ["700", "800", "900"] });
-const DG = `${darker.fontFamily}, sans-serif`;
-const CZD = "'Cinzel Decorative', serif";
+export const DG = `${darker.fontFamily}, sans-serif`;
+export const CZD = "'Cinzel Decorative', serif";
 
 export const ZANATHOS_FRAMES = f(T.fim);
 const EP = (rel) => staticFile(`rodzandonadi/episodes/zanathos-ep1/${rel}`);
@@ -46,7 +46,7 @@ const shake = (t, frame) => {
   return [Math.sin(frame * 1.7) * a + Math.sin(frame * 3.1) * a * 0.5, Math.cos(frame * 2.3) * a];
 };
 
-const Papel = ({ op }) => (
+export const Papel = ({ op }) => (
   <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: op }}>
     <defs>
       <filter id="grao">
@@ -69,7 +69,7 @@ const Papel = ({ op }) => (
   </svg>
 );
 
-const BordaAfricana = ({ op, frame }) => {
+export const BordaAfricana = ({ op, frame }) => {
   const tri = [];
   for (let i = 0; i < 46; i++) {
     const y = i * 42;
@@ -91,7 +91,7 @@ const BordaAfricana = ({ op, frame }) => {
   );
 };
 
-const Estrelas = ({ frame, op }) => (
+export const Estrelas = ({ frame, op }) => (
   <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: op }}>
     {Array.from({ length: 140 }, (_, i) => {
       const x = random(`ex${i}`) * 1080;
@@ -102,7 +102,7 @@ const Estrelas = ({ frame, op }) => (
   </svg>
 );
 
-const FundoCanal = ({ frame, op }) => {
+export const FundoCanal = ({ frame, op }) => {
   const a = Math.sin(frame / 90) * 60;
   return (
     <AbsoluteFill style={{ opacity: op, background: C.canalRoxoEscuro }}>
