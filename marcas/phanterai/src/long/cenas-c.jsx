@@ -321,3 +321,30 @@ export const StudioPreview = ({ d, dur }) => {
     </>
   );
 };
+
+// ---------- CTA final de uma ação só: assistir o próximo vídeo (regra 7 do Rod, 23/11) ----------
+//   cta-proximo  titulo, bg, seta{ao} (moldura do próximo vídeo pisca), clique{ao} (cursor clica na moldura)
+export const CtaProximo = ({ slug, d, pose }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const emS = d.seta?.em ?? 10;
+  const emC = d.clique?.em ?? emS + 40;
+  const s = spring({ frame: frame - emS, fps, config: { damping: 9, mass: 0.6 } });
+  const pulso = frame >= emS ? 1 + 0.03 * Math.sin((frame - emS) / 4) : 1;
+  const apertou = frame >= emC;
+  return (
+    <>
+      <Fundo2 slug={slug} d={d} esc={0.7} />
+      <Faiscas169 n={apertou ? 30 : 12} />
+      <Linha y={60}><Texto em={2} y={0} size={92} rot={-1}>{d.titulo ?? "Próximo vídeo"}</Texto></Linha>
+      <div style={{ position: "absolute", left: 150, top: 250, width: 1060, height: 596, borderRadius: 28, border: `8px solid ${apertou ? colors.gold : "#fff"}`, background: "rgba(13,17,23,0.72)", transform: `scale(${(0.85 + 0.15 * s) * pulso})`, opacity: interpolate(frame - emS, [0, 8], [0, 1], clamp), boxShadow: `0 0 ${apertou ? 70 : 30}px ${apertou ? colors.gold : "#ffffff55"}`, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 26 }}>
+        <svg width="190" height="190" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill={apertou ? colors.gold : "#FF0000"} /><path d="M9.5 7.5v9l7-4.5z" fill="#fff" /></svg>
+        <div style={{ ...FONT, textTransform: "none", fontSize: 64, color: "#fff" }}>Próximo vídeo</div>
+      </div>
+      {frame >= emS ? <Sfx name="whoosh" atFrame={emS} /> : null}
+      {apertou ? <Sfx name="ding" atFrame={emC} /> : null}
+      <Cursor pontos={[{ f: emC - 40, x: 1500, y: 900 }, { f: emC, x: 700, y: 560 }, { f: emC + 60, x: 700, y: 560 }]} cliques={[emC + 2]} />
+      <Pant pose={pose ?? "apontando"} x={1600} y={720} w={480} em={6} />
+    </>
+  );
+};

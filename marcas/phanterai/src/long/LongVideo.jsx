@@ -27,7 +27,7 @@ export const LongVideo = ({ slug, timeline }) => {
   if (!timeline) {
     return <AbsoluteFill style={{ background: colors.bgOuter, color: "#fff", alignItems: "center", justifyContent: "center", fontSize: 44, fontFamily: "sans-serif" }}>{slug ? `timeline.json não encontrado para ${slug}` : "Passe { slug } em props"}</AbsoluteFill>;
   }
-  const vol = timeline.musicaVolume ?? 0.2;
+  const vol = timeline.musicaVolume ?? 0.17;
   return (
     <AbsoluteFill style={{ background: colors.bgOuter }}>
       {/* a timeline começa as cenas em `lead` segundos: a voz entra junto, senão a legenda atrasa */}

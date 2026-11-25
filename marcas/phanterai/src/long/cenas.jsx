@@ -52,6 +52,7 @@ export const CENAS = {
   terminal: C.Terminal,
   "claude-pedido": C.ClaudePedido,
   "studio-preview": C.StudioPreview,
+  "cta-proximo": C.CtaProximo,
   // Claude Desktop + programa conectado (cenas-d.jsx)
   "desktop-conectores": D.DesktopConectores,
   "desktop-pedido": D.DesktopPedido,

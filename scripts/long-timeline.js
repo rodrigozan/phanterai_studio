@@ -13,7 +13,7 @@
  * encontrada derruba o script com o nome da cena: nunca chuta tempo.
  *
  * Música: sorteada entre os mp3 de public/<marca>/music/ na primeira geração e mantida nas
- * seguintes (use --nova-musica para sortear de novo). Toca em loop até o fim, a 20% do volume.
+ * seguintes (use --nova-musica para sortear de novo). Toca em loop até o fim, a 17% do volume (sem Daniel.mp3, exclusiva do anime bíblico).
  */
 const fs = require("fs");
 const path = require("path");
@@ -67,7 +67,7 @@ roteiro.cenas.forEach((c, i) => {
   const meta = JSON.parse(fs.readFileSync(path.join(dir, "voz", `${c.id}.json`), "utf8"));
   const ultima = i === roteiro.cenas.length - 1;
   const ini = cursor;
-  const fim = ini + meta.dur + (ultima ? TAIL : GAP); // a cena segura a imagem até a próxima começar
+  const fim = ini + meta.dur + (ultima ? (roteiro.cauda ?? TAIL) : GAP); // roteiro.cauda: segura o card final (ex.: completar 5 min) // a cena segura a imagem até a próxima começar
   cenas.push({
     id: c.id,
     tipo: c.tipo,
@@ -103,19 +103,18 @@ if (brollCfg) {
   };
   const durVideo = (src) => (mfAll.videos ?? []).find((v) => `pexels/${v.nome}.mp4` === src)?.duracao ?? 8;
   const usos = {};
-  const ordemTipos = ["video", "foto", "video", "video", "print", "foto"]; // ~50% vídeo, resto foto/print
-  let ti = 0, ultimoSrc = [];
+  // Regra do Rod (23/11): b-roll de pessoas SÓ em cena marcada "broll": "humano" no roteiro e cada clipe UMA vez no vídeo.
+  // Prints (gatilhos) continuam entrando na palavra falada; o resto das cenas fica sem b-roll sorteado.
+  const ordemTipos = ["video", "foto", "video", "video"];
+  let ti = 0;
   const escolhe = () => {
     for (let k = 0; k < ordemTipos.length; k++) {
       const tipo = ordemTipos[ti++ % ordemTipos.length];
-      const cand = pool[tipo].filter((s) => !ultimoSrc.includes(s));
+      const cand = pool[tipo].filter((s) => !usos[s]);
       if (!cand.length) continue;
-      cand.sort((a, b) => (usos[a] ?? 0) - (usos[b] ?? 0));
       const src = cand[0];
-      ultimoSrc = [...ultimoSrc, src].slice(-Math.min(6, pool[tipo].length - 1 || 1));
-      const n = (usos[src] = (usos[src] ?? 0) + 1) - 1;
-      const dv = tipo === "video" ? durVideo(src) : 0;
-      return { tipo, src, from: tipo === "video" ? +((n * 2.3) % Math.max(0.5, dv - CORTE_MAX - 0.2)).toFixed(2) : 0 };
+      usos[src] = 1;
+      return { tipo, src, from: 0 };
     }
     return null;
   };
@@ -123,7 +122,8 @@ if (brollCfg) {
   cenas.forEach((c) => {
     const bc = roteiro.cenas.find((x) => x.id === c.id).broll;
     if (bc === false) return;
-    const gap = bc === "leve" ? gap0 * 1.9 : gap0;
+    const humano = bc === "humano";
+    const gap = gap0;
     const s0 = c.startFrame / FPS + 0.6, e0 = c.endFrame / FPS - 0.5;
     // gatilhos desta cena
     const fixos = [];
@@ -138,7 +138,7 @@ if (brollCfg) {
     }
     let t = s0 + gap * (0.4 + rnd() * 0.5);
     const novos = [...fixos];
-    while (t + 1.4 < e0) {
+    while (humano && t + 1.4 < e0) {
       const dur = +(1.5 + rnd() * 0.4).toFixed(2);
       const conflita = fixos.find((f) => t < f.t + f.dur + 1.2 && t + dur > f.t - 1.2);
       if (conflita) { t = conflita.t + conflita.dur + gap * 0.8; continue; }
@@ -160,8 +160,11 @@ if (brollCfg) {
   for (const c of cortes) { maiorMotion = Math.max(maiorMotion, c.startFrame - prev); prev = c.endFrame; }
   console.log(`cortes de mídia real: ${cortes.length} (${(cobre * 100).toFixed(0)}% do vídeo) | vídeo ${cortes.filter((c) => c.tipo === "video").length}, foto ${cortes.filter((c) => c.tipo === "foto").length}, print ${cortes.filter((c) => c.tipo === "print").length} | maior trecho só motion: ${(maiorMotion / FPS).toFixed(1)}s`);
   if (cortes.some((c) => (c.endFrame - c.startFrame) / FPS > CORTE_MAX + 0.01)) throw new Error("corte acima de 2 s");
-  if (cobre < 0.2 || cobre > 0.32) console.warn(`ATENÇÃO: mídia em ${(cobre * 100).toFixed(0)}% (meta 20 a 30%): ajuste "gap" no broll.json`);
-  if (maiorMotion / FPS > 6) console.warn(`ATENÇÃO: trecho de ${(maiorMotion / FPS).toFixed(1)}s sem mídia real`);
+  // sem meta de % nem aviso de trecho sem mídia: b-roll só onde a fala é sobre pessoas (regra 5 da skill)
+  const repetidos = cortes.filter((c, i) => c.tipo !== "print" && cortes.findIndex((x) => x.src === c.src) !== i);
+  if (repetidos.length) throw new Error(`clipe repetido: ${[...new Set(repetidos.map((c) => c.src))].join(", ")}`);
+  const emTecnica = cortes.filter((c) => c.tipo !== "print" && roteiro.cenas.find((x) => x.id === c.cena).broll !== "humano");
+  if (emTecnica.length) throw new Error(`b-roll de pessoas em cena não marcada "humano": ${emTecnica.map((c) => c.cena).join(", ")}`);
 } else {
   console.warn("ATENÇÃO: sem broll.json: vídeo só com motion (o Rod reprova). Crie broll.json e rode long-broll.js.");
 }
@@ -170,12 +173,12 @@ const tlPath = path.join(dir, "timeline.json");
 let musica = null;
 if (!process.argv.includes("--nova-musica") && fs.existsSync(tlPath)) musica = JSON.parse(fs.readFileSync(tlPath, "utf8")).musica;
 if (!musica) {
-  const faixas = fs.readdirSync(path.join(ROOT, "public", MARCA, "music")).filter((f) => /\.mp3$/i.test(f));
+  const faixas = fs.readdirSync(path.join(ROOT, "public", MARCA, "music")).filter((f) => /\.mp3$/i.test(f) && !/^daniel\.mp3$/i.test(f)); // Daniel é só do anime bíblico, nunca no Aprenda YouTube
   musica = faixas[Math.floor(Math.random() * faixas.length)];
 }
 
 const totalFrames = cenas[cenas.length - 1].endFrame;
 const seg = (f) => cenas.filter(f).reduce((n, c) => n + (c.endFrame - c.startFrame), 0) / totalFrames;
 console.log(`pexels em tela cheia: ${(seg((c) => c.dados.bg) * 100).toFixed(0)}% | panterinha: ${(seg((c) => c.pantera !== false) * 100).toFixed(0)}% (por cena)`);
-fs.writeFileSync(tlPath, JSON.stringify({ slug, fps: FPS, lead: LEAD, musica, musicaVolume: 0.2, totalFrames, scenes: cenas, cortes, words: globais }, null, 1));
+fs.writeFileSync(tlPath, JSON.stringify({ slug, fps: FPS, lead: LEAD, musica, musicaVolume: 0.17, totalFrames, scenes: cenas, cortes, words: globais }, null, 1));
 console.log(`${cenas.length} cenas, ${(totalFrames / FPS / 60).toFixed(2)} min, música: ${musica}`);
