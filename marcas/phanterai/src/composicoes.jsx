@@ -34,6 +34,7 @@ import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } fr
 import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
 import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
+import { ShortTagsQuaseNada, CapaTagsQuaseNada, STQ_FPS, calculateTagsQuaseNadaMetadata } from "./short/ShortTagsQuaseNada";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -399,6 +400,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateHorarioPostarMetadata}
   />
   <Composition id="CapaHorarioPostar" component={CapaHorarioPostar} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortTagsQuaseNada"
+    component={ShortTagsQuaseNada}
+    width={1080}
+    height={1920}
+    fps={STQ_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateTagsQuaseNadaMetadata}
+  />
+  <Composition id="CapaTagsQuaseNada" component={CapaTagsQuaseNada} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}

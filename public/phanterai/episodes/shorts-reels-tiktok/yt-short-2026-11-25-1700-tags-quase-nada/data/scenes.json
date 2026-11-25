@@ -1,0 +1,69 @@
+{
+ "slug": "yt-short-2026-11-25-1700-tags-quase-nada",
+ "quadro": "Mito vs. Realidade",
+ "musica": "public/phanterai/music/Coding_at_Night.mp3 (loop, 0.17)",
+ "composicao": "ShortTagsQuaseNada",
+ "panterinha": [
+  "surpresa 0–3,5 s",
+  "apontando em 'pesam MAIS'",
+  "comemorando no CTA"
+ ],
+ "cenas": [
+  {
+   "fala": "Meia hora escolhendo TAGS... pra quase nada!",
+   "componente": "janela Detalhes › Tags + cronômetro + chips",
+   "acao": "chips de tag entrando a cada 0,2 s, cronômetro 00→30 min, palavra gigante '30 min…' → 'TAGS…' → 'quase NADA!' (vermelho, tags riscadas, barra 'peso na descoberta' cai)",
+   "palavra_gatilho": "Meia / TAGS / nada",
+   "inicio": 0
+  },
+  {
+   "fala": "Mito: tag faz o vídeo crescer. O próprio YouTube desmente em três pontos... e o terceiro pode te tirar da busca!",
+   "componente": "mito digitado + selo 3 pontos + 3 cartas",
+   "acao": "'Mito?' → frase digitada riscada 'Desmente!', 📈 virando, pill '3 pontos · o 3º tira da busca' em 4,5 s, cartas 1-2-? viram, nº3 vira 🔍❌ 'fora da busca'",
+   "palavra_gatilho": "Mito / desmente / três / busca",
+   "inicio": 3.52
+  },
+  {
+   "fala": "Número um: segundo o YouTube, a tag tem papel MÍNIMO na descoberta do vídeo.",
+   "componente": "chip Nº1 + chip tag + carimbo",
+   "acao": "chip 'tag' cresce e encolhe, carimbo MÍNIMO, barra 'descoberta do vídeo' quase vazia",
+   "palavra_gatilho": "MÍNIMO",
+   "inicio": 11.28
+  },
+  {
+   "fala": "Título, miniatura e descrição pesam MAIS. É com eles que a pessoa decide o que assistir!",
+   "componente": "3 cards + balança + pessoa escolhendo vídeo",
+   "acao": "cards Título (digitando), Miniatura, Descrição entram; balança inclina, chip tags riscado; pessoa + 2 vídeos, cursor clica no escolhido",
+   "palavra_gatilho": "Título / miniatura / descrição / MAIS / decide",
+   "inicio": 16.08
+  },
+  {
+   "fala": "Número dois: a tag ajuda quando o povo escreve o assunto ERRADO. Tipo quem procura \"Narruto\"... com dois erres!",
+   "componente": "chip Nº2 + busca + resultado",
+   "acao": "busca digitando com erro, selo ERRADO, 'Narruto' digitado, resultado com tag narruto ✓, 'rr' destacado + carimbo 2 erres",
+   "palavra_gatilho": "ERRADO / Narruto / dois erres",
+   "inicio": 21.52
+  },
+  {
+   "fala": "Onde fica? No envio, em Detalhes, clica em MAIS OPÇÕES.",
+   "componente": "janela YouTube Studio › Enviar vídeo recriada",
+   "acao": "cursor clica aba Detalhes, depois MAIS OPÇÕES, painel Tags abre com chips",
+   "palavra_gatilho": "Detalhes / MAIS OPÇÕES",
+   "inicio": 28.72
+  },
+  {
+   "fala": "Número três: exagerou, perdeu! Mais de sessenta hashtags... e o YouTube ignora TODAS! E o excesso ainda pode tirar o vídeo da busca.",
+   "componente": "chip Nº3 + contador de hashtags + resultados da busca",
+   "acao": "contador #0→#61 com grade de hashtags, todas riscadas + carimbo IGNORA TODAS; lista de resultados, vídeo com #tag sai da lista + 'fora da busca'",
+   "palavra_gatilho": "sessenta / TODAS / busca",
+   "inicio": 32.8
+  },
+  {
+   "fala": "Comenta quantas tags você usa! E me segue pra próxima cobaia!",
+   "componente": "caixa de comentário + Inscrever-se",
+   "acao": "comentário digitado 'uso __ tags', chips 0/5/15/60?, Inscrever-se → Inscrito, 'próxima cobaia', emojis subindo",
+   "palavra_gatilho": "Comenta / segue / cobaia",
+   "inicio": 41.68
+  }
+ ]
+}
