@@ -30,6 +30,7 @@ import { ShortGpt62Sol, CapaGpt62Sol, G62_FPS, calculateGpt62SolMetadata } from 
 import { ShortGeminiMac, CapaGeminiMac, SGM_FPS, calculateGeminiMacMetadata } from "./short/ShortGeminiMac";
 import { ShortCodigosSecretos, CapaCodigosSecretos, SCS_FPS, calculateCodigosSecretosMetadata } from "./short/ShortCodigosSecretos";
 import { ShortReplitMissions, CapaReplitMissions, SRM_FPS, calculateReplitMissionsMetadata } from "./short/ShortReplitMissions";
+import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } from "./short/ShortPalitinho";
 import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
@@ -353,6 +354,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateReplitMissionsMetadata}
   />
   <Composition id="CapaReplitMissions" component={CapaReplitMissions} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortPalitinho"
+    component={ShortPalitinho}
+    width={1080}
+    height={1920}
+    fps={SPA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculatePalitinhoMetadata}
+  />
+  <Composition id="CapaPalitinho" component={CapaPalitinho} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortViewsShorts"
     component={ShortViewsShorts}

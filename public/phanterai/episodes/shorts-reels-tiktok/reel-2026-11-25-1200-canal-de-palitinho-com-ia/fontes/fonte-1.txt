@@ -1,0 +1,9 @@
+https://www.remotion.dev/docs/ai/coding-agents (redireciona de /docs/ai/claude-code) — "Prompting videos with coding agents"
+- "You can create videos from prompts."
+- "Remotion works well with coding agents such as Claude Code, Codex, Kimi Code and OpenCode."
+- Prerequisites: "You first need to install a coding agent like Claude Code ... as well as Node.js." "Most coding agents require a paid subscription."
+- Start a new project: `npx create-video --yes --blank my-video` — "This creates a Blank project in the my-video directory."
+- `cd my-video`; Install the Remotion Agent Skills: `npx remotion skills add`
+- Start the project: `npm run dev`
+- "Open a separate terminal window and start your coding agent of choice: cd my-video / claude"
+- "You can now prompt a video!"

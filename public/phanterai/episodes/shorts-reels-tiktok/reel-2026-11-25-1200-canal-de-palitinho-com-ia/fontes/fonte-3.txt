@@ -1,0 +1,3 @@
+https://www.remotion.dev/docs/render — "Render your video"
+- Remotion Studio: "To render a video, click the Render button."
+- CLI: `npx remotion render HelloWorld` — "Modify the composition ID to select a different video to render, or add an output path at the end"

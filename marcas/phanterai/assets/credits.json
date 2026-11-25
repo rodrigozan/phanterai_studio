@@ -1,7 +1,1 @@
-{
- "slug": "reel-2026-11-25-0700-replit-missions",
- "fontes": ["https://replit.com/blog/introducing-replit-missions", "https://replit.com/missions", "https://github.com/replit/datacat"],
- "visual": "100% interface recriada em motion graphics no Remotion (PhanterAI). Sem prints, sem Pexels, sem logos oficiais, nada gerado por IA.",
- "musica": "public/phanterai/music/CuriousFocus.mp3 (loop, volume 0.2)",
- "voz": "ElevenLabs eleven_v4, voz do Rod, stability 0.5, similarity 0.75, speaker boost"
-}
+{"fontes":["https://www.remotion.dev/docs/ai/coding-agents","https://www.remotion.dev/docs/ai/skills","https://www.remotion.dev/docs/render"],"imagens":[],"videos":[],"musica":"public/phanterai/music/Code_and_Coffe.mp3 (biblioteca da PhanterAI)","obs":"Tudo é interface recriada em motion no Remotion; nada gerado por IA; sem Pexels."}
