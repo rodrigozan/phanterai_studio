@@ -1,0 +1,103 @@
+{
+ "slug": "yt-short-2026-11-24-1000-views-de-shorts",
+ "quadro": "Mito vs. Realidade",
+ "musica": "Code_and_Coffe.mp3",
+ "cenas": [
+  {
+   "inicio": 0.0,
+   "componente": "Contador de views + grade de pessoas",
+   "acao": "contador 1.250→7.600 desde o quadro 0, pessoas entrando; whoosh+impacto",
+   "palavra_gatilho": "Sete mil e seiscentas views"
+  },
+  {
+   "inicio": 2.7,
+   "componente": "Grade de pessoas",
+   "acao": "pessoas viram '?' e apagam, tremida, legenda gigante vermelha 'quem assistiu?'",
+   "palavra_gatilho": "Mas quem assistiu"
+  },
+  {
+   "inicio": 3.8,
+   "componente": "Equação 1 view = pessoa",
+   "acao": "flash, 'Mito?', cartões entram, selo '3 números do Studio · o 3º dói', '=' vira '≠' em 'não'",
+   "palavra_gatilho": "Mito"
+  },
+  {
+   "inicio": 7.0,
+   "componente": "3 cartas",
+   "acao": "cartas 1,2,3 viram; a 3 fica vermelha e treme em 'dói'",
+   "palavra_gatilho": "Três números"
+  },
+  {
+   "inicio": 11.0,
+   "componente": "Calendário",
+   "acao": "dias correm até 31, ano até 2025, selo 31/03/2025",
+   "palavra_gatilho": "Desde março de 2025"
+  },
+  {
+   "inicio": 13.0,
+   "componente": "Celular + contador",
+   "acao": "cursor dá play, contador 0→1 em 'COMEÇA', selo 'começou = contou'",
+   "palavra_gatilho": "COMEÇA a tocar"
+  },
+  {
+   "inicio": 15.7,
+   "componente": "Cronômetro",
+   "acao": "0,0 s, 'tempo mínimo' riscado, selo 'nenhum!'",
+   "palavra_gatilho": "Sem tempo mínimo"
+  },
+  {
+   "inicio": 16.9,
+   "componente": "Nº 1 feed de Shorts",
+   "acao": "swipes a cada ~0,37 s, contador +1 a cada um",
+   "palavra_gatilho": "Número um: views"
+  },
+  {
+   "inicio": 19.6,
+   "componente": "Nº 2 linha do tempo",
+   "acao": "bolinhas correm; as que passam dos primeiros segundos ficam verdes e contam, as outras deslizam",
+   "palavra_gatilho": "views engajadas / ficou"
+  },
+  {
+   "inicio": 24.3,
+   "componente": "Programa de Parcerias",
+   "acao": "💰 + chip; 'views' riscado, 'views engajadas' ✓, selo ELAS",
+   "palavra_gatilho": "dinheiro / ELAS"
+  },
+  {
+   "inicio": 27.3,
+   "componente": "Nº 3 painel do Studio",
+   "acao": "barra Views conta até 7.600, barra engajadas até 2.900, selos 'só' e '2,9 mil ficaram'; panterinha triste",
+   "palavra_gatilho": "Sete mil e seiscentas / duas mil e novecentas"
+  },
+  {
+   "inicio": 34.9,
+   "componente": "Formiga vs. elefante",
+   "acao": "humor da conquista pequena, lupa varrendo",
+   "palavra_gatilho": "pode não ser grande coisa"
+  },
+  {
+   "inicio": 37.4,
+   "componente": "Anel de inscritos",
+   "acao": "Shorts orbitam e entram no anel, +22 (22/26), +26 no total, selo +225% vs. 28 dias antes",
+   "palavra_gatilho": "vinte e dois / vinte e seis / Tem noção"
+  },
+  {
+   "inicio": 43.4,
+   "componente": "Studio · Análises",
+   "acao": "cursor clica Análises, liga Modo avançado, tabela Views x Views engajadas",
+   "palavra_gatilho": "Abre o Studio / modo avançado / compara"
+  },
+  {
+   "inicio": 46.2,
+   "componente": "Caixa de comentário + Inscrever-se",
+   "acao": "comentário digitando, selo 'quantas ficaram?', botão vira Inscrito, corações subindo, pill 'próxima cobaia'; panterinha comemorando",
+   "palavra_gatilho": "Comenta / segue / cobaia"
+  }
+ ],
+ "fontes": [
+  "https://support.google.com/youtube/answer/10059070",
+  "https://support.google.com/youtube/thread/333869549",
+  "https://support.google.com/youtube/answer/2991785",
+  "https://support.google.com/youtube/answer/12220281"
+ ]
+}

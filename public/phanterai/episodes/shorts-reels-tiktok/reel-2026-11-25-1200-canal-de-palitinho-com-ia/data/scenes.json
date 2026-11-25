@@ -1,0 +1,77 @@
+{
+ "slug": "reel-2026-11-25-1200-canal-de-palitinho-com-ia",
+ "musica": "public/phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.2)",
+ "panterinha": [
+  "surpresa 0–1,6 s",
+  "apontando 48,5–49,3 s (virada)",
+  "comemorando no CTA"
+ ],
+ "cenas": [
+  {
+   "componente": "gancho",
+   "acao": "icones lapis/camera riscados + palavra gigante; semana com 7 videos e contador; selo do loop; 3 palitinhos se desenhando; 5 cartoes com o 5º tremendo",
+   "palavra_gatilho": "Zero",
+   "inicio": 0
+  },
+  {
+   "componente": "gancho",
+   "acao": "selo '5 passos · o 5º é o segredo ❓' (loop aberto na tela)",
+   "palavra_gatilho": "dia!",
+   "inicio": 3.2
+  },
+  {
+   "componente": "gancho",
+   "acao": "palitinhos entram desenhados",
+   "palavra_gatilho": "palitinho",
+   "inicio": 4.56
+  },
+  {
+   "componente": "gancho",
+   "acao": "5 cartões numerados; 5º com ❓ tremendo; semana reaparece",
+   "palavra_gatilho": "cinco",
+   "inicio": 6.56
+  },
+  {
+   "componente": "item1 terminal",
+   "acao": "pasta abre; terminal digita npx create-video --yes --blank my-video; saída 'Blank project'; árvore my-video/; carimbo 'projeto em branco'",
+   "palavra_gatilho": "comando",
+   "inicio": 12.9
+  },
+  {
+   "componente": "item2 terminal+skills",
+   "acao": "terminal digita npx remotion skills add; card do agente; 5 chips de skills; carimbo boas práticas",
+   "palavra_gatilho": "skills",
+   "inicio": 19.86
+  },
+  {
+   "componente": "item3 studio",
+   "acao": "terminal npm run dev; janela Remotion Studio com palitinho andando e timeline com playhead",
+   "palavra_gatilho": "estúdio",
+   "inicio": 28.12
+  },
+  {
+   "componente": "item4 chat claude",
+   "acao": "terminal 2 digita claude; badge Claude Code; prompt digitado; código <circle>/<line> aparecendo e palitinho se desenhando; gráfico; chip 'sem gerar imagem'",
+   "palavra_gatilho": "círculo",
+   "inicio": 37.91
+  },
+  {
+   "componente": "item5 render",
+   "acao": "terminal npx remotion render; barra 0→100%; card video.mp4; semana; tema trocado juros→inflação; novo render; carimbo vídeo novo",
+   "palavra_gatilho": "render,",
+   "inicio": 43.26
+  },
+  {
+   "componente": "virada checklist",
+   "acao": "checklist Node.js ✓ agente ✓; chips Claude Code/Codex/Kimi Code/OpenCode; etiqueta 'a maioria é paga' balançando",
+   "palavra_gatilho": "paga.",
+   "inicio": 51.42
+  },
+  {
+   "componente": "cta",
+   "acao": "3 palitinhos acenando; caixa de comentário PALITO; botão seguir",
+   "palavra_gatilho": "PALITO",
+   "inicio": 54.42
+  }
+ ]
+}

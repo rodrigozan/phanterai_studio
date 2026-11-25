@@ -1,0 +1,28 @@
+{
+ "slug": "reel-2026-11-23-1500-gpt-6-2-sol",
+ "composicao": "ShortGpt62Sol",
+ "musica": "phanterai/music/Coding_at_Night.mp3 (loop, volume 0.17; reel anterior usou Code_and_Coffe)",
+ "trechos": [
+  {"inicio": 0.0, "palavra_gatilho": "Meio ponto", "componente": "placar de 2 barras + palavra gigante MEIO PONTO", "acao": "barras correm desde o quadro 0 e param quase juntas; whoosh + error de impacto"},
+  {"inicio": 0.9, "palavra_gatilho": "diferença", "componente": "linha 'diferença: −0,5'", "acao": "zoom de golpe no −0,5"},
+  {"inicio": 2.2, "palavra_gatilho": "cinco vezes mais caro", "componente": "etiquetas de preço balançando", "acao": "$$$$$ vs $ contando; palavra vira '5x mais caro'; flash e tremida"},
+  {"inicio": 4.1, "palavra_gatilho": "três provas", "componente": "3 cartões numerados", "acao": "cartões sobem um a um, 3º com ❓, vira 🔒 tremendo em 'terceira'"},
+  {"inicio": 10.5, "palavra_gatilho": "GPT seis ponto dois Sol", "componente": "janela 'modelo'", "acao": "gpt-6.2-sol digitado; sol girando"},
+  {"inicio": 13.6, "palavra_gatilho": "irmão / Astra / ponta", "componente": "cards Sol + Astra", "acao": "Astra entra pela direita, coroa cai em 'de ponta'"},
+  {"inicio": 16.6, "palavra_gatilho": "muita gente lá dentro / padrão", "componente": "grade de 15 avatares + interruptor", "acao": "avatares acendem; interruptor 'modelo padrão: Sol' liga"},
+  {"inicio": 19.5, "palavra_gatilho": "Número um: código", "componente": "chip 1 + janela de pull request", "acao": "diff digitado linha a linha (entrada)"},
+  {"inicio": 21.3, "palavra_gatilho": "FrontierCode / meio ponto", "componente": "barras Astra x Sol", "acao": "barras sobem; carimbo 'só −0,5 ponto' (processo)"},
+  {"inicio": 24.9, "palavra_gatilho": "custando um quinto", "componente": "colunas de custo por tarefa", "acao": "coluna do Sol encolhe 100%→1/5; carimbo '1/5 do custo' (saída)"},
+  {"inicio": 26.3, "palavra_gatilho": "Número dois: o preço / um milhão", "componente": "chip 2 + contador de tokens", "acao": "contador 0→1.000.000"},
+  {"inicio": 29.8, "palavra_gatilho": "dois / oito / dez / quarenta", "componente": "tabela de preços", "acao": "células contam $2, $8, $10, $40 no tempo da fala"},
+  {"inicio": 34.0, "palavra_gatilho": "quatro vezes mais barato", "componente": "carimbo", "acao": "'4x mais barato'"},
+  {"inicio": 35.5, "palavra_gatilho": "Número três: tarefas do dia a dia", "componente": "chip 3 + chat", "acao": "pedido da creche digitado; checklist de 3 passos fica verde"},
+  {"inicio": 38.7, "palavra_gatilho": "passou o GPT seis Astra", "componente": "ranking LifeVal", "acao": "Sol troca de lugar com GPT-6 Astra, troféu; panterinha apontando (reação 2)"},
+  {"inicio": 42.2, "palavra_gatilho": "um sétimo", "componente": "7 notas de dinheiro", "acao": "6 caem e somem; carimbo '1/7 do custo'"},
+  {"inicio": 43.6, "palavra_gatilho": "ChatGPT Work / Codex / Plus Pro Enterprise Edu", "componente": "cards de app + grade de planos", "acao": "cada app e plano acende no nome falado"},
+  {"inicio": 50.3, "palavra_gatilho": "A P I", "componente": "terminal", "acao": "model: \"gpt-6.2-sol\" digitado; ✓ conectado"},
+  {"inicio": 50.8, "palavra_gatilho": "trocaria / Comenta SOL / segue", "componente": "interruptor Astra→Sol, caixa de comentário, botão seguir", "acao": "interruptor muda, SOL digitado, coração, 'Seguindo'; panterinha comemorando (reação 3)"}
+ ],
+ "reacoes_panterinha": ["surpresa 0–3,4 s", "apontando 38,7–42,2 s", "comemorando 52,9 s–fim"],
+ "conferencia": "contact sheet 2 fps e teste dos 5 s a 4 fps conferidos em 23/11 (out/phanterai/<slug>/contact-sheet-2fps.png, hook-5s-4fps.png); nenhum print, nada gerado por IA, nenhum crédito na tela"
+}

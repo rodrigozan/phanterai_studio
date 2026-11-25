@@ -1,0 +1,5 @@
+https://www.remotion.dev/docs/ai/skills (-> /docs/agents/skills) — "Agent Skills"
+- "Remotion maintains a list of Agent Skills that define best practices for working in Remotion projects."
+- "These skills are useful for AI agents like Claude Code, Codex, Cursor, Kimi Code and OpenCode."
+- "In a Remotion project, install them by running: npx remotion skills add"
+- Skills: /remotion-best-practices, /remotion-create, /remotion-markup, /remotion-studio ("Launch the Studio to see a preview of your video"), /remotion-render ("Render a video or still"), /remotion-captions ("Guidance for captions and subtitles") ...

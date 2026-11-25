@@ -1,0 +1,30 @@
+{
+ "slug": "reel-2026-11-23-2000-claude-melhor-que-99",
+ "composicao": "ShortClaudeAjustes",
+ "musica": "phanterai/music/CuriousFocus.mp3 (loop, volume 0.17; reel anterior usou Coding_at_Night)",
+ "trechos": [
+  {"inicio": 0.0, "palavra_gatilho": "Seu prompt / cabeça pra baixo", "componente": "janela 'prompt' de cabeça pra baixo + palavra gigante", "acao": "janela girada 180° balançando desde o quadro 0, zoom 1,2→1; whoosh + impacto"},
+  {"inicio": 1.46, "palavra_gatilho": "baixo!", "componente": "alerta 'ordem errada'", "acao": "tremida + flash + selo vermelho"},
+  {"inicio": 2.1, "palavra_gatilho": "três ajustes", "componente": "3 cartões numerados", "acao": "cartões sobem um a um, 3º com ❓"},
+  {"inicio": 3.44, "palavra_gatilho": "guia oficial / Anthropic", "componente": "selo 'guia oficial · Anthropic'", "acao": "selo entra e ganha ✓ no nome"},
+  {"inicio": 5.0, "palavra_gatilho": "mudam o Claude", "componente": "cartões 1 e 2", "acao": "ficam ✅"},
+  {"inicio": 6.55, "palavra_gatilho": "terceiro / trinta por cento", "componente": "cartão 3 + contador", "acao": "cartão treme, palavra vira 'até +30%', contador 0→30%"},
+  {"inicio": 9.24, "palavra_gatilho": "funcionário genial / recém-chegado", "componente": "crachá do Claude", "acao": "estrelas acendem; carimbo '1º DIA'"},
+  {"inicio": 12.66, "palavra_gatilho": "não conhece o seu contexto", "componente": "lista de contexto", "acao": "projeto/objetivo/público entram e viram '?' vermelho"},
+  {"inicio": 14.2, "palavra_gatilho": "Quanto mais preciso / melhor o resultado", "componente": "barras precisão e resultado", "acao": "precisão 12→100%, resultado sobe e ganha ✓"},
+  {"inicio": 17.1, "palavra_gatilho": "Número um: diga o porquê", "componente": "chip 1 + janela de prompt", "acao": "'NUNCA use reticências' digitado e marcado ✗ (entrada)"},
+  {"inicio": 21.3, "palavra_gatilho": "escreva / voz / por isso", "componente": "segunda linha do prompt + onda de voz", "acao": "regra com motivo digitada, onda sonora, ✓ (processo)"},
+  {"inicio": 25.57, "palavra_gatilho": "motivo / generaliza", "componente": "regra+motivo → Claude, cartão 'o Claude entende'", "acao": "spinner vira ✓; carimbo 'generaliza sozinho' (saída)"},
+  {"inicio": 28.23, "palavra_gatilho": "Número dois: mostre exemplos / três a cinco", "componente": "chip 2 + janela de exemplos", "acao": "contador de exemplos 1→3→5"},
+  {"inicio": 31.6, "palavra_gatilho": "variados / tag exemplo", "componente": "lista de exemplos", "acao": "cada exemplo ganha ícone/cor próprios e é envolvido por <example>…</example>, <examples> digitado"},
+  {"inicio": 34.49, "palavra_gatilho": "confiáveis / formato / tom", "componente": "barras de resultado", "acao": "formato, tom e estrutura sobem e ficam ✓; carimbo 'dos mais confiáveis'"},
+  {"inicio": 37.81, "palavra_gatilho": "Número três: documento em cima, pergunta embaixo", "componente": "chip 3 + janela de prompt", "acao": "blocos pergunta/documento trocam de lugar; '✓ ordem certa'"},
+  {"inicio": 40.96, "palavra_gatilho": "textos longos", "componente": "bloco documento", "acao": "documento cresce e rola"},
+  {"inicio": 43.19, "palavra_gatilho": "melhorar / até trinta por cento / testes", "componente": "colunas de qualidade", "acao": "coluna 'pergunta no fim' sobe +0→+30%; carimbo 'até 30% melhor'; pílula 'testes da Anthropic · textos longos'; panterinha apontando (reação 2)"},
+  {"inicio": 46.72, "palavra_gatilho": "bônus / teste do colega", "componente": "palavra gigante + cartão do colega", "acao": "'bônus' vira 'teste do colega'; cartão do prompt voa até o colega"},
+  {"inicio": 51.17, "palavra_gatilho": "ficar perdida / o Claude também", "componente": "cartões colega e Claude", "acao": "colega vira 😵‍💫 ???, depois o Claude também; pílula 'perdeu ele, perde o Claude'"},
+  {"inicio": 53.73, "palavra_gatilho": "Qual dos três / não usa / Comenta CLAUDE / segue", "componente": "checklist dos 3 ajustes, caixa de comentário, botão seguir", "acao": "2 itens ✓ e o 3º pisca '?'; CLAUDE digitado, coração, 'Seguindo'; panterinha comemorando (reação 3)"}
+ ],
+ "reacoes_panterinha": ["surpresa 0–2,1 s", "apontando 43,2–46,1 s", "comemorando 55,6 s–fim"],
+ "conferencia": "contact sheet 2 fps e teste dos 5 s a 4 fps conferidos em 23/11 (out/phanterai/<slug>/contact-sheet-2fps.png, hook-5s-4fps.png); 1 correção (palavra do gancho cortada nas bordas, conteúdo descido para o centro do palco); nenhum print, nada gerado por IA, nenhum crédito na tela"
+}

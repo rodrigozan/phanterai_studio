@@ -1,0 +1,11 @@
+{
+ "fontes": [
+  "https://support.google.com/youtube/answer/141805",
+  "https://support.google.com/youtube/answer/9314416",
+  "marcas/phanterai/dados-canal-2026-11-22.md (relatório 'Quando seus espectadores estão no YouTube' do canal: sem dados suficientes)"
+ ],
+ "pista_do_tema": "Film Booth, Short 'Post Videos At This Time (For Extra Views Potential)' (~99 mil views, um dos maiores da aba Shorts do canal). Só pista; nada copiado.",
+ "visual": "motion graphics próprios em Remotion (sem print, sem Pexels, nada gerado por IA)",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (biblioteca do canal), loop, volume 0.17",
+ "sfx": "public/sfx (Mixkit, ver mixkit-sources.json)"
+}

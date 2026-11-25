@@ -1,0 +1,17 @@
+{
+ "musica": "phanterai/music/CuriousFocus.mp3",
+ "duracao_s": 59.0,
+ "cenas": [
+  {"trecho": "Fechou o notebook? Os agentes continuam trabalhando!", "inicio": 0.0, "componente": "notebook + grade de 6 agentes", "acao": "notebook fecha no quadro 0 ('fechou?' gigante, impacto), selo 'off', 6 robôs saltam do notebook com spinner e acendem verde em 'continuam'; selo '5 passos · o 5º decide o fim ❓' em 2,9 s", "palavra_gatilho": "Fechou / agentes / continuam"},
+  {"trecho": "É o Replit Missions: você dá a meta e o teto de gasto.", "inicio": 3.44, "componente": "chip Replit Missions + cards meta/teto", "acao": "chip entra, robôs sobem em fila, card 🎯 meta, card 💰 teto contando US$ 0→1.000", "palavra_gatilho": "Replit / meta / teto"},
+  {"trecho": "São cinco passos... e o quinto decide quando acaba!", "inicio": 6.99, "componente": "5 cartas numeradas", "acao": "cartas 1–5 sobem, a 5 treme e vira 🏁", "palavra_gatilho": "cinco / quinto / acaba"},
+  {"trecho": "Número um: a meta...", "inicio": 10.28, "componente": "janela Nova Mission + contador + chat", "acao": "meta digitada, 10 caixas de cliente acendem, perguntas do agente digitadas, escolha 'piloto pago', selo 'sucesso definido'", "palavra_gatilho": "meta / dez / pergunta / sucesso"},
+  {"trecho": "Número dois: o teto...", "inicio": 16.84, "componente": "card limite de gasto + interruptores + pop-up de aprovação", "acao": "cadeado fecha em 'travado', contador US$ 0→1.000 em 'mil dólares', 3 interruptores ligam, cursor clica 'Aprovar'", "palavra_gatilho": "travado / mil / aprovação"},
+  {"trecho": "Número três: o enxame...", "inicio": 23.02, "componente": "2 agentes com barra + gráfico de barras", "acao": "agente pesquisa e agente demo com progresso, enxame de robôs; barra 1 agente 1×→4×, 32 quadradinhos acendem, barra 32 agentes até 19×, selo 19×", "palavra_gatilho": "pesquisa / demo / quatro / trinta e dois / dezenove"},
+  {"trecho": "Número quatro: os avisos...", "inicio": 33.03, "componente": "seletor Na hora/Por dia/Por semana + celular", "acao": "seletor troca no tempo da fala, notificações caem no celular, a última ('Preciso de você') treme", "palavra_gatilho": "hora / dia / semana / chama"},
+  {"trecho": "Número cinco: o juiz...", "inicio": 39.02, "componente": "card Juiz de IA + critério + orçamento", "acao": "juiz confere, 0→10 clientes, selo 'missão completa'; orçamento drena US$ 1.000→0, selo 'parou'", "palavra_gatilho": "juiz / confere / bateu / orçamento / para"},
+  {"trecho": "A própria Replit testou...", "inicio": 47.8, "componente": "cards 2 dias / US$ 3.000 + painel DataCat", "acao": "contadores, painel com gráficos, alerta de bug vermelho, cronômetro 0→38 s contra meta 60 s", "palavra_gatilho": "dois dias / três mil / bug / trinta e oito"},
+  {"trecho": "Qual meta você daria pra esse time? Comenta MISSÃO e me segue!", "inicio": 54.63, "componente": "CTA", "acao": "'qual meta?', robôs, caixa de comentário digitando MISSÃO, botão seguir vira 'Seguindo'", "palavra_gatilho": "meta / MISSÃO / segue"}
+ ],
+ "panterinha": ["surpresa 0–1,2 s", "apontando 39,0–41,4 s (item 5)", "comemorando 56,8 s–fim"]
+}

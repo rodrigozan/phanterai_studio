@@ -26,6 +26,16 @@ import { ShortGrokBot, CapaGrokBot, SGB_FPS, calculateGrokBotMetadata } from "./
 import { ShortSeedance25, CapaSeedance25, SSD_FPS, calculateSeedance25Metadata } from "./short/ShortSeedance25";
 import { ShortClaudeComanda, CapaClaudeComanda, SCC_FPS, calculateClaudeComandaMetadata } from "./short/ShortClaudeComanda";
 import { ShortResumoSemana, CapaResumoSemana, SRS_FPS, calculateResumoSemanaMetadata } from "./short/ShortResumoSemana";
+import { ShortGpt62Sol, CapaGpt62Sol, G62_FPS, calculateGpt62SolMetadata } from "./short/ShortGpt62Sol";
+import { ShortGeminiMac, CapaGeminiMac, SGM_FPS, calculateGeminiMacMetadata } from "./short/ShortGeminiMac";
+import { ShortCodigosSecretos, CapaCodigosSecretos, SCS_FPS, calculateCodigosSecretosMetadata } from "./short/ShortCodigosSecretos";
+import { ShortReplitMissions, CapaReplitMissions, SRM_FPS, calculateReplitMissionsMetadata } from "./short/ShortReplitMissions";
+import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } from "./short/ShortPalitinho";
+import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
+import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
+import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
+import { ShortTagsQuaseNada, CapaTagsQuaseNada, STQ_FPS, calculateTagsQuaseNadaMetadata } from "./short/ShortTagsQuaseNada";
+import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
 import { LongVideo, calculateLongMetadata } from "./long/LongVideo";
@@ -302,6 +312,116 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateClaudeComandaMetadata}
   />
   <Composition id="CapaClaudeComanda" component={CapaClaudeComanda} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortGpt62Sol"
+    component={ShortGpt62Sol}
+    width={1080}
+    height={1920}
+    fps={G62_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateGpt62SolMetadata}
+  />
+  <Composition id="CapaGpt62Sol" component={CapaGpt62Sol} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortGeminiMac"
+    component={ShortGeminiMac}
+    width={1080}
+    height={1920}
+    fps={SGM_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateGeminiMacMetadata}
+  />
+  <Composition id="CapaGeminiMac" component={CapaGeminiMac} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortCodigosSecretos"
+    component={ShortCodigosSecretos}
+    width={1080}
+    height={1920}
+    fps={SCS_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateCodigosSecretosMetadata}
+  />
+  <Composition id="CapaCodigosSecretos" component={CapaCodigosSecretos} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortReplitMissions"
+    component={ShortReplitMissions}
+    width={1080}
+    height={1920}
+    fps={SRM_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateReplitMissionsMetadata}
+  />
+  <Composition id="CapaReplitMissions" component={CapaReplitMissions} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortPalitinho"
+    component={ShortPalitinho}
+    width={1080}
+    height={1920}
+    fps={SPA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculatePalitinhoMetadata}
+  />
+  <Composition id="CapaPalitinho" component={CapaPalitinho} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortViewsShorts"
+    component={ShortViewsShorts}
+    width={1080}
+    height={1920}
+    fps={SVS_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateViewsShortsMetadata}
+  />
+  <Composition id="CapaViewsShorts" component={CapaViewsShorts} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortTesteAB"
+    component={ShortTesteAB}
+    width={1080}
+    height={1920}
+    fps={STA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateTesteABMetadata}
+  />
+  <Composition id="CapaTesteAB" component={CapaTesteAB} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortHorarioPostar"
+    component={ShortHorarioPostar}
+    width={1080}
+    height={1920}
+    fps={SHP_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateHorarioPostarMetadata}
+  />
+  <Composition id="CapaHorarioPostar" component={CapaHorarioPostar} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortTagsQuaseNada"
+    component={ShortTagsQuaseNada}
+    width={1080}
+    height={1920}
+    fps={STQ_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateTagsQuaseNadaMetadata}
+  />
+  <Composition id="CapaTagsQuaseNada" component={CapaTagsQuaseNada} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortClaudeAjustes"
+    component={ShortClaudeAjustes}
+    width={1080}
+    height={1920}
+    fps={SCA_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateClaudeAjustesMetadata}
+  />
+  <Composition id="CapaClaudeAjustes" component={CapaClaudeAjustes} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortResumoSemana"
     component={ShortResumoSemana}
