@@ -1,0 +1,60 @@
+{
+ "slug": "yt-short-2026-11-25-1000-horario-de-postar",
+ "musica": "CuriousFocus.mp3",
+ "cenas": [
+  {
+   "componente": "Hook",
+   "acao": "relógio 17:59:52→18:00:00 + botão Publicar clicado + 'esperando…'→'NADA!'",
+   "palavra_gatilho": "seis / NADA",
+   "inicio": 0
+  },
+  {
+   "componente": "Mito",
+   "acao": "'Mito?' + mito digitado + relógio mágico com brilhos + 3 cartas, a 3ª cresce",
+   "palavra_gatilho": "Mito / MÁGICO / três / alivia",
+   "inicio": 3.01
+  },
+  {
+   "componente": "Item1",
+   "acao": "chip Nº1 + relógio girando + selo NÃO afeta + linha do tempo dia1→mês6",
+   "palavra_gatilho": "não afeta / LONGO",
+   "inicio": 11.3
+  },
+  {
+   "componente": "Explica",
+   "acao": "vídeo → 3 pessoas, a certa fica verde + relógio digital trocando horas; modo Doutor Estranho com contador 14.000.000 futuros e selo '0 horários mágicos'",
+   "palavra_gatilho": "certa / seja quando for / Doutor Estranho / catorze milhões",
+   "inicio": 16.11
+  },
+  {
+   "componente": "Item2",
+   "acao": "curva do público online 24h + barra primeiras views + 'longo prazo sem efeito' + 'SÓ no começo'; 'onde ele manda?' AO VIVO e Estreia com contagem",
+   "palavra_gatilho": "online / PRIMEIRAS / live / Estreia",
+   "inicio": 24.5
+  },
+  {
+   "componente": "Relatorio",
+   "acao": "janela do Studio recriada: carregando → selo Studio → clique Analytics → aba Público → mapa de calor → 'sem dados suficientes' (dado real do canal); panterinha triste",
+   "palavra_gatilho": "Studio / Analytics / Público / Sem dados",
+   "inicio": 31.92
+  },
+  {
+   "componente": "Item3",
+   "acao": "calendário de 7 dias com vídeos → NÃO precisa; barras tempo entre envios x aumento de views → '≠ sem relação'",
+   "palavra_gatilho": "não precisa / TODO / relação",
+   "inicio": 37.48
+  },
+  {
+   "componente": "CTA",
+   "acao": "caixa de comentário digitando 'posto às __h' + relógio + Inscrever-se → Inscrito + próxima cobaia; panterinha comemorando",
+   "palavra_gatilho": "Comenta / HORA / segue / cobaia",
+   "inicio": 45.84
+  }
+ ],
+ "panterinha": [
+  "surpresa 0–3,0 s",
+  "triste 36,1–37,4 s",
+  "comemorando 47,6 s–fim"
+ ],
+ "meme": "Doutor Estranho e os 14 milhões de futuros (só fala e texto animado)"
+}

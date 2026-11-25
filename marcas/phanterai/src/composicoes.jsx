@@ -33,6 +33,7 @@ import { ShortReplitMissions, CapaReplitMissions, SRM_FPS, calculateReplitMissio
 import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } from "./short/ShortPalitinho";
 import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
+import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -387,6 +388,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateTesteABMetadata}
   />
   <Composition id="CapaTesteAB" component={CapaTesteAB} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortHorarioPostar"
+    component={ShortHorarioPostar}
+    width={1080}
+    height={1920}
+    fps={SHP_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateHorarioPostarMetadata}
+  />
+  <Composition id="CapaHorarioPostar" component={CapaHorarioPostar} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}
