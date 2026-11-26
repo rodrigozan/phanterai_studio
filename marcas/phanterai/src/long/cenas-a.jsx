@@ -202,7 +202,7 @@ export const Cta = ({ slug, d, pose }) => {
     <>
       <Fundo slug={slug} src={d.bg} dur={d.bgDur} escurecer={0.62} />
       <Faiscas169 n={apertaSub ? 36 : 14} />
-      <Linha y={70}><Texto em={2} y={0} size={110} rot={-1}>Aprenda YouTube</Texto></Linha>
+      <Linha y={70}><Texto em={2} y={0} size={110} rot={-1}>{d.canal ?? "Aprenda YouTube"}</Texto></Linha>
       <Linha y={250}><div style={{ ...FONT, textTransform: "none", fontSize: 44, color: colors.violetLight }}>{d.sub2 ?? "tutorial de IA passo a passo"}</div></Linha>
       <div style={{ position: "absolute", left: 230, top: 400, display: "flex", gap: 50, alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 18, padding: "26px 54px", borderRadius: 70, background: apertaLike ? "#3EA6FF" : "#272727", transform: `scale(${apertaLike ? 0.9 + 0.1 * sLike + 0.12 * (1 - Math.abs(1 - sLike)) : 1})`, boxShadow: apertaLike ? "0 0 60px #3EA6FF99" : "0 12px 40px rgba(0,0,0,0.5)" }}>
