@@ -1,0 +1,68 @@
+{
+ "slug": "yt-short-2026-11-26-1000-capitulos",
+ "composicao": "ShortCapitulos",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (loop, volume 0.17)",
+ "panterinha": [
+  "surpresa 0–3,1 s",
+  "apontando 9,3–11,2 s (a 3ª regra engana)",
+  "comemorando no CTA"
+ ],
+ "cenas": [
+  {
+   "componente": "Hook",
+   "tela": "Player (sem capítulos) + Descrição com 0:05",
+   "acao": "'Capítulos?' gigante com impacto no quadro 0; 'sumiram?'; 'Faltou…' flash vermelho e 0:05 em vermelho; 'um ZERO!' vira 00:00 e a barra ganha capítulos",
+   "palavra_gatilho": "Seus / aparecem / Faltou / ZERO",
+   "inicio": 0
+  },
+  {
+   "componente": "Mito",
+   "tela": "caixa de citação + Descrição colada + 3 cartas",
+   "acao": "'é só colar os minutos' digitado, Ctrl+V, linhas fora de ordem; pill '3 regras · a 3ª engana' em 4 s; 'Realidade:' risca o mito; cartas 1-2-3 viram, a 3ª treme",
+   "palavra_gatilho": "Mito / colar / Realidade / três / terceira / engana",
+   "inicio": 3.12
+  },
+  {
+   "componente": "Item1",
+   "tela": "Header Nº1 + relógio digital + Player",
+   "acao": "dígitos embaralhando viram 00:00 no 'zero zero, dois pontos, zero zero'; barra ganha capítulos; 'Começou no cinco?' lista com 0:05 vermelho + carimbo JÁ ERA!",
+   "palavra_gatilho": "Número um / zero / Começou / Já era",
+   "inicio": 11.28
+  },
+  {
+   "componente": "Item2",
+   "tela": "Header Nº2 + contador n/3 + Descrição + Player",
+   "acao": "contador 0/3→1/3→3/3, linhas entram, a fora de ordem troca de lugar com seta ⬆; 'Com duas' risca 1 linha, 2/3 vermelho, carimbo NADA FEITO",
+   "palavra_gatilho": "mínimo / TRÊS / crescente / duas / nada feito",
+   "inicio": 18.4
+  },
+  {
+   "componente": "Item3",
+   "tela": "Header Nº3 + cronômetro 00→10 s + Player",
+   "acao": "cronômetro conta até 10 s verde; capítulo de 3 s piscando vermelho na barra; raio ⚡ cruza a tela no 'Flash'; o segmento some + carimbo INVISÍVEL",
+   "palavra_gatilho": "DEZ / três segundos / Flash / invisível",
+   "inicio": 24.56
+  },
+  {
+   "componente": "Extra",
+   "tela": "card Seu canal + Player + janela Recursos",
+   "acao": "'⚠ aviso ativo' treme, barra perde capítulos 🔒 + BLOQUEADO; janela de recursos com cursor clicando 'solicitar acesso' em Recursos avançados",
+   "palavra_gatilho": "aviso ativo / Sem acesso / Peça / avançados",
+   "inicio": 32.96
+  },
+  {
+   "componente": "Onde",
+   "tela": "janela YouTube Studio › Conteúdo › Detalhes + Player",
+   "acao": "lista 00:00/01:30/03:10 entra na Descrição, cursor vai a SALVAR, vira ✓ SALVO e a barra ganha capítulos verdes",
+   "palavra_gatilho": "descrição / Studio / Arruma / SALVAR / pronto",
+   "inicio": 39.16
+  },
+  {
+   "componente": "CTA",
+   "tela": "caixa de comentário + Player",
+   "acao": "'CAPÍTULO 📑' digitado, ícones subindo, barra enchendo com 'índice ✓'",
+   "palavra_gatilho": "Comenta / CAPÍTULO / índice",
+   "inicio": 44.36
+  }
+ ]
+}
