@@ -1,0 +1,226 @@
+{
+ "slug": "yt-short-2026-11-26-1700-shorts-3-minutos",
+ "musica": "public/phanterai/music/Coding_at_Night.mp3 (loop, volume 0.17)",
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "inicio": 0
+  },
+  {
+   "pose": "apontando",
+   "inicio": 25.52
+  },
+  {
+   "pose": "comemorando",
+   "inicio": 41.92
+  }
+ ],
+ "cenas": [
+  {
+   "componente": "Hook",
+   "acao": "Tela vertical com cronômetro 0:00→0:59, linha 'limite?', Big 'Só 60 s?'→'60 s?'→'MITO!'; linha cai e cronômetro passa de 1:00",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Short",
+     "inicio": 0
+    },
+    {
+     "palavra_gatilho": "sessenta",
+     "inicio": 1.16
+    },
+    {
+     "palavra_gatilho": "MITO",
+     "inicio": 2.4
+    }
+   ]
+  },
+  {
+   "componente": "Pegadinha",
+   "acao": "Big 'Pode…'→'até 3 min!', cronômetro 1:00→3:00, pill '3 regras · a 3ª bloqueia' (4,5 s), 'pegadinha 👀', cadeado na tela, globo com cadeado, cartas 1-2-3, pill Central de Ajuda digitada",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Pode",
+     "inicio": 3.16
+    },
+    {
+     "palavra_gatilho": "TRÊS",
+     "inicio": 4.08
+    },
+    {
+     "palavra_gatilho": "pegadinha",
+     "inicio": 5.84
+    },
+    {
+     "palavra_gatilho": "bloqueia",
+     "inicio": 6.76
+    },
+    {
+     "palavra_gatilho": "mundo",
+     "inicio": 7.92
+    },
+    {
+     "palavra_gatilho": "Três regras",
+     "inicio": 8.96
+    },
+    {
+     "palavra_gatilho": "Central",
+     "inicio": 10.4
+    }
+   ]
+  },
+  {
+   "componente": "Item1",
+   "acao": "Header Nº1, relógio digital 0:00→3:00 com barra, calendário girando até 15 OUT 2024, pills 'enviado' e 'daí pra frente ✓'",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número um",
+     "inicio": 12.08
+    },
+    {
+     "palavra_gatilho": "até três minutos",
+     "inicio": 13.0
+    },
+    {
+     "palavra_gatilho": "Vale",
+     "inicio": 14.48
+    },
+    {
+     "palavra_gatilho": "enviado",
+     "inicio": 15.2
+    },
+    {
+     "palavra_gatilho": "quinze",
+     "inicio": 16.08
+    },
+    {
+     "palavra_gatilho": "outubro",
+     "inicio": 16.48
+    },
+    {
+     "palavra_gatilho": "dois mil",
+     "inicio": 17.08
+    }
+   ]
+  },
+  {
+   "componente": "Item2",
+   "acao": "Header Nº2, tela 9:16 → 1:1 → deita para 16:9 vermelha, carimbo VÍDEO LONGO",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número dois",
+     "inicio": 18.48
+    },
+    {
+     "palavra_gatilho": "vertical",
+     "inicio": 19.44
+    },
+    {
+     "palavra_gatilho": "quadrado",
+     "inicio": 20.08
+    },
+    {
+     "palavra_gatilho": "deitado",
+     "inicio": 20.88
+    },
+    {
+     "palavra_gatilho": "dezesseis por nove",
+     "inicio": 21.92
+    },
+    {
+     "palavra_gatilho": "Vira vídeo longo",
+     "inicio": 23.2
+    }
+   ]
+  },
+  {
+   "componente": "Item3",
+   "acao": "Header Nº3, relógio 0:45→1:05 (passa de 1 min), alerta 'Reivindicação do Content ID ativa', globo com cadeado + carimbo BLOQUEADO / NO MUNDO TODO, linhas com ❌ (assiste, recomenda, monetiza), 5 círculos coloridos com raio que caem cinza",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número três",
+     "inicio": 24.4
+    },
+    {
+     "palavra_gatilho": "Passou de um minuto",
+     "inicio": 26.68
+    },
+    {
+     "palavra_gatilho": "reivindicação",
+     "inicio": 27.76
+    },
+    {
+     "palavra_gatilho": "Content ID",
+     "inicio": 28.72
+    },
+    {
+     "palavra_gatilho": "BLOQUEADO",
+     "inicio": 29.68
+    },
+    {
+     "palavra_gatilho": "Ninguém",
+     "inicio": 31.6
+    },
+    {
+     "palavra_gatilho": "recomenda",
+     "inicio": 32.72
+    },
+    {
+     "palavra_gatilho": "monetiza",
+     "inicio": 33.76
+    },
+    {
+     "palavra_gatilho": "Power Rangers",
+     "inicio": 35.04
+    },
+    {
+     "palavra_gatilho": "salvam",
+     "inicio": 35.76
+    }
+   ]
+  },
+  {
+   "componente": "Boa",
+   "acao": "Big 'Boa notícia!' → card 'Seu canal ✓ sem penalidade', chips strike/aviso/punição riscados, 'Resolveu?', card reivindicação resolvida com barra, cadeado some, tela 'no ar ✓' + globo ✅",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "boa notícia",
+     "inicio": 36.4
+    },
+    {
+     "palavra_gatilho": "canal",
+     "inicio": 37.68
+    },
+    {
+     "palavra_gatilho": "penalidade",
+     "inicio": 38.56
+    },
+    {
+     "palavra_gatilho": "Resolveu",
+     "inicio": 39.52
+    },
+    {
+     "palavra_gatilho": "volta",
+     "inicio": 41.36
+    }
+   ]
+  },
+  {
+   "componente": "CTA",
+   "acao": "Caixa de comentário digitando 'TRÊS ⏱️', tela 'Short longo' com cronômetro até 3:00, balões subindo",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Comenta",
+     "inicio": 41.92
+    },
+    {
+     "palavra_gatilho": "TRÊS",
+     "inicio": 42.4
+    },
+    {
+     "palavra_gatilho": "testar",
+     "inicio": 43.2
+    }
+   ]
+  }
+ ]
+}
