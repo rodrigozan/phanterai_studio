@@ -1,0 +1,150 @@
+{
+ "slug": "reel-2026-11-26-0700-gemini-4-neon",
+ "musica": "public/phanterai/music/Coding_at_Night.mp3 (loop, volume 0.2)",
+ "panterinha": [
+  "surpresa 0–2 s",
+  "apontando no −32%",
+  "comemorando no CTA"
+ ],
+ "cenas": [
+  {
+   "trecho": "gancho",
+   "componente": "ranking 3 linhas + TOP 3 gigante",
+   "acao": "linhas entram, #3 '???' revelado como Gemini 4 Neon, tags 'maior · mais lento', selo '4 números · o 4º: seu bolso', 4 cartões com o 4º tremendo",
+   "palavras_gatilho": [
+    "Top",
+    "maior",
+    "Gemini",
+    "Neon",
+    "quatro",
+    "bolso"
+   ],
+   "inicio": [
+    0,
+    2.48,
+    3.35,
+    4.15,
+    5.67,
+    8.39
+   ]
+  },
+  {
+   "trecho": "item1",
+   "componente": "velocímetro 0→61 + leaderboard Intelligence Index",
+   "acao": "ponteiro conta até 61; Neon sobe de #5 para #3; carimbo '#3 geral'; tags maior/lento",
+   "palavras_gatilho": [
+    "sessenta",
+    "índice",
+    "terceiro",
+    "maiores",
+    "lentos"
+   ],
+   "inicio": [
+    10.39,
+    12.07,
+    13.75,
+    16.55,
+    17.59
+   ]
+  },
+  {
+   "trecho": "item2",
+   "componente": "editor de código + leaderboard Coding Agent Index",
+   "acao": "código digitado, '12 testes passando'; Neon sobe de #4 para #1 com 58,6; troféu e confete",
+   "palavras_gatilho": [
+    "primeiro",
+    "código",
+    "ranking",
+    "número um"
+   ],
+   "inicio": [
+    19.38,
+    19.9,
+    20.78,
+    22.86
+   ]
+  },
+  {
+   "trecho": "item3",
+   "componente": "contador de tokens + chat recebendo arquivos",
+   "acao": "0→1.000.000; vendas.xlsx, contrato.pdf, reuniao.mp3, aula.mp4 voam para o chat; barra de contexto enche; pedido digitado",
+   "palavras_gatilho": [
+    "milhão",
+    "Planilha",
+    "PDF",
+    "áudio",
+    "vídeo",
+    "conversa"
+   ],
+   "inicio": [
+    25.01,
+    26.37,
+    27.05,
+    27.97,
+    28.53,
+    29.25
+   ]
+  },
+  {
+   "trecho": "item4",
+   "componente": "etiquetas de preço + seletor de raciocínio + barras de custo",
+   "acao": "US$ 3 e US$ 15 balançando; nível padrão liga; barra Neon cai a 68% contra Carbon 100%; carimbo −32%; chips Carbon/Neon",
+   "palavras_gatilho": [
+    "Três",
+    "quinze",
+    "padrão",
+    "trinta",
+    "barata",
+    "Carbon",
+    "difíceis"
+   ],
+   "inicio": [
+    32.28,
+    35.2,
+    36.59,
+    38.23,
+    39.63,
+    40.27,
+    42.55
+   ]
+  },
+  {
+   "trecho": "item5",
+   "componente": "celular app Gemini + janela AI Studio",
+   "acao": "seletor de modelo abre, cursor escolhe Neon, selos Pro/Ultra; model: \"gemini-4-neon\" digitado; selo API",
+   "palavras_gatilho": [
+    "app",
+    "Gemini",
+    "Pro",
+    "Ultra",
+    "AI Studio",
+    "API"
+   ],
+   "inicio": [
+    44.29,
+    44.57,
+    45.77,
+    46.33,
+    47.21,
+    48.33
+   ]
+  },
+  {
+   "trecho": "cta",
+   "componente": "pergunta + troca de cards + comentário",
+   "acao": "cards 'sua IA' ⇄ 'Gemini 4 Neon' trocam; NEON digitado; botão seguir vira Seguindo",
+   "palavras_gatilho": [
+    "trocaria",
+    "Comenta",
+    "NEON",
+    "segue"
+   ],
+   "inicio": [
+    49.28,
+    50.87,
+    51.39,
+    52.23
+   ]
+  }
+ ]
+}

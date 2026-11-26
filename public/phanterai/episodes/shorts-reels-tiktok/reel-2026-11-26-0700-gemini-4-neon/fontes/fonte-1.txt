@@ -1,0 +1,10 @@
+FONTE: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/ (Google, 18/11/2026, Koray Kavukcuoglu; atualizado 23/11/2026). Trechos usados na conferência:
+- "Neon ranks ahead of comparable models and #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, landing just behind larger, slower models."
+- "ranking #1 overall on the Artificial Analysis Coding Agent Index (58.6)"
+- "Neon can synthesize across all of these inputs in a single 1 million-token context window" (spreadsheets, PDFs, charts, audio, and video)
+- "priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+- "At its default high thinking level, it pairs a high Artificial Analysis Intelligence Index score with a 32% lower cost per task than Carbon."
+- "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency."
+- "If you're a Google AI Pro or Ultra subscriber, you can select Gemini 4 Neon from the model drop-down in the Gemini app."
+- "Build with the Gemini API paid tier in Google AI Studio"; "all Pro and Ultra subscribers can try it in AI Studio"
+- Vals Index #2 (70.9%); four thinking levels.
