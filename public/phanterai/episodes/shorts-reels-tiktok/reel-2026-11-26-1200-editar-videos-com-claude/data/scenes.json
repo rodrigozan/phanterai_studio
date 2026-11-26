@@ -1,0 +1,77 @@
+{
+ "slug": "reel-2026-11-26-1200-editar-videos-com-claude",
+ "composicao": "ShortEditarVideos",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (loop, volume 0.2)",
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "inicio": 0
+  },
+  {
+   "pose": "apontando",
+   "inicio": 41.38
+  },
+  {
+   "pose": "comemorando",
+   "inicio": 55.06
+  }
+ ],
+ "trechos": [
+  {
+   "trecho": "gancho",
+   "componente": "janela de vídeo + olho + trilha",
+   "acao": "zoom no 'edita', tesoura correndo na trilha, selo '0 s assistidos', olho riscado com tremida, trilha bruta vira limpa, selo 'pronto, sem editor', 5 cards com o 5º '?' virando 🧠",
+   "palavra_gatilho": "edita / vídeo / nada / bruto / pronto / cinco passos / esperto",
+   "inicio": 0
+  },
+  {
+   "trecho": "nome",
+   "componente": "card video-use + pills + terminal Claude Code + card GitHub",
+   "acao": "nome digitado, ícones orbitando, 'código aberto'/'MIT', terminal digitando, estrelas contando 0→31.595 com confete",
+   "palavra_gatilho": "Vídeo Iús / skill / aberto / Claude Code / trinta e um mil / GitHub",
+   "inicio": 8.38
+  },
+  {
+   "trecho": "passo 1",
+   "componente": "janela de pasta",
+   "acao": "pasta vazia, mão, 3 takes voando para a pasta, balão 'edita isso' digitado",
+   "palavra_gatilho": "joga / vídeos brutos / pasta / edita isso",
+   "inicio": 15.0
+  },
+  {
+   "trecho": "passo 2",
+   "componente": "olho x livro, transcrição com tempos, contador + grade de quadros",
+   "acao": "olho riscado, transcrição linha a linha com tempos acesos, contador 0→30.000 quadros, grade encolhe e vira doc 'texto 12 KB', selo 'leve e rápido'",
+   "palavra_gatilho": "lê / não assiste / transcreve / tempo exato / trinta mil quadros / texto pequeno",
+   "inicio": 19.63
+  },
+  {
+   "trecho": "passo 3",
+   "componente": "checklist do plano",
+   "acao": "itens entrando, 'aguardando você', cursor clica OK, itens ficam verdes",
+   "palavra_gatilho": "plano / espera / OK",
+   "inicio": 27.78
+  },
+  {
+   "trecho": "passo 4",
+   "componente": "timeline + onda de áudio",
+   "acao": "segmentos 'ãh'/'erro'/'silêncio' cortados e somem, legenda 2 palavras, correção de cor 0→100%, onda com fade no corte, contador 0→30 ms, selo 'sem estalo'",
+   "palavra_gatilho": "ãh / erros / silêncio / legenda / cor / trinta milissegundos / estalo",
+   "inicio": 31.7
+  },
+  {
+   "trecho": "passo 5",
+   "componente": "revisão do render",
+   "acao": "quadros conferidos um a um, ❌ com tremida, barra de re-render, 'corrigido', tentativas 1→3, selo 'máx. 3'",
+   "palavra_gatilho": "confere / erro / corrige / renderiza / três vezes",
+   "inicio": 41.38
+  },
+  {
+   "trecho": "final + CTA",
+   "componente": "pasta com final.mp4 + comentário + seguir",
+   "acao": "final.mp4 cai na pasta edit/, selo 'do lado dos seus arquivos', 'editaria assim?', editor riscado → Claude Code, EDITAR digitado, botão seguir",
+   "palavra_gatilho": "final ponto mp4 / arquivos / editaria / EDITAR / segue",
+   "inicio": 49.3
+  }
+ ]
+}

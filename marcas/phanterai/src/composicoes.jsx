@@ -32,6 +32,7 @@ import { ShortCodigosSecretos, CapaCodigosSecretos, SCS_FPS, calculateCodigosSec
 import { ShortReplitMissions, CapaReplitMissions, SRM_FPS, calculateReplitMissionsMetadata } from "./short/ShortReplitMissions";
 import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } from "./short/ShortPalitinho";
 import { ShortGeminiNeon, CapaGeminiNeon, SGN_FPS, calculateGeminiNeonMetadata } from "./short/ShortGeminiNeon";
+import { ShortEditarVideos, CapaEditarVideos, SEV_FPS, calculateEditarVideosMetadata } from "./short/ShortEditarVideos";
 import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
 import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
@@ -379,6 +380,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateGeminiNeonMetadata}
   />
   <Composition id="CapaGeminiNeon" component={CapaGeminiNeon} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortEditarVideos"
+    component={ShortEditarVideos}
+    width={1080}
+    height={1920}
+    fps={SEV_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateEditarVideosMetadata}
+  />
+  <Composition id="CapaEditarVideos" component={CapaEditarVideos} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortViewsShorts"
     component={ShortViewsShorts}

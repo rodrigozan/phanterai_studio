@@ -1,0 +1,1 @@
+{'stargazers_count': 31595, 'forks_count': 3656, 'license': {'key': 'mit', 'name': 'MIT License', 'spdx_id': 'MIT', 'url': 'https://api.github.com/licenses/mit', 'node_id': 'MDc6TGljZW5zZTEz'}, 'pushed_at': '2026-10-08T22:17:01Z', 'description': 'Edit videos with coding agents'}
