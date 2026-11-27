@@ -1,0 +1,576 @@
+{
+ "slug": "2026-11-27-mitos-do-algoritmo",
+ "titulo": "O algoritmo não odeia seu canal (o YouTube admitiu)",
+ "quadro": "Mito vs. Realidade",
+ "fontes": [
+  "https://support.google.com/youtube/answer/16533387?hl=pt-BR"
+ ],
+ "cauda": 6.0,
+ "cenas": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "broll": "humano",
+   "pose": "surpresa",
+   "fala": "Para de perguntar se o algoritmo gosta de você! O próprio YouTube escreveu como ele funciona. Numa página OFICIAL! E ali caem quatro conselhos que todo canal pequeno segue. Postar todo dia? Medo de tirar folga? Medo de um vídeo flopado? Vem comigo, que hoje cai tudo!",
+   "dados": {
+    "bg": "pexels/criador-1.mp4",
+    "esc": 0.55,
+    "l1": "4 mitos caíram",
+    "l2": "palavra do próprio YouTube",
+    "pilulas": [
+     {
+      "ao": "OFICIAL",
+      "txt": "Página oficial do YouTube",
+      "cor": "ciano"
+     },
+     {
+      "ao": "Postar",
+      "txt": "Postar todo dia?",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "folga",
+      "txt": "Medo de tirar folga?",
+      "cor": "violeta"
+     },
+     {
+      "ao": "flopado",
+      "txt": "Medo do vídeo flopado?",
+      "cor": "ouro"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "pensando",
+   "fala": "Hoje é Mito versus Realidade. Sabe aquela cena? Você edita dois dias, posta, e o vídeo trava em cinquenta views. Aí alguém fala: é o algoritmo! Ele odeia canal pequeno! Parece vilão de desenho, rindo no escuro... Mas eu fui direto na Central de Ajuda do YouTube. Na página Sistema de recomendação do YouTube.",
+   "dados": {
+    "bg": "pexels/frustrado-1.mp4",
+    "titulo": "Mito vs. Realidade",
+    "cols": 1,
+    "w": 1250,
+    "itens": [
+     {
+      "ao": "cinquenta",
+      "t": "Dois dias editando, 50 views",
+      "sub": "a dor de todo canal pequeno",
+      "icone": "✕",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "odeia",
+      "t": "MITO: o algoritmo odeia canal pequeno",
+      "sub": "o vilão rindo no escuro",
+      "icone": "?",
+      "cor": "violeta"
+     },
+     {
+      "ao": "Central",
+      "t": "A fonte: Central de Ajuda do YouTube",
+      "sub": "Sistema de recomendação do YouTube",
+      "icone": "✓",
+      "cor": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "Tá aqui. Logo no começo, o YouTube diz que o algoritmo tem dois objetivos. Um: ajudar cada pessoa a achar os vídeos que ela quer assistir. Dois: a satisfação de longo prazo de quem assiste. Repara: não tem nada sobre o tamanho do seu canal.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Ajuda do YouTube (oficial)",
+    "digitar": {
+     "ao": "Tá"
+    },
+    "telas": [
+     {
+      "ao": "Tá",
+      "arq": "cena-topo.png"
+     }
+    ],
+    "destaque": {
+     "ao": "objetivos",
+     "x": 186,
+     "y": 286,
+     "w": 600,
+     "h": 112
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 200
+    }
+   }
+  },
+  {
+   "id": "C04",
+   "tipo": "cta",
+   "broll": "humano",
+   "pose": "feliz",
+   "fala": "Rapidinho: se você também tem canal pequeno, deixa o like e se inscreve no Aprenda YouTube. Aqui é o laboratório de canal pequeno. Sem pose de guru!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "sub2": "laboratório de canal pequeno",
+    "like": {
+     "ao": "like"
+    },
+    "sub": {
+     "ao": "inscreve"
+    }
+   }
+  },
+  {
+   "id": "C05",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "MITO número um: o algoritmo odeia o meu canal. A realidade? Tá escrito com todas as letras: o algoritmo segue o público. Em vez de perguntar se o algoritmo gosta do seu conteúdo, a pergunta certa é: meu público gosta disso?",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 1: o algoritmo odeia meu canal",
+    "digitar": {
+     "ao": "MITO"
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-publico.png"
+     }
+    ],
+    "destaque": {
+     "ao": "segue",
+     "x": 186,
+     "y": 52,
+     "w": 720,
+     "h": 186
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 20
+    }
+   }
+  },
+  {
+   "id": "C17",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E tem mais! A página compara o algoritmo com você indicando um filme pra um amigo. Um boca a boca automático, em escala gigante! Quem assistiu o vídeo A também assistiu o B. Então a pergunta não é quantos inscritos eu tenho. É: quem gostou daquele vídeo vai gostar do meu?",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Boca a boca automático",
+    "digitar": {
+     "ao": "E"
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "cena-publico.png"
+     }
+    ],
+    "destaque": {
+     "ao": "filme",
+     "x": 186,
+     "y": 545,
+     "w": 730,
+     "h": 250
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 440
+    }
+   }
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "comemorando",
+   "fala": "E eu vi isso no meu canal! Nos últimos vinte e oito dias, duas mil e trezentas pessoas assistiram. E noventa e oito vírgula dois por cento eram espectadores novos. Gente que nunca tinha me visto! Eu ganhei vinte e seis inscritos. Eu sei... esse número pode não ser grande coisa pra você. Mas foi duzentos e vinte e cinco por cento a mais que nos vinte e oito dias anteriores. Tem noção disso? O algoritmo levou um canal pequeno pra gente nova. Cadê o vilão?",
+   "dados": {
+    "bg": "pexels/plateia-1.mp4",
+    "titulo": "Meu canal, sem maquiagem",
+    "cols": 1,
+    "w": 1200,
+    "itens": [
+     {
+      "ao": "duas",
+      "t": "2,3 mil pessoas em 28 dias",
+      "sub": "audiência mensal no YouTube Studio",
+      "icone": "+",
+      "cor": "ciano"
+     },
+     {
+      "ao": "noventa",
+      "t": "98,2% espectadores novos",
+      "sub": "gente que nunca tinha me visto",
+      "icone": "★",
+      "cor": "violeta"
+     },
+     {
+      "ao": "duzentos",
+      "t": "+26 inscritos (+225%)",
+      "sub": "sobre os 28 dias anteriores",
+      "icone": "↑",
+      "cor": "ouro"
+     }
+    ],
+    "pilula": {
+     "ao": "vilão",
+     "txt": "Cadê o vilão?",
+     "cor": "verde"
+    }
+   }
+  },
+  {
+   "id": "C07",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "MITO número dois: tem que postar todo dia, e se parar, o algoritmo te castiga. Olha o que a página diz: qualidade é mais importante do que quantidade. E mais! Fazer pausas faz parte, e o algoritmo NÃO penaliza os criadores por isso!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 2: postar todo dia",
+    "digitar": {
+     "ao": "MITO"
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-qualidade.png"
+     }
+    ],
+    "destaque": {
+     "ao": "qualidade",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 196
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 70
+    }
+   }
+  },
+  {
+   "id": "C08",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "pensando",
+   "fala": "Traduzindo: postar todo dia, morto de cansaço, não é estratégia. É o Goku treinando sem comer. Uma hora ele cai! A dica oficial é constância que seja sustentável pra você. E se for tirar folga, avisa o seu público. Na volta, fica mais fácil reengajar a galera.",
+   "dados": {
+    "titulo": "O que fazer com isso",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "cansaço",
+      "t": "Todo dia, morto de cansaço",
+      "sub": "não é estratégia",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "sustentável",
+      "t": "Constância sustentável",
+      "sub": "o ritmo que você aguenta",
+      "cor": "verde"
+     },
+     {
+      "ao": "avisa",
+      "t": "Vai tirar folga? Avisa",
+      "sub": "a volta fica mais fácil",
+      "cor": "ciano"
+     }
+    ],
+    "pilula": {
+     "ao": "Goku",
+     "txt": "Goku treinando sem comer",
+     "cor": "ouro"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C09",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "MITO número três: um vídeo flopado afunda o canal inteiro. Realidade: o algoritmo usa os dados recentes de CADA vídeo, e não os resultados anteriores. Um único experimento que não deu certo não vai, necessariamente, limitar o seu canal.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 3: o vídeo flopado",
+    "digitar": {
+     "ao": "MITO"
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-experimente.png"
+     }
+    ],
+    "destaque": {
+     "ao": "dados",
+     "x": 196,
+     "y": 166,
+     "w": 720,
+     "h": 117
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 100
+    }
+   }
+  },
+  {
+   "id": "C10",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "apontando",
+   "fala": "Ou seja: o vídeo de quarenta views não é uma maldição eterna! Cada vídeo ganha a sua própria chance. Mas tem um porém, e eu não vou esconder. Se você posta com frequência coisa que não interessa ao público, com o tempo, isso pode afetar o canal. Testar, pode. Teimar no que não funciona, não!",
+   "dados": {
+    "titulo": "Cada vídeo, uma chance",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "maldição",
+      "t": "40 views não é maldição",
+      "sub": "não condena o canal",
+      "cor": "verde"
+     },
+     {
+      "ao": "chance",
+      "t": "Cada vídeo, sua chance",
+      "sub": "dados recentes de cada um",
+      "cor": "ciano"
+     },
+     {
+      "ao": "porém",
+      "t": "O porém",
+      "sub": "insistir no que não interessa",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "Testar",
+      "t": "Testar, pode",
+      "sub": "teimar, não",
+      "cor": "ouro"
+     }
+    ]
+   },
+   "pantera": false
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "MITO número quatro: só view importa. A realidade: o YouTube olha quanto tempo e que parte do vídeo a pessoa assiste. Olha as curtidas, os compartilhamentos, os comentários, o famoso não tenho interesse... e até as respostas a pesquisas.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 4: só view importa",
+    "digitar": {
+     "ao": "MITO"
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-sinais.png"
+     }
+    ],
+    "destaque": {
+     "ao": "quanto",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 184
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 70
+    }
+   }
+  },
+  {
+   "id": "C12",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "feliz",
+   "fala": "Então a view sozinha não conta a história toda. Clicou e largou em cinco segundos? É o Power Ranger que morfa e tropeça na primeira cena. Lindo no clique, ruim no resto! O que vale é a pessoa assistir e sair satisfeita.",
+   "dados": {
+    "titulo": "Além da view",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "cinco",
+      "t": "Clicou e largou",
+      "sub": "lindo no clique, ruim no resto",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "assistir",
+      "t": "Assistiu de verdade",
+      "sub": "quanto tempo e que parte",
+      "cor": "verde"
+     },
+     {
+      "ao": "satisfeita",
+      "t": "Saiu satisfeita",
+      "sub": "curtiu, compartilhou, comentou",
+      "cor": "ciano"
+     },
+     {
+      "ao": "satisfeita",
+      "t": "Satisfação no longo prazo",
+      "sub": "o objetivo nº 2 do algoritmo",
+      "cor": "ouro"
+     }
+    ],
+    "pilula": {
+     "ao": "Ranger",
+     "txt": "Morfou e tropeçou",
+     "cor": "violeta"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C13",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E o que o próprio YouTube manda fazer? Ajudar o espectador a assistir mais vídeos seus. Criar séries, usar chamadas claras, do tipo: se você gostou deste vídeo, assista aquele. E usar playlists e telas finais.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "O que o YouTube recomenda",
+    "digitar": {
+     "ao": "E"
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "cena-descobrir.png"
+     }
+    ],
+    "destaque": {
+     "ao": "séries",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 140
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 60
+    }
+   }
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "surpresa",
+   "fala": "E tem um bônus escondido nessa página! Um: manter um estilo de título e de miniatura consistente faz o seu vídeo ser reconhecido na hora. Dois: na guia Público, do Analytics, você vê os formatos que o seu público prefere, e quais canais e conteúdos ele também assiste. É o radar do Dragon Ball! Só que, em vez da esfera, ele aponta pro seu público.",
+   "dados": {
+    "titulo": "Bônus da página oficial",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "estilo",
+      "t": "Título e miniatura com estilo consistente",
+      "sub": "o vídeo é reconhecido na hora",
+      "cor": "ciano"
+     },
+     {
+      "ao": "guia",
+      "t": "Guia Público, no Analytics",
+      "sub": "formatos preferidos e o que mais ele assiste",
+      "cor": "verde"
+     }
+    ],
+    "pilula": {
+     "ao": "radar",
+     "txt": "O radar do seu público",
+     "cor": "ouro"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "comemorando",
+   "fala": "Resumindo! O algoritmo segue o público, não o tamanho do canal. Qualidade vale mais que quantidade, e pausa não é castigo. Cada vídeo ganha a sua chance. E o que importa é a pessoa assistir e gostar. O link da página oficial e o artigo com tudo isso estão na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "público",
+      "t": "Segue o público",
+      "sub": "não o tamanho do canal"
+     },
+     {
+      "ao": "Qualidade",
+      "t": "Qualidade > quantidade",
+      "sub": "pausa não é castigo"
+     },
+     {
+      "ao": "chance",
+      "t": "Cada vídeo, sua chance",
+      "sub": "um flop não condena"
+     },
+     {
+      "ao": "gostar",
+      "t": "Assistir e gostar",
+      "sub": "view sozinha não basta"
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Fonte oficial e artigo na descrição",
+     "cor": "ouro"
+    }
+   }
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "broll": "humano",
+   "pose": "apontando",
+   "fala": "E falando em série... o próximo teste do laboratório tá aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/criador-2.mp4",
+    "titulo": "Próximo teste do laboratório",
+    "seta": {
+     "ao": "próximo"
+    },
+    "clique": {
+     "ao": "Clica"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "qtd": 2,
+ "gap": 3.0,
+ "videos": {
+  "criador": "youtuber recording video with camera at home",
+  "frustrado": "frustrated man looking at laptop late night",
+  "comemora": "happy woman celebrating in front of laptop",
+  "plateia": "people watching videos on smartphone",
+  "editando": "content creator editing video on computer"
+ },
+ "fotos": {
+  "estudio": "home studio camera ring light"
+ },
+ "prints": {},
+ "gatilhos": {}
+}
