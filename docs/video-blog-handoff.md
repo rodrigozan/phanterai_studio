@@ -1,5 +1,7 @@
 # Artigo e descrição do YouTube — PhanterAI
 
+> **Desde 24/11/2026:** vale para os canais **Aprenda YouTube** e **PhanterAI Creative** (todo vídeo, longo, Short ou reel). O `blog-youtube.py` NÃO gera mais o artigo (o Codex saiu do ar): **cada Claude escreve o artigo dos vídeos do próprio canal** (o outro Claude = Aprenda YouTube; o claude-dev = PhanterAI Creative) e grava `out/phanterai/blog/<VIDEO_ID>/article.json` com o schema de `scripts/blog-article.schema.json` (`title`, `excerpt` ≤ 240 caracteres, `content` em HTML, `tags`). O script valida (≥ 500 palavras, link do vídeo, passo a passo, links da descrição) e publica/agenda no blog e vincula a descrição. Sem `article.json`, o job fica em `retry` com a mensagem "Artigo ainda não escrito". `--schedule` pode perder uma corrida com o cron: espere uns segundos e rode de novo.
+
 Todo vídeo do canal Aprenda YouTube deve ter um artigo próprio, com pelo menos 500 palavras, passo a passo completo, links usados no roteiro, autor Rod Zandonadi e embed do mesmo vídeo. Quando a narração prometer links ou instruções na descrição, inclua na descrição o endereço desse artigo.
 
 Depois de enviar o vídeo e finalizar capa e metadados, execute no Studio:

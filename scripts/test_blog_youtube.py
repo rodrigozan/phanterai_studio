@@ -253,5 +253,32 @@ class BlogTest(unittest.TestCase):
             self.assertEqual(blog.script_for(v), source)
 
 
+class FriendlySlugTest(unittest.TestCase):
+    def test_slugify_is_ascii_hyphenated_and_bounded(self):
+        self.assertEqual(blog.slugify('Gemini para Mac: como o computer use faz tarefas por você'),
+                         'gemini-para-mac-como-o-computer-use-faz-tarefas-por-voce')
+        self.assertEqual(blog.slugify('Códigos secretos do ChatGPT e do Claude: 5 atalhos oficiais'),
+                         'codigos-secretos-do-chatgpt-e-do-claude-5-atalhos-oficiais')
+        self.assertLessEqual(len(blog.slugify('palavra ' * 40)), 70)
+        self.assertFalse(blog.slugify('!!!'))
+
+    def test_slug_for_prefers_saved_friendly_slug_and_falls_back_to_legacy(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(blog, 'OUT', Path(tmp)):
+            self.assertEqual(blog.slug_for('CvBU1nv7W7w'), 'youtube-cvbu1nv7w7w')
+            (Path(tmp) / 'CvBU1nv7W7w').mkdir()
+            (Path(tmp) / 'CvBU1nv7W7w' / 'slug.txt').write_text('tutorial-de-ia\n')
+            self.assertEqual(blog.slug_for('CvBU1nv7W7w'), 'tutorial-de-ia')
+            self.assertEqual(blog.article_url('CvBU1nv7W7w', {'blog_url': 'https://phanterai.com'}),
+                             'https://phanterai.com/blog/tutorial-de-ia')
+            (Path(tmp) / 'CvBU1nv7W7w' / 'slug.txt').write_text('../etc/passwd\n')
+            self.assertEqual(blog.slug_for('CvBU1nv7W7w'), 'youtube-cvbu1nv7w7w')
+
+    def test_collision_with_another_video_gets_id_suffix(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(blog, 'OUT', Path(tmp)), \
+             patch.object(blog, 'find_post', side_effect=lambda base, slug: {'youtubeVideoId': 'otherVideo1'} if slug == 'tutorial-de-ia' else None), \
+             patch.object(blog, 'find_admin_post', return_value=None):
+            self.assertEqual(blog.ensure_friendly_slug('CvBU1nv7W7w', 'Tutorial de IA', 'x', 't'), 'tutorial-de-ia-cvbu')
+
+
 if __name__ == '__main__':
     unittest.main()

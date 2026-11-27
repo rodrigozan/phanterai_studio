@@ -9,11 +9,14 @@ function hasLink(description, target) {
 }
 function buildDescription(description, videoId, articleUrl) {
   const url = new URL(articleUrl);
-  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId) || url.origin !== 'https://phanterai.com' ||
-      url.pathname !== '/blog/youtube-' + videoId.toLowerCase() || url.search || url.hash)
+  // Slug amigável (qualquer /blog/<palavras-com-hifen>) ou o antigo, que só vale para o próprio vídeo.
+  const slug = url.pathname.replace(/^\/blog\//, '');
+  const slugOk = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) && url.pathname.startsWith('/blog/') &&
+    (!slug.startsWith('youtube-') || slug === 'youtube-' + videoId.toLowerCase());
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId) || url.origin !== 'https://phanterai.com' || !slugOk || url.search || url.hash)
     throw new Error('Artigo não corresponde ao vídeo/domínio PhanterAI');
   if (hasLink(description, articleUrl)) return description;
-  const original = description.replace(/^Passo a passo e links deste vídeo:\r?\nhttps:\/\/phanterai\.com\/blog\/youtube-[\w-]+\r?\n\r?\n/, '');
+  const original = description.replace(/^Passo a passo e links deste vídeo:\r?\nhttps:\/\/phanterai\.com\/blog\/[\w-]+\r?\n\r?\n/, '');
   const result = `${HEADER}\n${articleUrl}\n\n${original}`;
   if (result.length > 5000) throw new Error('Descrição excederia 5000 caracteres; ajuste o texto sem truncar');
   return result;
@@ -35,7 +38,7 @@ async function main() {
   buildDescription('', videoId, articleUrl);
   try {
     await mongoose.connect(config.dbUri, {serverSelectionTimeoutMS: 10000});
-    const channelId = 'UCYHsuiYTaYCV_bfuyvW86Kw';
+    const channelId = process.env.BLOG_CHANNEL_ID || 'UCYHsuiYTaYCV_bfuyvW86Kw';
     const channel = await YoutubeChannel.findOne({channelId, disconnectedAt: {$exists: false}});
     if (!channel?.refreshTokenEnc || channel.status === 'revoked') throw new Error('Canal indisponível');
     const before = await ytApi.getVideo(refreshToken(channel), videoId);

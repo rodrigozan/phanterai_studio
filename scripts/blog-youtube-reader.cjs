@@ -71,7 +71,7 @@ async function main() {
     for (const v of data.items || []) {
       if (v.snippet?.channelId !== channelId) continue;
       states[v.id] = v.status?.privacyStatus;
-      items.push({id: v.id, title: v.snippet.title, description: v.snippet.description,
+      items.push({id: v.id, channelId, title: v.snippet.title, description: v.snippet.description,
         publishedAt: v.snippet.publishedAt, privacyStatus: v.status?.privacyStatus,
         publishAt: v.status?.publishAt || null,
         uploadStatus: v.status?.uploadStatus, videoPath: paths.get(v.id) || null});
