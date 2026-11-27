@@ -21,6 +21,8 @@ def montar_prompt(cfg, cena, refs_ids):
                       f"Keep each character's design, proportions and outfit exactly identical to its reference. "
                       f"Characters: {desc}")
     partes.append("Scene: " + cena["prompt"])
+    partes.append("Style lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; "
+                  "no photorealism, no 3D render, no real human faces, no text.")
     return "\n\n".join(partes)
 
 

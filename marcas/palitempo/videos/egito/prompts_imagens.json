@@ -1,0 +1,1008 @@
+[
+ {
+  "id": "s004",
+  "tipo": "video",
+  "texto": "Pelo caminho tem pirâmide, tem faraó que foi apagado dos monumentos, e tem um menino coroado aos 9 anos. Primeira parada: um rio.",
+  "refs": [
+   "narrador.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s004.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A row of sketch icons behind the narrator: a pyramid, a pharaoh in a striped headdress, a tiny child wearing a huge crown; in the foreground a winding blue river at sunrise that the narrator points to.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s005",
+  "tipo": "video",
+  "texto": "O Egito é praticamente um oásis no meio do deserto.",
+  "refs": [],
+  "arquivo": "img/s005.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nScene: Wide aerial-style view: a narrow green strip of land cutting through a huge yellow desert, a blue river in the middle, a lone palm tree, no characters.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s006",
+  "tipo": "imagem",
+  "texto": "Quem faz a vida acontecer ali é a cheia do Nilo, que todo ano alaga as margens e deixa a terra fértil.",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s006.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: The river overflowing its banks at dawn, flood water spreading over the fields, a peasant in a white loincloth watching from higher ground.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s007",
+  "tipo": "imagem",
+  "texto": "Quando a água baixava, o camponês cavava com uma enxada de madeira, jogava a semente na lama e esperava a colheita.",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s007.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: The peasant digs with a wooden hoe in wet dark soil and scatters seeds from a basket, a stick-figure sun above.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s008",
+  "tipo": "video",
+  "texto": "Essa fartura sustentou um país inteiro: quase todo mundo vivia da agricultura,",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s008.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: Many peasants working in green fields along the river, baskets of grain stacked up, a village of mud-brick houses behind.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s009",
+  "tipo": "video",
+  "texto": "e frutas e verduras eram irrigadas o ano todo em pequenas parcelas.",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s009.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: Small garden plots with little water ditches, a peasant carrying a basket of fruit and vegetables, bright green rows.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s010",
+  "tipo": "imagem",
+  "texto": "E por volta de 3000 a.C. os egípcios já tinham inventado a escrita: os hieróglifos,",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s010.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A scribe sitting cross-legged writing picture symbols (birds, eyes, waves, not letters) on papyrus with a reed pen, a temple wall with big pictograms behind him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s011",
+  "tipo": "imagem",
+  "texto": "para os monumentos, e uma letra mais corrida, o hierático, para o dia a dia.",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s011.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: Split composition: on the left a carved stone monument with big pictograms, on the right the scribe quickly writing flowing cursive lines on papyrus, ink pot beside him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s012",
+  "tipo": "imagem",
+  "texto": "Agora, a data de largada. A tradição diz que um rei chamado Menes, ligado ao nome de Narmer,",
+  "refs": [
+   "narrador.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s012.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The narrator points at a hazy legendary king wearing a double crown standing between a lower land and an upper land, soft mythical sunrise colors.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s013",
+  "tipo": "video",
+  "texto": "uniu o Alto e o Baixo Egito e fundou a capital, Mênfis.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s013.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A pharaoh wearing a double crown joins two halves of a torn map, a southern valley and a northern delta, like puzzle pieces; a new white-walled city rises beside the river.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s014",
+  "tipo": "video",
+  "texto": "Só que aqui já aparece a primeira dúvida: Menes é tratado como lendário, e os especialistas discutem a data.",
+  "refs": [
+   "narrador.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s014.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The narrator scratches his head beside a transparent, foggy pharaoh silhouette, a big question mark floating between them, doubtful mood.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s016",
+  "tipo": "imagem",
+  "texto": "Tem uma peça famosa, a Paleta de Narmer, que mostra o rei vencendo inimigos, e muita gente lê isso como a unificação.",
+  "refs": [
+   "narrador.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s016.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A flat stone palette on a museum pedestal carved with a pharaoh striking an enemy, the narrator peering at it through a magnifying glass.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s018",
+  "tipo": "imagem",
+  "texto": "Por volta de 2650 a.C. aparece o rei Djoser.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s018.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A pharaoh in a striped headdress sits on a throne in front of a busy building site with stone blocks, sand dunes and bright sun.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s019",
+  "tipo": "imagem",
+  "texto": "O conselheiro dele, Imhotep, leva o crédito por um projeto inédito: a primeira pirâmide do Egito, em Saqqara.",
+  "refs": [
+   "sacerdote.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s019.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The shaved-head priest in a white robe unrolls a papyrus plan showing a stepped pyramid for the pharaoh, a small stepped pyramid model on the table.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s020",
+  "tipo": "imagem",
+  "texto": "Ela é uma pirâmide de degraus, e é a construção de pedra mais antiga do país.",
+  "refs": [],
+  "arquivo": "img/s020.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nScene: A tall six-step stone pyramid rising in the desert at golden afternoon light, tiny stick workers at its base, no main characters.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s021",
+  "tipo": "video",
+  "texto": "Imhotep ficou tão famoso que, em épocas bem posteriores, foi transformado em deus.",
+  "refs": [
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s021.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: The priest stands in a glowing temple with a golden halo around his head, as if turning into a god, offerings piled at his feet.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s022",
+  "tipo": "video",
+  "texto": "Um dos pouquíssimos humanos fora da realeza a ganhar culto próprio.",
+  "refs": [
+   "sacerdote.png",
+   "campones.png"
+  ],
+  "arquivo": "img/s022.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote, campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.; campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: A small temple with a stone statue of the priest in the center, worshippers kneeling with offerings of bread and flowers.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s023",
+  "tipo": "imagem",
+  "texto": "Daí em diante a coisa escala. Snefru tira os degraus e faz uma pirâmide de lados lisos.",
+  "refs": [
+   "farao.png",
+   "campones.png"
+  ],
+  "arquivo": "img/s023.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: Split composition: on the left a stepped pyramid, on the right the same pyramid with smooth straight sides, the pharaoh pointing at the smooth one while workers polish it.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s024",
+  "tipo": "imagem",
+  "texto": "O filho dele, Quéops, constrói a Grande Pirâmide de Gizé, a maior do Egito. A pirâmide era um símbolo do Sol,",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s024.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The Great Pyramid of Giza towering over the desert with a proud pharaoh in the foreground, a glowing sun disk right behind the pyramid tip.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s025",
+  "tipo": "imagem",
+  "texto": "e o rei era visto como um deus vivo, no topo de uma sociedade muito hierarquizada.",
+  "refs": [
+   "farao.png",
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s025.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: The pharaoh seated very high on a tall stepped throne like a living god with a sun disk above, rows of priests and scribes bowing lower and lower beneath him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s027",
+  "tipo": "video",
+  "texto": "Um projeto de arqueólogos ligado ao instituto de pesquisa da Universidade de Chicago escava, perto de Gizé,",
+  "refs": [
+   "narrador.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s027.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: Stick archaeologists with brushes and sieves excavating a sandy trench in front of the distant pyramids, the narrator in his explorer hat supervising.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s028",
+  "tipo": "video",
+  "texto": "uma cidade inteira que abrigava os construtores das pirâmides e a administração, do tempo de Quéfren e Miquerinos.",
+  "refs": [
+   "campones.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s028.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: Cutaway view of an ancient workers' town: rows of small mud-brick houses, bakeries with smoke, storerooms, a scribe with papyrus, the pyramids rising beyond.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s029",
+  "tipo": "imagem",
+  "texto": "Ou seja: tinha gente morando ali, organizando comida e material. Isso é o que a escavação mostra.",
+  "refs": [
+   "campones.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s029.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: Busy happy town scene: villagers baking bread, carrying sacks of grain and stone blocks, a scribe counting supplies.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s030",
+  "tipo": "imagem",
+  "texto": "Mas nada dura. Perto do fim do Reino Antigo, Pepi II reina por muito tempo,",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s030.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A very old pharaoh with a long white beard sits tired on a throne, a long strip of calendar pages stretching behind him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s031",
+  "tipo": "video",
+  "texto": "segundo a tradição mais de 90 anos, embora hoje alguns estudiosos duvidem.",
+  "refs": [
+   "farao.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s031.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: The old pharaoh with a big question mark above his head, the narrator next to him raising one eyebrow doubtfully.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s032",
+  "tipo": "video",
+  "texto": "O poder vai escorrendo para os governadores das províncias, os núbios pressionam pelo sul e o clima fica mais seco.",
+  "refs": [
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s032.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Regional governors each pulling a corner of the map in different directions, a dry desert spreading in, a group of bow-carrying stick warriors approaching from the south.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s033",
+  "tipo": "imagem",
+  "texto": "Os especialistas discutem o peso de cada causa.",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s033.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A weak throne in the middle with officials arguing around it, hands in the air, confused, papers flying.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s034",
+  "tipo": "imagem",
+  "texto": "O resultado é o mesmo: por volta de 2150 a.C., o primeiro grande reino acaba.",
+  "refs": [],
+  "arquivo": "img/s034.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nScene: A cracked pyramid and a toppled throne in the desert at sunset, long shadows, a lone crown lying on the sand.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s035",
+  "tipo": "imagem",
+  "texto": "Primeira volta por cima. Por volta de 2030 a.C., Mentuhotep II reúne o Alto e o Baixo Egito de novo. Começa o Reino Médio.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s035.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A strong pharaoh joins the two halves of the map with a big handshake of two lands, golden light, a new sunrise rising behind them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s036",
+  "tipo": "video",
+  "texto": "Mais tarde, Sesóstris III acaba com o cargo de nomarca, o governador regional, para o poder não escapar outra vez.",
+  "refs": [
+   "farao.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s036.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: The pharaoh cuts the strings tying little chairs of regional governors with a pair of scissors, the governors dropping their small crowns.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s037",
+  "tipo": "video",
+  "texto": "Só que depois vem a 13ª dinastia, em que os reis se alternam rápido.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s037.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A revolving door with different pharaohs rushing in and out quickly, crowns spinning in the air.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s038",
+  "tipo": "imagem",
+  "texto": "O Museu Met levanta a hipótese de que os altos funcionários é que mandavam de verdade.",
+  "refs": [
+   "escriba.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s038.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: Officials in white sit at a long table making decisions while a small ceremonial pharaoh sits at the end doing nothing; the narrator watches with a magnifying glass.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s039",
+  "tipo": "imagem",
+  "texto": "Com o governo fraco, governantes estrangeiros tomam o delta do Nilo: os hicsos.",
+  "refs": [
+   "soldado.png"
+  ],
+  "arquivo": "img/s039.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Foreign stick warriors with different headgear and chariots rolling into a river delta with palm trees, Egyptian villagers watching worried.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s040",
+  "tipo": "imagem",
+  "texto": "Até que Ahmose, por volta de 1539 a.C., parte para cima.",
+  "refs": [
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s040.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: A determined young pharaoh raises a spear in front of his army at dawn, banners fluttering.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s041",
+  "tipo": "imagem",
+  "texto": "Ele destrói a fortaleza deles, Avaris, e os empurra para além da fronteira leste.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s041.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Egyptian soldiers with leather shields storm the gate of a fortress while the foreign warriors retreat out of the far gate toward the east desert.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s042",
+  "tipo": "video",
+  "texto": "A tradição o considera fundador de uma nova dinastia, porque ele reunificou o país. Segunda volta por cima.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s042.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The pharaoh holds up a fully joined map of Egypt while a new family-tree banner rises behind him, triumphant pose.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s043",
+  "tipo": "video",
+  "texto": "Começa o Novo Reino, a era do império.",
+  "refs": [
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s043.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Panoramic golden dawn over Egypt: chariots, soldiers, temples and a pharaoh standing on a hill, the beginning of an empire.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s045",
+  "tipo": "imagem",
+  "texto": "Tutmés III ainda é criança quando vira faraó, e quem governa como regente é a madrasta dele, Hatshepsut.",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s045.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: A small child pharaoh with a huge crown sits on a throne while the tall regent queen stands behind him with a guiding hand on his shoulder.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s046",
+  "tipo": "imagem",
+  "texto": "Só que, entre o segundo e o sétimo ano, ela se declara rei.",
+  "refs": [
+   "rainha.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s046.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The tall queen lifts the crown and places it on her own head while the small child pharaoh watches with wide eyes, sparkles in the air.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s047",
+  "tipo": "imagem",
+  "texto": "Reina por quase vinte anos, e muitas vezes aparece representada como um rei homem, como a tradição pedia.",
+  "refs": [
+   "rainha.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s047.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A statue of the queen dressed as a king, with a fake ceremonial beard and a striped headdress, standing proudly in a temple, a sculptor with a chisel beside it.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s048",
+  "tipo": "video",
+  "texto": "Aí vem o mistério: cerca de vinte anos depois da morte dela,",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s048.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: Calendar pages flying through the air, years passing, a group of workers arriving with chisels and hammers in front of a temple wall.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s049",
+  "tipo": "video",
+  "texto": "monumentos com a imagem dela são destruídos e o nome some dos registros. Por quê?",
+  "refs": [
+   "escriba.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s049.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Workers hammering and scratching away a carved face and name from a temple wall, stone chips flying, dusty light, a question mark above them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s051",
+  "tipo": "imagem",
+  "texto": "E o menino cresce. Tutmés III vira um dos maiores conquistadores do Egito, de cerca de 1479 a 1425 a.C.",
+  "refs": [
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s051.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: The grown pharaoh leads chariots and soldiers across a map spreading east, conquest banners behind them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s052",
+  "tipo": "imagem",
+  "texto": "Em Megiddo, uma coalizão de príncipes da Síria e da Palestina o espera, 330 deles, segundo a fonte.",
+  "refs": [
+   "soldado.png"
+  ],
+  "arquivo": "img/s052.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: A coalition of many small kings in colorful robes with spears gathered outside a walled city, a big army camp, tense atmosphere.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s053",
+  "tipo": "video",
+  "texto": "Ele escolhe o caminho mais curto e mais perigoso pela montanha, atravessa, e cerca a cidade.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s053.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The pharaoh leads his soldiers single file through a narrow dangerous mountain pass between steep cliffs with falling rocks.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s054",
+  "tipo": "video",
+  "texto": "O resultado: Babilônia, Assíria e hititas mandam tributo. O Egito vira potência.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s054.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Envoys from three different lands arrive with chests of gold and gifts before the pharaoh, who sits high on his throne towering over them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s055",
+  "tipo": "imagem",
+  "texto": "Algumas gerações depois, o império vive uma fase de paz e diplomacia.",
+  "refs": [
+   "farao.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s055.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: A peaceful palace garden with doves; the pharaoh and a foreign envoy shake hands under a shaded canopy while the narrator watches smiling.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s056",
+  "tipo": "imagem",
+  "texto": "Amenhotep III sobe ao trono com uns 12 anos e mantém os vassalos da Ásia sob controle sem grandes guerras.",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s056.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: A small young pharaoh, around twelve years old, sits on a big throne next to the queen, a calm empire map with little vassal towns behind them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s057",
+  "tipo": "imagem",
+  "texto": "Em vez de espada, casamento: uma princesa do reino de Mitani chega ao Egito acompanhada de 317 mulheres, segundo uma peça comemorativa da época.",
+  "refs": [
+   "rainha.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s057.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A foreign princess arrives in a long procession of many women carrying gifts through the palace gate, the pharaoh welcoming them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s058",
+  "tipo": "video",
+  "texto": "Depois vem o faraó mais polêmico de todos. Amenhotep IV decide que o deus principal é Aton, o disco do Sol.",
+  "refs": [
+   "farao.png",
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s058.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: The pharaoh bows before a glowing sun disk and turns his back on a row of old god statues, dramatic dawn light.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s059",
+  "tipo": "video",
+  "texto": "No quinto ano de reinado, muda o próprio nome para Akhenaton e funda uma capital nova,",
+  "refs": [
+   "farao.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s059.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A scribe writing a new set of pictograms on a scroll while the pharaoh points at a faraway city site on a map with a long arrow.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s060",
+  "tipo": "imagem",
+  "texto": "no meio do nada, uns 300 quilômetros ao norte de Tebas. Ao lado dele, a rainha Nefertiti.",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s060.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: A brand-new empty city rising in a desert valley by the river, surrounded by cliffs, the royal couple standing together at its center.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s061",
+  "tipo": "imagem",
+  "texto": "Muita gente já disse que isso foi o primeiro monoteísmo da história,",
+  "refs": [
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s061.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: The priest looks up at one huge sun disk with a small crowd of mini-gods floating around it, thinking hard.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s062",
+  "tipo": "imagem",
+  "texto": "mas a pesquisa atual avisa: o culto de Aton misturava traços de outros deuses.",
+  "refs": [
+   "sacerdote.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s062.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: The narrator points at a sun disk that has small features of several gods blended into it like puzzle pieces, the priest nodding.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s063",
+  "tipo": "imagem",
+  "texto": "A arte também muda, e a família real aparece com formas esticadas e exageradas.",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s063.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: The royal family drawn in a stretched, elongated, curvy style with long heads and relaxed poses, sun rays touching them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s065",
+  "tipo": "video",
+  "texto": "Nessa cidade acharam as Cartas de Amarna, tabuinhas de argila com a correspondência do rei com outros reinos.",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s065.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A stack of clay tablets in a records office, a scribe pressing wedge marks into soft clay, envoys with letters waiting in line.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s066",
+  "tipo": "video",
+  "texto": "Quando Akhenaton morre, o país vira a chave.",
+  "refs": [
+   "farao.png",
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s066.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: A solemn funeral procession with a coffin at dusk, priests lifting the banners of the old gods again, the country turning a page.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s067",
+  "tipo": "imagem",
+  "texto": "Um menino de 9 anos sobe ao trono: Tutancáton, que logo muda o nome para Tutancâmon.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s067.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A nine-year-old pharaoh on a throne far too big for him, feet not touching the floor, a crown sliding down over his eyes.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s068",
+  "tipo": "imagem",
+  "texto": "Com os conselheiros Ay e Horemheb, ele restaura os templos dos deuses antigos e volta a morar em Mênfis.",
+  "refs": [
+   "farao.png",
+   "sacerdote.png"
+  ],
+  "arquivo": "img/s068.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, sacerdote. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.\n\nScene: The boy pharaoh flanked by two older advisers, priests reopening temple doors, statues of the old gods being carried back inside.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s069",
+  "tipo": "imagem",
+  "texto": "Morre por volta dos 19. A malária pode ter sido a causa, junto de uma doença nos ossos, mas isso é hipótese.",
+  "refs": [
+   "farao.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s069.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: A sad young pharaoh resting in bed with a mosquito above him, the narrator with a magnifying glass and a question mark.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s070",
+  "tipo": "video",
+  "texto": "O túmulo dele foi esquecido, e só reapareceu em novembro de 1922, quando uma equipe liderada por Howard Carter,",
+  "refs": [
+   "narrador.png",
+   "campones.png"
+  ],
+  "arquivo": "img/s070.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: Sepia-toned valley of tombs: the explorer and a team of local diggers clearing sand from a stairway cut into the rock, 1922 atmosphere.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s071",
+  "tipo": "video",
+  "texto": "formada em grande parte por escavadores egípcios, chegou a uma câmara cheia de tesouros,",
+  "refs": [
+   "narrador.png",
+   "campones.png"
+  ],
+  "arquivo": "img/s071.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: The team opens a sealed doorway, the narrator peers through a tiny hole holding a candle, golden glints reflecting on his face.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s072",
+  "tipo": "imagem",
+  "texto": "com a máscara de ouro e um caixão interno de ouro maciço.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s072.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A small chamber crowded with golden treasures, a golden funerary mask and a golden coffin, sparkling light rays.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s073",
+  "tipo": "imagem",
+  "texto": "Entre eles estavam os capatazes Ahmed Gerigar, Gad Hassan, Hussein Abu Awad e Hussein Ahmed.",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s073.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: Four proud local foremen standing in a row at the dig site holding tools, the tomb entrance behind them, warm light.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s074",
+  "tipo": "video",
+  "texto": "E a próxima estrela é Ramsés II, que reina de 1279 a 1213 a.C. São 66 anos no trono.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s074.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A towering pharaoh on a huge throne with a very long timeline strip of sixty-six year marks stretching behind him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s075",
+  "tipo": "video",
+  "texto": "Em 1275 a.C., na batalha de Cadesh, ele enfrenta os hititas numa das maiores batalhas de carros de guerra da história.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s075.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A huge chariot battle on a river plain, hundreds of chariots clashing in dust and arrows, the pharaoh in the middle of the action.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s076",
+  "tipo": "imagem",
+  "texto": "Espiões que se passam por desertores enganam o faraó sobre onde estava o exército inimigo.",
+  "refs": [
+   "soldado.png"
+  ],
+  "arquivo": "img/s076.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Two enemy spies in disguise whispering a lie to guards, while a hidden army waits behind a city wall in the background.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s077",
+  "tipo": "imagem",
+  "texto": "Ele consegue virar o jogo, mas não toma a cidade. Cada lado diz que venceu, e na prática foi um empate.",
+  "refs": [
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s077.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Both armies raise victory flags at the same time on opposite sides of a river, dust clearing, nobody really winning, confused faces.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s078",
+  "tipo": "imagem",
+  "texto": "Anos depois, por volta de 1258 a.C., os dois fecham o que é considerado o primeiro tratado de paz registrado do mundo.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s078.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Two kings of rival lands shaking hands over a stone tablet, a dove between them, calm sunset.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s079",
+  "tipo": "video",
+  "texto": "Ramsés ainda deixa Abu Simbel, com quatro estátuas colossais, e mais de cem filhos.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s079.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A temple carved into a cliff with four colossal seated statues of the pharaoh at its entrance, tiny stick visitors at their feet.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s080",
+  "tipo": "video",
+  "texto": "A rainha favorita, Nefertari, ganhou o templo menor de Abu Simbel,",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s080.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: The pharaoh and his favorite queen stand in front of a smaller cliff temple with statues, a tender moment in warm light.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s081",
+  "tipo": "imagem",
+  "texto": "e depois do tratado ele se casou com uma, talvez duas, princesas hititas.",
+  "refs": [
+   "farao.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s081.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: Wedding scene: the pharaoh and a foreign princess exchange gifts under a canopy, a peace tablet displayed on a table.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s082",
+  "tipo": "imagem",
+  "texto": "Para a Britannica, o reinado dele foi o último auge do poder imperial do Egito.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s082.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The pharaoh stands on a mountain of treasures and banners at golden sunset, the sun starting to set behind him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s083",
+  "tipo": "imagem",
+  "texto": "Depois do auge vem a queda. No fim da Idade do Bronze, grupos de navegadores, os Povos do Mar, chegam ao Mediterrâneo oriental e ao Egito.",
+  "refs": [
+   "narrador.png",
+   "farao.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s083.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: narrador, farao, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: Strange ships with many oars landing on a Mediterranean beach, warriors jumping onto the sand, waves, a sense of danger.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s085",
+  "tipo": "imagem",
+  "texto": "O fato é que o Egito entra num período de uns 400 anos de poder dividido.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s085.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A map of Egypt cut into many pieces with several small pharaohs each holding one piece, a long strip of four hundred tally marks behind them.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s086",
+  "tipo": "video",
+  "texto": "Os kushitas, vindos da Núbia, chegam a governar o país, até que em 671 a.C. os assírios invadem e saqueiam Tebas.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s086.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Left side: a king from the south on a throne with a gold crown; right side: a foreign army sacking and burning a big temple city, smoke rising.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s087",
+  "tipo": "video",
+  "texto": "E em 525 a.C. é a vez dos persas:",
+  "refs": [
+   "soldado.png"
+  ],
+  "arquivo": "img/s087.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: A Persian-style army marching with banners toward the Nile, an endless line of soldiers on the horizon.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s088",
+  "tipo": "imagem",
+  "texto": "Cambises vence a batalha de Pelúsio, toma Mênfis, e o Egito passa ao controle persa.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s088.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: A battle in the river delta with the invaders winning and a defeated pharaoh, the walled city of Memphis falling under a new banner behind.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s089",
+  "tipo": "imagem",
+  "texto": "Em 332 a.C., Alexandre Magno chega ao Egito, e os egípcios o recebem como libertador dos persas.",
+  "refs": [
+   "general_estrangeiro.png",
+   "campones.png"
+  ],
+  "arquivo": "img/s089.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: general_estrangeiro, campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.; campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: The young plumed-helmet conqueror rides a horse into Egypt while villagers cheer and wave palm leaves.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s090",
+  "tipo": "imagem",
+  "texto": "Ele toma o país sem batalha e funda Alexandria.",
+  "refs": [
+   "general_estrangeiro.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s090.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: general_estrangeiro, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: The plumed-helmet conqueror draws the plan of a new coastal city with a lighthouse in the sand, soldiers standing around him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s091",
+  "tipo": "video",
+  "texto": "Depois da morte dele, o general Ptolomeu assume o Egito e, em 305 a.C., se declara rei.",
+  "refs": [
+   "general_estrangeiro.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s091.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: general_estrangeiro, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: The Greek general places a crown on his own head in front of an Egyptian court, a temple behind him.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s092",
+  "tipo": "video",
+  "texto": "Os Ptolomeus governam como gregos, mas convivem com os egípcios: havia tribunais gregos e tribunais egípcios,",
+  "refs": [
+   "farao.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s092.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A courtroom hall with two sides: judges in Greek robes on one side and Egyptian judges on the other, both groups in the same room.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s093",
+  "tipo": "imagem",
+  "texto": "e um sacerdote egípcio, Manetão, escreveu em grego uma lista dos reis do Egito.",
+  "refs": [
+   "sacerdote.png",
+   "escriba.png"
+  ],
+  "arquivo": "img/s093.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: sacerdote, escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: sacerdote: Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.; escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: An Egyptian priest writing a very long list of crown icons on a papyrus scroll, no readable text.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s094",
+  "tipo": "imagem",
+  "texto": "Alexandria vira a cidade mais importante do Mediterrâneo oriental, com a Biblioteca, que chegou, provavelmente, a 500 mil rolos de papiro.",
+  "refs": [
+   "escriba.png"
+  ],
+  "arquivo": "img/s094.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.\n\nScene: A huge library hall with shelves full of scrolls, scholars reading, a lighthouse visible through a large window, golden light.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s095",
+  "tipo": "video",
+  "texto": "Nessa época, em 196 a.C., um decreto é gravado na Pedra de Roseta,",
+  "refs": [],
+  "arquivo": "img/s095.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nScene: A big dark stone slab carved with three different bands of writing, standing on a pedestal with a crowd gathered around, no main characters.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s097",
+  "tipo": "video",
+  "texto": "E chegamos à última. Cleópatra VII sobe ao trono em 51 a.C.",
+  "refs": [
+   "rainha.png"
+  ],
+  "arquivo": "img/s097.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: The young queen walks confidently into her throne room, nobles bowing.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s098",
+  "tipo": "imagem",
+  "texto": "Foi a única da família dos Ptolomeus a aprender egípcio, e dizem que era popular.",
+  "refs": [
+   "escriba.png",
+   "rainha.png"
+  ],
+  "arquivo": "img/s098.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: escriba, rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: escriba: Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.; rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: The queen listens delighted to a scribe teaching her a language written with picture symbols, scrolls all around.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s099",
+  "tipo": "imagem",
+  "texto": "Ela se alia a Júlio César e, depois, a Marco Antônio.",
+  "refs": [
+   "rainha.png",
+   "general_estrangeiro.png"
+  ],
+  "arquivo": "img/s099.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha, general_estrangeiro. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.; general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.\n\nScene: The queen stands next to a Roman leader in a red cape, an atmosphere of alliance and intrigue, a second Roman leader's red cape visible in the background.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s100",
+  "tipo": "imagem",
+  "texto": "Ela teve um filho, que chamavam de Cesarião, e ninguém hoje consegue afirmar se César era mesmo o pai.",
+  "refs": [
+   "rainha.png",
+   "general_estrangeiro.png",
+   "narrador.png"
+  ],
+  "arquivo": "img/s100.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha, general_estrangeiro, narrador. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.; general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.; narrador: Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.\n\nScene: A baby in a golden cradle between the queen and a Roman leader, the narrator shrugging with a question mark above the cradle.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s101",
+  "tipo": "video",
+  "texto": "Em 31 a.C., na batalha de Áccio, Otaviano derrota os dois. No ano seguinte, em 30 a.C., Cleópatra morre.",
+  "refs": [
+   "soldado.png"
+  ],
+  "arquivo": "img/s101.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: A large naval battle: warships in flames on a blue sea, one side clearly winning, a dramatic simple composition.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s102",
+  "tipo": "video",
+  "texto": "A versão mais aceita é suicídio, mas o método é incerto, e há quem defenda que foi assassinato.",
+  "refs": [
+   "rainha.png"
+  ],
+  "arquivo": "img/s102.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: rainha. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: rainha: Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.\n\nScene: The queen turned away in dim light by a window, an empty throne and a dark evening sky, a quiet respectful scene.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s103",
+  "tipo": "imagem",
+  "texto": "Com a morte dela, o Egito é anexado por Roma e deixa de ser um reino independente.",
+  "refs": [
+   "general_estrangeiro.png",
+   "soldado.png"
+  ],
+  "arquivo": "img/s103.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: general_estrangeiro, soldado. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: general_estrangeiro: Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance.; soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.\n\nScene: A Roman banner flying over the Egyptian palace, an old Egyptian flag folded away, the map of Egypt framed in red.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s105",
+  "tipo": "imagem",
+  "texto": "O Reino Antigo desmoronou, e Mentuhotep II reuniu o país.",
+  "refs": [
+   "farao.png"
+  ],
+  "arquivo": "img/s105.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Left: a crumbled pyramid; right: a pharaoh reuniting two halves of the map, bright golden light.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s106",
+  "tipo": "imagem",
+  "texto": "Os hicsos tomaram o delta, e Ahmose os expulsou e reuniu tudo de novo.",
+  "refs": [
+   "soldado.png",
+   "farao.png"
+  ],
+  "arquivo": "img/s106.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: soldado, farao. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: soldado: Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.; farao: Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.\n\nScene: Foreign warriors being chased away by Egyptian soldiers while the pharaoh holds the reunified map again.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s107",
+  "tipo": "imagem",
+  "texto": "E por baixo de cada crise, o Nilo continuou alimentando todo mundo. E como acabou?",
+  "refs": [
+   "campones.png"
+  ],
+  "arquivo": "img/s107.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nThe attached reference images show the recurring characters, in this order: campones. Keep each character's design, proportions and outfit exactly identical to its reference. Characters: campones: Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.\n\nScene: The river flowing steadily under all the empires and crises while peasants harvest along its banks in peace, a gentle timelapse feeling.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ },
+ {
+  "id": "s108",
+  "tipo": "video",
+  "texto": "Não foi de uma vez: foi uma sequência de estrangeiros, os persas, depois os macedônios, e por fim Roma, em 30 a.C.",
+  "refs": [],
+  "arquivo": "img/s108.png",
+  "prompt": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.\n\nScene: A line of foreign banners in a row: Persian, Macedonian, Roman, each stepping onto Egypt's map one after another.\n\nStyle lock: everything is a flat 2D hand-drawn cartoon with thick black outlines; every person is a simple stickman with a round white head; no photorealism, no 3D render, no real human faces, no text."
+ }
+]
