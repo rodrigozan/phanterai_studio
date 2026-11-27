@@ -1,0 +1,66 @@
+Capturado 2026-11-24 de https://support.google.com/youtube/answer/13861714
+
+ Avaliar títulos e miniaturas com o teste A/B
+Os criadores de conteúdo podem testar e comparar até três títulos e miniaturas diferentes. No final do teste, o título ou a combinação de título e miniatura com o maior tempo de exibição será exibido a todos os espectadores. Para que você não perca o acesso a esse recurso, seu conteúdo precisa seguir as diretrizes da comunidade.
+Teste A/B no YouTube
+Requisitos de qualificação
+  Somente para computador: no momento, esse recurso está disponível apenas no YouTube Studio para computadores.
+  Ativar recursos avançados: você precisa ativar os recursos avançados para se qualificar. Saiba mais sobre as ferramentas e funcionalidades do YouTube e como acessar recursos avançados.
+  Formato do vídeo: por enquanto, não é possível fazer testes A/B com Shorts, transmissões ao vivo programadas e Estreias. No entanto, é possível fazer um teste A/B dos arquivos de transmissões ao vivo. As Estreias só se qualificam após o término da exibição, quando são convertidas em vídeos mais longos.
+  Restrições de conteúdo: não é possível usar esse recurso em vídeos com conteúdo para crianças, para o público adulto ou privados. Saiba como mudar as configurações de um vídeo.
+      Observação: se você enviar conteúdo com restrição de idade (18 anos ou mais) para a ferramenta de teste e não marcá-lo como tal, perderá o acesso ao recurso. Caso tente executar um teste A/B em um vídeo com restrição de idade, o teste não será realizado, mas você ainda vai poder usar a ferramenta no futuro. Saiba mais sobre conteúdo com restrição de idade.
+Executar um teste A/B
+  Faça login no YouTube Studio.
+  Selecione o vídeo que você quer testar.
+      Testar um novo vídeo: na parte de cima à direita da tela, clique em CRIAR   Enviar vídeos. Em seguida, faça o upload do vídeo.
+      Testar um vídeo antigo: no menu à esquerda, clique em Conteúdo. Clique no vídeo que você quer editar.
+  Na caixa Título ou em Miniatura, clique em Teste A/B.
+  Escolha entre as opções Somente título, Somente miniatura ou Título e miniatura.
+  Faça upload de até três miniaturas e/ou títulos para testar.
+      Observação: se o título ou a miniatura de um vídeo for alterado durante o teste, ele será interrompido automaticamente. Você precisará reiniciar o teste A/B.
+  Clique em Concluído.
+Seu teste será concluído em até duas semanas.
+Analisar ou interromper testes A/B
+Ao executar um teste A/B, é possível analisar os resultados atuais ou interromper o teste a qualquer momento.
+  Faça login no YouTube Studio.
+  Selecione o vídeo que você está testando.
+  Clique em Analytics.
+  Clique na guia Alcance.
+  Em "Progresso do teste A/B", clique em Gerenciar teste.
+  Observação: podemos manter uma pequena porcentagem do tráfego como um grupo de controle de espectadores excluídos do experimento. Essas pessoas verão somente a miniatura e o título padrão. O desempenho do vídeo no grupo de controle é excluído dos cálculos do experimento.
+Entender os resultados do teste A/B
+Confira os resultados do teste na página Detalhes do vídeo ou na guia Alcance da página Analytics do vídeo.
+Quando o teste A/B terminar, a opção com o maior tempo de exibição será exibida para todos os espectadores. Se não houver um "vencedor" claro, o primeiro título ou par de título e miniatura enviado será exibido para todos os espectadores. Você vai pode mudar o título ou a miniatura do vídeo manualmente após a conclusão do teste.
+Dicas para testes A/B
+  Escolha vídeos específicos: ao fazer um teste A/B de títulos e miniaturas, algumas versões do vídeo podem se sair melhor que outras. Por isso, recomendamos testar vídeos mais antigos primeiro para reduzir o impacto nas visualizações gerais do seu canal. Depois, escolha os vídeos específicos que serão mais úteis para testar a estratégia de conteúdo do seu canal.
+  Execute testes A/B diversificados: testar títulos e miniaturas muito parecidos pode prolongar o período de execução dos testes. Isso acontece porque talvez não haja diferença suficiente entre eles para definir um "vencedor".
+  Dê tempo ao tempo: seu teste A/B pode levar de alguns dias até duas semanas para ser concluído, devido a variações nas impressões, à data de publicação do vídeo e a outros fatores.
+  Envie miniaturas em alta resolução: recomendamos usar sempre a resolução mais alta para as miniaturas. Se alguma delas for inferior a 720p (1280 x 720), todas serão reduzidas para 480p (854 x 480). Saiba mais sobre as práticas recomendadas para miniaturas personalizadas.
+Perguntas frequentes
+  Como funciona?
+      No final do experimento, você ver um dos seguintes resultados, de acordo com a parcela do tempo de exibição:
+        Vencedora: essa opção superou claramente as outras com base na parcela do tempo de exibição. Esses resultados são estatisticamente significativos segundo os dados dos espectadores.
+        Desempenho igual: esse resultado significa que o teste foi executado e todas as opções tiveram um desempenho parecido. Pode haver pequenas diferenças, mas não sem um vencedor claro. Escolha a opção que você preferir.
+        Inconclusivo: não houve uma grande diferença estatística no engajamento entre as opções. Nesse caso, as primeiras opções enviadas serão o título e a miniatura padrão do vídeo. Se preferir, você pode mudar manualmente o título e a miniatura.
+      Grupo de controle
+      Podemos manter uma pequena porcentagem do tráfego como um grupo de controle de espectadores excluídos do experimento. Essas pessoas verão somente o título e a miniatura padrão. O desempenho do vídeo no grupo de controle é excluído dos cálculos do experimento.
+  Por que não há uma opção "Vencedora" no resultado do teste?
+      É normal que o teste não indique uma opção "Vencedora". Quando você realiza um teste A/B, é comum receber outros resultados, como "Desempenho igual" ou "Inconclusivo". Para analisar o relatório do teste A/B, acesse a guia "Alcance" no YouTube Analytics.
+      Pode haver alguns motivos para seu vídeo não ter uma vencedora óbvia:
+        Diferença mínima entre os títulos ou as miniaturas: pode ser que os títulos ou as miniaturas escolhidos para o experimento sejam muito parecidos e não tenham causado um impacto mensurável no desempenho do vídeo.
+        Não há impressões suficientes: é possível que seus vídeos não estejam gerando a quantidade necessária de impressões. Se o conteúdo receber um número maior de visualizações, é mais provável que uma vencedora seja declarada.
+  Por que o tempo de exibição é usado para determinar a opção vencedora?
+      Além de estimular os espectadores a clicar, bons títulos e miniaturas têm outro propósito importante. Eles ajudam o espectador a entender sobre o que é o vídeo, para que ele não perca tempo clicando nos vídeos errados.
+      Para ajudar seu vídeo a ter um engajamento de alta qualidade, otimizamos os testes para priorizar o tempo de exibição geral em relação a outras métricas, como a taxa de cliques.
+  Por que estou recebendo resultados diferentes?
+      Em alguns casos, os testes A/B podem gerar resultados diferentes:
+        Resultados diferentes usando o mesmo vídeo: os resultados do teste para um vídeo podem divergir por causa da variação estatística que existe em qualquer experimento no mundo real, assim como quando jogamos uma moeda e temos resultados diferentes por conta do acaso. Os resultados do teste também podem variar devido a mudanças naturais na composição do público de um vídeo ao longo do tempo. Por exemplo, as primeiras impressões têm mais chances de vir de espectadores que já conhecem seu canal, enquanto as impressões posteriores têm mais chances de incluir espectadores que ainda não tinham assistido.
+        Resultados de testes do YouTube em comparação com testes de terceiros: o uso de ferramentas que não sejam nativas do YouTube pode trazer resultados conflitantes. Os testes A/B do YouTube são testes A/B/C simultâneos verdadeiros. Isso significa que todas as variantes são mostradas para os espectadores ao mesmo tempo.
+      Muitas ferramentas de terceiros executam testes A/B em sequência e podem gerar resultados diferentes. Em geral, essas ferramentas otimizam apenas a taxa de cliques, o que pode determinar uma opção "Vencedora" diferente da medição por parcela do tempo de exibição. Isso pode acontecer porque vídeos com alto engajamento geral (alta taxa de cliques, parcela do tempo de exibição e outros fatores) são mostrados com mais frequência. Porém, acreditamos que decidir um vencedor com base no tempo de exibição é o ideal para apoiar o crescimento dos criadores de conteúdo.
+  Posso fazer testes A/B com vídeos que foram convertidos em Shorts?
+    Os testes A/B não estão disponíveis para Shorts. Depois que um vídeo for convertido em Short, você não terá acesso a nenhum teste criado anteriormente nem poderá fazer um teste A/B com ele.
+        Observação: envios de vídeos de até 3 minutos com proporção quadrada ou vertical serão considerados Shorts. Saiba mais sobre os Shorts de até 3 minutos.
+  Como posso dar meu feedback?
+    O foco da nossa equipe é melhorar os sistemas para que eles sejam precisos e úteis para nossos criadores de conteúdo. Você pode enviar feedback sobre sua experiência com o recurso no relatório do teste.
+   Esta página pode ter conteúdo que foi traduzido com tecnologia de IA. As traduções de IA podem conter erros.                Isso foi útil?
+Como podemos melhorá-lo?SimNãoEnviar       

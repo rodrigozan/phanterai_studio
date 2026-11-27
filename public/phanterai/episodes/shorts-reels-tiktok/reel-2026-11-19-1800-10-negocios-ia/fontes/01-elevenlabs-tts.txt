@@ -1,0 +1,220 @@
+URL: https://elevenlabs.io/docs/overview/capabilities/text-to-speech
+STATUS: 200
+FINAL: https://elevenlabs.io/docs/overview/capabilities/text-to-speech
+TITLE: Text to Speech | ElevenLabs Documentation
+CAPTURADO: 2026-11-19T07:02:07.777Z
+
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+Search
+/
+Connect
+Blog
+Help Center
+API Pricing
+Sign up
+English
+Overview
+ElevenCreative
+ElevenAgents
+ElevenAPI
+Reception.ai
+API reference
+Changelog
+Skip to navigation
+Capabilities
+Text to Speech
+Copy page
+Learn how to turn text into lifelike spoken audio with ElevenLabs.
+Overview
+ElevenLabs Text to Speech (TTS) API turns text into lifelike audio with nuanced intonation, pacing and emotional awareness. Our models adapt to textual cues across 32 languages and multiple voice styles and can be used to:
+Narrate global media campaigns & ads
+Produce audiobooks in multiple languages with complex emotional delivery
+Stream real-time audio from text
+Listen to a sample:
+Explore our voice library to find the perfect voice for your project.
+The voice library is not available via the API to free tier users.
+Products
+Step-by-step guide for using text to speech in ElevenLabs.
+Developers
+Learn how to integrate text to speech into your application.
+API reference
+Full API reference for the Text to Speech endpoint.
+MCP
+Generate speech from Claude or any MCP client with the hosted MCP server.
+Eleven v4
+What changed in Eleven v4, with voice cloning comparisons.
+Voice quality
+For real-time applications, Eleven v4 Turbo and Flash v2.5 provide ultra-low latency, while Multilingual v2 delivers the highest quality audio with more nuanced expression.
+Eleven v4
+Our most emotive, high quality speech synthesis model
+Exceptional voice cloning capabilities
+90+ languages supported
+10,000 character limit
+Support for natural multi-speaker dialogue
+Eleven v4 Turbo
+Our most emotive, real-time speech synthesis model
+Ultra-low latency (median latency of ~100ms†)
+Exceptional voice cloning capabilities
+90+ languages supported
+Audio tags for fine-grained control
+Eleven v3
+Our emotionally rich, expressive speech synthesis model
+Dramatic delivery and performance
+70+ languages supported
+5,000 character limit
+Support for natural multi-speaker dialogue
+Eleven v3 Conversational
+Our expressive, realtime speech synthesis model
+Low latency (~165ms†)
+Dramatic delivery and performance
+70+ languages supported
+Audio tags for fine-grained control
+Eleven Multilingual v2
+Lifelike, consistent quality speech synthesis model
+Natural-sounding output
+29 languages supported
+10,000 character limit
+Most stable on long-form generations
+Eleven Flash v2.5
+Our fast, affordable speech synthesis model
+Ultra-low latency (~100ms†)
+32 languages supported
+40,000 character limit
+Faster model, 50% lower price per character for API generations
+Explore all
+Voice options
+ElevenLabs offers thousands of voices across 32 languages through multiple creation methods:
+Voice library with 10,000+ community-shared voices
+Professional voice cloning for highest-fidelity replicas
+Instant voice cloning for quick voice replication
+Voice design to generate custom voices from text descriptions
+Learn more about our voice options.
+Audio effects
+Audio effects post-process generated speech so it sounds like it was recorded somewhere specific, without editing it afterwards. Set any combination of:
+Filter preset: colors the voice, for example a phone line, an old radio or a robot.
+Distance: moves the speaker away from the microphone.
+Environment: places the voice in a reverberant space, such as a small room or a hall.
+Background noise: loops an ambient bed, such as a café or keyboard typing, under the voice.
+Pan: positions the voice between the left and right channels.
+Effects are available on the Text to Speech and Text to Dialogue endpoints, including streaming and timestamped requests, through the audio_effects parameter. List the available filter presets, environments and background noises with the audio effects catalog. Agents can apply a voice filter too; see Audio environment. In the app, add effects from the Text to Speech playground.
+Effects do not change the cost of a request.
+Reverb (an environment_id with a send_level above 0) and a non-zero pan produce stereo audio. Requests that combine them with the mono pcm_*, ulaw_* or alaw_* output formats are rejected with a 400 error.
+Supported output formats
+Supported languages
+Our multilingual v2 models support 29 languages:
+English (USA, UK, Australia, Canada), Japanese, Chinese, German, Hindi, French (France, Canada), Korean, Portuguese (Brazil, Portugal), Italian, Spanish (Spain, Mexico), Indonesian, Dutch, Turkish, Filipino, Polish, Swedish, Bulgarian, Romanian, Arabic (Saudi Arabia, UAE), Czech, Greek, Finnish, Croatian, Malay, Slovak, Danish, Tamil, Ukrainian & Russian.
+Flash v2.5 supports 32 languages - all languages from v2 models plus:
+Hungarian, Norwegian & Vietnamese
+Simply input text in any of our supported languages and select a matching voice from our voice library. For the most natural results, choose a voice with an accent that matches your target language and region.
+Prompting
+The models interpret emotional context directly from the text input. For example, adding descriptive text like “she said excitedly” or using exclamation marks will influence the speech emotion. Voice settings like Stability and Similarity help control the consistency, while the underlying emotion comes from textual cues.
+Read the prompting guide for more details.
+Descriptive text will be spoken out by the model and must be manually trimmed or removed from the audio if desired.
+FAQ
+Can I clone my own voice?
+Do I own the audio output?
+What qualifies as a free regeneration?
+How do I reduce latency for real-time cases?
+Why is my output sometimes inconsistent?
+What's the best practice for large text conversions?
+Key facts
+Determinism: Output is nondeterministic — use the seed parameter for more consistent results
+Audio effects: Add a filter preset, distance, reverb, background noise or panning with audio_effects at no extra cost
+Free regenerations: Up to 2 free regenerations per generation (same content and parameters only)
+Ownership: You retain ownership of generated audio; commercial use requires a paid plan
+Low-latency use cases: Use Flash models (eleven_flash_v2 or eleven_flash_v2_5) — see the latency optimization guide
+Large text: Split long text into segments; use the previous_text / next_text parameters to maintain natural prosody across chunks
+Was this page helpful?
+Yes
+No
+Previous
+Eleven v4
+Next
+Built with
+Introduction
+Models
+Capabilities
+Text to Speech
+Eleven v4
+Best practices
+Speech to Text
+Music
+Text to Dialogue
+Image & Video
+Ads Engine
+Voice Changer
+Voice Isolator
+Dubbing
+Sound Effects
+Voices
+Voice Remixing
+Forced Alignment
+ElevenAgents
+Speech Engine
+Private deployments
+Administration
+Account
+Billing
+Pay As You Go
+Consolidated billing
+Data Residency
+Usage analytics
+Assets
+Workspaces
+Introduction
+Models
+Text to Speech
+Eleven v4
+Best practices
+Speech to Text
+Music
+Marketplace
+Best practices
+Text to Dialogue
+Image & Video
+Avatars
+Ads Engine
+Voice Changer
+Voice Isolator
+Dubbing
+Sound Effects
+Voices
+Voice Remixing
+Forced Alignment
+Speech Engine
+Private deployments
+Account
+Billing
+Pay As You Go
+Consolidated billing
+Data Residency
+Usage analytics
+Assets
+Overview
+Members
+Billing groups
+Service accounts
+API Keys
+Domain Verification
+SSO
+Microsoft Entra SAML SSO
+Okta SAML SSO
+SCIM
+Sharing resources
+User groups
+Model approvals
+Audit logs
+Concurrency estimator
+English
+Nederlands
+Svenska
+Italiano
+한국어
+Français
+中文
+Polski
+Português
+Español
+हिन्दी
+Deutsch
+日本語

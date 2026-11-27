@@ -1,0 +1,184 @@
+{
+ "slug": "reel-2026-11-21-1800-3-prompts-grok-bot",
+ "musica": "phanterai/music/Daniel.mp3",
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "de": 0,
+   "ate": 2
+  },
+  {
+   "pose": "apontando",
+   "de": 37.49,
+   "ate": 39.54
+  },
+  {
+   "pose": "comemorando",
+   "de": 48.39,
+   "ate": "fim"
+  }
+ ],
+ "cenas": [
+  {
+   "bloco": "gancho",
+   "componente": "inbox + relógio",
+   "acao": "relógio corre 02:00→07:00, e-mails caem nas colunas; 'você dorme 😴' gigante com zoom 1,08→1, whoosh+riser",
+   "palavra_gatilho": "Esse",
+   "inicio": 0
+  },
+  {
+   "bloco": "gancho",
+   "componente": "inbox",
+   "acao": "flash rosa + tremida da janela",
+   "palavra_gatilho": "enquanto",
+   "inicio": 1.24
+  },
+  {
+   "bloco": "gancho",
+   "componente": "inbox",
+   "acao": "07:00 ☀️, carimbo ✓ PRONTO, ding",
+   "palavra_gatilho": "dorme",
+   "inicio": 2
+  },
+  {
+   "bloco": "gancho",
+   "componente": "3 cartões numerados",
+   "acao": "'3 prompts' gigante, cartões 1/2/3 entram, varredura de destaque",
+   "palavra_gatilho": "Três",
+   "inicio": 2.56
+  },
+  {
+   "bloco": "gancho",
+   "componente": "cartão 3",
+   "acao": "cartão 3 cresce e treme, 'o 3º liga ⚡'",
+   "palavra_gatilho": "terceiro",
+   "inicio": 4.8
+  },
+  {
+   "bloco": "gancho",
+   "componente": "interruptor",
+   "acao": "interruptor do cartão 3 liga",
+   "palavra_gatilho": "liga",
+   "inicio": 5.92
+  },
+  {
+   "bloco": "intro",
+   "componente": "ícone do app",
+   "acao": "ícone acende com órbita de partículas e anel",
+   "palavra_gatilho": "Grok",
+   "inicio": 7.12
+  },
+  {
+   "bloco": "intro",
+   "componente": "chip",
+   "acao": "'da xAI'",
+   "palavra_gatilho": "x",
+   "inicio": 8.24
+  },
+  {
+   "bloco": "intro",
+   "componente": "dispositivos",
+   "acao": "Mac, Windows, Linux, celular entram um a um com pop",
+   "palavra_gatilho": "Mac",
+   "inicio": 9.6
+  },
+  {
+   "bloco": "intro",
+   "componente": "nuvem",
+   "acao": "nuvem com terminal 'bot rodando… online'",
+   "palavra_gatilho": "computador",
+   "inicio": 12.36
+  },
+  {
+   "bloco": "intro",
+   "componente": "cartão de aprovação",
+   "acao": "'Enviar e-mail para o cliente?' cursor clica Aprovar → ✓ Aprovado",
+   "palavra_gatilho": "OK",
+   "inicio": 14.24
+  },
+  {
+   "bloco": "item1",
+   "componente": "chip + janela Novo Bot",
+   "acao": "nome 'Bot do E-mail' digitado, 'cargo ✓'",
+   "palavra_gatilho": "Prompt",
+   "inicio": 16.42
+  },
+  {
+   "bloco": "item1",
+   "componente": "checklist",
+   "acao": "1 trabalho só ✓ / fontes ✓ / limites ✓",
+   "palavra_gatilho": "só",
+   "inicio": 18.73
+  },
+  {
+   "bloco": "item1",
+   "componente": "bolha de chat",
+   "acao": "prompt digitado com destaques",
+   "palavra_gatilho": "Tipo",
+   "inicio": 21.13
+  },
+  {
+   "bloco": "item1",
+   "componente": "badge",
+   "acao": "🧠 memória salva ✓",
+   "palavra_gatilho": "Lembre",
+   "inicio": 25.37
+  },
+  {
+   "bloco": "item2",
+   "componente": "chip + colega",
+   "acao": "pessoa 💬 bot, '= colega de trabalho'",
+   "palavra_gatilho": "Prompt",
+   "inicio": 26.16
+  },
+  {
+   "bloco": "item2",
+   "componente": "bolha + triagem",
+   "acao": "prompt digitado; colunas urgente/responder/informativo acendem e e-mails caem",
+   "palavra_gatilho": "Separe",
+   "inicio": 30.29
+  },
+  {
+   "bloco": "item2",
+   "componente": "rascunhos",
+   "acao": "selo ✍️ rascunho nos urgentes",
+   "palavra_gatilho": "respostas",
+   "inicio": 34.77
+  },
+  {
+   "bloco": "item2",
+   "componente": "botões",
+   "acao": "Enviar riscado + 🔒 espera seu OK",
+   "palavra_gatilho": "não",
+   "inicio": 36.37
+  },
+  {
+   "bloco": "item3",
+   "componente": "resultado",
+   "acao": "cartão de resultado 2/3/3 + 👍",
+   "palavra_gatilho": "Prompt",
+   "inicio": 37.49
+  },
+  {
+   "bloco": "item3",
+   "componente": "rotina",
+   "acao": "prompt digitado; dias S T Q Q S acendem; relógio 08:00",
+   "palavra_gatilho": "Peça",
+   "inicio": 40.23
+  },
+  {
+   "bloco": "item3",
+   "componente": "interruptor",
+   "acao": "rotina ligada, '✓ rotina ativa', seg..sex ✓ um a um",
+   "palavra_gatilho": "Pronto",
+   "inicio": 43.27
+  },
+  {
+   "bloco": "cta",
+   "componente": "resumo + comentário",
+   "acao": "3 cartões ✓, 'os 3 na legenda', Seguir→Seguindo, BOT digitado, corações",
+   "palavra_gatilho": "Os",
+   "inicio": 46.47
+  }
+ ]
+}

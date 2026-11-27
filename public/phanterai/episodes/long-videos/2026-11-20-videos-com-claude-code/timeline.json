@@ -1,0 +1,11348 @@
+{
+ "slug": "2026-11-20-videos-com-claude-code",
+ "fps": 30,
+ "lead": 0.5,
+ "musica": "Daniel.mp3",
+ "musicaVolume": 0.2,
+ "totalFrames": 11909,
+ "scenes": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "pose": "surpresa",
+   "fala": "Esquece editor de vídeo. Agora dá para criar vídeos animados só conversando com a inteligência artificial. Você escreve o que quer, em português, e o Claude Code monta o vídeo inteiro: texto animado, cenas, música e legenda. Hoje eu te mostro tudo, do zero, tela por tela.",
+   "dados": {
+    "bg": "pexels/edicao.mp4",
+    "l1": "Vídeos com IA",
+    "l2": "só conversando",
+    "pilulas": [
+     {
+      "ao": "português",
+      "txt": "Você pede em português",
+      "cor": "verde",
+      "em": 241
+     },
+     {
+      "ao": "inteiro",
+      "txt": "texto · cenas · música · legenda",
+      "cor": "violeta",
+      "em": 312
+     },
+     {
+      "ao": "tela",
+      "txt": "Windows · Mac · Linux",
+      "cor": "escuro",
+      "em": 512
+     }
+    ],
+    "bgDur": 8
+   },
+   "words": [
+    {
+     "w": "Esquece",
+     "s": 0,
+     "e": 0.56
+    },
+    {
+     "w": "editor",
+     "s": 0.76,
+     "e": 0.96
+    },
+    {
+     "w": "de",
+     "s": 1,
+     "e": 1.04
+    },
+    {
+     "w": "vídeo.",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "Agora",
+     "s": 1.76,
+     "e": 2.08
+    },
+    {
+     "w": "dá",
+     "s": 2.12,
+     "e": 2.24
+    },
+    {
+     "w": "para",
+     "s": 2.32,
+     "e": 2.4
+    },
+    {
+     "w": "criar",
+     "s": 2.48,
+     "e": 2.72
+    },
+    {
+     "w": "vídeos",
+     "s": 2.8,
+     "e": 3.04
+    },
+    {
+     "w": "animados",
+     "s": 3.2,
+     "e": 3.68
+    },
+    {
+     "w": "só",
+     "s": 3.76,
+     "e": 3.92
+    },
+    {
+     "w": "conversando",
+     "s": 4,
+     "e": 4.72
+    },
+    {
+     "w": "com",
+     "s": 4.76,
+     "e": 4.8
+    },
+    {
+     "w": "a",
+     "s": 4.827,
+     "e": 4.853
+    },
+    {
+     "w": "inteligência",
+     "s": 4.88,
+     "e": 5.36
+    },
+    {
+     "w": "artificial.",
+     "s": 5.44,
+     "e": 6.08
+    },
+    {
+     "w": "Você",
+     "s": 6.48,
+     "e": 6.64
+    },
+    {
+     "w": "escreve",
+     "s": 6.72,
+     "e": 7.04
+    },
+    {
+     "w": "o",
+     "s": 7.08,
+     "e": 7.12
+    },
+    {
+     "w": "que",
+     "s": 7.2,
+     "e": 7.28
+    },
+    {
+     "w": "quer,",
+     "s": 7.36,
+     "e": 7.76
+    },
+    {
+     "w": "em",
+     "s": 7.84,
+     "e": 7.92
+    },
+    {
+     "w": "português,",
+     "s": 8.04,
+     "e": 8.72
+    },
+    {
+     "w": "e",
+     "s": 8.76,
+     "e": 8.8
+    },
+    {
+     "w": "o",
+     "s": 8.84,
+     "e": 8.88
+    },
+    {
+     "w": "Claude",
+     "s": 8.96,
+     "e": 9.2
+    },
+    {
+     "w": "Code",
+     "s": 9.28,
+     "e": 9.6
+    },
+    {
+     "w": "monta",
+     "s": 9.68,
+     "e": 9.947
+    },
+    {
+     "w": "o",
+     "s": 9.973,
+     "e": 10
+    },
+    {
+     "w": "vídeo",
+     "s": 10.08,
+     "e": 10.32
+    },
+    {
+     "w": "inteiro:",
+     "s": 10.4,
+     "e": 11.28
+    },
+    {
+     "w": "texto",
+     "s": 11.4,
+     "e": 11.52
+    },
+    {
+     "w": "animado,",
+     "s": 11.68,
+     "e": 12.32
+    },
+    {
+     "w": "cenas,",
+     "s": 12.36,
+     "e": 13.04
+    },
+    {
+     "w": "música",
+     "s": 13.08,
+     "e": 13.6
+    },
+    {
+     "w": "e",
+     "s": 13.68,
+     "e": 13.72
+    },
+    {
+     "w": "legenda.",
+     "s": 13.76,
+     "e": 14.8
+    },
+    {
+     "w": "Hoje",
+     "s": 14.84,
+     "e": 14.96
+    },
+    {
+     "w": "eu",
+     "s": 15,
+     "e": 15.04
+    },
+    {
+     "w": "te",
+     "s": 15.12,
+     "e": 15.2
+    },
+    {
+     "w": "mostro",
+     "s": 15.32,
+     "e": 15.68
+    },
+    {
+     "w": "tudo,",
+     "s": 15.72,
+     "e": 16.24
+    },
+    {
+     "w": "do",
+     "s": 16.32,
+     "e": 16.4
+    },
+    {
+     "w": "zero,",
+     "s": 16.48,
+     "e": 17.04
+    },
+    {
+     "w": "tela",
+     "s": 17.08,
+     "e": 17.28
+    },
+    {
+     "w": "por",
+     "s": 17.36,
+     "e": 17.52
+    },
+    {
+     "w": "tela.",
+     "s": 17.6,
+     "e": 18.08
+    }
+   ],
+   "startFrame": 15,
+   "endFrame": 566
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "pantera": false,
+   "fala": "O segredo é juntar duas ferramentas. A primeira é o Claude Code, o agente de programação da Anthropic, que escreve e roda código para você. A segunda é o Remotion, que transforma código em vídeo de verdade, em MP4. E, para quem cria sozinho, o Remotion é grátis.",
+   "dados": {
+    "bg": "pexels/codigo.mp4",
+    "titulo": "Duas ferramentas",
+    "cols": 1,
+    "w": 1300,
+    "itens": [
+     {
+      "ao": "primeira",
+      "t": "Claude Code",
+      "sub": "escreve e roda o código para você",
+      "icone": "✻",
+      "cor": "laranja",
+      "em": 89
+     },
+     {
+      "ao": "segunda",
+      "t": "Remotion",
+      "sub": "transforma código em vídeo MP4",
+      "icone": "▶",
+      "cor": "ciano",
+      "em": 290
+     }
+    ],
+    "pilula": {
+     "ao": "grátis",
+     "txt": "Remotion: grátis para quem cria sozinho",
+     "cor": "verde",
+     "sfx": "coin",
+     "em": 521
+    },
+    "bgDur": 22
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "segredo",
+     "s": 0.28,
+     "e": 0.72
+    },
+    {
+     "w": "é",
+     "s": 0.76,
+     "e": 0.8
+    },
+    {
+     "w": "juntar",
+     "s": 0.84,
+     "e": 1.2
+    },
+    {
+     "w": "duas",
+     "s": 1.36,
+     "e": 1.6
+    },
+    {
+     "w": "ferramentas.",
+     "s": 1.64,
+     "e": 2.4
+    },
+    {
+     "w": "A",
+     "s": 2.72,
+     "e": 2.8
+    },
+    {
+     "w": "primeira",
+     "s": 2.96,
+     "e": 3.36
+    },
+    {
+     "w": "é",
+     "s": 3.44,
+     "e": 3.467
+    },
+    {
+     "w": "o",
+     "s": 3.493,
+     "e": 3.52
+    },
+    {
+     "w": "Claude",
+     "s": 3.68,
+     "e": 4
+    },
+    {
+     "w": "Code,",
+     "s": 4.08,
+     "e": 4.64
+    },
+    {
+     "w": "o",
+     "s": 4.68,
+     "e": 4.72
+    },
+    {
+     "w": "agente",
+     "s": 4.8,
+     "e": 5.04
+    },
+    {
+     "w": "de",
+     "s": 5.12,
+     "e": 5.2
+    },
+    {
+     "w": "programação",
+     "s": 5.36,
+     "e": 5.76
+    },
+    {
+     "w": "da",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "Anthropic,",
+     "s": 6,
+     "e": 6.64
+    },
+    {
+     "w": "que",
+     "s": 6.68,
+     "e": 6.72
+    },
+    {
+     "w": "escreve",
+     "s": 6.8,
+     "e": 7.44
+    },
+    {
+     "w": "e",
+     "s": 7.48,
+     "e": 7.52
+    },
+    {
+     "w": "roda",
+     "s": 7.6,
+     "e": 7.92
+    },
+    {
+     "w": "código",
+     "s": 8,
+     "e": 8.4
+    },
+    {
+     "w": "para",
+     "s": 8.48,
+     "e": 8.56
+    },
+    {
+     "w": "você.",
+     "s": 8.6,
+     "e": 9.44
+    },
+    {
+     "w": "A",
+     "s": 9.52,
+     "e": 9.6
+    },
+    {
+     "w": "segunda",
+     "s": 9.68,
+     "e": 10.16
+    },
+    {
+     "w": "é",
+     "s": 10.2,
+     "e": 10.24
+    },
+    {
+     "w": "o",
+     "s": 10.28,
+     "e": 10.32
+    },
+    {
+     "w": "Remotion,",
+     "s": 10.44,
+     "e": 11.12
+    },
+    {
+     "w": "que",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "transforma",
+     "s": 11.28,
+     "e": 11.76
+    },
+    {
+     "w": "código",
+     "s": 11.8,
+     "e": 12.24
+    },
+    {
+     "w": "em",
+     "s": 12.32,
+     "e": 12.48
+    },
+    {
+     "w": "vídeo",
+     "s": 12.56,
+     "e": 12.8
+    },
+    {
+     "w": "de",
+     "s": 12.84,
+     "e": 12.88
+    },
+    {
+     "w": "verdade,",
+     "s": 12.96,
+     "e": 13.68
+    },
+    {
+     "w": "em",
+     "s": 13.76,
+     "e": 13.84
+    },
+    {
+     "w": "MP4.",
+     "s": 13.92,
+     "e": 15.04
+    },
+    {
+     "w": "E,",
+     "s": 15.12,
+     "e": 15.36
+    },
+    {
+     "w": "para",
+     "s": 15.44,
+     "e": 15.52
+    },
+    {
+     "w": "quem",
+     "s": 15.573,
+     "e": 15.68
+    },
+    {
+     "w": "cria",
+     "s": 15.76,
+     "e": 15.92
+    },
+    {
+     "w": "sozinho,",
+     "s": 16.04,
+     "e": 16.56
+    },
+    {
+     "w": "o",
+     "s": 16.6,
+     "e": 16.64
+    },
+    {
+     "w": "Remotion",
+     "s": 16.76,
+     "e": 17.12
+    },
+    {
+     "w": "é",
+     "s": 17.2,
+     "e": 17.28
+    },
+    {
+     "w": "grátis.",
+     "s": 17.36,
+     "e": 18
+    }
+   ],
+   "startFrame": 566,
+   "endFrame": 1114
+  },
+  {
+   "id": "C03",
+   "tipo": "fluxo",
+   "pose": "pensando",
+   "pantera": false,
+   "fala": "Funciona assim: você pede, por exemplo, faça um vídeo de quinze segundos apresentando a minha loja. O Claude Code cria as cenas em código. Você assiste à prévia no navegador, pede ajustes, e no final exporta o arquivo pronto.",
+   "dados": {
+    "titulo": "Como funciona",
+    "etapas": [
+     {
+      "ao": "pede",
+      "t": "Você pede",
+      "sub": "em português",
+      "em": 46
+     },
+     {
+      "ao": "cria",
+      "t": "Claude cria",
+      "sub": "as cenas em código",
+      "em": 227
+     },
+     {
+      "ao": "prévia",
+      "t": "Prévia",
+      "sub": "no navegador",
+      "em": 302
+     },
+     {
+      "ao": "exporta",
+      "t": "Exporta",
+      "sub": "o MP4 pronto",
+      "em": 396
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Funciona",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "assim:",
+     "s": 0.52,
+     "e": 1.2
+    },
+    {
+     "w": "você",
+     "s": 1.28,
+     "e": 1.44
+    },
+    {
+     "w": "pede,",
+     "s": 1.52,
+     "e": 1.8
+    },
+    {
+     "w": "por",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "exemplo,",
+     "s": 2,
+     "e": 2.72
+    },
+    {
+     "w": "faça",
+     "s": 3.04,
+     "e": 3.28
+    },
+    {
+     "w": "um",
+     "s": 3.32,
+     "e": 3.36
+    },
+    {
+     "w": "vídeo",
+     "s": 3.44,
+     "e": 3.68
+    },
+    {
+     "w": "de",
+     "s": 3.76,
+     "e": 3.92
+    },
+    {
+     "w": "quinze",
+     "s": 4,
+     "e": 4.16
+    },
+    {
+     "w": "segundos",
+     "s": 4.24,
+     "e": 4.8
+    },
+    {
+     "w": "apresentando",
+     "s": 4.88,
+     "e": 5.44
+    },
+    {
+     "w": "a",
+     "s": 5.467,
+     "e": 5.493
+    },
+    {
+     "w": "minha",
+     "s": 5.52,
+     "e": 5.68
+    },
+    {
+     "w": "loja.",
+     "s": 5.76,
+     "e": 6.16
+    },
+    {
+     "w": "O",
+     "s": 6.64,
+     "e": 6.72
+    },
+    {
+     "w": "Claude",
+     "s": 6.8,
+     "e": 7.04
+    },
+    {
+     "w": "Code",
+     "s": 7.24,
+     "e": 7.44
+    },
+    {
+     "w": "cria",
+     "s": 7.56,
+     "e": 7.733
+    },
+    {
+     "w": "as",
+     "s": 7.787,
+     "e": 7.84
+    },
+    {
+     "w": "cenas",
+     "s": 7.92,
+     "e": 8.16
+    },
+    {
+     "w": "em",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "código.",
+     "s": 8.4,
+     "e": 9.04
+    },
+    {
+     "w": "Você",
+     "s": 9.2,
+     "e": 9.44
+    },
+    {
+     "w": "assiste",
+     "s": 9.56,
+     "e": 9.92
+    },
+    {
+     "w": "à",
+     "s": 9.973,
+     "e": 10.027
+    },
+    {
+     "w": "prévia",
+     "s": 10.08,
+     "e": 10.32
+    },
+    {
+     "w": "no",
+     "s": 10.36,
+     "e": 10.4
+    },
+    {
+     "w": "navegador,",
+     "s": 10.48,
+     "e": 11.36
+    },
+    {
+     "w": "pede",
+     "s": 11.44,
+     "e": 11.56
+    },
+    {
+     "w": "ajustes,",
+     "s": 11.6,
+     "e": 12.48
+    },
+    {
+     "w": "e",
+     "s": 12.52,
+     "e": 12.56
+    },
+    {
+     "w": "no",
+     "s": 12.64,
+     "e": 12.72
+    },
+    {
+     "w": "final",
+     "s": 12.88,
+     "e": 13.04
+    },
+    {
+     "w": "exporta",
+     "s": 13.2,
+     "e": 13.707
+    },
+    {
+     "w": "o",
+     "s": 13.733,
+     "e": 13.76
+    },
+    {
+     "w": "arquivo",
+     "s": 13.84,
+     "e": 14.08
+    },
+    {
+     "w": "pronto.",
+     "s": 14.16,
+     "e": 14.8
+    }
+   ],
+   "startFrame": 1114,
+   "endFrame": 1566
+  },
+  {
+   "id": "C04",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Com isso você cria vinheta para o seu canal, vídeo de produto, gráfico animado com os seus números, e até Reels e Shorts no formato vertical. E dá para ir além: montar uma fábrica que gera vídeos em série, todo dia. Se você quer aprender a montar essa fábrica, comenta fábrica de vídeos aqui embaixo. Se tiver demanda, eu faço esse vídeo.",
+   "dados": {
+    "bg": "pexels/criador.mp4",
+    "titulo": "O que dá pra criar",
+    "cols": 2,
+    "itens": [
+     {
+      "ao": "vinheta",
+      "t": "Vinheta",
+      "sub": "abertura do seu canal",
+      "em": 34
+     },
+     {
+      "ao": "produto",
+      "t": "Vídeo de produto",
+      "sub": "para vender mais",
+      "em": 89
+     },
+     {
+      "ao": "gráfico",
+      "t": "Gráfico animado",
+      "sub": "com os seus números",
+      "em": 118
+     },
+     {
+      "ao": "Reels",
+      "t": "Reels e Shorts",
+      "sub": "no formato vertical",
+      "em": 187
+     }
+    ],
+    "pilula": {
+     "ao": "comenta",
+     "txt": "Comente: Fábrica de Vídeos",
+     "cor": "ouro",
+     "sfx": "coin",
+     "em": 473
+    },
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "Com",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "isso",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "você",
+     "s": 0.56,
+     "e": 0.8
+    },
+    {
+     "w": "cria",
+     "s": 0.88,
+     "e": 1.04
+    },
+    {
+     "w": "vinheta",
+     "s": 1.12,
+     "e": 1.44
+    },
+    {
+     "w": "para",
+     "s": 1.52,
+     "e": 1.6
+    },
+    {
+     "w": "o",
+     "s": 1.64,
+     "e": 1.68
+    },
+    {
+     "w": "seu",
+     "s": 1.72,
+     "e": 1.84
+    },
+    {
+     "w": "canal,",
+     "s": 1.92,
+     "e": 2.56
+    },
+    {
+     "w": "vídeo",
+     "s": 2.64,
+     "e": 2.8
+    },
+    {
+     "w": "de",
+     "s": 2.84,
+     "e": 2.88
+    },
+    {
+     "w": "produto,",
+     "s": 2.96,
+     "e": 3.76
+    },
+    {
+     "w": "gráfico",
+     "s": 3.92,
+     "e": 4.08
+    },
+    {
+     "w": "animado",
+     "s": 4.2,
+     "e": 4.56
+    },
+    {
+     "w": "com",
+     "s": 4.6,
+     "e": 4.64
+    },
+    {
+     "w": "os",
+     "s": 4.68,
+     "e": 4.72
+    },
+    {
+     "w": "seus",
+     "s": 4.8,
+     "e": 4.96
+    },
+    {
+     "w": "números,",
+     "s": 5.04,
+     "e": 5.68
+    },
+    {
+     "w": "e",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "até",
+     "s": 6,
+     "e": 6.16
+    },
+    {
+     "w": "Reels",
+     "s": 6.24,
+     "e": 6.64
+    },
+    {
+     "w": "e",
+     "s": 6.693,
+     "e": 6.747
+    },
+    {
+     "w": "Shorts",
+     "s": 6.8,
+     "e": 7.16
+    },
+    {
+     "w": "no",
+     "s": 7.2,
+     "e": 7.28
+    },
+    {
+     "w": "formato",
+     "s": 7.44,
+     "e": 7.64
+    },
+    {
+     "w": "vertical.",
+     "s": 7.68,
+     "e": 8.24
+    },
+    {
+     "w": "E",
+     "s": 8.56,
+     "e": 8.64
+    },
+    {
+     "w": "dá",
+     "s": 8.68,
+     "e": 8.8
+    },
+    {
+     "w": "para",
+     "s": 8.88,
+     "e": 8.96
+    },
+    {
+     "w": "ir",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "além:",
+     "s": 9.2,
+     "e": 9.76
+    },
+    {
+     "w": "montar",
+     "s": 9.88,
+     "e": 10.08
+    },
+    {
+     "w": "uma",
+     "s": 10.16,
+     "e": 10.32
+    },
+    {
+     "w": "fábrica",
+     "s": 10.48,
+     "e": 10.88
+    },
+    {
+     "w": "que",
+     "s": 10.96,
+     "e": 11.04
+    },
+    {
+     "w": "gera",
+     "s": 11.12,
+     "e": 11.28
+    },
+    {
+     "w": "vídeos",
+     "s": 11.36,
+     "e": 11.68
+    },
+    {
+     "w": "em",
+     "s": 11.8,
+     "e": 11.92
+    },
+    {
+     "w": "série,",
+     "s": 12,
+     "e": 12.56
+    },
+    {
+     "w": "todo",
+     "s": 12.68,
+     "e": 12.8
+    },
+    {
+     "w": "dia.",
+     "s": 12.88,
+     "e": 13.2
+    },
+    {
+     "w": "Se",
+     "s": 13.6,
+     "e": 13.68
+    },
+    {
+     "w": "você",
+     "s": 13.72,
+     "e": 13.92
+    },
+    {
+     "w": "quer",
+     "s": 13.96,
+     "e": 14
+    },
+    {
+     "w": "aprender",
+     "s": 14.08,
+     "e": 14.4
+    },
+    {
+     "w": "a",
+     "s": 14.427,
+     "e": 14.453
+    },
+    {
+     "w": "montar",
+     "s": 14.48,
+     "e": 14.8
+    },
+    {
+     "w": "essa",
+     "s": 14.88,
+     "e": 14.96
+    },
+    {
+     "w": "fábrica,",
+     "s": 15.12,
+     "e": 15.68
+    },
+    {
+     "w": "comenta",
+     "s": 15.76,
+     "e": 16.08
+    },
+    {
+     "w": "fábrica",
+     "s": 16.24,
+     "e": 16.64
+    },
+    {
+     "w": "de",
+     "s": 16.68,
+     "e": 16.72
+    },
+    {
+     "w": "vídeos",
+     "s": 16.8,
+     "e": 17.12
+    },
+    {
+     "w": "aqui",
+     "s": 17.16,
+     "e": 17.28
+    },
+    {
+     "w": "embaixo.",
+     "s": 17.36,
+     "e": 18
+    },
+    {
+     "w": "Se",
+     "s": 18.04,
+     "e": 18.08
+    },
+    {
+     "w": "tiver",
+     "s": 18.16,
+     "e": 18.32
+    },
+    {
+     "w": "demanda,",
+     "s": 18.44,
+     "e": 19.04
+    },
+    {
+     "w": "eu",
+     "s": 19.12,
+     "e": 19.2
+    },
+    {
+     "w": "faço",
+     "s": 19.24,
+     "e": 19.36
+    },
+    {
+     "w": "esse",
+     "s": 19.44,
+     "e": 19.6
+    },
+    {
+     "w": "vídeo.",
+     "s": 19.68,
+     "e": 20.16
+    }
+   ],
+   "startFrame": 1566,
+   "endFrame": 2179
+  },
+  {
+   "id": "C05",
+   "tipo": "cta",
+   "fala": "Antes de começar, um pedido rápido. Se esse vídeo já está te ajudando, deixa o like e se inscreve no Aprenda YouTube. É assim que eu continuo trazendo tutorial de inteligência artificial, passo a passo, de graça.",
+   "dados": {
+    "bg": "pexels/comemora.mp4",
+    "like": {
+     "ao": "like",
+     "em": 144
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 164
+    },
+    "bgDur": 11
+   },
+   "words": [
+    {
+     "w": "Antes",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "de",
+     "s": 0.28,
+     "e": 0.32
+    },
+    {
+     "w": "começar,",
+     "s": 0.4,
+     "e": 1.04
+    },
+    {
+     "w": "um",
+     "s": 1.08,
+     "e": 1.12
+    },
+    {
+     "w": "pedido",
+     "s": 1.2,
+     "e": 1.44
+    },
+    {
+     "w": "rápido.",
+     "s": 1.52,
+     "e": 2
+    },
+    {
+     "w": "Se",
+     "s": 2.4,
+     "e": 2.48
+    },
+    {
+     "w": "esse",
+     "s": 2.6,
+     "e": 2.72
+    },
+    {
+     "w": "vídeo",
+     "s": 2.8,
+     "e": 3.04
+    },
+    {
+     "w": "já",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "está",
+     "s": 3.28,
+     "e": 3.56
+    },
+    {
+     "w": "te",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "ajudando,",
+     "s": 3.72,
+     "e": 4.48
+    },
+    {
+     "w": "deixa",
+     "s": 4.52,
+     "e": 4.72
+    },
+    {
+     "w": "o",
+     "s": 4.747,
+     "e": 4.773
+    },
+    {
+     "w": "like",
+     "s": 4.8,
+     "e": 5.12
+    },
+    {
+     "w": "e",
+     "s": 5.2,
+     "e": 5.24
+    },
+    {
+     "w": "se",
+     "s": 5.28,
+     "e": 5.36
+    },
+    {
+     "w": "inscreve",
+     "s": 5.48,
+     "e": 5.84
+    },
+    {
+     "w": "no",
+     "s": 5.92,
+     "e": 5.96
+    },
+    {
+     "w": "Aprenda",
+     "s": 6,
+     "e": 6.24
+    },
+    {
+     "w": "YouTube.",
+     "s": 6.32,
+     "e": 6.88
+    },
+    {
+     "w": "É",
+     "s": 7.2,
+     "e": 7.24
+    },
+    {
+     "w": "assim",
+     "s": 7.28,
+     "e": 7.52
+    },
+    {
+     "w": "que",
+     "s": 7.56,
+     "e": 7.6
+    },
+    {
+     "w": "eu",
+     "s": 7.627,
+     "e": 7.653
+    },
+    {
+     "w": "continuo",
+     "s": 7.68,
+     "e": 8.08
+    },
+    {
+     "w": "trazendo",
+     "s": 8.16,
+     "e": 8.56
+    },
+    {
+     "w": "tutorial",
+     "s": 8.8,
+     "e": 9.04
+    },
+    {
+     "w": "de",
+     "s": 9.08,
+     "e": 9.12
+    },
+    {
+     "w": "inteligência",
+     "s": 9.2,
+     "e": 9.68
+    },
+    {
+     "w": "artificial,",
+     "s": 9.76,
+     "e": 10.56
+    },
+    {
+     "w": "passo",
+     "s": 10.68,
+     "e": 10.84
+    },
+    {
+     "w": "a",
+     "s": 10.88,
+     "e": 10.92
+    },
+    {
+     "w": "passo,",
+     "s": 10.96,
+     "e": 11.52
+    },
+    {
+     "w": "de",
+     "s": 11.56,
+     "e": 11.6
+    },
+    {
+     "w": "graça.",
+     "s": 11.68,
+     "e": 12.32
+    }
+   ],
+   "startFrame": 2179,
+   "endFrame": 2556
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "pantera": false,
+   "fala": "O plano tem quatro passos. Um: instalar o Node, que é o motor que roda o Remotion. Dois: instalar o Claude Code. Três: criar o projeto de vídeo, já com as skills do Remotion. Quatro: pedir o vídeo em português e exportar.",
+   "dados": {
+    "bg": "pexels/foto-mesa.jpg",
+    "titulo": "O plano em 4 passos",
+    "cols": 1,
+    "w": 1300,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Instalar o Node",
+      "sub": "o motor que roda o Remotion",
+      "cor": "verde",
+      "em": 60
+     },
+     {
+      "ao": "Dois",
+      "t": "Instalar o Claude Code",
+      "sub": "o agente que escreve o código",
+      "cor": "laranja",
+      "em": 175
+     },
+     {
+      "ao": "Três",
+      "t": "Criar o projeto de vídeo",
+      "sub": "com as skills do Remotion",
+      "cor": "ciano",
+      "em": 252
+     },
+     {
+      "ao": "Quatro#2",
+      "t": "Pedir e exportar",
+      "sub": "em português, até o MP4",
+      "cor": "ouro",
+      "em": 378
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "plano",
+     "s": 0.16,
+     "e": 0.4
+    },
+    {
+     "w": "tem",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "quatro",
+     "s": 0.76,
+     "e": 0.96
+    },
+    {
+     "w": "passos.",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "Um:",
+     "s": 2,
+     "e": 2.56
+    },
+    {
+     "w": "instalar",
+     "s": 2.68,
+     "e": 2.96
+    },
+    {
+     "w": "o",
+     "s": 3.04,
+     "e": 3.08
+    },
+    {
+     "w": "Node,",
+     "s": 3.12,
+     "e": 3.6
+    },
+    {
+     "w": "que",
+     "s": 3.68,
+     "e": 3.76
+    },
+    {
+     "w": "é",
+     "s": 3.78,
+     "e": 3.8
+    },
+    {
+     "w": "o",
+     "s": 3.82,
+     "e": 3.84
+    },
+    {
+     "w": "motor",
+     "s": 3.92,
+     "e": 4.24
+    },
+    {
+     "w": "que",
+     "s": 4.32,
+     "e": 4.4
+    },
+    {
+     "w": "roda",
+     "s": 4.48,
+     "e": 4.72
+    },
+    {
+     "w": "o",
+     "s": 4.747,
+     "e": 4.773
+    },
+    {
+     "w": "Remotion.",
+     "s": 4.8,
+     "e": 5.44
+    },
+    {
+     "w": "Dois:",
+     "s": 5.84,
+     "e": 6.48
+    },
+    {
+     "w": "instalar",
+     "s": 6.6,
+     "e": 6.88
+    },
+    {
+     "w": "o",
+     "s": 6.96,
+     "e": 7.04
+    },
+    {
+     "w": "Claude",
+     "s": 7.12,
+     "e": 7.36
+    },
+    {
+     "w": "Code.",
+     "s": 7.44,
+     "e": 8
+    },
+    {
+     "w": "Três:",
+     "s": 8.4,
+     "e": 9.04
+    },
+    {
+     "w": "criar",
+     "s": 9.12,
+     "e": 9.36
+    },
+    {
+     "w": "o",
+     "s": 9.4,
+     "e": 9.44
+    },
+    {
+     "w": "projeto",
+     "s": 9.56,
+     "e": 9.84
+    },
+    {
+     "w": "de",
+     "s": 9.92,
+     "e": 10
+    },
+    {
+     "w": "vídeo,",
+     "s": 10.08,
+     "e": 10.56
+    },
+    {
+     "w": "já",
+     "s": 10.6,
+     "e": 10.72
+    },
+    {
+     "w": "com",
+     "s": 10.8,
+     "e": 10.88
+    },
+    {
+     "w": "as",
+     "s": 10.92,
+     "e": 10.96
+    },
+    {
+     "w": "skills",
+     "s": 11.12,
+     "e": 11.44
+    },
+    {
+     "w": "do",
+     "s": 11.48,
+     "e": 11.52
+    },
+    {
+     "w": "Remotion.",
+     "s": 11.64,
+     "e": 12.56
+    },
+    {
+     "w": "Quatro:",
+     "s": 12.6,
+     "e": 13.2
+    },
+    {
+     "w": "pedir",
+     "s": 13.32,
+     "e": 13.52
+    },
+    {
+     "w": "o",
+     "s": 13.56,
+     "e": 13.6
+    },
+    {
+     "w": "vídeo",
+     "s": 13.68,
+     "e": 13.84
+    },
+    {
+     "w": "em",
+     "s": 13.88,
+     "e": 13.92
+    },
+    {
+     "w": "português",
+     "s": 14.04,
+     "e": 14.56
+    },
+    {
+     "w": "e",
+     "s": 14.72,
+     "e": 14.76
+    },
+    {
+     "w": "exportar.",
+     "s": 14.8,
+     "e": 15.52
+    }
+   ],
+   "startFrame": 2556,
+   "endFrame": 3032
+  },
+  {
+   "id": "C07",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "O que você precisa? Um computador com Windows, Mac ou Linux. O Node, que a gente instala agora. E uma conta do Claude no plano Pro ou superior, porque o Claude Code faz parte da assinatura. E não precisa saber programar: quem escreve o código é ele.",
+   "dados": {
+    "bg": "pexels/setup.mp4",
+    "titulo": "O que você precisa",
+    "cols": 2,
+    "itens": [
+     {
+      "ao": "Windows",
+      "t": "Windows, Mac ou Linux",
+      "sub": "qualquer um dos três",
+      "icone": "▣",
+      "cor": "ciano",
+      "em": 67
+     },
+     {
+      "ao": "Node",
+      "t": "Node.js (LTS)",
+      "sub": "a gente instala agora",
+      "icone": "⬢",
+      "cor": "verde",
+      "em": 137
+     },
+     {
+      "ao": "Pro",
+      "t": "Claude Pro ou superior",
+      "sub": "o Claude Code vem na assinatura",
+      "icone": "✻",
+      "cor": "laranja",
+      "em": 247
+     },
+     {
+      "ao": "programar",
+      "t": "Sem saber programar",
+      "sub": "quem escreve o código é ele",
+      "icone": "✓",
+      "cor": "ouro",
+      "em": 408
+     }
+    ],
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "que",
+     "s": 0.16,
+     "e": 0.2
+    },
+    {
+     "w": "você",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "precisa?",
+     "s": 0.6,
+     "e": 1.2
+    },
+    {
+     "w": "Um",
+     "s": 1.36,
+     "e": 1.44
+    },
+    {
+     "w": "computador",
+     "s": 1.6,
+     "e": 2
+    },
+    {
+     "w": "com",
+     "s": 2.08,
+     "e": 2.16
+    },
+    {
+     "w": "Windows,",
+     "s": 2.24,
+     "e": 2.88
+    },
+    {
+     "w": "Mac",
+     "s": 2.96,
+     "e": 3.36
+    },
+    {
+     "w": "ou",
+     "s": 3.44,
+     "e": 3.52
+    },
+    {
+     "w": "Linux.",
+     "s": 3.6,
+     "e": 4.24
+    },
+    {
+     "w": "O",
+     "s": 4.4,
+     "e": 4.48
+    },
+    {
+     "w": "Node,",
+     "s": 4.56,
+     "e": 5.04
+    },
+    {
+     "w": "que",
+     "s": 5.08,
+     "e": 5.12
+    },
+    {
+     "w": "a",
+     "s": 5.16,
+     "e": 5.2
+    },
+    {
+     "w": "gente",
+     "s": 5.253,
+     "e": 5.36
+    },
+    {
+     "w": "instala",
+     "s": 5.44,
+     "e": 5.76
+    },
+    {
+     "w": "agora.",
+     "s": 5.84,
+     "e": 6.56
+    },
+    {
+     "w": "E",
+     "s": 6.6,
+     "e": 6.64
+    },
+    {
+     "w": "uma",
+     "s": 6.72,
+     "e": 6.8
+    },
+    {
+     "w": "conta",
+     "s": 6.88,
+     "e": 7.12
+    },
+    {
+     "w": "do",
+     "s": 7.2,
+     "e": 7.28
+    },
+    {
+     "w": "Claude",
+     "s": 7.36,
+     "e": 7.68
+    },
+    {
+     "w": "no",
+     "s": 7.76,
+     "e": 7.84
+    },
+    {
+     "w": "plano",
+     "s": 7.88,
+     "e": 8.08
+    },
+    {
+     "w": "Pro",
+     "s": 8.24,
+     "e": 8.56
+    },
+    {
+     "w": "ou",
+     "s": 8.64,
+     "e": 8.72
+    },
+    {
+     "w": "superior,",
+     "s": 8.8,
+     "e": 9.52
+    },
+    {
+     "w": "porque",
+     "s": 9.6,
+     "e": 9.72
+    },
+    {
+     "w": "o",
+     "s": 9.76,
+     "e": 9.84
+    },
+    {
+     "w": "Claude",
+     "s": 9.92,
+     "e": 10.16
+    },
+    {
+     "w": "Code",
+     "s": 10.32,
+     "e": 10.48
+    },
+    {
+     "w": "faz",
+     "s": 10.56,
+     "e": 10.8
+    },
+    {
+     "w": "parte",
+     "s": 10.88,
+     "e": 11.12
+    },
+    {
+     "w": "da",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "assinatura.",
+     "s": 11.32,
+     "e": 12.16
+    },
+    {
+     "w": "E",
+     "s": 12.24,
+     "e": 12.32
+    },
+    {
+     "w": "não",
+     "s": 12.48,
+     "e": 12.64
+    },
+    {
+     "w": "precisa",
+     "s": 12.72,
+     "e": 13.12
+    },
+    {
+     "w": "saber",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "programar:",
+     "s": 13.6,
+     "e": 14.24
+    },
+    {
+     "w": "quem",
+     "s": 14.267,
+     "e": 14.32
+    },
+    {
+     "w": "escreve",
+     "s": 14.4,
+     "e": 14.72
+    },
+    {
+     "w": "o",
+     "s": 14.76,
+     "e": 14.8
+    },
+    {
+     "w": "código",
+     "s": 14.88,
+     "e": 15.36
+    },
+    {
+     "w": "é",
+     "s": 15.44,
+     "e": 15.52
+    },
+    {
+     "w": "ele.",
+     "s": 15.6,
+     "e": 16.16
+    }
+   ],
+   "startFrame": 3032,
+   "endFrame": 3525
+  },
+  {
+   "id": "C08",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Passo um. Abra o navegador e entre em nodejs ponto org, barra download. O site já reconhece o seu sistema. Baixe a versão LTS, que é a versão estável. No Windows, clique em Windows Installer. No Mac, o botão é o macOS Installer.",
+   "dados": {
+    "url": "nodejs.org/en/download",
+    "selo": "Passo 1: Node.js",
+    "digitar": {
+     "ao": "entre",
+     "em": 77
+    },
+    "telas": [
+     {
+      "ao": "entre",
+      "arq": "node-download-windows.png",
+      "em": 77
+     },
+     {
+      "ao": "Mac",
+      "arq": "node-download-mac.png",
+      "em": 467
+     }
+    ],
+    "destaque": {
+     "ao": "LTS",
+     "x": 190,
+     "y": 80,
+     "w": 140,
+     "h": 26,
+     "em": 298
+    },
+    "cliques": [
+     {
+      "ao": "Windows#2",
+      "x": 384,
+      "y": 726,
+      "chip": "node-v26.13.1-x64.msi",
+      "em": 418
+     },
+     {
+      "ao": "macOS",
+      "x": 384,
+      "y": 726,
+      "chip": "node-v26.13.1.pkg",
+      "em": 499
+     }
+    ],
+    "zoom": {
+     "z": 1.35,
+     "vx": 60,
+     "vy": 30
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "um.",
+     "s": 0.48,
+     "e": 0.8
+    },
+    {
+     "w": "Abra",
+     "s": 1.28,
+     "e": 1.48
+    },
+    {
+     "w": "o",
+     "s": 1.52,
+     "e": 1.547
+    },
+    {
+     "w": "navegador",
+     "s": 1.573,
+     "e": 2.24
+    },
+    {
+     "w": "e",
+     "s": 2.4,
+     "e": 2.48
+    },
+    {
+     "w": "entre",
+     "s": 2.56,
+     "e": 2.88
+    },
+    {
+     "w": "em",
+     "s": 2.96,
+     "e": 3.04
+    },
+    {
+     "w": "nodejs",
+     "s": 3.12,
+     "e": 4.08
+    },
+    {
+     "w": "ponto",
+     "s": 4.16,
+     "e": 4.4
+    },
+    {
+     "w": "org,",
+     "s": 4.56,
+     "e": 5.04
+    },
+    {
+     "w": "barra",
+     "s": 5.16,
+     "e": 5.36
+    },
+    {
+     "w": "download.",
+     "s": 5.44,
+     "e": 6.08
+    },
+    {
+     "w": "O",
+     "s": 6.48,
+     "e": 6.56
+    },
+    {
+     "w": "site",
+     "s": 6.64,
+     "e": 6.96
+    },
+    {
+     "w": "já",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "reconhece",
+     "s": 7.2,
+     "e": 7.68
+    },
+    {
+     "w": "o",
+     "s": 7.707,
+     "e": 7.733
+    },
+    {
+     "w": "seu",
+     "s": 7.76,
+     "e": 7.92
+    },
+    {
+     "w": "sistema.",
+     "s": 8.08,
+     "e": 8.48
+    },
+    {
+     "w": "Baixe",
+     "s": 8.96,
+     "e": 9.28
+    },
+    {
+     "w": "a",
+     "s": 9.307,
+     "e": 9.333
+    },
+    {
+     "w": "versão",
+     "s": 9.36,
+     "e": 9.76
+    },
+    {
+     "w": "LTS,",
+     "s": 9.92,
+     "e": 10.8
+    },
+    {
+     "w": "que",
+     "s": 10.88,
+     "e": 10.96
+    },
+    {
+     "w": "é",
+     "s": 11,
+     "e": 11.04
+    },
+    {
+     "w": "a",
+     "s": 11.067,
+     "e": 11.093
+    },
+    {
+     "w": "versão",
+     "s": 11.12,
+     "e": 11.44
+    },
+    {
+     "w": "estável.",
+     "s": 11.56,
+     "e": 12.08
+    },
+    {
+     "w": "No",
+     "s": 12.56,
+     "e": 12.64
+    },
+    {
+     "w": "Windows,",
+     "s": 12.72,
+     "e": 13.2
+    },
+    {
+     "w": "clique",
+     "s": 13.28,
+     "e": 13.6
+    },
+    {
+     "w": "em",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "Windows",
+     "s": 13.92,
+     "e": 14.24
+    },
+    {
+     "w": "Installer.",
+     "s": 14.32,
+     "e": 14.96
+    },
+    {
+     "w": "No",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "Mac,",
+     "s": 15.56,
+     "e": 15.92
+    },
+    {
+     "w": "o",
+     "s": 15.947,
+     "e": 15.973
+    },
+    {
+     "w": "botão",
+     "s": 16,
+     "e": 16.4
+    },
+    {
+     "w": "é",
+     "s": 16.44,
+     "e": 16.48
+    },
+    {
+     "w": "o",
+     "s": 16.52,
+     "e": 16.56
+    },
+    {
+     "w": "macOS",
+     "s": 16.64,
+     "e": 17.28
+    },
+    {
+     "w": "Installer.",
+     "s": 17.36,
+     "e": 18.08
+    }
+   ],
+   "startFrame": 3525,
+   "endFrame": 4078
+  },
+  {
+   "id": "C09",
+   "tipo": "instalador-assistente",
+   "pose": "comemorando",
+   "pantera": false,
+   "fala": "Abra o arquivo que você baixou e vá clicando em Next, ou Continuar no Mac, até o final. É o instalador padrão, sem nenhuma configuração especial.",
+   "dados": {
+    "nome": "Node.js Setup",
+    "titulo": "Instalar o Node.js",
+    "sub": "O ambiente que roda o Remotion no seu computador.",
+    "b": {
+     "ao": "Next",
+     "em": 82
+    },
+    "c": {
+     "ao": "final",
+     "em": 156
+    },
+    "selo": "Node.js instalado"
+   },
+   "words": [
+    {
+     "w": "Abra",
+     "s": 0,
+     "e": 0.267
+    },
+    {
+     "w": "o",
+     "s": 0.293,
+     "e": 0.32
+    },
+    {
+     "w": "arquivo",
+     "s": 0.4,
+     "e": 0.72
+    },
+    {
+     "w": "que",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "você",
+     "s": 0.96,
+     "e": 1.12
+    },
+    {
+     "w": "baixou",
+     "s": 1.16,
+     "e": 1.68
+    },
+    {
+     "w": "e",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "vá",
+     "s": 2,
+     "e": 2.08
+    },
+    {
+     "w": "clicando",
+     "s": 2.12,
+     "e": 2.48
+    },
+    {
+     "w": "em",
+     "s": 2.56,
+     "e": 2.64
+    },
+    {
+     "w": "Next,",
+     "s": 2.72,
+     "e": 3.36
+    },
+    {
+     "w": "ou",
+     "s": 3.44,
+     "e": 3.6
+    },
+    {
+     "w": "Continuar",
+     "s": 3.68,
+     "e": 4.24
+    },
+    {
+     "w": "no",
+     "s": 4.28,
+     "e": 4.32
+    },
+    {
+     "w": "Mac,",
+     "s": 4.4,
+     "e": 4.8
+    },
+    {
+     "w": "até",
+     "s": 4.88,
+     "e": 5.08
+    },
+    {
+     "w": "o",
+     "s": 5.12,
+     "e": 5.16
+    },
+    {
+     "w": "final.",
+     "s": 5.2,
+     "e": 5.6
+    },
+    {
+     "w": "É",
+     "s": 6.08,
+     "e": 6.107
+    },
+    {
+     "w": "o",
+     "s": 6.133,
+     "e": 6.16
+    },
+    {
+     "w": "instalador",
+     "s": 6.24,
+     "e": 6.64
+    },
+    {
+     "w": "padrão,",
+     "s": 6.72,
+     "e": 7.28
+    },
+    {
+     "w": "sem",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "nenhuma",
+     "s": 7.52,
+     "e": 7.92
+    },
+    {
+     "w": "configuração",
+     "s": 8,
+     "e": 8.56
+    },
+    {
+     "w": "especial.",
+     "s": 8.64,
+     "e": 9.44
+    }
+   ],
+   "startFrame": 4078,
+   "endFrame": 4369
+  },
+  {
+   "id": "C10",
+   "tipo": "terminal",
+   "pantera": false,
+   "fala": "No Linux, a própria página do Node mostra os comandos prontos. Primeiro, um comando instala o ene vê eme, o gerenciador de versões. Depois, digite: ene vê eme install vinte e seis.",
+   "dados": {
+    "titulo": "Linux · Terminal",
+    "rotulo": "LINUX",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash",
+      "ao": "instala",
+      "cpf": 1.6,
+      "em": 166
+     },
+     {
+      "t": "dim",
+      "text": "=> nvm instalado"
+     },
+     {
+      "t": "cmd",
+      "text": "\\. \"$HOME/.nvm/nvm.sh\"",
+      "cpf": 1.2
+     },
+     {
+      "t": "cmd",
+      "text": "nvm install 26",
+      "ao": "digite",
+      "em": 283
+     },
+     {
+      "t": "dim",
+      "text": "Downloading and installing node v26.13.1..."
+     },
+     {
+      "t": "ok",
+      "text": "Now using node v26.13.1 (npm v11.20.0)"
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "No",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "Linux,",
+     "s": 0.44,
+     "e": 0.8
+    },
+    {
+     "w": "a",
+     "s": 0.88,
+     "e": 0.96
+    },
+    {
+     "w": "própria",
+     "s": 1.04,
+     "e": 1.36
+    },
+    {
+     "w": "página",
+     "s": 1.44,
+     "e": 1.76
+    },
+    {
+     "w": "do",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "Node",
+     "s": 2,
+     "e": 2.4
+    },
+    {
+     "w": "mostra",
+     "s": 2.48,
+     "e": 2.72
+    },
+    {
+     "w": "os",
+     "s": 2.8,
+     "e": 2.88
+    },
+    {
+     "w": "comandos",
+     "s": 2.96,
+     "e": 3.28
+    },
+    {
+     "w": "prontos.",
+     "s": 3.36,
+     "e": 3.92
+    },
+    {
+     "w": "Primeiro,",
+     "s": 4.32,
+     "e": 4.88
+    },
+    {
+     "w": "um",
+     "s": 4.92,
+     "e": 4.96
+    },
+    {
+     "w": "comando",
+     "s": 5.04,
+     "e": 5.36
+    },
+    {
+     "w": "instala",
+     "s": 5.52,
+     "e": 5.84
+    },
+    {
+     "w": "o",
+     "s": 5.92,
+     "e": 6
+    },
+    {
+     "w": "ene",
+     "s": 6.08,
+     "e": 6.24
+    },
+    {
+     "w": "vê",
+     "s": 6.36,
+     "e": 6.48
+    },
+    {
+     "w": "eme,",
+     "s": 6.6,
+     "e": 6.88
+    },
+    {
+     "w": "o",
+     "s": 6.96,
+     "e": 7.04
+    },
+    {
+     "w": "gerenciador",
+     "s": 7.12,
+     "e": 7.6
+    },
+    {
+     "w": "de",
+     "s": 7.64,
+     "e": 7.68
+    },
+    {
+     "w": "versões.",
+     "s": 7.76,
+     "e": 8.4
+    },
+    {
+     "w": "Depois,",
+     "s": 8.8,
+     "e": 9.36
+    },
+    {
+     "w": "digite:",
+     "s": 9.44,
+     "e": 10
+    },
+    {
+     "w": "ene",
+     "s": 10.32,
+     "e": 10.56
+    },
+    {
+     "w": "vê",
+     "s": 10.68,
+     "e": 10.8
+    },
+    {
+     "w": "eme",
+     "s": 10.92,
+     "e": 11.04
+    },
+    {
+     "w": "install",
+     "s": 11.2,
+     "e": 11.76
+    },
+    {
+     "w": "vinte",
+     "s": 11.92,
+     "e": 12.08
+    },
+    {
+     "w": "e",
+     "s": 12.16,
+     "e": 12.24
+    },
+    {
+     "w": "seis.",
+     "s": 12.32,
+     "e": 12.96
+    }
+   ],
+   "startFrame": 4369,
+   "endFrame": 4766
+  },
+  {
+   "id": "C11",
+   "tipo": "terminal",
+   "pose": "comemorando",
+   "pantera": false,
+   "fala": "Para conferir, abra um terminal novo e digite node, espaço, traço v. Se aparecer vinte e seis e mais um número, o passo um está pronto.",
+   "dados": {
+    "titulo": "Terminal",
+    "size": 44,
+    "h": 420,
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "node -v",
+      "ao": "digite",
+      "em": 78
+     },
+     {
+      "t": "ok",
+      "text": "v26.13.1",
+      "ao": "aparecer",
+      "em": 184
+     }
+    ],
+    "selo": {
+     "ao": "pronto",
+     "txt": "Passo 1 pronto",
+     "em": 281
+    }
+   },
+   "words": [
+    {
+     "w": "Para",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "conferir,",
+     "s": 0.32,
+     "e": 1.04
+    },
+    {
+     "w": "abra",
+     "s": 1.2,
+     "e": 1.36
+    },
+    {
+     "w": "um",
+     "s": 1.4,
+     "e": 1.44
+    },
+    {
+     "w": "terminal",
+     "s": 1.64,
+     "e": 1.84
+    },
+    {
+     "w": "novo",
+     "s": 1.92,
+     "e": 2.32
+    },
+    {
+     "w": "e",
+     "s": 2.4,
+     "e": 2.48
+    },
+    {
+     "w": "digite",
+     "s": 2.6,
+     "e": 2.96
+    },
+    {
+     "w": "node,",
+     "s": 3.12,
+     "e": 3.68
+    },
+    {
+     "w": "espaço,",
+     "s": 3.8,
+     "e": 4.56
+    },
+    {
+     "w": "traço",
+     "s": 4.68,
+     "e": 5.04
+    },
+    {
+     "w": "v.",
+     "s": 5.2,
+     "e": 5.52
+    },
+    {
+     "w": "Se",
+     "s": 6,
+     "e": 6.08
+    },
+    {
+     "w": "aparecer",
+     "s": 6.12,
+     "e": 6.56
+    },
+    {
+     "w": "vinte",
+     "s": 6.64,
+     "e": 6.88
+    },
+    {
+     "w": "e",
+     "s": 6.96,
+     "e": 7.04
+    },
+    {
+     "w": "seis",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "e",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "mais",
+     "s": 7.52,
+     "e": 7.68
+    },
+    {
+     "w": "um",
+     "s": 7.76,
+     "e": 7.84
+    },
+    {
+     "w": "número,",
+     "s": 7.88,
+     "e": 8.48
+    },
+    {
+     "w": "o",
+     "s": 8.52,
+     "e": 8.56
+    },
+    {
+     "w": "passo",
+     "s": 8.64,
+     "e": 8.88
+    },
+    {
+     "w": "um",
+     "s": 8.96,
+     "e": 9.04
+    },
+    {
+     "w": "está",
+     "s": 9.12,
+     "e": 9.32
+    },
+    {
+     "w": "pronto.",
+     "s": 9.36,
+     "e": 10
+    }
+   ],
+   "startFrame": 4766,
+   "endFrame": 5074
+  },
+  {
+   "id": "C12",
+   "tipo": "terminais-claude",
+   "pantera": false,
+   "fala": "Passo dois: instalar o Claude Code. No Windows, abra o PowerShell e cole este comando. No Mac e no Linux, abra o terminal e cole este outro. O instalador não mostra progresso, então espere ele terminar.",
+   "dados": {
+    "win": {
+     "ao": "PowerShell",
+     "em": 130
+    },
+    "mac": {
+     "ao": "Mac",
+     "em": 206
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "dois:",
+     "s": 0.4,
+     "e": 1.12
+    },
+    {
+     "w": "instalar",
+     "s": 1.24,
+     "e": 1.6
+    },
+    {
+     "w": "o",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "Claude",
+     "s": 1.84,
+     "e": 2.16
+    },
+    {
+     "w": "Code.",
+     "s": 2.36,
+     "e": 2.72
+    },
+    {
+     "w": "No",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "Windows,",
+     "s": 3.28,
+     "e": 3.92
+    },
+    {
+     "w": "abra",
+     "s": 4,
+     "e": 4.16
+    },
+    {
+     "w": "o",
+     "s": 4.24,
+     "e": 4.28
+    },
+    {
+     "w": "PowerShell",
+     "s": 4.32,
+     "e": 4.96
+    },
+    {
+     "w": "e",
+     "s": 5.04,
+     "e": 5.12
+    },
+    {
+     "w": "cole",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "este",
+     "s": 5.52,
+     "e": 5.76
+    },
+    {
+     "w": "comando.",
+     "s": 5.88,
+     "e": 6.32
+    },
+    {
+     "w": "No",
+     "s": 6.72,
+     "e": 6.8
+    },
+    {
+     "w": "Mac",
+     "s": 6.88,
+     "e": 7.2
+    },
+    {
+     "w": "e",
+     "s": 7.24,
+     "e": 7.28
+    },
+    {
+     "w": "no",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "Linux,",
+     "s": 7.68,
+     "e": 8.08
+    },
+    {
+     "w": "abra",
+     "s": 8.2,
+     "e": 8.32
+    },
+    {
+     "w": "o",
+     "s": 8.36,
+     "e": 8.4
+    },
+    {
+     "w": "terminal",
+     "s": 8.68,
+     "e": 8.96
+    },
+    {
+     "w": "e",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "cole",
+     "s": 9.2,
+     "e": 9.44
+    },
+    {
+     "w": "este",
+     "s": 9.6,
+     "e": 9.76
+    },
+    {
+     "w": "outro.",
+     "s": 9.84,
+     "e": 10.4
+    },
+    {
+     "w": "O",
+     "s": 10.64,
+     "e": 10.68
+    },
+    {
+     "w": "instalador",
+     "s": 10.72,
+     "e": 11.28
+    },
+    {
+     "w": "não",
+     "s": 11.36,
+     "e": 11.52
+    },
+    {
+     "w": "mostra",
+     "s": 11.6,
+     "e": 11.84
+    },
+    {
+     "w": "progresso,",
+     "s": 11.92,
+     "e": 12.72
+    },
+    {
+     "w": "então",
+     "s": 12.84,
+     "e": 13.2
+    },
+    {
+     "w": "espere",
+     "s": 13.36,
+     "e": 13.68
+    },
+    {
+     "w": "ele",
+     "s": 13.76,
+     "e": 13.84
+    },
+    {
+     "w": "terminar.",
+     "s": 14,
+     "e": 14.64
+    }
+   ],
+   "startFrame": 5074,
+   "endFrame": 5522
+  },
+  {
+   "id": "C13",
+   "tipo": "terminal-versao-claude",
+   "pantera": false,
+   "fala": "Quando terminar, feche o terminal e abra de novo. Digite claude, dois traços, version. Apareceu a versão? Está instalado. Se o terminal disser que não achou o comando, feche e abra mais uma vez. A página de instalação explica como ajustar o caminho.",
+   "dados": {
+    "t": {
+     "ao": "Digite",
+     "em": 103
+    },
+    "ok": {
+     "ao": "Apareceu",
+     "em": 197
+    },
+    "err": {
+     "ao": "disser",
+     "em": 290
+    },
+    "fix": {
+     "ao": "explica",
+     "em": 452
+    }
+   },
+   "words": [
+    {
+     "w": "Quando",
+     "s": 0,
+     "e": 0.2
+    },
+    {
+     "w": "terminar,",
+     "s": 0.24,
+     "e": 0.8
+    },
+    {
+     "w": "feche",
+     "s": 1.04,
+     "e": 1.36
+    },
+    {
+     "w": "o",
+     "s": 1.4,
+     "e": 1.44
+    },
+    {
+     "w": "terminal",
+     "s": 1.72,
+     "e": 2
+    },
+    {
+     "w": "e",
+     "s": 2.16,
+     "e": 2.24
+    },
+    {
+     "w": "abra",
+     "s": 2.36,
+     "e": 2.48
+    },
+    {
+     "w": "de",
+     "s": 2.56,
+     "e": 2.64
+    },
+    {
+     "w": "novo.",
+     "s": 2.68,
+     "e": 3.24
+    },
+    {
+     "w": "Digite",
+     "s": 3.44,
+     "e": 3.84
+    },
+    {
+     "w": "claude,",
+     "s": 4,
+     "e": 4.64
+    },
+    {
+     "w": "dois",
+     "s": 4.68,
+     "e": 4.8
+    },
+    {
+     "w": "traços,",
+     "s": 4.88,
+     "e": 5.56
+    },
+    {
+     "w": "version.",
+     "s": 5.68,
+     "e": 6.24
+    },
+    {
+     "w": "Apareceu",
+     "s": 6.56,
+     "e": 6.96
+    },
+    {
+     "w": "a",
+     "s": 7,
+     "e": 7.04
+    },
+    {
+     "w": "versão?",
+     "s": 7.16,
+     "e": 7.52
+    },
+    {
+     "w": "Está",
+     "s": 7.84,
+     "e": 8.16
+    },
+    {
+     "w": "instalado.",
+     "s": 8.24,
+     "e": 8.72
+    },
+    {
+     "w": "Se",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "o",
+     "s": 9.16,
+     "e": 9.2
+    },
+    {
+     "w": "terminal",
+     "s": 9.4,
+     "e": 9.6
+    },
+    {
+     "w": "disser",
+     "s": 9.68,
+     "e": 9.92
+    },
+    {
+     "w": "que",
+     "s": 10,
+     "e": 10.08
+    },
+    {
+     "w": "não",
+     "s": 10.16,
+     "e": 10.32
+    },
+    {
+     "w": "achou",
+     "s": 10.44,
+     "e": 10.64
+    },
+    {
+     "w": "o",
+     "s": 10.68,
+     "e": 10.72
+    },
+    {
+     "w": "comando,",
+     "s": 10.8,
+     "e": 11.44
+    },
+    {
+     "w": "feche",
+     "s": 11.52,
+     "e": 11.92
+    },
+    {
+     "w": "e",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "abra",
+     "s": 12.32,
+     "e": 12.48
+    },
+    {
+     "w": "mais",
+     "s": 12.56,
+     "e": 12.72
+    },
+    {
+     "w": "uma",
+     "s": 12.8,
+     "e": 12.88
+    },
+    {
+     "w": "vez.",
+     "s": 12.96,
+     "e": 13.36
+    },
+    {
+     "w": "A",
+     "s": 13.76,
+     "e": 13.84
+    },
+    {
+     "w": "página",
+     "s": 13.92,
+     "e": 14.24
+    },
+    {
+     "w": "de",
+     "s": 14.28,
+     "e": 14.32
+    },
+    {
+     "w": "instalação",
+     "s": 14.4,
+     "e": 14.96
+    },
+    {
+     "w": "explica",
+     "s": 15.08,
+     "e": 15.44
+    },
+    {
+     "w": "como",
+     "s": 15.6,
+     "e": 15.76
+    },
+    {
+     "w": "ajustar",
+     "s": 15.84,
+     "e": 16.16
+    },
+    {
+     "w": "o",
+     "s": 16.24,
+     "e": 16.28
+    },
+    {
+     "w": "caminho.",
+     "s": 16.32,
+     "e": 16.96
+    }
+   ],
+   "startFrame": 5522,
+   "endFrame": 6039
+  },
+  {
+   "id": "C14",
+   "tipo": "terminal",
+   "pantera": false,
+   "fala": "Na primeira vez, digite só claude e faça login com a sua conta, no navegador. Passo três: o projeto de vídeo. No terminal, digite: ene pê xis, create video, dois traços yes, dois traços blank, meu vídeo. Esse comando cria um projeto do Remotion em branco, na pasta meu vídeo.",
+   "dados": {
+    "titulo": "Terminal",
+    "rotulo": "PASSO 3: PROJETO DE VÍDEO",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "claude",
+      "ao": "só",
+      "em": 49
+     },
+     {
+      "t": "dim",
+      "text": "Abrindo o navegador para o login…"
+     },
+     {
+      "t": "ok",
+      "text": "✔ Login feito"
+     },
+     {
+      "t": "cmd",
+      "text": "npx create-video --yes --blank meu-video",
+      "ao": "digite#2",
+      "em": 275
+     },
+     {
+      "t": "out",
+      "text": "Welcome to Remotion!"
+     },
+     {
+      "t": "dim",
+      "text": "Installing dependencies..."
+     },
+     {
+      "t": "ok",
+      "text": "✔ Projeto criado em ./meu-video",
+      "ao": "cria",
+      "em": 530
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Na",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "primeira",
+     "s": 0.28,
+     "e": 0.48
+    },
+    {
+     "w": "vez,",
+     "s": 0.64,
+     "e": 1.12
+    },
+    {
+     "w": "digite",
+     "s": 1.2,
+     "e": 1.6
+    },
+    {
+     "w": "só",
+     "s": 1.64,
+     "e": 1.76
+    },
+    {
+     "w": "claude",
+     "s": 1.92,
+     "e": 2.48
+    },
+    {
+     "w": "e",
+     "s": 2.56,
+     "e": 2.64
+    },
+    {
+     "w": "faça",
+     "s": 2.72,
+     "e": 2.96
+    },
+    {
+     "w": "login",
+     "s": 3.04,
+     "e": 3.36
+    },
+    {
+     "w": "com",
+     "s": 3.4,
+     "e": 3.44
+    },
+    {
+     "w": "a",
+     "s": 3.48,
+     "e": 3.52
+    },
+    {
+     "w": "sua",
+     "s": 3.56,
+     "e": 3.76
+    },
+    {
+     "w": "conta,",
+     "s": 3.84,
+     "e": 4.32
+    },
+    {
+     "w": "no",
+     "s": 4.36,
+     "e": 4.4
+    },
+    {
+     "w": "navegador.",
+     "s": 4.48,
+     "e": 5.28
+    },
+    {
+     "w": "Passo",
+     "s": 5.52,
+     "e": 5.76
+    },
+    {
+     "w": "três:",
+     "s": 5.92,
+     "e": 6.64
+    },
+    {
+     "w": "o",
+     "s": 6.667,
+     "e": 6.693
+    },
+    {
+     "w": "projeto",
+     "s": 6.72,
+     "e": 7.28
+    },
+    {
+     "w": "de",
+     "s": 7.32,
+     "e": 7.36
+    },
+    {
+     "w": "vídeo.",
+     "s": 7.44,
+     "e": 8.04
+    },
+    {
+     "w": "No",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "terminal,",
+     "s": 8.6,
+     "e": 9.04
+    },
+    {
+     "w": "digite:",
+     "s": 9.16,
+     "e": 10
+    },
+    {
+     "w": "ene",
+     "s": 10.12,
+     "e": 10.24
+    },
+    {
+     "w": "pê",
+     "s": 10.28,
+     "e": 10.4
+    },
+    {
+     "w": "xis,",
+     "s": 10.64,
+     "e": 10.96
+    },
+    {
+     "w": "create",
+     "s": 11.2,
+     "e": 11.68
+    },
+    {
+     "w": "video,",
+     "s": 11.76,
+     "e": 12.56
+    },
+    {
+     "w": "dois",
+     "s": 12.6,
+     "e": 12.72
+    },
+    {
+     "w": "traços",
+     "s": 12.88,
+     "e": 13.28
+    },
+    {
+     "w": "yes,",
+     "s": 13.44,
+     "e": 14.24
+    },
+    {
+     "w": "dois",
+     "s": 14.28,
+     "e": 14.4
+    },
+    {
+     "w": "traços",
+     "s": 14.48,
+     "e": 14.96
+    },
+    {
+     "w": "blank,",
+     "s": 15.12,
+     "e": 15.84
+    },
+    {
+     "w": "meu",
+     "s": 15.92,
+     "e": 16.08
+    },
+    {
+     "w": "vídeo.",
+     "s": 16.16,
+     "e": 16.56
+    },
+    {
+     "w": "Esse",
+     "s": 16.88,
+     "e": 17.04
+    },
+    {
+     "w": "comando",
+     "s": 17.12,
+     "e": 17.6
+    },
+    {
+     "w": "cria",
+     "s": 17.68,
+     "e": 17.8
+    },
+    {
+     "w": "um",
+     "s": 17.84,
+     "e": 17.92
+    },
+    {
+     "w": "projeto",
+     "s": 18.04,
+     "e": 18.4
+    },
+    {
+     "w": "do",
+     "s": 18.44,
+     "e": 18.48
+    },
+    {
+     "w": "Remotion",
+     "s": 18.56,
+     "e": 19.04
+    },
+    {
+     "w": "em",
+     "s": 19.12,
+     "e": 19.2
+    },
+    {
+     "w": "branco,",
+     "s": 19.28,
+     "e": 19.76
+    },
+    {
+     "w": "na",
+     "s": 19.84,
+     "e": 19.92
+    },
+    {
+     "w": "pasta",
+     "s": 20,
+     "e": 20.32
+    },
+    {
+     "w": "meu",
+     "s": 20.48,
+     "e": 20.64
+    },
+    {
+     "w": "vídeo.",
+     "s": 20.72,
+     "e": 21.36
+    }
+   ],
+   "startFrame": 6039,
+   "endFrame": 6688
+  },
+  {
+   "id": "C15",
+   "tipo": "terminal",
+   "pose": "apontando",
+   "fala": "Agora entre na pasta, com cd meu vídeo, e instale as skills do Remotion: ene pê xis, remotion skills add. As skills são o manual de boas práticas do Remotion para o Claude. Com elas, ele já sabe animar texto, colocar áudio, legenda e exportar.",
+   "dados": {
+    "titulo": "Terminal",
+    "rotulo": "SKILLS DO REMOTION",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "cd meu-video",
+      "ao": "entre",
+      "em": 14
+     },
+     {
+      "t": "cmd",
+      "text": "npx remotion skills add",
+      "ao": "instale",
+      "em": 108
+     },
+     {
+      "t": "dim",
+      "text": "◇  Found 13 skills"
+     },
+     {
+      "t": "dim",
+      "text": "●  Installing all 13 skills"
+     },
+     {
+      "t": "ok",
+      "text": "└  Done!",
+      "ao": "manual",
+      "em": 292
+     }
+    ],
+    "selo": {
+     "ao": "manual",
+     "txt": "O manual do Remotion para o Claude",
+     "em": 292
+    }
+   },
+   "words": [
+    {
+     "w": "Agora",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "entre",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "na",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "pasta,",
+     "s": 0.96,
+     "e": 1.6
+    },
+    {
+     "w": "com",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "cd",
+     "s": 1.92,
+     "e": 2.32
+    },
+    {
+     "w": "meu",
+     "s": 2.4,
+     "e": 2.56
+    },
+    {
+     "w": "vídeo,",
+     "s": 2.64,
+     "e": 3.2
+    },
+    {
+     "w": "e",
+     "s": 3.36,
+     "e": 3.44
+    },
+    {
+     "w": "instale",
+     "s": 3.6,
+     "e": 3.92
+    },
+    {
+     "w": "as",
+     "s": 3.96,
+     "e": 4
+    },
+    {
+     "w": "skills",
+     "s": 4.16,
+     "e": 4.48
+    },
+    {
+     "w": "do",
+     "s": 4.52,
+     "e": 4.56
+    },
+    {
+     "w": "Remotion:",
+     "s": 4.68,
+     "e": 5.52
+    },
+    {
+     "w": "ene",
+     "s": 5.64,
+     "e": 5.76
+    },
+    {
+     "w": "pê",
+     "s": 5.8,
+     "e": 5.92
+    },
+    {
+     "w": "xis,",
+     "s": 6.12,
+     "e": 6.48
+    },
+    {
+     "w": "remotion",
+     "s": 6.64,
+     "e": 7.2
+    },
+    {
+     "w": "skills",
+     "s": 7.28,
+     "e": 7.76
+    },
+    {
+     "w": "add.",
+     "s": 7.84,
+     "e": 8.24
+    },
+    {
+     "w": "As",
+     "s": 8.64,
+     "e": 8.8
+    },
+    {
+     "w": "skills",
+     "s": 8.88,
+     "e": 9.28
+    },
+    {
+     "w": "são",
+     "s": 9.36,
+     "e": 9.44
+    },
+    {
+     "w": "o",
+     "s": 9.48,
+     "e": 9.52
+    },
+    {
+     "w": "manual",
+     "s": 9.72,
+     "e": 9.92
+    },
+    {
+     "w": "de",
+     "s": 10,
+     "e": 10.08
+    },
+    {
+     "w": "boas",
+     "s": 10.12,
+     "e": 10.4
+    },
+    {
+     "w": "práticas",
+     "s": 10.48,
+     "e": 10.88
+    },
+    {
+     "w": "do",
+     "s": 10.92,
+     "e": 10.96
+    },
+    {
+     "w": "Remotion",
+     "s": 11.08,
+     "e": 11.52
+    },
+    {
+     "w": "para",
+     "s": 11.6,
+     "e": 11.68
+    },
+    {
+     "w": "o",
+     "s": 11.72,
+     "e": 11.76
+    },
+    {
+     "w": "Claude.",
+     "s": 11.84,
+     "e": 12.56
+    },
+    {
+     "w": "Com",
+     "s": 12.64,
+     "e": 12.72
+    },
+    {
+     "w": "elas,",
+     "s": 12.8,
+     "e": 13.2
+    },
+    {
+     "w": "ele",
+     "s": 13.28,
+     "e": 13.36
+    },
+    {
+     "w": "já",
+     "s": 13.44,
+     "e": 13.6
+    },
+    {
+     "w": "sabe",
+     "s": 13.653,
+     "e": 13.76
+    },
+    {
+     "w": "animar",
+     "s": 13.84,
+     "e": 14.16
+    },
+    {
+     "w": "texto,",
+     "s": 14.24,
+     "e": 14.8
+    },
+    {
+     "w": "colocar",
+     "s": 14.88,
+     "e": 15.2
+    },
+    {
+     "w": "áudio,",
+     "s": 15.28,
+     "e": 15.76
+    },
+    {
+     "w": "legenda",
+     "s": 15.88,
+     "e": 16.4
+    },
+    {
+     "w": "e",
+     "s": 16.48,
+     "e": 16.52
+    },
+    {
+     "w": "exportar.",
+     "s": 16.56,
+     "e": 17.44
+    }
+   ],
+   "startFrame": 6688,
+   "endFrame": 7219
+  },
+  {
+   "id": "C16",
+   "tipo": "terminal",
+   "pose": "feliz",
+   "pantera": false,
+   "fala": "Depois, digite: ene pê eme, run dev. Isso abre o Remotion Studio no navegador, a tela onde você assiste à prévia do vídeo enquanto ele é criado.",
+   "dados": {
+    "titulo": "Terminal 1",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "npm run dev",
+      "ao": "digite",
+      "em": 22
+     },
+     {
+      "t": "dim",
+      "text": "> remotion studio"
+     },
+     {
+      "t": "ok",
+      "text": "Server ready - Local: http://localhost:3000",
+      "ao": "abre",
+      "em": 130
+     }
+    ],
+    "selo": {
+     "ao": "prévia",
+     "txt": "Remotion Studio aberto",
+     "em": 246
+    }
+   },
+   "words": [
+    {
+     "w": "Depois,",
+     "s": 0,
+     "e": 0.64
+    },
+    {
+     "w": "digite:",
+     "s": 0.72,
+     "e": 1.44
+    },
+    {
+     "w": "ene",
+     "s": 1.6,
+     "e": 1.84
+    },
+    {
+     "w": "pê",
+     "s": 1.88,
+     "e": 2
+    },
+    {
+     "w": "eme,",
+     "s": 2.16,
+     "e": 2.64
+    },
+    {
+     "w": "run",
+     "s": 2.8,
+     "e": 3.04
+    },
+    {
+     "w": "dev.",
+     "s": 3.12,
+     "e": 3.6
+    },
+    {
+     "w": "Isso",
+     "s": 4,
+     "e": 4.24
+    },
+    {
+     "w": "abre",
+     "s": 4.32,
+     "e": 4.56
+    },
+    {
+     "w": "o",
+     "s": 4.587,
+     "e": 4.613
+    },
+    {
+     "w": "Remotion",
+     "s": 4.64,
+     "e": 5.12
+    },
+    {
+     "w": "Studio",
+     "s": 5.28,
+     "e": 5.6
+    },
+    {
+     "w": "no",
+     "s": 5.64,
+     "e": 5.68
+    },
+    {
+     "w": "navegador,",
+     "s": 5.76,
+     "e": 6.64
+    },
+    {
+     "w": "a",
+     "s": 6.68,
+     "e": 6.72
+    },
+    {
+     "w": "tela",
+     "s": 6.8,
+     "e": 7.04
+    },
+    {
+     "w": "onde",
+     "s": 7.16,
+     "e": 7.28
+    },
+    {
+     "w": "você",
+     "s": 7.32,
+     "e": 7.52
+    },
+    {
+     "w": "assiste",
+     "s": 7.64,
+     "e": 7.92
+    },
+    {
+     "w": "à",
+     "s": 8,
+     "e": 8.08
+    },
+    {
+     "w": "prévia",
+     "s": 8.2,
+     "e": 8.48
+    },
+    {
+     "w": "do",
+     "s": 8.52,
+     "e": 8.56
+    },
+    {
+     "w": "vídeo",
+     "s": 8.64,
+     "e": 8.88
+    },
+    {
+     "w": "enquanto",
+     "s": 8.96,
+     "e": 9.28
+    },
+    {
+     "w": "ele",
+     "s": 9.32,
+     "e": 9.36
+    },
+    {
+     "w": "é",
+     "s": 9.4,
+     "e": 9.44
+    },
+    {
+     "w": "criado.",
+     "s": 9.52,
+     "e": 10.16
+    }
+   ],
+   "startFrame": 7219,
+   "endFrame": 7532
+  },
+  {
+   "id": "C17",
+   "tipo": "terminal",
+   "pantera": false,
+   "fala": "Agora abra um segundo terminal, entre na mesma pasta e digite claude. Pronto: o Claude Code abre dentro do seu projeto de vídeo, já com as skills do Remotion.",
+   "dados": {
+    "titulo": "Terminal 2",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "cd meu-video",
+      "ao": "entre",
+      "em": 72
+     },
+     {
+      "t": "cmd",
+      "text": "claude",
+      "ao": "digite",
+      "em": 115
+     },
+     {
+      "t": "ok",
+      "text": "✻ Welcome to Claude Code!",
+      "ao": "Pronto",
+      "em": 158
+     },
+     {
+      "t": "dim",
+      "text": "  ~/meu-video · 13 skills do Remotion"
+     }
+    ],
+    "selo": {
+     "ao": "skills",
+     "txt": "Claude Code + skills",
+     "em": 286
+    }
+   },
+   "words": [
+    {
+     "w": "Agora",
+     "s": 0,
+     "e": 0.48
+    },
+    {
+     "w": "abra",
+     "s": 0.56,
+     "e": 0.8
+    },
+    {
+     "w": "um",
+     "s": 0.88,
+     "e": 0.96
+    },
+    {
+     "w": "segundo",
+     "s": 1.08,
+     "e": 1.36
+    },
+    {
+     "w": "terminal,",
+     "s": 1.44,
+     "e": 2.24
+    },
+    {
+     "w": "entre",
+     "s": 2.4,
+     "e": 2.56
+    },
+    {
+     "w": "na",
+     "s": 2.64,
+     "e": 2.72
+    },
+    {
+     "w": "mesma",
+     "s": 2.8,
+     "e": 3.12
+    },
+    {
+     "w": "pasta",
+     "s": 3.2,
+     "e": 3.6
+    },
+    {
+     "w": "e",
+     "s": 3.68,
+     "e": 3.76
+    },
+    {
+     "w": "digite",
+     "s": 3.84,
+     "e": 4.24
+    },
+    {
+     "w": "claude.",
+     "s": 4.4,
+     "e": 5.08
+    },
+    {
+     "w": "Pronto:",
+     "s": 5.28,
+     "e": 5.92
+    },
+    {
+     "w": "o",
+     "s": 6,
+     "e": 6.04
+    },
+    {
+     "w": "Claude",
+     "s": 6.08,
+     "e": 6.4
+    },
+    {
+     "w": "Code",
+     "s": 6.6,
+     "e": 6.8
+    },
+    {
+     "w": "abre",
+     "s": 6.92,
+     "e": 7.2
+    },
+    {
+     "w": "dentro",
+     "s": 7.32,
+     "e": 7.52
+    },
+    {
+     "w": "do",
+     "s": 7.6,
+     "e": 7.68
+    },
+    {
+     "w": "seu",
+     "s": 7.72,
+     "e": 7.84
+    },
+    {
+     "w": "projeto",
+     "s": 7.92,
+     "e": 8.24
+    },
+    {
+     "w": "de",
+     "s": 8.28,
+     "e": 8.32
+    },
+    {
+     "w": "vídeo,",
+     "s": 8.4,
+     "e": 8.96
+    },
+    {
+     "w": "já",
+     "s": 9.04,
+     "e": 9.2
+    },
+    {
+     "w": "com",
+     "s": 9.28,
+     "e": 9.36
+    },
+    {
+     "w": "as",
+     "s": 9.4,
+     "e": 9.44
+    },
+    {
+     "w": "skills",
+     "s": 9.52,
+     "e": 9.92
+    },
+    {
+     "w": "do",
+     "s": 9.96,
+     "e": 10
+    },
+    {
+     "w": "Remotion.",
+     "s": 10.12,
+     "e": 10.88
+    }
+   ],
+   "startFrame": 7532,
+   "endFrame": 7866
+  },
+  {
+   "id": "C18",
+   "tipo": "claude-pedido",
+   "pantera": false,
+   "fala": "Vamos testar. Eu escrevo: crie um vídeo de quinze segundos, horizontal, apresentando o canal Aprenda YouTube, com título animado, três frases entrando uma por vez e um botão de inscreva-se no final. Antes de criar os arquivos, ele pede a sua permissão. Você lê e aprova.",
+   "dados": {
+    "pedido": "crie um vídeo de 15 segundos, horizontal, apresentando o canal Aprenda YouTube, com título animado, três frases entrando uma por vez e um botão de inscreva-se no final",
+    "a": {
+     "ao": "escrevo",
+     "em": 38
+    },
+    "acoes": [
+     {
+      "ao": "Antes",
+      "txt": "● Vou criar src/Apresentacao.tsx e registrar a composição.",
+      "em": 391
+     }
+    ],
+    "perm": {
+     "ao": "permissão",
+     "pergunta": "Create file src/Apresentacao.tsx?",
+     "em": 454
+    },
+    "ok": {
+     "ao": "aprova",
+     "txt": "✔ Apresentacao.tsx criado · composição de 15 s registrada",
+     "em": 509
+    }
+   },
+   "words": [
+    {
+     "w": "Vamos",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "testar.",
+     "s": 0.32,
+     "e": 0.8
+    },
+    {
+     "w": "Eu",
+     "s": 1.12,
+     "e": 1.2
+    },
+    {
+     "w": "escrevo:",
+     "s": 1.28,
+     "e": 1.76
+    },
+    {
+     "w": "crie",
+     "s": 2.24,
+     "e": 2.48
+    },
+    {
+     "w": "um",
+     "s": 2.52,
+     "e": 2.56
+    },
+    {
+     "w": "vídeo",
+     "s": 2.64,
+     "e": 2.96
+    },
+    {
+     "w": "de",
+     "s": 3.04,
+     "e": 3.12
+    },
+    {
+     "w": "quinze",
+     "s": 3.2,
+     "e": 3.44
+    },
+    {
+     "w": "segundos,",
+     "s": 3.52,
+     "e": 4.24
+    },
+    {
+     "w": "horizontal,",
+     "s": 4.32,
+     "e": 5.2
+    },
+    {
+     "w": "apresentando",
+     "s": 5.28,
+     "e": 5.84
+    },
+    {
+     "w": "o",
+     "s": 5.867,
+     "e": 5.893
+    },
+    {
+     "w": "canal",
+     "s": 5.92,
+     "e": 6.16
+    },
+    {
+     "w": "Aprenda",
+     "s": 6.24,
+     "e": 6.64
+    },
+    {
+     "w": "YouTube,",
+     "s": 6.72,
+     "e": 7.36
+    },
+    {
+     "w": "com",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "título",
+     "s": 7.6,
+     "e": 7.84
+    },
+    {
+     "w": "animado,",
+     "s": 7.92,
+     "e": 8.72
+    },
+    {
+     "w": "três",
+     "s": 8.8,
+     "e": 8.96
+    },
+    {
+     "w": "frases",
+     "s": 9.04,
+     "e": 9.44
+    },
+    {
+     "w": "entrando",
+     "s": 9.56,
+     "e": 9.84
+    },
+    {
+     "w": "uma",
+     "s": 9.92,
+     "e": 10.08
+    },
+    {
+     "w": "por",
+     "s": 10.16,
+     "e": 10.24
+    },
+    {
+     "w": "vez",
+     "s": 10.32,
+     "e": 10.64
+    },
+    {
+     "w": "e",
+     "s": 10.72,
+     "e": 10.8
+    },
+    {
+     "w": "um",
+     "s": 10.84,
+     "e": 10.88
+    },
+    {
+     "w": "botão",
+     "s": 10.96,
+     "e": 11.2
+    },
+    {
+     "w": "de",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "inscreva-se",
+     "s": 11.48,
+     "e": 12
+    },
+    {
+     "w": "no",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "final.",
+     "s": 12.32,
+     "e": 12.56
+    },
+    {
+     "w": "Antes",
+     "s": 13.04,
+     "e": 13.28
+    },
+    {
+     "w": "de",
+     "s": 13.32,
+     "e": 13.36
+    },
+    {
+     "w": "criar",
+     "s": 13.44,
+     "e": 13.6
+    },
+    {
+     "w": "os",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "arquivos,",
+     "s": 13.84,
+     "e": 14.4
+    },
+    {
+     "w": "ele",
+     "s": 14.52,
+     "e": 14.64
+    },
+    {
+     "w": "pede",
+     "s": 14.72,
+     "e": 14.827
+    },
+    {
+     "w": "a",
+     "s": 14.853,
+     "e": 14.88
+    },
+    {
+     "w": "sua",
+     "s": 14.92,
+     "e": 15.04
+    },
+    {
+     "w": "permissão.",
+     "s": 15.12,
+     "e": 15.84
+    },
+    {
+     "w": "Você",
+     "s": 16,
+     "e": 16.24
+    },
+    {
+     "w": "lê",
+     "s": 16.32,
+     "e": 16.56
+    },
+    {
+     "w": "e",
+     "s": 16.72,
+     "e": 16.8
+    },
+    {
+     "w": "aprova.",
+     "s": 16.96,
+     "e": 17.52
+    }
+   ],
+   "startFrame": 7866,
+   "endFrame": 8400
+  },
+  {
+   "id": "C19",
+   "tipo": "studio-preview",
+   "pantera": false,
+   "fala": "E olha a prévia no Studio. O título entra, as frases aparecem uma por vez, e o botão de inscrição chega no final. Tudo isso a partir de um pedido em português, sem abrir nenhum editor de vídeo.",
+   "dados": {
+    "titulo": {
+     "ao": "título",
+     "em": 55
+    },
+    "frases": [
+     {
+      "ao": "frases",
+      "txt": "Tutoriais de IA",
+      "em": 91
+     },
+     {
+      "ao": "uma",
+      "txt": "Passo a passo",
+      "em": 124
+     },
+     {
+      "ao": "vez",
+      "txt": "Toda semana",
+      "em": 134
+     }
+    ],
+    "botao": {
+     "ao": "botão",
+     "em": 156
+    },
+    "fim": {
+     "ao": "português",
+     "em": 275
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "olha",
+     "s": 0.24,
+     "e": 0.373
+    },
+    {
+     "w": "a",
+     "s": 0.427,
+     "e": 0.48
+    },
+    {
+     "w": "prévia",
+     "s": 0.56,
+     "e": 0.72
+    },
+    {
+     "w": "no",
+     "s": 0.76,
+     "e": 0.8
+    },
+    {
+     "w": "Studio.",
+     "s": 0.88,
+     "e": 1.52
+    },
+    {
+     "w": "O",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "título",
+     "s": 1.84,
+     "e": 2.16
+    },
+    {
+     "w": "entra,",
+     "s": 2.24,
+     "e": 2.8
+    },
+    {
+     "w": "as",
+     "s": 2.88,
+     "e": 2.96
+    },
+    {
+     "w": "frases",
+     "s": 3.04,
+     "e": 3.36
+    },
+    {
+     "w": "aparecem",
+     "s": 3.44,
+     "e": 4
+    },
+    {
+     "w": "uma",
+     "s": 4.12,
+     "e": 4.24
+    },
+    {
+     "w": "por",
+     "s": 4.32,
+     "e": 4.4
+    },
+    {
+     "w": "vez,",
+     "s": 4.48,
+     "e": 4.96
+    },
+    {
+     "w": "e",
+     "s": 5.04,
+     "e": 5.08
+    },
+    {
+     "w": "o",
+     "s": 5.12,
+     "e": 5.16
+    },
+    {
+     "w": "botão",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "de",
+     "s": 5.52,
+     "e": 5.56
+    },
+    {
+     "w": "inscrição",
+     "s": 5.6,
+     "e": 6.16
+    },
+    {
+     "w": "chega",
+     "s": 6.24,
+     "e": 6.48
+    },
+    {
+     "w": "no",
+     "s": 6.56,
+     "e": 6.64
+    },
+    {
+     "w": "final.",
+     "s": 6.8,
+     "e": 7.04
+    },
+    {
+     "w": "Tudo",
+     "s": 7.52,
+     "e": 7.76
+    },
+    {
+     "w": "isso",
+     "s": 7.84,
+     "e": 8.04
+    },
+    {
+     "w": "a",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "partir",
+     "s": 8.24,
+     "e": 8.4
+    },
+    {
+     "w": "de",
+     "s": 8.48,
+     "e": 8.507
+    },
+    {
+     "w": "um",
+     "s": 8.533,
+     "e": 8.56
+    },
+    {
+     "w": "pedido",
+     "s": 8.64,
+     "e": 8.88
+    },
+    {
+     "w": "em",
+     "s": 8.96,
+     "e": 9.04
+    },
+    {
+     "w": "português,",
+     "s": 9.16,
+     "e": 9.92
+    },
+    {
+     "w": "sem",
+     "s": 10,
+     "e": 10.08
+    },
+    {
+     "w": "abrir",
+     "s": 10.16,
+     "e": 10.4
+    },
+    {
+     "w": "nenhum",
+     "s": 10.48,
+     "e": 10.88
+    },
+    {
+     "w": "editor",
+     "s": 11.04,
+     "e": 11.2
+    },
+    {
+     "w": "de",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "vídeo.",
+     "s": 11.44,
+     "e": 12
+    }
+   ],
+   "startFrame": 8400,
+   "endFrame": 8768
+  },
+  {
+   "id": "C20",
+   "tipo": "claude-pedido",
+   "pantera": false,
+   "fala": "Não gostou de alguma coisa? É só pedir. Por exemplo: deixe o fundo roxo e use a música trilha ponto mp3, da pasta public. Ele muda só o que você pediu, e a prévia atualiza na hora.",
+   "dados": {
+    "pedido": "deixe o fundo roxo e use a música trilha.mp3 da pasta public",
+    "a": {
+     "ao": "exemplo",
+     "em": 84
+    },
+    "acoes": [
+     {
+      "ao": "muda",
+      "txt": "● Editando src/Apresentacao.tsx (fundo + <Audio>)",
+      "em": 287
+     }
+    ],
+    "ok": {
+     "ao": "atualiza",
+     "txt": "✔ Fundo roxo e trilha.mp3 aplicados",
+     "em": 353
+    }
+   },
+   "words": [
+    {
+     "w": "Não",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "gostou",
+     "s": 0.2,
+     "e": 0.48
+    },
+    {
+     "w": "de",
+     "s": 0.52,
+     "e": 0.56
+    },
+    {
+     "w": "alguma",
+     "s": 0.6,
+     "e": 0.8
+    },
+    {
+     "w": "coisa?",
+     "s": 0.88,
+     "e": 1.44
+    },
+    {
+     "w": "É",
+     "s": 1.6,
+     "e": 1.68
+    },
+    {
+     "w": "só",
+     "s": 1.72,
+     "e": 1.84
+    },
+    {
+     "w": "pedir.",
+     "s": 1.92,
+     "e": 2.48
+    },
+    {
+     "w": "Por",
+     "s": 2.64,
+     "e": 2.72
+    },
+    {
+     "w": "exemplo:",
+     "s": 2.8,
+     "e": 3.28
+    },
+    {
+     "w": "deixe",
+     "s": 3.76,
+     "e": 4
+    },
+    {
+     "w": "o",
+     "s": 4.04,
+     "e": 4.08
+    },
+    {
+     "w": "fundo",
+     "s": 4.12,
+     "e": 4.4
+    },
+    {
+     "w": "roxo",
+     "s": 4.52,
+     "e": 4.88
+    },
+    {
+     "w": "e",
+     "s": 4.96,
+     "e": 5.04
+    },
+    {
+     "w": "use",
+     "s": 5.12,
+     "e": 5.28
+    },
+    {
+     "w": "a",
+     "s": 5.32,
+     "e": 5.36
+    },
+    {
+     "w": "música",
+     "s": 5.44,
+     "e": 5.76
+    },
+    {
+     "w": "trilha",
+     "s": 5.92,
+     "e": 6.32
+    },
+    {
+     "w": "ponto",
+     "s": 6.36,
+     "e": 6.64
+    },
+    {
+     "w": "mp3,",
+     "s": 6.88,
+     "e": 7.8
+    },
+    {
+     "w": "da",
+     "s": 7.84,
+     "e": 7.92
+    },
+    {
+     "w": "pasta",
+     "s": 8,
+     "e": 8.32
+    },
+    {
+     "w": "public.",
+     "s": 8.4,
+     "e": 9.12
+    },
+    {
+     "w": "Ele",
+     "s": 9.36,
+     "e": 9.52
+    },
+    {
+     "w": "muda",
+     "s": 9.56,
+     "e": 9.84
+    },
+    {
+     "w": "só",
+     "s": 9.92,
+     "e": 10.08
+    },
+    {
+     "w": "o",
+     "s": 10.12,
+     "e": 10.16
+    },
+    {
+     "w": "que",
+     "s": 10.2,
+     "e": 10.24
+    },
+    {
+     "w": "você",
+     "s": 10.32,
+     "e": 10.48
+    },
+    {
+     "w": "pediu,",
+     "s": 10.56,
+     "e": 11.12
+    },
+    {
+     "w": "e",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "a",
+     "s": 11.24,
+     "e": 11.28
+    },
+    {
+     "w": "prévia",
+     "s": 11.36,
+     "e": 11.68
+    },
+    {
+     "w": "atualiza",
+     "s": 11.76,
+     "e": 12.16
+    },
+    {
+     "w": "na",
+     "s": 12.24,
+     "e": 12.4
+    },
+    {
+     "w": "hora.",
+     "s": 12.48,
+     "e": 12.96
+    }
+   ],
+   "startFrame": 8768,
+   "endFrame": 9167
+  },
+  {
+   "id": "C21",
+   "tipo": "terminal",
+   "pose": "comemorando",
+   "pantera": false,
+   "fala": "Para exportar, peça: renderize o vídeo em MP4. Ou rode você mesmo: ene pê xis, remotion render. O arquivo sai na pasta out, pronto para postar no YouTube, no Instagram ou no TikTok.",
+   "dados": {
+    "titulo": "Terminal",
+    "rotulo": "PASSO 4: EXPORTAR",
+    "linhas": [
+     {
+      "t": "cmd",
+      "text": "npx remotion render",
+      "ao": "rode",
+      "em": 144
+     },
+     {
+      "t": "dim",
+      "text": "Rendered 450/450 frames"
+     },
+     {
+      "t": "ok",
+      "text": "+ out/Apresentacao.mp4",
+      "ao": "out",
+      "em": 288
+     }
+    ],
+    "selo": {
+     "ao": "postar",
+     "txt": "MP4 pronto para postar",
+     "em": 328
+    }
+   },
+   "words": [
+    {
+     "w": "Para",
+     "s": 0,
+     "e": 0.14
+    },
+    {
+     "w": "exportar,",
+     "s": 0.16,
+     "e": 0.8
+    },
+    {
+     "w": "peça:",
+     "s": 0.96,
+     "e": 1.84
+    },
+    {
+     "w": "renderize",
+     "s": 1.92,
+     "e": 2.48
+    },
+    {
+     "w": "o",
+     "s": 2.52,
+     "e": 2.56
+    },
+    {
+     "w": "vídeo",
+     "s": 2.64,
+     "e": 2.96
+    },
+    {
+     "w": "em",
+     "s": 3.04,
+     "e": 3.2
+    },
+    {
+     "w": "MP4.",
+     "s": 3.28,
+     "e": 4.48
+    },
+    {
+     "w": "Ou",
+     "s": 4.52,
+     "e": 4.64
+    },
+    {
+     "w": "rode",
+     "s": 4.8,
+     "e": 5.04
+    },
+    {
+     "w": "você",
+     "s": 5.08,
+     "e": 5.28
+    },
+    {
+     "w": "mesmo:",
+     "s": 5.36,
+     "e": 6
+    },
+    {
+     "w": "ene",
+     "s": 6.08,
+     "e": 6.24
+    },
+    {
+     "w": "pê",
+     "s": 6.32,
+     "e": 6.48
+    },
+    {
+     "w": "xis,",
+     "s": 6.68,
+     "e": 7.04
+    },
+    {
+     "w": "remotion",
+     "s": 7.16,
+     "e": 7.6
+    },
+    {
+     "w": "render.",
+     "s": 7.68,
+     "e": 8.4
+    },
+    {
+     "w": "O",
+     "s": 8.44,
+     "e": 8.48
+    },
+    {
+     "w": "arquivo",
+     "s": 8.56,
+     "e": 8.88
+    },
+    {
+     "w": "sai",
+     "s": 8.92,
+     "e": 9.04
+    },
+    {
+     "w": "na",
+     "s": 9.12,
+     "e": 9.2
+    },
+    {
+     "w": "pasta",
+     "s": 9.307,
+     "e": 9.52
+    },
+    {
+     "w": "out,",
+     "s": 9.6,
+     "e": 10.24
+    },
+    {
+     "w": "pronto",
+     "s": 10.32,
+     "e": 10.56
+    },
+    {
+     "w": "para",
+     "s": 10.68,
+     "e": 10.8
+    },
+    {
+     "w": "postar",
+     "s": 10.92,
+     "e": 11.12
+    },
+    {
+     "w": "no",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "YouTube,",
+     "s": 11.52,
+     "e": 11.92
+    },
+    {
+     "w": "no",
+     "s": 11.96,
+     "e": 12
+    },
+    {
+     "w": "Instagram",
+     "s": 12.32,
+     "e": 12.64
+    },
+    {
+     "w": "ou",
+     "s": 12.72,
+     "e": 12.8
+    },
+    {
+     "w": "no",
+     "s": 12.88,
+     "e": 12.92
+    },
+    {
+     "w": "TikTok.",
+     "s": 12.96,
+     "e": 13.76
+    }
+   ],
+   "startFrame": 9167,
+   "endFrame": 9588
+  },
+  {
+   "id": "C22",
+   "tipo": "cartoes",
+   "pose": "apontando",
+   "fala": "Três dicas para o vídeo sair melhor. Um: diga o formato e a duração, por exemplo, vertical, trinta segundos. Dois: peça uma cena de cada vez e ajuste antes de seguir. Três: coloque as suas imagens e músicas na pasta public e diga o nome do arquivo no pedido.",
+   "dados": {
+    "bg": "pexels/foto-ideia.jpg",
+    "titulo": "3 dicas de pedido",
+    "cols": 1,
+    "w": 1350,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Diga formato e duração",
+      "sub": "ex.: vertical, 30 segundos",
+      "cor": "ciano",
+      "em": 77
+     },
+     {
+      "ao": "Dois",
+      "t": "Uma cena de cada vez",
+      "sub": "ajuste antes de seguir",
+      "cor": "verde",
+      "em": 245
+     },
+     {
+      "ao": "Três#2",
+      "t": "Seus arquivos na pasta public",
+      "sub": "e diga o nome no pedido",
+      "cor": "ouro",
+      "em": 382
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Três",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "dicas",
+     "s": 0.32,
+     "e": 0.72
+    },
+    {
+     "w": "para",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "o",
+     "s": 0.96,
+     "e": 1
+    },
+    {
+     "w": "vídeo",
+     "s": 1.04,
+     "e": 1.28
+    },
+    {
+     "w": "sair",
+     "s": 1.36,
+     "e": 1.6
+    },
+    {
+     "w": "melhor.",
+     "s": 1.68,
+     "e": 2.16
+    },
+    {
+     "w": "Um:",
+     "s": 2.56,
+     "e": 3.2
+    },
+    {
+     "w": "diga",
+     "s": 3.28,
+     "e": 3.44
+    },
+    {
+     "w": "o",
+     "s": 3.48,
+     "e": 3.52
+    },
+    {
+     "w": "formato",
+     "s": 3.8,
+     "e": 4.12
+    },
+    {
+     "w": "e",
+     "s": 4.16,
+     "e": 4.2
+    },
+    {
+     "w": "a",
+     "s": 4.24,
+     "e": 4.267
+    },
+    {
+     "w": "duração,",
+     "s": 4.293,
+     "e": 5.04
+    },
+    {
+     "w": "por",
+     "s": 5.08,
+     "e": 5.12
+    },
+    {
+     "w": "exemplo,",
+     "s": 5.2,
+     "e": 5.68
+    },
+    {
+     "w": "vertical,",
+     "s": 5.92,
+     "e": 6.72
+    },
+    {
+     "w": "trinta",
+     "s": 6.76,
+     "e": 6.96
+    },
+    {
+     "w": "segundos.",
+     "s": 7.04,
+     "e": 7.68
+    },
+    {
+     "w": "Dois:",
+     "s": 8.16,
+     "e": 8.96
+    },
+    {
+     "w": "peça",
+     "s": 9.04,
+     "e": 9.2
+    },
+    {
+     "w": "uma",
+     "s": 9.28,
+     "e": 9.44
+    },
+    {
+     "w": "cena",
+     "s": 9.6,
+     "e": 9.84
+    },
+    {
+     "w": "de",
+     "s": 9.88,
+     "e": 9.92
+    },
+    {
+     "w": "cada",
+     "s": 10,
+     "e": 10.16
+    },
+    {
+     "w": "vez",
+     "s": 10.24,
+     "e": 10.56
+    },
+    {
+     "w": "e",
+     "s": 10.64,
+     "e": 10.72
+    },
+    {
+     "w": "ajuste",
+     "s": 10.84,
+     "e": 11.36
+    },
+    {
+     "w": "antes",
+     "s": 11.52,
+     "e": 11.68
+    },
+    {
+     "w": "de",
+     "s": 11.72,
+     "e": 11.76
+    },
+    {
+     "w": "seguir.",
+     "s": 11.84,
+     "e": 12.32
+    },
+    {
+     "w": "Três:",
+     "s": 12.72,
+     "e": 13.44
+    },
+    {
+     "w": "coloque",
+     "s": 13.52,
+     "e": 13.76
+    },
+    {
+     "w": "as",
+     "s": 13.8,
+     "e": 13.84
+    },
+    {
+     "w": "suas",
+     "s": 13.92,
+     "e": 14.08
+    },
+    {
+     "w": "imagens",
+     "s": 14.28,
+     "e": 14.64
+    },
+    {
+     "w": "e",
+     "s": 14.693,
+     "e": 14.747
+    },
+    {
+     "w": "músicas",
+     "s": 14.8,
+     "e": 15.2
+    },
+    {
+     "w": "na",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "pasta",
+     "s": 15.44,
+     "e": 15.76
+    },
+    {
+     "w": "public",
+     "s": 15.84,
+     "e": 16.32
+    },
+    {
+     "w": "e",
+     "s": 16.4,
+     "e": 16.56
+    },
+    {
+     "w": "diga",
+     "s": 16.6,
+     "e": 16.8
+    },
+    {
+     "w": "o",
+     "s": 16.84,
+     "e": 16.88
+    },
+    {
+     "w": "nome",
+     "s": 16.96,
+     "e": 17.2
+    },
+    {
+     "w": "do",
+     "s": 17.24,
+     "e": 17.28
+    },
+    {
+     "w": "arquivo",
+     "s": 17.36,
+     "e": 17.68
+    },
+    {
+     "w": "no",
+     "s": 17.76,
+     "e": 17.84
+    },
+    {
+     "w": "pedido.",
+     "s": 18.08,
+     "e": 18.56
+    }
+   ],
+   "startFrame": 9588,
+   "endFrame": 10153
+  },
+  {
+   "id": "C23",
+   "tipo": "cartoes",
+   "pose": "feliz",
+   "pantera": false,
+   "fala": "E você pode chamar as skills pelo nome. Barra remotion create cria um vídeo novo. Barra remotion captions cuida das legendas. E barra remotion render exporta o arquivo.",
+   "dados": {
+    "titulo": "Skills pelo nome",
+    "cols": 1,
+    "w": 1300,
+    "mono": true,
+    "itens": [
+     {
+      "ao": "create",
+      "t": "/remotion-create",
+      "sub": "cria um vídeo novo",
+      "cor": "ciano",
+      "em": 110
+     },
+     {
+      "ao": "captions",
+      "t": "/remotion-captions",
+      "sub": "cuida das legendas",
+      "cor": "violeta",
+      "em": 206
+     },
+     {
+      "ao": "render",
+      "t": "/remotion-render",
+      "sub": "exporta o arquivo",
+      "cor": "verde",
+      "em": 314
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "você",
+     "s": 0.12,
+     "e": 0.32
+    },
+    {
+     "w": "pode",
+     "s": 0.4,
+     "e": 0.56
+    },
+    {
+     "w": "chamar",
+     "s": 0.64,
+     "e": 0.96
+    },
+    {
+     "w": "as",
+     "s": 1,
+     "e": 1.04
+    },
+    {
+     "w": "skills",
+     "s": 1.2,
+     "e": 1.6
+    },
+    {
+     "w": "pelo",
+     "s": 1.68,
+     "e": 1.84
+    },
+    {
+     "w": "nome.",
+     "s": 2,
+     "e": 2.24
+    },
+    {
+     "w": "Barra",
+     "s": 2.64,
+     "e": 2.96
+    },
+    {
+     "w": "remotion",
+     "s": 3.04,
+     "e": 3.6
+    },
+    {
+     "w": "create",
+     "s": 3.68,
+     "e": 4.24
+    },
+    {
+     "w": "cria",
+     "s": 4.48,
+     "e": 4.72
+    },
+    {
+     "w": "um",
+     "s": 4.76,
+     "e": 4.8
+    },
+    {
+     "w": "vídeo",
+     "s": 4.88,
+     "e": 5.04
+    },
+    {
+     "w": "novo.",
+     "s": 5.12,
+     "e": 5.52
+    },
+    {
+     "w": "Barra",
+     "s": 5.92,
+     "e": 6.16
+    },
+    {
+     "w": "remotion",
+     "s": 6.24,
+     "e": 6.8
+    },
+    {
+     "w": "captions",
+     "s": 6.88,
+     "e": 7.52
+    },
+    {
+     "w": "cuida",
+     "s": 7.76,
+     "e": 8
+    },
+    {
+     "w": "das",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "legendas.",
+     "s": 8.24,
+     "e": 8.88
+    },
+    {
+     "w": "E",
+     "s": 9.28,
+     "e": 9.44
+    },
+    {
+     "w": "barra",
+     "s": 9.6,
+     "e": 9.84
+    },
+    {
+     "w": "remotion",
+     "s": 9.92,
+     "e": 10.4
+    },
+    {
+     "w": "render",
+     "s": 10.48,
+     "e": 10.96
+    },
+    {
+     "w": "exporta",
+     "s": 11.12,
+     "e": 11.627
+    },
+    {
+     "w": "o",
+     "s": 11.653,
+     "e": 11.68
+    },
+    {
+     "w": "arquivo.",
+     "s": 11.76,
+     "e": 12.4
+    }
+   ],
+   "startFrame": 10153,
+   "endFrame": 10533
+  },
+  {
+   "id": "C24",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "Alguns cuidados rápidos. O Claude Code precisa de um plano pago do Claude, o plano gratuito não inclui. O Remotion é grátis para pessoas e empresas de até três pessoas; empresa maior paga licença. E use só imagens e músicas que você tem direito de usar.",
+   "dados": {
+    "bg": "pexels/cadeado.mp4",
+    "titulo": "Cuidados rápidos",
+    "cols": 1,
+    "w": 1350,
+    "itens": [
+     {
+      "ao": "pago",
+      "t": "Claude Code: plano pago",
+      "sub": "Pro ou superior; o gratuito não inclui",
+      "icone": "1",
+      "cor": "laranja",
+      "em": 115
+     },
+     {
+      "ao": "grátis",
+      "t": "Remotion: grátis até 3 pessoas",
+      "sub": "empresa maior paga licença",
+      "icone": "2",
+      "cor": "ciano",
+      "em": 247
+     },
+     {
+      "ao": "direito",
+      "t": "Mídia com direito de uso",
+      "sub": "imagens e músicas",
+      "icone": "3",
+      "cor": "ouro",
+      "em": 503
+     }
+    ],
+    "bgDur": 20
+   },
+   "words": [
+    {
+     "w": "Alguns",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "cuidados",
+     "s": 0.36,
+     "e": 0.8
+    },
+    {
+     "w": "rápidos.",
+     "s": 0.88,
+     "e": 1.52
+    },
+    {
+     "w": "O",
+     "s": 1.92,
+     "e": 2
+    },
+    {
+     "w": "Claude",
+     "s": 2.08,
+     "e": 2.32
+    },
+    {
+     "w": "Code",
+     "s": 2.4,
+     "e": 2.72
+    },
+    {
+     "w": "precisa",
+     "s": 2.8,
+     "e": 3.12
+    },
+    {
+     "w": "de",
+     "s": 3.2,
+     "e": 3.28
+    },
+    {
+     "w": "um",
+     "s": 3.32,
+     "e": 3.36
+    },
+    {
+     "w": "plano",
+     "s": 3.44,
+     "e": 3.68
+    },
+    {
+     "w": "pago",
+     "s": 3.84,
+     "e": 4.16
+    },
+    {
+     "w": "do",
+     "s": 4.2,
+     "e": 4.24
+    },
+    {
+     "w": "Claude,",
+     "s": 4.32,
+     "e": 4.96
+    },
+    {
+     "w": "o",
+     "s": 5,
+     "e": 5.04
+    },
+    {
+     "w": "plano",
+     "s": 5.12,
+     "e": 5.28
+    },
+    {
+     "w": "gratuito",
+     "s": 5.36,
+     "e": 5.92
+    },
+    {
+     "w": "não",
+     "s": 6.08,
+     "e": 6.24
+    },
+    {
+     "w": "inclui.",
+     "s": 6.36,
+     "e": 6.8
+    },
+    {
+     "w": "O",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "Remotion",
+     "s": 7.48,
+     "e": 8
+    },
+    {
+     "w": "é",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "grátis",
+     "s": 8.24,
+     "e": 8.56
+    },
+    {
+     "w": "para",
+     "s": 8.64,
+     "e": 8.8
+    },
+    {
+     "w": "pessoas",
+     "s": 8.88,
+     "e": 9.36
+    },
+    {
+     "w": "e",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "empresas",
+     "s": 9.6,
+     "e": 10
+    },
+    {
+     "w": "de",
+     "s": 10.04,
+     "e": 10.08
+    },
+    {
+     "w": "até",
+     "s": 10.16,
+     "e": 10.32
+    },
+    {
+     "w": "três",
+     "s": 10.48,
+     "e": 10.72
+    },
+    {
+     "w": "pessoas;",
+     "s": 10.8,
+     "e": 11.68
+    },
+    {
+     "w": "empresa",
+     "s": 11.88,
+     "e": 12.08
+    },
+    {
+     "w": "maior",
+     "s": 12.16,
+     "e": 12.48
+    },
+    {
+     "w": "paga",
+     "s": 12.64,
+     "e": 12.8
+    },
+    {
+     "w": "licença.",
+     "s": 12.88,
+     "e": 13.72
+    },
+    {
+     "w": "E",
+     "s": 14,
+     "e": 14.08
+    },
+    {
+     "w": "use",
+     "s": 14.16,
+     "e": 14.4
+    },
+    {
+     "w": "só",
+     "s": 14.56,
+     "e": 14.72
+    },
+    {
+     "w": "imagens",
+     "s": 14.92,
+     "e": 15.28
+    },
+    {
+     "w": "e",
+     "s": 15.32,
+     "e": 15.36
+    },
+    {
+     "w": "músicas",
+     "s": 15.44,
+     "e": 15.92
+    },
+    {
+     "w": "que",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "você",
+     "s": 16.08,
+     "e": 16.24
+    },
+    {
+     "w": "tem",
+     "s": 16.48,
+     "e": 16.64
+    },
+    {
+     "w": "direito",
+     "s": 16.76,
+     "e": 17.04
+    },
+    {
+     "w": "de",
+     "s": 17.08,
+     "e": 17.12
+    },
+    {
+     "w": "usar.",
+     "s": 17.2,
+     "e": 17.68
+    }
+   ],
+   "startFrame": 10533,
+   "endFrame": 11072
+  },
+  {
+   "id": "C25",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Resumindo: instalou o Node, instalou o Claude Code, criou o projeto com as skills do Remotion e pediu o vídeo em português. O passo a passo completo, com todos os comandos, está no link da descrição.",
+   "dados": {
+    "bg": "pexels/teclado.mp4",
+    "titulo": "Resumo",
+    "cols": 2,
+    "check": true,
+    "itens": [
+     {
+      "ao": "Node",
+      "t": "Instalou o Node",
+      "em": 46
+     },
+     {
+      "ao": "Code",
+      "t": "Instalou o Claude Code",
+      "em": 91
+     },
+     {
+      "ao": "criou",
+      "t": "Criou o projeto + skills",
+      "em": 114
+     },
+     {
+      "ao": "pediu",
+      "t": "Pediu o vídeo",
+      "em": 187
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Passo a passo no link da descrição",
+     "cor": "ouro",
+     "sfx": "ding",
+     "em": 350
+    },
+    "bgDur": 9
+   },
+   "words": [
+    {
+     "w": "Resumindo:",
+     "s": 0,
+     "e": 0.96
+    },
+    {
+     "w": "instalou",
+     "s": 1.08,
+     "e": 1.44
+    },
+    {
+     "w": "o",
+     "s": 1.467,
+     "e": 1.493
+    },
+    {
+     "w": "Node,",
+     "s": 1.52,
+     "e": 2.08
+    },
+    {
+     "w": "instalou",
+     "s": 2.16,
+     "e": 2.64
+    },
+    {
+     "w": "o",
+     "s": 2.667,
+     "e": 2.693
+    },
+    {
+     "w": "Claude",
+     "s": 2.72,
+     "e": 2.96
+    },
+    {
+     "w": "Code,",
+     "s": 3.04,
+     "e": 3.68
+    },
+    {
+     "w": "criou",
+     "s": 3.8,
+     "e": 4
+    },
+    {
+     "w": "o",
+     "s": 4.04,
+     "e": 4.08
+    },
+    {
+     "w": "projeto",
+     "s": 4.2,
+     "e": 4.56
+    },
+    {
+     "w": "com",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "as",
+     "s": 4.8,
+     "e": 4.88
+    },
+    {
+     "w": "skills",
+     "s": 4.96,
+     "e": 5.28
+    },
+    {
+     "w": "do",
+     "s": 5.32,
+     "e": 5.36
+    },
+    {
+     "w": "Remotion",
+     "s": 5.48,
+     "e": 6
+    },
+    {
+     "w": "e",
+     "s": 6.08,
+     "e": 6.16
+    },
+    {
+     "w": "pediu",
+     "s": 6.24,
+     "e": 6.48
+    },
+    {
+     "w": "o",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "vídeo",
+     "s": 6.64,
+     "e": 6.88
+    },
+    {
+     "w": "em",
+     "s": 6.96,
+     "e": 7.04
+    },
+    {
+     "w": "português.",
+     "s": 7.16,
+     "e": 8.16
+    },
+    {
+     "w": "O",
+     "s": 8.2,
+     "e": 8.24
+    },
+    {
+     "w": "passo",
+     "s": 8.32,
+     "e": 8.507
+    },
+    {
+     "w": "a",
+     "s": 8.533,
+     "e": 8.56
+    },
+    {
+     "w": "passo",
+     "s": 8.64,
+     "e": 8.88
+    },
+    {
+     "w": "completo,",
+     "s": 9.04,
+     "e": 9.56
+    },
+    {
+     "w": "com",
+     "s": 9.6,
+     "e": 9.68
+    },
+    {
+     "w": "todos",
+     "s": 9.84,
+     "e": 10.08
+    },
+    {
+     "w": "os",
+     "s": 10.16,
+     "e": 10.24
+    },
+    {
+     "w": "comandos,",
+     "s": 10.36,
+     "e": 10.88
+    },
+    {
+     "w": "está",
+     "s": 11,
+     "e": 11.16
+    },
+    {
+     "w": "no",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "link",
+     "s": 11.4,
+     "e": 11.52
+    },
+    {
+     "w": "da",
+     "s": 11.56,
+     "e": 11.6
+    },
+    {
+     "w": "descrição.",
+     "s": 11.68,
+     "e": 12.48
+    }
+   ],
+   "startFrame": 11072,
+   "endFrame": 11454
+  },
+  {
+   "id": "C26",
+   "tipo": "cta-final",
+   "fala": "Se esse vídeo te ajudou, deixa o like, se inscreve no Aprenda YouTube e comenta fábrica de vídeos, se você quer o vídeo sobre gerar vídeos em série. E me conta: qual vídeo você vai criar primeiro? Até o próximo!",
+   "dados": {
+    "bg": "pexels/robo.mp4",
+    "like": {
+     "ao": "like",
+     "em": 53
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 73
+    },
+    "guia": {
+     "ao": "fábrica",
+     "em": 134
+    },
+    "guiaTxt": "Comente: Fábrica de Vídeos",
+    "q": {
+     "ao": "qual",
+     "em": 283
+    },
+    "qTxt": "Qual vídeo você vai criar primeiro?",
+    "bgDur": 38
+   },
+   "words": [
+    {
+     "w": "Se",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "esse",
+     "s": 0.24,
+     "e": 0.32
+    },
+    {
+     "w": "vídeo",
+     "s": 0.4,
+     "e": 0.56
+    },
+    {
+     "w": "te",
+     "s": 0.6,
+     "e": 0.64
+    },
+    {
+     "w": "ajudou,",
+     "s": 0.72,
+     "e": 1.36
+    },
+    {
+     "w": "deixa",
+     "s": 1.44,
+     "e": 1.6
+    },
+    {
+     "w": "o",
+     "s": 1.64,
+     "e": 1.68
+    },
+    {
+     "w": "like,",
+     "s": 1.76,
+     "e": 2.24
+    },
+    {
+     "w": "se",
+     "s": 2.28,
+     "e": 2.32
+    },
+    {
+     "w": "inscreve",
+     "s": 2.44,
+     "e": 2.8
+    },
+    {
+     "w": "no",
+     "s": 2.84,
+     "e": 2.88
+    },
+    {
+     "w": "Aprenda",
+     "s": 2.96,
+     "e": 3.28
+    },
+    {
+     "w": "YouTube",
+     "s": 3.52,
+     "e": 3.76
+    },
+    {
+     "w": "e",
+     "s": 3.84,
+     "e": 3.88
+    },
+    {
+     "w": "comenta",
+     "s": 3.92,
+     "e": 4.32
+    },
+    {
+     "w": "fábrica",
+     "s": 4.48,
+     "e": 4.88
+    },
+    {
+     "w": "de",
+     "s": 4.92,
+     "e": 4.96
+    },
+    {
+     "w": "vídeos,",
+     "s": 5.12,
+     "e": 5.6
+    },
+    {
+     "w": "se",
+     "s": 5.64,
+     "e": 5.68
+    },
+    {
+     "w": "você",
+     "s": 5.76,
+     "e": 5.92
+    },
+    {
+     "w": "quer",
+     "s": 6,
+     "e": 6.08
+    },
+    {
+     "w": "o",
+     "s": 6.16,
+     "e": 6.24
+    },
+    {
+     "w": "vídeo",
+     "s": 6.32,
+     "e": 6.56
+    },
+    {
+     "w": "sobre",
+     "s": 6.64,
+     "e": 6.8
+    },
+    {
+     "w": "gerar",
+     "s": 6.92,
+     "e": 7.12
+    },
+    {
+     "w": "vídeos",
+     "s": 7.28,
+     "e": 7.6
+    },
+    {
+     "w": "em",
+     "s": 7.68,
+     "e": 7.76
+    },
+    {
+     "w": "série.",
+     "s": 7.84,
+     "e": 8.48
+    },
+    {
+     "w": "E",
+     "s": 8.507,
+     "e": 8.533
+    },
+    {
+     "w": "me",
+     "s": 8.56,
+     "e": 8.64
+    },
+    {
+     "w": "conta:",
+     "s": 8.72,
+     "e": 9.36
+    },
+    {
+     "w": "qual",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "vídeo",
+     "s": 9.6,
+     "e": 9.84
+    },
+    {
+     "w": "você",
+     "s": 9.92,
+     "e": 10.08
+    },
+    {
+     "w": "vai",
+     "s": 10.107,
+     "e": 10.16
+    },
+    {
+     "w": "criar",
+     "s": 10.24,
+     "e": 10.4
+    },
+    {
+     "w": "primeiro?",
+     "s": 10.56,
+     "e": 11.2
+    },
+    {
+     "w": "Até",
+     "s": 11.32,
+     "e": 11.467
+    },
+    {
+     "w": "o",
+     "s": 11.493,
+     "e": 11.52
+    },
+    {
+     "w": "próximo!",
+     "s": 11.6,
+     "e": 12.24
+    }
+   ],
+   "startFrame": 11454,
+   "endFrame": 11909
+  }
+ ],
+ "words": [
+  {
+   "w": "Esquece",
+   "start": 0.5,
+   "end": 1.06
+  },
+  {
+   "w": "editor",
+   "start": 1.26,
+   "end": 1.46
+  },
+  {
+   "w": "de",
+   "start": 1.5,
+   "end": 1.54
+  },
+  {
+   "w": "vídeo.",
+   "start": 1.62,
+   "end": 2.18
+  },
+  {
+   "w": "Agora",
+   "start": 2.26,
+   "end": 2.58
+  },
+  {
+   "w": "dá",
+   "start": 2.62,
+   "end": 2.74
+  },
+  {
+   "w": "para",
+   "start": 2.82,
+   "end": 2.9
+  },
+  {
+   "w": "criar",
+   "start": 2.98,
+   "end": 3.22
+  },
+  {
+   "w": "vídeos",
+   "start": 3.3,
+   "end": 3.54
+  },
+  {
+   "w": "animados",
+   "start": 3.7,
+   "end": 4.18
+  },
+  {
+   "w": "só",
+   "start": 4.26,
+   "end": 4.42
+  },
+  {
+   "w": "conversando",
+   "start": 4.5,
+   "end": 5.22
+  },
+  {
+   "w": "com",
+   "start": 5.26,
+   "end": 5.3
+  },
+  {
+   "w": "a",
+   "start": 5.327,
+   "end": 5.353
+  },
+  {
+   "w": "inteligência",
+   "start": 5.38,
+   "end": 5.86
+  },
+  {
+   "w": "artificial.",
+   "start": 5.94,
+   "end": 6.58
+  },
+  {
+   "w": "Você",
+   "start": 6.98,
+   "end": 7.14
+  },
+  {
+   "w": "escreve",
+   "start": 7.22,
+   "end": 7.54
+  },
+  {
+   "w": "o",
+   "start": 7.58,
+   "end": 7.62
+  },
+  {
+   "w": "que",
+   "start": 7.7,
+   "end": 7.78
+  },
+  {
+   "w": "quer,",
+   "start": 7.86,
+   "end": 8.26
+  },
+  {
+   "w": "em",
+   "start": 8.34,
+   "end": 8.42
+  },
+  {
+   "w": "português,",
+   "start": 8.54,
+   "end": 9.22
+  },
+  {
+   "w": "e",
+   "start": 9.26,
+   "end": 9.3
+  },
+  {
+   "w": "o",
+   "start": 9.34,
+   "end": 9.38
+  },
+  {
+   "w": "Claude",
+   "start": 9.46,
+   "end": 9.7
+  },
+  {
+   "w": "Code",
+   "start": 9.78,
+   "end": 10.1
+  },
+  {
+   "w": "monta",
+   "start": 10.18,
+   "end": 10.447
+  },
+  {
+   "w": "o",
+   "start": 10.473,
+   "end": 10.5
+  },
+  {
+   "w": "vídeo",
+   "start": 10.58,
+   "end": 10.82
+  },
+  {
+   "w": "inteiro:",
+   "start": 10.9,
+   "end": 11.78
+  },
+  {
+   "w": "texto",
+   "start": 11.9,
+   "end": 12.02
+  },
+  {
+   "w": "animado,",
+   "start": 12.18,
+   "end": 12.82
+  },
+  {
+   "w": "cenas,",
+   "start": 12.86,
+   "end": 13.54
+  },
+  {
+   "w": "música",
+   "start": 13.58,
+   "end": 14.1
+  },
+  {
+   "w": "e",
+   "start": 14.18,
+   "end": 14.22
+  },
+  {
+   "w": "legenda.",
+   "start": 14.26,
+   "end": 15.3
+  },
+  {
+   "w": "Hoje",
+   "start": 15.34,
+   "end": 15.46
+  },
+  {
+   "w": "eu",
+   "start": 15.5,
+   "end": 15.54
+  },
+  {
+   "w": "te",
+   "start": 15.62,
+   "end": 15.7
+  },
+  {
+   "w": "mostro",
+   "start": 15.82,
+   "end": 16.18
+  },
+  {
+   "w": "tudo,",
+   "start": 16.22,
+   "end": 16.74
+  },
+  {
+   "w": "do",
+   "start": 16.82,
+   "end": 16.9
+  },
+  {
+   "w": "zero,",
+   "start": 16.98,
+   "end": 17.54
+  },
+  {
+   "w": "tela",
+   "start": 17.58,
+   "end": 17.78
+  },
+  {
+   "w": "por",
+   "start": 17.86,
+   "end": 18.02
+  },
+  {
+   "w": "tela.",
+   "start": 18.1,
+   "end": 18.58
+  },
+  {
+   "w": "O",
+   "start": 18.85,
+   "end": 19.01
+  },
+  {
+   "w": "segredo",
+   "start": 19.13,
+   "end": 19.57
+  },
+  {
+   "w": "é",
+   "start": 19.61,
+   "end": 19.65
+  },
+  {
+   "w": "juntar",
+   "start": 19.69,
+   "end": 20.05
+  },
+  {
+   "w": "duas",
+   "start": 20.21,
+   "end": 20.45
+  },
+  {
+   "w": "ferramentas.",
+   "start": 20.49,
+   "end": 21.25
+  },
+  {
+   "w": "A",
+   "start": 21.57,
+   "end": 21.65
+  },
+  {
+   "w": "primeira",
+   "start": 21.81,
+   "end": 22.21
+  },
+  {
+   "w": "é",
+   "start": 22.29,
+   "end": 22.317
+  },
+  {
+   "w": "o",
+   "start": 22.343,
+   "end": 22.37
+  },
+  {
+   "w": "Claude",
+   "start": 22.53,
+   "end": 22.85
+  },
+  {
+   "w": "Code,",
+   "start": 22.93,
+   "end": 23.49
+  },
+  {
+   "w": "o",
+   "start": 23.53,
+   "end": 23.57
+  },
+  {
+   "w": "agente",
+   "start": 23.65,
+   "end": 23.89
+  },
+  {
+   "w": "de",
+   "start": 23.97,
+   "end": 24.05
+  },
+  {
+   "w": "programação",
+   "start": 24.21,
+   "end": 24.61
+  },
+  {
+   "w": "da",
+   "start": 24.69,
+   "end": 24.77
+  },
+  {
+   "w": "Anthropic,",
+   "start": 24.85,
+   "end": 25.49
+  },
+  {
+   "w": "que",
+   "start": 25.53,
+   "end": 25.57
+  },
+  {
+   "w": "escreve",
+   "start": 25.65,
+   "end": 26.29
+  },
+  {
+   "w": "e",
+   "start": 26.33,
+   "end": 26.37
+  },
+  {
+   "w": "roda",
+   "start": 26.45,
+   "end": 26.77
+  },
+  {
+   "w": "código",
+   "start": 26.85,
+   "end": 27.25
+  },
+  {
+   "w": "para",
+   "start": 27.33,
+   "end": 27.41
+  },
+  {
+   "w": "você.",
+   "start": 27.45,
+   "end": 28.29
+  },
+  {
+   "w": "A",
+   "start": 28.37,
+   "end": 28.45
+  },
+  {
+   "w": "segunda",
+   "start": 28.53,
+   "end": 29.01
+  },
+  {
+   "w": "é",
+   "start": 29.05,
+   "end": 29.09
+  },
+  {
+   "w": "o",
+   "start": 29.13,
+   "end": 29.17
+  },
+  {
+   "w": "Remotion,",
+   "start": 29.29,
+   "end": 29.97
+  },
+  {
+   "w": "que",
+   "start": 30.01,
+   "end": 30.05
+  },
+  {
+   "w": "transforma",
+   "start": 30.13,
+   "end": 30.61
+  },
+  {
+   "w": "código",
+   "start": 30.65,
+   "end": 31.09
+  },
+  {
+   "w": "em",
+   "start": 31.17,
+   "end": 31.33
+  },
+  {
+   "w": "vídeo",
+   "start": 31.41,
+   "end": 31.65
+  },
+  {
+   "w": "de",
+   "start": 31.69,
+   "end": 31.73
+  },
+  {
+   "w": "verdade,",
+   "start": 31.81,
+   "end": 32.53
+  },
+  {
+   "w": "em",
+   "start": 32.61,
+   "end": 32.69
+  },
+  {
+   "w": "MP4.",
+   "start": 32.77,
+   "end": 33.89
+  },
+  {
+   "w": "E,",
+   "start": 33.97,
+   "end": 34.21
+  },
+  {
+   "w": "para",
+   "start": 34.29,
+   "end": 34.37
+  },
+  {
+   "w": "quem",
+   "start": 34.423,
+   "end": 34.53
+  },
+  {
+   "w": "cria",
+   "start": 34.61,
+   "end": 34.77
+  },
+  {
+   "w": "sozinho,",
+   "start": 34.89,
+   "end": 35.41
+  },
+  {
+   "w": "o",
+   "start": 35.45,
+   "end": 35.49
+  },
+  {
+   "w": "Remotion",
+   "start": 35.61,
+   "end": 35.97
+  },
+  {
+   "w": "é",
+   "start": 36.05,
+   "end": 36.13
+  },
+  {
+   "w": "grátis.",
+   "start": 36.21,
+   "end": 36.85
+  },
+  {
+   "w": "Funciona",
+   "start": 37.12,
+   "end": 37.52
+  },
+  {
+   "w": "assim:",
+   "start": 37.64,
+   "end": 38.32
+  },
+  {
+   "w": "você",
+   "start": 38.4,
+   "end": 38.56
+  },
+  {
+   "w": "pede,",
+   "start": 38.64,
+   "end": 38.92
+  },
+  {
+   "w": "por",
+   "start": 38.96,
+   "end": 39.04
+  },
+  {
+   "w": "exemplo,",
+   "start": 39.12,
+   "end": 39.84
+  },
+  {
+   "w": "faça",
+   "start": 40.16,
+   "end": 40.4
+  },
+  {
+   "w": "um",
+   "start": 40.44,
+   "end": 40.48
+  },
+  {
+   "w": "vídeo",
+   "start": 40.56,
+   "end": 40.8
+  },
+  {
+   "w": "de",
+   "start": 40.88,
+   "end": 41.04
+  },
+  {
+   "w": "quinze",
+   "start": 41.12,
+   "end": 41.28
+  },
+  {
+   "w": "segundos",
+   "start": 41.36,
+   "end": 41.92
+  },
+  {
+   "w": "apresentando",
+   "start": 42,
+   "end": 42.56
+  },
+  {
+   "w": "a",
+   "start": 42.587,
+   "end": 42.613
+  },
+  {
+   "w": "minha",
+   "start": 42.64,
+   "end": 42.8
+  },
+  {
+   "w": "loja.",
+   "start": 42.88,
+   "end": 43.28
+  },
+  {
+   "w": "O",
+   "start": 43.76,
+   "end": 43.84
+  },
+  {
+   "w": "Claude",
+   "start": 43.92,
+   "end": 44.16
+  },
+  {
+   "w": "Code",
+   "start": 44.36,
+   "end": 44.56
+  },
+  {
+   "w": "cria",
+   "start": 44.68,
+   "end": 44.853
+  },
+  {
+   "w": "as",
+   "start": 44.907,
+   "end": 44.96
+  },
+  {
+   "w": "cenas",
+   "start": 45.04,
+   "end": 45.28
+  },
+  {
+   "w": "em",
+   "start": 45.36,
+   "end": 45.44
+  },
+  {
+   "w": "código.",
+   "start": 45.52,
+   "end": 46.16
+  },
+  {
+   "w": "Você",
+   "start": 46.32,
+   "end": 46.56
+  },
+  {
+   "w": "assiste",
+   "start": 46.68,
+   "end": 47.04
+  },
+  {
+   "w": "à",
+   "start": 47.093,
+   "end": 47.147
+  },
+  {
+   "w": "prévia",
+   "start": 47.2,
+   "end": 47.44
+  },
+  {
+   "w": "no",
+   "start": 47.48,
+   "end": 47.52
+  },
+  {
+   "w": "navegador,",
+   "start": 47.6,
+   "end": 48.48
+  },
+  {
+   "w": "pede",
+   "start": 48.56,
+   "end": 48.68
+  },
+  {
+   "w": "ajustes,",
+   "start": 48.72,
+   "end": 49.6
+  },
+  {
+   "w": "e",
+   "start": 49.64,
+   "end": 49.68
+  },
+  {
+   "w": "no",
+   "start": 49.76,
+   "end": 49.84
+  },
+  {
+   "w": "final",
+   "start": 50,
+   "end": 50.16
+  },
+  {
+   "w": "exporta",
+   "start": 50.32,
+   "end": 50.827
+  },
+  {
+   "w": "o",
+   "start": 50.853,
+   "end": 50.88
+  },
+  {
+   "w": "arquivo",
+   "start": 50.96,
+   "end": 51.2
+  },
+  {
+   "w": "pronto.",
+   "start": 51.28,
+   "end": 51.92
+  },
+  {
+   "w": "Com",
+   "start": 52.19,
+   "end": 52.35
+  },
+  {
+   "w": "isso",
+   "start": 52.43,
+   "end": 52.67
+  },
+  {
+   "w": "você",
+   "start": 52.75,
+   "end": 52.99
+  },
+  {
+   "w": "cria",
+   "start": 53.07,
+   "end": 53.23
+  },
+  {
+   "w": "vinheta",
+   "start": 53.31,
+   "end": 53.63
+  },
+  {
+   "w": "para",
+   "start": 53.71,
+   "end": 53.79
+  },
+  {
+   "w": "o",
+   "start": 53.83,
+   "end": 53.87
+  },
+  {
+   "w": "seu",
+   "start": 53.91,
+   "end": 54.03
+  },
+  {
+   "w": "canal,",
+   "start": 54.11,
+   "end": 54.75
+  },
+  {
+   "w": "vídeo",
+   "start": 54.83,
+   "end": 54.99
+  },
+  {
+   "w": "de",
+   "start": 55.03,
+   "end": 55.07
+  },
+  {
+   "w": "produto,",
+   "start": 55.15,
+   "end": 55.95
+  },
+  {
+   "w": "gráfico",
+   "start": 56.11,
+   "end": 56.27
+  },
+  {
+   "w": "animado",
+   "start": 56.39,
+   "end": 56.75
+  },
+  {
+   "w": "com",
+   "start": 56.79,
+   "end": 56.83
+  },
+  {
+   "w": "os",
+   "start": 56.87,
+   "end": 56.91
+  },
+  {
+   "w": "seus",
+   "start": 56.99,
+   "end": 57.15
+  },
+  {
+   "w": "números,",
+   "start": 57.23,
+   "end": 57.87
+  },
+  {
+   "w": "e",
+   "start": 58.03,
+   "end": 58.11
+  },
+  {
+   "w": "até",
+   "start": 58.19,
+   "end": 58.35
+  },
+  {
+   "w": "Reels",
+   "start": 58.43,
+   "end": 58.83
+  },
+  {
+   "w": "e",
+   "start": 58.883,
+   "end": 58.937
+  },
+  {
+   "w": "Shorts",
+   "start": 58.99,
+   "end": 59.35
+  },
+  {
+   "w": "no",
+   "start": 59.39,
+   "end": 59.47
+  },
+  {
+   "w": "formato",
+   "start": 59.63,
+   "end": 59.83
+  },
+  {
+   "w": "vertical.",
+   "start": 59.87,
+   "end": 60.43
+  },
+  {
+   "w": "E",
+   "start": 60.75,
+   "end": 60.83
+  },
+  {
+   "w": "dá",
+   "start": 60.87,
+   "end": 60.99
+  },
+  {
+   "w": "para",
+   "start": 61.07,
+   "end": 61.15
+  },
+  {
+   "w": "ir",
+   "start": 61.23,
+   "end": 61.31
+  },
+  {
+   "w": "além:",
+   "start": 61.39,
+   "end": 61.95
+  },
+  {
+   "w": "montar",
+   "start": 62.07,
+   "end": 62.27
+  },
+  {
+   "w": "uma",
+   "start": 62.35,
+   "end": 62.51
+  },
+  {
+   "w": "fábrica",
+   "start": 62.67,
+   "end": 63.07
+  },
+  {
+   "w": "que",
+   "start": 63.15,
+   "end": 63.23
+  },
+  {
+   "w": "gera",
+   "start": 63.31,
+   "end": 63.47
+  },
+  {
+   "w": "vídeos",
+   "start": 63.55,
+   "end": 63.87
+  },
+  {
+   "w": "em",
+   "start": 63.99,
+   "end": 64.11
+  },
+  {
+   "w": "série,",
+   "start": 64.19,
+   "end": 64.75
+  },
+  {
+   "w": "todo",
+   "start": 64.87,
+   "end": 64.99
+  },
+  {
+   "w": "dia.",
+   "start": 65.07,
+   "end": 65.39
+  },
+  {
+   "w": "Se",
+   "start": 65.79,
+   "end": 65.87
+  },
+  {
+   "w": "você",
+   "start": 65.91,
+   "end": 66.11
+  },
+  {
+   "w": "quer",
+   "start": 66.15,
+   "end": 66.19
+  },
+  {
+   "w": "aprender",
+   "start": 66.27,
+   "end": 66.59
+  },
+  {
+   "w": "a",
+   "start": 66.617,
+   "end": 66.643
+  },
+  {
+   "w": "montar",
+   "start": 66.67,
+   "end": 66.99
+  },
+  {
+   "w": "essa",
+   "start": 67.07,
+   "end": 67.15
+  },
+  {
+   "w": "fábrica,",
+   "start": 67.31,
+   "end": 67.87
+  },
+  {
+   "w": "comenta",
+   "start": 67.95,
+   "end": 68.27
+  },
+  {
+   "w": "fábrica",
+   "start": 68.43,
+   "end": 68.83
+  },
+  {
+   "w": "de",
+   "start": 68.87,
+   "end": 68.91
+  },
+  {
+   "w": "vídeos",
+   "start": 68.99,
+   "end": 69.31
+  },
+  {
+   "w": "aqui",
+   "start": 69.35,
+   "end": 69.47
+  },
+  {
+   "w": "embaixo.",
+   "start": 69.55,
+   "end": 70.19
+  },
+  {
+   "w": "Se",
+   "start": 70.23,
+   "end": 70.27
+  },
+  {
+   "w": "tiver",
+   "start": 70.35,
+   "end": 70.51
+  },
+  {
+   "w": "demanda,",
+   "start": 70.63,
+   "end": 71.23
+  },
+  {
+   "w": "eu",
+   "start": 71.31,
+   "end": 71.39
+  },
+  {
+   "w": "faço",
+   "start": 71.43,
+   "end": 71.55
+  },
+  {
+   "w": "esse",
+   "start": 71.63,
+   "end": 71.79
+  },
+  {
+   "w": "vídeo.",
+   "start": 71.87,
+   "end": 72.35
+  },
+  {
+   "w": "Antes",
+   "start": 72.62,
+   "end": 72.86
+  },
+  {
+   "w": "de",
+   "start": 72.9,
+   "end": 72.94
+  },
+  {
+   "w": "começar,",
+   "start": 73.02,
+   "end": 73.66
+  },
+  {
+   "w": "um",
+   "start": 73.7,
+   "end": 73.74
+  },
+  {
+   "w": "pedido",
+   "start": 73.82,
+   "end": 74.06
+  },
+  {
+   "w": "rápido.",
+   "start": 74.14,
+   "end": 74.62
+  },
+  {
+   "w": "Se",
+   "start": 75.02,
+   "end": 75.1
+  },
+  {
+   "w": "esse",
+   "start": 75.22,
+   "end": 75.34
+  },
+  {
+   "w": "vídeo",
+   "start": 75.42,
+   "end": 75.66
+  },
+  {
+   "w": "já",
+   "start": 75.74,
+   "end": 75.82
+  },
+  {
+   "w": "está",
+   "start": 75.9,
+   "end": 76.18
+  },
+  {
+   "w": "te",
+   "start": 76.22,
+   "end": 76.3
+  },
+  {
+   "w": "ajudando,",
+   "start": 76.34,
+   "end": 77.1
+  },
+  {
+   "w": "deixa",
+   "start": 77.14,
+   "end": 77.34
+  },
+  {
+   "w": "o",
+   "start": 77.367,
+   "end": 77.393
+  },
+  {
+   "w": "like",
+   "start": 77.42,
+   "end": 77.74
+  },
+  {
+   "w": "e",
+   "start": 77.82,
+   "end": 77.86
+  },
+  {
+   "w": "se",
+   "start": 77.9,
+   "end": 77.98
+  },
+  {
+   "w": "inscreve",
+   "start": 78.1,
+   "end": 78.46
+  },
+  {
+   "w": "no",
+   "start": 78.54,
+   "end": 78.58
+  },
+  {
+   "w": "Aprenda",
+   "start": 78.62,
+   "end": 78.86
+  },
+  {
+   "w": "YouTube.",
+   "start": 78.94,
+   "end": 79.5
+  },
+  {
+   "w": "É",
+   "start": 79.82,
+   "end": 79.86
+  },
+  {
+   "w": "assim",
+   "start": 79.9,
+   "end": 80.14
+  },
+  {
+   "w": "que",
+   "start": 80.18,
+   "end": 80.22
+  },
+  {
+   "w": "eu",
+   "start": 80.247,
+   "end": 80.273
+  },
+  {
+   "w": "continuo",
+   "start": 80.3,
+   "end": 80.7
+  },
+  {
+   "w": "trazendo",
+   "start": 80.78,
+   "end": 81.18
+  },
+  {
+   "w": "tutorial",
+   "start": 81.42,
+   "end": 81.66
+  },
+  {
+   "w": "de",
+   "start": 81.7,
+   "end": 81.74
+  },
+  {
+   "w": "inteligência",
+   "start": 81.82,
+   "end": 82.3
+  },
+  {
+   "w": "artificial,",
+   "start": 82.38,
+   "end": 83.18
+  },
+  {
+   "w": "passo",
+   "start": 83.3,
+   "end": 83.46
+  },
+  {
+   "w": "a",
+   "start": 83.5,
+   "end": 83.54
+  },
+  {
+   "w": "passo,",
+   "start": 83.58,
+   "end": 84.14
+  },
+  {
+   "w": "de",
+   "start": 84.18,
+   "end": 84.22
+  },
+  {
+   "w": "graça.",
+   "start": 84.3,
+   "end": 84.94
+  },
+  {
+   "w": "O",
+   "start": 85.21,
+   "end": 85.29
+  },
+  {
+   "w": "plano",
+   "start": 85.37,
+   "end": 85.61
+  },
+  {
+   "w": "tem",
+   "start": 85.69,
+   "end": 85.93
+  },
+  {
+   "w": "quatro",
+   "start": 85.97,
+   "end": 86.17
+  },
+  {
+   "w": "passos.",
+   "start": 86.33,
+   "end": 86.89
+  },
+  {
+   "w": "Um:",
+   "start": 87.21,
+   "end": 87.77
+  },
+  {
+   "w": "instalar",
+   "start": 87.89,
+   "end": 88.17
+  },
+  {
+   "w": "o",
+   "start": 88.25,
+   "end": 88.29
+  },
+  {
+   "w": "Node,",
+   "start": 88.33,
+   "end": 88.81
+  },
+  {
+   "w": "que",
+   "start": 88.89,
+   "end": 88.97
+  },
+  {
+   "w": "é",
+   "start": 88.99,
+   "end": 89.01
+  },
+  {
+   "w": "o",
+   "start": 89.03,
+   "end": 89.05
+  },
+  {
+   "w": "motor",
+   "start": 89.13,
+   "end": 89.45
+  },
+  {
+   "w": "que",
+   "start": 89.53,
+   "end": 89.61
+  },
+  {
+   "w": "roda",
+   "start": 89.69,
+   "end": 89.93
+  },
+  {
+   "w": "o",
+   "start": 89.957,
+   "end": 89.983
+  },
+  {
+   "w": "Remotion.",
+   "start": 90.01,
+   "end": 90.65
+  },
+  {
+   "w": "Dois:",
+   "start": 91.05,
+   "end": 91.69
+  },
+  {
+   "w": "instalar",
+   "start": 91.81,
+   "end": 92.09
+  },
+  {
+   "w": "o",
+   "start": 92.17,
+   "end": 92.25
+  },
+  {
+   "w": "Claude",
+   "start": 92.33,
+   "end": 92.57
+  },
+  {
+   "w": "Code.",
+   "start": 92.65,
+   "end": 93.21
+  },
+  {
+   "w": "Três:",
+   "start": 93.61,
+   "end": 94.25
+  },
+  {
+   "w": "criar",
+   "start": 94.33,
+   "end": 94.57
+  },
+  {
+   "w": "o",
+   "start": 94.61,
+   "end": 94.65
+  },
+  {
+   "w": "projeto",
+   "start": 94.77,
+   "end": 95.05
+  },
+  {
+   "w": "de",
+   "start": 95.13,
+   "end": 95.21
+  },
+  {
+   "w": "vídeo,",
+   "start": 95.29,
+   "end": 95.77
+  },
+  {
+   "w": "já",
+   "start": 95.81,
+   "end": 95.93
+  },
+  {
+   "w": "com",
+   "start": 96.01,
+   "end": 96.09
+  },
+  {
+   "w": "as",
+   "start": 96.13,
+   "end": 96.17
+  },
+  {
+   "w": "skills",
+   "start": 96.33,
+   "end": 96.65
+  },
+  {
+   "w": "do",
+   "start": 96.69,
+   "end": 96.73
+  },
+  {
+   "w": "Remotion.",
+   "start": 96.85,
+   "end": 97.77
+  },
+  {
+   "w": "Quatro:",
+   "start": 97.81,
+   "end": 98.41
+  },
+  {
+   "w": "pedir",
+   "start": 98.53,
+   "end": 98.73
+  },
+  {
+   "w": "o",
+   "start": 98.77,
+   "end": 98.81
+  },
+  {
+   "w": "vídeo",
+   "start": 98.89,
+   "end": 99.05
+  },
+  {
+   "w": "em",
+   "start": 99.09,
+   "end": 99.13
+  },
+  {
+   "w": "português",
+   "start": 99.25,
+   "end": 99.77
+  },
+  {
+   "w": "e",
+   "start": 99.93,
+   "end": 99.97
+  },
+  {
+   "w": "exportar.",
+   "start": 100.01,
+   "end": 100.73
+  },
+  {
+   "w": "O",
+   "start": 101.08,
+   "end": 101.16
+  },
+  {
+   "w": "que",
+   "start": 101.24,
+   "end": 101.28
+  },
+  {
+   "w": "você",
+   "start": 101.32,
+   "end": 101.56
+  },
+  {
+   "w": "precisa?",
+   "start": 101.68,
+   "end": 102.28
+  },
+  {
+   "w": "Um",
+   "start": 102.44,
+   "end": 102.52
+  },
+  {
+   "w": "computador",
+   "start": 102.68,
+   "end": 103.08
+  },
+  {
+   "w": "com",
+   "start": 103.16,
+   "end": 103.24
+  },
+  {
+   "w": "Windows,",
+   "start": 103.32,
+   "end": 103.96
+  },
+  {
+   "w": "Mac",
+   "start": 104.04,
+   "end": 104.44
+  },
+  {
+   "w": "ou",
+   "start": 104.52,
+   "end": 104.6
+  },
+  {
+   "w": "Linux.",
+   "start": 104.68,
+   "end": 105.32
+  },
+  {
+   "w": "O",
+   "start": 105.48,
+   "end": 105.56
+  },
+  {
+   "w": "Node,",
+   "start": 105.64,
+   "end": 106.12
+  },
+  {
+   "w": "que",
+   "start": 106.16,
+   "end": 106.2
+  },
+  {
+   "w": "a",
+   "start": 106.24,
+   "end": 106.28
+  },
+  {
+   "w": "gente",
+   "start": 106.333,
+   "end": 106.44
+  },
+  {
+   "w": "instala",
+   "start": 106.52,
+   "end": 106.84
+  },
+  {
+   "w": "agora.",
+   "start": 106.92,
+   "end": 107.64
+  },
+  {
+   "w": "E",
+   "start": 107.68,
+   "end": 107.72
+  },
+  {
+   "w": "uma",
+   "start": 107.8,
+   "end": 107.88
+  },
+  {
+   "w": "conta",
+   "start": 107.96,
+   "end": 108.2
+  },
+  {
+   "w": "do",
+   "start": 108.28,
+   "end": 108.36
+  },
+  {
+   "w": "Claude",
+   "start": 108.44,
+   "end": 108.76
+  },
+  {
+   "w": "no",
+   "start": 108.84,
+   "end": 108.92
+  },
+  {
+   "w": "plano",
+   "start": 108.96,
+   "end": 109.16
+  },
+  {
+   "w": "Pro",
+   "start": 109.32,
+   "end": 109.64
+  },
+  {
+   "w": "ou",
+   "start": 109.72,
+   "end": 109.8
+  },
+  {
+   "w": "superior,",
+   "start": 109.88,
+   "end": 110.6
+  },
+  {
+   "w": "porque",
+   "start": 110.68,
+   "end": 110.8
+  },
+  {
+   "w": "o",
+   "start": 110.84,
+   "end": 110.92
+  },
+  {
+   "w": "Claude",
+   "start": 111,
+   "end": 111.24
+  },
+  {
+   "w": "Code",
+   "start": 111.4,
+   "end": 111.56
+  },
+  {
+   "w": "faz",
+   "start": 111.64,
+   "end": 111.88
+  },
+  {
+   "w": "parte",
+   "start": 111.96,
+   "end": 112.2
+  },
+  {
+   "w": "da",
+   "start": 112.24,
+   "end": 112.28
+  },
+  {
+   "w": "assinatura.",
+   "start": 112.4,
+   "end": 113.24
+  },
+  {
+   "w": "E",
+   "start": 113.32,
+   "end": 113.4
+  },
+  {
+   "w": "não",
+   "start": 113.56,
+   "end": 113.72
+  },
+  {
+   "w": "precisa",
+   "start": 113.8,
+   "end": 114.2
+  },
+  {
+   "w": "saber",
+   "start": 114.28,
+   "end": 114.52
+  },
+  {
+   "w": "programar:",
+   "start": 114.68,
+   "end": 115.32
+  },
+  {
+   "w": "quem",
+   "start": 115.347,
+   "end": 115.4
+  },
+  {
+   "w": "escreve",
+   "start": 115.48,
+   "end": 115.8
+  },
+  {
+   "w": "o",
+   "start": 115.84,
+   "end": 115.88
+  },
+  {
+   "w": "código",
+   "start": 115.96,
+   "end": 116.44
+  },
+  {
+   "w": "é",
+   "start": 116.52,
+   "end": 116.6
+  },
+  {
+   "w": "ele.",
+   "start": 116.68,
+   "end": 117.24
+  },
+  {
+   "w": "Passo",
+   "start": 117.51,
+   "end": 117.91
+  },
+  {
+   "w": "um.",
+   "start": 117.99,
+   "end": 118.31
+  },
+  {
+   "w": "Abra",
+   "start": 118.79,
+   "end": 118.99
+  },
+  {
+   "w": "o",
+   "start": 119.03,
+   "end": 119.057
+  },
+  {
+   "w": "navegador",
+   "start": 119.083,
+   "end": 119.75
+  },
+  {
+   "w": "e",
+   "start": 119.91,
+   "end": 119.99
+  },
+  {
+   "w": "entre",
+   "start": 120.07,
+   "end": 120.39
+  },
+  {
+   "w": "em",
+   "start": 120.47,
+   "end": 120.55
+  },
+  {
+   "w": "nodejs",
+   "start": 120.63,
+   "end": 121.59
+  },
+  {
+   "w": "ponto",
+   "start": 121.67,
+   "end": 121.91
+  },
+  {
+   "w": "org,",
+   "start": 122.07,
+   "end": 122.55
+  },
+  {
+   "w": "barra",
+   "start": 122.67,
+   "end": 122.87
+  },
+  {
+   "w": "download.",
+   "start": 122.95,
+   "end": 123.59
+  },
+  {
+   "w": "O",
+   "start": 123.99,
+   "end": 124.07
+  },
+  {
+   "w": "site",
+   "start": 124.15,
+   "end": 124.47
+  },
+  {
+   "w": "já",
+   "start": 124.55,
+   "end": 124.63
+  },
+  {
+   "w": "reconhece",
+   "start": 124.71,
+   "end": 125.19
+  },
+  {
+   "w": "o",
+   "start": 125.217,
+   "end": 125.243
+  },
+  {
+   "w": "seu",
+   "start": 125.27,
+   "end": 125.43
+  },
+  {
+   "w": "sistema.",
+   "start": 125.59,
+   "end": 125.99
+  },
+  {
+   "w": "Baixe",
+   "start": 126.47,
+   "end": 126.79
+  },
+  {
+   "w": "a",
+   "start": 126.817,
+   "end": 126.843
+  },
+  {
+   "w": "versão",
+   "start": 126.87,
+   "end": 127.27
+  },
+  {
+   "w": "LTS,",
+   "start": 127.43,
+   "end": 128.31
+  },
+  {
+   "w": "que",
+   "start": 128.39,
+   "end": 128.47
+  },
+  {
+   "w": "é",
+   "start": 128.51,
+   "end": 128.55
+  },
+  {
+   "w": "a",
+   "start": 128.577,
+   "end": 128.603
+  },
+  {
+   "w": "versão",
+   "start": 128.63,
+   "end": 128.95
+  },
+  {
+   "w": "estável.",
+   "start": 129.07,
+   "end": 129.59
+  },
+  {
+   "w": "No",
+   "start": 130.07,
+   "end": 130.15
+  },
+  {
+   "w": "Windows,",
+   "start": 130.23,
+   "end": 130.71
+  },
+  {
+   "w": "clique",
+   "start": 130.79,
+   "end": 131.11
+  },
+  {
+   "w": "em",
+   "start": 131.19,
+   "end": 131.27
+  },
+  {
+   "w": "Windows",
+   "start": 131.43,
+   "end": 131.75
+  },
+  {
+   "w": "Installer.",
+   "start": 131.83,
+   "end": 132.47
+  },
+  {
+   "w": "No",
+   "start": 132.79,
+   "end": 132.87
+  },
+  {
+   "w": "Mac,",
+   "start": 133.07,
+   "end": 133.43
+  },
+  {
+   "w": "o",
+   "start": 133.457,
+   "end": 133.483
+  },
+  {
+   "w": "botão",
+   "start": 133.51,
+   "end": 133.91
+  },
+  {
+   "w": "é",
+   "start": 133.95,
+   "end": 133.99
+  },
+  {
+   "w": "o",
+   "start": 134.03,
+   "end": 134.07
+  },
+  {
+   "w": "macOS",
+   "start": 134.15,
+   "end": 134.79
+  },
+  {
+   "w": "Installer.",
+   "start": 134.87,
+   "end": 135.59
+  },
+  {
+   "w": "Abra",
+   "start": 135.94,
+   "end": 136.207
+  },
+  {
+   "w": "o",
+   "start": 136.233,
+   "end": 136.26
+  },
+  {
+   "w": "arquivo",
+   "start": 136.34,
+   "end": 136.66
+  },
+  {
+   "w": "que",
+   "start": 136.74,
+   "end": 136.82
+  },
+  {
+   "w": "você",
+   "start": 136.9,
+   "end": 137.06
+  },
+  {
+   "w": "baixou",
+   "start": 137.1,
+   "end": 137.62
+  },
+  {
+   "w": "e",
+   "start": 137.78,
+   "end": 137.86
+  },
+  {
+   "w": "vá",
+   "start": 137.94,
+   "end": 138.02
+  },
+  {
+   "w": "clicando",
+   "start": 138.06,
+   "end": 138.42
+  },
+  {
+   "w": "em",
+   "start": 138.5,
+   "end": 138.58
+  },
+  {
+   "w": "Next,",
+   "start": 138.66,
+   "end": 139.3
+  },
+  {
+   "w": "ou",
+   "start": 139.38,
+   "end": 139.54
+  },
+  {
+   "w": "Continuar",
+   "start": 139.62,
+   "end": 140.18
+  },
+  {
+   "w": "no",
+   "start": 140.22,
+   "end": 140.26
+  },
+  {
+   "w": "Mac,",
+   "start": 140.34,
+   "end": 140.74
+  },
+  {
+   "w": "até",
+   "start": 140.82,
+   "end": 141.02
+  },
+  {
+   "w": "o",
+   "start": 141.06,
+   "end": 141.1
+  },
+  {
+   "w": "final.",
+   "start": 141.14,
+   "end": 141.54
+  },
+  {
+   "w": "É",
+   "start": 142.02,
+   "end": 142.047
+  },
+  {
+   "w": "o",
+   "start": 142.073,
+   "end": 142.1
+  },
+  {
+   "w": "instalador",
+   "start": 142.18,
+   "end": 142.58
+  },
+  {
+   "w": "padrão,",
+   "start": 142.66,
+   "end": 143.22
+  },
+  {
+   "w": "sem",
+   "start": 143.3,
+   "end": 143.38
+  },
+  {
+   "w": "nenhuma",
+   "start": 143.46,
+   "end": 143.86
+  },
+  {
+   "w": "configuração",
+   "start": 143.94,
+   "end": 144.5
+  },
+  {
+   "w": "especial.",
+   "start": 144.58,
+   "end": 145.38
+  },
+  {
+   "w": "No",
+   "start": 145.65,
+   "end": 145.81
+  },
+  {
+   "w": "Linux,",
+   "start": 146.09,
+   "end": 146.45
+  },
+  {
+   "w": "a",
+   "start": 146.53,
+   "end": 146.61
+  },
+  {
+   "w": "própria",
+   "start": 146.69,
+   "end": 147.01
+  },
+  {
+   "w": "página",
+   "start": 147.09,
+   "end": 147.41
+  },
+  {
+   "w": "do",
+   "start": 147.49,
+   "end": 147.57
+  },
+  {
+   "w": "Node",
+   "start": 147.65,
+   "end": 148.05
+  },
+  {
+   "w": "mostra",
+   "start": 148.13,
+   "end": 148.37
+  },
+  {
+   "w": "os",
+   "start": 148.45,
+   "end": 148.53
+  },
+  {
+   "w": "comandos",
+   "start": 148.61,
+   "end": 148.93
+  },
+  {
+   "w": "prontos.",
+   "start": 149.01,
+   "end": 149.57
+  },
+  {
+   "w": "Primeiro,",
+   "start": 149.97,
+   "end": 150.53
+  },
+  {
+   "w": "um",
+   "start": 150.57,
+   "end": 150.61
+  },
+  {
+   "w": "comando",
+   "start": 150.69,
+   "end": 151.01
+  },
+  {
+   "w": "instala",
+   "start": 151.17,
+   "end": 151.49
+  },
+  {
+   "w": "o",
+   "start": 151.57,
+   "end": 151.65
+  },
+  {
+   "w": "ene",
+   "start": 151.73,
+   "end": 151.89
+  },
+  {
+   "w": "vê",
+   "start": 152.01,
+   "end": 152.13
+  },
+  {
+   "w": "eme,",
+   "start": 152.25,
+   "end": 152.53
+  },
+  {
+   "w": "o",
+   "start": 152.61,
+   "end": 152.69
+  },
+  {
+   "w": "gerenciador",
+   "start": 152.77,
+   "end": 153.25
+  },
+  {
+   "w": "de",
+   "start": 153.29,
+   "end": 153.33
+  },
+  {
+   "w": "versões.",
+   "start": 153.41,
+   "end": 154.05
+  },
+  {
+   "w": "Depois,",
+   "start": 154.45,
+   "end": 155.01
+  },
+  {
+   "w": "digite:",
+   "start": 155.09,
+   "end": 155.65
+  },
+  {
+   "w": "ene",
+   "start": 155.97,
+   "end": 156.21
+  },
+  {
+   "w": "vê",
+   "start": 156.33,
+   "end": 156.45
+  },
+  {
+   "w": "eme",
+   "start": 156.57,
+   "end": 156.69
+  },
+  {
+   "w": "install",
+   "start": 156.85,
+   "end": 157.41
+  },
+  {
+   "w": "vinte",
+   "start": 157.57,
+   "end": 157.73
+  },
+  {
+   "w": "e",
+   "start": 157.81,
+   "end": 157.89
+  },
+  {
+   "w": "seis.",
+   "start": 157.97,
+   "end": 158.61
+  },
+  {
+   "w": "Para",
+   "start": 158.88,
+   "end": 159.12
+  },
+  {
+   "w": "conferir,",
+   "start": 159.2,
+   "end": 159.92
+  },
+  {
+   "w": "abra",
+   "start": 160.08,
+   "end": 160.24
+  },
+  {
+   "w": "um",
+   "start": 160.28,
+   "end": 160.32
+  },
+  {
+   "w": "terminal",
+   "start": 160.52,
+   "end": 160.72
+  },
+  {
+   "w": "novo",
+   "start": 160.8,
+   "end": 161.2
+  },
+  {
+   "w": "e",
+   "start": 161.28,
+   "end": 161.36
+  },
+  {
+   "w": "digite",
+   "start": 161.48,
+   "end": 161.84
+  },
+  {
+   "w": "node,",
+   "start": 162,
+   "end": 162.56
+  },
+  {
+   "w": "espaço,",
+   "start": 162.68,
+   "end": 163.44
+  },
+  {
+   "w": "traço",
+   "start": 163.56,
+   "end": 163.92
+  },
+  {
+   "w": "v.",
+   "start": 164.08,
+   "end": 164.4
+  },
+  {
+   "w": "Se",
+   "start": 164.88,
+   "end": 164.96
+  },
+  {
+   "w": "aparecer",
+   "start": 165,
+   "end": 165.44
+  },
+  {
+   "w": "vinte",
+   "start": 165.52,
+   "end": 165.76
+  },
+  {
+   "w": "e",
+   "start": 165.84,
+   "end": 165.92
+  },
+  {
+   "w": "seis",
+   "start": 166,
+   "end": 166.16
+  },
+  {
+   "w": "e",
+   "start": 166.24,
+   "end": 166.32
+  },
+  {
+   "w": "mais",
+   "start": 166.4,
+   "end": 166.56
+  },
+  {
+   "w": "um",
+   "start": 166.64,
+   "end": 166.72
+  },
+  {
+   "w": "número,",
+   "start": 166.76,
+   "end": 167.36
+  },
+  {
+   "w": "o",
+   "start": 167.4,
+   "end": 167.44
+  },
+  {
+   "w": "passo",
+   "start": 167.52,
+   "end": 167.76
+  },
+  {
+   "w": "um",
+   "start": 167.84,
+   "end": 167.92
+  },
+  {
+   "w": "está",
+   "start": 168,
+   "end": 168.2
+  },
+  {
+   "w": "pronto.",
+   "start": 168.24,
+   "end": 168.88
+  },
+  {
+   "w": "Passo",
+   "start": 169.15,
+   "end": 169.47
+  },
+  {
+   "w": "dois:",
+   "start": 169.55,
+   "end": 170.27
+  },
+  {
+   "w": "instalar",
+   "start": 170.39,
+   "end": 170.75
+  },
+  {
+   "w": "o",
+   "start": 170.83,
+   "end": 170.91
+  },
+  {
+   "w": "Claude",
+   "start": 170.99,
+   "end": 171.31
+  },
+  {
+   "w": "Code.",
+   "start": 171.51,
+   "end": 171.87
+  },
+  {
+   "w": "No",
+   "start": 172.27,
+   "end": 172.35
+  },
+  {
+   "w": "Windows,",
+   "start": 172.43,
+   "end": 173.07
+  },
+  {
+   "w": "abra",
+   "start": 173.15,
+   "end": 173.31
+  },
+  {
+   "w": "o",
+   "start": 173.39,
+   "end": 173.43
+  },
+  {
+   "w": "PowerShell",
+   "start": 173.47,
+   "end": 174.11
+  },
+  {
+   "w": "e",
+   "start": 174.19,
+   "end": 174.27
+  },
+  {
+   "w": "cole",
+   "start": 174.35,
+   "end": 174.59
+  },
+  {
+   "w": "este",
+   "start": 174.67,
+   "end": 174.91
+  },
+  {
+   "w": "comando.",
+   "start": 175.03,
+   "end": 175.47
+  },
+  {
+   "w": "No",
+   "start": 175.87,
+   "end": 175.95
+  },
+  {
+   "w": "Mac",
+   "start": 176.03,
+   "end": 176.35
+  },
+  {
+   "w": "e",
+   "start": 176.39,
+   "end": 176.43
+  },
+  {
+   "w": "no",
+   "start": 176.51,
+   "end": 176.59
+  },
+  {
+   "w": "Linux,",
+   "start": 176.83,
+   "end": 177.23
+  },
+  {
+   "w": "abra",
+   "start": 177.35,
+   "end": 177.47
+  },
+  {
+   "w": "o",
+   "start": 177.51,
+   "end": 177.55
+  },
+  {
+   "w": "terminal",
+   "start": 177.83,
+   "end": 178.11
+  },
+  {
+   "w": "e",
+   "start": 178.19,
+   "end": 178.27
+  },
+  {
+   "w": "cole",
+   "start": 178.35,
+   "end": 178.59
+  },
+  {
+   "w": "este",
+   "start": 178.75,
+   "end": 178.91
+  },
+  {
+   "w": "outro.",
+   "start": 178.99,
+   "end": 179.55
+  },
+  {
+   "w": "O",
+   "start": 179.79,
+   "end": 179.83
+  },
+  {
+   "w": "instalador",
+   "start": 179.87,
+   "end": 180.43
+  },
+  {
+   "w": "não",
+   "start": 180.51,
+   "end": 180.67
+  },
+  {
+   "w": "mostra",
+   "start": 180.75,
+   "end": 180.99
+  },
+  {
+   "w": "progresso,",
+   "start": 181.07,
+   "end": 181.87
+  },
+  {
+   "w": "então",
+   "start": 181.99,
+   "end": 182.35
+  },
+  {
+   "w": "espere",
+   "start": 182.51,
+   "end": 182.83
+  },
+  {
+   "w": "ele",
+   "start": 182.91,
+   "end": 182.99
+  },
+  {
+   "w": "terminar.",
+   "start": 183.15,
+   "end": 183.79
+  },
+  {
+   "w": "Quando",
+   "start": 184.06,
+   "end": 184.26
+  },
+  {
+   "w": "terminar,",
+   "start": 184.3,
+   "end": 184.86
+  },
+  {
+   "w": "feche",
+   "start": 185.1,
+   "end": 185.42
+  },
+  {
+   "w": "o",
+   "start": 185.46,
+   "end": 185.5
+  },
+  {
+   "w": "terminal",
+   "start": 185.78,
+   "end": 186.06
+  },
+  {
+   "w": "e",
+   "start": 186.22,
+   "end": 186.3
+  },
+  {
+   "w": "abra",
+   "start": 186.42,
+   "end": 186.54
+  },
+  {
+   "w": "de",
+   "start": 186.62,
+   "end": 186.7
+  },
+  {
+   "w": "novo.",
+   "start": 186.74,
+   "end": 187.3
+  },
+  {
+   "w": "Digite",
+   "start": 187.5,
+   "end": 187.9
+  },
+  {
+   "w": "claude,",
+   "start": 188.06,
+   "end": 188.7
+  },
+  {
+   "w": "dois",
+   "start": 188.74,
+   "end": 188.86
+  },
+  {
+   "w": "traços,",
+   "start": 188.94,
+   "end": 189.62
+  },
+  {
+   "w": "version.",
+   "start": 189.74,
+   "end": 190.3
+  },
+  {
+   "w": "Apareceu",
+   "start": 190.62,
+   "end": 191.02
+  },
+  {
+   "w": "a",
+   "start": 191.06,
+   "end": 191.1
+  },
+  {
+   "w": "versão?",
+   "start": 191.22,
+   "end": 191.58
+  },
+  {
+   "w": "Está",
+   "start": 191.9,
+   "end": 192.22
+  },
+  {
+   "w": "instalado.",
+   "start": 192.3,
+   "end": 192.78
+  },
+  {
+   "w": "Se",
+   "start": 193.1,
+   "end": 193.18
+  },
+  {
+   "w": "o",
+   "start": 193.22,
+   "end": 193.26
+  },
+  {
+   "w": "terminal",
+   "start": 193.46,
+   "end": 193.66
+  },
+  {
+   "w": "disser",
+   "start": 193.74,
+   "end": 193.98
+  },
+  {
+   "w": "que",
+   "start": 194.06,
+   "end": 194.14
+  },
+  {
+   "w": "não",
+   "start": 194.22,
+   "end": 194.38
+  },
+  {
+   "w": "achou",
+   "start": 194.5,
+   "end": 194.7
+  },
+  {
+   "w": "o",
+   "start": 194.74,
+   "end": 194.78
+  },
+  {
+   "w": "comando,",
+   "start": 194.86,
+   "end": 195.5
+  },
+  {
+   "w": "feche",
+   "start": 195.58,
+   "end": 195.98
+  },
+  {
+   "w": "e",
+   "start": 196.14,
+   "end": 196.22
+  },
+  {
+   "w": "abra",
+   "start": 196.38,
+   "end": 196.54
+  },
+  {
+   "w": "mais",
+   "start": 196.62,
+   "end": 196.78
+  },
+  {
+   "w": "uma",
+   "start": 196.86,
+   "end": 196.94
+  },
+  {
+   "w": "vez.",
+   "start": 197.02,
+   "end": 197.42
+  },
+  {
+   "w": "A",
+   "start": 197.82,
+   "end": 197.9
+  },
+  {
+   "w": "página",
+   "start": 197.98,
+   "end": 198.3
+  },
+  {
+   "w": "de",
+   "start": 198.34,
+   "end": 198.38
+  },
+  {
+   "w": "instalação",
+   "start": 198.46,
+   "end": 199.02
+  },
+  {
+   "w": "explica",
+   "start": 199.14,
+   "end": 199.5
+  },
+  {
+   "w": "como",
+   "start": 199.66,
+   "end": 199.82
+  },
+  {
+   "w": "ajustar",
+   "start": 199.9,
+   "end": 200.22
+  },
+  {
+   "w": "o",
+   "start": 200.3,
+   "end": 200.34
+  },
+  {
+   "w": "caminho.",
+   "start": 200.38,
+   "end": 201.02
+  },
+  {
+   "w": "Na",
+   "start": 201.29,
+   "end": 201.45
+  },
+  {
+   "w": "primeira",
+   "start": 201.57,
+   "end": 201.77
+  },
+  {
+   "w": "vez,",
+   "start": 201.93,
+   "end": 202.41
+  },
+  {
+   "w": "digite",
+   "start": 202.49,
+   "end": 202.89
+  },
+  {
+   "w": "só",
+   "start": 202.93,
+   "end": 203.05
+  },
+  {
+   "w": "claude",
+   "start": 203.21,
+   "end": 203.77
+  },
+  {
+   "w": "e",
+   "start": 203.85,
+   "end": 203.93
+  },
+  {
+   "w": "faça",
+   "start": 204.01,
+   "end": 204.25
+  },
+  {
+   "w": "login",
+   "start": 204.33,
+   "end": 204.65
+  },
+  {
+   "w": "com",
+   "start": 204.69,
+   "end": 204.73
+  },
+  {
+   "w": "a",
+   "start": 204.77,
+   "end": 204.81
+  },
+  {
+   "w": "sua",
+   "start": 204.85,
+   "end": 205.05
+  },
+  {
+   "w": "conta,",
+   "start": 205.13,
+   "end": 205.61
+  },
+  {
+   "w": "no",
+   "start": 205.65,
+   "end": 205.69
+  },
+  {
+   "w": "navegador.",
+   "start": 205.77,
+   "end": 206.57
+  },
+  {
+   "w": "Passo",
+   "start": 206.81,
+   "end": 207.05
+  },
+  {
+   "w": "três:",
+   "start": 207.21,
+   "end": 207.93
+  },
+  {
+   "w": "o",
+   "start": 207.957,
+   "end": 207.983
+  },
+  {
+   "w": "projeto",
+   "start": 208.01,
+   "end": 208.57
+  },
+  {
+   "w": "de",
+   "start": 208.61,
+   "end": 208.65
+  },
+  {
+   "w": "vídeo.",
+   "start": 208.73,
+   "end": 209.33
+  },
+  {
+   "w": "No",
+   "start": 209.53,
+   "end": 209.61
+  },
+  {
+   "w": "terminal,",
+   "start": 209.89,
+   "end": 210.33
+  },
+  {
+   "w": "digite:",
+   "start": 210.45,
+   "end": 211.29
+  },
+  {
+   "w": "ene",
+   "start": 211.41,
+   "end": 211.53
+  },
+  {
+   "w": "pê",
+   "start": 211.57,
+   "end": 211.69
+  },
+  {
+   "w": "xis,",
+   "start": 211.93,
+   "end": 212.25
+  },
+  {
+   "w": "create",
+   "start": 212.49,
+   "end": 212.97
+  },
+  {
+   "w": "video,",
+   "start": 213.05,
+   "end": 213.85
+  },
+  {
+   "w": "dois",
+   "start": 213.89,
+   "end": 214.01
+  },
+  {
+   "w": "traços",
+   "start": 214.17,
+   "end": 214.57
+  },
+  {
+   "w": "yes,",
+   "start": 214.73,
+   "end": 215.53
+  },
+  {
+   "w": "dois",
+   "start": 215.57,
+   "end": 215.69
+  },
+  {
+   "w": "traços",
+   "start": 215.77,
+   "end": 216.25
+  },
+  {
+   "w": "blank,",
+   "start": 216.41,
+   "end": 217.13
+  },
+  {
+   "w": "meu",
+   "start": 217.21,
+   "end": 217.37
+  },
+  {
+   "w": "vídeo.",
+   "start": 217.45,
+   "end": 217.85
+  },
+  {
+   "w": "Esse",
+   "start": 218.17,
+   "end": 218.33
+  },
+  {
+   "w": "comando",
+   "start": 218.41,
+   "end": 218.89
+  },
+  {
+   "w": "cria",
+   "start": 218.97,
+   "end": 219.09
+  },
+  {
+   "w": "um",
+   "start": 219.13,
+   "end": 219.21
+  },
+  {
+   "w": "projeto",
+   "start": 219.33,
+   "end": 219.69
+  },
+  {
+   "w": "do",
+   "start": 219.73,
+   "end": 219.77
+  },
+  {
+   "w": "Remotion",
+   "start": 219.85,
+   "end": 220.33
+  },
+  {
+   "w": "em",
+   "start": 220.41,
+   "end": 220.49
+  },
+  {
+   "w": "branco,",
+   "start": 220.57,
+   "end": 221.05
+  },
+  {
+   "w": "na",
+   "start": 221.13,
+   "end": 221.21
+  },
+  {
+   "w": "pasta",
+   "start": 221.29,
+   "end": 221.61
+  },
+  {
+   "w": "meu",
+   "start": 221.77,
+   "end": 221.93
+  },
+  {
+   "w": "vídeo.",
+   "start": 222.01,
+   "end": 222.65
+  },
+  {
+   "w": "Agora",
+   "start": 222.92,
+   "end": 223.32
+  },
+  {
+   "w": "entre",
+   "start": 223.4,
+   "end": 223.64
+  },
+  {
+   "w": "na",
+   "start": 223.72,
+   "end": 223.8
+  },
+  {
+   "w": "pasta,",
+   "start": 223.88,
+   "end": 224.52
+  },
+  {
+   "w": "com",
+   "start": 224.6,
+   "end": 224.68
+  },
+  {
+   "w": "cd",
+   "start": 224.84,
+   "end": 225.24
+  },
+  {
+   "w": "meu",
+   "start": 225.32,
+   "end": 225.48
+  },
+  {
+   "w": "vídeo,",
+   "start": 225.56,
+   "end": 226.12
+  },
+  {
+   "w": "e",
+   "start": 226.28,
+   "end": 226.36
+  },
+  {
+   "w": "instale",
+   "start": 226.52,
+   "end": 226.84
+  },
+  {
+   "w": "as",
+   "start": 226.88,
+   "end": 226.92
+  },
+  {
+   "w": "skills",
+   "start": 227.08,
+   "end": 227.4
+  },
+  {
+   "w": "do",
+   "start": 227.44,
+   "end": 227.48
+  },
+  {
+   "w": "Remotion:",
+   "start": 227.6,
+   "end": 228.44
+  },
+  {
+   "w": "ene",
+   "start": 228.56,
+   "end": 228.68
+  },
+  {
+   "w": "pê",
+   "start": 228.72,
+   "end": 228.84
+  },
+  {
+   "w": "xis,",
+   "start": 229.04,
+   "end": 229.4
+  },
+  {
+   "w": "remotion",
+   "start": 229.56,
+   "end": 230.12
+  },
+  {
+   "w": "skills",
+   "start": 230.2,
+   "end": 230.68
+  },
+  {
+   "w": "add.",
+   "start": 230.76,
+   "end": 231.16
+  },
+  {
+   "w": "As",
+   "start": 231.56,
+   "end": 231.72
+  },
+  {
+   "w": "skills",
+   "start": 231.8,
+   "end": 232.2
+  },
+  {
+   "w": "são",
+   "start": 232.28,
+   "end": 232.36
+  },
+  {
+   "w": "o",
+   "start": 232.4,
+   "end": 232.44
+  },
+  {
+   "w": "manual",
+   "start": 232.64,
+   "end": 232.84
+  },
+  {
+   "w": "de",
+   "start": 232.92,
+   "end": 233
+  },
+  {
+   "w": "boas",
+   "start": 233.04,
+   "end": 233.32
+  },
+  {
+   "w": "práticas",
+   "start": 233.4,
+   "end": 233.8
+  },
+  {
+   "w": "do",
+   "start": 233.84,
+   "end": 233.88
+  },
+  {
+   "w": "Remotion",
+   "start": 234,
+   "end": 234.44
+  },
+  {
+   "w": "para",
+   "start": 234.52,
+   "end": 234.6
+  },
+  {
+   "w": "o",
+   "start": 234.64,
+   "end": 234.68
+  },
+  {
+   "w": "Claude.",
+   "start": 234.76,
+   "end": 235.48
+  },
+  {
+   "w": "Com",
+   "start": 235.56,
+   "end": 235.64
+  },
+  {
+   "w": "elas,",
+   "start": 235.72,
+   "end": 236.12
+  },
+  {
+   "w": "ele",
+   "start": 236.2,
+   "end": 236.28
+  },
+  {
+   "w": "já",
+   "start": 236.36,
+   "end": 236.52
+  },
+  {
+   "w": "sabe",
+   "start": 236.573,
+   "end": 236.68
+  },
+  {
+   "w": "animar",
+   "start": 236.76,
+   "end": 237.08
+  },
+  {
+   "w": "texto,",
+   "start": 237.16,
+   "end": 237.72
+  },
+  {
+   "w": "colocar",
+   "start": 237.8,
+   "end": 238.12
+  },
+  {
+   "w": "áudio,",
+   "start": 238.2,
+   "end": 238.68
+  },
+  {
+   "w": "legenda",
+   "start": 238.8,
+   "end": 239.32
+  },
+  {
+   "w": "e",
+   "start": 239.4,
+   "end": 239.44
+  },
+  {
+   "w": "exportar.",
+   "start": 239.48,
+   "end": 240.36
+  },
+  {
+   "w": "Depois,",
+   "start": 240.63,
+   "end": 241.27
+  },
+  {
+   "w": "digite:",
+   "start": 241.35,
+   "end": 242.07
+  },
+  {
+   "w": "ene",
+   "start": 242.23,
+   "end": 242.47
+  },
+  {
+   "w": "pê",
+   "start": 242.51,
+   "end": 242.63
+  },
+  {
+   "w": "eme,",
+   "start": 242.79,
+   "end": 243.27
+  },
+  {
+   "w": "run",
+   "start": 243.43,
+   "end": 243.67
+  },
+  {
+   "w": "dev.",
+   "start": 243.75,
+   "end": 244.23
+  },
+  {
+   "w": "Isso",
+   "start": 244.63,
+   "end": 244.87
+  },
+  {
+   "w": "abre",
+   "start": 244.95,
+   "end": 245.19
+  },
+  {
+   "w": "o",
+   "start": 245.217,
+   "end": 245.243
+  },
+  {
+   "w": "Remotion",
+   "start": 245.27,
+   "end": 245.75
+  },
+  {
+   "w": "Studio",
+   "start": 245.91,
+   "end": 246.23
+  },
+  {
+   "w": "no",
+   "start": 246.27,
+   "end": 246.31
+  },
+  {
+   "w": "navegador,",
+   "start": 246.39,
+   "end": 247.27
+  },
+  {
+   "w": "a",
+   "start": 247.31,
+   "end": 247.35
+  },
+  {
+   "w": "tela",
+   "start": 247.43,
+   "end": 247.67
+  },
+  {
+   "w": "onde",
+   "start": 247.79,
+   "end": 247.91
+  },
+  {
+   "w": "você",
+   "start": 247.95,
+   "end": 248.15
+  },
+  {
+   "w": "assiste",
+   "start": 248.27,
+   "end": 248.55
+  },
+  {
+   "w": "à",
+   "start": 248.63,
+   "end": 248.71
+  },
+  {
+   "w": "prévia",
+   "start": 248.83,
+   "end": 249.11
+  },
+  {
+   "w": "do",
+   "start": 249.15,
+   "end": 249.19
+  },
+  {
+   "w": "vídeo",
+   "start": 249.27,
+   "end": 249.51
+  },
+  {
+   "w": "enquanto",
+   "start": 249.59,
+   "end": 249.91
+  },
+  {
+   "w": "ele",
+   "start": 249.95,
+   "end": 249.99
+  },
+  {
+   "w": "é",
+   "start": 250.03,
+   "end": 250.07
+  },
+  {
+   "w": "criado.",
+   "start": 250.15,
+   "end": 250.79
+  },
+  {
+   "w": "Agora",
+   "start": 251.06,
+   "end": 251.54
+  },
+  {
+   "w": "abra",
+   "start": 251.62,
+   "end": 251.86
+  },
+  {
+   "w": "um",
+   "start": 251.94,
+   "end": 252.02
+  },
+  {
+   "w": "segundo",
+   "start": 252.14,
+   "end": 252.42
+  },
+  {
+   "w": "terminal,",
+   "start": 252.5,
+   "end": 253.3
+  },
+  {
+   "w": "entre",
+   "start": 253.46,
+   "end": 253.62
+  },
+  {
+   "w": "na",
+   "start": 253.7,
+   "end": 253.78
+  },
+  {
+   "w": "mesma",
+   "start": 253.86,
+   "end": 254.18
+  },
+  {
+   "w": "pasta",
+   "start": 254.26,
+   "end": 254.66
+  },
+  {
+   "w": "e",
+   "start": 254.74,
+   "end": 254.82
+  },
+  {
+   "w": "digite",
+   "start": 254.9,
+   "end": 255.3
+  },
+  {
+   "w": "claude.",
+   "start": 255.46,
+   "end": 256.14
+  },
+  {
+   "w": "Pronto:",
+   "start": 256.34,
+   "end": 256.98
+  },
+  {
+   "w": "o",
+   "start": 257.06,
+   "end": 257.1
+  },
+  {
+   "w": "Claude",
+   "start": 257.14,
+   "end": 257.46
+  },
+  {
+   "w": "Code",
+   "start": 257.66,
+   "end": 257.86
+  },
+  {
+   "w": "abre",
+   "start": 257.98,
+   "end": 258.26
+  },
+  {
+   "w": "dentro",
+   "start": 258.38,
+   "end": 258.58
+  },
+  {
+   "w": "do",
+   "start": 258.66,
+   "end": 258.74
+  },
+  {
+   "w": "seu",
+   "start": 258.78,
+   "end": 258.9
+  },
+  {
+   "w": "projeto",
+   "start": 258.98,
+   "end": 259.3
+  },
+  {
+   "w": "de",
+   "start": 259.34,
+   "end": 259.38
+  },
+  {
+   "w": "vídeo,",
+   "start": 259.46,
+   "end": 260.02
+  },
+  {
+   "w": "já",
+   "start": 260.1,
+   "end": 260.26
+  },
+  {
+   "w": "com",
+   "start": 260.34,
+   "end": 260.42
+  },
+  {
+   "w": "as",
+   "start": 260.46,
+   "end": 260.5
+  },
+  {
+   "w": "skills",
+   "start": 260.58,
+   "end": 260.98
+  },
+  {
+   "w": "do",
+   "start": 261.02,
+   "end": 261.06
+  },
+  {
+   "w": "Remotion.",
+   "start": 261.18,
+   "end": 261.94
+  },
+  {
+   "w": "Vamos",
+   "start": 262.21,
+   "end": 262.45
+  },
+  {
+   "w": "testar.",
+   "start": 262.53,
+   "end": 263.01
+  },
+  {
+   "w": "Eu",
+   "start": 263.33,
+   "end": 263.41
+  },
+  {
+   "w": "escrevo:",
+   "start": 263.49,
+   "end": 263.97
+  },
+  {
+   "w": "crie",
+   "start": 264.45,
+   "end": 264.69
+  },
+  {
+   "w": "um",
+   "start": 264.73,
+   "end": 264.77
+  },
+  {
+   "w": "vídeo",
+   "start": 264.85,
+   "end": 265.17
+  },
+  {
+   "w": "de",
+   "start": 265.25,
+   "end": 265.33
+  },
+  {
+   "w": "quinze",
+   "start": 265.41,
+   "end": 265.65
+  },
+  {
+   "w": "segundos,",
+   "start": 265.73,
+   "end": 266.45
+  },
+  {
+   "w": "horizontal,",
+   "start": 266.53,
+   "end": 267.41
+  },
+  {
+   "w": "apresentando",
+   "start": 267.49,
+   "end": 268.05
+  },
+  {
+   "w": "o",
+   "start": 268.077,
+   "end": 268.103
+  },
+  {
+   "w": "canal",
+   "start": 268.13,
+   "end": 268.37
+  },
+  {
+   "w": "Aprenda",
+   "start": 268.45,
+   "end": 268.85
+  },
+  {
+   "w": "YouTube,",
+   "start": 268.93,
+   "end": 269.57
+  },
+  {
+   "w": "com",
+   "start": 269.65,
+   "end": 269.73
+  },
+  {
+   "w": "título",
+   "start": 269.81,
+   "end": 270.05
+  },
+  {
+   "w": "animado,",
+   "start": 270.13,
+   "end": 270.93
+  },
+  {
+   "w": "três",
+   "start": 271.01,
+   "end": 271.17
+  },
+  {
+   "w": "frases",
+   "start": 271.25,
+   "end": 271.65
+  },
+  {
+   "w": "entrando",
+   "start": 271.77,
+   "end": 272.05
+  },
+  {
+   "w": "uma",
+   "start": 272.13,
+   "end": 272.29
+  },
+  {
+   "w": "por",
+   "start": 272.37,
+   "end": 272.45
+  },
+  {
+   "w": "vez",
+   "start": 272.53,
+   "end": 272.85
+  },
+  {
+   "w": "e",
+   "start": 272.93,
+   "end": 273.01
+  },
+  {
+   "w": "um",
+   "start": 273.05,
+   "end": 273.09
+  },
+  {
+   "w": "botão",
+   "start": 273.17,
+   "end": 273.41
+  },
+  {
+   "w": "de",
+   "start": 273.49,
+   "end": 273.57
+  },
+  {
+   "w": "inscreva-se",
+   "start": 273.69,
+   "end": 274.21
+  },
+  {
+   "w": "no",
+   "start": 274.29,
+   "end": 274.37
+  },
+  {
+   "w": "final.",
+   "start": 274.53,
+   "end": 274.77
+  },
+  {
+   "w": "Antes",
+   "start": 275.25,
+   "end": 275.49
+  },
+  {
+   "w": "de",
+   "start": 275.53,
+   "end": 275.57
+  },
+  {
+   "w": "criar",
+   "start": 275.65,
+   "end": 275.81
+  },
+  {
+   "w": "os",
+   "start": 275.89,
+   "end": 275.97
+  },
+  {
+   "w": "arquivos,",
+   "start": 276.05,
+   "end": 276.61
+  },
+  {
+   "w": "ele",
+   "start": 276.73,
+   "end": 276.85
+  },
+  {
+   "w": "pede",
+   "start": 276.93,
+   "end": 277.037
+  },
+  {
+   "w": "a",
+   "start": 277.063,
+   "end": 277.09
+  },
+  {
+   "w": "sua",
+   "start": 277.13,
+   "end": 277.25
+  },
+  {
+   "w": "permissão.",
+   "start": 277.33,
+   "end": 278.05
+  },
+  {
+   "w": "Você",
+   "start": 278.21,
+   "end": 278.45
+  },
+  {
+   "w": "lê",
+   "start": 278.53,
+   "end": 278.77
+  },
+  {
+   "w": "e",
+   "start": 278.93,
+   "end": 279.01
+  },
+  {
+   "w": "aprova.",
+   "start": 279.17,
+   "end": 279.73
+  },
+  {
+   "w": "E",
+   "start": 280,
+   "end": 280.16
+  },
+  {
+   "w": "olha",
+   "start": 280.24,
+   "end": 280.373
+  },
+  {
+   "w": "a",
+   "start": 280.427,
+   "end": 280.48
+  },
+  {
+   "w": "prévia",
+   "start": 280.56,
+   "end": 280.72
+  },
+  {
+   "w": "no",
+   "start": 280.76,
+   "end": 280.8
+  },
+  {
+   "w": "Studio.",
+   "start": 280.88,
+   "end": 281.52
+  },
+  {
+   "w": "O",
+   "start": 281.68,
+   "end": 281.76
+  },
+  {
+   "w": "título",
+   "start": 281.84,
+   "end": 282.16
+  },
+  {
+   "w": "entra,",
+   "start": 282.24,
+   "end": 282.8
+  },
+  {
+   "w": "as",
+   "start": 282.88,
+   "end": 282.96
+  },
+  {
+   "w": "frases",
+   "start": 283.04,
+   "end": 283.36
+  },
+  {
+   "w": "aparecem",
+   "start": 283.44,
+   "end": 284
+  },
+  {
+   "w": "uma",
+   "start": 284.12,
+   "end": 284.24
+  },
+  {
+   "w": "por",
+   "start": 284.32,
+   "end": 284.4
+  },
+  {
+   "w": "vez,",
+   "start": 284.48,
+   "end": 284.96
+  },
+  {
+   "w": "e",
+   "start": 285.04,
+   "end": 285.08
+  },
+  {
+   "w": "o",
+   "start": 285.12,
+   "end": 285.16
+  },
+  {
+   "w": "botão",
+   "start": 285.2,
+   "end": 285.44
+  },
+  {
+   "w": "de",
+   "start": 285.52,
+   "end": 285.56
+  },
+  {
+   "w": "inscrição",
+   "start": 285.6,
+   "end": 286.16
+  },
+  {
+   "w": "chega",
+   "start": 286.24,
+   "end": 286.48
+  },
+  {
+   "w": "no",
+   "start": 286.56,
+   "end": 286.64
+  },
+  {
+   "w": "final.",
+   "start": 286.8,
+   "end": 287.04
+  },
+  {
+   "w": "Tudo",
+   "start": 287.52,
+   "end": 287.76
+  },
+  {
+   "w": "isso",
+   "start": 287.84,
+   "end": 288.04
+  },
+  {
+   "w": "a",
+   "start": 288.08,
+   "end": 288.16
+  },
+  {
+   "w": "partir",
+   "start": 288.24,
+   "end": 288.4
+  },
+  {
+   "w": "de",
+   "start": 288.48,
+   "end": 288.507
+  },
+  {
+   "w": "um",
+   "start": 288.533,
+   "end": 288.56
+  },
+  {
+   "w": "pedido",
+   "start": 288.64,
+   "end": 288.88
+  },
+  {
+   "w": "em",
+   "start": 288.96,
+   "end": 289.04
+  },
+  {
+   "w": "português,",
+   "start": 289.16,
+   "end": 289.92
+  },
+  {
+   "w": "sem",
+   "start": 290,
+   "end": 290.08
+  },
+  {
+   "w": "abrir",
+   "start": 290.16,
+   "end": 290.4
+  },
+  {
+   "w": "nenhum",
+   "start": 290.48,
+   "end": 290.88
+  },
+  {
+   "w": "editor",
+   "start": 291.04,
+   "end": 291.2
+  },
+  {
+   "w": "de",
+   "start": 291.28,
+   "end": 291.36
+  },
+  {
+   "w": "vídeo.",
+   "start": 291.44,
+   "end": 292
+  },
+  {
+   "w": "Não",
+   "start": 292.27,
+   "end": 292.43
+  },
+  {
+   "w": "gostou",
+   "start": 292.47,
+   "end": 292.75
+  },
+  {
+   "w": "de",
+   "start": 292.79,
+   "end": 292.83
+  },
+  {
+   "w": "alguma",
+   "start": 292.87,
+   "end": 293.07
+  },
+  {
+   "w": "coisa?",
+   "start": 293.15,
+   "end": 293.71
+  },
+  {
+   "w": "É",
+   "start": 293.87,
+   "end": 293.95
+  },
+  {
+   "w": "só",
+   "start": 293.99,
+   "end": 294.11
+  },
+  {
+   "w": "pedir.",
+   "start": 294.19,
+   "end": 294.75
+  },
+  {
+   "w": "Por",
+   "start": 294.91,
+   "end": 294.99
+  },
+  {
+   "w": "exemplo:",
+   "start": 295.07,
+   "end": 295.55
+  },
+  {
+   "w": "deixe",
+   "start": 296.03,
+   "end": 296.27
+  },
+  {
+   "w": "o",
+   "start": 296.31,
+   "end": 296.35
+  },
+  {
+   "w": "fundo",
+   "start": 296.39,
+   "end": 296.67
+  },
+  {
+   "w": "roxo",
+   "start": 296.79,
+   "end": 297.15
+  },
+  {
+   "w": "e",
+   "start": 297.23,
+   "end": 297.31
+  },
+  {
+   "w": "use",
+   "start": 297.39,
+   "end": 297.55
+  },
+  {
+   "w": "a",
+   "start": 297.59,
+   "end": 297.63
+  },
+  {
+   "w": "música",
+   "start": 297.71,
+   "end": 298.03
+  },
+  {
+   "w": "trilha",
+   "start": 298.19,
+   "end": 298.59
+  },
+  {
+   "w": "ponto",
+   "start": 298.63,
+   "end": 298.91
+  },
+  {
+   "w": "mp3,",
+   "start": 299.15,
+   "end": 300.07
+  },
+  {
+   "w": "da",
+   "start": 300.11,
+   "end": 300.19
+  },
+  {
+   "w": "pasta",
+   "start": 300.27,
+   "end": 300.59
+  },
+  {
+   "w": "public.",
+   "start": 300.67,
+   "end": 301.39
+  },
+  {
+   "w": "Ele",
+   "start": 301.63,
+   "end": 301.79
+  },
+  {
+   "w": "muda",
+   "start": 301.83,
+   "end": 302.11
+  },
+  {
+   "w": "só",
+   "start": 302.19,
+   "end": 302.35
+  },
+  {
+   "w": "o",
+   "start": 302.39,
+   "end": 302.43
+  },
+  {
+   "w": "que",
+   "start": 302.47,
+   "end": 302.51
+  },
+  {
+   "w": "você",
+   "start": 302.59,
+   "end": 302.75
+  },
+  {
+   "w": "pediu,",
+   "start": 302.83,
+   "end": 303.39
+  },
+  {
+   "w": "e",
+   "start": 303.43,
+   "end": 303.47
+  },
+  {
+   "w": "a",
+   "start": 303.51,
+   "end": 303.55
+  },
+  {
+   "w": "prévia",
+   "start": 303.63,
+   "end": 303.95
+  },
+  {
+   "w": "atualiza",
+   "start": 304.03,
+   "end": 304.43
+  },
+  {
+   "w": "na",
+   "start": 304.51,
+   "end": 304.67
+  },
+  {
+   "w": "hora.",
+   "start": 304.75,
+   "end": 305.23
+  },
+  {
+   "w": "Para",
+   "start": 305.58,
+   "end": 305.72
+  },
+  {
+   "w": "exportar,",
+   "start": 305.74,
+   "end": 306.38
+  },
+  {
+   "w": "peça:",
+   "start": 306.54,
+   "end": 307.42
+  },
+  {
+   "w": "renderize",
+   "start": 307.5,
+   "end": 308.06
+  },
+  {
+   "w": "o",
+   "start": 308.1,
+   "end": 308.14
+  },
+  {
+   "w": "vídeo",
+   "start": 308.22,
+   "end": 308.54
+  },
+  {
+   "w": "em",
+   "start": 308.62,
+   "end": 308.78
+  },
+  {
+   "w": "MP4.",
+   "start": 308.86,
+   "end": 310.06
+  },
+  {
+   "w": "Ou",
+   "start": 310.1,
+   "end": 310.22
+  },
+  {
+   "w": "rode",
+   "start": 310.38,
+   "end": 310.62
+  },
+  {
+   "w": "você",
+   "start": 310.66,
+   "end": 310.86
+  },
+  {
+   "w": "mesmo:",
+   "start": 310.94,
+   "end": 311.58
+  },
+  {
+   "w": "ene",
+   "start": 311.66,
+   "end": 311.82
+  },
+  {
+   "w": "pê",
+   "start": 311.9,
+   "end": 312.06
+  },
+  {
+   "w": "xis,",
+   "start": 312.26,
+   "end": 312.62
+  },
+  {
+   "w": "remotion",
+   "start": 312.74,
+   "end": 313.18
+  },
+  {
+   "w": "render.",
+   "start": 313.26,
+   "end": 313.98
+  },
+  {
+   "w": "O",
+   "start": 314.02,
+   "end": 314.06
+  },
+  {
+   "w": "arquivo",
+   "start": 314.14,
+   "end": 314.46
+  },
+  {
+   "w": "sai",
+   "start": 314.5,
+   "end": 314.62
+  },
+  {
+   "w": "na",
+   "start": 314.7,
+   "end": 314.78
+  },
+  {
+   "w": "pasta",
+   "start": 314.887,
+   "end": 315.1
+  },
+  {
+   "w": "out,",
+   "start": 315.18,
+   "end": 315.82
+  },
+  {
+   "w": "pronto",
+   "start": 315.9,
+   "end": 316.14
+  },
+  {
+   "w": "para",
+   "start": 316.26,
+   "end": 316.38
+  },
+  {
+   "w": "postar",
+   "start": 316.5,
+   "end": 316.7
+  },
+  {
+   "w": "no",
+   "start": 316.78,
+   "end": 316.86
+  },
+  {
+   "w": "YouTube,",
+   "start": 317.1,
+   "end": 317.5
+  },
+  {
+   "w": "no",
+   "start": 317.54,
+   "end": 317.58
+  },
+  {
+   "w": "Instagram",
+   "start": 317.9,
+   "end": 318.22
+  },
+  {
+   "w": "ou",
+   "start": 318.3,
+   "end": 318.38
+  },
+  {
+   "w": "no",
+   "start": 318.46,
+   "end": 318.5
+  },
+  {
+   "w": "TikTok.",
+   "start": 318.54,
+   "end": 319.34
+  },
+  {
+   "w": "Três",
+   "start": 319.61,
+   "end": 319.85
+  },
+  {
+   "w": "dicas",
+   "start": 319.93,
+   "end": 320.33
+  },
+  {
+   "w": "para",
+   "start": 320.41,
+   "end": 320.49
+  },
+  {
+   "w": "o",
+   "start": 320.57,
+   "end": 320.61
+  },
+  {
+   "w": "vídeo",
+   "start": 320.65,
+   "end": 320.89
+  },
+  {
+   "w": "sair",
+   "start": 320.97,
+   "end": 321.21
+  },
+  {
+   "w": "melhor.",
+   "start": 321.29,
+   "end": 321.77
+  },
+  {
+   "w": "Um:",
+   "start": 322.17,
+   "end": 322.81
+  },
+  {
+   "w": "diga",
+   "start": 322.89,
+   "end": 323.05
+  },
+  {
+   "w": "o",
+   "start": 323.09,
+   "end": 323.13
+  },
+  {
+   "w": "formato",
+   "start": 323.41,
+   "end": 323.73
+  },
+  {
+   "w": "e",
+   "start": 323.77,
+   "end": 323.81
+  },
+  {
+   "w": "a",
+   "start": 323.85,
+   "end": 323.877
+  },
+  {
+   "w": "duração,",
+   "start": 323.903,
+   "end": 324.65
+  },
+  {
+   "w": "por",
+   "start": 324.69,
+   "end": 324.73
+  },
+  {
+   "w": "exemplo,",
+   "start": 324.81,
+   "end": 325.29
+  },
+  {
+   "w": "vertical,",
+   "start": 325.53,
+   "end": 326.33
+  },
+  {
+   "w": "trinta",
+   "start": 326.37,
+   "end": 326.57
+  },
+  {
+   "w": "segundos.",
+   "start": 326.65,
+   "end": 327.29
+  },
+  {
+   "w": "Dois:",
+   "start": 327.77,
+   "end": 328.57
+  },
+  {
+   "w": "peça",
+   "start": 328.65,
+   "end": 328.81
+  },
+  {
+   "w": "uma",
+   "start": 328.89,
+   "end": 329.05
+  },
+  {
+   "w": "cena",
+   "start": 329.21,
+   "end": 329.45
+  },
+  {
+   "w": "de",
+   "start": 329.49,
+   "end": 329.53
+  },
+  {
+   "w": "cada",
+   "start": 329.61,
+   "end": 329.77
+  },
+  {
+   "w": "vez",
+   "start": 329.85,
+   "end": 330.17
+  },
+  {
+   "w": "e",
+   "start": 330.25,
+   "end": 330.33
+  },
+  {
+   "w": "ajuste",
+   "start": 330.45,
+   "end": 330.97
+  },
+  {
+   "w": "antes",
+   "start": 331.13,
+   "end": 331.29
+  },
+  {
+   "w": "de",
+   "start": 331.33,
+   "end": 331.37
+  },
+  {
+   "w": "seguir.",
+   "start": 331.45,
+   "end": 331.93
+  },
+  {
+   "w": "Três:",
+   "start": 332.33,
+   "end": 333.05
+  },
+  {
+   "w": "coloque",
+   "start": 333.13,
+   "end": 333.37
+  },
+  {
+   "w": "as",
+   "start": 333.41,
+   "end": 333.45
+  },
+  {
+   "w": "suas",
+   "start": 333.53,
+   "end": 333.69
+  },
+  {
+   "w": "imagens",
+   "start": 333.89,
+   "end": 334.25
+  },
+  {
+   "w": "e",
+   "start": 334.303,
+   "end": 334.357
+  },
+  {
+   "w": "músicas",
+   "start": 334.41,
+   "end": 334.81
+  },
+  {
+   "w": "na",
+   "start": 334.89,
+   "end": 334.97
+  },
+  {
+   "w": "pasta",
+   "start": 335.05,
+   "end": 335.37
+  },
+  {
+   "w": "public",
+   "start": 335.45,
+   "end": 335.93
+  },
+  {
+   "w": "e",
+   "start": 336.01,
+   "end": 336.17
+  },
+  {
+   "w": "diga",
+   "start": 336.21,
+   "end": 336.41
+  },
+  {
+   "w": "o",
+   "start": 336.45,
+   "end": 336.49
+  },
+  {
+   "w": "nome",
+   "start": 336.57,
+   "end": 336.81
+  },
+  {
+   "w": "do",
+   "start": 336.85,
+   "end": 336.89
+  },
+  {
+   "w": "arquivo",
+   "start": 336.97,
+   "end": 337.29
+  },
+  {
+   "w": "no",
+   "start": 337.37,
+   "end": 337.45
+  },
+  {
+   "w": "pedido.",
+   "start": 337.69,
+   "end": 338.17
+  },
+  {
+   "w": "E",
+   "start": 338.44,
+   "end": 338.52
+  },
+  {
+   "w": "você",
+   "start": 338.56,
+   "end": 338.76
+  },
+  {
+   "w": "pode",
+   "start": 338.84,
+   "end": 339
+  },
+  {
+   "w": "chamar",
+   "start": 339.08,
+   "end": 339.4
+  },
+  {
+   "w": "as",
+   "start": 339.44,
+   "end": 339.48
+  },
+  {
+   "w": "skills",
+   "start": 339.64,
+   "end": 340.04
+  },
+  {
+   "w": "pelo",
+   "start": 340.12,
+   "end": 340.28
+  },
+  {
+   "w": "nome.",
+   "start": 340.44,
+   "end": 340.68
+  },
+  {
+   "w": "Barra",
+   "start": 341.08,
+   "end": 341.4
+  },
+  {
+   "w": "remotion",
+   "start": 341.48,
+   "end": 342.04
+  },
+  {
+   "w": "create",
+   "start": 342.12,
+   "end": 342.68
+  },
+  {
+   "w": "cria",
+   "start": 342.92,
+   "end": 343.16
+  },
+  {
+   "w": "um",
+   "start": 343.2,
+   "end": 343.24
+  },
+  {
+   "w": "vídeo",
+   "start": 343.32,
+   "end": 343.48
+  },
+  {
+   "w": "novo.",
+   "start": 343.56,
+   "end": 343.96
+  },
+  {
+   "w": "Barra",
+   "start": 344.36,
+   "end": 344.6
+  },
+  {
+   "w": "remotion",
+   "start": 344.68,
+   "end": 345.24
+  },
+  {
+   "w": "captions",
+   "start": 345.32,
+   "end": 345.96
+  },
+  {
+   "w": "cuida",
+   "start": 346.2,
+   "end": 346.44
+  },
+  {
+   "w": "das",
+   "start": 346.52,
+   "end": 346.6
+  },
+  {
+   "w": "legendas.",
+   "start": 346.68,
+   "end": 347.32
+  },
+  {
+   "w": "E",
+   "start": 347.72,
+   "end": 347.88
+  },
+  {
+   "w": "barra",
+   "start": 348.04,
+   "end": 348.28
+  },
+  {
+   "w": "remotion",
+   "start": 348.36,
+   "end": 348.84
+  },
+  {
+   "w": "render",
+   "start": 348.92,
+   "end": 349.4
+  },
+  {
+   "w": "exporta",
+   "start": 349.56,
+   "end": 350.067
+  },
+  {
+   "w": "o",
+   "start": 350.093,
+   "end": 350.12
+  },
+  {
+   "w": "arquivo.",
+   "start": 350.2,
+   "end": 350.84
+  },
+  {
+   "w": "Alguns",
+   "start": 351.11,
+   "end": 351.43
+  },
+  {
+   "w": "cuidados",
+   "start": 351.47,
+   "end": 351.91
+  },
+  {
+   "w": "rápidos.",
+   "start": 351.99,
+   "end": 352.63
+  },
+  {
+   "w": "O",
+   "start": 353.03,
+   "end": 353.11
+  },
+  {
+   "w": "Claude",
+   "start": 353.19,
+   "end": 353.43
+  },
+  {
+   "w": "Code",
+   "start": 353.51,
+   "end": 353.83
+  },
+  {
+   "w": "precisa",
+   "start": 353.91,
+   "end": 354.23
+  },
+  {
+   "w": "de",
+   "start": 354.31,
+   "end": 354.39
+  },
+  {
+   "w": "um",
+   "start": 354.43,
+   "end": 354.47
+  },
+  {
+   "w": "plano",
+   "start": 354.55,
+   "end": 354.79
+  },
+  {
+   "w": "pago",
+   "start": 354.95,
+   "end": 355.27
+  },
+  {
+   "w": "do",
+   "start": 355.31,
+   "end": 355.35
+  },
+  {
+   "w": "Claude,",
+   "start": 355.43,
+   "end": 356.07
+  },
+  {
+   "w": "o",
+   "start": 356.11,
+   "end": 356.15
+  },
+  {
+   "w": "plano",
+   "start": 356.23,
+   "end": 356.39
+  },
+  {
+   "w": "gratuito",
+   "start": 356.47,
+   "end": 357.03
+  },
+  {
+   "w": "não",
+   "start": 357.19,
+   "end": 357.35
+  },
+  {
+   "w": "inclui.",
+   "start": 357.47,
+   "end": 357.91
+  },
+  {
+   "w": "O",
+   "start": 358.39,
+   "end": 358.47
+  },
+  {
+   "w": "Remotion",
+   "start": 358.59,
+   "end": 359.11
+  },
+  {
+   "w": "é",
+   "start": 359.19,
+   "end": 359.27
+  },
+  {
+   "w": "grátis",
+   "start": 359.35,
+   "end": 359.67
+  },
+  {
+   "w": "para",
+   "start": 359.75,
+   "end": 359.91
+  },
+  {
+   "w": "pessoas",
+   "start": 359.99,
+   "end": 360.47
+  },
+  {
+   "w": "e",
+   "start": 360.55,
+   "end": 360.63
+  },
+  {
+   "w": "empresas",
+   "start": 360.71,
+   "end": 361.11
+  },
+  {
+   "w": "de",
+   "start": 361.15,
+   "end": 361.19
+  },
+  {
+   "w": "até",
+   "start": 361.27,
+   "end": 361.43
+  },
+  {
+   "w": "três",
+   "start": 361.59,
+   "end": 361.83
+  },
+  {
+   "w": "pessoas;",
+   "start": 361.91,
+   "end": 362.79
+  },
+  {
+   "w": "empresa",
+   "start": 362.99,
+   "end": 363.19
+  },
+  {
+   "w": "maior",
+   "start": 363.27,
+   "end": 363.59
+  },
+  {
+   "w": "paga",
+   "start": 363.75,
+   "end": 363.91
+  },
+  {
+   "w": "licença.",
+   "start": 363.99,
+   "end": 364.83
+  },
+  {
+   "w": "E",
+   "start": 365.11,
+   "end": 365.19
+  },
+  {
+   "w": "use",
+   "start": 365.27,
+   "end": 365.51
+  },
+  {
+   "w": "só",
+   "start": 365.67,
+   "end": 365.83
+  },
+  {
+   "w": "imagens",
+   "start": 366.03,
+   "end": 366.39
+  },
+  {
+   "w": "e",
+   "start": 366.43,
+   "end": 366.47
+  },
+  {
+   "w": "músicas",
+   "start": 366.55,
+   "end": 367.03
+  },
+  {
+   "w": "que",
+   "start": 367.07,
+   "end": 367.11
+  },
+  {
+   "w": "você",
+   "start": 367.19,
+   "end": 367.35
+  },
+  {
+   "w": "tem",
+   "start": 367.59,
+   "end": 367.75
+  },
+  {
+   "w": "direito",
+   "start": 367.87,
+   "end": 368.15
+  },
+  {
+   "w": "de",
+   "start": 368.19,
+   "end": 368.23
+  },
+  {
+   "w": "usar.",
+   "start": 368.31,
+   "end": 368.79
+  },
+  {
+   "w": "Resumindo:",
+   "start": 369.06,
+   "end": 370.02
+  },
+  {
+   "w": "instalou",
+   "start": 370.14,
+   "end": 370.5
+  },
+  {
+   "w": "o",
+   "start": 370.527,
+   "end": 370.553
+  },
+  {
+   "w": "Node,",
+   "start": 370.58,
+   "end": 371.14
+  },
+  {
+   "w": "instalou",
+   "start": 371.22,
+   "end": 371.7
+  },
+  {
+   "w": "o",
+   "start": 371.727,
+   "end": 371.753
+  },
+  {
+   "w": "Claude",
+   "start": 371.78,
+   "end": 372.02
+  },
+  {
+   "w": "Code,",
+   "start": 372.1,
+   "end": 372.74
+  },
+  {
+   "w": "criou",
+   "start": 372.86,
+   "end": 373.06
+  },
+  {
+   "w": "o",
+   "start": 373.1,
+   "end": 373.14
+  },
+  {
+   "w": "projeto",
+   "start": 373.26,
+   "end": 373.62
+  },
+  {
+   "w": "com",
+   "start": 373.7,
+   "end": 373.78
+  },
+  {
+   "w": "as",
+   "start": 373.86,
+   "end": 373.94
+  },
+  {
+   "w": "skills",
+   "start": 374.02,
+   "end": 374.34
+  },
+  {
+   "w": "do",
+   "start": 374.38,
+   "end": 374.42
+  },
+  {
+   "w": "Remotion",
+   "start": 374.54,
+   "end": 375.06
+  },
+  {
+   "w": "e",
+   "start": 375.14,
+   "end": 375.22
+  },
+  {
+   "w": "pediu",
+   "start": 375.3,
+   "end": 375.54
+  },
+  {
+   "w": "o",
+   "start": 375.58,
+   "end": 375.62
+  },
+  {
+   "w": "vídeo",
+   "start": 375.7,
+   "end": 375.94
+  },
+  {
+   "w": "em",
+   "start": 376.02,
+   "end": 376.1
+  },
+  {
+   "w": "português.",
+   "start": 376.22,
+   "end": 377.22
+  },
+  {
+   "w": "O",
+   "start": 377.26,
+   "end": 377.3
+  },
+  {
+   "w": "passo",
+   "start": 377.38,
+   "end": 377.567
+  },
+  {
+   "w": "a",
+   "start": 377.593,
+   "end": 377.62
+  },
+  {
+   "w": "passo",
+   "start": 377.7,
+   "end": 377.94
+  },
+  {
+   "w": "completo,",
+   "start": 378.1,
+   "end": 378.62
+  },
+  {
+   "w": "com",
+   "start": 378.66,
+   "end": 378.74
+  },
+  {
+   "w": "todos",
+   "start": 378.9,
+   "end": 379.14
+  },
+  {
+   "w": "os",
+   "start": 379.22,
+   "end": 379.3
+  },
+  {
+   "w": "comandos,",
+   "start": 379.42,
+   "end": 379.94
+  },
+  {
+   "w": "está",
+   "start": 380.06,
+   "end": 380.22
+  },
+  {
+   "w": "no",
+   "start": 380.26,
+   "end": 380.34
+  },
+  {
+   "w": "link",
+   "start": 380.46,
+   "end": 380.58
+  },
+  {
+   "w": "da",
+   "start": 380.62,
+   "end": 380.66
+  },
+  {
+   "w": "descrição.",
+   "start": 380.74,
+   "end": 381.54
+  },
+  {
+   "w": "Se",
+   "start": 381.81,
+   "end": 381.97
+  },
+  {
+   "w": "esse",
+   "start": 382.05,
+   "end": 382.13
+  },
+  {
+   "w": "vídeo",
+   "start": 382.21,
+   "end": 382.37
+  },
+  {
+   "w": "te",
+   "start": 382.41,
+   "end": 382.45
+  },
+  {
+   "w": "ajudou,",
+   "start": 382.53,
+   "end": 383.17
+  },
+  {
+   "w": "deixa",
+   "start": 383.25,
+   "end": 383.41
+  },
+  {
+   "w": "o",
+   "start": 383.45,
+   "end": 383.49
+  },
+  {
+   "w": "like,",
+   "start": 383.57,
+   "end": 384.05
+  },
+  {
+   "w": "se",
+   "start": 384.09,
+   "end": 384.13
+  },
+  {
+   "w": "inscreve",
+   "start": 384.25,
+   "end": 384.61
+  },
+  {
+   "w": "no",
+   "start": 384.65,
+   "end": 384.69
+  },
+  {
+   "w": "Aprenda",
+   "start": 384.77,
+   "end": 385.09
+  },
+  {
+   "w": "YouTube",
+   "start": 385.33,
+   "end": 385.57
+  },
+  {
+   "w": "e",
+   "start": 385.65,
+   "end": 385.69
+  },
+  {
+   "w": "comenta",
+   "start": 385.73,
+   "end": 386.13
+  },
+  {
+   "w": "fábrica",
+   "start": 386.29,
+   "end": 386.69
+  },
+  {
+   "w": "de",
+   "start": 386.73,
+   "end": 386.77
+  },
+  {
+   "w": "vídeos,",
+   "start": 386.93,
+   "end": 387.41
+  },
+  {
+   "w": "se",
+   "start": 387.45,
+   "end": 387.49
+  },
+  {
+   "w": "você",
+   "start": 387.57,
+   "end": 387.73
+  },
+  {
+   "w": "quer",
+   "start": 387.81,
+   "end": 387.89
+  },
+  {
+   "w": "o",
+   "start": 387.97,
+   "end": 388.05
+  },
+  {
+   "w": "vídeo",
+   "start": 388.13,
+   "end": 388.37
+  },
+  {
+   "w": "sobre",
+   "start": 388.45,
+   "end": 388.61
+  },
+  {
+   "w": "gerar",
+   "start": 388.73,
+   "end": 388.93
+  },
+  {
+   "w": "vídeos",
+   "start": 389.09,
+   "end": 389.41
+  },
+  {
+   "w": "em",
+   "start": 389.49,
+   "end": 389.57
+  },
+  {
+   "w": "série.",
+   "start": 389.65,
+   "end": 390.29
+  },
+  {
+   "w": "E",
+   "start": 390.317,
+   "end": 390.343
+  },
+  {
+   "w": "me",
+   "start": 390.37,
+   "end": 390.45
+  },
+  {
+   "w": "conta:",
+   "start": 390.53,
+   "end": 391.17
+  },
+  {
+   "w": "qual",
+   "start": 391.25,
+   "end": 391.33
+  },
+  {
+   "w": "vídeo",
+   "start": 391.41,
+   "end": 391.65
+  },
+  {
+   "w": "você",
+   "start": 391.73,
+   "end": 391.89
+  },
+  {
+   "w": "vai",
+   "start": 391.917,
+   "end": 391.97
+  },
+  {
+   "w": "criar",
+   "start": 392.05,
+   "end": 392.21
+  },
+  {
+   "w": "primeiro?",
+   "start": 392.37,
+   "end": 393.01
+  },
+  {
+   "w": "Até",
+   "start": 393.13,
+   "end": 393.277
+  },
+  {
+   "w": "o",
+   "start": 393.303,
+   "end": 393.33
+  },
+  {
+   "w": "próximo!",
+   "start": 393.41,
+   "end": 394.05
+  }
+ ]
+}

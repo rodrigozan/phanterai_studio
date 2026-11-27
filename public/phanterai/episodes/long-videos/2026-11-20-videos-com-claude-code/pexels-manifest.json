@@ -1,0 +1,428 @@
+{
+  "videos": [
+    {
+      "nome": "edicao",
+      "id": 3736793,
+      "termo": "editing video on computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "K",
+      "pagina": "https://www.pexels.com/video/showing-my-working-place-in-slow-motion-3736793/"
+    },
+    {
+      "nome": "codigo",
+      "id": 35475096,
+      "termo": "programmer code screen",
+      "duracao": 22,
+      "largura": 1280,
+      "autor": "Shutter  Break",
+      "pagina": "https://www.pexels.com/video/close-up-of-code-installing-dependencies-35475096/"
+    },
+    {
+      "nome": "criador",
+      "id": 7514334,
+      "termo": "content creator filming",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/a-man-using-smartphone-for-video-recording-7514334/"
+    },
+    {
+      "nome": "comemora",
+      "id": 5842667,
+      "termo": "happy celebrating laptop",
+      "duracao": 11,
+      "largura": 1280,
+      "autor": "olia danilevich",
+      "pagina": "https://www.pexels.com/video/group-of-friends-sharing-a-laptop-5842667/"
+    },
+    {
+      "nome": "setup",
+      "id": 8347236,
+      "termo": "computer desk setup",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/computers-on-a-table-8347236/"
+    },
+    {
+      "nome": "cadeado",
+      "id": 40607898,
+      "termo": "cyber security lock",
+      "duracao": 20,
+      "largura": 1280,
+      "autor": "Chandresh Uike",
+      "pagina": "https://www.pexels.com/video/futuristic-digital-security-concept-animation-40607898/"
+    },
+    {
+      "nome": "teclado",
+      "id": 7581246,
+      "termo": "typing keyboard",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "RDNE Stock project",
+      "pagina": "https://www.pexels.com/video/woman-typing-on-keyboard-7581246/"
+    },
+    {
+      "nome": "robo",
+      "id": 8084620,
+      "termo": "robot technology",
+      "duracao": 38,
+      "largura": 1280,
+      "autor": "Pavel Danilyuk",
+      "pagina": "https://www.pexels.com/video/robot-doing-movements-8084620/"
+    },
+    {
+      "nome": "editor-frustrado-1",
+      "id": 5092427,
+      "termo": "frustrated man editing video computer",
+      "duracao": 14,
+      "largura": 1280,
+      "autor": "Gilmer Diaz Estela",
+      "pagina": "https://www.pexels.com/video/professional-doing-video-editing-and-mixing-5092427/"
+    },
+    {
+      "nome": "editor-frustrado-2",
+      "id": 6290484,
+      "termo": "frustrated man editing video computer",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Gustavo Fring",
+      "pagina": "https://www.pexels.com/video/close-up-video-of-a-man-shouting-6290484/"
+    },
+    {
+      "nome": "editando-timeline-1",
+      "id": 7699548,
+      "termo": "video editing timeline software screen",
+      "duracao": 15,
+      "largura": 1280,
+      "autor": "Gilmer Diaz Estela",
+      "pagina": "https://www.pexels.com/video/computer-video-editing-7699548/"
+    },
+    {
+      "nome": "editando-timeline-2",
+      "id": 32150707,
+      "termo": "video editing timeline software screen",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Usman AbdulrasheedGambo",
+      "pagina": "https://www.pexels.com/video/professional-video-editing-setup-overview-32150707/"
+    },
+    {
+      "nome": "digitando-codigo-1",
+      "id": 5474324,
+      "termo": "person typing code on laptop",
+      "duracao": 33,
+      "largura": 1366,
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/video/person-typing-in-the-laptop-5474324/"
+    },
+    {
+      "nome": "digitando-codigo-2",
+      "id": 7504970,
+      "termo": "person typing code on laptop",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Olha Ruskykh",
+      "pagina": "https://www.pexels.com/video/man-using-a-laptop-7504970/"
+    },
+    {
+      "nome": "programador-noite-1",
+      "id": 8212373,
+      "termo": "programmer working at night monitor",
+      "duracao": 23,
+      "largura": 1280,
+      "autor": "ArtHouse Studio",
+      "pagina": "https://www.pexels.com/video/back-view-of-a-man-working-with-computers-8212373/"
+    },
+    {
+      "nome": "programador-noite-2",
+      "id": 31155915,
+      "termo": "programmer working at night monitor",
+      "duracao": 5,
+      "largura": 1280,
+      "autor": "Azhaan Bashmil",
+      "pagina": "https://www.pexels.com/video/programmer-coding-on-computer-at-night-31155915/"
+    },
+    {
+      "nome": "estudio-gravacao-1",
+      "id": 27153538,
+      "termo": "recording studio microphone youtuber",
+      "duracao": 20,
+      "largura": 1280,
+      "autor": "Nino Souza",
+      "pagina": "https://www.pexels.com/video/a-woman-wearing-headphones-and-a-microphone-27153538/"
+    },
+    {
+      "nome": "estudio-gravacao-2",
+      "id": 27060417,
+      "termo": "recording studio microphone youtuber",
+      "duracao": 17,
+      "largura": 1280,
+      "autor": "Saifur Rahman Azim",
+      "pagina": "https://www.pexels.com/video/youtuber-making-screen-record-video-27060417/"
+    },
+    {
+      "nome": "criador-camera-1",
+      "id": 33940101,
+      "termo": "content creator filming camera setup",
+      "duracao": 15,
+      "largura": 1280,
+      "autor": "ZEEL DIGITAL",
+      "pagina": "https://www.pexels.com/video/cinematic-videographer-filming-indoors-with-gimbal-33940101/"
+    },
+    {
+      "nome": "criador-camera-2",
+      "id": 33048634,
+      "termo": "content creator filming camera setup",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "ZEEL DIGITAL",
+      "pagina": "https://www.pexels.com/video/vlogger-engaged-in-on-camera-presentation-33048634/"
+    },
+    {
+      "nome": "mulher-notebook-1",
+      "id": 8037824,
+      "termo": "woman using laptop at desk smiling",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/woman-talking-through-her-phone-8037824/"
+    },
+    {
+      "nome": "mulher-notebook-2",
+      "id": 6268580,
+      "termo": "woman using laptop at desk smiling",
+      "duracao": 33,
+      "largura": 1280,
+      "autor": "Vasilii Kovbasiuk",
+      "pagina": "https://www.pexels.com/video/woman-having-a-video-on-her-laptop-6268580/"
+    },
+    {
+      "nome": "mouse-tela-1",
+      "id": 855001,
+      "termo": "hands using computer mouse screen",
+      "duracao": 16,
+      "largura": 1280,
+      "autor": "Pixabay",
+      "pagina": "https://www.pexels.com/video/video-of-man-scrolling-down-and-typing-855001/"
+    },
+    {
+      "nome": "mouse-tela-2",
+      "id": 7196106,
+      "termo": "hands using computer mouse screen",
+      "duracao": 5,
+      "largura": 1280,
+      "autor": "SHVETS production",
+      "pagina": "https://www.pexels.com/video/close-up-view-of-a-person-using-an-imac-7196106/"
+    },
+    {
+      "nome": "reuniao-time-1",
+      "id": 8631876,
+      "termo": "team celebrating success office",
+      "duracao": 16,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/employees-celebrating-success-8631876/"
+    },
+    {
+      "nome": "reuniao-time-2",
+      "id": 8460998,
+      "termo": "team celebrating success office",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/people-doing-high-five-at-the-office-8460998/"
+    },
+    {
+      "nome": "robo-ia-1",
+      "id": 8084494,
+      "termo": "artificial intelligence robot technology",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Pavel Danilyuk",
+      "pagina": "https://www.pexels.com/video/close-up-of-a-robot-8084494/"
+    },
+    {
+      "nome": "robo-ia-2",
+      "id": 8566675,
+      "termo": "artificial intelligence robot technology",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Kindel Media",
+      "pagina": "https://www.pexels.com/video/a-robot-on-the-move-8566675/"
+    },
+    {
+      "nome": "tela-codigo-1",
+      "id": 12779321,
+      "termo": "code scrolling on screen",
+      "duracao": 26,
+      "largura": 1280,
+      "autor": "jorguez",
+      "pagina": "https://www.pexels.com/video/scrolling-numbers-and-data-in-grayscale-12779321/"
+    },
+    {
+      "nome": "tela-codigo-2",
+      "id": 8275951,
+      "termo": "code scrolling on screen",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "PNW Production",
+      "pagina": "https://www.pexels.com/video/a-person-working-using-a-laptop-8275951/"
+    },
+    {
+      "nome": "youtuber-feliz-1",
+      "id": 5125949,
+      "termo": "happy young man laptop celebrating",
+      "duracao": 13,
+      "largura": 1366,
+      "autor": "james",
+      "pagina": "https://www.pexels.com/video/a-man-celebrating-while-using-his-laptop-5125949/"
+    },
+    {
+      "nome": "youtuber-feliz-2",
+      "id": 5704045,
+      "termo": "happy young man laptop celebrating",
+      "duracao": 23,
+      "largura": 1280,
+      "autor": "Tima Miroshnichenko",
+      "pagina": "https://www.pexels.com/video/man-using-a-laptop-and-celebrating-5704045/"
+    },
+    {
+      "nome": "telefone-video-1",
+      "id": 7480517,
+      "termo": "recording vertical video smartphone",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "MART  PRODUCTION",
+      "pagina": "https://www.pexels.com/video/a-young-woman-recording-herself-7480517/"
+    },
+    {
+      "nome": "telefone-video-2",
+      "id": 7677206,
+      "termo": "recording vertical video smartphone",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Ivan S",
+      "pagina": "https://www.pexels.com/video/close-up-video-of-a-smartphone-on-a-tripod-7677206/"
+    },
+    {
+      "nome": "teclado-luz-1",
+      "id": 9972272,
+      "termo": "keyboard typing close up neon",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Stan \"Kenzo\" K",
+      "pagina": "https://www.pexels.com/video/close-up-on-flashing-keyboard-9972272/"
+    },
+    {
+      "nome": "teclado-luz-2",
+      "id": 7534238,
+      "termo": "keyboard typing close up neon",
+      "duracao": 19,
+      "largura": 1280,
+      "autor": "Mikhail Nilov",
+      "pagina": "https://www.pexels.com/video/close-up-video-of-a-person-typing-keyboard-7534238/"
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "foto-mesa",
+      "id": 5668471,
+      "termo": "workspace laptop notebook desk",
+      "autor": "Sora Shimazaki",
+      "pagina": "https://www.pexels.com/photo/workplace-with-laptop-and-notepad-placed-near-coffee-cup-5668471/"
+    },
+    {
+      "nome": "foto-ideia",
+      "id": 1252807,
+      "termo": "creative idea lightbulb desk",
+      "autor": "Burak The Weekender",
+      "pagina": "https://www.pexels.com/photo/light-bulb-on-white-desk-turned-on-1252807/"
+    },
+    {
+      "nome": "pessoa-computador-1",
+      "id": 12709580,
+      "termo": "person working on computer",
+      "autor": "Robert So",
+      "pagina": "https://www.pexels.com/photo/close-up-shot-of-a-person-using-a-macbook-laptop-12709580/"
+    },
+    {
+      "nome": "pessoa-computador-2",
+      "id": 8867212,
+      "termo": "person working on computer",
+      "autor": "Yan Krukau",
+      "pagina": "https://www.pexels.com/photo/close-up-shot-of-hands-typing-on-keyboard-8867212/"
+    },
+    {
+      "nome": "editor-video-1",
+      "id": 39694504,
+      "termo": "video editor workstation",
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/photo/professional-video-editing-studio-setup-39694504/"
+    },
+    {
+      "nome": "editor-video-2",
+      "id": 39694477,
+      "termo": "video editor workstation",
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/photo/modern-video-editing-workspace-setup-39694477/"
+    },
+    {
+      "nome": "estudio-1",
+      "id": 31213674,
+      "termo": "podcast studio microphone",
+      "autor": "Alpha En",
+      "pagina": "https://www.pexels.com/photo/close-up-of-professional-microphone-in-studio-setting-31213674/"
+    },
+    {
+      "nome": "estudio-2",
+      "id": 4319926,
+      "termo": "podcast studio microphone",
+      "autor": "Michal Dziekonski",
+      "pagina": "https://www.pexels.com/photo/condenser-microphone-in-close-up-photography-4319926/"
+    },
+    {
+      "nome": "dev-focado-1",
+      "id": 6804610,
+      "termo": "developer coding focused",
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/photo/employee-working-in-html-editor-6804610/"
+    },
+    {
+      "nome": "dev-focado-2",
+      "id": 6804594,
+      "termo": "developer coding focused",
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/photo/programmer-looking-with-dissatisfaction-6804594/"
+    },
+    {
+      "nome": "criador-conteudo-1",
+      "id": 33899243,
+      "termo": "content creator desk setup",
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/photo/vintage-contax-camera-in-modern-studio-setup-33899243/"
+    },
+    {
+      "nome": "criador-conteudo-2",
+      "id": 4506938,
+      "termo": "content creator desk setup",
+      "autor": "Chelsey Horne",
+      "pagina": "https://www.pexels.com/photo/computer-set-up-on-a-workspace-4506938/"
+    },
+    {
+      "nome": "ia-tecnologia-1",
+      "id": 8386440,
+      "termo": "artificial intelligence technology abstract",
+      "autor": "Tara Winstead",
+      "pagina": "https://www.pexels.com/photo/robot-pointing-on-a-wall-8386440/"
+    },
+    {
+      "nome": "ia-tecnologia-2",
+      "id": 14314636,
+      "termo": "artificial intelligence technology abstract",
+      "autor": "Merlin Lightpainting",
+      "pagina": "https://www.pexels.com/photo/digital-art-in-close-up-shot-14314636/"
+    }
+  ]
+}

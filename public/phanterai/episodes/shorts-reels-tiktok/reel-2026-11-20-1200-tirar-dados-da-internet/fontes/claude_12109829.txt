@@ -1,0 +1,71 @@
+URL: https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings
+STATUS: 200
+CAPTURADO: 2026-11-20T06:33:50.102Z
+
+Skip to main content
+API Docs
+Release Notes
+Contact Support
+English
+Français
+Deutsch
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Português
+Pусский
+简体中文
+Español
+繁體中文
+English
+Search for articles...
+All Collections
+Consumers
+Privacy Settings & Controls
+How do I change my model improvement privacy settings?
+How do I change my model improvement privacy settings?
+August 3, 2026
+This article is about our consumer products such as Claude Free, Pro, Max and when accounts from those plans use Claude Code. For our commercial products such as Claude for Work and the Anthropic API, see here.
+If you use our Claude.ai consumer products and would like to change whether you  allow us to use your data to improve Claude, you can always update your privacy settings.  
+If you decide to turn off the model training setting, we will not use any new chats and coding sessions you have with Claude for future model training. Your data will still be included in model training that has already started and in models that have already been trained, but we will stop using your previously stored chats and coding sessions in future model training runs.
+Please note: If our safety classifiers flag your conversations, they may still be used to improve our internal trust and safety models, detect harmful content, enforce our policies, or advance our safety research.
+Modifying Your Model Improvement Settings on your Desktop or Browser:
+To modify your model improvement settings on your computer:
+Select your name from your settings menu and click the drop down button
+Select Settings, or navigate to here 
+Select Privacy, or navigate to here 
+Under Help Improve our AI models, click the button to toggle it off/on
+Modifying Your Model Improvement Settings on your Mobile Device:
+To modify your model improvement settings on your mobile device:
+Select your name from your settings menu 
+Select Settings
+Select Privacy
+Under Help Improve our AI models, click the button to toggle it off/on
+Learn more about how your personal data is used for model training here, and how long your personal data is retained for here. 
+Related Articles
+How do you use personal data in model training?
+How long do you store my data?
+How Do You Use Personal Data in Model Training?
+Is my data used for model training?
+Privacy rights requests relating to Anthropic’s training data
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Modifying Your Model Improvement Settings on your Desktop or Browser:
+Modifying Your Model Improvement Settings on your Mobile Device:
+Product
+Research
+Company
+News
+Careers
+Terms of Service - Consumer
+Terms of Service - Commercial
+Privacy Policy
+Usage Policy
+Responsible Disclosure Policy
+Compliance

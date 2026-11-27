@@ -1,0 +1,61 @@
+{
+  "source": "Pexels",
+  "media": {
+    "c01": {
+      "query": "paying with smartphone",
+      "pexels_id": 7669652,
+      "url": "https://www.pexels.com/video/a-person-paying-bill-using-his-card-7669652/",
+      "author": "Ivan S",
+      "author_url": "https://www.pexels.com/@ivan-s",
+      "duration": 12
+    },
+    "c03": {
+      "query": "online shopping laptop",
+      "pexels_id": 5586006,
+      "url": "https://www.pexels.com/video/person-browsing-on-laptop-5586006/",
+      "author": "Polina Tankilevitch",
+      "author_url": "https://www.pexels.com/@polina-tankilevitch",
+      "duration": 6
+    },
+    "c05": {
+      "query": "face id unlock phone",
+      "pexels_id": 7822022,
+      "url": "https://www.pexels.com/video/notification-on-a-phone-7822022/",
+      "author": "RDNE Stock project",
+      "author_url": "https://www.pexels.com/@rdne",
+      "duration": 7
+    },
+    "c06": {
+      "query": "credit cards wallet",
+      "pexels_id": 6956640,
+      "url": "https://www.pexels.com/video/a-person-looking-at-a-credit-card-6956640/",
+      "author": "Cup of  Couple",
+      "author_url": "https://www.pexels.com/@cup-of-couple",
+      "duration": 7
+    },
+    "c08": {
+      "query": "online checkout payment",
+      "pexels_id": 6898100,
+      "url": "https://www.pexels.com/video/a-person-browsing-the-internet-with-a-cellphone-while-holding-a-credit-card-6898100/",
+      "author": "Mikhail Nilov",
+      "author_url": "https://www.pexels.com/@mikhail-nilov",
+      "duration": 20
+    },
+    "c09": {
+      "query": "woman using phone shopping",
+      "pexels_id": 6565715,
+      "url": "https://www.pexels.com/video/a-woman-using-smartphone-6565715/",
+      "author": "Tim Douglas",
+      "author_url": "https://www.pexels.com/@tim-douglas",
+      "duration": 10
+    },
+    "c07": {
+      "query": "new york city street",
+      "pexels_id": 37692139,
+      "url": "https://www.pexels.com/video/vibrant-street-scene-in-downtown-manhattan-37692139/",
+      "author": "Collis Torrington",
+      "author_url": "https://www.pexels.com/@photosbycollis",
+      "duration": 14
+    }
+  }
+}

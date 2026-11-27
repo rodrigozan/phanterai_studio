@@ -1,0 +1,202 @@
+URL: https://openai.com/policies/businesses-in-chatgpt/
+STATUS: 200
+TITLE: Empresas no ChatGPT | OpenAI
+
+Pular para o conteúdo principal
+Pesquisa
+Produtos
+Negócios
+Desenvolvedores
+Empresa
+Fundação
+(abre em uma nova janela)
+Entrar
+Experimente o ChatGPT
+(abre em uma nova janela)
+Empresas no ChatGPT | OpenAI
+Selecionar idioma
+አማርኛ
+العربية
+български
+বাংলা
+bosanski
+català
+čeština
+dansk
+Deutsch
+Ελληνικά
+English (United Kingdom)
+English (United States)
+español (Latinoamérica)
+español (España)
+español (Estados Unidos)
+eesti
+فارسی
+suomi
+Filipino
+français (Canada)
+français (France)
+Gaeilge
+ગુજરાતી
+עברית
+हिन्दी
+hrvatski
+magyar
+հայերեն
+Indonesia
+íslenska
+italiano
+日本語
+Jawa
+ქართული
+қазақ тілі
+ಕನ್ನಡ
+한국어
+lietuvių
+latviešu
+macedônio
+മലയാളം
+mongol
+मराठी
+Melayu
+Malti
+မြန်မာ
+norsk bokmål
+Nederlands
+ਪੰਜਾਬੀ
+polski
+português (Brasil)
+português (Portugal)
+română
+русский
+slovenčina
+slovenščina
+Soomaali
+shqip
+српски (Србија)
+svenska
+Kiswahili
+தமிழ்
+తెలుగు
+ไทย
+Türkçe
+українська
+اردو
+Tiếng Việt
+中文 (中国)
+中文 (台灣)
+中文 (香港)
+Updated: 10 de novembro de 2026
+Empresas no ChatGPT
+Gerencie apenas empresas que você representa
+Forneça informações comerciais corretas
+Proteja o conteúdo e os links do perfil
+Elegibilidade e aplicação das políticas
+O recurso Empresas no ChatGPT ajuda as pessoas a descobrir o que as empresas oferecem e a saber mais sobre elas no ChatGPT. Estas políticas se aplicam quando uma empresa ou seu representante autorizado cria, reivindica ou edita um perfil, incluindo os dados, descrições, fotos, serviços e links enviados. Os perfis também podem incluir informações de outras fontes. As empresas devem cumprir as leis e os regulamentos vigentes e todas as políticas pertinentes da OpenAI, incluindo as Políticas de uso⁠⁠ que regem a utilização de nossos produtos e serviços e as Políticas comerciais⁠ que regem os feeds de produtos e os produtos contidos neles.
+Gerencie apenas empresas que você representa
+Você poderá gerenciar um perfil apenas se for proprietário da empresa ou tiver autorização para representá-la. Não se passe por uma empresa, não crie um perfil falso ou duplicado nem deturpe a propriedade, afiliação, credenciais ou endossos.
+Forneça informações comerciais corretas
+As informações que você adicionar ou alterar devem representar a empresa com veracidade e devem ser mantidas atualizadas. Isso inclui o nome da empresa, categoria, endereço ou área de atendimento, horário de funcionamento, dados de contato e produtos ou serviços oferecidos. Não faça afirmações falsas ou enganosas sobre preços, disponibilidade, qualificações ou resultados prováveis.
+Proteja o conteúdo e os links do perfil
+O conteúdo do perfil deve estar em conformidade com nossas Políticas de uso⁠. Esses padrões se aplicam a todos os elementos que uma empresa adiciona ao perfil, incluindo texto, imagens e links.
+Linguagem e imagens ofensivas. Mantenha o conteúdo do perfil adequado para um público amplo. Podemos rejeitar material obsceno, desnecessariamente profano, vulgar ou chocante, inclusive em nomes ou elementos da marca.
+Discriminação, assédio e intimidação. Não use termos pejorativos nem conteúdo que menospreze, assedie ou incentive o tratamento discriminatório de pessoas com base em características protegidas. Não intimide nem abuse de indivíduos.
+Conteúdo sexual ou gráfico. Não inclua material sexualmente explícito nem representações gráficas de violência em descrições, fotos ou outros conteúdos do perfil.
+Promoção enganosa. Não use avaliações ou endossos fabricados, garantias sem respaldo ou afirmações que ocultem termos relevantes, como taxas ou condições.
+Privacidade e direitos. Não publique informações privadas ou confidenciais de outra pessoa. Use fotos, logotipos e outros materiais somente se você tiver os direitos ou a permissão para isso.
+Links e destinos. Os links devem ser relevantes para a empresa e representar com precisão o destino para o qual direcionam. Não inclua links para sites de phishing ou malware, não use redirecionamentos enganosos nem use um perfil para direcionar pessoas a conteúdos proibidos por estas políticas.
+Elegibilidade e aplicação das políticas
+Nem todas as empresas podem criar ou reivindicar um perfil. Podemos recusar uma solicitação quando as ofertas ou práticas de uma empresa levantarem questões significativas em relação à segurança ou integridade. Também podemos adiar a permissão para que empresas de outras categorias criem ou reivindiquem perfis até que tenhamos as salvaguardas necessárias para apoiá-las de forma responsável. Os requisitos de elegibilidade podem mudar com o tempo. Saiba mais sobre como criar ou reivindicar um perfil⁠
+(abre em uma nova janela)
+.
+Podemos recusar ou remover conteúdo enviado, limitar o gerenciamento de perfis ou remover um perfil por violações ou para proteger os usuários. As empresas continuam sendo responsáveis pelas informações que fornecem, embora a OpenAI não verifique cada detalhe nem resolva todas as disputas factuais. Podemos atualizar estas políticas à medida que tomamos conhecimento.
+Pesquisa
+Índice de Pesquisa
+Visão Geral de Pesquisa
+Pesquisa Econômica
+Últimos Avanços
+GPT-6.2
+GPT-6.1 Sol
+GPT-6 Astra
+GPT-5.6
+Segurança
+Abordagem à Segurança
+Segurança da implantação
+(abre em uma nova janela)
+Segurança e Privacidade
+Confiança e Transparência
+Produtos
+ChatGPT
+(abre em uma nova janela)
+ChatGPT Business
+(abre em uma nova janela)
+ChatGPT Enterprise
+(abre em uma nova janela)
+ChatGPT para Educação
+(abre em uma nova janela)
+Codex
+Dots
+(abre em uma nova janela)
+Notas de lançamento
+Plataforma de API
+Visão geral
+Login da API
+(abre em uma nova janela)
+Documentos
+(abre em uma nova janela)
+Business
+Visão geral
+Soluções
+Recursos
+Plugins
+Histórias de Usuários
+Rede de parceiros
+Fale com Vendas
+Desenvolvedores
+SDK de aplicativos
+(abre em uma nova janela)
+Modelos Abertos
+(abre em uma nova janela)
+Documentos
+(abre em uma nova janela)
+Recursos
+(abre em uma nova janela)
+Fórum de Desenvolvedores
+(abre em uma nova janela)
+Empresa
+Sobre Nós
+Nosso Estatuto
+Carreiras
+Notícias
+Suporte
+Central de Ajuda
+(abre em uma nova janela)
+Status da OpenAI
+(abre em uma nova janela)
+Mais
+Histórias
+Academia
+Supply Co.
+Transmissões ao vivo
+Podcast
+RSS
+Termos e Políticas
+Termos de uso
+Política de Privacidade
+Outras Políticas
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+OpenAI © 2015–2026
+Gerenciar cookies
+Português
+Brasil
+Nós usamos cookies
+Utilizamos cookies para ajudar este site a funcionar, compreender a utilização do serviço e promover esforços de marketing. Acessar Gerenciar cookies para alterar as preferências a qualquer momento. Leia nossa Política de cookies para saber mais.
+Gerenciar cookies
+Rejeitar cookies não essenciais
+Aceitar tudo

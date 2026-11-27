@@ -1,0 +1,73 @@
+https://support.google.com/youtube/answer/2991785?hl=en
+
+Skip to main content
+YouTube Help
+Sign in
+Help Center
+Community
+Creator Tips
+YouTube
+Fix a problemWatch videosManage your account & settingsSupervised experiences on YouTubeYouTube PremiumCreate & grow your channelMonetize your contentPolicy, safety, & copyright
+Edit videos & video settingsHow engagement metrics are counted
+How engagement metrics are counted
+
+Beginning November 2026, YouTube public view counts on video watch pages incorporate co-views by estimating the number of individual viewers watching together on TV screens.
+
+Views are counted the moment a video starts to play across all formats, including Shorts, long-form videos (VODs), and live streams.
+
+This update won’t impact your YouTube Partner Program (YPP) earnings or eligibility. YPP earnings will still be based on “engaged views” and “engaged watch hours”. YPP eligibility will still be based on “qualified views.”
+
+YouTube engagement metrics (views, likes, dislikes, and subscriptions) reflect how many times your YouTube video or channel has been interacted with. These metrics can be an important measure of your video or channel’s overall popularity.
+
+We want to make sure that your metrics are high quality and come from actual humans and not computer programs. It takes our systems some time to figure out which views, likes, dislikes, and subscriptions are legitimate.
+
+Note: It may take time for your metrics to appear in our system during the first few hours your video is published.
+Change in metrics
+
+After legitimate engagement events are counted, your metric count should update more often. The timing of these changes varies depending on a video or channel's popularity and views. Keep in mind that we're constantly confirming and adjusting engagement events.
+
+On some videos and channels, your metric count might seem frozen or not show the metrics that you expect. Metrics are algorithmically confirmed to maintain fair and positive experiences for content creators, advertisers, and viewers. To verify that metrics are accurate, we may temporarily slow down, freeze, or change your metric count, and discard low-quality playbacks.
+
+Note: Using several devices to watch the same video and streaming the same video across several windows and tabs are examples of low-quality playbacks.
+It can take several days for verified metrics to fully update and reflect in your Earn tab milestones.
+Paid advertising views
+
+Keep in mind that there are 2 kinds of views that are measured in Google Ads: TrueView views, and YouTube public views. TrueView views are billable, and YouTube public views are not billable. Paid advertising views are counted as TrueView views because they indicate that a viewer interacted with the video. The following criteria applies specifically to TrueView views, but not to YouTube public views:
+
+Skippable in-stream ads: Paid advertising views will be counted as TrueView views when:
+Someone watches a complete ad that’s 11–30 seconds long.
+Someone watches at least 30 seconds of an ad that’s more than 30 seconds long.
+Someone interacts with the ad.
+In-feed video ads: Paid advertising views will be counted as TrueView views when:
+Someone clicks the ad and the video starts to play.
+Someone watches at least 10 seconds of an ad that’s more than 10 seconds long.
+Shorts ads: Paid advertising views will be counted as TrueView views when:
+Someone clicks the ads.
+Someone watches at least 10 seconds of the ad.
+
+YouTube public views, which represent ad views contributing to the public view count, are counted the moment a video ad starts to play across Shorts and in-stream ads. This metric incorporates co-viewing estimates for viewers watching together on TV screens.
+
+Check views with YouTube Analytics
+
+If you're looking at a video you uploaded, you can monitor your views more closely using YouTube Analytics. Keep in mind that Realtime activity only shows estimates of potential view activity. It might not match the number you find on the watch page.
+
+Give feedback about this article
+Was this helpful?YesNo
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Edit videos & video settings
+Download YouTube videos that you've uploaded
+Replace or delete your video
+Make bulk changes to videos
+How engagement metrics are counted
+Restrictions on claimed music
+Manage restrictions on your content
+Manage playlists in YouTube Studio
+Create a course in YouTube Studio
+Create shows from your videos
+Understand your Account Status page
+©2026 Google  Privacy Policy  YouTube Terms of Service
+Language
+English‎

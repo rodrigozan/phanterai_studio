@@ -1,0 +1,91 @@
+===== https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/ 200 Automate Mac tasks with Gemini computer use
+Skip to main content
+Innovation & AI
+Products & platforms
+Company news
+Feed
+Newsletter
+Home
+Innovation & AI
+Products
+Gemini App
+Let Gemini tackle repetitive chores on your Mac
+Nov 19, 2026
+1 min read
+Gemini can now navigate Mac apps and websites in the background to finish complex tasks.
+Michael Friedman
+Group Product Manager, Gemini App
+Share
+Listen to article
+1:53 minutes
+Read AI-generated summary
+Starting today, computer use in the Gemini app for Mac helps you get multi-step tasks done across your local files, desktop apps, and the web. This saves you time on the repetitive work that normally takes dozens of clicks. Just describe what you need, and Gemini handles the clicking, typing, menus, and forms for you.
+Gemini works inside an isolated background window with a live preview right in your chat. Your main screen and cursor remain completely free, so you can keep typing, designing, or taking calls without interruption. Privacy and safety are built in: you choose which apps Gemini can access, watch every step live, pause at any time, and approve key actions before they happen.
+Here are a few ways you can start trying it today:
+Speed up creative workflows: Batch color-grade photos in your favorite design software or set up complex 3D scenes.
+Skip manual form entry: Extract weights, dimensions, and addresses from local PDFs to fill out multi-box shipping quotes.
+Turn live data into ready-to-present decks: Pull metrics and screenshots from live dashboards across multiple regions and build a presentation in Google Slides.
+Batch-list items for sale: Analyze clothing photos from a local folder, research pricing, log item details, and stage listings on resale platforms.
+Computer use is rolling out in English in the U.S. in the Gemini app for Mac. 
+1
+ Download the app at gemini.google/mac to get started.
+Posted in:
+Gemini App
+More Information
+Related stories
+Gemini App
+Here are 4 things you didn’t know you could do with Gemini Canvas.
+Search
+Get your year-end tasks done with new Connected Apps.
+Gemini App
+ICYMI: Transfer your history from other AI apps into Gemini.
+Gemini App
+The Gemini app is now available on lower-memory Android devices.
+By Angus Logan
+Gemini App
+Put Gemini to work for you
+By Josh Woodward
+Gemini App
+Regional voices are rolling out in the Gemini app.
+By Neel Joshi
+Get the latest news from Google in your inbox
+Sign up for our newsletters with product updates, event information, special offers, and more.
+Subscribe
+Your information will be used in accordance with Google's privacy policy. You may opt out at any time.
+Privacy
+Terms
+Help
+More of Google
+Google Products
+About the Blog
+Global (English)
+Africa (English)
+Australia (English)
+Brasil (Português)
+Canada (English)
+Canada (Français)
+Česko (Čeština)
+Deutschland (Deutsch)
+España (Español)
+France (Français)
+Greece (Ελληνικά)
+India (English)
+Indonesia (Bahasa Indonesia)
+Ireland (English)
+Italia (Italiano)
+日本 (日本語)
+대한민국 (한국어)
+Latinoamérica (Español)
+Malaysia (English)
+الشرق الأوسط وشمال أفريقيا (اللغة العربية)
+MENA (English)
+Nederlands (Nederland)
+New Zealand (English)
+Polska (Polski)
+Portugal (Português)
+România (Română)
+Sverige (Svenska)
+ประเทศไทย (ไทย)
+Türkiye (Türkçe)
+台灣 (中文)
+Requires an Apple Silicon Mac running macOS Sequoia 15.0+. Available for personal Google accounts 18+, available to Google AI Plus, Pro and Ultra users.

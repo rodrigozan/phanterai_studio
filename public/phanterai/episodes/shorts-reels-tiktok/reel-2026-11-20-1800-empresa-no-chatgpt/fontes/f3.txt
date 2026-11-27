@@ -1,0 +1,159 @@
+URL: https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt
+STATUS: 200
+TITLE: Setting up your business on ChatGPT | OpenAI Help Center
+
+OpenAI Support
+Help
+Language
+English
+Login
+All Collections
+ChatGPT
+Setting up your business on ChatGPT
+Setting up your business on ChatGPT
+Claim your business, keep its information up to date, and set up an agent that can answer customer questions.
+Updated: há 8 horas
+Overview
+Business Hub lets you claim your business in ChatGPT, provide business details and product information, and understand how people engage with it. If you’re authorized to represent the business, you can claim it and complete the required verification to manage its information and view insights such as mentions and website clicks.
+Eligible ecommerce and online service businesses in the US can also create a business agent that answers customer questions using information you provide. After you review and publish your agent, customers can choose to chat with it about your products and policies.
+Who is eligible
+You can claim a business if you own it or are authorized to represent it. You’ll need to verify your connection to the business and be approved. You don’t need an Ads account or a ChatGPT Enterprise agreement to claim an eligible business.
+Eligible businesses can claim an existing business or add one where ChatGPT is available and the required verification is supported. Availability depends on the business’s location and type.
+Business agents have separate requirements. They’re available to eligible ecommerce and online service businesses in the US with a website. Your business must also meet the industry requirements in the Business Agents Policy.
+Claim your business
+Claim your business to access it in Business Hub. Use one of the verification methods offered for your business, such as phone, business email, website domain, or Shopify.
+After your claim is approved, you can access your business in Business Hub. You’ll need to complete identity verification with Persona before you can publish changes to your business information, view insights, or create an eligible business agent.
+Sign in to ChatGPT, and open Business Hub from the sidebar. Search for your business by name.
+Select the listing that matches your business and confirm the ChatGPT account you’ll use to manage it.
+Choose one of the verification methods shown and follow the prompts.
+If you can’t receive a code at the phone number or email address shown, check which other methods appear on that listing. For example, if you see Website domain, you can verify your connection using a DNS record without changing the public phone number. If you see Business phone and both a text and an automated call are offered, choose the one you can receive. Available methods vary by listing.
+To find a claim you started, sign in with the ChatGPT account you used at the time. Open Business Hub, select Business, and open the existing profile. If you received a personal claim invitation instead, use the link in that invitation and sign in with the exact email address it was sent to.
+If your listing requires a tenant admin, the designated administrator of your organization’s ChatGPT Enterprise workspace should start the claim from their own account. An Ads account admin or website administrator may be a different person. Submitting a claim request asks for review. It does not grant access to the profile.
+If you see Contact support: Your listing is locked. Select Contact support to request help with access.
+If you can’t find your business: If you run an eligible online business, you may see an option to add it. Local stores and restaurants can currently claim only an existing U.S. listing.
+Verify your claim
+Verify with your business phone
+Select Business phone, then choose a text message (SMS) or an automated call. Select Get code and enter the code sent to the number shown.
+Verify with your business email
+Select Business email, then Get code. Enter the code sent to the email address associated with your business.
+Verify with your website domain
+Select Website domain, then add the TXT record shown in ChatGPT to your domain’s DNS settings. Copy the type, name or host, and value exactly. If someone else manages your domain, ask them to add the record for you. DNS changes may take time to appear. Return to ChatGPT and select Verify domain, then follow any remaining prompts to finish your claim.
+Verify with your Shopify store
+If your business uses Shopify, you can begin claiming your business directly from the ChatGPT app in your Shopify admin or through Business Hub in ChatGPT.
+From Shopify: Open the ChatGPT app in your Shopify admin and follow the prompts to connect your store and claim your business.
+From ChatGPT: Select Shopify store, then Connect Shopify. Review the permissions, sign in to your Shopify store, and follow the prompts to complete verification.
+Wait for claim approval
+OpenAI reviews your claim and emails you its decision or a request for more information. While it’s under review, you can select Cancel claim to cancel the request.
+Dispute ownership
+If your business has already been claimed, open its profile, select the more options menu (•••), then select Dispute ownership. Follow the prompts to verify with Persona that you’re authorized to represent the business. Claiming a profile or disputing ownership doesn’t change its visibility in ChatGPT.
+Complete identity verification with Persona
+Claim verification confirms your connection to the business. Persona verifies your identity. Even if you’ve verified the website or connected Shopify, you still need Persona approval to publish changes to your business information, view insights, connect a product feed, or set up an eligible business agent. To check the next step, open Business, select the profile and look for Complete verification with Persona in its overview.
+Claiming your business alone doesn’t give its profile a verified badge. The verified badge, shown as a blue check, appears after your Persona verification is approved.
+You may need a government-issued ID, business registration information, and proof that you’re authorized to represent the business.
+If you use Persona to create a new profile, OpenAI’s approval automatically publishes the profile. There’s no separate publishing step for the profile, so continue only when you’re ready.
+Use the legal business name on your official registration documents. If your store is called River Street Coffee but is registered as River Street Foods LLC, enter River Street Foods LLC in the legal-name field. Use River Street Coffee if there’s a separate trade-name or “doing business as” field. Check that the registered address and any registration or tax number you enter also match your records.
+Select Verify with Persona, then Continue to Persona.
+Follow the Persona instructions to submit the requested information.
+Complete Persona verification later
+If you initially used another verification method, you can complete Persona verification later.
+Open the Business tab and select your profile.
+In your business overview, find Complete verification with Persona.
+Select Verify and follow the Persona instructions.
+Wait for verification approval
+OpenAI reviews your Persona verification submission and emails you its decision or a request for more information. While it’s under review, you can select Cancel submission to cancel the request.
+Publishing a business agent is a separate, optional step. Review your agent and select Publish when you’re ready.
+Update business information
+After your claim and Persona verification are approved, open your profile in Business to update your website, business description, product or service category, logo, delivery policy, or return policy. You can also add a cover photo and other optional details. Information you add must follow the Businesses in ChatGPT policy.
+OpenAI reviews and publishes changes. Updates can take time to appear in a listing or a ChatGPT answer. ChatGPT may also use other sources when answering questions about your business.
+Connect a product feed
+If you sell products, you can connect a product feed to share prices and availability. You can upload a CSV product feed that follows the product feed specification, including its required fields. For a hosted feed, enter a URL that opens the feed file itself. If Business Hub can’t import the hosted file, you can use File upload to upload a CSV that follows the product feed specification. Once the upload processes successfully, your catalog reflects the products in that file. The hosted feed will still need to work for future changes to import automatically. Products in the feed must follow the Commerce policies. Connecting a feed doesn’t publish an agent or guarantee that ChatGPT recommends your products.
+Open the Business Hub profile you’re uploading the feed to. Compare its website with the domain in a product URL that failed. If you selected the wrong profile, switch to the correct one. If a product URL in your feed is wrong, correct it before uploading. If the domains match, check your Persona verification status. If it’s pending, wait for the decision email. Once it’s approved, try uploading the file again.
+If your claim offers Website domain verification, compare the TXT record shown in that claim with the record in your domain’s DNS settings. Add the record if it’s missing, or correct the host and value if they differ. Return to the claim, select Verify domain, and try the upload again.
+For Shopify merchants: When you connect your Shopify store from Business Hub, you can use your existing Shopify catalog with your Business Profile. You don’t need to set up a new catalog or upload a separate product feed.
+Delete a draft profile
+Only unpublished draft profiles can be deleted. OpenAI Support is unable to delete, unpublish, or hide a published profile as part of a business setup or ownership request.
+Open Business and select the unpublished draft you want to remove. Check its name and website so you have the right profile. On Overview, open the three-dot menu and select Delete draft. This option is for unpublished drafts. Deleting a draft doesn’t guarantee another Persona verification attempt.
+Understand your profile insights
+After your claim and Persona verification are approved, open your business in Business Hub and select Insights. Insights show aggregate activity over the past 28 days, including mentions and website clicks.
+Mentions. For an online business, a mention counts when ChatGPT references the business’s website. The brand name alone doesn’t count. For a local business, a mention counts when ChatGPT shows a result for that location, even if the customer doesn’t open the listing or visit the website.
+Website clicks. See how often people click through to your website.
+Discovery topics. See common themes in ChatGPT answers that mentioned or cited your business. These themes don’t reveal individual prompts or directly measure customer intent.
+Businesses don’t receive individual prompts or consumer conversations, including chats with their business agents.
+Counts may be incomplete. A blank metric can mean activity hasn’t reached the reporting threshold, data is still being collected, or reporting is unavailable. It doesn’t necessarily mean zero activity. If a metric stays blank, contact OpenAI Support.
+Set up and publish your agent
+You can claim an eligible business without advertising or opening an Ads account. Creating an agent is optional and has separate requirements. Your claim and Persona verification must both be approved. Your business must be an eligible U.S. ecommerce or online service business, have a website, and meet the Business Agents Policy. A verified profile alone doesn’t establish that you can create an agent.
+After your claim and Persona verification are approved, open your business in the Business tab. If Shopify setup has already created a draft agent, open it. Otherwise, create an agent if the option is available.
+Review the information your agent will use, such as product details and your return policy. Follow the Business Agent Policy when writing instructions for how your agent should answer customers.
+Preview the agent with a question customers often ask, such as “Can I return an item I bought on sale?” If the answer is wrong, update the information or instructions and test it again.
+When you’re ready, select Publish. Customers can only chat with a published agent.
+Get help with setup
+If you can’t create an agent, check that you’re using the claimed profile and that your Persona verification was approved. You can’t create an agent while verification is pending or after it fails.
+Your business must also meet the agent requirements for location, type of business, and industry. Some businesses can manage a profile without being eligible for an agent. For eligibility requirements, see: Business Agent Policy.
+For a problem in ChatGPT, contact OpenAI Support. Include the step you were on, any error message, and a screenshot with sensitive information removed. For help with your Shopify catalog or storefront settings, see: Shopping from Shopify merchants in ChatGPT.
+FAQ
+Do I need to advertise or publish an agent to claim my business?
+No. Claiming your business, publishing an agent, and advertising are separate. After your claim and Persona verification are approved, you can manage your business information and use available insights without publishing an agent or running ads.
+Can I give teammates or an agency access to my business?
+The admin who claimed your business can add teammates in Business Hub and grant an agency access to manage the business or its agent. Use each person’s own ChatGPT account.
+Invitations can depend on the account used to claim the business. For a business claimed in a ChatGPT workspace, invitees may need to be members of that workspace. If an agency invitation is blocked, contact OpenAI Support to check the available options. Don’t forward a personal claim invitation to give someone access.
+What should I do if my verification is pending or fails?
+If your claim or Persona verification is pending, wait for OpenAI’s decision or request for more information by email. Review time varies. Wait for the review to finish before trying again.
+If a Persona check fails or expires, follow the instructions in the email. If Try again is available, select it and submit corrected information. Make sure the business name, address, and any registration or tax number you provide match your official business records.
+Contact OpenAI Support if you can’t retry or Business Hub still shows verification as incomplete after you’ve been told it was approved. Include the step you were on, any error message, and a screenshot with sensitive information removed.
+Submitting information to Persona doesn’t mean verification is approved. Features that require Persona verification remain unavailable until it’s approved.
+Will claiming my business make ChatGPT recommend it more often?
+Claiming lets you manage the information you provide about your business. It doesn’t guarantee increased visibility or give you direct control over ChatGPT’s independent recommendations. Advertising doesn’t influence ChatGPT’s independent answers.
+Do I need Shopify to set up a business agent?
+No. Eligible businesses can set up a business agent whether or not they use Shopify. If you use Shopify, you can connect its product feed to share product details, prices, and availability. You’ll still need to review and publish your agent separately.
+Can I manage several brands or locations together?
+An authorized admin can manage several business profiles. Each distinct brand has its own profile, even when several brands belong to the same company. There’s no single parent profile that manages every brand or automatically claims its locations. For brands using a managed claim process, individual location profiles remain locked by default. Ask your OpenAI account contact about the supported claim path.
+Can my agent complete purchases, make bookings, or check a customer’s order?
+No. The current experience lets your agent explain products and policies and link to your website, where customers complete those actions. If your business also has a plugin in ChatGPT, the business agent’s separate chat doesn’t use data from that plugin or connect to its capabilities.
+Can my business be named in an answer without a recorded mention?
+For an online business, a mention counts when ChatGPT references its website. Naming the brand alone doesn’t count. For a local business, a mention counts when ChatGPT shows a result for that location, even if the customer doesn’t open the listing or visit its website.
+Do discovery topics show individual customer questions?
+No. Discovery topics group themes in ChatGPT answers that mentioned or cited your business. They’re aggregate categories, not individual prompts or a direct report of customer intent. They don’t give your business access to individual prompts or chats with your business agent.
+Does a blank insight mean there was no activity?
+No. A blank metric can mean activity hasn’t reached the reporting threshold, data is still being collected, or reporting is unavailable. It doesn’t necessarily mean zero activity. If the issue persists, contact OpenAI Support.
+Why haven’t my updated business details appeared yet?
+OpenAI reviews and publishes changes to business details. Updates can take time to appear in a listing or generated answer, and ChatGPT may also draw on other sources. A saved change doesn’t mean every answer will reflect it immediately.
+Do I need to install the ChatGPT app in Shopify for my products to appear in ChatGPT?
+No. Eligible products from Shopify Catalog can already appear in ChatGPT without installing the app. Business Hub provides additional ways to manage your business’s presence, access available insights, and set up a Business Agent if your business is eligible.
+Was this article helpful?
+Submit
+Overview
+Who is eligible
+Claim your business
+Verify your claim
+Verify with your business phone
+Verify with your business email
+Verify with your website domain
+Verify with your Shopify store
+Wait for claim approval
+Dispute ownership
+Complete identity verification with Persona
+Complete Persona verification later
+Wait for verification approval
+Update business information
+Connect a product feed
+Delete a draft profile
+Understand your profile insights
+Set up and publish your agent
+Get help with setup
+FAQ
+Do I need to advertise or publish an agent to claim my business?
+Can I give teammates or an agency access to my business?
+What should I do if my verification is pending or fails?
+Will claiming my business make ChatGPT recommend it more often?
+Do I need Shopify to set up a business agent?
+Can I manage several brands or locations together?
+Can my agent complete purchases, make bookings, or check a customer’s order?
+Can my business be named in an answer without a recorded mention?
+Do discovery topics show individual customer questions?
+Does a blank insight mean there was no activity?
+Why haven’t my updated business details appeared yet?
+Do I need to install the ChatGPT app in Shopify for my products to appear in ChatGPT?
+ChatGPT
+API
+Service Status
+Cookie Preferences

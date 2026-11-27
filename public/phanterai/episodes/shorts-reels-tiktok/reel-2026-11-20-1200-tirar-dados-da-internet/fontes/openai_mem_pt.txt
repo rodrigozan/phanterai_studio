@@ -1,0 +1,169 @@
+URL: https://help.openai.com/pt-br/articles/8590148-memory-in-chatgpt
+STATUS: 200
+CAPTURADO: 2026-11-20T06:34:58.289Z
+
+OpenAI Support
+Central de Ajuda
+Language
+português
+Brasil
+Login
+All Collections
+ChatGPT
+Memória
+Memória no ChatGPT
+Esta página foi traduzida automaticamente. Veja o artigo original em inglês.
+Dê o seu feedback sobre esta tradução
+Memória no ChatGPT
+Saiba como o ChatGPT usa a memória para personalizar respostas e como revisar, alterar ou remover informações memorizadas.
+Atualizado: há 4 horas
+Visão geral
+Quando a Memória está ativada, o ChatGPT pode lembrar preferências e detalhes relevantes das suas conversas e de outras fontes disponíveis. Isso pode ajudar você a retomar de onde parou e a gastar menos tempo repetindo informações.
+Os recursos e controles de Memória podem variar conforme o plano, a região, a plataforma e as configurações do espaço de trabalho. Se uma configuração descrita aqui não estiver visível, talvez ela ainda não esteja disponível para sua conta.
+Dependendo do seu plano e da sua região, essas fontes podem incluir:
+conversas anteriores
+memórias salvas
+instruções personalizadas
+arquivos salvos disponíveis na Biblioteca ou no ChatGPT Space
+conteúdo de apps conectados, como o Gmail
+A Memória não retém todos os detalhes de todas as conversas. O ChatGPT decide quais informações disponíveis são relevantes para uma resposta, e a Memória pode mudar conforme o seu contexto muda.
+Gerenciar as configurações de memória
+Para revisar os controles de Memória disponíveis para sua conta:
+Abra Configurações.
+Selecione Personalização.
+Selecione Memória.
+Dependendo da sua experiência de memória, os controles disponíveis podem incluir Memória, Consultar memórias salvas, Consultar histórico de chats, Resumo da memória, Gerenciar ou Memórias salvas.
+Em uma conta vinculada de adolescente, o pai, a mãe ou o responsável pode gerenciar os controles de memória compatíveis por meio dos Controles parentais.
+Desativar a Memória não exclui seus chats anteriores. Se você reativar a Memória depois, o ChatGPT poderá criar novas informações memorizadas com base nos chats que permanecerem no seu histórico.
+Desativar a Memória ou a personalização não desabilita o uso limitado do contexto para fins de proteção e segurança em situações raras e de alto risco. Esses usos são separados dos controles de personalização.
+Revisar o que o ChatGPT lembra
+Resumo da memória
+O resumo da memória apresenta uma visão geral das informações que o ChatGPT pode usar para personalizar as respostas. Ele não inclui necessariamente todos os detalhes ou todas as fontes que a Memória pode consultar.
+Você também pode perguntar ao ChatGPT o que ele lembra sobre você.
+Quando o resumo da memória estiver disponível, você poderá:
+Inserir uma correção no campo de texto.
+Destacar um texto e fornecer uma correção.
+Selecionar Não mencionar isso novamente quando essa opção estiver disponível.
+Selecione Excluir e desativar a memória no menu de mais opções (•••).
+Não mencionar isso novamente reduz futuras referências às informações. Isso não exclui a fonte original.
+Excluir e desativar a memória exclui as informações memorizadas exibidas no resumo e desativa a Memória. Isso não exclui chats anteriores.
+Fontes
+Quando o ChatGPT usa um contexto pessoal relevante, a seção Fontes pode aparecer abaixo da resposta. As Fontes podem ajudar você a revisar informações que contribuíram para a personalização, como um chat anterior, uma memória salva, uma instrução personalizada, um arquivo ou um e-mail conectado.
+As Fontes podem não mostrar todos os fatores que influenciaram uma resposta. As Fontes da Memória não são incluídas quando você compartilha uma conversa por meio de um link compartilhado.
+Dependendo da fonte e dos controles disponíveis, talvez você possa:
+abrir ou revisar a fonte
+corrigir ou excluir uma memória salva
+excluir um chat consultado
+marcar uma fonte como relevante ou não relevante
+abrir um arquivo ou e-mail consultado
+Corrigir ou remover informações memorizadas
+Corrigir informações
+Você pode informar ao ChatGPT que uma informação memorizada está incorreta ou desatualizada. Você também pode editar o resumo da memória ou uma memória salva quando esses controles estiverem disponíveis.
+Pedir ao ChatGPT para não mencionar algo
+Selecione Não mencionar isso novamente, quando disponível, ou peça ao ChatGPT para não usar as informações em respostas futuras.
+Isso altera o comportamento da personalização, mas não exclui o chat, arquivo, e-mail ou outra fonte subjacente.
+Exclua informações lembradas
+As etapas necessárias dependem de onde a informação está armazenada.
+Exclua um item do resumo da memória ou dos controles de memórias salvas.
+Exclua a conversa em que você compartilhou ou mencionou a informação.
+Exclua os arquivos salvos relevantes da Biblioteca ou do ChatGPT Space.
+Desconecte um app que contenha a informação quando não quiser mais que o ChatGPT tenha acesso a ele.
+Excluir apenas uma conversa não exclui necessariamente uma memória salva separada que tenha sido criada a partir dela.
+Remova das fontes as informações lembradas
+Para remover uma informação salva como memória, exclua a memória salva e a conversa em que você compartilhou essa informação pela primeira vez. Remova também a informação de todas as outras fontes em que ela aparece:
+o resumo da memória
+memórias salvas
+conversas comuns e arquivadas
+arquivos salvos disponíveis na Biblioteca ou no ChatGPT Space
+apps conectados
+Pode levar algum tempo para que a exclusão e as atualizações da Memória sejam aplicadas em todos os lugares. A OpenAI pode manter registros de memórias salvas excluídas por até 30 dias para fins de segurança e depuração.
+Consultar histórico de chats
+Se suas configurações incluírem Consultar histórico de chats, ativar essa opção permitirá que o ChatGPT use informações relevantes de conversas anteriores para personalizar respostas futuras.
+Ao contrário de uma memória salva explicitamente, as informações derivadas do histórico de chats podem mudar conforme o ChatGPT atualiza o que é mais útil lembrar.
+Se você desativar Consultar histórico de chats, as informações memorizadas de chats anteriores serão programadas para exclusão dos sistemas da OpenAI em até 30 dias. Os chats originais permanecem no seu histórico, a menos que você os exclua.
+Se suas configurações incluírem Consultar memórias salvas, desativar essa opção também desativará Consultar histórico de chats. Quando Consultar memórias salvas está ativado, você pode gerenciar Consultar histórico de chats separadamente.
+Não há um limite de armazenamento separado para o que o ChatGPT pode consultar por meio do histórico de chats.
+Desativar Consultar histórico de chats não exclui suas memórias salvas.
+Memórias salvas
+As memórias salvas são detalhes que você pede explicitamente ao ChatGPT para lembrar ou que o ChatGPT salva como contexto útil, quando esse comportamento está disponível.
+As memórias salvas são armazenadas separadamente do histórico de chats. Excluir o chat original não exclui automaticamente uma memória salva separadamente.
+Você pode pedir ao ChatGPT para esquecer uma memória salva ou excluí-la nas configurações de Memória. Excluir uma memória salva impede que ela seja usada em personalizações futuras, mas não remove menções a essas informações de conversas anteriores.
+Dependendo do seu plano e da sua plataforma, os controles de memórias salvas também podem incluir pesquisa, classificação, priorização automática e histórico de versões.
+Memória aprimorada e memórias salvas do sistema legado
+A Memória aprimorada atualiza continuamente um resumo mais abrangente do contexto relevante. As memórias salvas do sistema legado usam uma lista mais explícita de itens de memória individuais.
+Quando a opção estiver disponível, você poderá alternar entre as experiências:
+Abra Configurações.
+Selecione Personalização.
+Selecione Memória.
+Selecione Memórias salvas para usar a experiência legada ou Experimentar a memória aprimorada para voltar à Memória aprimorada.
+Alterar a experiência de Memória não exclui seu histórico de chats.
+Memória aprimorada em Ambientes de trabalho seguros regulamentados
+A memória aprimorada pode usar o contexto de chats anteriores para manter a memória atualizada. Ela é diferente da Memória em geral e do sistema legado de memórias salvas.
+No ChatGPT para o setor de saúde e no ChatGPT Enterprise com Ambiente de trabalho seguro regulamentado, a memória aprimorada fica desativada por padrão. Proprietários e administradores do Ambiente de trabalho seguro podem disponibilizar a opção Usar memória aprimorada para a função padrão do Ambiente de trabalho seguro ou para funções personalizadas qualificadas.
+Este recurso não está coberto pelo seu BAA. Não insira PHI ao usar este recurso.
+Os membros que optarem por usar a memória aprimorada poderão usar a Memória somente do projeto para limitar o contexto da memória a um projeto específico. Os chats podem consultar outras conversas do mesmo projeto, mas não podem consultar conversas fora dele, e os chats externos ao projeto não podem consultar as conversas contidas nele. A Memória somente do projeto altera onde o contexto pode ser consultado, mas não altera as orientações sobre o BAA nesta seção.
+Para conhecer os requisitos de configuração e disponibilidade, consulte: Projetos no ChatGPT.
+Antes de ativar a memória aprimorada, os proprietários e administradores do Ambiente de trabalho seguro devem verificar quem receberá acesso e informar os membros afetados sobre essa restrição. Se uma configuração de memória não estiver disponível em um Ambiente de trabalho seguro Enterprise, entre em contato com o administrador do Ambiente de trabalho seguro.
+Para ver a lista atual de funcionalidades cobertas e não cobertas pelo BAA, consulte: Produtos e funcionalidades qualificados para a HIPAA.
+Memória em conversas bloqueadas
+Quando a Memória está ativada, as conversas bloqueadas podem usar informações relevantes da Memória das conversas comuns. Novas mensagens enviadas enquanto uma conversa está bloqueada não são usadas para personalizar conversas comuns.
+Bloquear uma conversa não remove as informações que o ChatGPT memorizou antes do bloqueio. Após o desbloqueio permanente, toda a conversa poderá ser usada para a Memória das conversas comuns, se as suas configurações e as políticas do espaço de trabalho permitirem.
+Memória em chats temporários
+Antes de iniciar um chat temporário, você pode escolher se ele usará memórias existentes, instruções personalizadas e plugins. Selecione Não personalizado se não quiser usá-los. Não é possível alterar essa escolha após o início da conversa.
+Os chats temporários não criam nem atualizam memórias, mesmo com a personalização ativada. As restrições da sua conta e do Ambiente de trabalho seguro continuam válidas.
+Salvar um chat temporário o transforma em um chat comum. Depois disso, ele segue as configurações de personalização e aprimoramento de modelos da sua conta. Se a Memória estiver ativada, o ChatGPT poderá usar a conversa salva para personalizar respostas futuras.
+Um contexto limitado relevante para a segurança pode ser usado em situações raras e de alto risco. Esse uso para fins de segurança é separado da personalização da Memória.
+Para saber mais sobre chats temporários, consulte: Chat temporário no ChatGPT.
+Privacidade e treinamento de modelos
+Informações confidenciais podem aparecer na Memória se você as compartilhar com o ChatGPT. Revise as configurações de Memória e as Fontes e escolha um chat temporário não personalizado quando não quiser que a conversa use ou crie memórias para personalização. Se você salvar o chat, ele se tornará um chat comum e seguirá as configurações de personalização da sua conta.
+Em contas pessoais do ChatGPT, a OpenAI pode usar chats e informações memorizadas para aprimorar os modelos quando a opção Melhorar o modelo para todos estiver ativada. Você pode desativar essa configuração em Controles de dados.
+Por padrão, a OpenAI não usa conteúdo dos Ambientes de trabalho seguros do ChatGPT Business, Enterprise, Edu ou ChatGPT para o setor de saúde para treinar seus modelos.
+Para saber mais sobre os controles de dados, consulte: Controles de dados no ChatGPT.
+Perguntas frequentes
+O resumo da memória inclui tudo o que o ChatGPT lembra?
+Não. O resumo oferece uma visão geral e pode omitir detalhes menos relevantes, inadequados para o resumo ou derivados de fontes que não são exibidas individualmente.
+A memória é diferente das instruções personalizadas?
+Sim. As instruções personalizadas são orientações diretas que você fornece sobre o que o ChatGPT deve saber e como deve responder. A Memória pode usar informações relevantes desenvolvidas ao longo das conversas e de outras fontes disponíveis.
+Para saber mais sobre instruções personalizadas, consulte: Instruções personalizadas do ChatGPT.
+O ChatGPT pode se lembrar do meu nome ou da identidade da minha conta?
+O ChatGPT pode se lembrar de um nome que você fornecer. Quando Consultar histórico de chats está ativado, o ChatGPT também pode usar o nome da conta já exibido no produto quando essa informação for relevante.
+O ChatGPT pesquisa meu histórico para cada resposta?
+Não. O ChatGPT busca um contexto relevante quando isso provavelmente melhorará uma resposta.
+A memória pode personalizar pesquisas na web?
+Sim. Quando a Memória está ativada, o ChatGPT pode usar detalhes relevantes para formular uma consulta de pesquisa mais útil. Por exemplo, a localização ou as preferências alimentares podem ajudar a refinar a busca por um restaurante.
+A memória pode usar arquivos ou apps conectados?
+Dependendo do plano e da região, o ChatGPT pode usar arquivos salvos relevantes disponíveis na Biblioteca ou no ChatGPT Space e conteúdo de apps conectados quando esses recursos estiverem disponíveis e ativados.
+Desconectar um app impede o acesso futuro a ele. Isso não exclui conversas anteriores que já usaram conteúdo do app.
+Os proprietários do Ambiente de trabalho seguro podem controlar a memória?
+Proprietários e administradores do Ambiente de trabalho seguro podem gerenciar as configurações de memória compatíveis e as permissões das funções. Se uma configuração de memória não estiver disponível no seu Ambiente de trabalho seguro, entre em contato com o administrador dele.
+Este artigo foi útil?
+Enviar
+Visão geral
+Gerenciar as configurações de memória
+Revisar o que o ChatGPT lembra
+Resumo da memória
+Fontes
+Corrigir ou remover informações memorizadas
+Corrigir informações
+Pedir ao ChatGPT para não mencionar algo
+Exclua informações lembradas
+Remova das fontes as informações lembradas
+Consultar histórico de chats
+Memórias salvas
+Memória aprimorada e memórias salvas do sistema legado
+Memória aprimorada em Ambientes de trabalho seguros regulamentados
+Memória em conversas bloqueadas
+Memória em chats temporários
+Privacidade e treinamento de modelos
+Perguntas frequentes
+O resumo da memória inclui tudo o que o ChatGPT lembra?
+A memória é diferente das instruções personalizadas?
+O ChatGPT pode se lembrar do meu nome ou da identidade da minha conta?
+O ChatGPT pesquisa meu histórico para cada resposta?
+A memória pode personalizar pesquisas na web?
+A memória pode usar arquivos ou apps conectados?
+Os proprietários do Ambiente de trabalho seguro podem controlar a memória?
+ChatGPT
+API
+Status do Serviço
+Preferências de Cookies

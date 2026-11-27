@@ -1,0 +1,357 @@
+{
+ "slug": "reel-2026-11-19-1200-claude-code-79-habilidades-jogo",
+ "titulo_final": "Seu Claude Code cria um jogo inteiro: 75 skills grátis",
+ "musica": "public/phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.2)",
+ "fonte": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+ "dados_da_fonte": {
+  "skills": "75 (+3 nomes antigos = 78 pastas em .claude/skills)",
+  "agentes": 49,
+  "estrelas": "40.097 (API do GitHub, 19/11/2026)",
+  "licenca": "MIT",
+  "commit": "abc0de79d6ceb0b5d7aa693945849b3937afbe6a"
+ },
+ "acoes": [
+  {
+   "componente": "Hook",
+   "acao": "comando /prototype digitando + palavra gigante '1 frase…' + janela 'gerando jogo… %' com barra enchendo; whoosh+pop no quadro 0",
+   "palavra_gatilho": "Uma",
+   "inicio": 0.0
+  },
+  {
+   "componente": "Hook",
+   "acao": "janela pesca/index.html sobe com o mini-jogo de pesca rodando",
+   "palavra_gatilho": "jogo",
+   "inicio": 1.62
+  },
+  {
+   "componente": "Hook",
+   "acao": "flash rosa, 'já roda!' verde, selo ▶ rodando, ding, panterinha surpresa",
+   "palavra_gatilho": "roda!",
+   "inicio": 2.2
+  },
+  {
+   "componente": "Hook",
+   "acao": "contador 0→75 skills gigante + grade de 75 blocos acendendo",
+   "palavra_gatilho": "Setenta",
+   "inicio": 2.86
+  },
+  {
+   "componente": "Hook",
+   "acao": "etiqueta 'R$ 0' balançando + som de moeda",
+   "palavra_gatilho": "grátis",
+   "inicio": 4.02
+  },
+  {
+   "componente": "Hook",
+   "acao": "blocos voam para a caixa 📦",
+   "palavra_gatilho": "pacote",
+   "inicio": 4.6
+  },
+  {
+   "componente": "Hook",
+   "acao": "5 slots, o nº 4 pulsando com ❓",
+   "palavra_gatilho": "número",
+   "inicio": 5.52
+  },
+  {
+   "componente": "Hook",
+   "acao": "nº 4 treme 🤯, flash vermelho, 'absurda!'",
+   "palavra_gatilho": "absurda!",
+   "inicio": 6.57
+  },
+  {
+   "componente": "Repositório",
+   "acao": "card de repositório recriado, nome digitando, chips 75 skills / 49 agentes / MIT",
+   "palavra_gatilho": "Claude",
+   "inicio": 7.8
+  },
+  {
+   "componente": "Repositório",
+   "acao": "estrela girando, contador 0→40.097 estrelas + barra",
+   "palavra_gatilho": "mais",
+   "inicio": 9.54
+  },
+  {
+   "componente": "Repositório",
+   "acao": "tag 'no GitHub'",
+   "palavra_gatilho": "GitHub.",
+   "inicio": 11.48
+  },
+  {
+   "componente": "Estúdio",
+   "acao": "'seu estúdio' + contador 0→49 e grade de 49 avatares de agentes",
+   "palavra_gatilho": "Vira",
+   "inicio": 12.13
+  },
+  {
+   "componente": "Estúdio",
+   "acao": "card 'diretor criativo'",
+   "palavra_gatilho": "diretor",
+   "inicio": 14.45
+  },
+  {
+   "componente": "Estúdio",
+   "acao": "card 'testador ✓'",
+   "palavra_gatilho": "testador.",
+   "inicio": 15.61
+  },
+  {
+   "componente": "Terminal",
+   "acao": "terminal Claude Code, /prototype digitado com menu de comandos",
+   "palavra_gatilho": "barra",
+   "inicio": 17.07
+  },
+  {
+   "componente": "Terminal",
+   "acao": "ideia digitada + ↵",
+   "palavra_gatilho": "e",
+   "inicio": 18.08
+  },
+  {
+   "componente": "Terminal",
+   "acao": "slots 1–5 e barra de progresso, nº 4 aceso",
+   "palavra_gatilho": "Fica",
+   "inicio": 18.79
+  },
+  {
+   "componente": "Item 1",
+   "acao": "chip 1 + janela com 'Antes de construir, 3 perguntas'",
+   "palavra_gatilho": "Número",
+   "inicio": 19.8
+  },
+  {
+   "componente": "Item 1",
+   "acao": "opções de visual",
+   "palavra_gatilho": "Visual,",
+   "inicio": 21.7
+  },
+  {
+   "componente": "Item 1",
+   "acao": "opções de dificuldade, 'médio' selecionado",
+   "palavra_gatilho": "dificuldade,",
+   "inicio": 22.32
+  },
+  {
+   "componente": "Item 1",
+   "acao": "opções de objetivo",
+   "palavra_gatilho": "objetivo.",
+   "inicio": 23.17
+  },
+  {
+   "componente": "Item 1",
+   "acao": "'🤷 não sei…'",
+   "palavra_gatilho": "Não",
+   "inicio": 23.91
+  },
+  {
+   "componente": "Item 1",
+   "acao": "'você escolhe' digitado, todas as opções ficam verdes",
+   "palavra_gatilho": "Responde",
+   "inicio": 24.54
+  },
+  {
+   "componente": "Item 2",
+   "acao": "chip 2 + folha game-brief.md",
+   "palavra_gatilho": "Número",
+   "inicio": 25.97
+  },
+  {
+   "componente": "Item 2",
+   "acao": "seções escrevendo e ganhando ✓",
+   "palavra_gatilho": "resumo",
+   "inicio": 26.98
+  },
+  {
+   "componente": "Item 2",
+   "acao": "selo '1 página'",
+   "palavra_gatilho": "página.",
+   "inicio": 27.83
+  },
+  {
+   "componente": "Item 2",
+   "acao": "faixa de leitura 👀 descendo",
+   "palavra_gatilho": "Você",
+   "inicio": 28.43
+  },
+  {
+   "componente": "Item 2",
+   "acao": "botão construir ▶ → construindo… ⚙️",
+   "palavra_gatilho": "manda",
+   "inicio": 29.26
+  },
+  {
+   "componente": "Item 3",
+   "acao": "chip 3 + pasta prototypes/pesca/ com arquivos",
+   "palavra_gatilho": "Número",
+   "inicio": 29.98
+  },
+  {
+   "componente": "Item 3",
+   "acao": "'abre no navegador'",
+   "palavra_gatilho": "navegador.",
+   "inicio": 31.95
+  },
+  {
+   "componente": "Item 3",
+   "acao": "cursor + clique duplo com ondas",
+   "palavra_gatilho": "Abre",
+   "inicio": 32.75
+  },
+  {
+   "componente": "Item 3",
+   "acao": "navegador com o jogo rodando",
+   "palavra_gatilho": "duplo,",
+   "inicio": 33.52
+  },
+  {
+   "componente": "Item 3",
+   "acao": "'instalar engine' riscado",
+   "palavra_gatilho": "sem",
+   "inicio": 34.06
+  },
+  {
+   "componente": "Item 4",
+   "acao": "chip 4 + jogo; panterinha apontando; 'absurda! 🤯'",
+   "palavra_gatilho": "Número",
+   "inicio": 35.23
+  },
+  {
+   "componente": "Item 4",
+   "acao": "'sozinho!'",
+   "palavra_gatilho": "sozinho!",
+   "inicio": 37.86
+  },
+  {
+   "componente": "Item 4",
+   "acao": "teclas ← → ␣ ↑ acendendo",
+   "palavra_gatilho": "Aperta",
+   "inicio": 38.87
+  },
+  {
+   "componente": "Item 4",
+   "acao": "janela vira 'navegador invisível (headless)' tracejada",
+   "palavra_gatilho": "navegador",
+   "inicio": 39.84
+  },
+  {
+   "componente": "Item 4",
+   "acao": "lupa caçando + console",
+   "palavra_gatilho": "caça",
+   "inicio": 41.11
+  },
+  {
+   "componente": "Item 4",
+   "acao": "🐞 TypeError em vermelho",
+   "palavra_gatilho": "erro",
+   "inicio": 41.57
+  },
+  {
+   "componente": "Item 4",
+   "acao": "'⏸ travou'",
+   "palavra_gatilho": "tela",
+   "inicio": 41.81
+  },
+  {
+   "componente": "Item 4",
+   "acao": "linhas ficam verdes: corrigido",
+   "palavra_gatilho": "corrige",
+   "inicio": 42.76
+  },
+  {
+   "componente": "Item 4",
+   "acao": "cartão de entrega com ✓ e 'ainda não jogado por uma pessoa'",
+   "palavra_gatilho": "entregar.",
+   "inicio": 43.92
+  },
+  {
+   "componente": "Item 5",
+   "acao": "chip 5 + pedido 'peixe raro mais rápido' digitado",
+   "palavra_gatilho": "Número",
+   "inicio": 44.43
+  },
+  {
+   "componente": "Item 5",
+   "acao": "linha do tempo v1→v4",
+   "palavra_gatilho": "Cada",
+   "inicio": 47.1
+  },
+  {
+   "componente": "Item 5",
+   "acao": "checkpoint v2",
+   "palavra_gatilho": "ponto",
+   "inicio": 48.18
+  },
+  {
+   "componente": "Item 5",
+   "acao": "'↺ voltar pra cá'",
+   "palavra_gatilho": "volta.",
+   "inicio": 48.49
+  },
+  {
+   "componente": "Item 5",
+   "acao": "painel de ajuste",
+   "palavra_gatilho": "Pede",
+   "inicio": 49.03
+  },
+  {
+   "componente": "Item 5",
+   "acao": "4 controles deslizantes surgindo",
+   "palavra_gatilho": "Ganha",
+   "inicio": 49.93
+  },
+  {
+   "componente": "Item 5",
+   "acao": "controles se movendo, valores mudando",
+   "palavra_gatilho": "controle",
+   "inicio": 50.95
+  },
+  {
+   "componente": "Virada",
+   "acao": "'e ainda tem…' + cards Godot",
+   "palavra_gatilho": "Godot,",
+   "inicio": 52.99
+  },
+  {
+   "componente": "Virada",
+   "acao": "Unity",
+   "palavra_gatilho": "Unity",
+   "inicio": 53.57
+  },
+  {
+   "componente": "Virada",
+   "acao": "Unreal",
+   "palavra_gatilho": "Unreal.",
+   "inicio": 54.11
+  },
+  {
+   "componente": "Virada",
+   "acao": "'</> código aberto'",
+   "palavra_gatilho": "Código",
+   "inicio": 54.68
+  },
+  {
+   "componente": "Virada",
+   "acao": "carimbo MIT + R$ 0",
+   "palavra_gatilho": "licença",
+   "inicio": 55.61
+  },
+  {
+   "componente": "CTA",
+   "acao": "perfil + Seguir→Seguindo; panterinha comemorando",
+   "palavra_gatilho": "Me",
+   "inicio": 56.86
+  },
+  {
+   "componente": "CTA",
+   "acao": "comentário JOGO digitado + ding + emojis",
+   "palavra_gatilho": "comenta",
+   "inicio": 57.52
+  },
+  {
+   "componente": "CTA",
+   "acao": "'link na legenda ↓'",
+   "palavra_gatilho": "link",
+   "inicio": 58.57
+  }
+ ]
+}

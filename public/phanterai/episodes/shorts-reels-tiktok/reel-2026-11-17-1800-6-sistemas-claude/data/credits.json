@@ -1,0 +1,97 @@
+{
+ "fontes": [
+  "https://github.com/anthropics/claude-quickstarts",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/customer-support-agent",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/financial-data-analyst",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/browser-use-demo",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/autonomous-coding",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/daily-brief",
+  "https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/knowledge-wiki"
+ ],
+ "imagens": [
+  "github.com/anthropics/claude-quickstarts (README e imagens oficiais dos quickstarts)"
+ ],
+ "pexels": {
+  "c01": {
+   "query": "woman working laptop night",
+   "pexels_id": 7706626,
+   "url": "https://www.pexels.com/video/woman-working-on-a-laptop-7706626/",
+   "author": "MART  PRODUCTION",
+   "author_url": "https://www.pexels.com/@mart-production",
+   "duration": 19
+  },
+  "c01b": {
+   "query": "man typing laptop office",
+   "pexels_id": 6931111,
+   "url": "https://www.pexels.com/video/man-using-laptop-in-the-office-6931111/",
+   "author": "Mikhail Nilov",
+   "author_url": "https://www.pexels.com/@mikhail-nilov",
+   "duration": 16
+  },
+  "c02": {
+   "query": "customer service headset",
+   "pexels_id": 8865593,
+   "url": "https://www.pexels.com/video/a-close-up-video-of-hanging-headsets-8865593/",
+   "author": "Yan Krukau",
+   "author_url": "https://www.pexels.com/@yankrukov",
+   "duration": 10
+  },
+  "c04": {
+   "query": "typing on keyboard form",
+   "pexels_id": 8003418,
+   "url": "https://www.pexels.com/video/a-man-typing-on-his-keyboard-8003418/",
+   "author": "Pavel Danilyuk",
+   "author_url": "https://www.pexels.com/@pavel-danilyuk",
+   "duration": 5
+  },
+  "c05": {
+   "query": "code programming screen",
+   "pexels_id": 5377697,
+   "url": "https://www.pexels.com/video/codes-on-computer-screen-5377697/",
+   "author": "Tima Miroshnichenko",
+   "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+   "duration": 16
+  },
+  "c06": {
+   "query": "team morning coffee laptop",
+   "pexels_id": 31830901,
+   "url": "https://www.pexels.com/video/cozy-office-coffee-break-with-laptops-31830901/",
+   "author": "Helin Gezer",
+   "author_url": "https://www.pexels.com/@helin-gezer-903013644",
+   "duration": 5
+  },
+  "c07": {
+   "query": "stack of paper documents",
+   "pexels_id": 8135783,
+   "url": "https://www.pexels.com/video/organized-person-putting-her-paperworks-in-a-folder-orderly-8135783/",
+   "author": "https://kaboompics.com/",
+   "author_url": "https://www.pexels.com/@karola-g",
+   "duration": 20
+  },
+  "c05b": {
+   "query": "developer working computer",
+   "pexels_id": 12893579,
+   "url": "https://www.pexels.com/video/hands-typing-on-laptop-keyboard-12893579/",
+   "author": "Mizuno K",
+   "author_url": "https://www.pexels.com/@mizunokozuki",
+   "duration": 10
+  },
+  "c07b": {
+   "query": "business meeting consulting",
+   "pexels_id": 8141187,
+   "url": "https://www.pexels.com/video/man-and-woman-talking-8141187/",
+   "author": "Alena Darmel",
+   "author_url": "https://www.pexels.com/@a-darmel",
+   "duration": 13
+  },
+  "c02b": {
+   "query": "online shopping laptop",
+   "pexels_id": 5586006,
+   "url": "https://www.pexels.com/video/person-browsing-on-laptop-5586006/",
+   "author": "Polina Tankilevitch",
+   "author_url": "https://www.pexels.com/@polina-tankilevitch",
+   "duration": 6
+  }
+ },
+ "musica": "Coding_at_Night"
+}

@@ -1,0 +1,69 @@
+{
+  "source": "Pexels",
+  "media": {
+    "c02": {
+      "query": "futuristic neural network",
+      "pexels_id": 35163081,
+      "url": "https://www.pexels.com/video/futuristic-neural-network-visualization-35163081/",
+      "author": "Nicola Narracci",
+      "author_url": "https://www.pexels.com/@nicola-narracci-157460431",
+      "duration": 10
+    },
+    "c03": {
+      "query": "laptop booting dark",
+      "pexels_id": 19532053,
+      "url": "https://www.pexels.com/video/a-man-sitting-in-front-of-a-computer-screen-19532053/",
+      "author": "Hasan  ACI",
+      "author_url": "https://www.pexels.com/@hasan-aci-2937862",
+      "duration": 19
+    },
+    "c05": {
+      "query": "code on screen neon",
+      "pexels_id": 33315143,
+      "url": "https://www.pexels.com/video/modern-workspace-with-neon-coding-setup-33315143/",
+      "author": "Jakub Zerdzicki",
+      "author_url": "https://www.pexels.com/@jakubzerdzicki",
+      "duration": 12
+    },
+    "c06": {
+      "query": "data center servers",
+      "pexels_id": 7579943,
+      "url": "https://www.pexels.com/video/video-of-stock-exchange-7579943/",
+      "author": "Tima Miroshnichenko",
+      "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "duration": 19
+    },
+    "c07": {
+      "query": "stock market screen",
+      "pexels_id": 38431825,
+      "url": "https://www.pexels.com/video/dynamic-financial-stock-market-display-animation-38431825/",
+      "author": "Zulfugar Karimov",
+      "author_url": "https://www.pexels.com/@zulfugarkarimov",
+      "duration": 15
+    },
+    "c09": {
+      "query": "airport terminal",
+      "pexels_id": 34758169,
+      "url": "https://www.pexels.com/video/bkk-suvarnabhumi-airport-walkthrough-34758169/",
+      "author": "Emrul Kausar Emon",
+      "author_url": "https://www.pexels.com/@emrulkausar",
+      "duration": 18
+    },
+    "c13": {
+      "query": "office worker frustrated laptop",
+      "pexels_id": 12908966,
+      "url": "https://www.pexels.com/video/tired-woman-thinking-in-an-office-12908966/",
+      "author": "Mizuno K",
+      "author_url": "https://www.pexels.com/@mizunokozuki",
+      "duration": 10
+    },
+    "c14": {
+      "query": "laptop coding dark",
+      "pexels_id": 36628017,
+      "url": "https://www.pexels.com/video/coding-session-in-modern-office-36628017/",
+      "author": "Jakub Zerdzicki",
+      "author_url": "https://www.pexels.com/@jakubzerdzicki",
+      "duration": 14
+    }
+  }
+}

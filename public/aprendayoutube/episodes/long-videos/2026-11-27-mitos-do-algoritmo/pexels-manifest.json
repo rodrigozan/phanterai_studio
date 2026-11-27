@@ -1,0 +1,110 @@
+{
+  "videos": [
+    {
+      "nome": "criador-1",
+      "id": 6332247,
+      "termo": "youtuber recording video with camera at home",
+      "duracao": 7,
+      "largura": 1366,
+      "autor": "kaboompics",
+      "pagina": "https://www.pexels.com/video/man-fixing-his-ring-light-for-making-videos-6332247/"
+    },
+    {
+      "nome": "criador-2",
+      "id": 7514343,
+      "termo": "youtuber recording video with camera at home",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/a-man-using-smartphone-for-video-recording-7514343/"
+    },
+    {
+      "nome": "frustrado-1",
+      "id": 6614770,
+      "termo": "frustrated man looking at laptop late night",
+      "duracao": 28,
+      "largura": 1280,
+      "autor": "Tima Miroshnichenko",
+      "pagina": "https://www.pexels.com/video/young-man-falling-asleep-in-office-6614770/"
+    },
+    {
+      "nome": "frustrado-2",
+      "id": 19919761,
+      "termo": "frustrated man looking at laptop late night",
+      "duracao": 32,
+      "largura": 1280,
+      "autor": "K",
+      "pagina": "https://www.pexels.com/video/a-man-is-sitting-in-bed-with-his-laptop-19919761/"
+    },
+    {
+      "nome": "comemora-1",
+      "id": 6628024,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 11,
+      "largura": 1366,
+      "autor": "KoolShooters",
+      "pagina": "https://www.pexels.com/video/happy-woman-using-laptop-6628024/"
+    },
+    {
+      "nome": "comemora-2",
+      "id": 5974449,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 19,
+      "largura": 1366,
+      "autor": "KATRIN  BOLOVTSOVA",
+      "pagina": "https://www.pexels.com/video/a-mother-carrying-her-child-when-a-woman-arrived-giving-gift-and-greeting-her-5974449/"
+    },
+    {
+      "nome": "plateia-1",
+      "id": 4436059,
+      "termo": "people watching videos on smartphone",
+      "duracao": 15,
+      "largura": 1280,
+      "autor": "Edmond Dantès",
+      "pagina": "https://www.pexels.com/video/woman-showing-her-smartphone-4436059/"
+    },
+    {
+      "nome": "plateia-2",
+      "id": 8198550,
+      "termo": "people watching videos on smartphone",
+      "duracao": 20,
+      "largura": 1280,
+      "autor": "Yan Krukau",
+      "pagina": "https://www.pexels.com/video/people-dancing-while-watching-using-a-smartphone-8198550/"
+    },
+    {
+      "nome": "editando-1",
+      "id": 19162499,
+      "termo": "content creator editing video on computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Nathan J Hilton",
+      "pagina": "https://www.pexels.com/video/unboxing-the-apple-mac-studio-19162499/"
+    },
+    {
+      "nome": "editando-2",
+      "id": 33897462,
+      "termo": "content creator editing video on computer",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/video/efficient-photo-editing-workspace-setup-33897462/"
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "estudio-1",
+      "id": 4499737,
+      "termo": "home studio camera ring light",
+      "autor": "Chelsey Horne",
+      "pagina": "https://www.pexels.com/photo/a-vlogging-studio-4499737/"
+    },
+    {
+      "nome": "estudio-2",
+      "id": 7014668,
+      "termo": "home studio camera ring light",
+      "autor": "George Milton",
+      "pagina": "https://www.pexels.com/photo/photographer-shooting-party-ball-and-shiny-tinsel-placed-on-table-7014668/"
+    }
+  ]
+}

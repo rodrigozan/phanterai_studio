@@ -1,0 +1,62 @@
+{
+ "cena-topo": {
+  "ancora": "Sistema de recomendação do YouTube",
+  "hl": "O algoritmo tem dois objetivos",
+  "box": {
+   "x": 193,
+   "y": 297,
+   "w": 333,
+   "h": 30
+  }
+ },
+ "cena-publico": {
+  "ancora": "O algoritmo segue o público",
+  "hl": "Meu público gosta disso",
+  "box": {
+   "x": 691,
+   "y": 210,
+   "w": 177,
+   "h": 20
+  }
+ },
+ "cena-sinais": {
+  "ancora": "Histórico de exibição",
+  "hl": "Não tenho interesse",
+  "box": {
+   "x": 209,
+   "y": 168,
+   "w": 683,
+   "h": 44
+  }
+ },
+ "cena-qualidade": {
+  "ancora": "Qualidade é mais importante do que quantidade",
+  "hl": "não penaliza",
+  "box": {
+   "x": 359,
+   "y": 240,
+   "w": 92,
+   "h": 20
+  }
+ },
+ "cena-experimente": {
+  "ancora": "Experimente para se adaptar",
+  "hl": "um único experimento",
+  "box": {
+   "x": 526,
+   "y": 216,
+   "w": 162,
+   "h": 20
+  }
+ },
+ "cena-descobrir": {
+  "ancora": "Ajude os espectadores a descobrir mais",
+  "hl": "telas finais",
+  "box": {
+   "x": 584,
+   "y": 192,
+   "w": 78,
+   "h": 20
+  }
+ }
+}

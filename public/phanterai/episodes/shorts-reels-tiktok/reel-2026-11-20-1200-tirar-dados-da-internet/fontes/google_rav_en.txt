@@ -1,0 +1,113 @@
+URL: https://support.google.com/websearch/answer/12719076?hl=en
+STATUS: 200
+CAPTURADO: 2026-11-20T06:33:13.073Z
+
+Skip to main content
+Google Search Help
+Sign in
+Help Center
+Community
+Improve your Google Account
+Google Search
+Find and remove personal info in Google Search results
+When you use “Results about you,” you can find out if your personal info, like your home address, phone number, or email address shows up in search results.
+Important: Some of these features are currently rolling out for users who are over the age of 18 in certain markets. To request removal of a result that shows personal info for a person under the age of 18, use the detailed removal request form.
+Find your personal info in Google Search results
+Step 1: Find results about you
+Go to "Results about you" page.
+In the Google app:
+Log in to the Google app.
+To open the "Menu," click your Profile picture or Initial.
+From the "Menu," select Results about you.
+From mobile web or desktop:
+Go to Results about you.
+Select Get started or Settings.
+Enter your name and the personal info that you want to find in search results.
+Google uses this information to check for search results that show this info.
+Tip: You can also enter these types of contact info in the form:
+Nickname
+Maiden name
+Multiple personal phone numbers
+Multiple home addresses
+Multiple email addresses
+Social Security number
+Passport number
+Driver’s license number
+Set up notifications.
+If Google finds results with your personal info, you can select to receive email notifications. You can also receive notifications through the Google app.
+If you have notifications on, you’ll receive a notification to let you know if the results match your info. After that, you’ll receive a new notification when new results are found that match your personal info.
+Step 2: Review results about you
+If you have notifications on, you'll get a notification within a few hours to let you know if any search results matched your name and personal info. You can also check directly from the “Results about you” page.
+To find your results, from the "Results about you" page, go to the "To review" tab.
+When you select a result, you can learn more about it, like the website it's from, or the personal info it contains.
+Step 3: Request removal of results about you
+If you see a result that you’d rather keep private, you can request to remove it from search results.
+To request removal of a single result, select the result to expand  Request to remove.
+If you don’t want to start a removal request, you can also choose "Mark as reviewed."
+Google considers some results valuable to the public. These can include government or educational websites, online newspapers, or business websites. If a result matching your name and personal contact info is from a website like this, you won't find a "Remove result" option.
+To confirm your removal request and for status updates when your request has been reviewed, you’ll get an email. You can check the status of your requests anytime from "Results about you" under "Removal requests."
+Remove results when you use Google Search
+Step 1: Report URLs on Google Search
+On desktop or mobile, log in with your Google Account.
+You’ll get an update on the status of your requests through the email address associated with your account.
+If you want to request removal of a result for someone else, or if you don’t want to log in, you can use the detailed removal request form instead.
+On Google Search, search for your name.
+To find results that show your personal contact info, you can search for your name and your home city, or your name and your home address.
+To reach "About this result" panel, click More .
+Select Remove result  It shows my personal info and I don't want it there  Contact Info.
+Go through the reporting flow.
+Submit your request.
+After you submit your request, select I'm done.
+Tip: Make sure to enter your name and the personal contact info shown on the result page exactly as they appear on the result. For example, if the result shows:
+Your nickname: Enter your nickname in the form.
+An old home address: Enter the old home address in the form.
+More than one type of contact info: You only need to include one type of contact info in your request form. This includes your phone number and your home address.
+More than one type of contact info: You don't need to submit multiple removal requests for the same URL.
+Step 2: Check for email confirmation
+Within the next few hours, you’ll receive an email confirmation that your request was submitted.
+Step 3: Monitor the status of your requests
+In the "Results about you" page, you can check if your request is:
+In progress
+Approved
+Denied
+Undone
+After you select on a specific request, you can check details like the:
+Link to the page you flagged
+Submission day and time
+Request ID
+Contact info you flagged on the page
+Tip: There may be a delay between when a request is approved and the result is removed from search results. You can check if your info is already removed within a few hours after it was approved.
+Policy requirements for removal requests
+After you submit a request, Google will review it to make sure it meets policy requirements for removal. Requests must meet the following policy requirements:
+The contact info or government ID number displayed on the result has to be your personal info. To request to remove professional info that’s been posted with the intent to harm you, use the detailed removal request form.
+You don’t control the info yourself. This means info that you can remove from the internet yourself, like info on a social media page or a personal blog that you own.
+As Google Search seeks to provide users with useful info, it won’t remove info that’s valuable to the public. For example, Google won’t remove results for web pages that are owned by:
+Educational or government institutions
+Newspapers
+FAQ
+What does Google do with the personal info you provide for monitoring?
+What does Google do with the data you provide in your removal requests?
+What happens to URLs after they’re approved for removal?
+What happens if my request is denied?
+What type of requests does Google approve through "Results about you"?
+What other types of info can I remove from Google Search?
+What if I have a legal removal request?
+What happens if I change my mind about removing a result?
+What do I do if my personal info is behind a paywall?
+Can I submit a removal request on behalf of someone else?
+What happens if “Results about you” is misused?
+Give feedback about this article
+Was this helpful?YesNo
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Help
+Report a problem
+Request to have your personal content removed from Google Search
+Get help removing explicit or intimate personal images
+Find and remove personal info in Google Search results
+Content removal options outside of Google Search
+©2026 Google  Privacy Policy  Terms of Service
+Language
+English‎

@@ -1,0 +1,152 @@
+{
+  "videos": [
+    {
+      "nome": "gancho-dev",
+      "id": 5495781,
+      "termo": "programmer typing code laptop dark",
+      "duracao": 21,
+      "largura": 1366,
+      "autor": "Pavel Danilyuk",
+      "pagina": "https://www.pexels.com/video/a-person-working-hard-on-a-computer-laptop-5495781/"
+    },
+    {
+      "nome": "dinheiro",
+      "id": 34263260,
+      "termo": "money coins cash falling",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Just For Music And Film",
+      "pagina": "https://www.pexels.com/video/falling-euro-coins-into-glass-jar-for-savings-34263260/"
+    },
+    {
+      "nome": "codigo",
+      "id": 5473798,
+      "termo": "code on computer screen close up",
+      "duracao": 31,
+      "largura": 1366,
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/video/focused-shot-of-coding-5473798/"
+    },
+    {
+      "nome": "robo",
+      "id": 6153453,
+      "termo": "robot hand artificial intelligence",
+      "duracao": 8,
+      "largura": 1366,
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/video/a-human-hand-touching-prosthetic-arm-6153453/"
+    },
+    {
+      "nome": "ia-abstrata",
+      "id": 40055307,
+      "termo": "artificial intelligence neural network abstract",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Nicola Narracci",
+      "pagina": "https://www.pexels.com/video/abstract-neural-network-animation-40055307/"
+    },
+    {
+      "nome": "estudo",
+      "id": 31575746,
+      "termo": "student learning programming laptop",
+      "duracao": 29,
+      "largura": 1280,
+      "autor": "Allan González",
+      "pagina": "https://www.pexels.com/video/coding-workshop-hands-on-learning-31575746/"
+    },
+    {
+      "nome": "download",
+      "id": 8632783,
+      "termo": "person using laptop at desk modern",
+      "duracao": 12,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/person-drinking-coffee-while-using-a-laptop-8632783/"
+    },
+    {
+      "nome": "nuvem",
+      "id": 7140928,
+      "termo": "data center server room",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "MrColo",
+      "pagina": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+    },
+    {
+      "nome": "cadeado",
+      "id": 40607898,
+      "termo": "digital security padlock",
+      "duracao": 20,
+      "largura": 1280,
+      "autor": "Chandresh Uike",
+      "pagina": "https://www.pexels.com/video/futuristic-digital-security-concept-animation-40607898/"
+    },
+    {
+      "nome": "comemora",
+      "id": 7845416,
+      "termo": "happy man celebrating at computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "RDNE Stock project",
+      "pagina": "https://www.pexels.com/video/a-happy-man-at-work-7845416/"
+    },
+    {
+      "nome": "pensando",
+      "id": 8632778,
+      "termo": "thoughtful woman looking at laptop",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/woman-sitting-on-an-office-chair-8632778/"
+    },
+    {
+      "nome": "teclado",
+      "id": 9972272,
+      "termo": "typing on keyboard close up neon",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Stan \"Kenzo\" K",
+      "pagina": "https://www.pexels.com/video/close-up-on-flashing-keyboard-9972272/"
+    },
+    {
+      "nome": "setup",
+      "id": 5473806,
+      "termo": "developer workspace multiple monitors night",
+      "duracao": 24,
+      "largura": 1366,
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/video/a-female-coder-busy-with-her-work-5473806/"
+    },
+    {
+      "nome": "equipe",
+      "id": 4929503,
+      "termo": "friends watching laptop smiling",
+      "duracao": 12,
+      "largura": 1280,
+      "autor": "Gustavo Fring",
+      "pagina": "https://www.pexels.com/video/people-watching-on-the-laptop-4929503/"
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "foto-estudo",
+      "autor": "Mario Amé",
+      "pagina": "https://www.pexels.com/photo/4078343/"
+    },
+    {
+      "nome": "foto-dev",
+      "autor": "Daniil Komov",
+      "pagina": "https://www.pexels.com/photo/34803973/"
+    },
+    {
+      "nome": "foto-nuvem",
+      "autor": "Markus Spiske",
+      "pagina": "https://www.pexels.com/photo/1089440/"
+    },
+    {
+      "nome": "foto-seguranca",
+      "autor": "Pixabay",
+      "pagina": "https://www.pexels.com/photo/39584/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+Skip to main content
+YouTube Help
+Sign in
+Help Center
+Community
+Creator Tips
+YouTube
+Fix a problemWatch videosManage your account & settingsSupervised experiences on YouTubeYouTube PremiumCreate & grow your channelMonetize your contentPolicy, safety, & copyright
+Edit videos & video settingsVideo Chapters
+Video Chapters
+
+Video Chapters break up a video into sections, each with an individual preview. Video chapters add info and context to each portion of the video and let you easily rewatch different parts of the video. Creators can add their own video chapters for each uploaded video or rely on automatic video chapters. Chapters may appear in the transcripts. Creators can always opt out of automatic video chapters in YouTube Studio.
+
+Note: If you don’t yet have access to chapters, apply for access to Advanced features.
+To add your own video chapters:
+Sign in to YouTube Studio.
+From the left menu, select Content.
+Click the video that you'd like to edit.
+In the Description, add a list of timestamps and titles.
+Make sure that the first timestamp you list starts with 00:00.
+Your video should have at least three timestamps listed in ascending order.
+The minimum length for video chapters is 10 seconds.
+Click SAVE.
+Note: This option will override automatic video chapters.
+To use automatic video chapters:
+Sign in to YouTube Studio.
+From the left menu, select Content.
+Click the video that you'd like to edit.
+Click SHOW MORE and under Automatic Chapters select “Allow automatic chapters”. By default, this box will be checked for all new uploads. You can also allow automatic video chapters in bulk.
+Click SAVE.
+Note: Not all videos are eligible for automatic chapters, and not all eligible videos will have automatic chapters. If the channel has any active strikes, or if the content may be inappropriate to some viewers, the video chapters feature won't be available.
+To opt out of automatic video chapters for a specific video:
+Sign in to YouTube Studio.
+From the left menu, select Content.
+Click the video that you'd like to edit.
+Click SHOW MORE and under Automatic Chapters unselect “Allow automatic chapters".
+Click SAVE.
+Note: You can also opt out of automatic video chapters in bulk.
+To opt out of using automatic video chapters:
+Sign in to YouTube Studio.
+Click Settings .
+Click Upload defaults.
+Click the Advanced settings, uncheck "Allow automatic chapters (when available and eligible)".
+Click SAVE.
+Give feedback about this article
+Was this helpful?YesNo
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Edit videos & video settings
+Remove copyright-claimed content from videos
+Use music and sound effects from the Audio Library
+Mention channels in video titles & descriptions
+Video Chapters
+Invite collaborators to your video
+©2026 Google  Privacy Policy  YouTube Terms of Service
+Language
+English‎

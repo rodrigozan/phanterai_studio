@@ -1,0 +1,170 @@
+https://ai.google.dev/gemini-api/docs/imagen-prompt-guide
+Skip to main content
+info
+Welcome to the new home for Gemini API documentation in Google AI Studio.
+Dismiss
+arrow_back
+Docs
+API reference
+Get API key
+filter_list
+/
+GET STARTED
+Overview
+Get started
+API keys
+Pricing
+Coding agent setup
+API CLI
+MODELS
+Latest Gemini models
+chevron_right
+All models
+Choosing a model
+Nano Banana
+Gemini Omni Flash
+Genie 4
+chevron_right
+Lyria 3.5
+chevron_right
+Text-to-speech
+chevron_right
+Transcribe
+Live
+Live translate
+Embeddings
+Decisions
+Robotics
+chevron_right
+CORE CAPABILITIES
+Text
+Image
+chevron_right
+Video
+chevron_right
+Documents
+Speech and audio
+chevron_right
+Thinking
+chevron_right
+Structured outputs
+Function calling
+Long context
+Long decode
+AGENTS
+Overview
+Quickstart
+Antigravity agent
+Building managed agents
+Environments
+Credentials
+Hooks
+Deep Research agent
+TOOLS
+Overview
+Google Search
+Google Maps
+Code execution
+URL context
+Computer use
+File search
+Tool retrieval
+Combine tools and function calling
+LIVE API
+Overview
+Get started
+chevron_right
+Capabilities
+Thinking
+Live transcription
+Live translation
+Tool use
+Session management
+Ephemeral tokens
+Best practices
+OPTIMIZATION
+Overview
+Batch API
+Webhooks
+Flex inference
+Priority inference
+Context caching
+GUIDES
+Interactions API
+Streaming
+Background execution
+File input
+chevron_right
+OpenAI compatibility
+Media resolution
+Token counting
+Prompt engineering
+Logs
+chevron_right
+Safety
+chevron_right
+Frameworks
+chevron_right
+RESOURCES
+Release notes
+Deprecations
+Libraries
+Migration
+chevron_right
+Rate limits
+Billing info
+Project and account verification
+API troubleshooting
+API errors
+Status
+(opens in a new tab)
+arrow_outward
+Cookbook
+(opens in a new tab)
+arrow_outward
+Partner and library integrations
+Google AI Studio
+chevron_right
+Google Cloud Platform
+chevron_right
+POLICIES
+Terms of service
+Available regions
+Abuse monitoring
+Feedback information
+settings
+key
+Sign in
+Documentation
+/
+Imagen
+Generate images using Imagen
+content_copy
+check
+Copy page
+warning
+Imagen models are shut down. Use Nano Banana for image generation.
+Imagen is Google's legacy image generation model. It is now shut down and no longer available in the Gemini API.
+Migrate to Nano Banana 
+link
+Migrate to Nano Banana for image generation:
+Model name: Use gemini-2.5-flash-image (or Nano Banana 2 models such as gemini-3.1-flash-image) instead of Imagen model names.
+Method: Use client.models.generate_content instead of client.models.generate_images.
+Response handling: Nano Banana returns content parts containing image data instead of a specific image response object.
+See the Image generation guide for details and examples.
+forum
+Chat with Gemini developers on Google AI Forum
+list
+Check out our changelog
+spark
+LLM? Read llms.txt
+markdown
+View page in Markdown
+Was this helpful?
+thumb_up
+thumb_down
+Send feedback
+Terms | Privacy | Documentation policy
+ON THIS PAGE
+expand_less
+Migrate to Nano Banana

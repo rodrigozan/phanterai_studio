@@ -1,0 +1,123 @@
+{
+ "slug": "reel-2026-11-21-1200-34-estilos-de-luz",
+ "panterinha": [
+  "surpresa 0–1,9 s",
+  "apontando no item 9 (surreal)",
+  "comemorando no CTA"
+ ],
+ "musica": "phanterai/music/CuriousFocus.mp3",
+ "cenas": [
+  {
+   "trecho": "gancho",
+   "fala": "Imagem de IA chapada? O erro é a luz!",
+   "componente": "prompt + quadro gerando + carimbo",
+   "acao": "quadro 0: 'chapada?' gigante com zoom 1,15→1, barra 'gerando %' varrendo a imagem; carimbo ✗ CHAPADA bate com tremida; '+ luz ?' piscando no prompt; 'a luz!' revela dramatic light com cortina",
+   "palavra_gatilho": "chapada? / erro / luz!",
+   "inicio": 0
+  },
+  {
+   "trecho": "promessa+loop",
+   "fala": "Nove luzes, com o prompt de cada uma... e a nona é a mais estranha.",
+   "componente": "grade 3x3 de miniaturas",
+   "acao": "9 quadros entram um a um, nomes digitados; roleta percorre os quadros e trava no 9º '?' tremendo; pill 'fica até o fim'",
+   "palavra_gatilho": "Nove / prompt / nona / estranha",
+   "inicio": 3.27
+  },
+  {
+   "trecho": "fonte em 1 frase",
+   "fala": "As nove estão na ajuda oficial do Adobe Firefly, como botão.",
+   "componente": "janela 'Adobe Firefly · Efeitos › Iluminação' com 9 botões",
+   "acao": "botões entram, destaque percorre, cursor clica Dramatic light e aparece prévia '1 clique ✓'",
+   "palavra_gatilho": "nove / Firefly / botão",
+   "inicio": 8.44
+  },
+  {
+   "trecho": "guia do Google",
+   "fala": "E o guia do Google manda escrever a luz no prompt.",
+   "componente": "janela prompt Imagen",
+   "acao": "digita 'studio photo of a modern arm chair, natural lighting', resultado natural; troca para 'dramatic lighting' com resultado dramático",
+   "palavra_gatilho": "Google / escrever / luz / prompt",
+   "inicio": 12.39
+  },
+  {
+   "trecho": "item 1",
+   "fala": "Número um: backlighting. Luz por trás, contorno brilhando.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'backlighting' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 1/9 ✓",
+   "palavra_gatilho": "Número / backlighting / Luz / contorno",
+   "inicio": 15.51
+  },
+  {
+   "trecho": "item 2",
+   "fala": "Número dois: dramatic light. Sombra forte, cara de cinema.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'dramatic light' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 2/9 ✓",
+   "palavra_gatilho": "Número / dramatic light / Sombra / cara",
+   "inicio": 19.51
+  },
+  {
+   "trecho": "item 3",
+   "fala": "Número três: golden hour. Sol baixo, tudo dourado.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'golden hour' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 3/9 ✓",
+   "palavra_gatilho": "Número / golden hour / Sol / tudo",
+   "inicio": 23.65
+  },
+  {
+   "trecho": "item 4",
+   "fala": "Número quatro: harsh light. Luz dura, sombra recortada.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'harsh light' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 4/9 ✓",
+   "palavra_gatilho": "Número / harsh light / Luz / sombra",
+   "inicio": 27.37
+  },
+  {
+   "trecho": "item 5",
+   "fala": "Número cinco: long-time exposure. Rastros de luz!",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'long-time exposure' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 5/9 ✓",
+   "palavra_gatilho": "Número / long-time exposure / Rastros / luz!",
+   "inicio": 31.15
+  },
+  {
+   "trecho": "item 6",
+   "fala": "Número seis: low lighting. Pouca luz, clima de suspense.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'low lighting' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 6/9 ✓",
+   "palavra_gatilho": "Número / low lighting / Pouca / clima",
+   "inicio": 34.76
+  },
+  {
+   "trecho": "item 7",
+   "fala": "Número sete: multiexposure. Duas imagens, uma por cima da outra.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'multiexposure' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 7/9 ✓",
+   "palavra_gatilho": "Número / multiexposure / Duas / uma",
+   "inicio": 38.63
+  },
+  {
+   "trecho": "item 8",
+   "fala": "Número oito: studio light. Fundo limpo, luz controlada.",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'studio light' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 8/9 ✓",
+   "palavra_gatilho": "Número / studio light / Fundo / luz",
+   "inicio": 42.85
+  },
+  {
+   "trecho": "item 9",
+   "fala": "E a nona: surreal lighting. Cores que não existem!",
+   "componente": "chip do item + prompt + quadro antes/depois + bandeja 1..9",
+   "acao": "chip entra, termo anterior apaga, linha de varredura na cena chapada; 'surreal lighting' digitado → Gerar → barra 0-100% → cortina revela a luz; ícone/rótulo da direção da luz; reforço do efeito e bolinha 9/9 ✓",
+   "palavra_gatilho": "Número / surreal lighting / Cores / não",
+   "inicio": 46.53
+  },
+  {
+   "trecho": "CTA",
+   "fala": "Os nove prompts tão na legenda. Me segue e comenta LUZ!",
+   "componente": "grade 3x3 com ✓ + caixa de comentário + botão Seguir",
+   "acao": "miniaturas com nomes, destaque correndo; 'os 9 na legenda ↓'; Seguir→Seguindo; 'LUZ' digitado + ❤️",
+   "palavra_gatilho": "prompts / legenda / segue / comenta LUZ",
+   "inicio": 49.89
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+  "videos": [
+    {
+      "nome": "artista3d-1",
+      "id": 31916834,
+      "termo": "3d animation artist computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Pietro Henricky",
+      "pagina": "https://www.pexels.com/video/creative-digital-design-process-on-laptop-31916834/"
+    },
+    {
+      "nome": "artista3d-2",
+      "id": 16458936,
+      "termo": "3d animation artist computer",
+      "duracao": 16,
+      "largura": 1280,
+      "autor": "Pachon in Motion",
+      "pagina": "https://www.pexels.com/video/3d-background-abstract-satisfying-abstract-animation-motion-geometric-cubes-4k-seamless-looped-video-16458936/"
+    },
+    {
+      "nome": "digitando-1",
+      "id": 6279143,
+      "termo": "person typing on laptop at night",
+      "duracao": 16,
+      "largura": 1280,
+      "autor": "Artem Podrez",
+      "pagina": "https://www.pexels.com/video/a-person-typing-on-the-laptop-6279143/"
+    },
+    {
+      "nome": "criador-1",
+      "id": 35639289,
+      "termo": "content creator editing video at desk",
+      "duracao": 7,
+      "largura": 1280,
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/video/creative-workspace-with-camera-gear-and-editing-setup-35639289/"
+    },
+    {
+      "nome": "frustrado-1",
+      "id": 6290482,
+      "termo": "frustrated man at computer",
+      "duracao": 9,
+      "largura": 1280,
+      "autor": "Gustavo Fring",
+      "pagina": "https://www.pexels.com/video/man-wearing-headset-shouting-6290482/"
+    },
+    {
+      "nome": "frustrado-2",
+      "id": 7660481,
+      "termo": "frustrated man at computer",
+      "duracao": 7,
+      "largura": 1280,
+      "autor": "Alena Darmel",
+      "pagina": "https://www.pexels.com/video/a-problematic-man-7660481/"
+    },
+    {
+      "nome": "comemora-1",
+      "id": 5125950,
+      "termo": "happy man celebrating in front of computer",
+      "duracao": 13,
+      "largura": 1366,
+      "autor": "james",
+      "pagina": "https://www.pexels.com/video/man-using-a-laptop-5125950/"
+    },
+    {
+      "nome": "comemora-2",
+      "id": 7845416,
+      "termo": "happy man celebrating in front of computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "RDNE Stock project",
+      "pagina": "https://www.pexels.com/video/a-happy-man-at-work-7845416/"
+    },
+    {
+      "nome": "modelagem-1",
+      "id": 4941469,
+      "termo": "3d modeling software on monitor",
+      "duracao": 5,
+      "largura": 1280,
+      "autor": "Tima Miroshnichenko",
+      "pagina": "https://www.pexels.com/video/working-on-a-design-4941469/"
+    },
+    {
+      "nome": "modelagem-2",
+      "id": 5998863,
+      "termo": "3d modeling software on monitor",
+      "duracao": 24,
+      "largura": 1280,
+      "autor": "frank Diego",
+      "pagina": "https://www.pexels.com/video/close-up-shot-of-a-computer-monitor-5998863/"
+    },
+    {
+      "nome": "ilha",
+      "id": null,
+      "termo": "render próprio no Blender 5.3 (Cycles), não é do Pexels",
+      "duracao": 5,
+      "largura": 1280,
+      "autor": null,
+      "pagina": null,
+      "proprio": true
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "render3d-1",
+      "id": 12604727,
+      "termo": "3d render low poly landscape",
+      "autor": "Steve A Johnson",
+      "pagina": "https://www.pexels.com/photo/a-3d-rendered-art-12604727/"
+    },
+    {
+      "nome": "render3d-2",
+      "id": 26545226,
+      "termo": "3d render low poly landscape",
+      "autor": "Pachon in Motion",
+      "pagina": "https://www.pexels.com/photo/a-3d-model-of-a-virus-floating-in-a-blue-ocean-26545226/"
+    },
+    {
+      "nome": "mesa-1",
+      "id": 8353774,
+      "termo": "computer desk monitor workspace",
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/photo/photo-of-workspace-with-two-monitors-and-keyboard-on-table-8353774/"
+    },
+    {
+      "nome": "mesa-2",
+      "id": 326512,
+      "termo": "computer desk monitor workspace",
+      "autor": "Tranmautritam",
+      "pagina": "https://www.pexels.com/photo/silver-imac-turned-on-326512/"
+    },
+    {
+      "nome": "ideia-1",
+      "id": 6325938,
+      "termo": "person thinking with laptop",
+      "autor": "Vanessa Garcia",
+      "pagina": "https://www.pexels.com/photo/photo-of-man-in-deep-thoughts-6325938/"
+    },
+    {
+      "nome": "ideia-2",
+      "id": 8121886,
+      "termo": "person thinking with laptop",
+      "autor": "MART  PRODUCTION",
+      "pagina": "https://www.pexels.com/photo/a-man-sitting-at-the-table-with-laptop-8121886/"
+    }
+  ]
+}

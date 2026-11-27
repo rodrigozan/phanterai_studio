@@ -1,0 +1,8640 @@
+{
+ "slug": "2026-11-27-mitos-do-algoritmo",
+ "fps": 30,
+ "lead": 0.5,
+ "musica": "Coding_at_Night.mp3",
+ "musicaVolume": 0.17,
+ "totalFrames": 9111,
+ "scenes": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "pose": "surpresa",
+   "fala": "Para de perguntar se o algoritmo gosta de você! O próprio YouTube escreveu como ele funciona. Numa página OFICIAL! E ali caem quatro conselhos que todo canal pequeno segue. Postar todo dia? Medo de tirar folga? Medo de um vídeo flopado? Vem comigo, que hoje cai tudo!",
+   "dados": {
+    "bg": "pexels/criador-1.mp4",
+    "esc": 0.55,
+    "l1": "4 mitos caíram",
+    "l2": "palavra do próprio YouTube",
+    "pilulas": [
+     {
+      "ao": "OFICIAL",
+      "txt": "Página oficial do YouTube",
+      "cor": "ciano",
+      "em": 202
+     },
+     {
+      "ao": "Postar",
+      "txt": "Postar todo dia?",
+      "cor": "vermelho",
+      "em": 354
+     },
+     {
+      "ao": "folga",
+      "txt": "Medo de tirar folga?",
+      "cor": "violeta",
+      "em": 414
+     },
+     {
+      "ao": "flopado",
+      "txt": "Medo do vídeo flopado?",
+      "cor": "ouro",
+      "em": 455
+     }
+    ],
+    "bgDur": 7
+   },
+   "words": [
+    {
+     "w": "Para",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "de",
+     "s": 0.36,
+     "e": 0.4
+    },
+    {
+     "w": "perguntar",
+     "s": 0.48,
+     "e": 1.04
+    },
+    {
+     "w": "se",
+     "s": 1.08,
+     "e": 1.12
+    },
+    {
+     "w": "o",
+     "s": 1.2,
+     "e": 1.253
+    },
+    {
+     "w": "algoritmo",
+     "s": 1.307,
+     "e": 1.84
+    },
+    {
+     "w": "gosta",
+     "s": 1.88,
+     "e": 2.16
+    },
+    {
+     "w": "de",
+     "s": 2.24,
+     "e": 2.28
+    },
+    {
+     "w": "você!",
+     "s": 2.32,
+     "e": 3
+    },
+    {
+     "w": "O",
+     "s": 3.2,
+     "e": 3.36
+    },
+    {
+     "w": "próprio",
+     "s": 3.44,
+     "e": 3.76
+    },
+    {
+     "w": "YouTube",
+     "s": 3.84,
+     "e": 4.24
+    },
+    {
+     "w": "escreveu",
+     "s": 4.32,
+     "e": 4.72
+    },
+    {
+     "w": "como",
+     "s": 4.84,
+     "e": 4.96
+    },
+    {
+     "w": "ele",
+     "s": 5.04,
+     "e": 5.12
+    },
+    {
+     "w": "funciona.",
+     "s": 5.24,
+     "e": 5.92
+    },
+    {
+     "w": "Numa",
+     "s": 6,
+     "e": 6.16
+    },
+    {
+     "w": "página",
+     "s": 6.24,
+     "e": 6.48
+    },
+    {
+     "w": "OFICIAL!",
+     "s": 6.72,
+     "e": 7.8
+    },
+    {
+     "w": "E",
+     "s": 8,
+     "e": 8.08
+    },
+    {
+     "w": "ali",
+     "s": 8.2,
+     "e": 8.32
+    },
+    {
+     "w": "caem",
+     "s": 8.4,
+     "e": 8.72
+    },
+    {
+     "w": "quatro",
+     "s": 8.8,
+     "e": 9.04
+    },
+    {
+     "w": "conselhos",
+     "s": 9.12,
+     "e": 9.68
+    },
+    {
+     "w": "que",
+     "s": 9.8,
+     "e": 9.92
+    },
+    {
+     "w": "todo",
+     "s": 10,
+     "e": 10.16
+    },
+    {
+     "w": "canal",
+     "s": 10.24,
+     "e": 10.48
+    },
+    {
+     "w": "pequeno",
+     "s": 10.56,
+     "e": 10.96
+    },
+    {
+     "w": "segue.",
+     "s": 11.12,
+     "e": 11.68
+    },
+    {
+     "w": "Postar",
+     "s": 11.8,
+     "e": 12
+    },
+    {
+     "w": "todo",
+     "s": 12.12,
+     "e": 12.24
+    },
+    {
+     "w": "dia?",
+     "s": 12.32,
+     "e": 12.96
+    },
+    {
+     "w": "Medo",
+     "s": 13.08,
+     "e": 13.24
+    },
+    {
+     "w": "de",
+     "s": 13.28,
+     "e": 13.36
+    },
+    {
+     "w": "tirar",
+     "s": 13.4,
+     "e": 13.68
+    },
+    {
+     "w": "folga?",
+     "s": 13.8,
+     "e": 14.4
+    },
+    {
+     "w": "Medo",
+     "s": 14.52,
+     "e": 14.68
+    },
+    {
+     "w": "de",
+     "s": 14.72,
+     "e": 14.8
+    },
+    {
+     "w": "um",
+     "s": 14.84,
+     "e": 14.88
+    },
+    {
+     "w": "vídeo",
+     "s": 14.96,
+     "e": 15.12
+    },
+    {
+     "w": "flopado?",
+     "s": 15.16,
+     "e": 16.08
+    },
+    {
+     "w": "Vem",
+     "s": 16.16,
+     "e": 16.32
+    },
+    {
+     "w": "comigo,",
+     "s": 16.4,
+     "e": 16.88
+    },
+    {
+     "w": "que",
+     "s": 16.96,
+     "e": 17.04
+    },
+    {
+     "w": "hoje",
+     "s": 17.12,
+     "e": 17.44
+    },
+    {
+     "w": "cai",
+     "s": 17.6,
+     "e": 17.76
+    },
+    {
+     "w": "tudo!",
+     "s": 17.8,
+     "e": 18.48
+    }
+   ],
+   "startFrame": 15,
+   "endFrame": 578
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "Hoje é Mito versus Realidade. Sabe aquela cena? Você edita dois dias, posta, e o vídeo trava em cinquenta views. Aí alguém fala: é o algoritmo! Ele odeia canal pequeno! Parece vilão de desenho, rindo no escuro... Mas eu fui direto na Central de Ajuda do YouTube. Na página Sistema de recomendação do YouTube.",
+   "dados": {
+    "bg": "pexels/frustrado-1.mp4",
+    "titulo": "Mito vs. Realidade",
+    "cols": 1,
+    "w": 1250,
+    "itens": [
+     {
+      "ao": "cinquenta",
+      "t": "Dois dias editando, 50 views",
+      "sub": "a dor de todo canal pequeno",
+      "icone": "✕",
+      "cor": "vermelho",
+      "em": 220
+     },
+     {
+      "ao": "odeia",
+      "t": "MITO: o algoritmo odeia canal pequeno",
+      "sub": "o vilão rindo no escuro",
+      "icone": "?",
+      "cor": "violeta",
+      "em": 331
+     },
+     {
+      "ao": "Central",
+      "t": "A fonte: Central de Ajuda do YouTube",
+      "sub": "Sistema de recomendação do YouTube",
+      "icone": "✓",
+      "cor": "verde",
+      "em": 516
+     }
+    ],
+    "bgDur": 28
+   },
+   "words": [
+    {
+     "w": "Hoje",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "é",
+     "s": 0.56,
+     "e": 0.64
+    },
+    {
+     "w": "Mito",
+     "s": 0.8,
+     "e": 1.2
+    },
+    {
+     "w": "versus",
+     "s": 1.28,
+     "e": 1.6
+    },
+    {
+     "w": "Realidade.",
+     "s": 1.68,
+     "e": 2.6
+    },
+    {
+     "w": "Sabe",
+     "s": 2.8,
+     "e": 2.96
+    },
+    {
+     "w": "aquela",
+     "s": 3.04,
+     "e": 3.28
+    },
+    {
+     "w": "cena?",
+     "s": 3.32,
+     "e": 3.68
+    },
+    {
+     "w": "Você",
+     "s": 4,
+     "e": 4.24
+    },
+    {
+     "w": "edita",
+     "s": 4.36,
+     "e": 4.56
+    },
+    {
+     "w": "dois",
+     "s": 4.72,
+     "e": 4.96
+    },
+    {
+     "w": "dias,",
+     "s": 5.04,
+     "e": 5.68
+    },
+    {
+     "w": "posta,",
+     "s": 5.92,
+     "e": 6.32
+    },
+    {
+     "w": "e",
+     "s": 6.36,
+     "e": 6.4
+    },
+    {
+     "w": "o",
+     "s": 6.44,
+     "e": 6.48
+    },
+    {
+     "w": "vídeo",
+     "s": 6.56,
+     "e": 6.8
+    },
+    {
+     "w": "trava",
+     "s": 6.84,
+     "e": 7.04
+    },
+    {
+     "w": "em",
+     "s": 7.12,
+     "e": 7.2
+    },
+    {
+     "w": "cinquenta",
+     "s": 7.32,
+     "e": 7.76
+    },
+    {
+     "w": "views.",
+     "s": 7.84,
+     "e": 8.32
+    },
+    {
+     "w": "Aí",
+     "s": 8.64,
+     "e": 8.8
+    },
+    {
+     "w": "alguém",
+     "s": 8.84,
+     "e": 9.04
+    },
+    {
+     "w": "fala:",
+     "s": 9.12,
+     "e": 9.44
+    },
+    {
+     "w": "é",
+     "s": 9.68,
+     "e": 9.72
+    },
+    {
+     "w": "o",
+     "s": 9.76,
+     "e": 9.8
+    },
+    {
+     "w": "algoritmo!",
+     "s": 9.84,
+     "e": 10.72
+    },
+    {
+     "w": "Ele",
+     "s": 10.88,
+     "e": 10.96
+    },
+    {
+     "w": "odeia",
+     "s": 11.04,
+     "e": 11.52
+    },
+    {
+     "w": "canal",
+     "s": 11.6,
+     "e": 11.76
+    },
+    {
+     "w": "pequeno!",
+     "s": 11.84,
+     "e": 12.4
+    },
+    {
+     "w": "Parece",
+     "s": 12.72,
+     "e": 13.12
+    },
+    {
+     "w": "vilão",
+     "s": 13.24,
+     "e": 13.44
+    },
+    {
+     "w": "de",
+     "s": 13.52,
+     "e": 13.6
+    },
+    {
+     "w": "desenho,",
+     "s": 13.76,
+     "e": 14.24
+    },
+    {
+     "w": "rindo",
+     "s": 14.28,
+     "e": 14.56
+    },
+    {
+     "w": "no",
+     "s": 14.6,
+     "e": 14.64
+    },
+    {
+     "w": "escuro...",
+     "s": 14.76,
+     "e": 15.84
+    },
+    {
+     "w": "Mas",
+     "s": 16,
+     "e": 16.16
+    },
+    {
+     "w": "eu",
+     "s": 16.24,
+     "e": 16.32
+    },
+    {
+     "w": "fui",
+     "s": 16.373,
+     "e": 16.48
+    },
+    {
+     "w": "direto",
+     "s": 16.64,
+     "e": 16.88
+    },
+    {
+     "w": "na",
+     "s": 16.96,
+     "e": 17.04
+    },
+    {
+     "w": "Central",
+     "s": 17.2,
+     "e": 17.36
+    },
+    {
+     "w": "de",
+     "s": 17.44,
+     "e": 17.48
+    },
+    {
+     "w": "Ajuda",
+     "s": 17.52,
+     "e": 17.76
+    },
+    {
+     "w": "do",
+     "s": 17.84,
+     "e": 17.92
+    },
+    {
+     "w": "YouTube.",
+     "s": 18.12,
+     "e": 18.4
+    },
+    {
+     "w": "Na",
+     "s": 18.72,
+     "e": 18.8
+    },
+    {
+     "w": "página",
+     "s": 18.88,
+     "e": 19.28
+    },
+    {
+     "w": "Sistema",
+     "s": 19.44,
+     "e": 20
+    },
+    {
+     "w": "de",
+     "s": 20.08,
+     "e": 20.12
+    },
+    {
+     "w": "recomendação",
+     "s": 20.16,
+     "e": 20.8
+    },
+    {
+     "w": "do",
+     "s": 20.88,
+     "e": 20.96
+    },
+    {
+     "w": "YouTube.",
+     "s": 21.2,
+     "e": 21.68
+    }
+   ],
+   "startFrame": 578,
+   "endFrame": 1236
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Tá aqui. Logo no começo, o YouTube diz que o algoritmo tem dois objetivos. Um: ajudar cada pessoa a achar os vídeos que ela quer assistir. Dois: a satisfação de longo prazo de quem assiste. Repara: não tem nada sobre o tamanho do seu canal.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Ajuda do YouTube (oficial)",
+    "digitar": {
+     "ao": "Tá",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Tá",
+      "arq": "cena-topo.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "objetivos",
+     "x": 186,
+     "y": 286,
+     "w": 600,
+     "h": 112,
+     "em": 125
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 200
+    }
+   },
+   "words": [
+    {
+     "w": "Tá",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "aqui.",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "Logo",
+     "s": 0.88,
+     "e": 1.12
+    },
+    {
+     "w": "no",
+     "s": 1.16,
+     "e": 1.2
+    },
+    {
+     "w": "começo,",
+     "s": 1.28,
+     "e": 2
+    },
+    {
+     "w": "o",
+     "s": 2.04,
+     "e": 2.08
+    },
+    {
+     "w": "YouTube",
+     "s": 2.28,
+     "e": 2.48
+    },
+    {
+     "w": "diz",
+     "s": 2.56,
+     "e": 2.8
+    },
+    {
+     "w": "que",
+     "s": 2.84,
+     "e": 2.88
+    },
+    {
+     "w": "o",
+     "s": 2.92,
+     "e": 2.96
+    },
+    {
+     "w": "algoritmo",
+     "s": 3.04,
+     "e": 3.6
+    },
+    {
+     "w": "tem",
+     "s": 3.68,
+     "e": 3.92
+    },
+    {
+     "w": "dois",
+     "s": 4,
+     "e": 4.12
+    },
+    {
+     "w": "objetivos.",
+     "s": 4.16,
+     "e": 5.04
+    },
+    {
+     "w": "Um:",
+     "s": 5.44,
+     "e": 6.08
+    },
+    {
+     "w": "ajudar",
+     "s": 6.16,
+     "e": 6.48
+    },
+    {
+     "w": "cada",
+     "s": 6.64,
+     "e": 6.88
+    },
+    {
+     "w": "pessoa",
+     "s": 6.96,
+     "e": 7.52
+    },
+    {
+     "w": "a",
+     "s": 7.6,
+     "e": 7.68
+    },
+    {
+     "w": "achar",
+     "s": 7.8,
+     "e": 8
+    },
+    {
+     "w": "os",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "vídeos",
+     "s": 8.24,
+     "e": 8.48
+    },
+    {
+     "w": "que",
+     "s": 8.56,
+     "e": 8.6
+    },
+    {
+     "w": "ela",
+     "s": 8.64,
+     "e": 8.72
+    },
+    {
+     "w": "quer",
+     "s": 8.8,
+     "e": 8.96
+    },
+    {
+     "w": "assistir.",
+     "s": 9.04,
+     "e": 9.6
+    },
+    {
+     "w": "Dois:",
+     "s": 10.16,
+     "e": 10.88
+    },
+    {
+     "w": "a",
+     "s": 10.92,
+     "e": 10.96
+    },
+    {
+     "w": "satisfação",
+     "s": 11.04,
+     "e": 11.68
+    },
+    {
+     "w": "de",
+     "s": 11.76,
+     "e": 11.84
+    },
+    {
+     "w": "longo",
+     "s": 11.92,
+     "e": 12.24
+    },
+    {
+     "w": "prazo",
+     "s": 12.32,
+     "e": 12.64
+    },
+    {
+     "w": "de",
+     "s": 12.68,
+     "e": 12.72
+    },
+    {
+     "w": "quem",
+     "s": 12.8,
+     "e": 12.88
+    },
+    {
+     "w": "assiste.",
+     "s": 12.96,
+     "e": 13.52
+    },
+    {
+     "w": "Repara:",
+     "s": 14,
+     "e": 14.8
+    },
+    {
+     "w": "não",
+     "s": 14.84,
+     "e": 14.96
+    },
+    {
+     "w": "tem",
+     "s": 15.04,
+     "e": 15.28
+    },
+    {
+     "w": "nada",
+     "s": 15.36,
+     "e": 15.68
+    },
+    {
+     "w": "sobre",
+     "s": 15.76,
+     "e": 15.92
+    },
+    {
+     "w": "o",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "tamanho",
+     "s": 16.08,
+     "e": 16.48
+    },
+    {
+     "w": "do",
+     "s": 16.52,
+     "e": 16.56
+    },
+    {
+     "w": "seu",
+     "s": 16.6,
+     "e": 16.72
+    },
+    {
+     "w": "canal.",
+     "s": 16.8,
+     "e": 17.44
+    }
+   ],
+   "startFrame": 1236,
+   "endFrame": 1767
+  },
+  {
+   "id": "C04",
+   "tipo": "cta",
+   "pose": "feliz",
+   "fala": "Rapidinho: se você também tem canal pequeno, deixa o like e se inscreve no Aprenda YouTube. Aqui é o laboratório de canal pequeno. Sem pose de guru!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "sub2": "laboratório de canal pequeno",
+    "like": {
+     "ao": "like",
+     "em": 96
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 116
+    },
+    "bgDur": 11
+   },
+   "words": [
+    {
+     "w": "Rapidinho:",
+     "s": 0,
+     "e": 0.88
+    },
+    {
+     "w": "se",
+     "s": 0.92,
+     "e": 0.96
+    },
+    {
+     "w": "você",
+     "s": 1.04,
+     "e": 1.28
+    },
+    {
+     "w": "também",
+     "s": 1.387,
+     "e": 1.68
+    },
+    {
+     "w": "tem",
+     "s": 1.76,
+     "e": 1.84
+    },
+    {
+     "w": "canal",
+     "s": 1.92,
+     "e": 2.08
+    },
+    {
+     "w": "pequeno,",
+     "s": 2.16,
+     "e": 2.8
+    },
+    {
+     "w": "deixa",
+     "s": 2.88,
+     "e": 3.04
+    },
+    {
+     "w": "o",
+     "s": 3.08,
+     "e": 3.12
+    },
+    {
+     "w": "like",
+     "s": 3.2,
+     "e": 3.52
+    },
+    {
+     "w": "e",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "se",
+     "s": 3.72,
+     "e": 3.76
+    },
+    {
+     "w": "inscreve",
+     "s": 3.88,
+     "e": 4.24
+    },
+    {
+     "w": "no",
+     "s": 4.28,
+     "e": 4.32
+    },
+    {
+     "w": "Aprenda",
+     "s": 4.4,
+     "e": 4.72
+    },
+    {
+     "w": "YouTube.",
+     "s": 4.96,
+     "e": 5.52
+    },
+    {
+     "w": "Aqui",
+     "s": 5.64,
+     "e": 6
+    },
+    {
+     "w": "é",
+     "s": 6.08,
+     "e": 6.16
+    },
+    {
+     "w": "o",
+     "s": 6.187,
+     "e": 6.213
+    },
+    {
+     "w": "laboratório",
+     "s": 6.24,
+     "e": 6.96
+    },
+    {
+     "w": "de",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "canal",
+     "s": 7.2,
+     "e": 7.36
+    },
+    {
+     "w": "pequeno.",
+     "s": 7.44,
+     "e": 8.16
+    },
+    {
+     "w": "Sem",
+     "s": 8.28,
+     "e": 8.4
+    },
+    {
+     "w": "pose",
+     "s": 8.48,
+     "e": 8.72
+    },
+    {
+     "w": "de",
+     "s": 8.76,
+     "e": 8.8
+    },
+    {
+     "w": "guru!",
+     "s": 8.88,
+     "e": 9.52
+    }
+   ],
+   "startFrame": 1767,
+   "endFrame": 2061
+  },
+  {
+   "id": "C05",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "MITO número um: o algoritmo odeia o meu canal. A realidade? Tá escrito com todas as letras: o algoritmo segue o público. Em vez de perguntar se o algoritmo gosta do seu conteúdo, a pergunta certa é: meu público gosta disso?",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 1: o algoritmo odeia meu canal",
+    "digitar": {
+     "ao": "MITO",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-publico.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "segue",
+     "x": 186,
+     "y": 52,
+     "w": 720,
+     "h": 186,
+     "em": 240
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 20
+    }
+   },
+   "words": [
+    {
+     "w": "MITO",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "número",
+     "s": 0.44,
+     "e": 0.72
+    },
+    {
+     "w": "um:",
+     "s": 0.8,
+     "e": 1.36
+    },
+    {
+     "w": "o",
+     "s": 1.44,
+     "e": 1.48
+    },
+    {
+     "w": "algoritmo",
+     "s": 1.52,
+     "e": 2.24
+    },
+    {
+     "w": "odeia",
+     "s": 2.48,
+     "e": 2.8
+    },
+    {
+     "w": "o",
+     "s": 2.88,
+     "e": 2.907
+    },
+    {
+     "w": "meu",
+     "s": 2.933,
+     "e": 3.04
+    },
+    {
+     "w": "canal.",
+     "s": 3.12,
+     "e": 3.52
+    },
+    {
+     "w": "A",
+     "s": 3.92,
+     "e": 3.96
+    },
+    {
+     "w": "realidade?",
+     "s": 4,
+     "e": 4.84
+    },
+    {
+     "w": "Tá",
+     "s": 5.04,
+     "e": 5.2
+    },
+    {
+     "w": "escrito",
+     "s": 5.28,
+     "e": 5.6
+    },
+    {
+     "w": "com",
+     "s": 5.72,
+     "e": 5.84
+    },
+    {
+     "w": "todas",
+     "s": 5.92,
+     "e": 6.16
+    },
+    {
+     "w": "as",
+     "s": 6.24,
+     "e": 6.32
+    },
+    {
+     "w": "letras:",
+     "s": 6.4,
+     "e": 7.12
+    },
+    {
+     "w": "o",
+     "s": 7.16,
+     "e": 7.2
+    },
+    {
+     "w": "algoritmo",
+     "s": 7.28,
+     "e": 7.92
+    },
+    {
+     "w": "segue",
+     "s": 8,
+     "e": 8.32
+    },
+    {
+     "w": "o",
+     "s": 8.4,
+     "e": 8.48
+    },
+    {
+     "w": "público.",
+     "s": 8.52,
+     "e": 9.44
+    },
+    {
+     "w": "Em",
+     "s": 9.48,
+     "e": 9.52
+    },
+    {
+     "w": "vez",
+     "s": 9.6,
+     "e": 9.68
+    },
+    {
+     "w": "de",
+     "s": 9.76,
+     "e": 9.84
+    },
+    {
+     "w": "perguntar",
+     "s": 9.92,
+     "e": 10.32
+    },
+    {
+     "w": "se",
+     "s": 10.36,
+     "e": 10.4
+    },
+    {
+     "w": "o",
+     "s": 10.44,
+     "e": 10.48
+    },
+    {
+     "w": "algoritmo",
+     "s": 10.52,
+     "e": 11.12
+    },
+    {
+     "w": "gosta",
+     "s": 11.253,
+     "e": 11.52
+    },
+    {
+     "w": "do",
+     "s": 11.56,
+     "e": 11.6
+    },
+    {
+     "w": "seu",
+     "s": 11.64,
+     "e": 11.76
+    },
+    {
+     "w": "conteúdo,",
+     "s": 11.84,
+     "e": 12.56
+    },
+    {
+     "w": "a",
+     "s": 12.6,
+     "e": 12.64
+    },
+    {
+     "w": "pergunta",
+     "s": 12.72,
+     "e": 13.04
+    },
+    {
+     "w": "certa",
+     "s": 13.2,
+     "e": 13.6
+    },
+    {
+     "w": "é:",
+     "s": 13.68,
+     "e": 14.16
+    },
+    {
+     "w": "meu",
+     "s": 14.2,
+     "e": 14.4
+    },
+    {
+     "w": "público",
+     "s": 14.44,
+     "e": 14.88
+    },
+    {
+     "w": "gosta",
+     "s": 14.92,
+     "e": 15.2
+    },
+    {
+     "w": "disso?",
+     "s": 15.28,
+     "e": 15.92
+    }
+   ],
+   "startFrame": 2061,
+   "endFrame": 2547
+  },
+  {
+   "id": "C17",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E tem mais! A página compara o algoritmo com você indicando um filme pra um amigo. Um boca a boca automático, em escala gigante! Quem assistiu o vídeo A também assistiu o B. Então a pergunta não é quantos inscritos eu tenho. É: quem gostou daquele vídeo vai gostar do meu?",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Boca a boca automático",
+    "digitar": {
+     "ao": "E",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "cena-publico.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "filme",
+     "x": 186,
+     "y": 545,
+     "w": 730,
+     "h": 250,
+     "em": 113
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 440
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.04
+    },
+    {
+     "w": "tem",
+     "s": 0.08,
+     "e": 0.267
+    },
+    {
+     "w": "mais!",
+     "s": 0.32,
+     "e": 0.72
+    },
+    {
+     "w": "A",
+     "s": 0.88,
+     "e": 1.04
+    },
+    {
+     "w": "página",
+     "s": 1.12,
+     "e": 1.52
+    },
+    {
+     "w": "compara",
+     "s": 1.6,
+     "e": 1.92
+    },
+    {
+     "w": "o",
+     "s": 1.96,
+     "e": 2
+    },
+    {
+     "w": "algoritmo",
+     "s": 2.04,
+     "e": 2.64
+    },
+    {
+     "w": "com",
+     "s": 2.68,
+     "e": 2.72
+    },
+    {
+     "w": "você",
+     "s": 2.8,
+     "e": 3.04
+    },
+    {
+     "w": "indicando",
+     "s": 3.2,
+     "e": 3.52
+    },
+    {
+     "w": "um",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "filme",
+     "s": 3.76,
+     "e": 4
+    },
+    {
+     "w": "pra",
+     "s": 4.08,
+     "e": 4.16
+    },
+    {
+     "w": "um",
+     "s": 4.2,
+     "e": 4.24
+    },
+    {
+     "w": "amigo.",
+     "s": 4.36,
+     "e": 4.88
+    },
+    {
+     "w": "Um",
+     "s": 5.04,
+     "e": 5.12
+    },
+    {
+     "w": "boca",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "a",
+     "s": 5.48,
+     "e": 5.52
+    },
+    {
+     "w": "boca",
+     "s": 5.6,
+     "e": 5.76
+    },
+    {
+     "w": "automático,",
+     "s": 5.96,
+     "e": 6.72
+    },
+    {
+     "w": "em",
+     "s": 6.8,
+     "e": 6.88
+    },
+    {
+     "w": "escala",
+     "s": 7,
+     "e": 7.28
+    },
+    {
+     "w": "gigante!",
+     "s": 7.44,
+     "e": 8.16
+    },
+    {
+     "w": "Quem",
+     "s": 8.56,
+     "e": 8.64
+    },
+    {
+     "w": "assistiu",
+     "s": 8.72,
+     "e": 9.04
+    },
+    {
+     "w": "o",
+     "s": 9.08,
+     "e": 9.12
+    },
+    {
+     "w": "vídeo",
+     "s": 9.2,
+     "e": 9.52
+    },
+    {
+     "w": "A",
+     "s": 9.6,
+     "e": 9.76
+    },
+    {
+     "w": "também",
+     "s": 9.92,
+     "e": 10.32
+    },
+    {
+     "w": "assistiu",
+     "s": 10.48,
+     "e": 10.72
+    },
+    {
+     "w": "o",
+     "s": 10.747,
+     "e": 10.773
+    },
+    {
+     "w": "B.",
+     "s": 10.8,
+     "e": 11.28
+    },
+    {
+     "w": "Então",
+     "s": 11.52,
+     "e": 11.76
+    },
+    {
+     "w": "a",
+     "s": 11.8,
+     "e": 11.84
+    },
+    {
+     "w": "pergunta",
+     "s": 11.92,
+     "e": 12.32
+    },
+    {
+     "w": "não",
+     "s": 12.4,
+     "e": 12.48
+    },
+    {
+     "w": "é",
+     "s": 12.56,
+     "e": 12.72
+    },
+    {
+     "w": "quantos",
+     "s": 12.84,
+     "e": 13.12
+    },
+    {
+     "w": "inscritos",
+     "s": 13.2,
+     "e": 13.6
+    },
+    {
+     "w": "eu",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "tenho.",
+     "s": 13.84,
+     "e": 14.4
+    },
+    {
+     "w": "É:",
+     "s": 14.56,
+     "e": 14.88
+    },
+    {
+     "w": "quem",
+     "s": 15.04,
+     "e": 15.12
+    },
+    {
+     "w": "gostou",
+     "s": 15.2,
+     "e": 15.52
+    },
+    {
+     "w": "daquele",
+     "s": 15.64,
+     "e": 16
+    },
+    {
+     "w": "vídeo",
+     "s": 16.08,
+     "e": 16.48
+    },
+    {
+     "w": "vai",
+     "s": 16.64,
+     "e": 16.72
+    },
+    {
+     "w": "gostar",
+     "s": 16.8,
+     "e": 17.04
+    },
+    {
+     "w": "do",
+     "s": 17.08,
+     "e": 17.12
+    },
+    {
+     "w": "meu?",
+     "s": 17.2,
+     "e": 17.68
+    }
+   ],
+   "startFrame": 2547,
+   "endFrame": 3085
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "E eu vi isso no meu canal! Nos últimos vinte e oito dias, duas mil e trezentas pessoas assistiram. E noventa e oito vírgula dois por cento eram espectadores novos. Gente que nunca tinha me visto! Eu ganhei vinte e seis inscritos. Eu sei... esse número pode não ser grande coisa pra você. Mas foi duzentos e vinte e cinco por cento a mais que nos vinte e oito dias anteriores. Tem noção disso? O algoritmo levou um canal pequeno pra gente nova. Cadê o vilão?",
+   "dados": {
+    "bg": "pexels/plateia-1.mp4",
+    "titulo": "Meu canal, sem maquiagem",
+    "cols": 1,
+    "w": 1200,
+    "itens": [
+     {
+      "ao": "duas",
+      "t": "2,3 mil pessoas em 28 dias",
+      "sub": "audiência mensal no YouTube Studio",
+      "icone": "+",
+      "cor": "ciano",
+      "em": 119
+     },
+     {
+      "ao": "noventa",
+      "t": "98,2% espectadores novos",
+      "sub": "gente que nunca tinha me visto",
+      "icone": "★",
+      "cor": "violeta",
+      "em": 208
+     },
+     {
+      "ao": "duzentos",
+      "t": "+26 inscritos (+225%)",
+      "sub": "sobre os 28 dias anteriores",
+      "icone": "↑",
+      "cor": "ouro",
+      "em": 571
+     }
+    ],
+    "pilula": {
+     "ao": "vilão",
+     "txt": "Cadê o vilão?",
+     "cor": "verde",
+     "em": 859
+    },
+    "bgDur": 15
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "eu",
+     "s": 0.16,
+     "e": 0.28
+    },
+    {
+     "w": "vi",
+     "s": 0.32,
+     "e": 0.5
+    },
+    {
+     "w": "isso",
+     "s": 0.56,
+     "e": 0.76
+    },
+    {
+     "w": "no",
+     "s": 0.8,
+     "e": 0.86
+    },
+    {
+     "w": "meu",
+     "s": 0.88,
+     "e": 1.04
+    },
+    {
+     "w": "canal!",
+     "s": 1.12,
+     "e": 1.76
+    },
+    {
+     "w": "Nos",
+     "s": 2.16,
+     "e": 2.32
+    },
+    {
+     "w": "últimos",
+     "s": 2.36,
+     "e": 2.72
+    },
+    {
+     "w": "vinte",
+     "s": 2.8,
+     "e": 2.96
+    },
+    {
+     "w": "e",
+     "s": 3,
+     "e": 3.04
+    },
+    {
+     "w": "oito",
+     "s": 3.08,
+     "e": 3.2
+    },
+    {
+     "w": "dias,",
+     "s": 3.36,
+     "e": 3.92
+    },
+    {
+     "w": "duas",
+     "s": 3.96,
+     "e": 4.16
+    },
+    {
+     "w": "mil",
+     "s": 4.4,
+     "e": 4.48
+    },
+    {
+     "w": "e",
+     "s": 4.56,
+     "e": 4.64
+    },
+    {
+     "w": "trezentas",
+     "s": 4.72,
+     "e": 5.28
+    },
+    {
+     "w": "pessoas",
+     "s": 5.32,
+     "e": 5.68
+    },
+    {
+     "w": "assistiram.",
+     "s": 5.76,
+     "e": 6.4
+    },
+    {
+     "w": "E",
+     "s": 6.72,
+     "e": 6.8
+    },
+    {
+     "w": "noventa",
+     "s": 6.92,
+     "e": 7.28
+    },
+    {
+     "w": "e",
+     "s": 7.36,
+     "e": 7.4
+    },
+    {
+     "w": "oito",
+     "s": 7.44,
+     "e": 7.6
+    },
+    {
+     "w": "vírgula",
+     "s": 7.68,
+     "e": 7.92
+    },
+    {
+     "w": "dois",
+     "s": 8.08,
+     "e": 8.24
+    },
+    {
+     "w": "por",
+     "s": 8.32,
+     "e": 8.48
+    },
+    {
+     "w": "cento",
+     "s": 8.6,
+     "e": 8.8
+    },
+    {
+     "w": "eram",
+     "s": 8.96,
+     "e": 9.12
+    },
+    {
+     "w": "espectadores",
+     "s": 9.2,
+     "e": 9.84
+    },
+    {
+     "w": "novos.",
+     "s": 9.92,
+     "e": 10.56
+    },
+    {
+     "w": "Gente",
+     "s": 10.72,
+     "e": 10.96
+    },
+    {
+     "w": "que",
+     "s": 11.04,
+     "e": 11.12
+    },
+    {
+     "w": "nunca",
+     "s": 11.2,
+     "e": 11.44
+    },
+    {
+     "w": "tinha",
+     "s": 11.52,
+     "e": 11.68
+    },
+    {
+     "w": "me",
+     "s": 11.76,
+     "e": 11.84
+    },
+    {
+     "w": "visto!",
+     "s": 11.88,
+     "e": 12.32
+    },
+    {
+     "w": "Eu",
+     "s": 12.64,
+     "e": 12.72
+    },
+    {
+     "w": "ganhei",
+     "s": 12.8,
+     "e": 13.12
+    },
+    {
+     "w": "vinte",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "e",
+     "s": 13.52,
+     "e": 13.6
+    },
+    {
+     "w": "seis",
+     "s": 13.68,
+     "e": 13.84
+    },
+    {
+     "w": "inscritos.",
+     "s": 13.92,
+     "e": 14.72
+    },
+    {
+     "w": "Eu",
+     "s": 15.12,
+     "e": 15.28
+    },
+    {
+     "w": "sei...",
+     "s": 15.36,
+     "e": 16.08
+    },
+    {
+     "w": "esse",
+     "s": 16.16,
+     "e": 16.24
+    },
+    {
+     "w": "número",
+     "s": 16.32,
+     "e": 16.56
+    },
+    {
+     "w": "pode",
+     "s": 16.6,
+     "e": 16.8
+    },
+    {
+     "w": "não",
+     "s": 16.827,
+     "e": 16.88
+    },
+    {
+     "w": "ser",
+     "s": 16.96,
+     "e": 17.12
+    },
+    {
+     "w": "grande",
+     "s": 17.16,
+     "e": 17.36
+    },
+    {
+     "w": "coisa",
+     "s": 17.44,
+     "e": 17.68
+    },
+    {
+     "w": "pra",
+     "s": 17.76,
+     "e": 17.84
+    },
+    {
+     "w": "você.",
+     "s": 17.88,
+     "e": 18.32
+    },
+    {
+     "w": "Mas",
+     "s": 18.72,
+     "e": 18.8
+    },
+    {
+     "w": "foi",
+     "s": 18.88,
+     "e": 19
+    },
+    {
+     "w": "duzentos",
+     "s": 19.04,
+     "e": 19.6
+    },
+    {
+     "w": "e",
+     "s": 19.68,
+     "e": 19.76
+    },
+    {
+     "w": "vinte",
+     "s": 19.84,
+     "e": 20
+    },
+    {
+     "w": "e",
+     "s": 20.08,
+     "e": 20.16
+    },
+    {
+     "w": "cinco",
+     "s": 20.2,
+     "e": 20.32
+    },
+    {
+     "w": "por",
+     "s": 20.4,
+     "e": 20.56
+    },
+    {
+     "w": "cento",
+     "s": 20.64,
+     "e": 20.76
+    },
+    {
+     "w": "a",
+     "s": 20.8,
+     "e": 20.88
+    },
+    {
+     "w": "mais",
+     "s": 21.04,
+     "e": 21.36
+    },
+    {
+     "w": "que",
+     "s": 21.4,
+     "e": 21.44
+    },
+    {
+     "w": "nos",
+     "s": 21.52,
+     "e": 21.68
+    },
+    {
+     "w": "vinte",
+     "s": 21.76,
+     "e": 21.92
+    },
+    {
+     "w": "e",
+     "s": 22,
+     "e": 22.04
+    },
+    {
+     "w": "oito",
+     "s": 22.08,
+     "e": 22.16
+    },
+    {
+     "w": "dias",
+     "s": 22.32,
+     "e": 22.48
+    },
+    {
+     "w": "anteriores.",
+     "s": 22.6,
+     "e": 23.2
+    },
+    {
+     "w": "Tem",
+     "s": 23.52,
+     "e": 23.6
+    },
+    {
+     "w": "noção",
+     "s": 23.72,
+     "e": 24
+    },
+    {
+     "w": "disso?",
+     "s": 24.08,
+     "e": 24.64
+    },
+    {
+     "w": "O",
+     "s": 24.88,
+     "e": 24.96
+    },
+    {
+     "w": "algoritmo",
+     "s": 25,
+     "e": 25.44
+    },
+    {
+     "w": "levou",
+     "s": 25.52,
+     "e": 25.68
+    },
+    {
+     "w": "um",
+     "s": 25.72,
+     "e": 25.76
+    },
+    {
+     "w": "canal",
+     "s": 25.84,
+     "e": 26
+    },
+    {
+     "w": "pequeno",
+     "s": 26.08,
+     "e": 26.64
+    },
+    {
+     "w": "pra",
+     "s": 26.8,
+     "e": 26.96
+    },
+    {
+     "w": "gente",
+     "s": 27.04,
+     "e": 27.28
+    },
+    {
+     "w": "nova.",
+     "s": 27.44,
+     "e": 28.08
+    },
+    {
+     "w": "Cadê",
+     "s": 28.32,
+     "e": 28.507
+    },
+    {
+     "w": "o",
+     "s": 28.533,
+     "e": 28.56
+    },
+    {
+     "w": "vilão?",
+     "s": 28.64,
+     "e": 29.2
+    }
+   ],
+   "startFrame": 3085,
+   "endFrame": 3969
+  },
+  {
+   "id": "C07",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "MITO número dois: tem que postar todo dia, e se parar, o algoritmo te castiga. Olha o que a página diz: qualidade é mais importante do que quantidade. E mais! Fazer pausas faz parte, e o algoritmo NÃO penaliza os criadores por isso!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 2: postar todo dia",
+    "digitar": {
+     "ao": "MITO",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-qualidade.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "qualidade",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 196,
+     "em": 229
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 70
+    }
+   },
+   "words": [
+    {
+     "w": "MITO",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "número",
+     "s": 0.44,
+     "e": 0.72
+    },
+    {
+     "w": "dois:",
+     "s": 0.8,
+     "e": 1.52
+    },
+    {
+     "w": "tem",
+     "s": 1.6,
+     "e": 1.68
+    },
+    {
+     "w": "que",
+     "s": 1.72,
+     "e": 1.76
+    },
+    {
+     "w": "postar",
+     "s": 1.84,
+     "e": 2.32
+    },
+    {
+     "w": "todo",
+     "s": 2.4,
+     "e": 2.72
+    },
+    {
+     "w": "dia,",
+     "s": 2.88,
+     "e": 3.2
+    },
+    {
+     "w": "e",
+     "s": 3.24,
+     "e": 3.28
+    },
+    {
+     "w": "se",
+     "s": 3.36,
+     "e": 3.52
+    },
+    {
+     "w": "parar,",
+     "s": 3.64,
+     "e": 4.08
+    },
+    {
+     "w": "o",
+     "s": 4.12,
+     "e": 4.16
+    },
+    {
+     "w": "algoritmo",
+     "s": 4.24,
+     "e": 4.72
+    },
+    {
+     "w": "te",
+     "s": 4.8,
+     "e": 4.88
+    },
+    {
+     "w": "castiga.",
+     "s": 5.08,
+     "e": 6
+    },
+    {
+     "w": "Olha",
+     "s": 6.08,
+     "e": 6.187
+    },
+    {
+     "w": "o",
+     "s": 6.213,
+     "e": 6.24
+    },
+    {
+     "w": "que",
+     "s": 6.267,
+     "e": 6.293
+    },
+    {
+     "w": "a",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "página",
+     "s": 6.507,
+     "e": 6.72
+    },
+    {
+     "w": "diz:",
+     "s": 6.8,
+     "e": 7.52
+    },
+    {
+     "w": "qualidade",
+     "s": 7.64,
+     "e": 8.32
+    },
+    {
+     "w": "é",
+     "s": 8.44,
+     "e": 8.56
+    },
+    {
+     "w": "mais",
+     "s": 8.64,
+     "e": 8.8
+    },
+    {
+     "w": "importante",
+     "s": 8.88,
+     "e": 9.44
+    },
+    {
+     "w": "do",
+     "s": 9.48,
+     "e": 9.52
+    },
+    {
+     "w": "que",
+     "s": 9.6,
+     "e": 9.68
+    },
+    {
+     "w": "quantidade.",
+     "s": 9.76,
+     "e": 10.72
+    },
+    {
+     "w": "E",
+     "s": 10.8,
+     "e": 10.88
+    },
+    {
+     "w": "mais!",
+     "s": 10.96,
+     "e": 11.6
+    },
+    {
+     "w": "Fazer",
+     "s": 11.707,
+     "e": 11.92
+    },
+    {
+     "w": "pausas",
+     "s": 12,
+     "e": 12.48
+    },
+    {
+     "w": "faz",
+     "s": 12.52,
+     "e": 12.8
+    },
+    {
+     "w": "parte,",
+     "s": 12.96,
+     "e": 13.36
+    },
+    {
+     "w": "e",
+     "s": 13.4,
+     "e": 13.44
+    },
+    {
+     "w": "o",
+     "s": 13.467,
+     "e": 13.493
+    },
+    {
+     "w": "algoritmo",
+     "s": 13.52,
+     "e": 14.16
+    },
+    {
+     "w": "NÃO",
+     "s": 14.24,
+     "e": 14.48
+    },
+    {
+     "w": "penaliza",
+     "s": 14.56,
+     "e": 14.96
+    },
+    {
+     "w": "os",
+     "s": 15,
+     "e": 15.04
+    },
+    {
+     "w": "criadores",
+     "s": 15.12,
+     "e": 15.52
+    },
+    {
+     "w": "por",
+     "s": 15.6,
+     "e": 15.68
+    },
+    {
+     "w": "isso!",
+     "s": 15.8,
+     "e": 16.24
+    }
+   ],
+   "startFrame": 3969,
+   "endFrame": 4465
+  },
+  {
+   "id": "C08",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "pantera": false,
+   "fala": "Traduzindo: postar todo dia, morto de cansaço, não é estratégia. É o Goku treinando sem comer. Uma hora ele cai! A dica oficial é constância que seja sustentável pra você. E se for tirar folga, avisa o seu público. Na volta, fica mais fácil reengajar a galera.",
+   "dados": {
+    "titulo": "O que fazer com isso",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "cansaço",
+      "t": "Todo dia, morto de cansaço",
+      "sub": "não é estratégia",
+      "cor": "vermelho",
+      "em": 90
+     },
+     {
+      "ao": "sustentável",
+      "t": "Constância sustentável",
+      "sub": "o ritmo que você aguenta",
+      "cor": "verde",
+      "em": 331
+     },
+     {
+      "ao": "avisa",
+      "t": "Vai tirar folga? Avisa",
+      "sub": "a volta fica mais fácil",
+      "cor": "ciano",
+      "em": 426
+     }
+    ],
+    "pilula": {
+     "ao": "Goku",
+     "txt": "Goku treinando sem comer",
+     "cor": "ouro",
+     "em": 167
+    }
+   },
+   "words": [
+    {
+     "w": "Traduzindo:",
+     "s": 0,
+     "e": 0.72
+    },
+    {
+     "w": "postar",
+     "s": 0.96,
+     "e": 1.36
+    },
+    {
+     "w": "todo",
+     "s": 1.52,
+     "e": 1.76
+    },
+    {
+     "w": "dia,",
+     "s": 1.84,
+     "e": 2.4
+    },
+    {
+     "w": "morto",
+     "s": 2.48,
+     "e": 2.84
+    },
+    {
+     "w": "de",
+     "s": 2.88,
+     "e": 2.96
+    },
+    {
+     "w": "cansaço,",
+     "s": 3,
+     "e": 3.84
+    },
+    {
+     "w": "não",
+     "s": 3.92,
+     "e": 4.08
+    },
+    {
+     "w": "é",
+     "s": 4.16,
+     "e": 4.2
+    },
+    {
+     "w": "estratégia.",
+     "s": 4.24,
+     "e": 4.96
+    },
+    {
+     "w": "É",
+     "s": 5.36,
+     "e": 5.44
+    },
+    {
+     "w": "o",
+     "s": 5.48,
+     "e": 5.52
+    },
+    {
+     "w": "Goku",
+     "s": 5.56,
+     "e": 5.84
+    },
+    {
+     "w": "treinando",
+     "s": 5.92,
+     "e": 6.24
+    },
+    {
+     "w": "sem",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "comer.",
+     "s": 6.48,
+     "e": 6.88
+    },
+    {
+     "w": "Uma",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "hora",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "ele",
+     "s": 7.52,
+     "e": 7.68
+    },
+    {
+     "w": "cai!",
+     "s": 7.84,
+     "e": 8.16
+    },
+    {
+     "w": "A",
+     "s": 8.64,
+     "e": 8.72
+    },
+    {
+     "w": "dica",
+     "s": 8.76,
+     "e": 8.88
+    },
+    {
+     "w": "oficial",
+     "s": 8.96,
+     "e": 9.52
+    },
+    {
+     "w": "é",
+     "s": 9.68,
+     "e": 9.72
+    },
+    {
+     "w": "constância",
+     "s": 9.76,
+     "e": 10.48
+    },
+    {
+     "w": "que",
+     "s": 10.52,
+     "e": 10.56
+    },
+    {
+     "w": "seja",
+     "s": 10.64,
+     "e": 10.88
+    },
+    {
+     "w": "sustentável",
+     "s": 11.04,
+     "e": 11.84
+    },
+    {
+     "w": "pra",
+     "s": 11.92,
+     "e": 12
+    },
+    {
+     "w": "você.",
+     "s": 12.04,
+     "e": 12.48
+    },
+    {
+     "w": "E",
+     "s": 12.8,
+     "e": 12.88
+    },
+    {
+     "w": "se",
+     "s": 12.92,
+     "e": 12.96
+    },
+    {
+     "w": "for",
+     "s": 13.04,
+     "e": 13.12
+    },
+    {
+     "w": "tirar",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "folga,",
+     "s": 13.52,
+     "e": 14.08
+    },
+    {
+     "w": "avisa",
+     "s": 14.2,
+     "e": 14.48
+    },
+    {
+     "w": "o",
+     "s": 14.52,
+     "e": 14.56
+    },
+    {
+     "w": "seu",
+     "s": 14.6,
+     "e": 14.72
+    },
+    {
+     "w": "público.",
+     "s": 14.8,
+     "e": 15.28
+    },
+    {
+     "w": "Na",
+     "s": 15.6,
+     "e": 15.68
+    },
+    {
+     "w": "volta,",
+     "s": 15.76,
+     "e": 16.24
+    },
+    {
+     "w": "fica",
+     "s": 16.28,
+     "e": 16.48
+    },
+    {
+     "w": "mais",
+     "s": 16.56,
+     "e": 16.8
+    },
+    {
+     "w": "fácil",
+     "s": 16.88,
+     "e": 17.2
+    },
+    {
+     "w": "reengajar",
+     "s": 17.24,
+     "e": 17.68
+    },
+    {
+     "w": "a",
+     "s": 17.72,
+     "e": 17.76
+    },
+    {
+     "w": "galera.",
+     "s": 17.88,
+     "e": 18.48
+    }
+   ],
+   "startFrame": 4465,
+   "endFrame": 5027
+  },
+  {
+   "id": "C09",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "MITO número três: um vídeo flopado afunda o canal inteiro. Realidade: o algoritmo usa os dados recentes de CADA vídeo, e não os resultados anteriores. Um único experimento que não deu certo não vai, necessariamente, limitar o seu canal.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 3: o vídeo flopado",
+    "digitar": {
+     "ao": "MITO",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-experimente.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "dados",
+     "x": 196,
+     "y": 166,
+     "w": 720,
+     "h": 117,
+     "em": 214
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 100
+    }
+   },
+   "words": [
+    {
+     "w": "MITO",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "número",
+     "s": 0.44,
+     "e": 0.64
+    },
+    {
+     "w": "três:",
+     "s": 0.8,
+     "e": 1.6
+    },
+    {
+     "w": "um",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "vídeo",
+     "s": 1.84,
+     "e": 2
+    },
+    {
+     "w": "flopado",
+     "s": 2.08,
+     "e": 2.72
+    },
+    {
+     "w": "afunda",
+     "s": 2.88,
+     "e": 3.2
+    },
+    {
+     "w": "o",
+     "s": 3.24,
+     "e": 3.28
+    },
+    {
+     "w": "canal",
+     "s": 3.36,
+     "e": 3.68
+    },
+    {
+     "w": "inteiro.",
+     "s": 3.88,
+     "e": 4.32
+    },
+    {
+     "w": "Realidade:",
+     "s": 4.72,
+     "e": 5.76
+    },
+    {
+     "w": "o",
+     "s": 5.8,
+     "e": 5.84
+    },
+    {
+     "w": "algoritmo",
+     "s": 5.92,
+     "e": 6.56
+    },
+    {
+     "w": "usa",
+     "s": 6.68,
+     "e": 6.8
+    },
+    {
+     "w": "os",
+     "s": 6.88,
+     "e": 6.96
+    },
+    {
+     "w": "dados",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "recentes",
+     "s": 7.52,
+     "e": 7.92
+    },
+    {
+     "w": "de",
+     "s": 8.04,
+     "e": 8.16
+    },
+    {
+     "w": "CADA",
+     "s": 8.24,
+     "e": 8.4
+    },
+    {
+     "w": "vídeo,",
+     "s": 8.56,
+     "e": 9.04
+    },
+    {
+     "w": "e",
+     "s": 9.08,
+     "e": 9.12
+    },
+    {
+     "w": "não",
+     "s": 9.28,
+     "e": 9.36
+    },
+    {
+     "w": "os",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "resultados",
+     "s": 9.68,
+     "e": 10
+    },
+    {
+     "w": "anteriores.",
+     "s": 10.08,
+     "e": 11.2
+    },
+    {
+     "w": "Um",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "único",
+     "s": 11.44,
+     "e": 11.6
+    },
+    {
+     "w": "experimento",
+     "s": 11.88,
+     "e": 12.24
+    },
+    {
+     "w": "que",
+     "s": 12.28,
+     "e": 12.32
+    },
+    {
+     "w": "não",
+     "s": 12.48,
+     "e": 12.56
+    },
+    {
+     "w": "deu",
+     "s": 12.64,
+     "e": 12.8
+    },
+    {
+     "w": "certo",
+     "s": 12.88,
+     "e": 13.36
+    },
+    {
+     "w": "não",
+     "s": 13.44,
+     "e": 13.6
+    },
+    {
+     "w": "vai,",
+     "s": 13.68,
+     "e": 13.947
+    },
+    {
+     "w": "necessariamente,",
+     "s": 13.973,
+     "e": 14.84
+    },
+    {
+     "w": "limitar",
+     "s": 14.88,
+     "e": 15.28
+    },
+    {
+     "w": "o",
+     "s": 15.32,
+     "e": 15.36
+    },
+    {
+     "w": "seu",
+     "s": 15.4,
+     "e": 15.52
+    },
+    {
+     "w": "canal.",
+     "s": 15.6,
+     "e": 16.08
+    }
+   ],
+   "startFrame": 5027,
+   "endFrame": 5518
+  },
+  {
+   "id": "C10",
+   "tipo": "cartoes",
+   "pose": "apontando",
+   "pantera": false,
+   "fala": "Ou seja: o vídeo de quarenta views não é uma maldição eterna! Cada vídeo ganha a sua própria chance. Mas tem um porém, e eu não vou esconder. Se você posta com frequência coisa que não interessa ao público, com o tempo, isso pode afetar o canal. Testar, pode. Teimar no que não funciona, não!",
+   "dados": {
+    "titulo": "Cada vídeo, uma chance",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "maldição",
+      "t": "40 views não é maldição",
+      "sub": "não condena o canal",
+      "cor": "verde",
+      "em": 97
+     },
+     {
+      "ao": "chance",
+      "t": "Cada vídeo, sua chance",
+      "sub": "dados recentes de cada um",
+      "cor": "ciano",
+      "em": 197
+     },
+     {
+      "ao": "porém",
+      "t": "O porém",
+      "sub": "insistir no que não interessa",
+      "cor": "vermelho",
+      "em": 248
+     },
+     {
+      "ao": "Testar",
+      "t": "Testar, pode",
+      "sub": "teimar, não",
+      "cor": "ouro",
+      "em": 492
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Ou",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "seja:",
+     "s": 0.24,
+     "e": 0.72
+    },
+    {
+     "w": "o",
+     "s": 0.96,
+     "e": 1.04
+    },
+    {
+     "w": "vídeo",
+     "s": 1.12,
+     "e": 1.36
+    },
+    {
+     "w": "de",
+     "s": 1.44,
+     "e": 1.52
+    },
+    {
+     "w": "quarenta",
+     "s": 1.56,
+     "e": 2
+    },
+    {
+     "w": "views",
+     "s": 2.08,
+     "e": 2.48
+    },
+    {
+     "w": "não",
+     "s": 2.64,
+     "e": 2.88
+    },
+    {
+     "w": "é",
+     "s": 2.96,
+     "e": 3.04
+    },
+    {
+     "w": "uma",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "maldição",
+     "s": 3.24,
+     "e": 3.68
+    },
+    {
+     "w": "eterna!",
+     "s": 3.8,
+     "e": 4.4
+    },
+    {
+     "w": "Cada",
+     "s": 4.8,
+     "e": 5.04
+    },
+    {
+     "w": "vídeo",
+     "s": 5.2,
+     "e": 5.52
+    },
+    {
+     "w": "ganha",
+     "s": 5.6,
+     "e": 5.76
+    },
+    {
+     "w": "a",
+     "s": 5.787,
+     "e": 5.813
+    },
+    {
+     "w": "sua",
+     "s": 5.84,
+     "e": 6.08
+    },
+    {
+     "w": "própria",
+     "s": 6.16,
+     "e": 6.48
+    },
+    {
+     "w": "chance.",
+     "s": 6.56,
+     "e": 7.24
+    },
+    {
+     "w": "Mas",
+     "s": 7.44,
+     "e": 7.84
+    },
+    {
+     "w": "tem",
+     "s": 7.92,
+     "e": 8
+    },
+    {
+     "w": "um",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "porém,",
+     "s": 8.28,
+     "e": 8.8
+    },
+    {
+     "w": "e",
+     "s": 8.84,
+     "e": 8.88
+    },
+    {
+     "w": "eu",
+     "s": 8.92,
+     "e": 8.96
+    },
+    {
+     "w": "não",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "vou",
+     "s": 9.147,
+     "e": 9.2
+    },
+    {
+     "w": "esconder.",
+     "s": 9.28,
+     "e": 9.76
+    },
+    {
+     "w": "Se",
+     "s": 10.24,
+     "e": 10.32
+    },
+    {
+     "w": "você",
+     "s": 10.36,
+     "e": 10.56
+    },
+    {
+     "w": "posta",
+     "s": 10.64,
+     "e": 10.88
+    },
+    {
+     "w": "com",
+     "s": 10.96,
+     "e": 11.04
+    },
+    {
+     "w": "frequência",
+     "s": 11.08,
+     "e": 11.6
+    },
+    {
+     "w": "coisa",
+     "s": 11.68,
+     "e": 11.92
+    },
+    {
+     "w": "que",
+     "s": 12,
+     "e": 12.08
+    },
+    {
+     "w": "não",
+     "s": 12.24,
+     "e": 12.4
+    },
+    {
+     "w": "interessa",
+     "s": 12.56,
+     "e": 12.88
+    },
+    {
+     "w": "ao",
+     "s": 12.92,
+     "e": 12.96
+    },
+    {
+     "w": "público,",
+     "s": 13.04,
+     "e": 13.68
+    },
+    {
+     "w": "com",
+     "s": 13.76,
+     "e": 13.84
+    },
+    {
+     "w": "o",
+     "s": 13.88,
+     "e": 13.92
+    },
+    {
+     "w": "tempo,",
+     "s": 14,
+     "e": 14.48
+    },
+    {
+     "w": "isso",
+     "s": 14.56,
+     "e": 14.72
+    },
+    {
+     "w": "pode",
+     "s": 14.88,
+     "e": 15.04
+    },
+    {
+     "w": "afetar",
+     "s": 15.12,
+     "e": 15.36
+    },
+    {
+     "w": "o",
+     "s": 15.44,
+     "e": 15.48
+    },
+    {
+     "w": "canal.",
+     "s": 15.52,
+     "e": 15.92
+    },
+    {
+     "w": "Testar,",
+     "s": 16.4,
+     "e": 17.04
+    },
+    {
+     "w": "pode.",
+     "s": 17.08,
+     "e": 17.52
+    },
+    {
+     "w": "Teimar",
+     "s": 17.76,
+     "e": 18.16
+    },
+    {
+     "w": "no",
+     "s": 18.2,
+     "e": 18.24
+    },
+    {
+     "w": "que",
+     "s": 18.32,
+     "e": 18.36
+    },
+    {
+     "w": "não",
+     "s": 18.4,
+     "e": 18.48
+    },
+    {
+     "w": "funciona,",
+     "s": 18.56,
+     "e": 19.36
+    },
+    {
+     "w": "não!",
+     "s": 19.4,
+     "e": 19.92
+    }
+   ],
+   "startFrame": 5518,
+   "endFrame": 6123
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "MITO número quatro: só view importa. A realidade: o YouTube olha quanto tempo e que parte do vídeo a pessoa assiste. Olha as curtidas, os compartilhamentos, os comentários, o famoso não tenho interesse... e até as respostas a pesquisas.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "Mito 4: só view importa",
+    "digitar": {
+     "ao": "MITO",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "MITO",
+      "arq": "cena-sinais.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "quanto",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 184,
+     "em": 164
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 70
+    }
+   },
+   "words": [
+    {
+     "w": "MITO",
+     "s": 0,
+     "e": 0.36
+    },
+    {
+     "w": "número",
+     "s": 0.4,
+     "e": 0.64
+    },
+    {
+     "w": "quatro:",
+     "s": 0.72,
+     "e": 1.52
+    },
+    {
+     "w": "só",
+     "s": 1.68,
+     "e": 1.84
+    },
+    {
+     "w": "view",
+     "s": 2,
+     "e": 2.24
+    },
+    {
+     "w": "importa.",
+     "s": 2.52,
+     "e": 2.96
+    },
+    {
+     "w": "A",
+     "s": 3.36,
+     "e": 3.44
+    },
+    {
+     "w": "realidade:",
+     "s": 3.56,
+     "e": 4.56
+    },
+    {
+     "w": "o",
+     "s": 4.6,
+     "e": 4.64
+    },
+    {
+     "w": "YouTube",
+     "s": 4.72,
+     "e": 5.12
+    },
+    {
+     "w": "olha",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "quanto",
+     "s": 5.48,
+     "e": 5.76
+    },
+    {
+     "w": "tempo",
+     "s": 5.92,
+     "e": 6.32
+    },
+    {
+     "w": "e",
+     "s": 6.4,
+     "e": 6.48
+    },
+    {
+     "w": "que",
+     "s": 6.6,
+     "e": 6.72
+    },
+    {
+     "w": "parte",
+     "s": 6.88,
+     "e": 7.08
+    },
+    {
+     "w": "do",
+     "s": 7.12,
+     "e": 7.2
+    },
+    {
+     "w": "vídeo",
+     "s": 7.28,
+     "e": 7.52
+    },
+    {
+     "w": "a",
+     "s": 7.56,
+     "e": 7.6
+    },
+    {
+     "w": "pessoa",
+     "s": 7.64,
+     "e": 7.92
+    },
+    {
+     "w": "assiste.",
+     "s": 8.04,
+     "e": 8.8
+    },
+    {
+     "w": "Olha",
+     "s": 8.84,
+     "e": 8.96
+    },
+    {
+     "w": "as",
+     "s": 9,
+     "e": 9.04
+    },
+    {
+     "w": "curtidas,",
+     "s": 9.12,
+     "e": 9.88
+    },
+    {
+     "w": "os",
+     "s": 9.92,
+     "e": 10
+    },
+    {
+     "w": "compartilhamentos,",
+     "s": 10.08,
+     "e": 11.12
+    },
+    {
+     "w": "os",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "comentários,",
+     "s": 11.36,
+     "e": 12.4
+    },
+    {
+     "w": "o",
+     "s": 12.44,
+     "e": 12.48
+    },
+    {
+     "w": "famoso",
+     "s": 12.52,
+     "e": 13.04
+    },
+    {
+     "w": "não",
+     "s": 13.28,
+     "e": 13.44
+    },
+    {
+     "w": "tenho",
+     "s": 13.52,
+     "e": 13.68
+    },
+    {
+     "w": "interesse...",
+     "s": 13.88,
+     "e": 14.88
+    },
+    {
+     "w": "e",
+     "s": 14.92,
+     "e": 14.96
+    },
+    {
+     "w": "até",
+     "s": 15.04,
+     "e": 15.333
+    },
+    {
+     "w": "as",
+     "s": 15.387,
+     "e": 15.44
+    },
+    {
+     "w": "respostas",
+     "s": 15.56,
+     "e": 16
+    },
+    {
+     "w": "a",
+     "s": 16.04,
+     "e": 16.08
+    },
+    {
+     "w": "pesquisas.",
+     "s": 16.2,
+     "e": 17.04
+    }
+   ],
+   "startFrame": 6123,
+   "endFrame": 6643
+  },
+  {
+   "id": "C12",
+   "tipo": "cartoes",
+   "pose": "feliz",
+   "pantera": false,
+   "fala": "Então a view sozinha não conta a história toda. Clicou e largou em cinco segundos? É o Power Ranger que morfa e tropeça na primeira cena. Lindo no clique, ruim no resto! O que vale é a pessoa assistir e sair satisfeita.",
+   "dados": {
+    "titulo": "Além da view",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "cinco",
+      "t": "Clicou e largou",
+      "sub": "lindo no clique, ruim no resto",
+      "cor": "vermelho",
+      "em": 121
+     },
+     {
+      "ao": "assistir",
+      "t": "Assistiu de verdade",
+      "sub": "quanto tempo e que parte",
+      "cor": "verde",
+      "em": 367
+     },
+     {
+      "ao": "satisfeita",
+      "t": "Saiu satisfeita",
+      "sub": "curtiu, compartilhou, comentou",
+      "cor": "ciano",
+      "em": 395
+     },
+     {
+      "ao": "satisfeita",
+      "t": "Satisfação no longo prazo",
+      "sub": "o objetivo nº 2 do algoritmo",
+      "cor": "ouro",
+      "em": 395
+     }
+    ],
+    "pilula": {
+     "ao": "Ranger",
+     "txt": "Morfou e tropeçou",
+     "cor": "violeta",
+     "em": 168
+    }
+   },
+   "words": [
+    {
+     "w": "Então",
+     "s": 0,
+     "e": 0.28
+    },
+    {
+     "w": "a",
+     "s": 0.32,
+     "e": 0.4
+    },
+    {
+     "w": "view",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "sozinha",
+     "s": 0.88,
+     "e": 1.36
+    },
+    {
+     "w": "não",
+     "s": 1.44,
+     "e": 1.6
+    },
+    {
+     "w": "conta",
+     "s": 1.68,
+     "e": 1.94
+    },
+    {
+     "w": "a",
+     "s": 1.96,
+     "e": 1.98
+    },
+    {
+     "w": "história",
+     "s": 2,
+     "e": 2.32
+    },
+    {
+     "w": "toda.",
+     "s": 2.4,
+     "e": 2.92
+    },
+    {
+     "w": "Clicou",
+     "s": 3.12,
+     "e": 3.44
+    },
+    {
+     "w": "e",
+     "s": 3.48,
+     "e": 3.52
+    },
+    {
+     "w": "largou",
+     "s": 3.64,
+     "e": 3.84
+    },
+    {
+     "w": "em",
+     "s": 3.92,
+     "e": 4
+    },
+    {
+     "w": "cinco",
+     "s": 4.04,
+     "e": 4.16
+    },
+    {
+     "w": "segundos?",
+     "s": 4.24,
+     "e": 4.96
+    },
+    {
+     "w": "É",
+     "s": 5.12,
+     "e": 5.16
+    },
+    {
+     "w": "o",
+     "s": 5.2,
+     "e": 5.24
+    },
+    {
+     "w": "Power",
+     "s": 5.28,
+     "e": 5.52
+    },
+    {
+     "w": "Ranger",
+     "s": 5.6,
+     "e": 5.92
+    },
+    {
+     "w": "que",
+     "s": 6,
+     "e": 6.08
+    },
+    {
+     "w": "morfa",
+     "s": 6.16,
+     "e": 6.48
+    },
+    {
+     "w": "e",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "tropeça",
+     "s": 6.68,
+     "e": 7.12
+    },
+    {
+     "w": "na",
+     "s": 7.16,
+     "e": 7.2
+    },
+    {
+     "w": "primeira",
+     "s": 7.32,
+     "e": 7.52
+    },
+    {
+     "w": "cena.",
+     "s": 7.6,
+     "e": 8.16
+    },
+    {
+     "w": "Lindo",
+     "s": 8.4,
+     "e": 8.72
+    },
+    {
+     "w": "no",
+     "s": 8.8,
+     "e": 8.88
+    },
+    {
+     "w": "clique,",
+     "s": 8.92,
+     "e": 9.44
+    },
+    {
+     "w": "ruim",
+     "s": 9.56,
+     "e": 9.84
+    },
+    {
+     "w": "no",
+     "s": 9.88,
+     "e": 9.92
+    },
+    {
+     "w": "resto!",
+     "s": 10.12,
+     "e": 10.6
+    },
+    {
+     "w": "O",
+     "s": 10.8,
+     "e": 10.88
+    },
+    {
+     "w": "que",
+     "s": 10.96,
+     "e": 11.04
+    },
+    {
+     "w": "vale",
+     "s": 11.12,
+     "e": 11.44
+    },
+    {
+     "w": "é",
+     "s": 11.52,
+     "e": 11.6
+    },
+    {
+     "w": "a",
+     "s": 11.627,
+     "e": 11.653
+    },
+    {
+     "w": "pessoa",
+     "s": 11.68,
+     "e": 12
+    },
+    {
+     "w": "assistir",
+     "s": 12.24,
+     "e": 12.72
+    },
+    {
+     "w": "e",
+     "s": 12.76,
+     "e": 12.8
+    },
+    {
+     "w": "sair",
+     "s": 12.88,
+     "e": 13.12
+    },
+    {
+     "w": "satisfeita.",
+     "s": 13.16,
+     "e": 14.08
+    }
+   ],
+   "startFrame": 6643,
+   "endFrame": 7073
+  },
+  {
+   "id": "C13",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E o que o próprio YouTube manda fazer? Ajudar o espectador a assistir mais vídeos seus. Criar séries, usar chamadas claras, do tipo: se você gostou deste vídeo, assista aquele. E usar playlists e telas finais.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/16533387",
+    "selo": "O que o YouTube recomenda",
+    "digitar": {
+     "ao": "E",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "cena-descobrir.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "séries",
+     "x": 196,
+     "y": 118,
+     "w": 720,
+     "h": 140,
+     "em": 182
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 60
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "o",
+     "s": 0.12,
+     "e": 0.16
+    },
+    {
+     "w": "que",
+     "s": 0.2,
+     "e": 0.24
+    },
+    {
+     "w": "o",
+     "s": 0.32,
+     "e": 0.4
+    },
+    {
+     "w": "próprio",
+     "s": 0.48,
+     "e": 0.8
+    },
+    {
+     "w": "YouTube",
+     "s": 0.88,
+     "e": 1.2
+    },
+    {
+     "w": "manda",
+     "s": 1.28,
+     "e": 1.44
+    },
+    {
+     "w": "fazer?",
+     "s": 1.52,
+     "e": 2
+    },
+    {
+     "w": "Ajudar",
+     "s": 2.4,
+     "e": 2.8
+    },
+    {
+     "w": "o",
+     "s": 2.88,
+     "e": 2.933
+    },
+    {
+     "w": "espectador",
+     "s": 2.987,
+     "e": 3.52
+    },
+    {
+     "w": "a",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "assistir",
+     "s": 3.76,
+     "e": 4
+    },
+    {
+     "w": "mais",
+     "s": 4.08,
+     "e": 4.4
+    },
+    {
+     "w": "vídeos",
+     "s": 4.48,
+     "e": 4.8
+    },
+    {
+     "w": "seus.",
+     "s": 4.88,
+     "e": 5.28
+    },
+    {
+     "w": "Criar",
+     "s": 5.68,
+     "e": 6
+    },
+    {
+     "w": "séries,",
+     "s": 6.08,
+     "e": 6.64
+    },
+    {
+     "w": "usar",
+     "s": 6.72,
+     "e": 6.96
+    },
+    {
+     "w": "chamadas",
+     "s": 7,
+     "e": 7.44
+    },
+    {
+     "w": "claras,",
+     "s": 7.52,
+     "e": 8.08
+    },
+    {
+     "w": "do",
+     "s": 8.12,
+     "e": 8.16
+    },
+    {
+     "w": "tipo:",
+     "s": 8.24,
+     "e": 8.64
+    },
+    {
+     "w": "se",
+     "s": 8.96,
+     "e": 9.04
+    },
+    {
+     "w": "você",
+     "s": 9.08,
+     "e": 9.28
+    },
+    {
+     "w": "gostou",
+     "s": 9.32,
+     "e": 9.6
+    },
+    {
+     "w": "deste",
+     "s": 9.68,
+     "e": 9.96
+    },
+    {
+     "w": "vídeo,",
+     "s": 10,
+     "e": 10.48
+    },
+    {
+     "w": "assista",
+     "s": 10.56,
+     "e": 10.88
+    },
+    {
+     "w": "aquele.",
+     "s": 10.96,
+     "e": 11.44
+    },
+    {
+     "w": "E",
+     "s": 11.84,
+     "e": 11.88
+    },
+    {
+     "w": "usar",
+     "s": 11.92,
+     "e": 12.16
+    },
+    {
+     "w": "playlists",
+     "s": 12.32,
+     "e": 13.04
+    },
+    {
+     "w": "e",
+     "s": 13.12,
+     "e": 13.2
+    },
+    {
+     "w": "telas",
+     "s": 13.28,
+     "e": 13.52
+    },
+    {
+     "w": "finais.",
+     "s": 13.6,
+     "e": 14.32
+    }
+   ],
+   "startFrame": 7073,
+   "endFrame": 7511
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "pose": "surpresa",
+   "pantera": false,
+   "fala": "E tem um bônus escondido nessa página! Um: manter um estilo de título e de miniatura consistente faz o seu vídeo ser reconhecido na hora. Dois: na guia Público, do Analytics, você vê os formatos que o seu público prefere, e quais canais e conteúdos ele também assiste. É o radar do Dragon Ball! Só que, em vez da esfera, ele aponta pro seu público.",
+   "dados": {
+    "titulo": "Bônus da página oficial",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "estilo",
+      "t": "Título e miniatura com estilo consistente",
+      "sub": "o vídeo é reconhecido na hora",
+      "cor": "ciano",
+      "em": 124
+     },
+     {
+      "ao": "guia",
+      "t": "Guia Público, no Analytics",
+      "sub": "formatos preferidos e o que mais ele assiste",
+      "cor": "verde",
+      "em": 314
+     }
+    ],
+    "pilula": {
+     "ao": "radar",
+     "txt": "O radar do seu público",
+     "cor": "ouro",
+     "em": 536
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "tem",
+     "s": 0.16,
+     "e": 0.32
+    },
+    {
+     "w": "um",
+     "s": 0.44,
+     "e": 0.56
+    },
+    {
+     "w": "bônus",
+     "s": 0.6,
+     "e": 0.96
+    },
+    {
+     "w": "escondido",
+     "s": 1.04,
+     "e": 1.6
+    },
+    {
+     "w": "nessa",
+     "s": 1.72,
+     "e": 1.92
+    },
+    {
+     "w": "página!",
+     "s": 2,
+     "e": 2.68
+    },
+    {
+     "w": "Um:",
+     "s": 2.88,
+     "e": 3.52
+    },
+    {
+     "w": "manter",
+     "s": 3.6,
+     "e": 3.92
+    },
+    {
+     "w": "um",
+     "s": 3.96,
+     "e": 4
+    },
+    {
+     "w": "estilo",
+     "s": 4.12,
+     "e": 4.4
+    },
+    {
+     "w": "de",
+     "s": 4.44,
+     "e": 4.48
+    },
+    {
+     "w": "título",
+     "s": 4.64,
+     "e": 5.04
+    },
+    {
+     "w": "e",
+     "s": 5.08,
+     "e": 5.12
+    },
+    {
+     "w": "de",
+     "s": 5.16,
+     "e": 5.2
+    },
+    {
+     "w": "miniatura",
+     "s": 5.28,
+     "e": 5.76
+    },
+    {
+     "w": "consistente",
+     "s": 5.84,
+     "e": 6.64
+    },
+    {
+     "w": "faz",
+     "s": 6.72,
+     "e": 6.88
+    },
+    {
+     "w": "o",
+     "s": 6.92,
+     "e": 6.96
+    },
+    {
+     "w": "seu",
+     "s": 7.04,
+     "e": 7.2
+    },
+    {
+     "w": "vídeo",
+     "s": 7.24,
+     "e": 7.44
+    },
+    {
+     "w": "ser",
+     "s": 7.52,
+     "e": 7.6
+    },
+    {
+     "w": "reconhecido",
+     "s": 7.68,
+     "e": 8.24
+    },
+    {
+     "w": "na",
+     "s": 8.4,
+     "e": 8.56
+    },
+    {
+     "w": "hora.",
+     "s": 8.64,
+     "e": 9.24
+    },
+    {
+     "w": "Dois:",
+     "s": 9.52,
+     "e": 10.24
+    },
+    {
+     "w": "na",
+     "s": 10.32,
+     "e": 10.4
+    },
+    {
+     "w": "guia",
+     "s": 10.48,
+     "e": 10.64
+    },
+    {
+     "w": "Público,",
+     "s": 10.8,
+     "e": 11.227
+    },
+    {
+     "w": "do",
+     "s": 11.253,
+     "e": 11.28
+    },
+    {
+     "w": "Analytics,",
+     "s": 11.6,
+     "e": 12
+    },
+    {
+     "w": "você",
+     "s": 12.08,
+     "e": 12.32
+    },
+    {
+     "w": "vê",
+     "s": 12.36,
+     "e": 12.4
+    },
+    {
+     "w": "os",
+     "s": 12.48,
+     "e": 12.56
+    },
+    {
+     "w": "formatos",
+     "s": 12.8,
+     "e": 13.12
+    },
+    {
+     "w": "que",
+     "s": 13.16,
+     "e": 13.2
+    },
+    {
+     "w": "o",
+     "s": 13.24,
+     "e": 13.28
+    },
+    {
+     "w": "seu",
+     "s": 13.32,
+     "e": 13.44
+    },
+    {
+     "w": "público",
+     "s": 13.52,
+     "e": 13.76
+    },
+    {
+     "w": "prefere,",
+     "s": 13.84,
+     "e": 14.56
+    },
+    {
+     "w": "e",
+     "s": 14.6,
+     "e": 14.64
+    },
+    {
+     "w": "quais",
+     "s": 14.8,
+     "e": 15.04
+    },
+    {
+     "w": "canais",
+     "s": 15.12,
+     "e": 15.52
+    },
+    {
+     "w": "e",
+     "s": 15.547,
+     "e": 15.573
+    },
+    {
+     "w": "conteúdos",
+     "s": 15.6,
+     "e": 16.16
+    },
+    {
+     "w": "ele",
+     "s": 16.28,
+     "e": 16.4
+    },
+    {
+     "w": "também",
+     "s": 16.507,
+     "e": 16.8
+    },
+    {
+     "w": "assiste.",
+     "s": 16.92,
+     "e": 17.52
+    },
+    {
+     "w": "É",
+     "s": 17.68,
+     "e": 17.707
+    },
+    {
+     "w": "o",
+     "s": 17.733,
+     "e": 17.76
+    },
+    {
+     "w": "radar",
+     "s": 17.88,
+     "e": 18.08
+    },
+    {
+     "w": "do",
+     "s": 18.16,
+     "e": 18.24
+    },
+    {
+     "w": "Dragon",
+     "s": 18.4,
+     "e": 18.56
+    },
+    {
+     "w": "Ball!",
+     "s": 18.64,
+     "e": 18.96
+    },
+    {
+     "w": "Só",
+     "s": 19.36,
+     "e": 19.48
+    },
+    {
+     "w": "que,",
+     "s": 19.52,
+     "e": 19.813
+    },
+    {
+     "w": "em",
+     "s": 19.867,
+     "e": 19.92
+    },
+    {
+     "w": "vez",
+     "s": 20,
+     "e": 20.08
+    },
+    {
+     "w": "da",
+     "s": 20.12,
+     "e": 20.16
+    },
+    {
+     "w": "esfera,",
+     "s": 20.28,
+     "e": 20.8
+    },
+    {
+     "w": "ele",
+     "s": 20.88,
+     "e": 20.96
+    },
+    {
+     "w": "aponta",
+     "s": 21.04,
+     "e": 21.36
+    },
+    {
+     "w": "pro",
+     "s": 21.4,
+     "e": 21.44
+    },
+    {
+     "w": "seu",
+     "s": 21.48,
+     "e": 21.68
+    },
+    {
+     "w": "público.",
+     "s": 21.733,
+     "e": 22.32
+    }
+   ],
+   "startFrame": 7511,
+   "endFrame": 8189
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Resumindo! O algoritmo segue o público, não o tamanho do canal. Qualidade vale mais que quantidade, e pausa não é castigo. Cada vídeo ganha a sua chance. E o que importa é a pessoa assistir e gostar. O link da página oficial e o artigo com tudo isso estão na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "público",
+      "t": "Segue o público",
+      "sub": "não o tamanho do canal",
+      "em": 66
+     },
+     {
+      "ao": "Qualidade",
+      "t": "Qualidade > quantidade",
+      "sub": "pausa não é castigo",
+      "em": 142
+     },
+     {
+      "ao": "chance",
+      "t": "Cada vídeo, sua chance",
+      "sub": "um flop não condena",
+      "em": 324
+     },
+     {
+      "ao": "gostar",
+      "t": "Assistir e gostar",
+      "sub": "view sozinha não basta",
+      "em": 415
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Fonte oficial e artigo na descrição",
+     "cor": "ouro",
+     "em": 547
+    }
+   },
+   "words": [
+    {
+     "w": "Resumindo!",
+     "s": 0,
+     "e": 0.72
+    },
+    {
+     "w": "O",
+     "s": 0.96,
+     "e": 1.04
+    },
+    {
+     "w": "algoritmo",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "segue",
+     "s": 1.76,
+     "e": 2
+    },
+    {
+     "w": "o",
+     "s": 2.08,
+     "e": 2.16
+    },
+    {
+     "w": "público,",
+     "s": 2.2,
+     "e": 2.88
+    },
+    {
+     "w": "não",
+     "s": 3.04,
+     "e": 3.2
+    },
+    {
+     "w": "o",
+     "s": 3.24,
+     "e": 3.28
+    },
+    {
+     "w": "tamanho",
+     "s": 3.36,
+     "e": 3.68
+    },
+    {
+     "w": "do",
+     "s": 3.72,
+     "e": 3.76
+    },
+    {
+     "w": "canal.",
+     "s": 3.84,
+     "e": 4.32
+    },
+    {
+     "w": "Qualidade",
+     "s": 4.72,
+     "e": 5.36
+    },
+    {
+     "w": "vale",
+     "s": 5.52,
+     "e": 5.68
+    },
+    {
+     "w": "mais",
+     "s": 5.76,
+     "e": 6
+    },
+    {
+     "w": "que",
+     "s": 6.08,
+     "e": 6.16
+    },
+    {
+     "w": "quantidade,",
+     "s": 6.28,
+     "e": 7.12
+    },
+    {
+     "w": "e",
+     "s": 7.16,
+     "e": 7.2
+    },
+    {
+     "w": "pausa",
+     "s": 7.36,
+     "e": 7.84
+    },
+    {
+     "w": "não",
+     "s": 8.08,
+     "e": 8.24
+    },
+    {
+     "w": "é",
+     "s": 8.32,
+     "e": 8.4
+    },
+    {
+     "w": "castigo.",
+     "s": 8.56,
+     "e": 9.12
+    },
+    {
+     "w": "Cada",
+     "s": 9.52,
+     "e": 9.76
+    },
+    {
+     "w": "vídeo",
+     "s": 9.84,
+     "e": 10.16
+    },
+    {
+     "w": "ganha",
+     "s": 10.24,
+     "e": 10.48
+    },
+    {
+     "w": "a",
+     "s": 10.507,
+     "e": 10.533
+    },
+    {
+     "w": "sua",
+     "s": 10.56,
+     "e": 10.72
+    },
+    {
+     "w": "chance.",
+     "s": 10.8,
+     "e": 11.36
+    },
+    {
+     "w": "E",
+     "s": 11.6,
+     "e": 11.64
+    },
+    {
+     "w": "o",
+     "s": 11.68,
+     "e": 11.707
+    },
+    {
+     "w": "que",
+     "s": 11.733,
+     "e": 11.76
+    },
+    {
+     "w": "importa",
+     "s": 11.84,
+     "e": 12.32
+    },
+    {
+     "w": "é",
+     "s": 12.48,
+     "e": 12.507
+    },
+    {
+     "w": "a",
+     "s": 12.533,
+     "e": 12.56
+    },
+    {
+     "w": "pessoa",
+     "s": 12.64,
+     "e": 12.88
+    },
+    {
+     "w": "assistir",
+     "s": 13.12,
+     "e": 13.52
+    },
+    {
+     "w": "e",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "gostar.",
+     "s": 13.84,
+     "e": 14.4
+    },
+    {
+     "w": "O",
+     "s": 14.96,
+     "e": 15
+    },
+    {
+     "w": "link",
+     "s": 15.04,
+     "e": 15.2
+    },
+    {
+     "w": "da",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "página",
+     "s": 15.4,
+     "e": 15.6
+    },
+    {
+     "w": "oficial",
+     "s": 15.68,
+     "e": 16.24
+    },
+    {
+     "w": "e",
+     "s": 16.28,
+     "e": 16.32
+    },
+    {
+     "w": "o",
+     "s": 16.36,
+     "e": 16.4
+    },
+    {
+     "w": "artigo",
+     "s": 16.52,
+     "e": 16.8
+    },
+    {
+     "w": "com",
+     "s": 16.88,
+     "e": 16.96
+    },
+    {
+     "w": "tudo",
+     "s": 17.12,
+     "e": 17.36
+    },
+    {
+     "w": "isso",
+     "s": 17.44,
+     "e": 17.68
+    },
+    {
+     "w": "estão",
+     "s": 17.84,
+     "e": 18.08
+    },
+    {
+     "w": "na",
+     "s": 18.12,
+     "e": 18.16
+    },
+    {
+     "w": "descrição.",
+     "s": 18.24,
+     "e": 18.96
+    }
+   ],
+   "startFrame": 8189,
+   "endFrame": 8765
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "pose": "apontando",
+   "fala": "E falando em série... o próximo teste do laboratório tá aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/criador-2.mp4",
+    "titulo": "Próximo teste do laboratório",
+    "seta": {
+     "ao": "próximo",
+     "em": 56
+    },
+    "clique": {
+     "ao": "Clica",
+     "em": 134
+    },
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "falando",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "em",
+     "s": 0.56,
+     "e": 0.64
+    },
+    {
+     "w": "série...",
+     "s": 0.72,
+     "e": 1.68
+    },
+    {
+     "w": "o",
+     "s": 1.76,
+     "e": 1.84
+    },
+    {
+     "w": "próximo",
+     "s": 1.88,
+     "e": 2.24
+    },
+    {
+     "w": "teste",
+     "s": 2.32,
+     "e": 2.56
+    },
+    {
+     "w": "do",
+     "s": 2.6,
+     "e": 2.64
+    },
+    {
+     "w": "laboratório",
+     "s": 2.72,
+     "e": 3.28
+    },
+    {
+     "w": "tá",
+     "s": 3.36,
+     "e": 3.44
+    },
+    {
+     "w": "aqui",
+     "s": 3.52,
+     "e": 3.68
+    },
+    {
+     "w": "do",
+     "s": 3.72,
+     "e": 3.76
+    },
+    {
+     "w": "lado.",
+     "s": 3.84,
+     "e": 4.4
+    },
+    {
+     "w": "Clica",
+     "s": 4.48,
+     "e": 4.64
+    },
+    {
+     "w": "nele",
+     "s": 4.68,
+     "e": 4.8
+    },
+    {
+     "w": "agora!",
+     "s": 4.88,
+     "e": 5.6
+    }
+   ],
+   "startFrame": 8765,
+   "endFrame": 9111
+  }
+ ],
+ "cortes": [
+  {
+   "id": "K001",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/criador-2.mp4",
+   "from": 0,
+   "startFrame": 102,
+   "endFrame": 150
+  },
+  {
+   "id": "K002",
+   "cena": "C01",
+   "tipo": "foto",
+   "src": "pexels/estudio-1.jpg",
+   "from": 0,
+   "startFrame": 255,
+   "endFrame": 311
+  },
+  {
+   "id": "K003",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/frustrado-1.mp4",
+   "from": 0,
+   "startFrame": 390,
+   "endFrame": 443
+  },
+  {
+   "id": "K004",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/frustrado-2.mp4",
+   "from": 0,
+   "startFrame": 645,
+   "endFrame": 691
+  },
+  {
+   "id": "K005",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/comemora-1.mp4",
+   "from": 0,
+   "startFrame": 789,
+   "endFrame": 845
+  },
+  {
+   "id": "K006",
+   "cena": "C02",
+   "tipo": "foto",
+   "src": "pexels/estudio-2.jpg",
+   "from": 0,
+   "startFrame": 937,
+   "endFrame": 982
+  },
+  {
+   "id": "K007",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/editando-2.mp4",
+   "from": 0,
+   "startFrame": 1060,
+   "endFrame": 1107
+  },
+  {
+   "id": "K008",
+   "cena": "C04",
+   "tipo": "video",
+   "src": "pexels/plateia-1.mp4",
+   "from": 0,
+   "startFrame": 1857,
+   "endFrame": 1911
+  },
+  {
+   "id": "K009",
+   "cena": "C04",
+   "tipo": "video",
+   "src": "pexels/plateia-2.mp4",
+   "from": 0,
+   "startFrame": 1984,
+   "endFrame": 2033
+  },
+  {
+   "id": "K010",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/editando-1.mp4",
+   "from": 0,
+   "startFrame": 3178,
+   "endFrame": 3226
+  },
+  {
+   "id": "K011",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/comemora-2.mp4",
+   "from": 0,
+   "startFrame": 3330,
+   "endFrame": 3375
+  },
+  {
+   "id": "K012",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/criador-1.mp4",
+   "from": 0,
+   "startFrame": 3449,
+   "endFrame": 3505
+  }
+ ],
+ "words": [
+  {
+   "w": "Para",
+   "start": 0.5,
+   "end": 0.82
+  },
+  {
+   "w": "de",
+   "start": 0.86,
+   "end": 0.9
+  },
+  {
+   "w": "perguntar",
+   "start": 0.98,
+   "end": 1.54
+  },
+  {
+   "w": "se",
+   "start": 1.58,
+   "end": 1.62
+  },
+  {
+   "w": "o",
+   "start": 1.7,
+   "end": 1.753
+  },
+  {
+   "w": "algoritmo",
+   "start": 1.807,
+   "end": 2.34
+  },
+  {
+   "w": "gosta",
+   "start": 2.38,
+   "end": 2.66
+  },
+  {
+   "w": "de",
+   "start": 2.74,
+   "end": 2.78
+  },
+  {
+   "w": "você!",
+   "start": 2.82,
+   "end": 3.5
+  },
+  {
+   "w": "O",
+   "start": 3.7,
+   "end": 3.86
+  },
+  {
+   "w": "próprio",
+   "start": 3.94,
+   "end": 4.26
+  },
+  {
+   "w": "YouTube",
+   "start": 4.34,
+   "end": 4.74
+  },
+  {
+   "w": "escreveu",
+   "start": 4.82,
+   "end": 5.22
+  },
+  {
+   "w": "como",
+   "start": 5.34,
+   "end": 5.46
+  },
+  {
+   "w": "ele",
+   "start": 5.54,
+   "end": 5.62
+  },
+  {
+   "w": "funciona.",
+   "start": 5.74,
+   "end": 6.42
+  },
+  {
+   "w": "Numa",
+   "start": 6.5,
+   "end": 6.66
+  },
+  {
+   "w": "página",
+   "start": 6.74,
+   "end": 6.98
+  },
+  {
+   "w": "OFICIAL!",
+   "start": 7.22,
+   "end": 8.3
+  },
+  {
+   "w": "E",
+   "start": 8.5,
+   "end": 8.58
+  },
+  {
+   "w": "ali",
+   "start": 8.7,
+   "end": 8.82
+  },
+  {
+   "w": "caem",
+   "start": 8.9,
+   "end": 9.22
+  },
+  {
+   "w": "quatro",
+   "start": 9.3,
+   "end": 9.54
+  },
+  {
+   "w": "conselhos",
+   "start": 9.62,
+   "end": 10.18
+  },
+  {
+   "w": "que",
+   "start": 10.3,
+   "end": 10.42
+  },
+  {
+   "w": "todo",
+   "start": 10.5,
+   "end": 10.66
+  },
+  {
+   "w": "canal",
+   "start": 10.74,
+   "end": 10.98
+  },
+  {
+   "w": "pequeno",
+   "start": 11.06,
+   "end": 11.46
+  },
+  {
+   "w": "segue.",
+   "start": 11.62,
+   "end": 12.18
+  },
+  {
+   "w": "Postar",
+   "start": 12.3,
+   "end": 12.5
+  },
+  {
+   "w": "todo",
+   "start": 12.62,
+   "end": 12.74
+  },
+  {
+   "w": "dia?",
+   "start": 12.82,
+   "end": 13.46
+  },
+  {
+   "w": "Medo",
+   "start": 13.58,
+   "end": 13.74
+  },
+  {
+   "w": "de",
+   "start": 13.78,
+   "end": 13.86
+  },
+  {
+   "w": "tirar",
+   "start": 13.9,
+   "end": 14.18
+  },
+  {
+   "w": "folga?",
+   "start": 14.3,
+   "end": 14.9
+  },
+  {
+   "w": "Medo",
+   "start": 15.02,
+   "end": 15.18
+  },
+  {
+   "w": "de",
+   "start": 15.22,
+   "end": 15.3
+  },
+  {
+   "w": "um",
+   "start": 15.34,
+   "end": 15.38
+  },
+  {
+   "w": "vídeo",
+   "start": 15.46,
+   "end": 15.62
+  },
+  {
+   "w": "flopado?",
+   "start": 15.66,
+   "end": 16.58
+  },
+  {
+   "w": "Vem",
+   "start": 16.66,
+   "end": 16.82
+  },
+  {
+   "w": "comigo,",
+   "start": 16.9,
+   "end": 17.38
+  },
+  {
+   "w": "que",
+   "start": 17.46,
+   "end": 17.54
+  },
+  {
+   "w": "hoje",
+   "start": 17.62,
+   "end": 17.94
+  },
+  {
+   "w": "cai",
+   "start": 18.1,
+   "end": 18.26
+  },
+  {
+   "w": "tudo!",
+   "start": 18.3,
+   "end": 18.98
+  },
+  {
+   "w": "Hoje",
+   "start": 19.25,
+   "end": 19.65
+  },
+  {
+   "w": "é",
+   "start": 19.81,
+   "end": 19.89
+  },
+  {
+   "w": "Mito",
+   "start": 20.05,
+   "end": 20.45
+  },
+  {
+   "w": "versus",
+   "start": 20.53,
+   "end": 20.85
+  },
+  {
+   "w": "Realidade.",
+   "start": 20.93,
+   "end": 21.85
+  },
+  {
+   "w": "Sabe",
+   "start": 22.05,
+   "end": 22.21
+  },
+  {
+   "w": "aquela",
+   "start": 22.29,
+   "end": 22.53
+  },
+  {
+   "w": "cena?",
+   "start": 22.57,
+   "end": 22.93
+  },
+  {
+   "w": "Você",
+   "start": 23.25,
+   "end": 23.49
+  },
+  {
+   "w": "edita",
+   "start": 23.61,
+   "end": 23.81
+  },
+  {
+   "w": "dois",
+   "start": 23.97,
+   "end": 24.21
+  },
+  {
+   "w": "dias,",
+   "start": 24.29,
+   "end": 24.93
+  },
+  {
+   "w": "posta,",
+   "start": 25.17,
+   "end": 25.57
+  },
+  {
+   "w": "e",
+   "start": 25.61,
+   "end": 25.65
+  },
+  {
+   "w": "o",
+   "start": 25.69,
+   "end": 25.73
+  },
+  {
+   "w": "vídeo",
+   "start": 25.81,
+   "end": 26.05
+  },
+  {
+   "w": "trava",
+   "start": 26.09,
+   "end": 26.29
+  },
+  {
+   "w": "em",
+   "start": 26.37,
+   "end": 26.45
+  },
+  {
+   "w": "cinquenta",
+   "start": 26.57,
+   "end": 27.01
+  },
+  {
+   "w": "views.",
+   "start": 27.09,
+   "end": 27.57
+  },
+  {
+   "w": "Aí",
+   "start": 27.89,
+   "end": 28.05
+  },
+  {
+   "w": "alguém",
+   "start": 28.09,
+   "end": 28.29
+  },
+  {
+   "w": "fala:",
+   "start": 28.37,
+   "end": 28.69
+  },
+  {
+   "w": "é",
+   "start": 28.93,
+   "end": 28.97
+  },
+  {
+   "w": "o",
+   "start": 29.01,
+   "end": 29.05
+  },
+  {
+   "w": "algoritmo!",
+   "start": 29.09,
+   "end": 29.97
+  },
+  {
+   "w": "Ele",
+   "start": 30.13,
+   "end": 30.21
+  },
+  {
+   "w": "odeia",
+   "start": 30.29,
+   "end": 30.77
+  },
+  {
+   "w": "canal",
+   "start": 30.85,
+   "end": 31.01
+  },
+  {
+   "w": "pequeno!",
+   "start": 31.09,
+   "end": 31.65
+  },
+  {
+   "w": "Parece",
+   "start": 31.97,
+   "end": 32.37
+  },
+  {
+   "w": "vilão",
+   "start": 32.49,
+   "end": 32.69
+  },
+  {
+   "w": "de",
+   "start": 32.77,
+   "end": 32.85
+  },
+  {
+   "w": "desenho,",
+   "start": 33.01,
+   "end": 33.49
+  },
+  {
+   "w": "rindo",
+   "start": 33.53,
+   "end": 33.81
+  },
+  {
+   "w": "no",
+   "start": 33.85,
+   "end": 33.89
+  },
+  {
+   "w": "escuro...",
+   "start": 34.01,
+   "end": 35.09
+  },
+  {
+   "w": "Mas",
+   "start": 35.25,
+   "end": 35.41
+  },
+  {
+   "w": "eu",
+   "start": 35.49,
+   "end": 35.57
+  },
+  {
+   "w": "fui",
+   "start": 35.623,
+   "end": 35.73
+  },
+  {
+   "w": "direto",
+   "start": 35.89,
+   "end": 36.13
+  },
+  {
+   "w": "na",
+   "start": 36.21,
+   "end": 36.29
+  },
+  {
+   "w": "Central",
+   "start": 36.45,
+   "end": 36.61
+  },
+  {
+   "w": "de",
+   "start": 36.69,
+   "end": 36.73
+  },
+  {
+   "w": "Ajuda",
+   "start": 36.77,
+   "end": 37.01
+  },
+  {
+   "w": "do",
+   "start": 37.09,
+   "end": 37.17
+  },
+  {
+   "w": "YouTube.",
+   "start": 37.37,
+   "end": 37.65
+  },
+  {
+   "w": "Na",
+   "start": 37.97,
+   "end": 38.05
+  },
+  {
+   "w": "página",
+   "start": 38.13,
+   "end": 38.53
+  },
+  {
+   "w": "Sistema",
+   "start": 38.69,
+   "end": 39.25
+  },
+  {
+   "w": "de",
+   "start": 39.33,
+   "end": 39.37
+  },
+  {
+   "w": "recomendação",
+   "start": 39.41,
+   "end": 40.05
+  },
+  {
+   "w": "do",
+   "start": 40.13,
+   "end": 40.21
+  },
+  {
+   "w": "YouTube.",
+   "start": 40.45,
+   "end": 40.93
+  },
+  {
+   "w": "Tá",
+   "start": 41.2,
+   "end": 41.36
+  },
+  {
+   "w": "aqui.",
+   "start": 41.44,
+   "end": 41.68
+  },
+  {
+   "w": "Logo",
+   "start": 42.08,
+   "end": 42.32
+  },
+  {
+   "w": "no",
+   "start": 42.36,
+   "end": 42.4
+  },
+  {
+   "w": "começo,",
+   "start": 42.48,
+   "end": 43.2
+  },
+  {
+   "w": "o",
+   "start": 43.24,
+   "end": 43.28
+  },
+  {
+   "w": "YouTube",
+   "start": 43.48,
+   "end": 43.68
+  },
+  {
+   "w": "diz",
+   "start": 43.76,
+   "end": 44
+  },
+  {
+   "w": "que",
+   "start": 44.04,
+   "end": 44.08
+  },
+  {
+   "w": "o",
+   "start": 44.12,
+   "end": 44.16
+  },
+  {
+   "w": "algoritmo",
+   "start": 44.24,
+   "end": 44.8
+  },
+  {
+   "w": "tem",
+   "start": 44.88,
+   "end": 45.12
+  },
+  {
+   "w": "dois",
+   "start": 45.2,
+   "end": 45.32
+  },
+  {
+   "w": "objetivos.",
+   "start": 45.36,
+   "end": 46.24
+  },
+  {
+   "w": "Um:",
+   "start": 46.64,
+   "end": 47.28
+  },
+  {
+   "w": "ajudar",
+   "start": 47.36,
+   "end": 47.68
+  },
+  {
+   "w": "cada",
+   "start": 47.84,
+   "end": 48.08
+  },
+  {
+   "w": "pessoa",
+   "start": 48.16,
+   "end": 48.72
+  },
+  {
+   "w": "a",
+   "start": 48.8,
+   "end": 48.88
+  },
+  {
+   "w": "achar",
+   "start": 49,
+   "end": 49.2
+  },
+  {
+   "w": "os",
+   "start": 49.28,
+   "end": 49.36
+  },
+  {
+   "w": "vídeos",
+   "start": 49.44,
+   "end": 49.68
+  },
+  {
+   "w": "que",
+   "start": 49.76,
+   "end": 49.8
+  },
+  {
+   "w": "ela",
+   "start": 49.84,
+   "end": 49.92
+  },
+  {
+   "w": "quer",
+   "start": 50,
+   "end": 50.16
+  },
+  {
+   "w": "assistir.",
+   "start": 50.24,
+   "end": 50.8
+  },
+  {
+   "w": "Dois:",
+   "start": 51.36,
+   "end": 52.08
+  },
+  {
+   "w": "a",
+   "start": 52.12,
+   "end": 52.16
+  },
+  {
+   "w": "satisfação",
+   "start": 52.24,
+   "end": 52.88
+  },
+  {
+   "w": "de",
+   "start": 52.96,
+   "end": 53.04
+  },
+  {
+   "w": "longo",
+   "start": 53.12,
+   "end": 53.44
+  },
+  {
+   "w": "prazo",
+   "start": 53.52,
+   "end": 53.84
+  },
+  {
+   "w": "de",
+   "start": 53.88,
+   "end": 53.92
+  },
+  {
+   "w": "quem",
+   "start": 54,
+   "end": 54.08
+  },
+  {
+   "w": "assiste.",
+   "start": 54.16,
+   "end": 54.72
+  },
+  {
+   "w": "Repara:",
+   "start": 55.2,
+   "end": 56
+  },
+  {
+   "w": "não",
+   "start": 56.04,
+   "end": 56.16
+  },
+  {
+   "w": "tem",
+   "start": 56.24,
+   "end": 56.48
+  },
+  {
+   "w": "nada",
+   "start": 56.56,
+   "end": 56.88
+  },
+  {
+   "w": "sobre",
+   "start": 56.96,
+   "end": 57.12
+  },
+  {
+   "w": "o",
+   "start": 57.16,
+   "end": 57.2
+  },
+  {
+   "w": "tamanho",
+   "start": 57.28,
+   "end": 57.68
+  },
+  {
+   "w": "do",
+   "start": 57.72,
+   "end": 57.76
+  },
+  {
+   "w": "seu",
+   "start": 57.8,
+   "end": 57.92
+  },
+  {
+   "w": "canal.",
+   "start": 58,
+   "end": 58.64
+  },
+  {
+   "w": "Rapidinho:",
+   "start": 58.91,
+   "end": 59.79
+  },
+  {
+   "w": "se",
+   "start": 59.83,
+   "end": 59.87
+  },
+  {
+   "w": "você",
+   "start": 59.95,
+   "end": 60.19
+  },
+  {
+   "w": "também",
+   "start": 60.297,
+   "end": 60.59
+  },
+  {
+   "w": "tem",
+   "start": 60.67,
+   "end": 60.75
+  },
+  {
+   "w": "canal",
+   "start": 60.83,
+   "end": 60.99
+  },
+  {
+   "w": "pequeno,",
+   "start": 61.07,
+   "end": 61.71
+  },
+  {
+   "w": "deixa",
+   "start": 61.79,
+   "end": 61.95
+  },
+  {
+   "w": "o",
+   "start": 61.99,
+   "end": 62.03
+  },
+  {
+   "w": "like",
+   "start": 62.11,
+   "end": 62.43
+  },
+  {
+   "w": "e",
+   "start": 62.51,
+   "end": 62.59
+  },
+  {
+   "w": "se",
+   "start": 62.63,
+   "end": 62.67
+  },
+  {
+   "w": "inscreve",
+   "start": 62.79,
+   "end": 63.15
+  },
+  {
+   "w": "no",
+   "start": 63.19,
+   "end": 63.23
+  },
+  {
+   "w": "Aprenda",
+   "start": 63.31,
+   "end": 63.63
+  },
+  {
+   "w": "YouTube.",
+   "start": 63.87,
+   "end": 64.43
+  },
+  {
+   "w": "Aqui",
+   "start": 64.55,
+   "end": 64.91
+  },
+  {
+   "w": "é",
+   "start": 64.99,
+   "end": 65.07
+  },
+  {
+   "w": "o",
+   "start": 65.097,
+   "end": 65.123
+  },
+  {
+   "w": "laboratório",
+   "start": 65.15,
+   "end": 65.87
+  },
+  {
+   "w": "de",
+   "start": 65.95,
+   "end": 66.03
+  },
+  {
+   "w": "canal",
+   "start": 66.11,
+   "end": 66.27
+  },
+  {
+   "w": "pequeno.",
+   "start": 66.35,
+   "end": 67.07
+  },
+  {
+   "w": "Sem",
+   "start": 67.19,
+   "end": 67.31
+  },
+  {
+   "w": "pose",
+   "start": 67.39,
+   "end": 67.63
+  },
+  {
+   "w": "de",
+   "start": 67.67,
+   "end": 67.71
+  },
+  {
+   "w": "guru!",
+   "start": 67.79,
+   "end": 68.43
+  },
+  {
+   "w": "MITO",
+   "start": 68.7,
+   "end": 69.1
+  },
+  {
+   "w": "número",
+   "start": 69.14,
+   "end": 69.42
+  },
+  {
+   "w": "um:",
+   "start": 69.5,
+   "end": 70.06
+  },
+  {
+   "w": "o",
+   "start": 70.14,
+   "end": 70.18
+  },
+  {
+   "w": "algoritmo",
+   "start": 70.22,
+   "end": 70.94
+  },
+  {
+   "w": "odeia",
+   "start": 71.18,
+   "end": 71.5
+  },
+  {
+   "w": "o",
+   "start": 71.58,
+   "end": 71.607
+  },
+  {
+   "w": "meu",
+   "start": 71.633,
+   "end": 71.74
+  },
+  {
+   "w": "canal.",
+   "start": 71.82,
+   "end": 72.22
+  },
+  {
+   "w": "A",
+   "start": 72.62,
+   "end": 72.66
+  },
+  {
+   "w": "realidade?",
+   "start": 72.7,
+   "end": 73.54
+  },
+  {
+   "w": "Tá",
+   "start": 73.74,
+   "end": 73.9
+  },
+  {
+   "w": "escrito",
+   "start": 73.98,
+   "end": 74.3
+  },
+  {
+   "w": "com",
+   "start": 74.42,
+   "end": 74.54
+  },
+  {
+   "w": "todas",
+   "start": 74.62,
+   "end": 74.86
+  },
+  {
+   "w": "as",
+   "start": 74.94,
+   "end": 75.02
+  },
+  {
+   "w": "letras:",
+   "start": 75.1,
+   "end": 75.82
+  },
+  {
+   "w": "o",
+   "start": 75.86,
+   "end": 75.9
+  },
+  {
+   "w": "algoritmo",
+   "start": 75.98,
+   "end": 76.62
+  },
+  {
+   "w": "segue",
+   "start": 76.7,
+   "end": 77.02
+  },
+  {
+   "w": "o",
+   "start": 77.1,
+   "end": 77.18
+  },
+  {
+   "w": "público.",
+   "start": 77.22,
+   "end": 78.14
+  },
+  {
+   "w": "Em",
+   "start": 78.18,
+   "end": 78.22
+  },
+  {
+   "w": "vez",
+   "start": 78.3,
+   "end": 78.38
+  },
+  {
+   "w": "de",
+   "start": 78.46,
+   "end": 78.54
+  },
+  {
+   "w": "perguntar",
+   "start": 78.62,
+   "end": 79.02
+  },
+  {
+   "w": "se",
+   "start": 79.06,
+   "end": 79.1
+  },
+  {
+   "w": "o",
+   "start": 79.14,
+   "end": 79.18
+  },
+  {
+   "w": "algoritmo",
+   "start": 79.22,
+   "end": 79.82
+  },
+  {
+   "w": "gosta",
+   "start": 79.953,
+   "end": 80.22
+  },
+  {
+   "w": "do",
+   "start": 80.26,
+   "end": 80.3
+  },
+  {
+   "w": "seu",
+   "start": 80.34,
+   "end": 80.46
+  },
+  {
+   "w": "conteúdo,",
+   "start": 80.54,
+   "end": 81.26
+  },
+  {
+   "w": "a",
+   "start": 81.3,
+   "end": 81.34
+  },
+  {
+   "w": "pergunta",
+   "start": 81.42,
+   "end": 81.74
+  },
+  {
+   "w": "certa",
+   "start": 81.9,
+   "end": 82.3
+  },
+  {
+   "w": "é:",
+   "start": 82.38,
+   "end": 82.86
+  },
+  {
+   "w": "meu",
+   "start": 82.9,
+   "end": 83.1
+  },
+  {
+   "w": "público",
+   "start": 83.14,
+   "end": 83.58
+  },
+  {
+   "w": "gosta",
+   "start": 83.62,
+   "end": 83.9
+  },
+  {
+   "w": "disso?",
+   "start": 83.98,
+   "end": 84.62
+  },
+  {
+   "w": "E",
+   "start": 84.89,
+   "end": 84.93
+  },
+  {
+   "w": "tem",
+   "start": 84.97,
+   "end": 85.157
+  },
+  {
+   "w": "mais!",
+   "start": 85.21,
+   "end": 85.61
+  },
+  {
+   "w": "A",
+   "start": 85.77,
+   "end": 85.93
+  },
+  {
+   "w": "página",
+   "start": 86.01,
+   "end": 86.41
+  },
+  {
+   "w": "compara",
+   "start": 86.49,
+   "end": 86.81
+  },
+  {
+   "w": "o",
+   "start": 86.85,
+   "end": 86.89
+  },
+  {
+   "w": "algoritmo",
+   "start": 86.93,
+   "end": 87.53
+  },
+  {
+   "w": "com",
+   "start": 87.57,
+   "end": 87.61
+  },
+  {
+   "w": "você",
+   "start": 87.69,
+   "end": 87.93
+  },
+  {
+   "w": "indicando",
+   "start": 88.09,
+   "end": 88.41
+  },
+  {
+   "w": "um",
+   "start": 88.49,
+   "end": 88.57
+  },
+  {
+   "w": "filme",
+   "start": 88.65,
+   "end": 88.89
+  },
+  {
+   "w": "pra",
+   "start": 88.97,
+   "end": 89.05
+  },
+  {
+   "w": "um",
+   "start": 89.09,
+   "end": 89.13
+  },
+  {
+   "w": "amigo.",
+   "start": 89.25,
+   "end": 89.77
+  },
+  {
+   "w": "Um",
+   "start": 89.93,
+   "end": 90.01
+  },
+  {
+   "w": "boca",
+   "start": 90.09,
+   "end": 90.33
+  },
+  {
+   "w": "a",
+   "start": 90.37,
+   "end": 90.41
+  },
+  {
+   "w": "boca",
+   "start": 90.49,
+   "end": 90.65
+  },
+  {
+   "w": "automático,",
+   "start": 90.85,
+   "end": 91.61
+  },
+  {
+   "w": "em",
+   "start": 91.69,
+   "end": 91.77
+  },
+  {
+   "w": "escala",
+   "start": 91.89,
+   "end": 92.17
+  },
+  {
+   "w": "gigante!",
+   "start": 92.33,
+   "end": 93.05
+  },
+  {
+   "w": "Quem",
+   "start": 93.45,
+   "end": 93.53
+  },
+  {
+   "w": "assistiu",
+   "start": 93.61,
+   "end": 93.93
+  },
+  {
+   "w": "o",
+   "start": 93.97,
+   "end": 94.01
+  },
+  {
+   "w": "vídeo",
+   "start": 94.09,
+   "end": 94.41
+  },
+  {
+   "w": "A",
+   "start": 94.49,
+   "end": 94.65
+  },
+  {
+   "w": "também",
+   "start": 94.81,
+   "end": 95.21
+  },
+  {
+   "w": "assistiu",
+   "start": 95.37,
+   "end": 95.61
+  },
+  {
+   "w": "o",
+   "start": 95.637,
+   "end": 95.663
+  },
+  {
+   "w": "B.",
+   "start": 95.69,
+   "end": 96.17
+  },
+  {
+   "w": "Então",
+   "start": 96.41,
+   "end": 96.65
+  },
+  {
+   "w": "a",
+   "start": 96.69,
+   "end": 96.73
+  },
+  {
+   "w": "pergunta",
+   "start": 96.81,
+   "end": 97.21
+  },
+  {
+   "w": "não",
+   "start": 97.29,
+   "end": 97.37
+  },
+  {
+   "w": "é",
+   "start": 97.45,
+   "end": 97.61
+  },
+  {
+   "w": "quantos",
+   "start": 97.73,
+   "end": 98.01
+  },
+  {
+   "w": "inscritos",
+   "start": 98.09,
+   "end": 98.49
+  },
+  {
+   "w": "eu",
+   "start": 98.57,
+   "end": 98.65
+  },
+  {
+   "w": "tenho.",
+   "start": 98.73,
+   "end": 99.29
+  },
+  {
+   "w": "É:",
+   "start": 99.45,
+   "end": 99.77
+  },
+  {
+   "w": "quem",
+   "start": 99.93,
+   "end": 100.01
+  },
+  {
+   "w": "gostou",
+   "start": 100.09,
+   "end": 100.41
+  },
+  {
+   "w": "daquele",
+   "start": 100.53,
+   "end": 100.89
+  },
+  {
+   "w": "vídeo",
+   "start": 100.97,
+   "end": 101.37
+  },
+  {
+   "w": "vai",
+   "start": 101.53,
+   "end": 101.61
+  },
+  {
+   "w": "gostar",
+   "start": 101.69,
+   "end": 101.93
+  },
+  {
+   "w": "do",
+   "start": 101.97,
+   "end": 102.01
+  },
+  {
+   "w": "meu?",
+   "start": 102.09,
+   "end": 102.57
+  },
+  {
+   "w": "E",
+   "start": 102.84,
+   "end": 102.92
+  },
+  {
+   "w": "eu",
+   "start": 103,
+   "end": 103.12
+  },
+  {
+   "w": "vi",
+   "start": 103.16,
+   "end": 103.34
+  },
+  {
+   "w": "isso",
+   "start": 103.4,
+   "end": 103.6
+  },
+  {
+   "w": "no",
+   "start": 103.64,
+   "end": 103.7
+  },
+  {
+   "w": "meu",
+   "start": 103.72,
+   "end": 103.88
+  },
+  {
+   "w": "canal!",
+   "start": 103.96,
+   "end": 104.6
+  },
+  {
+   "w": "Nos",
+   "start": 105,
+   "end": 105.16
+  },
+  {
+   "w": "últimos",
+   "start": 105.2,
+   "end": 105.56
+  },
+  {
+   "w": "vinte",
+   "start": 105.64,
+   "end": 105.8
+  },
+  {
+   "w": "e",
+   "start": 105.84,
+   "end": 105.88
+  },
+  {
+   "w": "oito",
+   "start": 105.92,
+   "end": 106.04
+  },
+  {
+   "w": "dias,",
+   "start": 106.2,
+   "end": 106.76
+  },
+  {
+   "w": "duas",
+   "start": 106.8,
+   "end": 107
+  },
+  {
+   "w": "mil",
+   "start": 107.24,
+   "end": 107.32
+  },
+  {
+   "w": "e",
+   "start": 107.4,
+   "end": 107.48
+  },
+  {
+   "w": "trezentas",
+   "start": 107.56,
+   "end": 108.12
+  },
+  {
+   "w": "pessoas",
+   "start": 108.16,
+   "end": 108.52
+  },
+  {
+   "w": "assistiram.",
+   "start": 108.6,
+   "end": 109.24
+  },
+  {
+   "w": "E",
+   "start": 109.56,
+   "end": 109.64
+  },
+  {
+   "w": "noventa",
+   "start": 109.76,
+   "end": 110.12
+  },
+  {
+   "w": "e",
+   "start": 110.2,
+   "end": 110.24
+  },
+  {
+   "w": "oito",
+   "start": 110.28,
+   "end": 110.44
+  },
+  {
+   "w": "vírgula",
+   "start": 110.52,
+   "end": 110.76
+  },
+  {
+   "w": "dois",
+   "start": 110.92,
+   "end": 111.08
+  },
+  {
+   "w": "por",
+   "start": 111.16,
+   "end": 111.32
+  },
+  {
+   "w": "cento",
+   "start": 111.44,
+   "end": 111.64
+  },
+  {
+   "w": "eram",
+   "start": 111.8,
+   "end": 111.96
+  },
+  {
+   "w": "espectadores",
+   "start": 112.04,
+   "end": 112.68
+  },
+  {
+   "w": "novos.",
+   "start": 112.76,
+   "end": 113.4
+  },
+  {
+   "w": "Gente",
+   "start": 113.56,
+   "end": 113.8
+  },
+  {
+   "w": "que",
+   "start": 113.88,
+   "end": 113.96
+  },
+  {
+   "w": "nunca",
+   "start": 114.04,
+   "end": 114.28
+  },
+  {
+   "w": "tinha",
+   "start": 114.36,
+   "end": 114.52
+  },
+  {
+   "w": "me",
+   "start": 114.6,
+   "end": 114.68
+  },
+  {
+   "w": "visto!",
+   "start": 114.72,
+   "end": 115.16
+  },
+  {
+   "w": "Eu",
+   "start": 115.48,
+   "end": 115.56
+  },
+  {
+   "w": "ganhei",
+   "start": 115.64,
+   "end": 115.96
+  },
+  {
+   "w": "vinte",
+   "start": 116.04,
+   "end": 116.28
+  },
+  {
+   "w": "e",
+   "start": 116.36,
+   "end": 116.44
+  },
+  {
+   "w": "seis",
+   "start": 116.52,
+   "end": 116.68
+  },
+  {
+   "w": "inscritos.",
+   "start": 116.76,
+   "end": 117.56
+  },
+  {
+   "w": "Eu",
+   "start": 117.96,
+   "end": 118.12
+  },
+  {
+   "w": "sei...",
+   "start": 118.2,
+   "end": 118.92
+  },
+  {
+   "w": "esse",
+   "start": 119,
+   "end": 119.08
+  },
+  {
+   "w": "número",
+   "start": 119.16,
+   "end": 119.4
+  },
+  {
+   "w": "pode",
+   "start": 119.44,
+   "end": 119.64
+  },
+  {
+   "w": "não",
+   "start": 119.667,
+   "end": 119.72
+  },
+  {
+   "w": "ser",
+   "start": 119.8,
+   "end": 119.96
+  },
+  {
+   "w": "grande",
+   "start": 120,
+   "end": 120.2
+  },
+  {
+   "w": "coisa",
+   "start": 120.28,
+   "end": 120.52
+  },
+  {
+   "w": "pra",
+   "start": 120.6,
+   "end": 120.68
+  },
+  {
+   "w": "você.",
+   "start": 120.72,
+   "end": 121.16
+  },
+  {
+   "w": "Mas",
+   "start": 121.56,
+   "end": 121.64
+  },
+  {
+   "w": "foi",
+   "start": 121.72,
+   "end": 121.84
+  },
+  {
+   "w": "duzentos",
+   "start": 121.88,
+   "end": 122.44
+  },
+  {
+   "w": "e",
+   "start": 122.52,
+   "end": 122.6
+  },
+  {
+   "w": "vinte",
+   "start": 122.68,
+   "end": 122.84
+  },
+  {
+   "w": "e",
+   "start": 122.92,
+   "end": 123
+  },
+  {
+   "w": "cinco",
+   "start": 123.04,
+   "end": 123.16
+  },
+  {
+   "w": "por",
+   "start": 123.24,
+   "end": 123.4
+  },
+  {
+   "w": "cento",
+   "start": 123.48,
+   "end": 123.6
+  },
+  {
+   "w": "a",
+   "start": 123.64,
+   "end": 123.72
+  },
+  {
+   "w": "mais",
+   "start": 123.88,
+   "end": 124.2
+  },
+  {
+   "w": "que",
+   "start": 124.24,
+   "end": 124.28
+  },
+  {
+   "w": "nos",
+   "start": 124.36,
+   "end": 124.52
+  },
+  {
+   "w": "vinte",
+   "start": 124.6,
+   "end": 124.76
+  },
+  {
+   "w": "e",
+   "start": 124.84,
+   "end": 124.88
+  },
+  {
+   "w": "oito",
+   "start": 124.92,
+   "end": 125
+  },
+  {
+   "w": "dias",
+   "start": 125.16,
+   "end": 125.32
+  },
+  {
+   "w": "anteriores.",
+   "start": 125.44,
+   "end": 126.04
+  },
+  {
+   "w": "Tem",
+   "start": 126.36,
+   "end": 126.44
+  },
+  {
+   "w": "noção",
+   "start": 126.56,
+   "end": 126.84
+  },
+  {
+   "w": "disso?",
+   "start": 126.92,
+   "end": 127.48
+  },
+  {
+   "w": "O",
+   "start": 127.72,
+   "end": 127.8
+  },
+  {
+   "w": "algoritmo",
+   "start": 127.84,
+   "end": 128.28
+  },
+  {
+   "w": "levou",
+   "start": 128.36,
+   "end": 128.52
+  },
+  {
+   "w": "um",
+   "start": 128.56,
+   "end": 128.6
+  },
+  {
+   "w": "canal",
+   "start": 128.68,
+   "end": 128.84
+  },
+  {
+   "w": "pequeno",
+   "start": 128.92,
+   "end": 129.48
+  },
+  {
+   "w": "pra",
+   "start": 129.64,
+   "end": 129.8
+  },
+  {
+   "w": "gente",
+   "start": 129.88,
+   "end": 130.12
+  },
+  {
+   "w": "nova.",
+   "start": 130.28,
+   "end": 130.92
+  },
+  {
+   "w": "Cadê",
+   "start": 131.16,
+   "end": 131.347
+  },
+  {
+   "w": "o",
+   "start": 131.373,
+   "end": 131.4
+  },
+  {
+   "w": "vilão?",
+   "start": 131.48,
+   "end": 132.04
+  },
+  {
+   "w": "MITO",
+   "start": 132.31,
+   "end": 132.71
+  },
+  {
+   "w": "número",
+   "start": 132.75,
+   "end": 133.03
+  },
+  {
+   "w": "dois:",
+   "start": 133.11,
+   "end": 133.83
+  },
+  {
+   "w": "tem",
+   "start": 133.91,
+   "end": 133.99
+  },
+  {
+   "w": "que",
+   "start": 134.03,
+   "end": 134.07
+  },
+  {
+   "w": "postar",
+   "start": 134.15,
+   "end": 134.63
+  },
+  {
+   "w": "todo",
+   "start": 134.71,
+   "end": 135.03
+  },
+  {
+   "w": "dia,",
+   "start": 135.19,
+   "end": 135.51
+  },
+  {
+   "w": "e",
+   "start": 135.55,
+   "end": 135.59
+  },
+  {
+   "w": "se",
+   "start": 135.67,
+   "end": 135.83
+  },
+  {
+   "w": "parar,",
+   "start": 135.95,
+   "end": 136.39
+  },
+  {
+   "w": "o",
+   "start": 136.43,
+   "end": 136.47
+  },
+  {
+   "w": "algoritmo",
+   "start": 136.55,
+   "end": 137.03
+  },
+  {
+   "w": "te",
+   "start": 137.11,
+   "end": 137.19
+  },
+  {
+   "w": "castiga.",
+   "start": 137.39,
+   "end": 138.31
+  },
+  {
+   "w": "Olha",
+   "start": 138.39,
+   "end": 138.497
+  },
+  {
+   "w": "o",
+   "start": 138.523,
+   "end": 138.55
+  },
+  {
+   "w": "que",
+   "start": 138.577,
+   "end": 138.603
+  },
+  {
+   "w": "a",
+   "start": 138.63,
+   "end": 138.71
+  },
+  {
+   "w": "página",
+   "start": 138.817,
+   "end": 139.03
+  },
+  {
+   "w": "diz:",
+   "start": 139.11,
+   "end": 139.83
+  },
+  {
+   "w": "qualidade",
+   "start": 139.95,
+   "end": 140.63
+  },
+  {
+   "w": "é",
+   "start": 140.75,
+   "end": 140.87
+  },
+  {
+   "w": "mais",
+   "start": 140.95,
+   "end": 141.11
+  },
+  {
+   "w": "importante",
+   "start": 141.19,
+   "end": 141.75
+  },
+  {
+   "w": "do",
+   "start": 141.79,
+   "end": 141.83
+  },
+  {
+   "w": "que",
+   "start": 141.91,
+   "end": 141.99
+  },
+  {
+   "w": "quantidade.",
+   "start": 142.07,
+   "end": 143.03
+  },
+  {
+   "w": "E",
+   "start": 143.11,
+   "end": 143.19
+  },
+  {
+   "w": "mais!",
+   "start": 143.27,
+   "end": 143.91
+  },
+  {
+   "w": "Fazer",
+   "start": 144.017,
+   "end": 144.23
+  },
+  {
+   "w": "pausas",
+   "start": 144.31,
+   "end": 144.79
+  },
+  {
+   "w": "faz",
+   "start": 144.83,
+   "end": 145.11
+  },
+  {
+   "w": "parte,",
+   "start": 145.27,
+   "end": 145.67
+  },
+  {
+   "w": "e",
+   "start": 145.71,
+   "end": 145.75
+  },
+  {
+   "w": "o",
+   "start": 145.777,
+   "end": 145.803
+  },
+  {
+   "w": "algoritmo",
+   "start": 145.83,
+   "end": 146.47
+  },
+  {
+   "w": "NÃO",
+   "start": 146.55,
+   "end": 146.79
+  },
+  {
+   "w": "penaliza",
+   "start": 146.87,
+   "end": 147.27
+  },
+  {
+   "w": "os",
+   "start": 147.31,
+   "end": 147.35
+  },
+  {
+   "w": "criadores",
+   "start": 147.43,
+   "end": 147.83
+  },
+  {
+   "w": "por",
+   "start": 147.91,
+   "end": 147.99
+  },
+  {
+   "w": "isso!",
+   "start": 148.11,
+   "end": 148.55
+  },
+  {
+   "w": "Traduzindo:",
+   "start": 148.82,
+   "end": 149.54
+  },
+  {
+   "w": "postar",
+   "start": 149.78,
+   "end": 150.18
+  },
+  {
+   "w": "todo",
+   "start": 150.34,
+   "end": 150.58
+  },
+  {
+   "w": "dia,",
+   "start": 150.66,
+   "end": 151.22
+  },
+  {
+   "w": "morto",
+   "start": 151.3,
+   "end": 151.66
+  },
+  {
+   "w": "de",
+   "start": 151.7,
+   "end": 151.78
+  },
+  {
+   "w": "cansaço,",
+   "start": 151.82,
+   "end": 152.66
+  },
+  {
+   "w": "não",
+   "start": 152.74,
+   "end": 152.9
+  },
+  {
+   "w": "é",
+   "start": 152.98,
+   "end": 153.02
+  },
+  {
+   "w": "estratégia.",
+   "start": 153.06,
+   "end": 153.78
+  },
+  {
+   "w": "É",
+   "start": 154.18,
+   "end": 154.26
+  },
+  {
+   "w": "o",
+   "start": 154.3,
+   "end": 154.34
+  },
+  {
+   "w": "Goku",
+   "start": 154.38,
+   "end": 154.66
+  },
+  {
+   "w": "treinando",
+   "start": 154.74,
+   "end": 155.06
+  },
+  {
+   "w": "sem",
+   "start": 155.14,
+   "end": 155.22
+  },
+  {
+   "w": "comer.",
+   "start": 155.3,
+   "end": 155.7
+  },
+  {
+   "w": "Uma",
+   "start": 155.94,
+   "end": 156.1
+  },
+  {
+   "w": "hora",
+   "start": 156.18,
+   "end": 156.26
+  },
+  {
+   "w": "ele",
+   "start": 156.34,
+   "end": 156.5
+  },
+  {
+   "w": "cai!",
+   "start": 156.66,
+   "end": 156.98
+  },
+  {
+   "w": "A",
+   "start": 157.46,
+   "end": 157.54
+  },
+  {
+   "w": "dica",
+   "start": 157.58,
+   "end": 157.7
+  },
+  {
+   "w": "oficial",
+   "start": 157.78,
+   "end": 158.34
+  },
+  {
+   "w": "é",
+   "start": 158.5,
+   "end": 158.54
+  },
+  {
+   "w": "constância",
+   "start": 158.58,
+   "end": 159.3
+  },
+  {
+   "w": "que",
+   "start": 159.34,
+   "end": 159.38
+  },
+  {
+   "w": "seja",
+   "start": 159.46,
+   "end": 159.7
+  },
+  {
+   "w": "sustentável",
+   "start": 159.86,
+   "end": 160.66
+  },
+  {
+   "w": "pra",
+   "start": 160.74,
+   "end": 160.82
+  },
+  {
+   "w": "você.",
+   "start": 160.86,
+   "end": 161.3
+  },
+  {
+   "w": "E",
+   "start": 161.62,
+   "end": 161.7
+  },
+  {
+   "w": "se",
+   "start": 161.74,
+   "end": 161.78
+  },
+  {
+   "w": "for",
+   "start": 161.86,
+   "end": 161.94
+  },
+  {
+   "w": "tirar",
+   "start": 162.02,
+   "end": 162.26
+  },
+  {
+   "w": "folga,",
+   "start": 162.34,
+   "end": 162.9
+  },
+  {
+   "w": "avisa",
+   "start": 163.02,
+   "end": 163.3
+  },
+  {
+   "w": "o",
+   "start": 163.34,
+   "end": 163.38
+  },
+  {
+   "w": "seu",
+   "start": 163.42,
+   "end": 163.54
+  },
+  {
+   "w": "público.",
+   "start": 163.62,
+   "end": 164.1
+  },
+  {
+   "w": "Na",
+   "start": 164.42,
+   "end": 164.5
+  },
+  {
+   "w": "volta,",
+   "start": 164.58,
+   "end": 165.06
+  },
+  {
+   "w": "fica",
+   "start": 165.1,
+   "end": 165.3
+  },
+  {
+   "w": "mais",
+   "start": 165.38,
+   "end": 165.62
+  },
+  {
+   "w": "fácil",
+   "start": 165.7,
+   "end": 166.02
+  },
+  {
+   "w": "reengajar",
+   "start": 166.06,
+   "end": 166.5
+  },
+  {
+   "w": "a",
+   "start": 166.54,
+   "end": 166.58
+  },
+  {
+   "w": "galera.",
+   "start": 166.7,
+   "end": 167.3
+  },
+  {
+   "w": "MITO",
+   "start": 167.57,
+   "end": 167.97
+  },
+  {
+   "w": "número",
+   "start": 168.01,
+   "end": 168.21
+  },
+  {
+   "w": "três:",
+   "start": 168.37,
+   "end": 169.17
+  },
+  {
+   "w": "um",
+   "start": 169.25,
+   "end": 169.33
+  },
+  {
+   "w": "vídeo",
+   "start": 169.41,
+   "end": 169.57
+  },
+  {
+   "w": "flopado",
+   "start": 169.65,
+   "end": 170.29
+  },
+  {
+   "w": "afunda",
+   "start": 170.45,
+   "end": 170.77
+  },
+  {
+   "w": "o",
+   "start": 170.81,
+   "end": 170.85
+  },
+  {
+   "w": "canal",
+   "start": 170.93,
+   "end": 171.25
+  },
+  {
+   "w": "inteiro.",
+   "start": 171.45,
+   "end": 171.89
+  },
+  {
+   "w": "Realidade:",
+   "start": 172.29,
+   "end": 173.33
+  },
+  {
+   "w": "o",
+   "start": 173.37,
+   "end": 173.41
+  },
+  {
+   "w": "algoritmo",
+   "start": 173.49,
+   "end": 174.13
+  },
+  {
+   "w": "usa",
+   "start": 174.25,
+   "end": 174.37
+  },
+  {
+   "w": "os",
+   "start": 174.45,
+   "end": 174.53
+  },
+  {
+   "w": "dados",
+   "start": 174.69,
+   "end": 174.85
+  },
+  {
+   "w": "recentes",
+   "start": 175.09,
+   "end": 175.49
+  },
+  {
+   "w": "de",
+   "start": 175.61,
+   "end": 175.73
+  },
+  {
+   "w": "CADA",
+   "start": 175.81,
+   "end": 175.97
+  },
+  {
+   "w": "vídeo,",
+   "start": 176.13,
+   "end": 176.61
+  },
+  {
+   "w": "e",
+   "start": 176.65,
+   "end": 176.69
+  },
+  {
+   "w": "não",
+   "start": 176.85,
+   "end": 176.93
+  },
+  {
+   "w": "os",
+   "start": 177.01,
+   "end": 177.09
+  },
+  {
+   "w": "resultados",
+   "start": 177.25,
+   "end": 177.57
+  },
+  {
+   "w": "anteriores.",
+   "start": 177.65,
+   "end": 178.77
+  },
+  {
+   "w": "Um",
+   "start": 178.85,
+   "end": 178.93
+  },
+  {
+   "w": "único",
+   "start": 179.01,
+   "end": 179.17
+  },
+  {
+   "w": "experimento",
+   "start": 179.45,
+   "end": 179.81
+  },
+  {
+   "w": "que",
+   "start": 179.85,
+   "end": 179.89
+  },
+  {
+   "w": "não",
+   "start": 180.05,
+   "end": 180.13
+  },
+  {
+   "w": "deu",
+   "start": 180.21,
+   "end": 180.37
+  },
+  {
+   "w": "certo",
+   "start": 180.45,
+   "end": 180.93
+  },
+  {
+   "w": "não",
+   "start": 181.01,
+   "end": 181.17
+  },
+  {
+   "w": "vai,",
+   "start": 181.25,
+   "end": 181.517
+  },
+  {
+   "w": "necessariamente,",
+   "start": 181.543,
+   "end": 182.41
+  },
+  {
+   "w": "limitar",
+   "start": 182.45,
+   "end": 182.85
+  },
+  {
+   "w": "o",
+   "start": 182.89,
+   "end": 182.93
+  },
+  {
+   "w": "seu",
+   "start": 182.97,
+   "end": 183.09
+  },
+  {
+   "w": "canal.",
+   "start": 183.17,
+   "end": 183.65
+  },
+  {
+   "w": "Ou",
+   "start": 183.92,
+   "end": 184.08
+  },
+  {
+   "w": "seja:",
+   "start": 184.16,
+   "end": 184.64
+  },
+  {
+   "w": "o",
+   "start": 184.88,
+   "end": 184.96
+  },
+  {
+   "w": "vídeo",
+   "start": 185.04,
+   "end": 185.28
+  },
+  {
+   "w": "de",
+   "start": 185.36,
+   "end": 185.44
+  },
+  {
+   "w": "quarenta",
+   "start": 185.48,
+   "end": 185.92
+  },
+  {
+   "w": "views",
+   "start": 186,
+   "end": 186.4
+  },
+  {
+   "w": "não",
+   "start": 186.56,
+   "end": 186.8
+  },
+  {
+   "w": "é",
+   "start": 186.88,
+   "end": 186.96
+  },
+  {
+   "w": "uma",
+   "start": 187.04,
+   "end": 187.12
+  },
+  {
+   "w": "maldição",
+   "start": 187.16,
+   "end": 187.6
+  },
+  {
+   "w": "eterna!",
+   "start": 187.72,
+   "end": 188.32
+  },
+  {
+   "w": "Cada",
+   "start": 188.72,
+   "end": 188.96
+  },
+  {
+   "w": "vídeo",
+   "start": 189.12,
+   "end": 189.44
+  },
+  {
+   "w": "ganha",
+   "start": 189.52,
+   "end": 189.68
+  },
+  {
+   "w": "a",
+   "start": 189.707,
+   "end": 189.733
+  },
+  {
+   "w": "sua",
+   "start": 189.76,
+   "end": 190
+  },
+  {
+   "w": "própria",
+   "start": 190.08,
+   "end": 190.4
+  },
+  {
+   "w": "chance.",
+   "start": 190.48,
+   "end": 191.16
+  },
+  {
+   "w": "Mas",
+   "start": 191.36,
+   "end": 191.76
+  },
+  {
+   "w": "tem",
+   "start": 191.84,
+   "end": 191.92
+  },
+  {
+   "w": "um",
+   "start": 192,
+   "end": 192.08
+  },
+  {
+   "w": "porém,",
+   "start": 192.2,
+   "end": 192.72
+  },
+  {
+   "w": "e",
+   "start": 192.76,
+   "end": 192.8
+  },
+  {
+   "w": "eu",
+   "start": 192.84,
+   "end": 192.88
+  },
+  {
+   "w": "não",
+   "start": 192.96,
+   "end": 193.04
+  },
+  {
+   "w": "vou",
+   "start": 193.067,
+   "end": 193.12
+  },
+  {
+   "w": "esconder.",
+   "start": 193.2,
+   "end": 193.68
+  },
+  {
+   "w": "Se",
+   "start": 194.16,
+   "end": 194.24
+  },
+  {
+   "w": "você",
+   "start": 194.28,
+   "end": 194.48
+  },
+  {
+   "w": "posta",
+   "start": 194.56,
+   "end": 194.8
+  },
+  {
+   "w": "com",
+   "start": 194.88,
+   "end": 194.96
+  },
+  {
+   "w": "frequência",
+   "start": 195,
+   "end": 195.52
+  },
+  {
+   "w": "coisa",
+   "start": 195.6,
+   "end": 195.84
+  },
+  {
+   "w": "que",
+   "start": 195.92,
+   "end": 196
+  },
+  {
+   "w": "não",
+   "start": 196.16,
+   "end": 196.32
+  },
+  {
+   "w": "interessa",
+   "start": 196.48,
+   "end": 196.8
+  },
+  {
+   "w": "ao",
+   "start": 196.84,
+   "end": 196.88
+  },
+  {
+   "w": "público,",
+   "start": 196.96,
+   "end": 197.6
+  },
+  {
+   "w": "com",
+   "start": 197.68,
+   "end": 197.76
+  },
+  {
+   "w": "o",
+   "start": 197.8,
+   "end": 197.84
+  },
+  {
+   "w": "tempo,",
+   "start": 197.92,
+   "end": 198.4
+  },
+  {
+   "w": "isso",
+   "start": 198.48,
+   "end": 198.64
+  },
+  {
+   "w": "pode",
+   "start": 198.8,
+   "end": 198.96
+  },
+  {
+   "w": "afetar",
+   "start": 199.04,
+   "end": 199.28
+  },
+  {
+   "w": "o",
+   "start": 199.36,
+   "end": 199.4
+  },
+  {
+   "w": "canal.",
+   "start": 199.44,
+   "end": 199.84
+  },
+  {
+   "w": "Testar,",
+   "start": 200.32,
+   "end": 200.96
+  },
+  {
+   "w": "pode.",
+   "start": 201,
+   "end": 201.44
+  },
+  {
+   "w": "Teimar",
+   "start": 201.68,
+   "end": 202.08
+  },
+  {
+   "w": "no",
+   "start": 202.12,
+   "end": 202.16
+  },
+  {
+   "w": "que",
+   "start": 202.24,
+   "end": 202.28
+  },
+  {
+   "w": "não",
+   "start": 202.32,
+   "end": 202.4
+  },
+  {
+   "w": "funciona,",
+   "start": 202.48,
+   "end": 203.28
+  },
+  {
+   "w": "não!",
+   "start": 203.32,
+   "end": 203.84
+  },
+  {
+   "w": "MITO",
+   "start": 204.11,
+   "end": 204.47
+  },
+  {
+   "w": "número",
+   "start": 204.51,
+   "end": 204.75
+  },
+  {
+   "w": "quatro:",
+   "start": 204.83,
+   "end": 205.63
+  },
+  {
+   "w": "só",
+   "start": 205.79,
+   "end": 205.95
+  },
+  {
+   "w": "view",
+   "start": 206.11,
+   "end": 206.35
+  },
+  {
+   "w": "importa.",
+   "start": 206.63,
+   "end": 207.07
+  },
+  {
+   "w": "A",
+   "start": 207.47,
+   "end": 207.55
+  },
+  {
+   "w": "realidade:",
+   "start": 207.67,
+   "end": 208.67
+  },
+  {
+   "w": "o",
+   "start": 208.71,
+   "end": 208.75
+  },
+  {
+   "w": "YouTube",
+   "start": 208.83,
+   "end": 209.23
+  },
+  {
+   "w": "olha",
+   "start": 209.31,
+   "end": 209.55
+  },
+  {
+   "w": "quanto",
+   "start": 209.59,
+   "end": 209.87
+  },
+  {
+   "w": "tempo",
+   "start": 210.03,
+   "end": 210.43
+  },
+  {
+   "w": "e",
+   "start": 210.51,
+   "end": 210.59
+  },
+  {
+   "w": "que",
+   "start": 210.71,
+   "end": 210.83
+  },
+  {
+   "w": "parte",
+   "start": 210.99,
+   "end": 211.19
+  },
+  {
+   "w": "do",
+   "start": 211.23,
+   "end": 211.31
+  },
+  {
+   "w": "vídeo",
+   "start": 211.39,
+   "end": 211.63
+  },
+  {
+   "w": "a",
+   "start": 211.67,
+   "end": 211.71
+  },
+  {
+   "w": "pessoa",
+   "start": 211.75,
+   "end": 212.03
+  },
+  {
+   "w": "assiste.",
+   "start": 212.15,
+   "end": 212.91
+  },
+  {
+   "w": "Olha",
+   "start": 212.95,
+   "end": 213.07
+  },
+  {
+   "w": "as",
+   "start": 213.11,
+   "end": 213.15
+  },
+  {
+   "w": "curtidas,",
+   "start": 213.23,
+   "end": 213.99
+  },
+  {
+   "w": "os",
+   "start": 214.03,
+   "end": 214.11
+  },
+  {
+   "w": "compartilhamentos,",
+   "start": 214.19,
+   "end": 215.23
+  },
+  {
+   "w": "os",
+   "start": 215.31,
+   "end": 215.39
+  },
+  {
+   "w": "comentários,",
+   "start": 215.47,
+   "end": 216.51
+  },
+  {
+   "w": "o",
+   "start": 216.55,
+   "end": 216.59
+  },
+  {
+   "w": "famoso",
+   "start": 216.63,
+   "end": 217.15
+  },
+  {
+   "w": "não",
+   "start": 217.39,
+   "end": 217.55
+  },
+  {
+   "w": "tenho",
+   "start": 217.63,
+   "end": 217.79
+  },
+  {
+   "w": "interesse...",
+   "start": 217.99,
+   "end": 218.99
+  },
+  {
+   "w": "e",
+   "start": 219.03,
+   "end": 219.07
+  },
+  {
+   "w": "até",
+   "start": 219.15,
+   "end": 219.443
+  },
+  {
+   "w": "as",
+   "start": 219.497,
+   "end": 219.55
+  },
+  {
+   "w": "respostas",
+   "start": 219.67,
+   "end": 220.11
+  },
+  {
+   "w": "a",
+   "start": 220.15,
+   "end": 220.19
+  },
+  {
+   "w": "pesquisas.",
+   "start": 220.31,
+   "end": 221.15
+  },
+  {
+   "w": "Então",
+   "start": 221.42,
+   "end": 221.7
+  },
+  {
+   "w": "a",
+   "start": 221.74,
+   "end": 221.82
+  },
+  {
+   "w": "view",
+   "start": 221.9,
+   "end": 222.14
+  },
+  {
+   "w": "sozinha",
+   "start": 222.3,
+   "end": 222.78
+  },
+  {
+   "w": "não",
+   "start": 222.86,
+   "end": 223.02
+  },
+  {
+   "w": "conta",
+   "start": 223.1,
+   "end": 223.36
+  },
+  {
+   "w": "a",
+   "start": 223.38,
+   "end": 223.4
+  },
+  {
+   "w": "história",
+   "start": 223.42,
+   "end": 223.74
+  },
+  {
+   "w": "toda.",
+   "start": 223.82,
+   "end": 224.34
+  },
+  {
+   "w": "Clicou",
+   "start": 224.54,
+   "end": 224.86
+  },
+  {
+   "w": "e",
+   "start": 224.9,
+   "end": 224.94
+  },
+  {
+   "w": "largou",
+   "start": 225.06,
+   "end": 225.26
+  },
+  {
+   "w": "em",
+   "start": 225.34,
+   "end": 225.42
+  },
+  {
+   "w": "cinco",
+   "start": 225.46,
+   "end": 225.58
+  },
+  {
+   "w": "segundos?",
+   "start": 225.66,
+   "end": 226.38
+  },
+  {
+   "w": "É",
+   "start": 226.54,
+   "end": 226.58
+  },
+  {
+   "w": "o",
+   "start": 226.62,
+   "end": 226.66
+  },
+  {
+   "w": "Power",
+   "start": 226.7,
+   "end": 226.94
+  },
+  {
+   "w": "Ranger",
+   "start": 227.02,
+   "end": 227.34
+  },
+  {
+   "w": "que",
+   "start": 227.42,
+   "end": 227.5
+  },
+  {
+   "w": "morfa",
+   "start": 227.58,
+   "end": 227.9
+  },
+  {
+   "w": "e",
+   "start": 227.94,
+   "end": 227.98
+  },
+  {
+   "w": "tropeça",
+   "start": 228.1,
+   "end": 228.54
+  },
+  {
+   "w": "na",
+   "start": 228.58,
+   "end": 228.62
+  },
+  {
+   "w": "primeira",
+   "start": 228.74,
+   "end": 228.94
+  },
+  {
+   "w": "cena.",
+   "start": 229.02,
+   "end": 229.58
+  },
+  {
+   "w": "Lindo",
+   "start": 229.82,
+   "end": 230.14
+  },
+  {
+   "w": "no",
+   "start": 230.22,
+   "end": 230.3
+  },
+  {
+   "w": "clique,",
+   "start": 230.34,
+   "end": 230.86
+  },
+  {
+   "w": "ruim",
+   "start": 230.98,
+   "end": 231.26
+  },
+  {
+   "w": "no",
+   "start": 231.3,
+   "end": 231.34
+  },
+  {
+   "w": "resto!",
+   "start": 231.54,
+   "end": 232.02
+  },
+  {
+   "w": "O",
+   "start": 232.22,
+   "end": 232.3
+  },
+  {
+   "w": "que",
+   "start": 232.38,
+   "end": 232.46
+  },
+  {
+   "w": "vale",
+   "start": 232.54,
+   "end": 232.86
+  },
+  {
+   "w": "é",
+   "start": 232.94,
+   "end": 233.02
+  },
+  {
+   "w": "a",
+   "start": 233.047,
+   "end": 233.073
+  },
+  {
+   "w": "pessoa",
+   "start": 233.1,
+   "end": 233.42
+  },
+  {
+   "w": "assistir",
+   "start": 233.66,
+   "end": 234.14
+  },
+  {
+   "w": "e",
+   "start": 234.18,
+   "end": 234.22
+  },
+  {
+   "w": "sair",
+   "start": 234.3,
+   "end": 234.54
+  },
+  {
+   "w": "satisfeita.",
+   "start": 234.58,
+   "end": 235.5
+  },
+  {
+   "w": "E",
+   "start": 235.77,
+   "end": 235.85
+  },
+  {
+   "w": "o",
+   "start": 235.89,
+   "end": 235.93
+  },
+  {
+   "w": "que",
+   "start": 235.97,
+   "end": 236.01
+  },
+  {
+   "w": "o",
+   "start": 236.09,
+   "end": 236.17
+  },
+  {
+   "w": "próprio",
+   "start": 236.25,
+   "end": 236.57
+  },
+  {
+   "w": "YouTube",
+   "start": 236.65,
+   "end": 236.97
+  },
+  {
+   "w": "manda",
+   "start": 237.05,
+   "end": 237.21
+  },
+  {
+   "w": "fazer?",
+   "start": 237.29,
+   "end": 237.77
+  },
+  {
+   "w": "Ajudar",
+   "start": 238.17,
+   "end": 238.57
+  },
+  {
+   "w": "o",
+   "start": 238.65,
+   "end": 238.703
+  },
+  {
+   "w": "espectador",
+   "start": 238.757,
+   "end": 239.29
+  },
+  {
+   "w": "a",
+   "start": 239.37,
+   "end": 239.45
+  },
+  {
+   "w": "assistir",
+   "start": 239.53,
+   "end": 239.77
+  },
+  {
+   "w": "mais",
+   "start": 239.85,
+   "end": 240.17
+  },
+  {
+   "w": "vídeos",
+   "start": 240.25,
+   "end": 240.57
+  },
+  {
+   "w": "seus.",
+   "start": 240.65,
+   "end": 241.05
+  },
+  {
+   "w": "Criar",
+   "start": 241.45,
+   "end": 241.77
+  },
+  {
+   "w": "séries,",
+   "start": 241.85,
+   "end": 242.41
+  },
+  {
+   "w": "usar",
+   "start": 242.49,
+   "end": 242.73
+  },
+  {
+   "w": "chamadas",
+   "start": 242.77,
+   "end": 243.21
+  },
+  {
+   "w": "claras,",
+   "start": 243.29,
+   "end": 243.85
+  },
+  {
+   "w": "do",
+   "start": 243.89,
+   "end": 243.93
+  },
+  {
+   "w": "tipo:",
+   "start": 244.01,
+   "end": 244.41
+  },
+  {
+   "w": "se",
+   "start": 244.73,
+   "end": 244.81
+  },
+  {
+   "w": "você",
+   "start": 244.85,
+   "end": 245.05
+  },
+  {
+   "w": "gostou",
+   "start": 245.09,
+   "end": 245.37
+  },
+  {
+   "w": "deste",
+   "start": 245.45,
+   "end": 245.73
+  },
+  {
+   "w": "vídeo,",
+   "start": 245.77,
+   "end": 246.25
+  },
+  {
+   "w": "assista",
+   "start": 246.33,
+   "end": 246.65
+  },
+  {
+   "w": "aquele.",
+   "start": 246.73,
+   "end": 247.21
+  },
+  {
+   "w": "E",
+   "start": 247.61,
+   "end": 247.65
+  },
+  {
+   "w": "usar",
+   "start": 247.69,
+   "end": 247.93
+  },
+  {
+   "w": "playlists",
+   "start": 248.09,
+   "end": 248.81
+  },
+  {
+   "w": "e",
+   "start": 248.89,
+   "end": 248.97
+  },
+  {
+   "w": "telas",
+   "start": 249.05,
+   "end": 249.29
+  },
+  {
+   "w": "finais.",
+   "start": 249.37,
+   "end": 250.09
+  },
+  {
+   "w": "E",
+   "start": 250.36,
+   "end": 250.44
+  },
+  {
+   "w": "tem",
+   "start": 250.52,
+   "end": 250.68
+  },
+  {
+   "w": "um",
+   "start": 250.8,
+   "end": 250.92
+  },
+  {
+   "w": "bônus",
+   "start": 250.96,
+   "end": 251.32
+  },
+  {
+   "w": "escondido",
+   "start": 251.4,
+   "end": 251.96
+  },
+  {
+   "w": "nessa",
+   "start": 252.08,
+   "end": 252.28
+  },
+  {
+   "w": "página!",
+   "start": 252.36,
+   "end": 253.04
+  },
+  {
+   "w": "Um:",
+   "start": 253.24,
+   "end": 253.88
+  },
+  {
+   "w": "manter",
+   "start": 253.96,
+   "end": 254.28
+  },
+  {
+   "w": "um",
+   "start": 254.32,
+   "end": 254.36
+  },
+  {
+   "w": "estilo",
+   "start": 254.48,
+   "end": 254.76
+  },
+  {
+   "w": "de",
+   "start": 254.8,
+   "end": 254.84
+  },
+  {
+   "w": "título",
+   "start": 255,
+   "end": 255.4
+  },
+  {
+   "w": "e",
+   "start": 255.44,
+   "end": 255.48
+  },
+  {
+   "w": "de",
+   "start": 255.52,
+   "end": 255.56
+  },
+  {
+   "w": "miniatura",
+   "start": 255.64,
+   "end": 256.12
+  },
+  {
+   "w": "consistente",
+   "start": 256.2,
+   "end": 257
+  },
+  {
+   "w": "faz",
+   "start": 257.08,
+   "end": 257.24
+  },
+  {
+   "w": "o",
+   "start": 257.28,
+   "end": 257.32
+  },
+  {
+   "w": "seu",
+   "start": 257.4,
+   "end": 257.56
+  },
+  {
+   "w": "vídeo",
+   "start": 257.6,
+   "end": 257.8
+  },
+  {
+   "w": "ser",
+   "start": 257.88,
+   "end": 257.96
+  },
+  {
+   "w": "reconhecido",
+   "start": 258.04,
+   "end": 258.6
+  },
+  {
+   "w": "na",
+   "start": 258.76,
+   "end": 258.92
+  },
+  {
+   "w": "hora.",
+   "start": 259,
+   "end": 259.6
+  },
+  {
+   "w": "Dois:",
+   "start": 259.88,
+   "end": 260.6
+  },
+  {
+   "w": "na",
+   "start": 260.68,
+   "end": 260.76
+  },
+  {
+   "w": "guia",
+   "start": 260.84,
+   "end": 261
+  },
+  {
+   "w": "Público,",
+   "start": 261.16,
+   "end": 261.587
+  },
+  {
+   "w": "do",
+   "start": 261.613,
+   "end": 261.64
+  },
+  {
+   "w": "Analytics,",
+   "start": 261.96,
+   "end": 262.36
+  },
+  {
+   "w": "você",
+   "start": 262.44,
+   "end": 262.68
+  },
+  {
+   "w": "vê",
+   "start": 262.72,
+   "end": 262.76
+  },
+  {
+   "w": "os",
+   "start": 262.84,
+   "end": 262.92
+  },
+  {
+   "w": "formatos",
+   "start": 263.16,
+   "end": 263.48
+  },
+  {
+   "w": "que",
+   "start": 263.52,
+   "end": 263.56
+  },
+  {
+   "w": "o",
+   "start": 263.6,
+   "end": 263.64
+  },
+  {
+   "w": "seu",
+   "start": 263.68,
+   "end": 263.8
+  },
+  {
+   "w": "público",
+   "start": 263.88,
+   "end": 264.12
+  },
+  {
+   "w": "prefere,",
+   "start": 264.2,
+   "end": 264.92
+  },
+  {
+   "w": "e",
+   "start": 264.96,
+   "end": 265
+  },
+  {
+   "w": "quais",
+   "start": 265.16,
+   "end": 265.4
+  },
+  {
+   "w": "canais",
+   "start": 265.48,
+   "end": 265.88
+  },
+  {
+   "w": "e",
+   "start": 265.907,
+   "end": 265.933
+  },
+  {
+   "w": "conteúdos",
+   "start": 265.96,
+   "end": 266.52
+  },
+  {
+   "w": "ele",
+   "start": 266.64,
+   "end": 266.76
+  },
+  {
+   "w": "também",
+   "start": 266.867,
+   "end": 267.16
+  },
+  {
+   "w": "assiste.",
+   "start": 267.28,
+   "end": 267.88
+  },
+  {
+   "w": "É",
+   "start": 268.04,
+   "end": 268.067
+  },
+  {
+   "w": "o",
+   "start": 268.093,
+   "end": 268.12
+  },
+  {
+   "w": "radar",
+   "start": 268.24,
+   "end": 268.44
+  },
+  {
+   "w": "do",
+   "start": 268.52,
+   "end": 268.6
+  },
+  {
+   "w": "Dragon",
+   "start": 268.76,
+   "end": 268.92
+  },
+  {
+   "w": "Ball!",
+   "start": 269,
+   "end": 269.32
+  },
+  {
+   "w": "Só",
+   "start": 269.72,
+   "end": 269.84
+  },
+  {
+   "w": "que,",
+   "start": 269.88,
+   "end": 270.173
+  },
+  {
+   "w": "em",
+   "start": 270.227,
+   "end": 270.28
+  },
+  {
+   "w": "vez",
+   "start": 270.36,
+   "end": 270.44
+  },
+  {
+   "w": "da",
+   "start": 270.48,
+   "end": 270.52
+  },
+  {
+   "w": "esfera,",
+   "start": 270.64,
+   "end": 271.16
+  },
+  {
+   "w": "ele",
+   "start": 271.24,
+   "end": 271.32
+  },
+  {
+   "w": "aponta",
+   "start": 271.4,
+   "end": 271.72
+  },
+  {
+   "w": "pro",
+   "start": 271.76,
+   "end": 271.8
+  },
+  {
+   "w": "seu",
+   "start": 271.84,
+   "end": 272.04
+  },
+  {
+   "w": "público.",
+   "start": 272.093,
+   "end": 272.68
+  },
+  {
+   "w": "Resumindo!",
+   "start": 272.95,
+   "end": 273.67
+  },
+  {
+   "w": "O",
+   "start": 273.91,
+   "end": 273.99
+  },
+  {
+   "w": "algoritmo",
+   "start": 274.07,
+   "end": 274.63
+  },
+  {
+   "w": "segue",
+   "start": 274.71,
+   "end": 274.95
+  },
+  {
+   "w": "o",
+   "start": 275.03,
+   "end": 275.11
+  },
+  {
+   "w": "público,",
+   "start": 275.15,
+   "end": 275.83
+  },
+  {
+   "w": "não",
+   "start": 275.99,
+   "end": 276.15
+  },
+  {
+   "w": "o",
+   "start": 276.19,
+   "end": 276.23
+  },
+  {
+   "w": "tamanho",
+   "start": 276.31,
+   "end": 276.63
+  },
+  {
+   "w": "do",
+   "start": 276.67,
+   "end": 276.71
+  },
+  {
+   "w": "canal.",
+   "start": 276.79,
+   "end": 277.27
+  },
+  {
+   "w": "Qualidade",
+   "start": 277.67,
+   "end": 278.31
+  },
+  {
+   "w": "vale",
+   "start": 278.47,
+   "end": 278.63
+  },
+  {
+   "w": "mais",
+   "start": 278.71,
+   "end": 278.95
+  },
+  {
+   "w": "que",
+   "start": 279.03,
+   "end": 279.11
+  },
+  {
+   "w": "quantidade,",
+   "start": 279.23,
+   "end": 280.07
+  },
+  {
+   "w": "e",
+   "start": 280.11,
+   "end": 280.15
+  },
+  {
+   "w": "pausa",
+   "start": 280.31,
+   "end": 280.79
+  },
+  {
+   "w": "não",
+   "start": 281.03,
+   "end": 281.19
+  },
+  {
+   "w": "é",
+   "start": 281.27,
+   "end": 281.35
+  },
+  {
+   "w": "castigo.",
+   "start": 281.51,
+   "end": 282.07
+  },
+  {
+   "w": "Cada",
+   "start": 282.47,
+   "end": 282.71
+  },
+  {
+   "w": "vídeo",
+   "start": 282.79,
+   "end": 283.11
+  },
+  {
+   "w": "ganha",
+   "start": 283.19,
+   "end": 283.43
+  },
+  {
+   "w": "a",
+   "start": 283.457,
+   "end": 283.483
+  },
+  {
+   "w": "sua",
+   "start": 283.51,
+   "end": 283.67
+  },
+  {
+   "w": "chance.",
+   "start": 283.75,
+   "end": 284.31
+  },
+  {
+   "w": "E",
+   "start": 284.55,
+   "end": 284.59
+  },
+  {
+   "w": "o",
+   "start": 284.63,
+   "end": 284.657
+  },
+  {
+   "w": "que",
+   "start": 284.683,
+   "end": 284.71
+  },
+  {
+   "w": "importa",
+   "start": 284.79,
+   "end": 285.27
+  },
+  {
+   "w": "é",
+   "start": 285.43,
+   "end": 285.457
+  },
+  {
+   "w": "a",
+   "start": 285.483,
+   "end": 285.51
+  },
+  {
+   "w": "pessoa",
+   "start": 285.59,
+   "end": 285.83
+  },
+  {
+   "w": "assistir",
+   "start": 286.07,
+   "end": 286.47
+  },
+  {
+   "w": "e",
+   "start": 286.63,
+   "end": 286.71
+  },
+  {
+   "w": "gostar.",
+   "start": 286.79,
+   "end": 287.35
+  },
+  {
+   "w": "O",
+   "start": 287.91,
+   "end": 287.95
+  },
+  {
+   "w": "link",
+   "start": 287.99,
+   "end": 288.15
+  },
+  {
+   "w": "da",
+   "start": 288.23,
+   "end": 288.31
+  },
+  {
+   "w": "página",
+   "start": 288.35,
+   "end": 288.55
+  },
+  {
+   "w": "oficial",
+   "start": 288.63,
+   "end": 289.19
+  },
+  {
+   "w": "e",
+   "start": 289.23,
+   "end": 289.27
+  },
+  {
+   "w": "o",
+   "start": 289.31,
+   "end": 289.35
+  },
+  {
+   "w": "artigo",
+   "start": 289.47,
+   "end": 289.75
+  },
+  {
+   "w": "com",
+   "start": 289.83,
+   "end": 289.91
+  },
+  {
+   "w": "tudo",
+   "start": 290.07,
+   "end": 290.31
+  },
+  {
+   "w": "isso",
+   "start": 290.39,
+   "end": 290.63
+  },
+  {
+   "w": "estão",
+   "start": 290.79,
+   "end": 291.03
+  },
+  {
+   "w": "na",
+   "start": 291.07,
+   "end": 291.11
+  },
+  {
+   "w": "descrição.",
+   "start": 291.19,
+   "end": 291.91
+  },
+  {
+   "w": "E",
+   "start": 292.18,
+   "end": 292.34
+  },
+  {
+   "w": "falando",
+   "start": 292.42,
+   "end": 292.66
+  },
+  {
+   "w": "em",
+   "start": 292.74,
+   "end": 292.82
+  },
+  {
+   "w": "série...",
+   "start": 292.9,
+   "end": 293.86
+  },
+  {
+   "w": "o",
+   "start": 293.94,
+   "end": 294.02
+  },
+  {
+   "w": "próximo",
+   "start": 294.06,
+   "end": 294.42
+  },
+  {
+   "w": "teste",
+   "start": 294.5,
+   "end": 294.74
+  },
+  {
+   "w": "do",
+   "start": 294.78,
+   "end": 294.82
+  },
+  {
+   "w": "laboratório",
+   "start": 294.9,
+   "end": 295.46
+  },
+  {
+   "w": "tá",
+   "start": 295.54,
+   "end": 295.62
+  },
+  {
+   "w": "aqui",
+   "start": 295.7,
+   "end": 295.86
+  },
+  {
+   "w": "do",
+   "start": 295.9,
+   "end": 295.94
+  },
+  {
+   "w": "lado.",
+   "start": 296.02,
+   "end": 296.58
+  },
+  {
+   "w": "Clica",
+   "start": 296.66,
+   "end": 296.82
+  },
+  {
+   "w": "nele",
+   "start": 296.86,
+   "end": 296.98
+  },
+  {
+   "w": "agora!",
+   "start": 297.06,
+   "end": 297.78
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+URL: https://help.openai.com/pt-br/articles/20001635
+STATUS: 200
+TITLE: Como configurar sua empresa no ChatGPT | OpenAI Help Center
+
+OpenAI Support
+Central de Ajuda
+Language
+português
+Brasil
+Login
+All Collections
+ChatGPT
+Como configurar sua empresa no ChatGPT
+Esta página foi traduzida automaticamente. Veja o artigo original em inglês.
+Dê o seu feedback sobre esta tradução
+Como configurar sua empresa no ChatGPT
+Reivindique sua empresa, mantenha as informações dela atualizadas e configure um agente que possa responder às perguntas dos clientes.
+Atualizado: há 8 horas
+Visão geral
+A Central de Negócios permite que você reivindique sua empresa no ChatGPT, forneça informações sobre ela e seus produtos e entenda como as pessoas interagem com ela. Se você tem autorização para representar a empresa, pode reivindicá-la e concluir a verificação necessária para gerenciar suas informações e visualizar insights, como menções e cliques no site.
+Empresas qualificadas de comércio eletrônico e serviços on-line nos EUA também podem criar um agente para a empresa que responda às perguntas dos clientes usando as informações que você fornecer. Depois que você revisar e publicar seu agente, os clientes poderão optar por conversar com ele sobre seus produtos e políticas.
+Quem pode participar
+Você pode reivindicar uma empresa se for seu proprietário ou tiver autorização para representá-la. Você precisará comprovar seu vínculo com a empresa e receber aprovação. Você não precisa de uma conta de Anúncios nem de um contrato do ChatGPT Enterprise para reivindicar uma empresa qualificada.
+Empresas qualificadas podem reivindicar um cadastro existente ou adicionar um novo onde o ChatGPT estiver disponível e houver suporte à verificação necessária. A disponibilidade depende da localização e do tipo da empresa.
+Os agentes de empresas têm requisitos próprios. Eles estão disponíveis para empresas qualificadas de comércio eletrônico e serviços on-line nos EUA que tenham um site. Sua empresa também deve atender aos requisitos de setor da Política de agentes de empresas.
+Reivindique sua empresa
+Reivindique sua empresa para acessá-la na Central de Negócios. Use um dos métodos de verificação oferecidos para sua empresa, como telefone, e-mail comercial, domínio do site ou Shopify.
+Após a aprovação da sua reivindicação, você poderá acessar sua empresa na Central de Negócios. Você precisará concluir a verificação de identidade com a Persona antes de publicar alterações nas informações da empresa, visualizar insights ou criar um agente para uma empresa qualificada.
+Entre no ChatGPT e abra a Central de Negócios na barra lateral. Pesquise sua empresa pelo nome.
+Selecione o cadastro correspondente à sua empresa e confirme a conta do ChatGPT que você usará para gerenciá-la.
+Escolha um dos métodos de verificação exibidos e siga as instruções.
+Se você recebeu um convite para reivindicar a empresa: abra o link pessoal no e-mail e entre com o endereço de e-mail que recebeu o convite.
+Se aparecer a opção Entrar em contato com o suporte: seu cadastro está bloqueado. Selecione Entrar em contato com o suporte para solicitar ajuda com o acesso.
+Se você não encontrar sua empresa: caso administre uma empresa on-line qualificada, poderá aparecer uma opção para adicioná-la. No momento, lojas físicas e restaurantes só podem reivindicar um cadastro existente nos EUA.
+Verifique sua reivindicação
+Verifique pelo telefone da empresa
+Selecione Telefone da empresa e escolha entre uma mensagem de texto (SMS) ou uma chamada automatizada. Selecione Receber código e insira o código enviado para o número exibido.
+Verifique pelo e-mail comercial
+Selecione E-mail comercial e depois Receber código. Insira o código enviado para o endereço de e-mail associado à sua empresa.
+Verifique pelo domínio do site
+Selecione Domínio do site e adicione o registro TXT exibido no ChatGPT às configurações de DNS do seu domínio. Copie o tipo, o nome ou host e o valor exatamente como aparecem. Se outra pessoa gerencia seu domínio, peça que ela adicione o registro para você. As alterações no DNS podem levar algum tempo para aparecer. Volte ao ChatGPT, selecione Verificar domínio e siga as instruções restantes para concluir sua reivindicação.
+Verifique pela sua loja Shopify
+Selecione Loja Shopify e depois Conectar Shopify. Revise as permissões e selecione Entrar na Shopify. Entre na loja Shopify da empresa que você está reivindicando e siga as instruções para concluir a verificação.
+Aguarde a aprovação da reivindicação
+A OpenAI analisa sua reivindicação e envia por e-mail a decisão ou uma solicitação de mais informações. Enquanto ela estiver em análise, você poderá selecionar Cancelar reivindicação para cancelar a solicitação.
+Conteste a propriedade
+Se sua empresa já tiver sido reivindicada, abra o perfil dela, selecione o menu de mais opções (•••) e depois Contestar propriedade. Siga as instruções para comprovar, com a Persona, que você tem autorização para representar a empresa. Reivindicar um perfil ou contestar sua propriedade não altera a visibilidade dele no ChatGPT.
+Conclua a verificação de identidade com a Persona
+Conclua a verificação de identidade com a Persona para publicar alterações nas informações da empresa, conectar um feed de produtos, visualizar insights ou criar um agente para sua empresa, se ela for qualificada.
+Apenas reivindicar sua empresa não concede um selo de verificação ao perfil dela. O selo de verificação, exibido como uma marca de seleção azul, aparece após a aprovação da sua verificação com a Persona.
+Você pode precisar de um documento de identidade emitido pelo governo, informações de registro da empresa e um comprovante de que tem autorização para representá-la.
+Se você usar a Persona para criar um novo perfil, ele será publicado automaticamente após a aprovação da OpenAI. Não há uma etapa separada de publicação do perfil, então continue apenas quando estiver tudo pronto.
+Selecione Verificar com a Persona e depois Continuar para a Persona.
+Siga as instruções da Persona para enviar as informações solicitadas.
+Conclua a verificação com a Persona mais tarde
+Se você usou outro método de verificação inicialmente, poderá concluir a verificação com a Persona mais tarde.
+Abra a aba Empresa e selecione seu perfil.
+Na visão geral da sua empresa, encontre Concluir verificação com a Persona.
+Selecione Verificar e siga as instruções da Persona.
+Aguarde a aprovação da verificação
+A OpenAI analisa as informações que você enviou para verificação com a Persona e envia por e-mail a decisão ou uma solicitação de mais informações. Enquanto elas estiverem em análise, você poderá selecionar Cancelar envio para cancelar a solicitação.
+Publicar um agente de empresa é uma etapa separada e opcional. Revise seu agente e selecione Publicar quando estiver tudo pronto.
+Atualize as informações da empresa
+Após a aprovação da reivindicação e da verificação com a Persona, abra seu perfil em Empresa para atualizar o site, a descrição da empresa, a categoria de produtos ou serviços, o logotipo, a política de entrega ou a política de devolução. Você também pode adicionar uma foto de capa e outras informações opcionais. As informações adicionadas devem seguir a Política de empresas no ChatGPT.
+A OpenAI analisa e publica as alterações. As atualizações podem levar algum tempo para aparecer em um cadastro ou em uma resposta do ChatGPT. O ChatGPT também pode usar outras fontes ao responder a perguntas sobre sua empresa.
+Conecte um feed de produtos
+Se você vende produtos, pode conectar um feed de produtos, incluindo um feed da Shopify, para compartilhar preços e disponibilidade. Você pode enviar um feed de produtos em CSV que siga a especificação do feed de produtos, incluindo os campos obrigatórios. Se você fornecer uma URL de hospedagem, ela deve apontar para o arquivo do feed. Os produtos do feed devem seguir as Políticas de comércio. Conectar um feed não publica um agente nem garante que o ChatGPT recomende seus produtos.
+Exclua um perfil em rascunho
+Só é possível excluir perfis em rascunho que ainda não foram publicados. O Suporte da OpenAI não pode excluir, despublicar ou ocultar um perfil publicado como parte de uma solicitação de configuração ou de propriedade de uma empresa.
+Abra a aba Empresa, selecione seu perfil em rascunho e acesse a página Visão geral.
+Abra o menu de três pontos no canto superior direito.
+Selecione Excluir rascunho.
+Entenda os insights do seu perfil
+Após a aprovação da reivindicação e da verificação com a Persona, abra sua empresa na Central de Negócios e selecione Insights. Os insights mostram a atividade agregada dos últimos 28 dias, incluindo menções e cliques no site.
+Menções. Para uma empresa on-line, uma menção é contabilizada quando o ChatGPT faz referência ao site da empresa. Apenas o nome da marca não conta. Para uma empresa local, uma menção é contabilizada quando o ChatGPT mostra um resultado para aquele estabelecimento, mesmo que o cliente não abra o cadastro nem visite o site.
+Cliques no site. Veja com que frequência as pessoas clicam para acessar seu site.
+Tópicos de descoberta. Veja temas frequentes nas respostas do ChatGPT que mencionaram ou citaram sua empresa. Esses temas não revelam prompts individuais nem medem diretamente a intenção dos clientes.
+As empresas não recebem prompts individuais nem conversas de consumidores, incluindo conversas com seus agentes.
+As contagens podem estar incompletas. Uma métrica em branco pode significar que a atividade não atingiu o limite mínimo para constar nos relatórios, que os dados ainda estão sendo coletados ou que os relatórios estão indisponíveis. Isso não significa necessariamente que não houve atividade. Se uma métrica continuar em branco, entre em contato com o Suporte da OpenAI.
+Configure e publique seu agente
+Após a aprovação da reivindicação e da verificação com a Persona, abra sua empresa na aba Empresa. Se a configuração da Shopify já tiver criado um agente em rascunho, abra-o. Caso contrário, crie um agente se a opção estiver disponível.
+Revise as informações que seu agente usará, como detalhes dos produtos e sua política de devolução. Siga a Política de agentes de empresas ao escrever instruções sobre como seu agente deve responder aos clientes.
+Teste o agente na prévia com uma pergunta frequente dos clientes, como "Posso devolver um item que comprei em promoção?" Se a resposta estiver errada, atualize as informações ou as instruções e teste novamente.
+Quando estiver tudo pronto, selecione Publicar. Os clientes só podem conversar com um agente publicado.
+Receba ajuda com a configuração
+Se você não conseguir criar um agente, confirme que está usando o perfil reivindicado e que sua verificação com a Persona foi aprovada. Você não pode criar um agente enquanto a verificação estiver pendente ou se ela falhar.
+Sua empresa também deve atender aos requisitos dos agentes quanto à localização, ao tipo de empresa e ao setor. Algumas empresas podem gerenciar um perfil sem se qualificarem para ter um agente. Para saber os requisitos de qualificação, consulte: Política de agentes de empresas.
+Se houver um problema no ChatGPT, entre em contato com o Suporte da OpenAI. Informe em qual etapa você estava, inclua eventuais mensagens de erro e envie uma captura de tela sem informações confidenciais. Para receber ajuda com seu catálogo ou com as configurações da loja na Shopify, consulte: Compras de lojistas da Shopify no ChatGPT.
+Perguntas frequentes
+Preciso anunciar ou publicar um agente para reivindicar minha empresa?
+Não. Reivindicar sua empresa, publicar um agente e anunciar são ações separadas. Após a aprovação da reivindicação e da verificação com a Persona, você poderá gerenciar as informações da empresa e usar os insights disponíveis sem publicar um agente nem veicular anúncios.
+Posso dar acesso à minha empresa a colegas de equipe ou a uma agência?
+O administrador que reivindicou sua empresa pode adicionar colegas de equipe na Central de Negócios e conceder acesso a uma agência para gerenciar a empresa ou seu agente. Cada pessoa deve usar sua própria conta do ChatGPT.
+Os convites podem depender da conta usada para reivindicar a empresa. No caso de uma empresa reivindicada em um espaço de trabalho do ChatGPT, os convidados podem precisar ser membros desse espaço de trabalho. Se um convite para uma agência for bloqueado, entre em contato com o Suporte da OpenAI para verificar as opções disponíveis. Não encaminhe um convite pessoal de reivindicação para dar acesso a alguém.
+O que devo fazer se minha verificação estiver pendente ou falhar?
+Se sua reivindicação ou verificação com a Persona estiver pendente, aguarde a decisão da OpenAI ou uma solicitação de mais informações por e-mail. O prazo de análise varia. Aguarde o fim da análise antes de tentar novamente.
+Se uma verificação da Persona falhar ou expirar, siga as instruções do e-mail. Se a opção Tentar novamente estiver disponível, selecione-a e envie as informações corrigidas. Confira se o nome, o endereço e os números de registro ou de identificação fiscal informados correspondem aos registros oficiais da sua empresa.
+Entre em contato com o Suporte da OpenAI se não conseguir tentar novamente ou se a Central de Negócios ainda mostrar a verificação como incompleta após você receber a confirmação de aprovação. Informe em qual etapa você estava, inclua eventuais mensagens de erro e envie uma captura de tela sem informações confidenciais.
+Enviar informações à Persona não significa que a verificação foi aprovada. Os recursos que exigem verificação com a Persona permanecem indisponíveis até a aprovação.
+Reivindicar minha empresa fará com que o ChatGPT a recomende com mais frequência?
+A reivindicação permite que você gerencie as informações que fornece sobre sua empresa. Ela não garante maior visibilidade nem dá a você controle direto sobre as recomendações independentes do ChatGPT. A publicidade não influencia as respostas independentes do ChatGPT.
+Preciso da Shopify para configurar um agente para minha empresa?
+Não. Empresas qualificadas podem configurar um agente para a empresa, usando ou não a Shopify. Se você usa a Shopify, pode conectar o feed de produtos dela para compartilhar detalhes dos produtos, preços e disponibilidade. Você ainda precisará revisar e publicar seu agente separadamente.
+Posso gerenciar várias marcas ou unidades em conjunto?
+Cada marca é gerenciada separadamente. No momento, não está disponível o gerenciamento centralizado das marcas e unidades de uma empresa controladora. Reivindicar a marca principal não reivindica suas unidades. Para marcas que usam um processo gerenciado de reivindicação, os perfis de cada unidade permanecem bloqueados por padrão. Consulte seu contato de conta na OpenAI sobre o procedimento de reivindicação disponível.
+Meu agente pode concluir compras, fazer reservas ou consultar o pedido de um cliente?
+Não. A experiência atual permite que seu agente explique produtos e políticas e forneça links para seu site, onde os clientes concluem essas ações. Se sua empresa também tiver um plugin no ChatGPT, a conversa separada com o agente da empresa não usará dados desse plugin nem se conectará aos recursos dele.
+Minha empresa pode ser citada em uma resposta sem que uma menção seja registrada?
+Para uma empresa on-line, uma menção é contabilizada quando o ChatGPT faz referência ao site dela. Citar apenas o nome da marca não conta. Para uma empresa local, uma menção é contabilizada quando o ChatGPT mostra um resultado para aquele estabelecimento, mesmo que o cliente não abra o cadastro nem visite o site dele.
+Os tópicos de descoberta mostram perguntas individuais dos clientes?
+Não. Os tópicos de descoberta agrupam temas das respostas do ChatGPT que mencionaram ou citaram sua empresa. São categorias agregadas, não prompts individuais nem um relatório direto da intenção dos clientes. Eles não dão à sua empresa acesso a prompts individuais nem a conversas com o agente da empresa.
+Um insight em branco significa que não houve atividade?
+Não. Uma métrica em branco pode significar que a atividade não atingiu o limite mínimo para constar nos relatórios, que os dados ainda estão sendo coletados ou que os relatórios estão indisponíveis. Isso não significa necessariamente que não houve atividade. Se o problema persistir, entre em contato com o Suporte da OpenAI.
+Por que as informações atualizadas da minha empresa ainda não apareceram?
+A OpenAI analisa e publica as alterações nas informações das empresas. As atualizações podem levar algum tempo para aparecer em um cadastro ou em uma resposta gerada, e o ChatGPT também pode recorrer a outras fontes. Salvar uma alteração não significa que todas as respostas a refletirão imediatamente.
+Este artigo foi útil?
+Enviar
+Visão geral
+Quem pode participar
+Reivindique sua empresa
+Verifique sua reivindicação
+Verifique pelo telefone da empresa
+Verifique pelo e-mail comercial
+Verifique pelo domínio do site
+Verifique pela sua loja Shopify
+Aguarde a aprovação da reivindicação
+Conteste a propriedade
+Conclua a verificação de identidade com a Persona
+Conclua a verificação com a Persona mais tarde
+Aguarde a aprovação da verificação
+Atualize as informações da empresa
+Conecte um feed de produtos
+Exclua um perfil em rascunho
+Entenda os insights do seu perfil
+Configure e publique seu agente
+Receba ajuda com a configuração
+Perguntas frequentes
+Preciso anunciar ou publicar um agente para reivindicar minha empresa?
+Posso dar acesso à minha empresa a colegas de equipe ou a uma agência?
+O que devo fazer se minha verificação estiver pendente ou falhar?
+Reivindicar minha empresa fará com que o ChatGPT a recomende com mais frequência?
+Preciso da Shopify para configurar um agente para minha empresa?
+Posso gerenciar várias marcas ou unidades em conjunto?
+Meu agente pode concluir compras, fazer reservas ou consultar o pedido de um cliente?
+Minha empresa pode ser citada em uma resposta sem que uma menção seja registrada?
+Os tópicos de descoberta mostram perguntas individuais dos clientes?
+Um insight em branco significa que não houve atividade?
+Por que as informações atualizadas da minha empresa ainda não apareceram?
+ChatGPT
+API
+Status do Serviço
+Preferências de Cookies

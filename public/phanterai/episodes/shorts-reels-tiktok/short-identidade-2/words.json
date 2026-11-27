@@ -1,0 +1,892 @@
+[
+  {
+    "w": "Pensa",
+    "start": 0.0,
+    "end": 0.36
+  },
+  {
+    "w": "no",
+    "start": 0.36,
+    "end": 0.56
+  },
+  {
+    "w": "som",
+    "start": 0.56,
+    "end": 0.8
+  },
+  {
+    "w": "de",
+    "start": 0.8,
+    "end": 0.96
+  },
+  {
+    "w": "abertura",
+    "start": 0.96,
+    "end": 1.34
+  },
+  {
+    "w": "do",
+    "start": 1.34,
+    "end": 1.48
+  },
+  {
+    "w": "Netflix.",
+    "start": 1.48,
+    "end": 2.04
+  },
+  {
+    "w": "Em",
+    "start": 2.6,
+    "end": 2.74
+  },
+  {
+    "w": "três",
+    "start": 2.74,
+    "end": 3.0
+  },
+  {
+    "w": "segundos,",
+    "start": 3.0,
+    "end": 3.54
+  },
+  {
+    "w": "sem",
+    "start": 3.78,
+    "end": 3.92
+  },
+  {
+    "w": "ver",
+    "start": 3.92,
+    "end": 4.3
+  },
+  {
+    "w": "nada,",
+    "start": 4.3,
+    "end": 4.72
+  },
+  {
+    "w": "você",
+    "start": 4.92,
+    "end": 5.16
+  },
+  {
+    "w": "sabe",
+    "start": 5.16,
+    "end": 5.42
+  },
+  {
+    "w": "de",
+    "start": 5.42,
+    "end": 5.62
+  },
+  {
+    "w": "quem",
+    "start": 5.62,
+    "end": 5.76
+  },
+  {
+    "w": "é.",
+    "start": 5.76,
+    "end": 6.16
+  },
+  {
+    "w": "Isso",
+    "start": 6.44,
+    "end": 6.82
+  },
+  {
+    "w": "é",
+    "start": 6.82,
+    "end": 7.1
+  },
+  {
+    "w": "identidade",
+    "start": 7.1,
+    "end": 7.62
+  },
+  {
+    "w": "sonora,",
+    "start": 7.62,
+    "end": 8.16
+  },
+  {
+    "w": "e",
+    "start": 8.42,
+    "end": 8.54
+  },
+  {
+    "w": "o",
+    "start": 8.54,
+    "end": 8.62
+  },
+  {
+    "w": "seu",
+    "start": 8.62,
+    "end": 8.74
+  },
+  {
+    "w": "canal",
+    "start": 8.74,
+    "end": 9.1
+  },
+  {
+    "w": "também",
+    "start": 9.1,
+    "end": 9.6
+  },
+  {
+    "w": "pode",
+    "start": 9.6,
+    "end": 9.8
+  },
+  {
+    "w": "ter",
+    "start": 9.8,
+    "end": 10.0
+  },
+  {
+    "w": "uma.",
+    "start": 10.0,
+    "end": 10.26
+  },
+  {
+    "w": "O",
+    "start": 10.78,
+    "end": 10.96
+  },
+  {
+    "w": "próprio",
+    "start": 10.96,
+    "end": 11.22
+  },
+  {
+    "w": "YouTube",
+    "start": 11.22,
+    "end": 11.66
+  },
+  {
+    "w": "contratou",
+    "start": 11.66,
+    "end": 12.12
+  },
+  {
+    "w": "um",
+    "start": 12.12,
+    "end": 12.38
+  },
+  {
+    "w": "estúdio,",
+    "start": 12.38,
+    "end": 12.84
+  },
+  {
+    "w": "a",
+    "start": 13.0,
+    "end": 13.14
+  },
+  {
+    "w": "Antfood,",
+    "start": 13.14,
+    "end": 13.6
+  },
+  {
+    "w": "para",
+    "start": 13.82,
+    "end": 14.0
+  },
+  {
+    "w": "criar",
+    "start": 14.0,
+    "end": 14.22
+  },
+  {
+    "w": "o",
+    "start": 14.22,
+    "end": 14.52
+  },
+  {
+    "w": "som",
+    "start": 14.52,
+    "end": 14.64
+  },
+  {
+    "w": "que",
+    "start": 14.64,
+    "end": 14.94
+  },
+  {
+    "w": "toca",
+    "start": 14.94,
+    "end": 15.12
+  },
+  {
+    "w": "quando",
+    "start": 15.12,
+    "end": 15.38
+  },
+  {
+    "w": "o",
+    "start": 15.38,
+    "end": 15.46
+  },
+  {
+    "w": "app",
+    "start": 15.46,
+    "end": 15.68
+  },
+  {
+    "w": "abre.",
+    "start": 15.68,
+    "end": 16.02
+  },
+  {
+    "w": "Você",
+    "start": 16.54,
+    "end": 16.74
+  },
+  {
+    "w": "não",
+    "start": 16.74,
+    "end": 16.9
+  },
+  {
+    "w": "precisa",
+    "start": 16.9,
+    "end": 17.24
+  },
+  {
+    "w": "de",
+    "start": 17.24,
+    "end": 17.52
+  },
+  {
+    "w": "estúdio,",
+    "start": 17.52,
+    "end": 17.9
+  },
+  {
+    "w": "só",
+    "start": 18.04,
+    "end": 18.2
+  },
+  {
+    "w": "de",
+    "start": 18.2,
+    "end": 18.46
+  },
+  {
+    "w": "quatro",
+    "start": 18.46,
+    "end": 18.78
+  },
+  {
+    "w": "peças.",
+    "start": 18.78,
+    "end": 19.42
+  },
+  {
+    "w": "Assinatura",
+    "start": 19.62,
+    "end": 20.1
+  },
+  {
+    "w": "curta,",
+    "start": 20.1,
+    "end": 20.66
+  },
+  {
+    "w": "trilha",
+    "start": 20.96,
+    "end": 21.18
+  },
+  {
+    "w": "com",
+    "start": 21.18,
+    "end": 21.42
+  },
+  {
+    "w": "o",
+    "start": 21.42,
+    "end": 21.52
+  },
+  {
+    "w": "mesmo",
+    "start": 21.52,
+    "end": 21.8
+  },
+  {
+    "w": "clima,",
+    "start": 21.8,
+    "end": 22.32
+  },
+  {
+    "w": "efeitos",
+    "start": 22.64,
+    "end": 23.04
+  },
+  {
+    "w": "consistentes",
+    "start": 23.04,
+    "end": 23.94
+  },
+  {
+    "w": "e",
+    "start": 23.94,
+    "end": 24.08
+  },
+  {
+    "w": "uma",
+    "start": 24.08,
+    "end": 24.3
+  },
+  {
+    "w": "voz",
+    "start": 24.3,
+    "end": 24.52
+  },
+  {
+    "w": "com",
+    "start": 24.52,
+    "end": 24.76
+  },
+  {
+    "w": "padrão.",
+    "start": 24.76,
+    "end": 25.28
+  },
+  {
+    "w": "Comece",
+    "start": 25.82,
+    "end": 26.08
+  },
+  {
+    "w": "definindo",
+    "start": 26.08,
+    "end": 26.56
+  },
+  {
+    "w": "o",
+    "start": 26.56,
+    "end": 26.68
+  },
+  {
+    "w": "clima",
+    "start": 26.68,
+    "end": 26.88
+  },
+  {
+    "w": "do",
+    "start": 26.88,
+    "end": 27.08
+  },
+  {
+    "w": "canal",
+    "start": 27.08,
+    "end": 27.3
+  },
+  {
+    "w": "em",
+    "start": 27.3,
+    "end": 27.58
+  },
+  {
+    "w": "três",
+    "start": 27.58,
+    "end": 27.82
+  },
+  {
+    "w": "palavras.",
+    "start": 27.82,
+    "end": 28.32
+  },
+  {
+    "w": "Calmo,",
+    "start": 29.3,
+    "end": 29.78
+  },
+  {
+    "w": "tecnológico",
+    "start": 29.78,
+    "end": 30.26
+  },
+  {
+    "w": "e",
+    "start": 30.26,
+    "end": 30.44
+  },
+  {
+    "w": "acolhedor,",
+    "start": 30.44,
+    "end": 30.98
+  },
+  {
+    "w": "por",
+    "start": 31.2,
+    "end": 31.2
+  },
+  {
+    "w": "exemplo.",
+    "start": 31.2,
+    "end": 31.78
+  },
+  {
+    "w": "Depois,",
+    "start": 32.18,
+    "end": 32.48
+  },
+  {
+    "w": "escolha",
+    "start": 32.64,
+    "end": 32.8
+  },
+  {
+    "w": "um",
+    "start": 32.8,
+    "end": 33.04
+  },
+  {
+    "w": "gênero",
+    "start": 33.04,
+    "end": 33.42
+  },
+  {
+    "w": "e",
+    "start": 33.42,
+    "end": 33.62
+  },
+  {
+    "w": "fique",
+    "start": 33.62,
+    "end": 33.9
+  },
+  {
+    "w": "nele.",
+    "start": 33.9,
+    "end": 34.36
+  },
+  {
+    "w": "Low",
+    "start": 34.52,
+    "end": 34.82
+  },
+  {
+    "w": "-fi,",
+    "start": 34.82,
+    "end": 35.14
+  },
+  {
+    "w": "eletrônico",
+    "start": 35.44,
+    "end": 35.82
+  },
+  {
+    "w": "leve,",
+    "start": 35.82,
+    "end": 36.26
+  },
+  {
+    "w": "orquestral.",
+    "start": 36.5,
+    "end": 37.08
+  },
+  {
+    "w": "Agora,",
+    "start": 37.76,
+    "end": 38.04
+  },
+  {
+    "w": "crie",
+    "start": 38.22,
+    "end": 38.28
+  },
+  {
+    "w": "uma",
+    "start": 38.28,
+    "end": 38.46
+  },
+  {
+    "w": "assinatura",
+    "start": 38.46,
+    "end": 38.94
+  },
+  {
+    "w": "de",
+    "start": 38.94,
+    "end": 39.24
+  },
+  {
+    "w": "três",
+    "start": 39.24,
+    "end": 39.48
+  },
+  {
+    "w": "a",
+    "start": 39.48,
+    "end": 39.68
+  },
+  {
+    "w": "cinco",
+    "start": 39.68,
+    "end": 39.94
+  },
+  {
+    "w": "segundos.",
+    "start": 39.94,
+    "end": 40.48
+  },
+  {
+    "w": "Pode",
+    "start": 40.8,
+    "end": 40.92
+  },
+  {
+    "w": "ser",
+    "start": 40.92,
+    "end": 41.1
+  },
+  {
+    "w": "uma",
+    "start": 41.1,
+    "end": 41.34
+  },
+  {
+    "w": "nota,",
+    "start": 41.34,
+    "end": 41.68
+  },
+  {
+    "w": "um",
+    "start": 41.9,
+    "end": 42.14
+  },
+  {
+    "w": "acorde",
+    "start": 42.14,
+    "end": 42.52
+  },
+  {
+    "w": "ou",
+    "start": 42.52,
+    "end": 42.72
+  },
+  {
+    "w": "um",
+    "start": 42.72,
+    "end": 43.06
+  },
+  {
+    "w": "clique",
+    "start": 43.06,
+    "end": 43.22
+  },
+  {
+    "w": "seguido",
+    "start": 43.22,
+    "end": 43.62
+  },
+  {
+    "w": "de",
+    "start": 43.62,
+    "end": 43.78
+  },
+  {
+    "w": "uma",
+    "start": 43.78,
+    "end": 43.9
+  },
+  {
+    "w": "melodia",
+    "start": 43.9,
+    "end": 44.3
+  },
+  {
+    "w": "curta.",
+    "start": 44.3,
+    "end": 44.88
+  },
+  {
+    "w": "Toque",
+    "start": 45.24,
+    "end": 45.48
+  },
+  {
+    "w": "sempre",
+    "start": 45.48,
+    "end": 45.9
+  },
+  {
+    "w": "igual",
+    "start": 45.9,
+    "end": 46.18
+  },
+  {
+    "w": "na",
+    "start": 46.18,
+    "end": 46.36
+  },
+  {
+    "w": "abertura",
+    "start": 46.36,
+    "end": 46.96
+  },
+  {
+    "w": "e",
+    "start": 46.96,
+    "end": 47.12
+  },
+  {
+    "w": "nas",
+    "start": 47.12,
+    "end": 47.3
+  },
+  {
+    "w": "transições.",
+    "start": 47.3,
+    "end": 47.94
+  },
+  {
+    "w": "Monte",
+    "start": 48.54,
+    "end": 48.72
+  },
+  {
+    "w": "também",
+    "start": 48.72,
+    "end": 49.1
+  },
+  {
+    "w": "um",
+    "start": 49.1,
+    "end": 49.22
+  },
+  {
+    "w": "kit",
+    "start": 49.22,
+    "end": 49.44
+  },
+  {
+    "w": "pequeno",
+    "start": 49.44,
+    "end": 49.88
+  },
+  {
+    "w": "de",
+    "start": 49.88,
+    "end": 50.12
+  },
+  {
+    "w": "efeitos.",
+    "start": 50.12,
+    "end": 50.62
+  },
+  {
+    "w": "Um",
+    "start": 50.78,
+    "end": 50.92
+  },
+  {
+    "w": "para",
+    "start": 50.92,
+    "end": 51.12
+  },
+  {
+    "w": "transição,",
+    "start": 51.12,
+    "end": 51.74
+  },
+  {
+    "w": "um",
+    "start": 51.92,
+    "end": 52.06
+  },
+  {
+    "w": "para",
+    "start": 52.06,
+    "end": 52.3
+  },
+  {
+    "w": "destaque",
+    "start": 52.3,
+    "end": 52.84
+  },
+  {
+    "w": "e",
+    "start": 52.84,
+    "end": 52.98
+  },
+  {
+    "w": "um",
+    "start": 52.98,
+    "end": 53.14
+  },
+  {
+    "w": "para",
+    "start": 53.14,
+    "end": 53.3
+  },
+  {
+    "w": "o",
+    "start": 53.3,
+    "end": 53.48
+  },
+  {
+    "w": "final.",
+    "start": 53.48,
+    "end": 53.7
+  },
+  {
+    "w": "E",
+    "start": 54.16,
+    "end": 54.3
+  },
+  {
+    "w": "deixe",
+    "start": 54.3,
+    "end": 54.46
+  },
+  {
+    "w": "a",
+    "start": 54.46,
+    "end": 54.66
+  },
+  {
+    "w": "música",
+    "start": 54.66,
+    "end": 54.92
+  },
+  {
+    "w": "sempre",
+    "start": 54.92,
+    "end": 55.48
+  },
+  {
+    "w": "abaixo",
+    "start": 55.48,
+    "end": 55.9
+  },
+  {
+    "w": "da",
+    "start": 55.9,
+    "end": 56.12
+  },
+  {
+    "w": "sua",
+    "start": 56.12,
+    "end": 56.28
+  },
+  {
+    "w": "voz.",
+    "start": 56.28,
+    "end": 56.56
+  },
+  {
+    "w": "O",
+    "start": 56.56,
+    "end": 57.2
+  },
+  {
+    "w": "segredo",
+    "start": 57.2,
+    "end": 57.78
+  },
+  {
+    "w": "é",
+    "start": 57.78,
+    "end": 57.98
+  },
+  {
+    "w": "repetir.",
+    "start": 57.98,
+    "end": 58.86
+  },
+  {
+    "w": "Identidade",
+    "start": 59.2,
+    "end": 59.7
+  },
+  {
+    "w": "vem",
+    "start": 59.7,
+    "end": 59.9
+  },
+  {
+    "w": "da",
+    "start": 59.9,
+    "end": 60.14
+  },
+  {
+    "w": "repetição,",
+    "start": 60.14,
+    "end": 60.78
+  },
+  {
+    "w": "não",
+    "start": 61.04,
+    "end": 61.18
+  },
+  {
+    "w": "de",
+    "start": 61.18,
+    "end": 61.34
+  },
+  {
+    "w": "um",
+    "start": 61.34,
+    "end": 61.46
+  },
+  {
+    "w": "vídeo",
+    "start": 61.46,
+    "end": 61.62
+  },
+  {
+    "w": "perfeito.",
+    "start": 61.62,
+    "end": 62.24
+  },
+  {
+    "w": "Salva",
+    "start": 62.74,
+    "end": 62.98
+  },
+  {
+    "w": "esse",
+    "start": 62.98,
+    "end": 63.12
+  },
+  {
+    "w": "vídeo",
+    "start": 63.12,
+    "end": 63.48
+  },
+  {
+    "w": "e",
+    "start": 63.48,
+    "end": 63.8
+  },
+  {
+    "w": "comece",
+    "start": 63.8,
+    "end": 64.06
+  },
+  {
+    "w": "a",
+    "start": 64.06,
+    "end": 64.16
+  },
+  {
+    "w": "sua",
+    "start": 64.16,
+    "end": 64.28
+  },
+  {
+    "w": "assinatura",
+    "start": 64.28,
+    "end": 64.82
+  },
+  {
+    "w": "hoje.",
+    "start": 64.82,
+    "end": 65.22
+  }
+]

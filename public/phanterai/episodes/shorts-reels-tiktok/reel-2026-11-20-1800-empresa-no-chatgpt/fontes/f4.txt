@@ -1,0 +1,37 @@
+URL: https://developers.openai.com/commerce/guides/create-business-profile
+STATUS: 200
+TITLE: Claim your business – Agentic Commerce | OpenAI Developers
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to the page URL.
+API Dashboard
+Home
+API
+ChatGPT
+Resources
+Overview
+Plugins
+Sign in with ChatGPT
+Commerce
+Agent Access
+Ads
+Workspace Agents
+User Docs
+Home
+Partner Playbook Overview
+Commerce Partner Playbook
+Submit product feeds
+Help ensure cloud browser access
+Accept payments
+Build a plugin
+Integrate Sign in with ChatGPT
+Claim your business
+Product feeds · Reference
+Product feed schema
+Claim your business
+Copy Page
+Claim your business and manage how it appears in ChatGPT.
+A Business Profile helps customers learn about your business when ChatGPT mentions it.
+To claim your business, see Businesses in ChatGPT.
+Ask AI
+Docs agent
+Loading docs agent...

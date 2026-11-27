@@ -1,0 +1,142 @@
+{
+  "videos": [
+    {
+      "nome": "papelada-1",
+      "id": 8298289,
+      "termo": "small business owner stressed with paperwork and calculator",
+      "duracao": 24,
+      "largura": 1280,
+      "autor": "Mikhail Nilov",
+      "pagina": "https://www.pexels.com/video/a-woman-handing-some-documents-to-a-man-8298289/"
+    },
+    {
+      "nome": "papelada-2",
+      "id": 8298287,
+      "termo": "small business owner stressed with paperwork and calculator",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Mikhail Nilov",
+      "pagina": "https://www.pexels.com/video/a-woman-throwing-papers-8298287/"
+    },
+    {
+      "nome": "noite-1",
+      "id": 6517597,
+      "termo": "woman working late at night on laptop at kitchen table",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "RDNE Stock project",
+      "pagina": "https://www.pexels.com/video/woman-using-laptop-and-taking-notes-6517597/"
+    },
+    {
+      "nome": "noite-2",
+      "id": 7983120,
+      "termo": "woman working late at night on laptop at kitchen table",
+      "duracao": 27,
+      "largura": 1366,
+      "autor": "Ron Lach",
+      "pagina": "https://www.pexels.com/video/woman-working-on-laptop-computer-at-home-7983120/"
+    },
+    {
+      "nome": "confeiteira-1",
+      "id": 4056710,
+      "termo": "baker decorating cake in small bakery",
+      "duracao": 39,
+      "largura": 1280,
+      "autor": "Amin Sani",
+      "pagina": "https://www.pexels.com/video/cake-designer-piping-icing-on-a-cake-4056710/"
+    },
+    {
+      "nome": "confeiteira-2",
+      "id": 7550985,
+      "termo": "baker decorating cake in small bakery",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Hanna Pad",
+      "pagina": "https://www.pexels.com/video/cake-on-the-cake-stand-7550985/"
+    },
+    {
+      "nome": "comemora-1",
+      "id": 6628024,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 11,
+      "largura": 1366,
+      "autor": "KoolShooters",
+      "pagina": "https://www.pexels.com/video/happy-woman-using-laptop-6628024/"
+    },
+    {
+      "nome": "comemora-2",
+      "id": 5974449,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 19,
+      "largura": 1366,
+      "autor": "KATRIN  BOLOVTSOVA",
+      "pagina": "https://www.pexels.com/video/a-mother-carrying-her-child-when-a-woman-arrived-giving-gift-and-greeting-her-5974449/"
+    },
+    {
+      "nome": "celular-1",
+      "id": 39494839,
+      "termo": "woman sending message on smartphone in shop",
+      "duracao": 20,
+      "largura": 1280,
+      "autor": "Hamim Rony",
+      "pagina": "https://www.pexels.com/video/close-up-of-smartphone-texting-with-one-hand-39494839/"
+    },
+    {
+      "nome": "celular-2",
+      "id": 39494892,
+      "termo": "woman sending message on smartphone in shop",
+      "duracao": 26,
+      "largura": 1280,
+      "autor": "Hamim Rony",
+      "pagina": "https://www.pexels.com/video/close-up-of-smartphone-texting-interaction-39494892/"
+    },
+    {
+      "nome": "loja-1",
+      "id": 6683746,
+      "termo": "small shop owner smiling behind counter",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/female-barista-posing-looking-at-camera-6683746/"
+    },
+    {
+      "nome": "loja-2",
+      "id": 8441631,
+      "termo": "small shop owner smiling behind counter",
+      "duracao": 58,
+      "largura": 1366,
+      "autor": "Ron Lach",
+      "pagina": "https://www.pexels.com/video/a-young-woman-placing-chairs-on-top-of-a-table-8441631/"
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "doces-1",
+      "id": 33643876,
+      "termo": "brigadeiros sweets party table",
+      "autor": "Rafael Rodrigues",
+      "pagina": "https://www.pexels.com/photo/sweet-brigadeiros-in-purple-paper-liners-33643876/"
+    },
+    {
+      "nome": "doces-2",
+      "id": 28320151,
+      "termo": "brigadeiros sweets party table",
+      "autor": "Thiago Beariz Fotografias",
+      "pagina": "https://www.pexels.com/photo/candy-doces-28320151/"
+    },
+    {
+      "nome": "bolo-1",
+      "id": 29534660,
+      "termo": "birthday cake party table",
+      "autor": "Juan Rosario 🇵🇷",
+      "pagina": "https://www.pexels.com/photo/colorful-sweet-sixteen-birthday-celebration-decor-29534660/"
+    },
+    {
+      "nome": "bolo-2",
+      "id": 32333371,
+      "termo": "birthday cake party table",
+      "autor": "Pexels",
+      "pagina": "https://www.pexels.com/photo/joyful-birthday-celebration-with-friends-and-cake-photo-by-alexander-mass-32333371/"
+    }
+  ]
+}

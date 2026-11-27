@@ -1,0 +1,74 @@
+{
+  "gamer": {
+    "id": 9409819,
+    "fotografo": "Erik Mclean",
+    "pagina": "https://www.pexels.com/photo/close-up-shot-of-a-white-game-controller-9409819/",
+    "termo": "gaming"
+  },
+  "controle": {
+    "id": 9409819,
+    "fotografo": "Erik Mclean",
+    "pagina": "https://www.pexels.com/photo/close-up-shot-of-a-white-game-controller-9409819/",
+    "termo": "video game controller"
+  },
+  "datacenter": {
+    "id": 5203849,
+    "fotografo": "Brett Sayles",
+    "pagina": "https://www.pexels.com/photo/black-server-racks-5203849/",
+    "termo": "server room data center"
+  },
+  "codigo": {
+    "id": 31177056,
+    "fotografo": "Rashed Paykary",
+    "pagina": "https://www.pexels.com/photo/colorful-javascript-code-display-on-screen-31177056/",
+    "termo": "programming code screen"
+  },
+  "escritorio": {
+    "id": 5473300,
+    "fotografo": "cottonbro studio",
+    "pagina": "https://www.pexels.com/photo/a-person-using-a-computer-5473300/",
+    "termo": "office computer night"
+  },
+  "robo": {
+    "id": 8566521,
+    "fotografo": "Kindel Media",
+    "pagina": "https://www.pexels.com/photo/white-and-blue-illuminated-toy-robot-8566521/",
+    "termo": "robot"
+  },
+  "alerta": {
+    "id": 16300093,
+    "fotografo": "Joshua Brown",
+    "pagina": "https://www.pexels.com/photo/warning-sign-on-fence-16300093/",
+    "termo": "security warning"
+  },
+  "negocio": {
+    "id": 7679882,
+    "fotografo": "MART  PRODUCTION",
+    "pagina": "https://www.pexels.com/photo/a-woman-in-red-beanie-putting-the-cut-out-papers-in-the-box-7679882/",
+    "termo": "small business owner laptop"
+  },
+  "revisao": {
+    "id": 8470801,
+    "fotografo": "Thirdman",
+    "pagina": "https://www.pexels.com/photo/a-contract-on-a-clipboard-8470801/",
+    "termo": "checklist clipboard review"
+  },
+  "checagem": {
+    "id": 7319085,
+    "fotografo": "cottonbro studio",
+    "pagina": "https://www.pexels.com/photo/photo-of-cryptic-character-codes-7319085/",
+    "termo": "magnifying glass inspection"
+  },
+  "equipe": {
+    "id": 12899166,
+    "fotografo": "Mizuno K",
+    "pagina": "https://www.pexels.com/photo/man-and-woman-in-an-office-and-computer-screens-12899166/",
+    "termo": "team working computers office"
+  },
+  "mao": {
+    "id": 6153343,
+    "fotografo": "cottonbro studio",
+    "pagina": "https://www.pexels.com/photo/hand-of-a-person-and-a-bionic-hand-6153343/",
+    "termo": "robot hand and human hand"
+  }
+}

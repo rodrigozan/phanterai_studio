@@ -1,0 +1,10 @@
+{
+ "fontes": [
+  {"url": "https://helpx.adobe.com/firefly/web/work-with-images/generate-images/effects-for-generated-images.html", "uso": "lista dos 9 estilos de Lighting no Firefly web (Effects)"},
+  {"url": "https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-lighting-for-image-generation.html", "uso": "mesmos 9 estilos no Firefly mobile; só nos modelos nativos da Adobe"},
+  {"url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide", "uso": "guia do Google: 'Lighting - natural, dramatic, warm, cold' e exemplo do prompt da poltrona"}
+ ],
+ "imagens_videos": "nenhum: toda a cena é SVG/motion desenhado no Remotion; sem Pexels, sem print, nada gerado por IA",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (biblioteca PhanterAI)",
+ "sfx": "public/sfx (whoosh, pop, error, ding)"
+}

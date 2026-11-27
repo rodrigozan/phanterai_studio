@@ -1,0 +1,877 @@
+[
+  {
+    "w": "Música",
+    "start": 0.0,
+    "end": 0.52
+  },
+  {
+    "w": "sem",
+    "start": 0.52,
+    "end": 0.76
+  },
+  {
+    "w": "copyright",
+    "start": 0.76,
+    "end": 1.32
+  },
+  {
+    "w": "quase",
+    "start": 1.32,
+    "end": 1.84
+  },
+  {
+    "w": "não",
+    "start": 1.84,
+    "end": 2.28
+  },
+  {
+    "w": "existe.",
+    "start": 2.28,
+    "end": 2.76
+  },
+  {
+    "w": "Pode",
+    "start": 3.02,
+    "end": 3.2
+  },
+  {
+    "w": "parar",
+    "start": 3.2,
+    "end": 3.48
+  },
+  {
+    "w": "de",
+    "start": 3.48,
+    "end": 3.7
+  },
+  {
+    "w": "procurar.",
+    "start": 3.7,
+    "end": 4.24
+  },
+  {
+    "w": "O",
+    "start": 4.54,
+    "end": 4.66
+  },
+  {
+    "w": "que",
+    "start": 4.66,
+    "end": 4.88
+  },
+  {
+    "w": "existe",
+    "start": 4.88,
+    "end": 5.18
+  },
+  {
+    "w": "é",
+    "start": 5.18,
+    "end": 5.44
+  },
+  {
+    "w": "música",
+    "start": 5.44,
+    "end": 5.9
+  },
+  {
+    "w": "com",
+    "start": 5.9,
+    "end": 6.24
+  },
+  {
+    "w": "licença.",
+    "start": 6.24,
+    "end": 6.88
+  },
+  {
+    "w": "E",
+    "start": 7.16,
+    "end": 7.32
+  },
+  {
+    "w": "essa",
+    "start": 7.32,
+    "end": 7.46
+  },
+  {
+    "w": "diferença",
+    "start": 7.46,
+    "end": 7.96
+  },
+  {
+    "w": "pode",
+    "start": 7.96,
+    "end": 8.4
+  },
+  {
+    "w": "salvar",
+    "start": 8.4,
+    "end": 8.96
+  },
+  {
+    "w": "o",
+    "start": 8.96,
+    "end": 9.12
+  },
+  {
+    "w": "seu",
+    "start": 9.12,
+    "end": 9.28
+  },
+  {
+    "w": "canal.",
+    "start": 9.28,
+    "end": 9.62
+  },
+  {
+    "w": "Todo",
+    "start": 10.06,
+    "end": 10.26
+  },
+  {
+    "w": "vídeo",
+    "start": 10.26,
+    "end": 10.54
+  },
+  {
+    "w": "que",
+    "start": 10.54,
+    "end": 10.68
+  },
+  {
+    "w": "você",
+    "start": 10.68,
+    "end": 10.98
+  },
+  {
+    "w": "sobe",
+    "start": 10.98,
+    "end": 11.18
+  },
+  {
+    "w": "no",
+    "start": 11.18,
+    "end": 11.3
+  },
+  {
+    "w": "YouTube",
+    "start": 11.3,
+    "end": 11.74
+  },
+  {
+    "w": "passa",
+    "start": 11.74,
+    "end": 12.16
+  },
+  {
+    "w": "pelo",
+    "start": 12.16,
+    "end": 12.42
+  },
+  {
+    "w": "Content",
+    "start": 12.42,
+    "end": 12.9
+  },
+  {
+    "w": "ID.",
+    "start": 12.9,
+    "end": 13.34
+  },
+  {
+    "w": "É",
+    "start": 13.74,
+    "end": 13.88
+  },
+  {
+    "w": "um",
+    "start": 13.88,
+    "end": 13.98
+  },
+  {
+    "w": "sistema",
+    "start": 13.98,
+    "end": 14.3
+  },
+  {
+    "w": "automático",
+    "start": 14.3,
+    "end": 14.88
+  },
+  {
+    "w": "que",
+    "start": 14.88,
+    "end": 15.14
+  },
+  {
+    "w": "compara",
+    "start": 15.14,
+    "end": 15.46
+  },
+  {
+    "w": "o",
+    "start": 15.46,
+    "end": 15.56
+  },
+  {
+    "w": "áudio",
+    "start": 15.56,
+    "end": 15.82
+  },
+  {
+    "w": "do",
+    "start": 15.82,
+    "end": 16.04
+  },
+  {
+    "w": "seu",
+    "start": 16.04,
+    "end": 16.24
+  },
+  {
+    "w": "vídeo",
+    "start": 16.24,
+    "end": 16.5
+  },
+  {
+    "w": "com",
+    "start": 16.5,
+    "end": 16.76
+  },
+  {
+    "w": "um",
+    "start": 16.76,
+    "end": 16.9
+  },
+  {
+    "w": "banco",
+    "start": 16.9,
+    "end": 17.2
+  },
+  {
+    "w": "gigante",
+    "start": 17.2,
+    "end": 17.84
+  },
+  {
+    "w": "de",
+    "start": 17.84,
+    "end": 18.04
+  },
+  {
+    "w": "faixas",
+    "start": 18.04,
+    "end": 18.42
+  },
+  {
+    "w": "registradas.",
+    "start": 18.42,
+    "end": 19.06
+  },
+  {
+    "w": "Se",
+    "start": 19.58,
+    "end": 19.72
+  },
+  {
+    "w": "encontrar",
+    "start": 19.72,
+    "end": 20.08
+  },
+  {
+    "w": "uma",
+    "start": 20.08,
+    "end": 20.3
+  },
+  {
+    "w": "correspondência,",
+    "start": 20.3,
+    "end": 21.08
+  },
+  {
+    "w": "ele",
+    "start": 21.28,
+    "end": 21.46
+  },
+  {
+    "w": "gera",
+    "start": 21.46,
+    "end": 21.6
+  },
+  {
+    "w": "uma",
+    "start": 21.6,
+    "end": 21.84
+  },
+  {
+    "w": "reivindicação.",
+    "start": 21.84,
+    "end": 22.56
+  },
+  {
+    "w": "E",
+    "start": 23.1,
+    "end": 23.28
+  },
+  {
+    "w": "ele",
+    "start": 23.28,
+    "end": 23.46
+  },
+  {
+    "w": "não",
+    "start": 23.46,
+    "end": 23.64
+  },
+  {
+    "w": "lê",
+    "start": 23.64,
+    "end": 23.8
+  },
+  {
+    "w": "título",
+    "start": 23.8,
+    "end": 24.16
+  },
+  {
+    "w": "de",
+    "start": 24.16,
+    "end": 24.4
+  },
+  {
+    "w": "playlist,",
+    "start": 24.4,
+    "end": 24.86
+  },
+  {
+    "w": "nem",
+    "start": 25.08,
+    "end": 25.2
+  },
+  {
+    "w": "descrição,",
+    "start": 25.2,
+    "end": 25.78
+  },
+  {
+    "w": "nem",
+    "start": 26.16,
+    "end": 26.36
+  },
+  {
+    "w": "entende",
+    "start": 26.36,
+    "end": 26.66
+  },
+  {
+    "w": "se",
+    "start": 26.66,
+    "end": 26.8
+  },
+  {
+    "w": "alguém",
+    "start": 26.8,
+    "end": 27.0
+  },
+  {
+    "w": "chamou",
+    "start": 27.0,
+    "end": 27.28
+  },
+  {
+    "w": "a",
+    "start": 27.28,
+    "end": 27.44
+  },
+  {
+    "w": "música",
+    "start": 27.44,
+    "end": 27.64
+  },
+  {
+    "w": "de",
+    "start": 27.64,
+    "end": 27.94
+  },
+  {
+    "w": "livre.",
+    "start": 27.94,
+    "end": 28.16
+  },
+  {
+    "w": "Aquele",
+    "start": 28.16,
+    "end": 28.92
+  },
+  {
+    "w": "aviso",
+    "start": 28.92,
+    "end": 29.3
+  },
+  {
+    "w": "sem",
+    "start": 29.3,
+    "end": 29.52
+  },
+  {
+    "w": "copyright",
+    "start": 29.52,
+    "end": 30.02
+  },
+  {
+    "w": "intencional",
+    "start": 30.02,
+    "end": 30.64
+  },
+  {
+    "w": "na",
+    "start": 30.64,
+    "end": 30.78
+  },
+  {
+    "w": "descrição",
+    "start": 30.78,
+    "end": 31.3
+  },
+  {
+    "w": "não",
+    "start": 31.3,
+    "end": 31.58
+  },
+  {
+    "w": "vale",
+    "start": 31.58,
+    "end": 31.8
+  },
+  {
+    "w": "nada.",
+    "start": 31.8,
+    "end": 32.28
+  },
+  {
+    "w": "O",
+    "start": 32.64,
+    "end": 32.74
+  },
+  {
+    "w": "que",
+    "start": 32.74,
+    "end": 32.96
+  },
+  {
+    "w": "protege",
+    "start": 32.96,
+    "end": 33.28
+  },
+  {
+    "w": "você",
+    "start": 33.28,
+    "end": 33.74
+  },
+  {
+    "w": "é",
+    "start": 33.74,
+    "end": 33.96
+  },
+  {
+    "w": "poder",
+    "start": 33.96,
+    "end": 34.28
+  },
+  {
+    "w": "provar",
+    "start": 34.28,
+    "end": 34.8
+  },
+  {
+    "w": "que",
+    "start": 34.8,
+    "end": 35.02
+  },
+  {
+    "w": "tem",
+    "start": 35.02,
+    "end": 35.2
+  },
+  {
+    "w": "permissão.",
+    "start": 35.2,
+    "end": 36.06
+  },
+  {
+    "w": "Então,",
+    "start": 36.3,
+    "end": 36.52
+  },
+  {
+    "w": "toda",
+    "start": 36.88,
+    "end": 36.98
+  },
+  {
+    "w": "vez",
+    "start": 36.98,
+    "end": 37.14
+  },
+  {
+    "w": "que",
+    "start": 37.14,
+    "end": 37.26
+  },
+  {
+    "w": "baixar",
+    "start": 37.26,
+    "end": 37.62
+  },
+  {
+    "w": "uma",
+    "start": 37.62,
+    "end": 37.86
+  },
+  {
+    "w": "faixa,",
+    "start": 37.86,
+    "end": 38.32
+  },
+  {
+    "w": "salve",
+    "start": 38.62,
+    "end": 38.74
+  },
+  {
+    "w": "o",
+    "start": 38.74,
+    "end": 38.92
+  },
+  {
+    "w": "print",
+    "start": 38.92,
+    "end": 39.12
+  },
+  {
+    "w": "da",
+    "start": 39.12,
+    "end": 39.3
+  },
+  {
+    "w": "licença",
+    "start": 39.3,
+    "end": 39.84
+  },
+  {
+    "w": "ou",
+    "start": 39.84,
+    "end": 40.14
+  },
+  {
+    "w": "o",
+    "start": 40.14,
+    "end": 40.34
+  },
+  {
+    "w": "comprovante",
+    "start": 40.34,
+    "end": 40.74
+  },
+  {
+    "w": "da",
+    "start": 40.74,
+    "end": 41.04
+  },
+  {
+    "w": "compra",
+    "start": 41.04,
+    "end": 41.34
+  },
+  {
+    "w": "junto",
+    "start": 41.34,
+    "end": 41.72
+  },
+  {
+    "w": "com",
+    "start": 41.72,
+    "end": 41.9
+  },
+  {
+    "w": "o",
+    "start": 41.9,
+    "end": 42.02
+  },
+  {
+    "w": "arquivo",
+    "start": 42.02,
+    "end": 42.24
+  },
+  {
+    "w": "do",
+    "start": 42.24,
+    "end": 42.5
+  },
+  {
+    "w": "projeto.",
+    "start": 42.5,
+    "end": 42.86
+  },
+  {
+    "w": "Anote",
+    "start": 43.42,
+    "end": 43.66
+  },
+  {
+    "w": "o",
+    "start": 43.66,
+    "end": 43.78
+  },
+  {
+    "w": "nome",
+    "start": 43.78,
+    "end": 43.96
+  },
+  {
+    "w": "da",
+    "start": 43.96,
+    "end": 44.2
+  },
+  {
+    "w": "música",
+    "start": 44.2,
+    "end": 44.48
+  },
+  {
+    "w": "e",
+    "start": 44.48,
+    "end": 44.7
+  },
+  {
+    "w": "o",
+    "start": 44.7,
+    "end": 44.92
+  },
+  {
+    "w": "site",
+    "start": 44.92,
+    "end": 45.12
+  },
+  {
+    "w": "de",
+    "start": 45.12,
+    "end": 45.3
+  },
+  {
+    "w": "onde",
+    "start": 45.3,
+    "end": 45.48
+  },
+  {
+    "w": "veio.",
+    "start": 45.48,
+    "end": 45.76
+  },
+  {
+    "w": "Se",
+    "start": 46.26,
+    "end": 46.42
+  },
+  {
+    "w": "vier",
+    "start": 46.42,
+    "end": 46.6
+  },
+  {
+    "w": "uma",
+    "start": 46.6,
+    "end": 46.82
+  },
+  {
+    "w": "reivindicação",
+    "start": 46.82,
+    "end": 47.46
+  },
+  {
+    "w": "mesmo",
+    "start": 47.46,
+    "end": 47.86
+  },
+  {
+    "w": "assim,",
+    "start": 47.86,
+    "end": 48.26
+  },
+  {
+    "w": "não",
+    "start": 48.42,
+    "end": 48.68
+  },
+  {
+    "w": "entre",
+    "start": 48.68,
+    "end": 48.88
+  },
+  {
+    "w": "em",
+    "start": 48.88,
+    "end": 49.1
+  },
+  {
+    "w": "pânico.",
+    "start": 49.1,
+    "end": 49.46
+  },
+  {
+    "w": "Veja",
+    "start": 49.84,
+    "end": 50.06
+  },
+  {
+    "w": "no",
+    "start": 50.06,
+    "end": 50.18
+  },
+  {
+    "w": "YouTube",
+    "start": 50.18,
+    "end": 50.58
+  },
+  {
+    "w": "Studio",
+    "start": 50.58,
+    "end": 50.92
+  },
+  {
+    "w": "quem",
+    "start": 50.92,
+    "end": 51.18
+  },
+  {
+    "w": "reivindicou",
+    "start": 51.18,
+    "end": 52.04
+  },
+  {
+    "w": "com",
+    "start": 52.04,
+    "end": 52.44
+  },
+  {
+    "w": "o",
+    "start": 52.44,
+    "end": 52.46
+  },
+  {
+    "w": "teste",
+    "start": 52.46,
+    "end": 52.76
+  },
+  {
+    "w": "mostrando",
+    "start": 52.76,
+    "end": 53.18
+  },
+  {
+    "w": "a",
+    "start": 53.18,
+    "end": 53.34
+  },
+  {
+    "w": "licença",
+    "start": 53.34,
+    "end": 53.78
+  },
+  {
+    "w": "e",
+    "start": 53.78,
+    "end": 54.14
+  },
+  {
+    "w": "avise",
+    "start": 54.14,
+    "end": 54.34
+  },
+  {
+    "w": "o",
+    "start": 54.34,
+    "end": 54.44
+  },
+  {
+    "w": "fornecedor",
+    "start": 54.44,
+    "end": 54.96
+  },
+  {
+    "w": "da",
+    "start": 54.96,
+    "end": 55.16
+  },
+  {
+    "w": "música.",
+    "start": 55.16,
+    "end": 55.54
+  },
+  {
+    "w": "Salva",
+    "start": 55.54,
+    "end": 56.3
+  },
+  {
+    "w": "esse",
+    "start": 56.3,
+    "end": 56.48
+  },
+  {
+    "w": "vídeo",
+    "start": 56.48,
+    "end": 56.72
+  },
+  {
+    "w": "e",
+    "start": 56.72,
+    "end": 56.86
+  },
+  {
+    "w": "me",
+    "start": 56.86,
+    "end": 57.02
+  },
+  {
+    "w": "conta",
+    "start": 57.02,
+    "end": 57.16
+  },
+  {
+    "w": "nos",
+    "start": 57.16,
+    "end": 57.32
+  },
+  {
+    "w": "comentários.",
+    "start": 57.32,
+    "end": 57.86
+  },
+  {
+    "w": "Você",
+    "start": 58.2,
+    "end": 58.38
+  },
+  {
+    "w": "já",
+    "start": 58.38,
+    "end": 58.58
+  },
+  {
+    "w": "recebeu",
+    "start": 58.58,
+    "end": 58.96
+  },
+  {
+    "w": "uma",
+    "start": 58.96,
+    "end": 59.12
+  },
+  {
+    "w": "reivindicação?",
+    "start": 59.12,
+    "end": 59.64
+  }
+]

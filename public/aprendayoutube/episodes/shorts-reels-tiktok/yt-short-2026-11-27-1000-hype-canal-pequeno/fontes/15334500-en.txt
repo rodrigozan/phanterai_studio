@@ -1,0 +1,238 @@
+Leaderboard for hyped videos on YouTube
+Important:
+This feature is only available in certain countries at this time.
+The leaderboard shows videos from up-and-coming creators in the
+YouTube Partner Program
+(those with 500-500,000 subscribers) that have been uploaded within the last 7 days and endorsed by fans. When viewers show extra love to creators by
+hyping their new videos
+, the videos are given points and YouTube automatically applies bonus points depending on the creator’s subscriber count. The fewer subscribers a creator has, the more bonus points are applied each time viewers hype. Videos with the most points are added to a leaderboard so viewers can find the freshest content that others have hyped. You can discover up to 50 top hyped videos under multiple categories, such as gaming and music, by filtering the leaderboard by topic. With bonus points based on a creator’s subscriber count, eligible creators of various sizes have the chance to reach the top of the leaderboard.
+The leaderboard isn't personalized and displays the same list of videos to all viewers in the same country. The list of most hyped videos is updated about every few minutes.
+Availability & eligibility
+Availability
+Availability
+Hype is available in these locations.
+Australia
+Austria
+Belgium
+Brazil
+Bulgaria
+Canada
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hungary
+India
+Indonesia
+Ireland
+Italy
+Japan
+Korea
+Latvia
+Lithuania
+Luxembourg
+Malta
+Mexico
+Netherlands
+Poland
+Portugal
+Romania
+Slovakia
+Slovenia
+Spain
+Sweden
+Taiwan
+Turkey
+United Kingdom
+United States
+Eligibility
+Up-and-coming creators in the
+YouTube Partner Program
+in the available countries with 500 to 500,000 subscribers are eligible for the hype feature and thus the leaderboard. Viewers in the available countries can hype long-form videos uploaded within the last 7 days from eligible creators. Videos with the most points are added to the leaderboard and get a badge in the video description showing the video’s leaderboard rank.
+View the leaderboard
+After you hype a video, you can click or tap
+Leaderboard
+under the video to view the leaderboard of most-hyped videos, or you can visit the leaderboard at
+youtube.com/feed/hype
+.
+In the YouTube mobile app, you can also find the leaderboard anytime by tapping the
+More
+tab
+Charts
+Hype
+.
+FAQs
+Do you tell creators when a video is hyped or reaches the leaderboard?
+We don't currently have the option for creators to view who hyped their videos. But, creators can always view how many points their video has in the video description. If their video has been added to the leaderboard, there will also be a badge showing the video’s rank in the video description.
+Can I hype my own videos so I can get to the leaderboard?
+No, you can't hype your own videos. You can hype videos from other up-and-coming creators within your community.
+Is the leaderboard global?
+No, it's local. While you might see videos from creators anywhere hype is launched, rankings are based only on how viewers in your country hyped them.
+Can I view another country’s leaderboard?
+No, you can only view the leaderboard for your country at this time.
+Can I filter the leaderboard by topic?
+Yes, the leaderboard can be filtered by topic (For example, cooking, gaming, cars). Filtering by topic helps you discover more hyped videos that align with your interests, showing up to the top 50 hyped videos in that category.
+Is hype available to artist channels?
+Hype is available to artist channels.
+Is hype available on videos with 3rd party music content?
+If a video contains third-party music copyright claims, users may not be able to hype the video for a cost (tested in Brazil and Turkey on Android).
+Was this helpful?
+How can we improve it?
+Yes
+No
+Submit
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+true
+Find videos to watch
+1 of 15
+Trending Charts on YouTube
+2 of 15
+Manage your recommendations & search results
+3 of 15
+Search for videos with captions
+4 of 15
+Advanced search (Filters)
+5 of 15
+Find music from artists you like
+6 of 15
+Official Cards in Search
+7 of 15
+Find videos with voice search
+8 of 15
+Explore YouTube
+9 of 15
+Find videos faster
+10 of 15
+Find videos using hashtags
+11 of 15
+Watch Pay-Per-View events
+12 of 15
+Find your way around YouTube channel pages
+13 of 15
+Leaderboard for hyped videos on YouTube
+14 of 15
+How YouTube recommendations work
+15 of 15
+How YouTube search works
+©2026 Google
+Privacy Policy
+YouTube Terms of Service
+Language
+Afrikaans‎
+azərbaycan‎
+bosanski‎
+català‎
+dansk‎
+Deutsch‎
+eesti‎
+English (United Kingdom)‎
+español‎
+español (Latinoamérica)‎
+euskara‎
+Filipino‎
+français‎
+français (Canada)‎
+Gaeilge‎
+galego‎
+hrvatski‎
+Indonesia‎
+isiZulu‎
+italiano‎
+Kiswahili‎
+latviešu‎
+lietuvių‎
+magyar‎
+Malti‎
+Melayu‎
+Nederlands‎
+norsk‎
+o‘zbek‎
+polski‎
+português‎
+português (Brasil)‎
+română‎
+shqip‎
+slovenčina‎
+slovenščina‎
+suomi‎
+svenska‎
+Tiếng Việt‎
+Türkçe‎
+íslenska‎
+čeština‎
+Ελληνικά‎
+беларуская‎
+български‎
+кыргызча‎
+македонски‎
+монгол‎
+русский‎
+српски‎
+українська‎
+қазақ тілі‎
+հայերեն‎
+‏
+עברית
+‏
+اردو
+‏
+العربية
+‏
+فارسی
+नेपाली‎
+मराठी‎
+हिन्दी‎
+অসমীয়া‎
+বাংলা‎
+ਪੰਜਾਬੀ‎
+ગુજરાતી‎
+ଓଡ଼ିଆ‎
+தமிழ்‎
+తెలుగు‎
+ಕನ್ನಡ‎
+മലയാളം‎
+සිංහල‎
+ไทย‎
+ລາວ‎
+မြန်မာ‎
+ქართული‎
+አማርኛ‎
+ខ្មែរ‎
+中文（简体）‎
+中文（繁體）‎
+中文（香港）‎
+日本語‎
+한국어‎
+English‎
+Enable Dark Mode
+Send feedback on...
+This help content & information
+General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+9444562626685454832
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+59
+false
+false
+false
+false
+false

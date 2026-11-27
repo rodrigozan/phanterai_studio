@@ -1,0 +1,254 @@
+{
+ "slug": "reel-2026-11-18-1200-99-estilos-animacao",
+ "musica": "Daniel.mp3",
+ "panterinha": [
+  "surpresa (zero reais)",
+  "apontando (item 4)",
+  "comemorando (CTA)"
+ ],
+ "cenas": [
+  {
+   "cena": "hook",
+   "componente": "contador 0→99 + 'estilos' gigante",
+   "acoes": [
+    {
+     "acao": "contador conta 0→99 com zoom 1,15→1 e whoosh",
+     "palavra_gatilho": "Noventa",
+     "inicio": 0
+    },
+    {
+     "acao": "5 cards de desenho caem",
+     "palavra_gatilho": "animação...",
+     "inicio": 1.41
+    },
+    {
+     "acao": "flash rosa + etiqueta R$ 0 balançando + moeda",
+     "palavra_gatilho": "zero",
+     "inicio": 2.72
+    },
+    {
+     "acao": "card 'saber desenhar' riscado",
+     "palavra_gatilho": "Sem",
+     "inicio": 4
+    },
+    {
+     "acao": "card 'gerador de vídeo' riscado + som de erro",
+     "palavra_gatilho": "sem",
+     "inicio": 5.36
+    },
+    {
+     "acao": "4 slots de passo",
+     "palavra_gatilho": "quatro",
+     "inicio": 7.04
+    },
+    {
+     "acao": "slot 4 trancado pulsando",
+     "palavra_gatilho": "quarto",
+     "inicio": 8.2
+    }
+   ]
+  },
+  {
+   "cena": "repo",
+   "componente": "card do repositório recriado",
+   "acoes": [
+    {
+     "acao": "nome digitado",
+     "palavra_gatilho": "Lemo",
+     "inicio": 11.54
+    },
+    {
+     "acao": "selo skill",
+     "palavra_gatilho": "skill",
+     "inicio": 13.14
+    },
+    {
+     "acao": "selo grátis",
+     "palavra_gatilho": "grátis",
+     "inicio": 13.38
+    },
+    {
+     "acao": "selo Claude Code",
+     "palavra_gatilho": "Claude",
+     "inicio": 14.02
+    },
+    {
+     "acao": "estrelas contam 0→18.179",
+     "palavra_gatilho": "dezoito",
+     "inicio": 15.22
+    },
+    {
+     "acao": "● no GitHub",
+     "palavra_gatilho": "GitHub.",
+     "inicio": 16.74
+    }
+   ]
+  },
+  {
+   "cena": "item1",
+   "componente": "chip 1 + grade 15 categorias → 6 desenhos",
+   "acoes": [
+    {
+     "acao": "grade de 15 categorias",
+     "palavra_gatilho": "quinze",
+     "inicio": 19.74
+    },
+    {
+     "acao": "bolha 15",
+     "palavra_gatilho": "categorias,",
+     "inicio": 20.06
+    },
+    {
+     "acao": "vira 6 cards de desenho animado",
+     "palavra_gatilho": "seis",
+     "inicio": 21.1
+    },
+    {
+     "acao": "card anos 30 em destaque",
+     "palavra_gatilho": "cartoon",
+     "inicio": 23.18
+    },
+    {
+     "acao": "card anime 80 em destaque",
+     "palavra_gatilho": "anime",
+     "inicio": 24.7
+    }
+   ]
+  },
+  {
+   "cena": "item2",
+   "componente": "chip 2 + chat",
+   "acoes": [
+    {
+     "acao": "estilo escolhido",
+     "palavra_gatilho": "Pede",
+     "inicio": 26.82
+    },
+    {
+     "acao": "frase digitada",
+     "palavra_gatilho": "faz",
+     "inicio": 28.14
+    },
+    {
+     "acao": "mensagem enviada + spinner",
+     "palavra_gatilho": "canal.",
+     "inicio": 30.1
+    }
+   ]
+  },
+  {
+   "cena": "item3",
+   "componente": "chip 3 + checklist + barra de progresso",
+   "acoes": [
+    {
+     "acao": "desenha ✓",
+     "palavra_gatilho": "desenha,",
+     "inicio": 33.68
+    },
+    {
+     "acao": "trilha ✓",
+     "palavra_gatilho": "compõe",
+     "inicio": 34.32
+    },
+    {
+     "acao": "narra ✓",
+     "palavra_gatilho": "narra",
+     "inicio": 35.4
+    },
+    {
+     "acao": "monta ✓",
+     "palavra_gatilho": "monta.",
+     "inicio": 35.88
+    },
+    {
+     "acao": "cronômetro 30→60 min",
+     "palavra_gatilho": "Leva",
+     "inicio": 36.6
+    }
+   ]
+  },
+  {
+   "cena": "item4",
+   "componente": "chip 4 + editor de estilo",
+   "acoes": [
+    {
+     "acao": "cores",
+     "palavra_gatilho": "cores,",
+     "inicio": 42.14
+    },
+    {
+     "acao": "logo",
+     "palavra_gatilho": "logo",
+     "inicio": 42.86
+    },
+    {
+     "acao": "personagens",
+     "palavra_gatilho": "personagens.",
+     "inicio": 43.66
+    },
+    {
+     "acao": "salvar estilo",
+     "palavra_gatilho": "guarda",
+     "inicio": 44.78
+    },
+    {
+     "acao": "meus estilos (1)",
+     "palavra_gatilho": "usar",
+     "inicio": 45.26
+    }
+   ]
+  },
+  {
+   "cena": "plugin",
+   "componente": "terminal com 2 comandos",
+   "acoes": [
+    {
+     "acao": "'tudo isso'",
+     "palavra_gatilho": "tudo",
+     "inicio": 46.62
+    },
+    {
+     "acao": "1º comando digitado",
+     "palavra_gatilho": "isso",
+     "inicio": 46.86
+    },
+    {
+     "acao": "'1 plugin'",
+     "palavra_gatilho": "plugin",
+     "inicio": 47.78
+    },
+    {
+     "acao": "2º comando",
+     "palavra_gatilho": "dois",
+     "inicio": 49.18
+    },
+    {
+     "acao": "✓ 99 estilos instalados",
+     "palavra_gatilho": "comandos.",
+     "inicio": 49.42
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "componente": "card comente ESTILO",
+   "acoes": [
+    {
+     "acao": "ESTILO digitado",
+     "palavra_gatilho": "ESTILO",
+     "inicio": 50.86
+    },
+    {
+     "acao": "Seguindo ✓",
+     "palavra_gatilho": "segue.",
+     "inicio": 51.98
+    },
+    {
+     "acao": "link na legenda",
+     "palavra_gatilho": "link",
+     "inicio": 52.54
+    }
+   ]
+  }
+ ]
+}

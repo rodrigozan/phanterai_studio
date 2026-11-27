@@ -1,0 +1,8 @@
+{
+  "fontes": [
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2"
+  ],
+  "visual": "interface recriada em motion graphics pela PhanterAI (sem print, sem Pexels, nada gerado por IA)",
+  "music": { "file": "phanterai/music/Coding_at_Night.mp3", "volume": 0.2, "loop": true }
+}

@@ -1,0 +1,484 @@
+URL: https://www.databricks.com/blog/introducing-genie-zeroops
+STATUS: 200
+TITLE: Introducing Genie ZeroOps: Autonomous Data & AI Operations
+
+Skip to main content
+Why Databricks
+Product
+Solutions
+Resources
+About
+Login
+Contact Us
+Try Databricks
+All blogs
+/
+Platform
+TABLE OF CONTENTS
+PLATFORM
+June 16, 2026
+Introducing Genie ZeroOps: Put your data and AI operations on autopilot
+
+An AI background agent that monitors your production workloads, investigates issues, and suggests fixes you can verify
+
+by Bilal Aslam, Lennart Kats, Ray Zhu, Mike Del Balso and Ori Zohar
+
+SUMMARY
+Data teams spend most of their time on maintenance, not building, and that burden is growing as AI makes it faster to ship pipelines and models.
+Coding agents help build, but they can't automate operations since they are not part of the data platform and can't access metrics, logs and lineage. Importantly, they cannot safely access production data.
+Genie ZeroOps is a background agent built into Databricks that autonomously monitors, investigates, and proposes fixes for data and AI assets such as pipelines, jobs, tables, ML models and more.
+
+Data and AI work has always had a maintenance problem. Data pipelines break all the time due to not only code issues but also data problems such as upstream schema changes or late-arriving data. ML models drift, and degrading models keep serving confident, wrong answers long before anything throws an error. The burden of keeping data and AI assets running in production is falling on data teams, and it's only growing. The rise of LLMs and agentic tools has made it faster than ever to build pipelines and ship models. As a result, data teams report spending most of their time fighting fires rather than building.
+
+What is Genie ZeroOps and how does it work?
+
+To help data teams with this operational burden, we’ve built Genie ZeroOps: an autonomous background agent that monitors your data and AI assets (such as pipelines, jobs, tables and ML models) and takes action before or when things go wrong. Because it runs inside Databricks, it has secure and easy access to:
+
+Full observability: metrics, events, logs, and run history from the platform's observability layer.
+Data lineage through Unity Catalog: the complete dependency graph of every asset, so it can trace failures to their true root cause.
+Sandbox environments: Genie ZeroOps shallow clones production data (creating a table clone using metadata without duplicating the underlying data) into an isolated environment, applies permission guardrails and network isolation, and validates a proposed fix against real data without touching production.
+
+Here's the process it runs for every failure:
+
+Detect: Continuous monitoring with access to platform observability, including silent failures that show up in data quality metrics before they throw any errors.
+Assess: Unity Catalog lineage gives Genie ZeroOps the full dependency graph. It can trace a failure to a code bug, a schema change three tables upstream, or bad data introduced by another pipeline.
+Remediate: Agentic code generation produces the fix, with your development workflow (GitHub PRs, Jira tickets) as context.
+Verify: Genie ZeroOps runs a secure sandbox with zero-copy clones of your data, scoped permissions, and network isolation. The proposed fix runs against real data there, never against production, and nothing is applied until you approve it.
+ 
+Genie ZeroOps inbox UI showing incidents ordered by severity
+Genie ZeroOps shows you a visualization of impacted assets and the root cause analysis it performed using lineage data
+Suggested fixes are provided with an indication of sandbox validation
+Why coding agents can't solve data and AI operations
+
+Why do you need a purpose-built agent for data and AI operations? Can’t you use the same coding agent that helps you build software and get the same results? The answer is – “no, not really”. 
+
+Coding agents were built for software engineering, but data engineering and AI are fundamentally different:
+
+The context includes data, not just code. Pipeline failures are often caused by schema changes upstream, bad data propagating through a dependency chain, or silent corruption. None of which code alone can tell you about.
+Failures can be silent and permanent. A data bug can sit quietly in a production table for weeks, poisoning downstream consumers. By the time you find it, the business implications have materialized.
+Production data is sensitive and governed. Unlike code, it can't be freely copied, shared, or handed to an outside tool.
+
+When something breaks, you need to: detect it, assess root cause, remediate with a fix, and verify it works without side effects.
+
+Examine each step, and you’ll find coding agents typically fall short. For detection, they can lack context, such as telemetry or choke on extremely large context, like Apache Spark™ logs. For assessment, finding the root cause and its impact, they often lack access to lineage data. They also don’t have a purpose-built harness for data and AI work, which makes the process more costly and time-consuming. Coding agents can write code for remediation, but they often lack the context to do it right and can’t fix issues that are data-related. But the step that is most challenging for coding agents is verification.
+
+Verification requires testing code fixes against real production data in an isolated environment. You can't give an external agent access to production data, and even if you did, running code against it risks side effects that can have devastating consequences.
+
+For an agent to safely handle the verify step, it needs to be part of the data platform itself. Genie ZeroOps is part of the Databricks Data + AI Platform, and that’s what makes it succeed where coding agents fail. 
+
+Machine learning workloads in particular showcase the benefits of a purpose-built agent for operations work.
+
+How does Genie ZeroOps detect and fix machine learning model issues?
+
+Production ML introduces some additional challenges to data engineering. A model can have no pipeline errors and still be producing bad predictions, which means keeping pipelines running isn't enough, you need to watch whether the model's outputs are still trustworthy.
+
+When they aren't, Genie ZeroOps diagnoses the cause, builds a corrected candidate, and validates it before it touches live traffic. For a pipeline fix, it validates against a shallow clone of a table. For a model, it trains a candidate on corrected features and evaluates it against the same eval suite and criteria the production model was held to -- not a generic benchmark. It surfaces the candidate only if it's measurably better, and lets you ramp it on live traffic before it takes over.
+
+What makes those fixes trustworthy is context. Genie ZeroOps for ML is built on the same foundation as Genie Code, Genie Ontology and native integration with the Databricks ML stack (Feature Store, MLflow, model serving, notebooks). It knows which features your model uses, how your team evaluates it, and what 'good' means for your business, so it reasons the way your senior ML engineers would. 
+
+You control what Genie ZeroOps monitors and approves before anything reaches production
+
+You configure which assets Genie ZeroOps monitors and what it's authorized to do. Everything runs under Unity Catalog governance, so it can only access data your own credentials allow. Issues surface in an inbox-style UI, prioritized by severity, each with a root cause analysis and a proposed fix. Nothing gets applied to production without your approval.
+
+The sandbox is the technical trust layer. Shallow cloning means the fix is tested with real data but production is never touched. Scoped permissions and network isolation mean the sandboxed environment can't reach outside its boundaries. What was tested is exactly what gets applied.
+
+This is the value of Genie ZeroOps - it lets you scale your operations safely. It does the heavy lifting while you stay in control.
+
+Genie ZeroOps is coming soon
+
+Genie ZeroOps is entering private preview in the coming weeks, starting with support for jobs, pipelines, tables and ML workloads. Apps, and Lakebase databases are on the roadmap.
+
+Talk to your Databricks account team to request early access. In the meantime, explore other members of the Genie family like Genie One and Genie Code.
+
+Frequently Asked Questions
+What kinds of assets can Genie ZeroOps monitor and fix?
+
+Genie ZeroOps starts by supporting jobs, pipelines, tables, and ML workloads when it enters private preview. Apps and Lakebase databases are listed as being on the roadmap for future support. This means it initially focuses on the core building blocks of a Databricks data and AI stack rather than every asset type from day one.
+
+Why do pipelines sometimes fail even when the code hasn't changed?
+
+Pipelines can break because of problems in the data itself, not just bugs in the code — the article points to upstream schema changes, late-arriving data, and bad data propagating through a dependency chain as common causes. These failures can also be silent, sitting quietly in a production table for weeks before the business impact shows up. Because coding agents only look at code, they typically can't catch these data-driven failures on their own.
+
+How does Genie ZeroOps test a fix without risking production data?
+
+Genie ZeroOps creates a shallow clone of the relevant production table — a copy made using metadata rather than duplicating the underlying data — inside a sandbox with scoped permissions and network isolation. It runs the proposed fix against that clone using real data, so it can validate results without ever touching production. Nothing is applied until you review and approve it, and what was tested in the sandbox is exactly what gets applied.
+
+How is Genie ZeroOps connected to Genie Code and the rest of the Genie family?
+
+Genie ZeroOps for ML is built on the same foundation as Genie Code, Genie Ontology, and native integration with the Databricks ML stack, including Feature Store, MLflow, model serving, and notebooks. That shared foundation is what lets it know which features a model uses and how your team evaluates it. Databricks also offers Genie One as the broader AI coworker in the same product family.
+
+How do I request access to Genie ZeroOps?
+
+You can request early access by talking to your Databricks account team, since Genie ZeroOps is entering private preview in the coming weeks. Initial support covers jobs, pipelines, tables, and ML workloads. In the meantime, you can explore related tools like Genie One and Genie Code.
+
+RELATED TAGS:
+
+Genie, Unity Catalog, Genie Code and Genie Ontology
+
+Get the latest posts in your inbox
+
+Subscribe to our blog and get the latest posts delivered to your inbox.
+
+*
+Work Email
+*
+Country
+Select
+Afghanistan
+Åland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia, Plurinational State of
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo, the Democratic Republic of the
+Congo
+Cook Islands
+Costa Rica
+Côte d'Ivoire
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran, Islamic Republic of
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia, the former Yugoslav Republic of
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory, Occupied
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Réunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+United States Minor Outlying Islands
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela, Bolivarian Republic of
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+By clicking “Subscribe” I understand that I will receive Databricks communications, and I agree to Databricks processing my personal data in accordance with its Privacy Policy.
+Subscribe
+View all blogs
+Why Databricks
+Discover
+For App Developers
+For Executives
+For Startups
+Lakehouse Architecture
+Databricks AI Research
+Customers
+Customer Stories
+Partners
+Partner Overview
+Partner Program
+Find a Partner
+Partner Spotlight
+Cloud Providers
+Partner Solutions
+Product
+Databricks Data + AI Platform
+Platform Overview
+AI Assistant
+Application Development
+Artificial Intelligence
+Business Intelligence
+Customer Data Platform
+Data Engineering
+Data Warehousing
+Database
+Governance
+Neon
+Security
+Sharing
+Pricing
+Pricing Overview
+Pricing Calculator
+Open Source
+Integrations and Data
+Marketplace
+IDE Integrations
+Partner Connect
+Solutions
+Databricks For Industries
+Communications
+Financial Services
+Healthcare and Life Sciences
+Manufacturing
+Media and Entertainment
+Public Sector
+Retail
+View All
+Cross Industry Solutions
+AI Agents
+AI Governance
+Cybersecurity
+Marketing
+Data Migration
+Forward Deployed Engineering
+Solution Accelerators
+Resources
+Documentation
+Customer Support
+Community
+Learning
+Training
+Certification
+Free Edition
+University Alliance
+Databricks Academy Login
+Events
+Data + AI Summit
+Data + AI World Tour
+AI Days
+Event Calendar
+Blog and Podcasts
+Databricks Blog
+AI Blog
+Data Brew Podcast
+About
+Company
+Who We Are
+Our Team
+Databricks Ventures
+Contact Us
+Careers
+Open Jobs
+Working at Databricks
+Press
+Awards and Recognition
+Newsroom
+Security and Trust
+
+Databricks Inc.
+1 Sansome Street, 29th Floor
+San Francisco, CA 95104
+1-866-330-0121
+
+See Careers
+at Databricks
+
+© Databricks 2026. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the Apache Software Foundation.
+
+Privacy Notice|Terms of Use|Modern Slavery Statement|California Privacy|Your Privacy Choices
+We Care About Your Privacy
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+Manage Preferences
+Reject all cookies
+Accept all cookies

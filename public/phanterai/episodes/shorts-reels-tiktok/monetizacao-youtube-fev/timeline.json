@@ -1,0 +1,1059 @@
+{
+  "fps": 30,
+  "music": "CuriousFocus.mp3",
+  "musicEnd": null,
+  "scenes": [
+    {
+      "id": "C01",
+      "template": "contador",
+      "pose": "surpresa",
+      "fala": "Você tem menos de 100 dias. Daqui a 96 dias, no 1º de fevereiro,",
+      "startFrame": 0,
+      "endFrame": 175,
+      "dados": {
+        "de": 100,
+        "ate": 96,
+        "rotulo": "dias até 1º de fevereiro"
+      },
+      "eventos": [
+        {
+          "ao": "96",
+          "acao": "contar",
+          "frame": 86
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "as regras de monetização do YouTube mudam e as regras para entrar no programa dobram.",
+      "startFrame": 175,
+      "endFrame": 339,
+      "dados": {
+        "titulo": "AS REGRAS DOBRAM",
+        "subtitulo": "monetização do YouTube"
+      },
+      "eventos": [
+        {
+          "ao": "dobram",
+          "acao": "carimbo-vermelho",
+          "frame": 128
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "Mas antes disso, existe uma janela, um bônus de shorts que pode colocar de centenas a milhares de dólares na mão de quem postar agora.",
+      "startFrame": 339,
+      "endFrame": 622,
+      "dados": {
+        "titulo": "BÔNUS DE SHORTS",
+        "subtitulo": "centenas a milhares de dólares"
+      },
+      "eventos": [
+        {
+          "ao": "bônus",
+          "acao": "carimbo-verde",
+          "frame": 83
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "template": "checklist-cards",
+      "pose": "apontando",
+      "fala": "Neste vídeo, eu junto os dois assuntos. O que muda, o que não muda e o que você deve fazer enquanto ainda dá tempo.",
+      "startFrame": 622,
+      "endFrame": 841,
+      "dados": {
+        "titulo": "NESTE VÍDEO",
+        "itens": [
+          "O que muda",
+          "O que não muda",
+          "O que fazer agora"
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C05",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "Fala galera, bem-vindos ao Aprenda YouTube. Vamos começar pelo básico.",
+      "startFrame": 841,
+      "endFrame": 1002,
+      "dados": {
+        "titulo": "VAMOS AO BÁSICO",
+        "subtitulo": "Aprenda YouTube"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C06",
+      "template": "comparacao",
+      "pose": "apontando",
+      "fala": "Hoje, para entrar no programa de parceiros do YouTube, você precisa de mil inscritos e 4 mil horas de exibição.",
+      "startFrame": 1002,
+      "endFrame": 1206,
+      "dados": {
+        "esquerda": {
+          "titulo": "Inscritos",
+          "valor": "1.000"
+        },
+        "direita": {
+          "titulo": "Horas de exibição",
+          "valor": "4.000 h"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "4",
+          "acao": "destacar-direita",
+          "frame": 144
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "template": "contador",
+      "pose": "surpresa",
+      "fala": "Ou, no caminho dos shorts, 10 milhões de visualizações.",
+      "startFrame": 1206,
+      "endFrame": 1336,
+      "dados": {
+        "de": 0,
+        "ate": 10000000,
+        "rotulo": "views em Shorts (caminho dos Shorts)"
+      },
+      "eventos": [
+        {
+          "ao": "10",
+          "acao": "contar",
+          "frame": 53
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "template": "comparacao",
+      "pose": "surpresa",
+      "fala": "Em 1º de fevereiro, o cenário muda. Os mil inscritos continuam sendo exigidos, mas as horas sobem para 8 mil, contadas em um período de 12 meses.",
+      "startFrame": 1336,
+      "endFrame": 1636,
+      "dados": {
+        "esquerda": {
+          "titulo": "Hoje",
+          "valor": "4.000 h"
+        },
+        "direita": {
+          "titulo": "1º de fevereiro",
+          "valor": "8.000 h"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "8",
+          "acao": "destacar-direita",
+          "frame": 208
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "template": "comparacao",
+      "pose": "apontando",
+      "fala": "E nos shorts, o número passa para 20 milhões de visualizações em um período de 90 dias.",
+      "startFrame": 1636,
+      "endFrame": 1844,
+      "dados": {
+        "esquerda": {
+          "titulo": "Hoje",
+          "valor": "10 mi"
+        },
+        "direita": {
+          "titulo": "1º de fevereiro",
+          "valor": "20 mi"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "20",
+          "acao": "destacar-direita",
+          "frame": 75
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "template": "titulo-impacto",
+      "pose": "pensando",
+      "fala": "Ou seja, fora a quantidade de inscritos, tudo dobra.",
+      "startFrame": 1844,
+      "endFrame": 1955,
+      "dados": {
+        "titulo": "TUDO DOBRA",
+        "subtitulo": "menos os inscritos"
+      },
+      "eventos": [
+        {
+          "ao": "dobra",
+          "acao": "carimbo-vermelho",
+          "frame": 88
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "Mas isso vale para quem ainda vai entrar no programa. Ou seja, para quem pedir a monetização a partir de 1º de fevereiro.",
+      "startFrame": 1955,
+      "endFrame": 2183,
+      "dados": {
+        "titulo": "SÓ PARA NOVOS",
+        "subtitulo": "pedidos a partir de 1º/fev"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C12",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "Agora, uma informação importante para você não entrar em pânico. Nada zera em fevereiro.",
+      "startFrame": 2183,
+      "endFrame": 2351,
+      "dados": {
+        "titulo": "NADA ZERA",
+        "subtitulo": "sem pânico"
+      },
+      "eventos": [
+        {
+          "ao": "zera",
+          "acao": "carimbo-verde",
+          "frame": 135
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "template": "grafico-barras",
+      "pose": "apontando",
+      "fala": "Se você tem 3.500 horas hoje, elas continuam valendo. A diferença é que a linha de chegada muda de lugar.",
+      "startFrame": 2351,
+      "endFrame": 2593,
+      "dados": {
+        "titulo": "3.500 h continuam valendo",
+        "barras": [
+          {
+            "rotulo": "Você hoje",
+            "valor": 3500
+          },
+          {
+            "rotulo": "Meta de hoje",
+            "valor": 4000
+          },
+          {
+            "rotulo": "Meta nova",
+            "valor": 8000
+          }
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C14",
+      "template": "comparacao",
+      "pose": "pensando",
+      "fala": "Em vez de 4 mil, a meta passa a ser 8 mil. Então, quanto mais perto você estiver agora, mais vale a pena acelerar antes da virada.",
+      "startFrame": 2593,
+      "endFrame": 2878,
+      "dados": {
+        "esquerda": {
+          "titulo": "Antes",
+          "valor": "4.000 h"
+        },
+        "direita": {
+          "titulo": "Depois",
+          "valor": "8.000 h"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "acelerar",
+          "acao": "destacar-esquerda",
+          "frame": 222
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "template": "titulo-impacto",
+      "pose": "comemorando",
+      "fala": "E um detalhe importante. Quem bater a meta atual e pedir a análise antes de 1º de fevereiro, entra pela regra de hoje.",
+      "startFrame": 2878,
+      "endFrame": 3095,
+      "dados": {
+        "titulo": "ANTES DE 1º/FEV",
+        "subtitulo": "entra pela regra de hoje"
+      },
+      "eventos": [
+        {
+          "ao": "hoje",
+          "acao": "carimbo-verde",
+          "frame": 210
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "template": "titulo-impacto",
+      "pose": "pensando",
+      "fala": "E se você já é monetizado, também tem uma tarefa.",
+      "startFrame": 3095,
+      "endFrame": 3214,
+      "dados": {
+        "titulo": "JÁ É MONETIZADO?",
+        "subtitulo": "também tem tarefa"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C17",
+      "template": "checklist-cards",
+      "pose": "apontando",
+      "fala": "Quem já está no programa de parceiros, não precisa cumprir esses novos requisitos de entrada e continua monetizando os vídeos longos.",
+      "startFrame": 3214,
+      "endFrame": 3444,
+      "dados": {
+        "titulo": "QUEM JÁ ESTÁ NO PROGRAMA",
+        "itens": [
+          "Não cumpre os novos requisitos de entrada",
+          "Continua monetizando vídeos longos"
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C18",
+      "template": "contador",
+      "pose": "apontando",
+      "fala": "Mas precisa aceitar os novos termos no YouTube Studio até 31 de janeiro.",
+      "startFrame": 3444,
+      "endFrame": 3595,
+      "dados": {
+        "de": 0,
+        "ate": 31,
+        "prefixo": "",
+        "sufixo": " de janeiro",
+        "rotulo": "aceite os novos termos no Studio"
+      },
+      "eventos": [
+        {
+          "ao": "31",
+          "acao": "contar",
+          "frame": 105
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "template": "contador",
+      "pose": "surpresa",
+      "fala": "E, para continuar ganhando com shorts, precisa de 10 milhões de visualizações qualificadas nos últimos 90 dias.",
+      "startFrame": 3595,
+      "endFrame": 3829,
+      "dados": {
+        "de": 0,
+        "ate": 10000000,
+        "rotulo": "views qualificadas em 90 dias"
+      },
+      "eventos": [
+        {
+          "ao": "10",
+          "acao": "contar",
+          "frame": 90
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "template": "titulo-impacto",
+      "pose": "triste",
+      "fala": "Se você deixar de aceitar os termos, pode colocar a sua receita em risco. Então, quando terminar este vídeo, abra o Studio e confira.",
+      "startFrame": 3829,
+      "endFrame": 4085,
+      "dados": {
+        "titulo": "ACEITE OS TERMOS",
+        "subtitulo": "receita em risco"
+      },
+      "eventos": [
+        {
+          "ao": "risco",
+          "acao": "sirene",
+          "frame": 107
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "template": "titulo-impacto",
+      "pose": "surpresa",
+      "fala": "Agora vem a parte curiosa. Antes de endurecer as regras para os shorts, o YouTube está oferecendo um bônus.",
+      "startFrame": 4085,
+      "endFrame": 4291,
+      "dados": {
+        "titulo": "A PARTE CURIOSA",
+        "subtitulo": "o bônus de Shorts"
+      },
+      "eventos": [
+        {
+          "ao": "bônus",
+          "acao": "brilho",
+          "frame": 177
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "template": "checklist-cards",
+      "pose": "apontando",
+      "fala": "Criadores que já são monetizados e que postam shorts estão recebendo convites por e-mail e por notificação dentro do Studio.",
+      "startFrame": 4291,
+      "endFrame": 4534,
+      "dados": {
+        "titulo": "COMO CHEGA O CONVITE",
+        "itens": [
+          "Canal já monetizado",
+          "Posta Shorts",
+          "E-mail ou notificação no Studio"
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C23",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "Não existe inscrição. O convite é automático.",
+      "startFrame": 4534,
+      "endFrame": 4626,
+      "dados": {
+        "titulo": "SEM INSCRIÇÃO",
+        "subtitulo": "convite automático"
+      },
+      "eventos": [
+        {
+          "ao": "automático",
+          "acao": "carimbo-verde",
+          "frame": 72
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "template": "contador",
+      "pose": "apontando",
+      "fala": "Nos convites divulgados, o prazo para aceitar é 15 de novembro. E aceitar até o dia 15 faz o mês contar.",
+      "startFrame": 4626,
+      "endFrame": 4859,
+      "dados": {
+        "de": 0,
+        "ate": 15,
+        "sufixo": " de novembro",
+        "rotulo": "prazo para aceitar o convite"
+      },
+      "eventos": [
+        {
+          "ao": "15",
+          "acao": "contar",
+          "frame": 104
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "template": "comparacao",
+      "pose": "apontando",
+      "fala": "O período relatado vai de 1 de novembro a 31 de janeiro, bem na véspera da mudança.",
+      "startFrame": 4859,
+      "endFrame": 5045,
+      "dados": {
+        "esquerda": {
+          "titulo": "Começa",
+          "valor": "1º/nov"
+        },
+        "direita": {
+          "titulo": "Termina",
+          "valor": "31/jan"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "31",
+          "acao": "destacar-direita",
+          "frame": 87
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "template": "lista-numerada",
+      "pose": "feliz",
+      "fala": "Por enquanto, ele está disponível em seis países. Estados Unidos, Reino Unido, Alemanha, Japão, Coreia do Sul e o Brasil.",
+      "startFrame": 5045,
+      "endFrame": 5297,
+      "dados": {
+        "titulo": "6 PAÍSES",
+        "itens": [
+          "Estados Unidos",
+          "Reino Unido",
+          "Alemanha",
+          "Japão",
+          "Coreia do Sul",
+          "Brasil"
+        ],
+        "ativo": 6
+      },
+      "eventos": [
+        {
+          "ao": "Brasil",
+          "acao": "destacar-6",
+          "frame": 228
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "template": "titulo-impacto",
+      "pose": "pensando",
+      "fala": "Como funciona o dinheiro? Pelo que criadores têm mostrado nas redes, são dois níveis.",
+      "startFrame": 5297,
+      "endFrame": 5437,
+      "dados": {
+        "titulo": "COMO FUNCIONA O DINHEIRO?",
+        "subtitulo": "dois níveis"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C28",
+      "template": "contador",
+      "pose": "comemorando",
+      "fala": "O primeiro é um pagamento mínimo garantido, que você ganha só por cumprir uma meta de postagens. E um dos exemplos divulgados fala em 300 dólares por mês.",
+      "startFrame": 5437,
+      "endFrame": 5734,
+      "dados": {
+        "de": 0,
+        "ate": 300,
+        "prefixo": "US$ ",
+        "sufixo": "/mês",
+        "rotulo": "nível 1: mínimo por postar (exemplo relatado)"
+      },
+      "eventos": [
+        {
+          "ao": "300",
+          "acao": "contar",
+          "frame": 237
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "template": "comparacao",
+      "pose": "surpresa",
+      "fala": "O segundo nível é um pagamento maior, que depende do desempenho dos seus shorts, medido em visualizações engajadas. E os tetos relatados vão de mil a dois mil dólares por mês.",
+      "startFrame": 5734,
+      "endFrame": 6059,
+      "dados": {
+        "esquerda": {
+          "titulo": "Teto relatado",
+          "valor": "US$ 1.000"
+        },
+        "direita": {
+          "titulo": "Teto relatado",
+          "valor": "US$ 2.000"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "dois",
+          "acao": "destacar-direita",
+          "frame": 270
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "Tudo isso somado à receita normal de anúncios dos shorts.",
+      "startFrame": 6059,
+      "endFrame": 6167,
+      "dados": {
+        "titulo": "+ RECEITA DE ANÚNCIOS",
+        "subtitulo": "dos Shorts"
+      },
+      "eventos": [
+        {
+          "ao": "somado",
+          "acao": "carimbo-verde",
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "template": "contador",
+      "pose": "apontando",
+      "fala": "E os convites divulgados pedem entre 12 e 16 shorts públicos por mês.",
+      "startFrame": 6167,
+      "endFrame": 6306,
+      "dados": {
+        "de": 0,
+        "ate": 16,
+        "rotulo": "Shorts públicos por mês (12 a 16)"
+      },
+      "eventos": [
+        {
+          "ao": "16",
+          "acao": "contar",
+          "frame": 78
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "template": "titulo-impacto",
+      "pose": "triste",
+      "fala": "Mas atenção, a oferta muda de criador para criador, então não trate esses números como regra para todo mundo.",
+      "startFrame": 6306,
+      "endFrame": 6527,
+      "dados": {
+        "titulo": "VARIA POR CRIADOR",
+        "subtitulo": "números são relatos, não regra"
+      },
+      "eventos": [
+        {
+          "ao": "atenção",
+          "acao": "sirene",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "template": "titulo-impacto",
+      "pose": "pensando",
+      "fala": "Por que o YouTube de repente ficou tão generoso? Uma pista está na concorrência.",
+      "startFrame": 6527,
+      "endFrame": 6689,
+      "dados": {
+        "titulo": "POR QUE TÃO GENEROSO?",
+        "subtitulo": "uma pista: a concorrência"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C34",
+      "template": "contador",
+      "pose": "surpresa",
+      "fala": "Poucos dias antes, o X lançou uma oferta parecida, com milhares de dólares para quem postasse 15 vídeos em 30 dias, sem exigir desempenho.",
+      "startFrame": 6689,
+      "endFrame": 6965,
+      "dados": {
+        "de": 0,
+        "ate": 15,
+        "rotulo": "vídeos em 30 dias (oferta do X)"
+      },
+      "eventos": [
+        {
+          "ao": "15",
+          "acao": "contar",
+          "frame": 164
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "template": "comparacao",
+      "pose": "apontando",
+      "fala": "Parece que existe uma pequena disputa por criadores entre as plataformas.",
+      "startFrame": 6965,
+      "endFrame": 7085,
+      "dados": {
+        "esquerda": {
+          "titulo": "YouTube",
+          "valor": "Bônus de Shorts"
+        },
+        "direita": {
+          "titulo": "X",
+          "valor": "Oferta por 15 vídeos"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "disputa",
+          "acao": "destacar-todos",
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "template": "titulo-impacto",
+      "pose": "pensando",
+      "fala": "E existe uma segunda leitura, que é só uma hipótese. O YouTube pode estar incentivando os criadores monetizados a darem mais uma chance aos shorts antes de a regra apertar.",
+      "startFrame": 7085,
+      "endFrame": 7394,
+      "dados": {
+        "titulo": "SEGUNDA LEITURA",
+        "subtitulo": "hipótese, não fato confirmado"
+      },
+      "eventos": [
+        {
+          "ao": "hipótese",
+          "acao": "brilho",
+          "frame": 71
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "template": "titulo-impacto",
+      "pose": "surpresa",
+      "fala": "Porque tem uma armadilha escondida aqui, e o exemplo vem do próprio VidIQ.",
+      "startFrame": 7394,
+      "endFrame": 7531,
+      "dados": {
+        "titulo": "A ARMADILHA",
+        "subtitulo": "exemplo do vidIQ"
+      },
+      "eventos": [
+        {
+          "ao": "armadilha",
+          "acao": "carimbo-vermelho",
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "template": "grafico-barras",
+      "pose": "apontando",
+      "fala": "O canal deles ganhou cerca de mil dólares com mais ou menos cinco milhões de visualizações engajadas em shorts em um trimestre. Só que, em fevereiro, eles ficam muito longe do mínimo exigido.",
+      "startFrame": 7531,
+      "endFrame": 7876,
+      "dados": {
+        "titulo": "VIEWS EM SHORTS (milhões)",
+        "barras": [
+          {
+            "rotulo": "vidIQ no trimestre",
+            "valor": 5
+          },
+          {
+            "rotulo": "Mínimo em fev",
+            "valor": 10
+          }
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C39",
+      "template": "titulo-impacto",
+      "pose": "triste",
+      "fala": "Então a pergunta é, por que continuar fazendo shorts se, depois da mudança, a receita some? O bônus parece uma ponte para esse momento.",
+      "startFrame": 7876,
+      "endFrame": 8137,
+      "dados": {
+        "titulo": "O BÔNUS É UMA PONTE",
+        "subtitulo": "leitura, não fato"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C40",
+      "template": "analogia",
+      "pose": "pensando",
+      "fala": "E aí vem a pergunta que fica no ar. Para onde vai o dinheiro dos canais que deixarem de ser elegíveis?",
+      "startFrame": 8137,
+      "endFrame": 8318,
+      "dados": {
+        "emoji": "💰",
+        "titulo": "PARA ONDE VAI O DINHEIRO?",
+        "texto": "dos canais que deixarem de ser elegíveis"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C41",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "Ninguém confirmou nada, mas uma leitura possível é que ele se concentre nos criadores que continuarem elegíveis. Se esse bolo for dividido por menos canais, quem estiver dentro pode ganhar mais.",
+      "startFrame": 8318,
+      "endFrame": 8659,
+      "dados": {
+        "titulo": "MENOS CANAIS, MAIS BOLO",
+        "subtitulo": "hipótese, não garantia"
+      },
+      "eventos": [
+        {
+          "ao": "bolo",
+          "acao": "brilho",
+          "frame": 206
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "É uma hipótese, não uma garantia, mas é um bom motivo para você querer estar dentro.",
+      "startFrame": 8659,
+      "endFrame": 8802,
+      "dados": {
+        "titulo": "QUERER ESTAR DENTRO",
+        "subtitulo": "bom motivo"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C43",
+      "template": "contador",
+      "pose": "apontando",
+      "fala": "Então, o que fazer nos próximos 96 dias? Eu separo em três caminhos.",
+      "startFrame": 8802,
+      "endFrame": 8973,
+      "dados": {
+        "de": 0,
+        "ate": 3,
+        "rotulo": "caminhos para os próximos 96 dias"
+      },
+      "eventos": [
+        {
+          "ao": "três",
+          "acao": "contar",
+          "frame": 135
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "template": "checklist-cards",
+      "pose": "apontando",
+      "fala": "Se você ainda não é monetizado, o primeiro passo é descobrir exatamente onde você está. Quantos inscritos, quantas horas de exibição, quantas visualizações nos shorts.",
+      "startFrame": 8973,
+      "endFrame": 9285,
+      "dados": {
+        "titulo": "AINDA NÃO É MONETIZADO",
+        "itens": [
+          "Quantos inscritos",
+          "Quantas horas de exibição",
+          "Quantas views nos Shorts"
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C45",
+      "template": "comparacao",
+      "pose": "pensando",
+      "fala": "Com esses três números na mão, escolha um caminho. Horas ou shorts.",
+      "startFrame": 9285,
+      "endFrame": 9428,
+      "dados": {
+        "esquerda": {
+          "titulo": "Caminho 1",
+          "valor": "Horas"
+        },
+        "direita": {
+          "titulo": "Caminho 2",
+          "valor": "Shorts"
+        }
+      },
+      "eventos": [
+        {
+          "ao": "shorts",
+          "acao": "destacar-direita",
+          "frame": 116
+        }
+      ]
+    },
+    {
+      "id": "C46",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "E monte um calendário fixo de publicações até primeiro de fevereiro. Sem calendário, 96 dias passam sem você perceber.",
+      "startFrame": 9428,
+      "endFrame": 9671,
+      "dados": {
+        "titulo": "CALENDÁRIO FIXO",
+        "subtitulo": "até 1º de fevereiro"
+      },
+      "eventos": [
+        {
+          "ao": "calendário",
+          "acao": "brilho",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "id": "C47",
+      "template": "titulo-impacto",
+      "pose": "comemorando",
+      "fala": "E se você estiver perto das 4 mil horas ou dos 10 milhões de visualizações, corra para pedir a análise antes de primeiro de fevereiro. Porque depois dessa data, valem as metas novas.",
+      "startFrame": 9671,
+      "endFrame": 10031,
+      "dados": {
+        "titulo": "PERTO DA META? CORRA",
+        "subtitulo": "peça a análise antes de 1º/fev"
+      },
+      "eventos": [
+        {
+          "ao": "corra",
+          "acao": "zoom-in",
+          "frame": 175
+        }
+      ]
+    },
+    {
+      "id": "C48",
+      "template": "checklist-cards",
+      "pose": "apontando",
+      "fala": "Se você já é monetizado, aceite os novos termos no estúdio. Fique de olho no e-mail e nas notificações para ver se o convite do bônus chegou.",
+      "startFrame": 10031,
+      "endFrame": 10276,
+      "dados": {
+        "titulo": "JÁ É MONETIZADO",
+        "itens": [
+          "Aceite os novos termos no Studio",
+          "Olhe e-mail e notificações",
+          "Convite do bônus chegou?"
+        ]
+      },
+      "eventos": []
+    },
+    {
+      "id": "C49",
+      "template": "titulo-impacto",
+      "pose": "feliz",
+      "fala": "E, se chegar, cumpra o mínimo de shorts do programa antes que o prazo acabe.",
+      "startFrame": 10276,
+      "endFrame": 10419,
+      "dados": {
+        "titulo": "CUMPRA O MÍNIMO",
+        "subtitulo": "antes do prazo"
+      },
+      "eventos": [
+        {
+          "ao": "mínimo",
+          "acao": "carimbo-verde",
+          "frame": 49
+        }
+      ]
+    },
+    {
+      "id": "C50",
+      "template": "titulo-impacto",
+      "pose": "comemorando",
+      "fala": "E para todo mundo, vale a regra que não muda. Consistência vale mais do que perfeição.",
+      "startFrame": 10419,
+      "endFrame": 10604,
+      "dados": {
+        "titulo": "CONSISTÊNCIA > PERFEIÇÃO",
+        "subtitulo": "para todo mundo"
+      },
+      "eventos": [
+        {
+          "ao": "Consistência",
+          "acao": "carimbo-verde",
+          "frame": 89
+        }
+      ]
+    },
+    {
+      "id": "C51",
+      "template": "titulo-impacto",
+      "pose": "apontando",
+      "fala": "Aquele vídeo parado no seu computador, aquela ideia que você vem adiando, é a hora de gravar, editar e publicar.",
+      "startFrame": 10604,
+      "endFrame": 10825,
+      "dados": {
+        "titulo": "É A HORA",
+        "subtitulo": "gravar, editar e publicar"
+      },
+      "eventos": []
+    },
+    {
+      "id": "C52",
+      "template": "cta",
+      "pose": "apontando",
+      "fala": "Agora me conta nos comentários. Quantos inscritos você tem? Quantas horas de exibição? Quantas visualizações nos shorts? E você, recebeu o convite do bônus?",
+      "startFrame": 10825,
+      "endFrame": 11127,
+      "dados": {
+        "titulo": "ME CONTA NOS COMENTÁRIOS",
+        "pergunta": "Inscritos, horas, views nos Shorts? Recebeu o convite?"
+      },
+      "eventos": [
+        {
+          "ao": "comentários",
+          "acao": "balao-comentario",
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "id": "C53",
+      "template": "cta",
+      "pose": "comemorando",
+      "fala": "Se este vídeo ajudou, deixe o seu like, se inscreve no canal para não perder as próximas atualizações e nos vemos no próximo vídeo.",
+      "startFrame": 11127,
+      "endFrame": 11366,
+      "dados": {
+        "titulo": "APRENDA YOUTUBE",
+        "subtitulo": "like + inscreva-se",
+        "botao": "Inscreva-se"
+      },
+      "eventos": [
+        {
+          "ao": "inscreve",
+          "acao": "clicar-botao",
+          "frame": 80
+        }
+      ]
+    },
+    {
+      "id": "C54",
+      "template": "contador",
+      "pose": "surpresa",
+      "fala": "Faltam 96 dias. Bora usar cada um deles.",
+      "startFrame": 11366,
+      "endFrame": 11497,
+      "dados": {
+        "de": 96,
+        "ate": 96,
+        "rotulo": "dias. Bora usar cada um."
+      },
+      "eventos": []
+    }
+  ],
+  "pausas": [
+    {
+      "startFrame": 601,
+      "endFrame": 622
+    },
+    {
+      "startFrame": 2473,
+      "endFrame": 2495
+    },
+    {
+      "startFrame": 11467,
+      "endFrame": 11497
+    }
+  ]
+}

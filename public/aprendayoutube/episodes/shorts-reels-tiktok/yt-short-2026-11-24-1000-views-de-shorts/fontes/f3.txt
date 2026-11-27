@@ -1,0 +1,79 @@
+https://support.google.com/youtube/answer/9314415?hl=en
+
+Skip to main content
+YouTube Help
+Sign in
+Help Center
+Community
+Creator Tips
+YouTube
+Fix a problemWatch videosManage your account & settingsSupervised experiences on YouTubeYouTube PremiumCreate & grow your channelMonetize your contentPolicy, safety, & copyright
+Analyze performance with analyticsMeasure key moments for audience retention
+Measure key moments for audience retention
+
+The key moments for audience retention report explains how well different moments of your video held viewers' attention. This report gives insight into areas of your video that are working well and opportunities for improvement. Note that audience retention data typically takes 1–2 days to process.
+
+Note: The audience retention report is only available at the video level of YouTube Analytics.
+View key moments for audience retention
+Computer Android phone & tabletiPhone & iPad
+Sign in to YouTube Studio.
+From the left menu, select Content .
+On the video you want to view, select Analytics .
+Select the Overview or Engagement tab and look for the Audience retention report. You can click SEE MORE to see how your video compares to all YouTube videos of similar length.
+Under “Segments", select one of the drop-down different viewer groups to view that segment type.
+
+Understand key moments for audience retention
+
+There are 4 types of moments that may be highlighted on your key moments for audience retention report. You can also use typical retention to compare your 10 latest videos of similar length.
+
+	When the line on the chart is flat, it means viewers are watching that part of your video from start to finish.
+	Gradual declines mean that viewers are losing interest over time. Videos on YouTube generally taper off during the playback period.
+	Spikes appear when more viewers are watching, rewatching, or sharing those parts of your video.
+	Dips mean that viewers are abandoning or skipping at that specific part of your video.
+Intros
+Top moments
+Spikes
+Dips
+Note: Your video may not have all these moments; they’re only highlighted if they're detected in a video. Your video should also be at least 60 seconds long and have at least 100 views.
+
+The shape of the audience retention graph can tell you which parts of your video are most and least interesting to viewers.
+
+View audience retention by segment type
+
+Note: You might need to enable Advanced Mode to access certain data. Learn how to unlock advanced features.
+
+Audience retention segments report allows you to see how well different parts of your audience engage with your videos. You can compare new viewers vs returning viewers, subscribers vs non-subscribers, and if you serve ads then you can break down viewers from organic traffic vs paid traffic interacting with your content. You can also see traffic from skippable video ads and traffic from display ads. You can click SEE MORE to view these reports.
+
+Organic traffic & Paid traffic
+New viewers & Returning viewers
+Subscriber & non-subscriber
+View detailed activity for audience retention
+
+The detailed activity report available within audience retention shows the absolute number of views for different segments of your video. You can also use this report to see how many viewers started and stopped watching your video at various moments.
+
+Consider using data about when viewers start and stop watching your video to improve your content and maintain the viewer’s interest.
+
+Note: The absolute number of views for a segment of a video is expected at times to exceed your video’s overall view count. This is because within a single view the same viewer may watch portions of your content multiple times.
+Metrics to know
+Average view duration	
+
+Average minutes watched among those who stayed to watch.
+
+This is calculated from engaged views and their corresponding watch time.
+
+
+Watch time (hours)	The amount of time viewers have watched your video.
+Give feedback about this article
+Was this helpful?YesNo
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Analyze performance with analytics
+Understand your YouTube engagement
+Measure key moments for audience retention
+How engagement metrics are counted
+View live stream data
+©2026 Google  Privacy Policy  YouTube Terms of Service
+Language
+English‎

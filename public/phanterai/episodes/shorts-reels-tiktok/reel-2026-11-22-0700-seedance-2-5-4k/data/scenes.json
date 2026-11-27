@@ -1,0 +1,233 @@
+{
+ "slug": "reel-2026-11-22-0700-seedance-2-5-4k",
+ "composicao": "ShortSeedance25",
+ "musica": {
+  "file": "phanterai/music/CuriousFocus.mp3",
+  "volume": 0.2,
+  "loop": true
+ },
+ "panterinha": [
+  "surpresa 0–2.92s",
+  "apontando 26.07–29.11s",
+  "comemorando 52.71s–fim"
+ ],
+ "acoes": [
+  {
+   "trecho": "gancho",
+   "componente": "Clip 4K + medidor de gasto",
+   "acao": "medidor sobe de US$ 0 desde o quadro 0; notas 💸/🔥 voando; palavra gigante queimar",
+   "palavra_gatilho": "Você",
+   "inicio": 0
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Clip + badge",
+   "acao": "palavra gigante 4K, clip ganha selo 4K, flash rosa + pop",
+   "palavra_gatilho": "quatro K",
+   "inicio": 1.92
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Timer do clip",
+   "acao": "0:00→0:05 e barra de render enchendo",
+   "palavra_gatilho": "Cinco segundos",
+   "inicio": 2.92
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Pílula de promessa",
+   "acao": "3 coisas · a nº 3 corta esse custo (promessa na tela antes de 5 s)",
+   "palavra_gatilho": "segundos",
+   "inicio": 3.3600000000000003
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Medidor",
+   "acao": "trava em US$ 4,57 vermelho, tremida + coin",
+   "palavra_gatilho": "quatro dólares",
+   "inicio": 3.95
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Card do app genérico",
+   "acao": "Seedance 2.5 entra; seletor de resolução varre 480p/720p/1080p",
+   "palavra_gatilho": "Seedance",
+   "inicio": 5.59
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Seletor",
+   "acao": "4K selecionado com zoom",
+   "palavra_gatilho": "quatro K",
+   "inicio": 7.75
+  },
+  {
+   "trecho": "gancho",
+   "componente": "3 cartões numerados",
+   "acao": "1 ⏱️ 2 🧩 3 ✂️ entram",
+   "palavra_gatilho": "três coisas",
+   "inicio": 8.71
+  },
+  {
+   "trecho": "gancho",
+   "componente": "Cartão 3",
+   "acao": "cresce verde e treme, palavra gigante o 3º corta",
+   "palavra_gatilho": "corta",
+   "inicio": 11.07
+  },
+  {
+   "trecho": "item1",
+   "componente": "Header + clip 30 s",
+   "acao": "contador 0:00→0:30 com personagem andando",
+   "palavra_gatilho": "trinta segundos",
+   "inicio": 13.07
+  },
+  {
+   "trecho": "item1",
+   "componente": "Timeline",
+   "acao": "segmentos começo/virada/final acendem",
+   "palavra_gatilho": "começo/virada/final",
+   "inicio": 15.35
+  },
+  {
+   "trecho": "item1",
+   "componente": "Pílulas",
+   "acao": "+ estender ×2",
+   "palavra_gatilho": "estender",
+   "inicio": 18.15
+  },
+  {
+   "trecho": "item2",
+   "componente": "Janela de referências",
+   "acao": "contador 0→50",
+   "palavra_gatilho": "cinquenta",
+   "inicio": 19.87
+  },
+  {
+   "trecho": "item2",
+   "componente": "Grade",
+   "acao": "30 imagens acendem",
+   "palavra_gatilho": "imagens",
+   "inicio": 22.11
+  },
+  {
+   "trecho": "item2",
+   "componente": "Grade",
+   "acao": "10 vídeos acendem",
+   "palavra_gatilho": "vídeos",
+   "inicio": 23.19
+  },
+  {
+   "trecho": "item2",
+   "componente": "Grade",
+   "acao": "10 áudios acendem",
+   "palavra_gatilho": "áudios",
+   "inicio": 24.03
+  },
+  {
+   "trecho": "item2",
+   "componente": "Pílula",
+   "acao": "tudo no mesmo pedido",
+   "palavra_gatilho": "pedido",
+   "inicio": 25.07
+  },
+  {
+   "trecho": "item3",
+   "componente": "Cartões rascunho x final 4K",
+   "acao": "dois cartões entram, US$ 0,91/s no 4K",
+   "palavra_gatilho": "modo rascunho",
+   "inicio": 27.07
+  },
+  {
+   "trecho": "item3",
+   "componente": "Cartão rascunho",
+   "acao": "US$ 0,10/s e 480p",
+   "palavra_gatilho": "quatrocentos e oitenta",
+   "inicio": 29.55
+  },
+  {
+   "trecho": "item3",
+   "componente": "Barras",
+   "acao": "barra do rascunho encolhe; selo ≈ 9x menos",
+   "palavra_gatilho": "nove vezes",
+   "inicio": 31.51
+  },
+  {
+   "trecho": "item3",
+   "componente": "Aprovação",
+   "acao": "Ficou bom? ✓ aprovar",
+   "palavra_gatilho": "Ficou bom",
+   "inicio": 33.91
+  },
+  {
+   "trecho": "item3",
+   "componente": "Barra de progresso",
+   "acao": "gerando o final 0→100%",
+   "palavra_gatilho": "final",
+   "inicio": 35.15
+  },
+  {
+   "trecho": "preco",
+   "componente": "Globo",
+   "acao": "pins acendendo, no Dreamina ✓, liberado no mundo todo",
+   "palavra_gatilho": "Dreamina",
+   "inicio": 36.79
+  },
+  {
+   "trecho": "preco",
+   "componente": "Tabela de preço",
+   "acao": "linhas 4K/1080p/720p aparecem apagadas",
+   "palavra_gatilho": "API",
+   "inicio": 38.67
+  },
+  {
+   "trecho": "preco",
+   "componente": "Linha 4K",
+   "acao": "contador até US$ 0,91 + barra com brilho",
+   "palavra_gatilho": "noventa e um",
+   "inicio": 41.19
+  },
+  {
+   "trecho": "preco",
+   "componente": "Pílula",
+   "acao": "5 s em 4K ≈ US$ 4,57",
+   "palavra_gatilho": "segundo",
+   "inicio": 42.79
+  },
+  {
+   "trecho": "preco",
+   "componente": "Linha 1080p",
+   "acao": "US$ 0,57",
+   "palavra_gatilho": "cinquenta e sete",
+   "inicio": 44.99
+  },
+  {
+   "trecho": "preco",
+   "componente": "Linha 720p",
+   "acao": "US$ 0,23",
+   "palavra_gatilho": "vinte e três",
+   "inicio": 47.55
+  },
+  {
+   "trecho": "preco",
+   "componente": "Cartões deu certo/falhou",
+   "acao": "cobra x US$ 0",
+   "palavra_gatilho": "cobra",
+   "inicio": 48.79
+  },
+  {
+   "trecho": "cta",
+   "componente": "Lista + pergunta",
+   "acao": "você pagaria? + 3 itens",
+   "palavra_gatilho": "pagaria",
+   "inicio": 50.71
+  },
+  {
+   "trecho": "cta",
+   "componente": "Comentário + seguir",
+   "acao": "4K digitado, corações, Seguir→Seguindo",
+   "palavra_gatilho": "Comenta",
+   "inicio": 52.71
+  }
+ ]
+}

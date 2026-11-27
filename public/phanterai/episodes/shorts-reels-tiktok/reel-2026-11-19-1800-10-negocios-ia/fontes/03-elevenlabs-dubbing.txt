@@ -1,0 +1,165 @@
+URL: https://elevenlabs.io/docs/overview/capabilities/dubbing
+STATUS: 200
+FINAL: https://elevenlabs.io/docs/overview/capabilities/dubbing
+TITLE: Dubbing | ElevenLabs Documentation
+CAPTURADO: 2026-11-19T07:02:20.842Z
+
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+Search
+/
+Connect
+Blog
+Help Center
+API Pricing
+Sign up
+English
+Overview
+ElevenCreative
+ElevenAgents
+ElevenAPI
+Reception.ai
+API reference
+Changelog
+Skip to navigation
+Capabilities
+Dubbing
+Copy page
+Learn how to translate audio and video while preserving the emotion, timing & tone of speakers.
+Overview
+ElevenLabs dubbing translates audio and video across 90+ languages while preserving the emotion, timing, tone and unique characteristics of each speaker. The original background audio is retained, so you can recreate each speaker’s delivery in another language without re-mixing the soundtrack. It can be used to:
+Grow your addressable audience by 4x to reach international audiences
+Adapt existing material for new markets while preserving emotional nuance
+Offer content in multiple languages without re-recording voice talent
+We also offer a fully managed dubbing service for video and podcast creators.
+Usage
+Automatic Dubbing — Dub content from one language into another with a few clicks, powered by the latest Dubbing v2 Alpha model.
+Upload limits: Up to 1 GB and 180 minutes in the app, or 3 GB per source file via the API
+Dubbing Studio — Granular control over your dubs, including transcript editing, speaker reassignment, and per-clip regeneration. Only available via the v1 model.
+Upload limits: Up to 1 GB and 45 minutes
+Note: Dubbing Studio is in maintenance mode and receives critical bug fixes only
+Human-verified dubs via ElevenLabs Productions — For more information, reach out to productions@elevenlabs.io.
+Products
+Edit transcripts and translate videos step by step in Dubbing Studio.
+Developers
+Learn how to integrate dubbing into your application.
+Cloning strength
+Cloning strength is the configurable setting in Automatic Dubbing on the Dubbing v2 Alpha model, on a scale of 0 to 10. In the app, click Speaker similarity to adjust it. The default value of 7 works well for most content. Higher values prioritize voice similarity to the original speaker, which can sound less natural across languages with very different phonetic characteristics. A higher setting can also carry over more of the original accent into the dubbed output. Lower values give the model more freedom for natural delivery in the target language at the cost of resemblance to the original voice.
+Key features
+Multiple speakers: Automatically detect multiple speakers, even with overlapping speech.
+Multi-language output: Generate localized tracks in 90+ languages.
+Preserve original voices: Retain the speaker’s identity and emotional tone.
+Keep background audio: Avoid re-mixing music, effects, or ambient sounds.
+Supported file types: Videos and audio can be dubbed from various sources, including YouTube, TikTok, direct URLs, or file uploads.
+Dubbing v2 does not include a watermark toggle. Free-tier dubs are watermarked automatically; paid-tier dubs are not. There is no watermark-for-credit-discount option on Dubbing v2. The legacy v1 dubbing flow and Dubbing Studio were the only places where the watermark discount existed.
+For Dubbing v2, transcript editing and audio regeneration via the API are available on Enterprise plans only.
+Cost
+Refer to our pricing page for detailed credit costs.
+Supported languages
+Dubbing supports 90+ languages including English, Spanish, French, German, Japanese, Chinese, Arabic, and more. The API accepts a BCP-47 language tag in the source_language and target_language parameters, for example fr or es-MX. On Dubbing v2, a region-qualified tag such as es-MX must be one of the supported dialects listed below; all other languages use the base language tag. Dubbing v1 does not support dialects.
+Dubbing v2 languages and dialects
+Dubbing v1 languages
+Key facts
+Dubbing v2 Alpha — Dubbing v2 is currently in alpha. You may encounter occasional rough edges as we continue to improve the model.
+Content types: All audio and video content types are supported, with up to 32 unique speakers per file.
+Speaker preservation: Each speaker’s tone, pace, and style is preserved in the target language.
+Output quality: Dubbed video is a high-quality preview, not a production master. It is most commonly output at 1080p and may not match the source resolution. Audio is mono for Dubbing v1 and at most stereo for Dubbing v2, so 5.1 and other multichannel audio is not preserved. For production, download the dubbed audio and use it to replace the audio track on your original video.
+Concurrency: All self-serve plans (Free, Starter, Creator, Pro, Scale, Business) allow up to 3 concurrent dubbing jobs, and Enterprise plans default to 10. Limits are applied per workspace and counted per model, so v1 and v2 jobs do not share a pool. If you hit a limit, you will receive a too_many_concurrent_requests error and should wait for existing jobs to complete before starting new ones.
+FAQ
+Is realtime or live dubbing available?
+What happens if my dub fails or gets stuck?
+Is Dubbing v2 available via API?
+Can I edit or regenerate a Dubbing v2 project?
+How do I use the legacy v1 dubbing model?
+What video resolutions does dubbing support?
+Was this page helpful?
+Yes
+No
+Previous
+Sound effects
+Next
+Built with
+Introduction
+Models
+Capabilities
+Text to Speech
+Speech to Text
+Music
+Text to Dialogue
+Image & Video
+Ads Engine
+Voice Changer
+Voice Isolator
+Dubbing
+Sound Effects
+Voices
+Voice Remixing
+Forced Alignment
+ElevenAgents
+Speech Engine
+Private deployments
+Administration
+Account
+Billing
+Pay As You Go
+Consolidated billing
+Data Residency
+Usage analytics
+Assets
+Workspaces
+Introduction
+Models
+Text to Speech
+Eleven v4
+Best practices
+Speech to Text
+Music
+Marketplace
+Best practices
+Text to Dialogue
+Image & Video
+Avatars
+Ads Engine
+Voice Changer
+Voice Isolator
+Dubbing
+Sound Effects
+Voices
+Voice Remixing
+Forced Alignment
+Speech Engine
+Private deployments
+Account
+Billing
+Pay As You Go
+Consolidated billing
+Data Residency
+Usage analytics
+Assets
+Overview
+Members
+Billing groups
+Service accounts
+API Keys
+Domain Verification
+SSO
+Microsoft Entra SAML SSO
+Okta SAML SSO
+SCIM
+Sharing resources
+User groups
+Model approvals
+Audit logs
+Concurrency estimator
+English
+Nederlands
+Svenska
+Italiano
+한국어
+Français
+中文
+Polski
+Português
+Español
+हिन्दी
+Deutsch
+日本語

@@ -1,0 +1,18 @@
+{
+  "composicao": "ShortFable52",
+  "musica": "phanterai/music/Coding_at_Night.mp3 (loop, 0.2)",
+  "cenas": [
+    {"trecho": "Mil agentes, oito dias, um sistema operacional!", "componente": "contador gigante + grade de 200 agentes acendendo; calendário dia 1→8; notebook ligando com barra", "palavra_gatilho": ["Mil (quadro 0)", "oito", "sistema"], "inicio": 0.0},
+    {"trecho": "Cinco novidades, e a quinta é um aviso.", "componente": "5 cartões numerados entrando; o 5 vira ⚠ vermelho tremendo", "palavra_gatilho": ["Cinco", "quinta"], "inicio": 4.0},
+    {"trecho": "É o Claude Fable cinco ponto dois.", "componente": "card do modelo com id claude-fable-5-2 digitando e selos Anthropic / 09/11/2026", "palavra_gatilho": ["Claude"], "inicio": 7.2},
+    {"trecho": "Número um: até 30% mais rápido... oito dólares por milhão de tokens de entrada.", "componente": "corrida de barras Fable 5.1 x 5.2; etiqueta US$ 8 balançando; contador de tokens até 1.000.000", "palavra_gatilho": ["até", "e", "oito"], "inicio": 9.3},
+    {"trecho": "Número dois: código. 49% no FrontierCode...", "componente": "gráfico de barras FrontierCode 2.0 (49,1 / 45,5 / 42,8 / 41,1 / 32,4) com coroa", "palavra_gatilho": ["Quarenta", "maior"], "inicio": 16.2},
+    {"trecho": "E no esforço alto, quase empata com o Opus, pela metade do custo!", "componente": "cards Fable 5.2 alto 45,3% x Opus 5.5 máx 45,5% + barras de custo ½ x 1×", "palavra_gatilho": ["E", "metade"], "inicio": 22.6},
+    {"trecho": "Número três: de uma pasta vazia, mais de mil subagentes por oito dias...", "componente": "janela com pasta vazia → enxame +1.000 subagentes → calendário d1–d8", "palavra_gatilho": ["pasta", "mais", "por"], "inicio": 26.7},
+    {"trecho": "e um sistema que liga no notebook, com login e instalador!", "componente": "notebook dando boot ([ ok ] núcleo/disco/teclado/rede…) → tela de login → instalador 0→100%", "palavra_gatilho": ["e", "login", "instalador"], "inicio": 31.9},
+    {"trecho": "Número quatro: ciência. Ele resolveu dois problemas em aberto sobre buracos negros.", "componente": "buraco negro em motion (anel girando) + 2 cards 'em aberto' → '✓ resolvido'", "palavra_gatilho": ["resolveu", "problemas"], "inicio": 35.4},
+    {"trecho": "Número cinco, o aviso: ... começar pelo Opus 5.5. O Fable é pro trabalho mais pesado.", "componente": "seletor de modelos Haiku/Sonnet/Opus/Fable; cursor; Opus 'comece aqui'; Fable 'só no pesado'", "palavra_gatilho": ["aviso", "Opus", "Fable", "pesado"], "inicio": 40.9},
+    {"trecho": "É melhor, mas não é pra tudo. Você usaria pra quê? Comenta FABLE e me segue!", "componente": "cards trabalho pesado→Fable / dia a dia→Opus; comentário 'FABLE' digitando + ❤; botão Seguir→Seguindo", "palavra_gatilho": ["melhor", "mas", "Você", "Comenta", "segue"], "inicio": 48.9}
+  ],
+  "panterinha": ["surpresa 0–2,4 s (gancho)", "apontando no item 5 (aviso)", "comemorando no CTA"]
+}

@@ -1,0 +1,9 @@
+b01 | youtuber recording video | https://www.pexels.com/video/a-man-using-smartphone-for-video-recording-7514343/
+b02 | content creator working laptop | https://www.pexels.com/video/person-using-a-laptop-8503149/
+b03 | video editing timeline | https://www.pexels.com/video/close-up-of-video-editing-timeline-interface-34845729/
+b05 | music producer headphones | https://www.pexels.com/video/a-sound-engineer-using-an-audio-mixer-8197910/
+b06 | audio mixing console | https://www.pexels.com/video/close-up-view-of-a-person-controlling-mixing-console-7586158/
+b07 | sound waves abstract | https://www.pexels.com/video/dynamic-glowing-sound-wave-animation-loop-34335936/
+b08 | person typing on laptop | https://www.pexels.com/video/person-typing-on-a-laptop-4928295/
+b09 | analytics dashboard screen | https://www.pexels.com/video/tablet-displaying-financial-data-analytics-36328573/
+b10 | creative workspace desk | https://www.pexels.com/video/a-person-busy-scrolling-for-a-photo-stored-in-a-smart-pad-and-making-notes-on-selected-ones-3250237/

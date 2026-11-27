@@ -1,0 +1,118 @@
+{
+ "slug": "reel-2026-11-19-1800-10-negocios-ia",
+ "musica": "phanterai/music/Daniel.mp3 (loop, volume 0.2)",
+ "cenas": [
+  {
+   "trecho": "gancho",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "contador funcionarios 8→0 + palavra gigante ZERO",
+   "palavra_gatilho": "Zero",
+   "inicio": 0
+  },
+  {
+   "trecho": "gancho",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "grade de 10 negócios acendendo",
+   "palavra_gatilho": "dez",
+   "inicio": 1.92
+  },
+  {
+   "trecho": "gancho",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "selo rodando com IA",
+   "palavra_gatilho": "rodando",
+   "inicio": 2.92
+  },
+  {
+   "trecho": "gancho",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "barra fácil→difícil enchendo",
+   "palavra_gatilho": "Do",
+   "inicio": 4.14
+  },
+  {
+   "trecho": "gancho",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "tile 10 trava com cadeado + panterinha surpresa",
+   "palavra_gatilho": "número dez",
+   "inicio": 6.64
+  },
+  {
+   "trecho": "1 Locução",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "texto digitando → play → onda de voz + selo 90+ idiomas",
+   "palavra_gatilho": "ElevenLabs",
+   "inicio": 11.63
+  },
+  {
+   "trecho": "2 Legendas",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "onda → .srt com timestamps digitando + etiqueta R$ 0 balançando",
+   "palavra_gatilho": "Whisper",
+   "inicio": 14.93
+  },
+  {
+   "trecho": "3 Posts",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "prompt digitando → post da padaria montando peça a peça",
+   "palavra_gatilho": "Canva",
+   "inicio": 20.32
+  },
+  {
+   "trecho": "4 Cortes",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "linha do tempo longa, tesoura, 3 reels 9:16 caindo",
+   "palavra_gatilho": "Clip",
+   "inicio": 23.61
+  },
+  {
+   "trecho": "5 Dublagem",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "balão troca Olá/Hello/¡Hola!/Bonjour + voz ✓ música ✓",
+   "palavra_gatilho": "língua",
+   "inicio": 28.09
+  },
+  {
+   "trecho": "6 Sites",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "prompt → navegador montando landing → publicado/no ar",
+   "palavra_gatilho": "pedido",
+   "inicio": 33.57
+  },
+  {
+   "trecho": "7 Atendimento",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "chat cliente ↔ Claude + contador de atendidos",
+   "palavra_gatilho": "responde",
+   "inicio": 38.34
+  },
+  {
+   "trecho": "8 Automação",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "grafo gatilho → agente → planilha/e-mail/agenda, pulso escolhendo",
+   "palavra_gatilho": "escolhe",
+   "inicio": 43.51
+  },
+  {
+   "trecho": "9 Telefone",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "celular tocando com ondas → atende, timer, diálogo de agendamento",
+   "palavra_gatilho": "atende",
+   "inicio": 48.69
+  },
+  {
+   "trecho": "10 App",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "terminal Claude Code: prompt, arquivos escritos, npm run dev 0→100% + panterinha apontando",
+   "palavra_gatilho": "escreve",
+   "inicio": 53.36
+  },
+  {
+   "trecho": "CTA",
+   "componente": "interface recriada em motion (Remotion)",
+   "acao": "grade 1–10 com seleção pulando, comentário digitando, Seguir→Seguindo + panterinha comemorando",
+   "palavra_gatilho": "Comenta",
+   "inicio": 56.82
+  }
+ ]
+}

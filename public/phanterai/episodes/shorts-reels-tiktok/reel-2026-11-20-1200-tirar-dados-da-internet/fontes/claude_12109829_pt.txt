@@ -1,0 +1,57 @@
+URL: https://privacy.claude.com/pt/articles/12109829-como-faco-para-alterar-minhas-configuracoes-de-privacidade-de-melhoria-de-modelo
+STATUS: 200
+CAPTURADO: 2026-11-20T06:35:04.676Z
+
+Ir para conteúdo principal
+English
+Français
+Deutsch
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Português
+Pусский
+简体中文
+Español
+繁體中文
+Português
+Procurar artigos...
+Todas as coleções
+Consumidores
+Definições e controlos de privacidade
+Como faço para alterar minhas configurações de privacidade de melhoria de modelo?
+Como faço para alterar minhas configurações de privacidade de melhoria de modelo?
+3 de agosto de 2026
+Este artigo é sobre nossos produtos para consumidores, como Claude Free, Pro, Max e quando contas desses planos usam Claude Code. Para nossos produtos comerciais, como Claude for Work e a API Anthropic, consulte aqui.
+Se você usa nossos produtos Claude.ai para consumidores e gostaria de alterar se nos permite usar seus dados para melhorar Claude, você sempre pode atualizar suas configurações de privacidade.
+Se você decidir desativar a configuração de treinamento de modelo, não usaremos nenhum novo chat e sessões de codificação que você tiver com Claude para treinamento futuro de modelo. Seus dados ainda serão incluídos no treinamento de modelo que já foi iniciado e em modelos que já foram treinados, mas deixaremos de usar seus chats e sessões de codificação armazenados anteriormente em futuras execuções de treinamento de modelo.
+Observe: Se nossos classificadores de segurança sinalizarem suas conversas, elas ainda podem ser usadas para melhorar nossos modelos internos de confiança e segurança, detectar conteúdo prejudicial, aplicar nossas políticas ou avançar nossa pesquisa de segurança.
+Modificando suas configurações de melhoria de modelo no seu desktop ou navegador:
+Para modificar suas configurações de melhoria de modelo no seu computador:
+Selecione seu nome no menu de configurações e clique no botão suspenso
+Selecione Configurações ou navegue para aqui
+Selecione Privacidade ou navegue para aqui
+Em Ajude a melhorar nossos modelos de IA, clique no botão para ativar/desativar
+Modificando suas configurações de melhoria de modelo no seu dispositivo móvel:
+Para modificar suas configurações de melhoria de modelo no seu dispositivo móvel:
+Selecione seu nome no menu de configurações
+Selecione Configurações
+Selecione Privacidade
+Em Ajude a melhorar nossos modelos de IA, clique no botão para ativar/desativar
+Saiba mais sobre como seus dados pessoais são usados para treinamento de modelo aqui e por quanto tempo seus dados pessoais são retidos aqui.
+Artigos relacionados
+Como você usa dados pessoais no treinamento de modelos?
+Por quanto tempo você armazena meus dados?
+Como Você Usa Dados Pessoais no Treinamento de Modelos?
+Meus dados são usados para treinamento de modelo?
+Atualizações da nossa Política de Privacidade
+Isto respondeu à sua pergunta?
+Reação desapontada
+😞
+Reação neutra
+😐
+Reação de sorriso
+😃
+Modificando suas configurações de melhoria de modelo no seu desktop ou navegador:
+Modificando suas configurações de melhoria de modelo no seu dispositivo móvel:

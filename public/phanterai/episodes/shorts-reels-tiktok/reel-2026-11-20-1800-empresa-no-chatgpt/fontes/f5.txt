@@ -1,0 +1,104 @@
+URL: https://community.openai.com/t/introducing-businesses-in-chatgpt-in-beta/1414865
+STATUS: 200
+TITLE: Introducing Businesses in ChatGPT in beta - Announcements - OpenAI Developer Community
+
+Skip to last reply
+Skip to top
+Skip to main content
+Docs
+API
+Support
+Sign Up
+Log In
+​
+Topics
+Leaderboard
+More
+RESOURCES
+Documentation
+API reference
+Help center
+CATEGORIES
+Announcements
+API
+Prompting
+Documentation
+Plugins / Actions builders
+All categories
+TAGS
+chatgpt
+gpt-4
+api
+assistants-api
+plugin-development
+All tags
+​
+Introducing Businesses in ChatGPT in beta
+Announcements
+chatgpt
+Nov 10
+1
+ / 30
+Nov 11
+20h ago
+post by VeitB on Nov 10
+VeitB 
+Leader
+9d
+Introducing Businesses in ChatGPT in beta
+Claim your business, manage your information, and get insights on how people engage with you.
+Eligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.
+OpenAI
+Introducing Businesses in ChatGPT
+Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.
+You can also publish a Business Agent to help people explore what you offer.
+Customers can ask questions, compare products, and find what fits their needs using information you provide from your business—all in a clearly labeled conversation, separate from ChatGPT’s independent answers.
+Available to eligible ecommerce and online service businesses in the U.S.
+HWyD3OSbUAAnEVx
+680×383 30.7 KB
+Use Business Hub to shape what customers see about your business in ChatGPT.
+Once verified, you can create a Business Agent, update your business details, and add product feeds with current pricing and availability.
+You can also see aggregated insights on mentions, website clicks, and common topics in conversations where your business is cited.
+We don’t share people’s conversations or Business Agent chats with businesses.
+HWyEdWcaoAAawU3
+680×383 31.7 KB
+Eligible businesses located wherever ChatGPT is available can get started by claiming their business in Business Hub.
+OpenAI
+Businesses in ChatGPT: Claim Your Business
+Claim your business in ChatGPT, manage your business information, and explore customer insights. Eligible businesses can create a Business Agent.
+Me too (2)
+11
+​
+​
+10.9k
+views
+29
+likes
+5
+links
+20
+users
+read
+6 min
+Summarize
+post by DheerajShah on Nov 11
+post by _j on Nov 11
+post by torontowebdevelopmen on Nov 11
+post by merefield on Nov 11
+post by torontowebdevelopmen on Nov 11
+post by MateoHysa on Nov 11
+post by Dee_Em on Nov 11
+post by _j on Nov 11
+post by merefield on Nov 11
+post by carlosreinaphoto on Nov 11
+post by rgnanase on Nov 12
+post by merefield on Nov 12
+post by viktoria1 on Nov 13
+post by thuhaw on Nov 13
+post by merefield on Nov 13
+post by dashadagayeva on Nov 14
+post by Padam on Nov 14
+post by VivacityDesign on Nov 15
+post by aPersonUsingChat on Nov 15
+Load more posts below
+ 

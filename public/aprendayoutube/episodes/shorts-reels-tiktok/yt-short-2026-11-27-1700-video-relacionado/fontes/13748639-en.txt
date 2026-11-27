@@ -1,0 +1,32 @@
+Sharing links with your audiences
+
+Creators can share links with their audiences on YouTube, but only certain kinds of links are clickable. Use this page to understand which kinds of links are clickable, and find other helpful resources.
+
+Note: To reduce spam and scam attempts, URLs placed in YouTube Shorts comments and Shorts descriptions are non-clickable.
+
+Clickable links overview
+Link type/location	Clickable	Non-clickable
+Channel profile links		​
+External brand deal links		​
+URLs placed in long-form video comments & descriptions*		​
+URLs placed in Shorts comments & Shorts descriptions	​	
+Related Videos in Shorts link		​
+URLs placed in YouTube Live chat; and channel descriptions (horizontal live streams)		​
+URLs placed in YouTube Live chat and channel descriptions when viewed in the mobile app (vertical live feed)	​	
+Mentions and&​;Hashtags&​;in Shorts comments & Shorts descriptions		​
+YouTube Shopping affiliate program links		​
+Shorts Green screen and Remix Attribution links		​
+Posts*	​	
+End Screens	&​;	​
+* To add clickable external links, you must enable your channel’s access to advanced features.
+Channel profile links
+
+Use channel profile links to showcase up to 14 links on your channel page. To understand which channel profile links will be shown on your channel profile, and steps to update them, visit this page.
+
+Note: External links that send users to websites featuring content that violates our External links policy are not allowed on YouTube.
+Resources
+External links policy
+Manage your YouTube channel’s basic info
+Access to YouTube tools and features
+Give feedback about this article
+Was this helpful?YesNo

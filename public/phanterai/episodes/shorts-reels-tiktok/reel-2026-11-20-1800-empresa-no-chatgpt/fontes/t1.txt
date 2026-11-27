@@ -1,0 +1,236 @@
+URL: https://openai.com/policies/businesses-in-chatgpt-terms/
+STATUS: 200
+TITLE: Termos para Empresas no ChatGPT | OpenAI
+
+Pular para o conteúdo principal
+Pesquisa
+Produtos
+Negócios
+Desenvolvedores
+Empresa
+Fundação
+(abre em uma nova janela)
+Entrar
+Experimente o ChatGPT
+(abre em uma nova janela)
+Termos para Empresas no ChatGPT | OpenAI
+Selecionar idioma
+አማርኛ
+العربية
+български
+বাংলা
+bosanski
+català
+čeština
+dansk
+Deutsch
+Ελληνικά
+English (United Kingdom)
+English (United States)
+español (Latinoamérica)
+español (España)
+español (Estados Unidos)
+eesti
+فارسی
+suomi
+Filipino
+français (Canada)
+français (France)
+Gaeilge
+ગુજરાતી
+עברית
+हिन्दी
+hrvatski
+magyar
+հայերեն
+Indonesia
+íslenska
+italiano
+日本語
+Jawa
+ქართული
+қазақ тілі
+ಕನ್ನಡ
+한국어
+lietuvių
+latviešu
+macedônio
+മലയാളം
+mongol
+मराठी
+Melayu
+Malti
+မြန်မာ
+norsk bokmål
+Nederlands
+ਪੰਜਾਬੀ
+polski
+português (Brasil)
+português (Portugal)
+română
+русский
+slovenčina
+slovenščina
+Soomaali
+shqip
+српски (Србија)
+svenska
+Kiswahili
+தமிழ்
+తెలుగు
+ไทย
+Türkçe
+українська
+اردو
+Tiếng Việt
+中文 (中国)
+中文 (台灣)
+中文 (香港)
+Última atualização: 18 de novembro de 2026
+Termos para Empresas no ChatGPT
+Estes Termos para Empresas no ChatGPT (“Termos”) são celebrados entre a organização que concorda com estes termos (“Cliente” ou “você”) e a entidade da OpenAI que é parte no Contrato (“OpenAI”) e regem seu acesso ao recurso Empresas no ChatGPT e seu uso desse recurso. A OpenAI e o Cliente são denominados individualmente “Parte” e, em conjunto, “Partes”. Estes Termos complementam o Contrato e passam a integrá-lo. Caso haja conflito entre estes Termos e o Contrato, estes Termos prevalecerão exclusivamente em relação ao assunto neles tratado.
+Ao ativar, acessar ou usar o recurso Empresas no ChatGPT ou fornecer dados ou materiais por meio dele, você concorda com estes Termos e declara ter poderes para vincular a respectiva entidade.
+1. Empresas no ChatGPT
+1.1. Acesso e Uso. A OpenAI poderá disponibilizar a você o recurso Empresas no ChatGPT, incluindo as Ferramentas. Observados o Contrato e estes Termos, você poderá acessar e usar o recurso Empresas no ChatGPT durante a vigência exclusivamente conforme permitido nestes Termos. Você não poderá (a) usar o recurso Empresas no ChatGPT de maneira ilícita, em violação das Políticas da OpenAI ou de forma que infrinja direitos de terceiros; (b) Realizar Engenharia Reversa do recurso Empresas no ChatGPT, interferir nele, interrompê-lo, extrair dados dele ou contornar suas medidas de proteção; ou (c) comprar, vender, transferir ou compartilhar quaisquer chaves, credenciais ou outros mecanismos de acesso ao recurso Empresas no ChatGPT, salvo conforme permitido pela OpenAI. Você é responsável por todos os atos e omissões de qualquer pessoa que atue em seu nome em relação ao recurso Empresas no ChatGPT.
+1.2. Termos Específicos de Cada Ferramenta. As disposições que regem seu uso de determinada Ferramenta aplicam-se se você a ativar, a mantiver ativada ou optar por usá-la. Antes de você optar pelo uso das Ferramentas, a OpenAI poderá desenvolvê-las, configurá-las e testá-las, incluindo os Agentes de Negócios para sua empresa. Para tanto, a OpenAI poderá usar os Dados do Cliente conforme permitido nestes Termos ou no Contrato, bem como outras informações que tenha o direito de usar por outros fundamentos. A OpenAI poderá disponibilizar Ferramentas adicionais sujeitas a termos adicionais apresentados a você, que passarão a fazer parte destes Termos quando você ativar, acessar ou usar a Ferramenta aplicável.
+2. Dados e Obrigações do Cliente
+2.1. Titularidade e Feedback. Na relação entre as Partes e na medida permitida pela legislação aplicável, você mantém todos os direitos que detém sobre os Dados do Cliente, e a OpenAI detém todos os direitos sobre o recurso Empresas no ChatGPT e os Dados de Insights. Salvo disposição expressa nestes Termos ou no Contrato, nenhuma das Partes concede à outra quaisquer Direitos de Propriedade Intelectual (PI). Se você fornecer feedback sobre o recurso Empresas no ChatGPT, você concede à OpenAI o direito de usá-lo e explorá-lo sem restrições ou compensação.
+2.2. Dados do Cliente. Você fornecerá ou disponibilizará de outra forma os Dados do Cliente à OpenAI para a Finalidade do Acesso e para o Uso para Exibição. Na medida em que a legislação aplicável exigir uma licença para a OpenAI ou suas Afiliadas, você concede à OpenAI e às suas Afiliadas uma licença não exclusiva, mundial e isenta de royalties sobre os Dados do Cliente para o Uso para Exibição.
+2.3. Obrigações do Cliente. Cabe exclusivamente a você responder (a) pelos Dados do Cliente e pelas instruções e configurações fornecidas ou selecionadas por você ou em seu nome; (b) pelo uso que fizer de qualquer recomendação, configuração ou resultado; e (c) pela realização de testes para garantir que qualquer Agente de Negócios que você ative ou opte por usar funcione conforme esperado, seja seguro para os usuários, seja preciso e esteja em conformidade com as Políticas da OpenAI⁠. Determinadas configurações ou funcionalidades do recurso Empresas no ChatGPT podem estar ativadas por padrão. Você é responsável por revisar as configurações disponíveis e pelas configurações e funcionalidades que ativar ou mantiver ativadas, inclusive as configurações e funcionalidades padrão. Você manterá os Dados do Cliente atualizados e corrigirá ou removerá prontamente materiais imprecisos, desatualizados ou não autorizados. A OpenAI poderá obter e atualizar os Dados do Cliente a partir das fontes que você indicar ou disponibilizar em conexão com o recurso Empresas no ChatGPT. Você autoriza a OpenAI a usar os nomes de sua empresa, suas marcas e outros ativos de marca em conexão com o uso que a OpenAI tem permissão para fazer dos Dados do Cliente.
+3. Feed de Produtos
+Se você fornecer um Feed de Produtos: (a) seguirá as especificações da OpenAI e as Políticas da OpenAI aplicáveis; (b) garantirá que você e qualquer pessoa que atue em seu nome permitam, cada qual em seus próprios sites, o acesso e a interação dos rastreadores e agentes da OpenAI e de suas Afiliadas, de acordo com a documentação aplicável da OpenAI; (c) você e suas Afiliadas não exercem nem reservam quaisquer direitos previstos em qualquer exceção relativa à mineração de textos e dados, mecanismo de exclusão voluntária (opt-out) ou mecanismo semelhante em relação à OpenAI ou às suas Afiliadas no que se refere a quaisquer sites ou Dados do Cliente seus ou de suas Afiliadas (e, se você ou qualquer uma de suas Afiliadas reservar ou exercer algum desses direitos, você concorda, em nome próprio e de suas Afiliadas, que esses direitos não produzirão efeitos em relação à OpenAI ou às suas Afiliadas); (d) após receber notificação da OpenAI, você retirará prontamente, até a resolução da questão, qualquer conteúdo sobre o qual recaia suspeita de infração, falsificação ou outra violação de direitos de propriedade ou de privacidade; (e) quaisquer dados pessoais contidos no Feed de Produtos devem ter estado disponíveis ao público em meios de comunicação de massa, e cada Parte atua como controladora independente quanto aos usos que lhe são permitidos; (f) a pedido da OpenAI, você colaborará prontamente com a OpenAI para resolver divergências entre os Feeds de Produtos e suas propriedades, erros de formatação, dados ausentes e problemas de integração, e fornecerá suporte técnico razoável e conhecimento especializado no assunto para manter a qualidade e a compatibilidade do feed; e (g) a OpenAI poderá, a seu critério, recusar ou remover conteúdo do feed.
+4. Central de Negócios
+4.1. Perfis Comerciais. A OpenAI poderá criar, manter e exibir um perfil comercial nas Propriedades da OpenAI usando os Dados do Cliente e outras informações que tenha o direito de usar por outros fundamentos, independentemente de você reivindicar, gerenciar ou deixar de gerenciar esse perfil. Você poderá criar, reivindicar e gerenciar seu perfil comercial por meio da Central de Negócios, mediante as verificações de identidade e de poderes de representação que a OpenAI exigir. Você notificará prontamente a OpenAI se houver alteração em seus poderes de representação e cooperará na resolução de disputas sobre titularidade ou acesso. Criar, reivindicar ou gerenciar seu perfil comercial não lhe confere controle exclusivo sobre seu conteúdo. A OpenAI poderá complementar, editar ou substituir informações com base em outras fontes ou optar por não exibir as informações que você enviar. A OpenAI não garante a verificação. Ao usar a Central de Negócios, você concorda que o assistente de inteligência artificial (IA) da OpenAI poderá telefonar para você em nome de nossos usuários. Você pode optar por não receber essas ligações aqui⁠
+(abre em uma nova janela)
+.
+4.2. Informações Públicas. Não obstante qualquer disposição em contrário, a licença para o Uso para Exibição prevista na Seção 2.2 é perpétua e irrevogável quanto às informações básicas da empresa que você enviar para exibição pública, incluindo nome da empresa, endereço, dados de contato, categoria, horário de funcionamento e site.
+5. Agente de Negócios
+5.1. Criação e Uso. A OpenAI poderá criar e configurar um Agente de Negócios para sua empresa antes de você optar por usá-lo. Você poderá fornecer instruções, preferências e outros elementos para orientar o desenvolvimento e a configuração do agente, observadas as funcionalidades e configurações que a OpenAI disponibilizar. Criar ou configurar um Agente de Negócios, visualizar sua prévia ou vinculá-lo não resulta em sua publicação. Um Agente de Negócios será disponibilizado aos usuários somente se você optar por publicá-lo. A publicação não autoriza publicidade paga, que exige uma relação publicitária com a OpenAI conforme os Termos de Publicidade⁠.
+5.2. Responsabilidades do Cliente. Se você ativar ou optar por publicar um Agente de Negócios, na relação entre você e a OpenAI, caberá a você a responsabilidade pelo Agente de Negócios, inclusive por seu conteúdo, suas configurações, seus testes de segurança e demais testes para garantir a precisão, suas Ações e seus Resultados, independentemente de você ter fornecido, revisado ou aprovado esses elementos. Você corrigirá prontamente os problemas identificados que estejam sob seu controle, notificará a OpenAI sobre quaisquer imprecisões, comportamentos não autorizados ou outros problemas dos quais tomar conhecimento e cooperará de forma razoável com a OpenAI para solucioná-los. Você, em nome próprio e de suas Afiliadas, libera irrevogavelmente a OpenAI e suas Afiliadas de quaisquer reivindicações decorrentes do seu Agente de Negócios, inclusive as decorrentes de qualquer uso de Dados do Cliente com o Agente de Negócios.
+5.3. Distribuição e Promoção. Ao optar por publicar um Agente de Negócios, você autoriza a OpenAI a disponibilizá-lo aos usuários e a exibi-lo e promovê-lo em conexão com sua empresa. Na medida em que seus Resultados incluam Dados do Cliente, você concede aos usuários uma licença não exclusiva, mundial, irrevogável e isenta de royalties para usar, armazenar, copiar, exibir, distribuir e preparar obras derivadas desses Dados do Cliente.
+5.4. Ações. Você é responsável pela operação e pelas permissões dos sistemas ou serviços fornecidos por você ou em seu nome que se conectam ao Agente de Negócios por meio de Ações, e autoriza a OpenAI a acessar e usar esses sistemas ou serviços em conexão com o Agente de Negócios. Você é responsável pelo tratamento e pela resolução das ofertas, dos compromissos e das transações realizados por meio do Agente de Negócios. A OpenAI não se torna a vendedora nem a fornecedora dos seus produtos ou serviços ao disponibilizar um Agente de Negócios. Qualquer aplicativo personalizado, conector, plugin ou ação que você ou qualquer pessoa agindo em seu nome desenvolver, publicar ou operar para uso com um Agente de Negócios estará sujeito aos Termos para Desenvolvedores de Aplicativos⁠, e você garantirá que cada uma dessas integrações cumpra esses termos.
+5.5. Informações de Leads. A OpenAI poderá disponibilizar Informações de Leads a você. Você será responsável pelo recebimento, uso, proteção e divulgação dessas informações, bem como por qualquer comunicação ou contato posterior com os usuários. Você garantirá que você e qualquer pessoa que atue em seu nome usem as Informações de Leads em conformidade com as leis aplicáveis, sua política de privacidade e as declarações e os compromissos feitos aos usuários, incluindo avisos e consentimentos exigidos, bem como as preferências dos usuários e as solicitações relacionadas aos seus direitos.
+5.6. Limitações da IA; Modificação e Remoção. Os Agentes de Negócios podem produzir respostas ou ações imprecisas ou inesperadas. A OpenAI não garante que um Agente de Negócios sempre siga as instruções nem que suas respostas ou ações sejam precisas, lícitas, livres de violações de direitos ou adequadas à sua empresa. A OpenAI poderá modificar, suspender ou remover qualquer Agente de Negócios ou sua funcionalidade a qualquer momento, por qualquer motivo, sem aviso prévio.
+6. Dados de Insights
+Se a OpenAI disponibilizar a você quaisquer Dados de Insights, você poderá utilizá-los exclusivamente para medir, analisar e otimizar seu uso do recurso Empresas no ChatGPT e dos Serviços e para elaborar relatórios sobre esse uso. A menos que a OpenAI autorize de outra forma por escrito, você não deverá: (a) divulgar ou permitir acesso aos Dados de Insights ou a seus derivados, exceto a prestadores de serviços que atuem em seu nome exclusivamente para as finalidades permitidas e sujeitos a restrições equivalentes; (b) usar ou combinar os Dados de Insights para identificar ou reidentificar qualquer indivíduo; (c) vender ou explorar comercialmente os Dados de Insights de qualquer outra forma; ou (d) usar os Dados de Insights ou outros dados obtidos por meio do recurso Empresas no ChatGPT para criar ou modificar públicos, perfis ou conjuntos de dados que identifiquem ou tenham como alvo usuários da OpenAI, exceto por meio de funcionalidades expressamente disponibilizadas pela OpenAI. Você é responsável pelo cumprimento dessas restrições por seus prestadores de serviços. Os Dados de Insights são Informações Confidenciais da OpenAI nos termos do Contrato.
+7. Garantias
+Você declara e garante que: (a) detém e manterá todos os direitos, permissões, consentimentos e bases legais e forneceu todos os avisos necessários para fornecer ou disponibilizar os Dados do Cliente, autorizar as atividades previstas nestes Termos e conceder os direitos neles descritos; (b) tem autorização para representar cada empresa em nome da qual utiliza o recurso Empresas no ChatGPT, fornecer ou disponibilizar os Dados do Cliente dessa empresa, criar, reivindicar ou gerenciar seu perfil comercial e configurar ou autorizar seu Agente de Negócios, conforme aplicável; (c) os Dados do Cliente, seu uso e sua configuração do recurso Empresas no ChatGPT e o uso autorizado dos Dados do Cliente pela OpenAI estarão em conformidade com a legislação aplicável e com as Políticas da OpenAI e não infringirão direitos de terceiros nem resultarão em apropriação indevida ou outra violação desses direitos; (d) as informações factuais e as alegações que você fornecer ou aprovar são e permanecerão exatas, atuais, completas em todos os aspectos relevantes, devidamente fundamentadas e acompanhadas das divulgações e advertências exigidas; (e) seus produtos e serviços são oferecidos licitamente, atendem aos requisitos de segurança e regulatórios aplicáveis e contam com todas as licenças e aprovações necessárias; e (f) os Dados do Cliente não contêm Dados Proibidos, código malicioso ou materiais destinados a comprometer a segurança ou o funcionamento do recurso Empresas no ChatGPT. Você notificará prontamente a OpenAI caso alguém apresente ou ameace apresentar qualquer reclamação ou Reivindicação referente aos Dados do Cliente, ao seu perfil comercial ou ao seu Agente de Negócios e cooperará de forma razoável na investigação e na resolução da questão.
+8. Ausência de Garantias
+A OpenAI não garante que o recurso Empresas no ChatGPT ou qualquer Ferramenta seja disponibilizado ou permaneça disponível, obtenha determinado posicionamento, classificação, visibilidade ou nível de distribuição, ou gere tráfego, engajamento, conversões, vendas ou outros resultados. Ativar ou optar por usar uma Ferramenta não dá a você direito a tratamento preferencial em outros produtos ou serviços da OpenAI.
+9. Indenização
+Você indenizará, defenderá e manterá indenes a OpenAI, suas Afiliadas e seus licenciantes em relação a quaisquer responsabilidades, danos e custos, incluindo honorários advocatícios razoáveis e outras despesas de defesa, decorrentes de qualquer Reivindicação relacionada a: (a) Dados do Cliente, inclusive sua coleta, seu fornecimento ou seu uso conforme autorizado nestes Termos; (b) sua empresa, seus produtos ou serviços, inclusive sua promoção, venda ou fornecimento; (c) seu perfil comercial ou seu Agente de Negócios, incluindo seu conteúdo, configurações, serviços conectados, projeto do agente, integração, implantação, operação, testes de segurança, salvaguardas, advertências, Ações e Resultados; (d) quaisquer alegações, relativas ao seu perfil comercial ou ao seu Agente de Negócios, de atos ou práticas desleais ou enganosos, publicidade falsa ou enganosa, violações das leis de proteção ao consumidor, responsabilidade por produtos, projeto negligente ou defeituoso, omissão de advertências ou outra forma de negligência; ou (e) qualquer violação destes Termos por você. Os procedimentos de indenização do Contrato se aplicam a esta Seção.
+10. Continuidade da Prestação dos Serviços
+Não obstante qualquer disposição em contrário no Contrato ou nestes Termos, nem a extinção ou o término da vigência de qualquer deles, nem qualquer outra disposição obrigará a OpenAI ou suas Afiliadas a modificar, excluir ou deixar de fornecer quaisquer de seus produtos ou serviços, inclusive aqueles em que os Dados do Cliente tenham sido usados ou incluídos. Quanto ao disposto acima, você renuncia a qualquer medida judicial fundada na equidade (equitable remedy), inclusive a uma ordem judicial que imponha ou proíba determinada conduta (injunctive relief), contra a OpenAI ou suas Afiliadas e concorda em não pleitear nenhuma dessas medidas. Esta Seção permanece em vigor após a extinção ou o término da vigência do Contrato ou destes Termos.
+11. Definições
+“Finalidade do Acesso” significa o desenvolvimento, o fornecimento e o aprimoramento, pela OpenAI e por suas Afiliadas, de seus produtos ou serviços.
+“Ação” é uma interface de programação de aplicações (API, application programming interface), um site ou um serviço habilitado para interagir com seu Agente de Negócios.
+“Afiliada” significa, em relação a uma Parte, qualquer outra pessoa ou entidade que direta ou indiretamente controla, é controlada por, ou está sob controle comum com essa Parte.
+“Contrato” significa o contrato, os termos on-line ou outros termos escritos entre você e a OpenAI ou sua Afiliada que regem seu uso dos Serviços e nos termos dos quais a OpenAI disponibiliza a você o recurso Empresas no ChatGPT.
+“Agente de Negócios” significa uma experiência baseada em IA que interage com os usuários em nome de sua empresa ou em conexão com sua empresa, seus produtos ou seus serviços.
+“Central de Negócios” é a interface do recurso Empresas no ChatGPT por meio da qual as empresas podem criar, reivindicar e gerenciar seus perfis comerciais, bem como acessar e utilizar as Ferramentas.
+“Empresas no ChatGPT” é a oferta da OpenAI que reúne interfaces, ferramentas e serviços para empresas, incluindo a Central de Negócios e as Ferramentas.
+"Ação Judicial" significa processos judiciais ajuizados por terceiro.
+A expressão “Informações Confidenciais” tem o significado que lhe é atribuído no Contrato.
+“Dados do Cliente” são informações, dados e materiais enviados, identificados, disponibilizados à OpenAI ou de outra forma usados pela OpenAI para o recurso Empresas no ChatGPT, incluindo Feeds de Produtos, informações comerciais, ativos de marca, mídia, links e materiais vinculados, diretrizes, instruções e materiais de vendas ou de suporte ao cliente.
+“Uso para Exibição” significa hospedar, reproduzir, modificar (inclusive para fins de formatação), exibir, transmitir e distribuir conforme necessário para disponibilizar o recurso Empresas no ChatGPT, cumprir a legislação, aplicar as Políticas da OpenAI e operar ferramentas de transparência.
+“Dados de Insights” são relatórios, análises, métricas e outros insights que a OpenAI disponibiliza a você em conexão com o recurso Empresas no ChatGPT. Os Dados de Insights não incluem Informações de Leads.
+"Direitos de Propriedade Intelectual" são todos os direitos intelectuais registrados ou não registrados, em todo o mundo, incluindo direitos de patentes, autorais, marcas registradas, segredos comerciais, desenhos, bancos de dados, nomes de domínio e direitos morais.
+“Informações de Leads” são as informações que os usuários fornecem e nos autorizam a compartilhar com você por meio de um Agente de Negócios.
+“Políticas da OpenAI” são a Política para Empresas no ChatGPT⁠, a Política de Agentes de Negócios⁠ e quaisquer outras políticas que a OpenAI disponibilize e que se apliquem aos Serviços ou a estes Termos, conforme atualizadas periodicamente em cada caso.
+“Propriedades da OpenAI” são sites, aplicativos e outras propriedades ou interfaces on-line que pertençam à OpenAI ou às suas Afiliadas ou que sejam operados por elas, incluindo o ChatGPT.
+“Resultado” significa qualquer conteúdo ou informação gerado ou fornecido por um Agente de Negócios, incluindo respostas, declarações, recomendações, descrições e ofertas.
+“Feed de Produtos” significa informações sobre produtos ou catálogos fornecidas por meio de um feed, de uma API, de uma integração ou de outro método de envio aceito pela OpenAI.
+“Dados Proibidos” significa (a) dados relacionados a, ou coletados de serviços direcionados a crianças, conforme definido pela lei aplicável; (b) dados relacionados a informações sensíveis, conforme definido pela lei aplicável; e (c) dados que poderiam constituir “Dados de Saúde do Consumidor” sob a Lei de Saúde e Dados de Washington, dados sujeitos a leis de privacidade semelhantes relacionadas à saúde ou dados que poderiam identificar o estado de saúde física ou mental passado, presente ou futuro de um indivíduo. Os dados proibidos incluem, mas não se limitam a, as seguintes categorias: (i) orientação sexual, comportamento sexual ou vida sexual, (ii) status de transgênero ou não binário, (iii) raça ou origem étnica, (iv) crenças religiosas ou filosóficas, (v) dificuldades financeiras, (vi) filiação sindical, (vii) opiniões ou afiliação política, (viii) cidadania ou status de imigração, (ix) status de vítima de crime, (x) dados genéticos ou biométricos, (xi) status de deficiência e (xii) outras categorias sensíveis. 
+“Realizar Engenharia Reversa” significa efetuar montagem reversa, efetuar compilação reversa, descompilar, traduzir, realizar ataques de extração ou roubo de modelos ou tentar, de outra forma, descobrir o código-fonte ou os componentes, algoritmos ou sistemas subjacentes do recurso Empresas no ChatGPT (exceto na medida em que essas restrições contrariem a legislação aplicável).
+“Serviços” são os serviços aplicáveis prestados pela OpenAI ou por sua Afiliada em conexão com os quais o recurso Empresas no ChatGPT é disponibilizado.
+“Ferramentas” são as ferramentas, os recursos e as integrações que a OpenAI disponibiliza periodicamente por meio do recurso Empresas no ChatGPT ou em conexão com ele, incluindo os Agentes de Negócios e as ferramentas de envio e gerenciamento de Feeds de Produtos.
+Pesquisa
+Índice de Pesquisa
+Visão Geral de Pesquisa
+Pesquisa Econômica
+Últimos Avanços
+GPT-6.2
+GPT-6.1 Sol
+GPT-6 Astra
+GPT-5.6
+Segurança
+Abordagem à Segurança
+Segurança da implantação
+(abre em uma nova janela)
+Segurança e Privacidade
+Confiança e Transparência
+Produtos
+ChatGPT
+(abre em uma nova janela)
+ChatGPT Business
+(abre em uma nova janela)
+ChatGPT Enterprise
+(abre em uma nova janela)
+ChatGPT para Educação
+(abre em uma nova janela)
+Codex
+Dots
+(abre em uma nova janela)
+Notas de lançamento
+Plataforma de API
+Visão geral
+Login da API
+(abre em uma nova janela)
+Documentos
+(abre em uma nova janela)
+Business
+Visão geral
+Soluções
+Recursos
+Plugins
+Histórias de Usuários
+Rede de parceiros
+Fale com Vendas
+Desenvolvedores
+SDK de aplicativos
+(abre em uma nova janela)
+Modelos Abertos
+(abre em uma nova janela)
+Documentos
+(abre em uma nova janela)
+Recursos
+(abre em uma nova janela)
+Fórum de Desenvolvedores
+(abre em uma nova janela)
+Empresa
+Sobre Nós
+Nosso Estatuto
+Carreiras
+Notícias
+Suporte
+Central de Ajuda
+(abre em uma nova janela)
+Status da OpenAI
+(abre em uma nova janela)
+Mais
+Histórias
+Academia
+Supply Co.
+Transmissões ao vivo
+Podcast
+RSS
+Termos e Políticas
+Termos de uso
+Política de Privacidade
+Outras Políticas
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+(abre em uma nova janela)
+OpenAI © 2015–2026
+Gerenciar cookies
+Português
+Brasil
+Nós usamos cookies
+Utilizamos cookies para ajudar este site a funcionar, compreender a utilização do serviço e promover esforços de marketing. Acessar Gerenciar cookies para alterar as preferências a qualquer momento. Leia nossa Política de cookies para saber mais.
+Gerenciar cookies
+Rejeitar cookies não essenciais
+Aceitar tudo

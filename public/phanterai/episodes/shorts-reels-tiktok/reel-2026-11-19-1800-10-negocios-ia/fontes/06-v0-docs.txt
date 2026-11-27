@@ -1,0 +1,287 @@
+URL: https://v0.app/docs
+STATUS: 200
+FINAL: https://v0.app/docs
+TITLE: What is v0? | v0 Docs
+CAPTURADO: 2026-11-19T07:02:40.614Z
+
+Docs
+API
+Search…
+⌘K
+Ask AI
+Getting Started
+What is v0?
+Agentic features
+Sandbox
+Vercel Integration
+Quickstart
+FAQs
+Prompt
+Text Prompting
+Choosing models
+Screenshots and Files
+Figma
+Paper
+Iterate
+Code viewer
+DeepSec
+Terminal commands
+Design mode
+Design Systems 2.0
+Images, videos, and file uploads
+Versions
+Integrate
+AI models
+Databases
+Snowflake
+Shopify
+External APIs
+Vercel Connect
+GitHub
+MCP Integrations
+Pre-installed Agents
+Slack
+Ship
+Deployments
+Custom domain
+Sharing
+Templates
+Manage
+Account
+Enterprise
+Instructions
+Projects
+Pricing
+ChatGPT
+Usage & Activity
+Teams
+Security
+Guides
+Full-stack apps
+Prototyping
+PRD design
+Compare
+What is v0?
+Copy page
+Ship features, refine designs, update copy, and create live prototypes, all with a prompt. Deploy to production immediately, or open a pull request for review.
+What can you do with v0?
+Describe your idea in your preferred language.
+Create high-fidelity UIs from your wireframes or mockups.
+Connect to backend to build rich, data driven applications.
+Deploy with one click to secure, scalable infrastructure powered by Vercel.
+Automatically fix errors in your code with intelligent diagnostics.
+Getting Started
+Quickstart tutorial to create your first project.
+Prompt Engineering
+Build faster in v0 with effective prompting.
+FAQs
+Find commonly asked questions about v0.
+Blog
+Stay up to date with new product features and announcements.
+Why should I choose v0 instead of other tools?
+Examples
+You can use v0 to build anything, from landing pages, dashboards, ecommerce stores, AI apps, to full-stack applications.
+Dashboard – M.O.N.K.Y
+Brillance SaaS Landing Page
+Shopify Ecommerce Template
+Nano Banana Pro Playground
+Explore what our community is building
+Who is v0 for?
+v0 helps teams prototype, build, and ship faster. Here's how different roles are using it:
+Product Managers
+Quickly prototype and iterate to align stakeholders, validate ideas early, and gather user feedback before using engineering resources.
+Examples:
+Draft project plans and timelines
+Generate user interview questions for researching new features
+Create feedback forms where submissions are sent to a database
+Create templates for new features or RFCs
+Designers
+Turn mockups into real, high-fidelity user interfaces that reflect user flows and constraints.
+Examples:
+Clone pages with screenshots or Figma files
+Generate CSS and HTML for prototypes and landing pages
+Add accessibility improvements for basic design elements
+Create interactive components to handoff to developers
+Engineers
+Quickly scaffold full-stack apps or components following best practices and modern standards. Focus on solving the harder problems while using v0 as your AI pair programmer.
+Examples:
+Create React components
+Create custom hooks and functionality
+Migrate to the latest Next.js features
+Data Scientists
+Build and deploy data applications on Snowflake with v0. Work with Python and SQL to analyze data and create visualizations. Use tools like Matplotlib, Pandas, and more.
+Examples:
+Learn SQL
+Write complex queries
+Generate code for data visualization and analysis
+Create dashboards for visualizations
+Marketing Teams
+Reduce time-to-market for promotional initiatives by launching custom marketing pages. Generate content ideas, copy, and draft email campaigns.
+Examples:
+Generate ideas for blog posts, social media content, and ad copy
+Research keywords and optimize your SEO
+Draft email campaigns and newsletters
+Collaborate with developers on features like A/B testing
+Content Creators and Educators
+Create interactive examples and games that are easy to follow and understand. Write lesson plans and create engineering quizzes.
+Examples:
+Help create lesson plans and educational content
+Generate practice exercises and quizzes
+Assist in developing online course materials with progress tracking
+Provide visual explanations for complex concepts, especially related to engineering
+Customer Support
+Help customers with technical issues, and build customer support tools.
+Examples:
+Create a chatbot for customer support
+Assist in creating a searchable knowledge base and articles
+Design a customer feedback form
+Founders
+Ship MVPs fast without hiring a dev team, and focus your time on refining product and market fit.
+What makes v0 different?
+End-to-end Development: Build both UI and backend logic, not just mockups.
+Works with your stack: Use modern tools like Next.js, Tailwind, shadcn/ui, and more.
+Team-friendly: Powers collaborative design, product, and engineering workflows.
+Extensible: Use your APIs, databases, and components.
+Intelligent Agent: Autonomous capabilities including web search, site inspection, error fixing, and external tool integration.
+Real-time Feedback: Real-time preview of your app, with visual progress indicators and rich UI feedback for all agent actions.
+Multi-modal: Combines code generation, web browsing, debugging, and external API interactions in one platform.
+Next
+Agentic features
+On this page
+What can you do with v0?
+Examples
+Who is v0 for?
+Product Managers
+Designers
+Engineers
+Data Scientists
+Marketing Teams
+Content Creators and Educators
+Customer Support
+Founders
+What makes v0 different?
+Scroll to top
+Give feedback
+Product
+Home
+Enterprise
+Pricing
+v0 for Students
+Company
+Terms
+AI Policy
+Privacy
+Cookies
+Resources
+FAQs
+Docs
+Vercel Community
+Vercel
+Social
+Twitter
+LinkedIn
+Agent Stack
+AI SDK
+AI Gateway
+Sandbox
+Workflows
+Connect
+New
+Passport
+New
+eve
+New
+Core Platform
+CI/CD
+Content Delivery
+Fluid Compute
+Observability
+Security
+Platform Security
+WAF
+Bot Management
+Bot ID
+Tools
+Vercel Drop
+New
+Vercel Agent
+Vercel Plugin
+New
+Agent Skills
+Domains
+v0
+Frameworks
+eve
+New
+Next.js
+Nuxt
+SvelteKit
+Nitro
+Turborepo
+Tanstack Start
+FastAPI
+xmcp
+All frameworks
+SDKs
+Vercel SDK
+Workflow SDK
+New
+Flags SDK
+Chat SDK
+New
+Queues SDK
+New
+Streamdown
+Build
+AI Apps
+Web Apps
+Marketing Sites
+Platforms
+Commerce
+Platform Engineers
+Design Engineers
+Learn
+Docs
+Blog
+Changelog
+Knowledge Base
+Academy
+Articles
+Community
+Is Agentic
+Explore
+Customers
+Marketplace
+Templates
+Partner Finder
+Vercel + AWS
+Company
+About
+Careers
+Press
+Events
+Startups
+Shipped on Vercel
+Open Source Program
+Enterprise
+Pricing
+Help
+Legal & Trust
+Privacy Policy
+Terms of Service
+Cookie Policy
+DPA
+Acceptable Use Policy
+Legal
+Trust Center
+Status
+Social
+GitHub
+X
+LinkedIn
+YouTube
+Instagram
+Select a display theme:
+system
+light
+dark

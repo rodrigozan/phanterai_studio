@@ -1,0 +1,50 @@
+{
+  "gamer": {
+    "id": 8128417,
+    "autor": "Alena Darmel",
+    "pagina": "https://www.pexels.com/video/close-up-video-of-a-game-controller-8128417/",
+    "termo": "gaming controller",
+    "dur": 6,
+    "res": "720x1280"
+  },
+  "servidor": {
+    "id": 28709421,
+    "autor": "Kuiyibo Campos",
+    "pagina": "https://www.pexels.com/video/digital-data-display-on-screen-28709421/",
+    "termo": "server room",
+    "dur": 21,
+    "res": "720x1280"
+  },
+  "codigo": {
+    "id": 33315117,
+    "autor": "Jakub Zerdzicki",
+    "pagina": "https://www.pexels.com/video/blurred-code-on-computer-monitor-display-33315117/",
+    "termo": "coding screen",
+    "dur": 9,
+    "res": "720x1280"
+  },
+  "robo": {
+    "id": 8087025,
+    "autor": "Pavel Danilyuk",
+    "pagina": "https://www.pexels.com/video/robot-movements-8087025/",
+    "termo": "robot technology",
+    "dur": 19,
+    "res": "720x1280"
+  },
+  "escritorio": {
+    "id": 39425781,
+    "autor": "Sergei Starostin",
+    "pagina": "https://www.pexels.com/video/cozy-evening-writing-scene-with-laptop-39425781/",
+    "termo": "office laptop night",
+    "dur": 26,
+    "res": "720x1280"
+  },
+  "radar": {
+    "id": 33315143,
+    "autor": "Jakub Zerdzicki",
+    "pagina": "https://www.pexels.com/video/modern-workspace-with-neon-coding-setup-33315143/",
+    "termo": "cyber security",
+    "dur": 12,
+    "res": "720x1280"
+  }
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "reel-2026-11-22-1200-claude-comanda-conversas",
+ "composicao": "ShortClaudeComanda",
+ "musica": "phanterai/music/Daniel.mp3 (loop, 0.2)",
+ "panterinha": [
+  "surpresa 0–3,1 s",
+  "apontando item 4",
+  "comemorando CTA"
+ ],
+ "cenas": [
+  {
+   "bloco": "gancho",
+   "componente": "janelas de chat empilhando + contador de chats abertos + relógio",
+   "acao": "abrem 1 janela a cada 0,2 s desde o quadro 0; 'perdendo tempo' gigante; whoosh+riser",
+   "palavra_gatilho": "Você",
+   "inicio": 0
+  },
+  {
+   "bloco": "gancho",
+   "componente": "alerta 'esperando você' + tremida + flash",
+   "acao": "pop/erro",
+   "palavra_gatilho": "chat",
+   "inicio": 1.84
+  },
+  {
+   "bloco": "gancho",
+   "componente": "hub 'sessão chefe' com 6 sessões em órbita ligadas por linhas",
+   "acao": "linhas desenham, sessões aparecem",
+   "palavra_gatilho": "Agora",
+   "inicio": 3.09
+  },
+  {
+   "bloco": "gancho",
+   "componente": "sessões ficam ✓ + pílula da promessa '4 coisas · a nº 4 quase ninguém conta'",
+   "acao": "ding",
+   "palavra_gatilho": "manda",
+   "inicio": 4.65
+  },
+  {
+   "bloco": "gancho",
+   "componente": "4 cartões numerados; o 4 treme com cadeado",
+   "acao": "4 cartões numerados; o 4 treme com cadeado",
+   "palavra_gatilho": "Quatro",
+   "inicio": 6.13
+  },
+  {
+   "bloco": "como ligar",
+   "componente": "interruptor que não existe ✕",
+   "acao": "interruptor que não existe ✕",
+   "palavra_gatilho": "Não",
+   "inicio": 10.94
+  },
+  {
+   "bloco": "como ligar",
+   "componente": "janela do app: barra de atualização 0→100 %, abas Home/Code com cursor, prompt digitando; checklist de 3 passos ficando verde",
+   "acao": "janela do app: barra de atualização 0→100 %, abas Home/Code com cursor, prompt digitando; checklist de 3 passos ficando verde",
+   "palavra_gatilho": "Atualiza",
+   "inicio": 12.03
+  },
+  {
+   "bloco": "item 1",
+   "componente": "lista de sessões com status, varredura 'lendo…' por linha, chat com pergunta digitada e resposta",
+   "acao": "lista de sessões com status, varredura 'lendo…' por linha, chat com pergunta digitada e resposta",
+   "palavra_gatilho": "lista",
+   "inicio": 18.76
+  },
+  {
+   "bloco": "item 2",
+   "componente": "duas janelas (chefe/pagamentos): recado digitado, envelope voando, 'ocupada' com barra, fila, entrega com remetente, resposta voltando",
+   "acao": "duas janelas (chefe/pagamentos): recado digitado, envelope voando, 'ocupada' com barra, fila, entrega com remetente, resposta voltando",
+   "palavra_gatilho": "Avisa",
+   "inicio": 27.16
+  },
+  {
+   "bloco": "item 3",
+   "componente": "lista com PR mesclado/aberto, renomear digitando, sessões voando para a caixa 'Arquivadas' 0→3",
+   "acao": "lista com PR mesclado/aberto, renomear digitando, sessões voando para a caixa 'Arquivadas' 0→3",
+   "palavra_gatilho": "renomear",
+   "inicio": 34.9
+  },
+  {
+   "bloco": "item 4",
+   "componente": "cadeado, seletor Manual/Auto/Bypass, cartão de aprovação com cursor clicando 'Permitir', mensagem com 'de: sessão chefe'",
+   "acao": "cadeado, seletor Manual/Auto/Bypass, cartão de aprovação com cursor clicando 'Permitir', mensagem com 'de: sessão chefe'",
+   "palavra_gatilho": "No",
+   "inicio": 41.14
+  },
+  {
+   "bloco": "limites",
+   "componente": "grade de 20 sessões acendendo + contador 0→20; app ✓, nuvem ✕, terminal ✕",
+   "acao": "grade de 20 sessões acendendo + contador 0→20; app ✓, nuvem ✕, terminal ✕",
+   "palavra_gatilho": "vinte",
+   "inicio": 48.16
+  },
+  {
+   "bloco": "CTA",
+   "componente": "'quantas abertas?' + contador + comentário 'CHEFE' digitado + Seguir→Seguindo",
+   "acao": "'quantas abertas?' + contador + comentário 'CHEFE' digitado + Seguir→Seguindo",
+   "palavra_gatilho": "Comenta",
+   "inicio": 54.51
+  }
+ ]
+}

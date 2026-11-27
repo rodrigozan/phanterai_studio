@@ -1,0 +1,551 @@
+{
+ "slug": "2026-11-25-meta-monetizacao-dobrou",
+ "titulo": "O YouTube dobrou a meta pra monetizar (e o atalho dos 500)",
+ "quadro": "Mito vs. Realidade",
+ "fontes": [
+  "https://support.google.com/youtube/answer/12843009?hl=pt-BR",
+  "https://support.google.com/youtube/answer/72851?hl=pt-BR"
+ ],
+ "cenas": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "broll": "humano",
+   "pose": "surpresa",
+   "fala": "O YouTube vai DOBRAR a meta pra monetizar! A partir de fevereiro, são oito mil horas de exibição. Oito MIL! E o meu canal? Fez cinquenta e uma vírgula seis horas em vinte e oito dias. Cinquenta e uma... Mas calma! Tem um caminho que NÃO mudou. E ele começa nos quinhentos inscritos.",
+   "dados": {
+    "bg": "pexels/criador-1.mp4",
+    "esc": 0.55,
+    "l1": "Meta dobrada",
+    "l2": "e o atalho dos 500",
+    "pilulas": [
+     {
+      "ao": "Oito",
+      "txt": "8 mil horas pra monetizar",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "Cinquenta",
+      "txt": "Meu canal: 51,6 h em 28 dias",
+      "cor": "violeta"
+     },
+     {
+      "ao": "NÃO",
+      "txt": "Um caminho NÃO mudou",
+      "cor": "verde"
+     },
+     {
+      "ao": "quinhentos",
+      "txt": "Começa nos 500 inscritos",
+      "cor": "ouro"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "pensando",
+   "fala": "Hoje é Mito versus Realidade. O mito que tá rodando por aí: canal pequeno nunca mais ganha dinheiro no YouTube. Parece final de filme de herói, quando o vilão estala o dedo... Mas eu fui direto na fonte. A Central de Ajuda oficial do YouTube. E a realidade é bem diferente!",
+   "dados": {
+    "bg": "pexels/preocupado-1.mp4",
+    "titulo": "Mito vs. Realidade",
+    "cols": 1,
+    "w": 1250,
+    "itens": [
+     {
+      "ao": "mito",
+      "t": "MITO: canal pequeno nunca mais monetiza",
+      "sub": "o que tá rodando por aí",
+      "icone": "✕",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "fonte",
+      "t": "A fonte: Central de Ajuda do YouTube",
+      "sub": "a página oficial, não fofoca",
+      "icone": "?",
+      "cor": "ciano"
+     },
+     {
+      "ao": "realidade",
+      "t": "REALIDADE: bem diferente",
+      "sub": "vem comigo",
+      "icone": "✓",
+      "cor": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "Tá aqui, na página oficial. A partir de primeiro de fevereiro de dois mil e vinte e sete, quem ainda não é parceiro vai precisar de mil inscritos e oito mil horas de exibição nos últimos trezentos e sessenta e cinco dias. Ou então, vinte milhões de visualizações de Shorts em noventa dias.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Ajuda do YouTube (oficial)",
+    "digitar": {
+     "ao": "Tá"
+    },
+    "telas": [
+     {
+      "ao": "Tá",
+      "arq": "cena-mudanca.png"
+     }
+    ],
+    "destaque": {
+     "ao": "fevereiro",
+     "x": 188,
+     "y": 386,
+     "w": 710,
+     "h": 124
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 300
+    }
+   }
+  },
+  {
+   "id": "C04",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "surpresa",
+   "fala": "Compara com hoje. Hoje são quatro mil horas, ou dez milhões de visualizações de Shorts. Ou seja: as duas metas DOBRARAM. É o Freeza dizendo: esse nem é o meu poder final. Os mil inscritos continuam. E uma notícia boa: se você já é parceiro, o seu status não muda.",
+   "dados": {
+    "titulo": "Hoje x a partir de fevereiro",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "hoje",
+      "t": "Hoje: 4 mil horas",
+      "sub": "em 12 meses, com mil inscritos",
+      "cor": "ciano"
+     },
+     {
+      "ao": "DOBRARAM",
+      "t": "Fevereiro: 8 mil horas",
+      "sub": "em 365 dias, com mil inscritos",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "dez",
+      "t": "Hoje: 10 milhões",
+      "sub": "views de Shorts em 90 dias",
+      "cor": "ciano"
+     },
+     {
+      "ao": "DOBRARAM",
+      "t": "Fevereiro: 20 milhões",
+      "sub": "views de Shorts em 90 dias",
+      "cor": "vermelho"
+     }
+    ],
+    "pilula": {
+     "ao": "status",
+     "txt": "Já é parceiro? Nada muda pra você",
+     "cor": "verde"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C05",
+   "tipo": "cta",
+   "broll": "humano",
+   "pose": "feliz",
+   "fala": "Rapidinho: se você também tem canal pequeno, deixa o like e se inscreve no Aprenda YouTube. Aqui é laboratório de canal pequeno. Sem pose de guru!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "sub2": "laboratório de canal pequeno",
+    "like": {
+     "ao": "like"
+    },
+    "sub": {
+     "ao": "inscreve"
+    }
+   }
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "comemorando",
+   "fala": "E o meu canal nessa história? Nos últimos vinte e oito dias, eu ganhei vinte e seis inscritos. Eu sei... esse número pode não ser grande coisa pra você. Mas foi duzentos e vinte e cinco por cento a mais que nos vinte e oito dias anteriores. Tem noção disso? Vinte e seis pessoas! Dá pra montar dois times de futebol e ainda sobra reserva.",
+   "dados": {
+    "bg": "pexels/time-1.mp4",
+    "titulo": "Meu canal, sem maquiagem",
+    "cols": 1,
+    "w": 1200,
+    "itens": [
+     {
+      "ao": "vinte",
+      "t": "+26 inscritos em 28 dias",
+      "sub": "dado do YouTube Studio",
+      "icone": "+",
+      "cor": "verde"
+     },
+     {
+      "ao": "duzentos",
+      "t": "+225% sobre os 28 dias anteriores",
+      "sub": "antes eram uns 8",
+      "icone": "↑",
+      "cor": "ouro"
+     },
+     {
+      "ao": "times",
+      "t": "2 times de futebol + reserva",
+      "sub": "a minha multidão",
+      "icone": "★",
+      "cor": "violeta"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C07",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "Agora, a REALIDADE número um. O caminho dos quinhentos inscritos não mudou. Com quinhentos inscritos e três mil horas no último ano, ou três milhões de visualizações de Shorts em noventa dias, você já pode usar o financiamento por fãs, as Parcerias com Criadores e o YouTube Shopping.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Realidade 1: os 500 inscritos",
+    "digitar": {
+     "ao": "Agora"
+    },
+    "telas": [
+     {
+      "ao": "Agora",
+      "arq": "cena-500.png"
+     }
+    ],
+    "destaque": {
+     "ao": "Com",
+     "x": 188,
+     "y": 452,
+     "w": 710,
+     "h": 60
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 320
+    }
+   }
+  },
+  {
+   "id": "C08",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "apontando",
+   "fala": "Traduzindo. Financiamento por fãs é o seu público te apoiando direto, com Clube dos Canais e Super Chat. Parcerias com Criadores aproxima você das marcas. E o YouTube Shopping deixa você mostrar produtos nos seus vídeos. É o Naruto antes de virar Hokage: ainda não é o topo, mas já tem missão paga.",
+   "dados": {
+    "titulo": "O que os 500 abrem",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "fãs",
+      "t": "Financiamento por fãs",
+      "sub": "Clube dos Canais e Super Chat",
+      "cor": "ouro"
+     },
+     {
+      "ao": "Parcerias",
+      "t": "Parcerias com Criadores",
+      "sub": "aproxima você das marcas",
+      "cor": "ciano"
+     },
+     {
+      "ao": "Shopping",
+      "t": "YouTube Shopping",
+      "sub": "produtos nos seus vídeos",
+      "cor": "verde"
+     }
+    ],
+    "pilula": {
+     "ao": "missão",
+     "txt": "Não é o topo, mas já tem missão paga",
+     "cor": "violeta"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C09",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "REALIDADE número dois. E essa pega muita gente! As horas que vêm do feed dos Shorts não contam para as horas de exibição da monetização. Quem diz é a própria página do Programa de Parcerias, nesse aviso aqui.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/72851",
+    "selo": "Realidade 2: horas do feed de Shorts",
+    "digitar": {
+     "ao": "REALIDADE"
+    },
+    "telas": [
+     {
+      "ao": "REALIDADE",
+      "arq": "cena-shorts-horas.png"
+     }
+    ],
+    "destaque": {
+     "ao": "aviso",
+     "x": 196,
+     "y": 414,
+     "w": 700,
+     "h": 72
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 270
+    }
+   }
+  },
+  {
+   "id": "C10",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "pensando",
+   "fala": "No meu canal, sete mil e seiscentas das oito mil e quatrocentas visualizações vieram dos Shorts. E vinte e dois dos vinte e seis inscritos, também. Ou seja: o Short me trouxe gente. Mas a hora que conta pra monetizar não vem do feed dos Shorts. Então é jogo em dupla, tipo Power Rangers: o Short chama, o vídeo longo segura. Hora de morfar!",
+   "dados": {
+    "titulo": "O que os meus números dizem",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "sete",
+      "t": "7,6 mil de 8,4 mil views",
+      "sub": "vieram dos Shorts",
+      "cor": "ciano"
+     },
+     {
+      "ao": "vinte",
+      "t": "22 de 26 inscritos",
+      "sub": "vieram dos Shorts",
+      "cor": "verde"
+     },
+     {
+      "ao": "chama",
+      "t": "O Short chama",
+      "sub": "traz gente nova",
+      "cor": "ouro"
+     },
+     {
+      "ao": "segura",
+      "t": "O longo segura",
+      "sub": "soma hora de exibição",
+      "cor": "violeta"
+     }
+    ],
+    "pilula": {
+     "ao": "morfar",
+     "txt": "Hora de morfar!",
+     "cor": "vermelho"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "REALIDADE número três: entrou, tem que ficar ativo. A partir de fevereiro, o canal ativo precisa de mil horas em trezentos e sessenta e cinco dias, ou um milhão de visualizações de Shorts em noventa dias, ou enviar dois vídeos longos ou cinco Shorts a cada noventa dias. Cinco Shorts em três meses? Até eu consigo!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Realidade 3: canal ativo",
+    "digitar": {
+     "ao": "REALIDADE"
+    },
+    "telas": [
+     {
+      "ao": "REALIDADE",
+      "arq": "cena-ativo.png"
+     }
+    ],
+    "destaque": {
+     "ao": "mil",
+     "x": 188,
+     "y": 418,
+     "w": 710,
+     "h": 120
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 320
+    }
+   }
+  },
+  {
+   "id": "C12",
+   "tipo": "fluxo",
+   "pantera": false,
+   "broll": false,
+   "fala": "E se você já é monetizado, atenção! Tem que aceitar os termos novos até trinta e um de janeiro. No YouTube Studio, procure o aviso no painel ou na guia Ganhos. Clique em revisar em cada módulo, marque a caixa, avançar, e no fim, enviar. Se não aceitar, a monetização desses recursos para em primeiro de fevereiro.",
+   "dados": {
+    "titulo": "Já é monetizado? Até 31 de janeiro",
+    "etapas": [
+     {
+      "ao": "aviso",
+      "t": "Ache o aviso",
+      "sub": "painel ou guia Ganhos"
+     },
+     {
+      "ao": "revisar",
+      "t": "Revisar",
+      "sub": "em cada módulo"
+     },
+     {
+      "ao": "marque",
+      "t": "Marque e avance",
+      "sub": "caixa + Avançar"
+     },
+     {
+      "ao": "enviar",
+      "t": "Enviar",
+      "sub": "no fim de tudo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C13",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E uma dica pra quem ainda não chegou lá. Na área Monetização do YouTube Studio, tem a opção receber notificação. O YouTube te manda um e-mail quando você bater um dos requisitos. Com grandes poderes, vêm grandes... e-mails!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/72851",
+    "selo": "Dica: receber notificação",
+    "digitar": {
+     "ao": "dica"
+    },
+    "telas": [
+     {
+      "ao": "dica",
+      "arq": "cena-notificacao.png"
+     }
+    ],
+    "destaque": {
+     "ao": "notificação",
+     "x": 436,
+     "y": 432,
+     "w": 240,
+     "h": 34
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 300
+    }
+   }
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "feliz",
+   "fala": "E o que eu vou fazer com tudo isso? Meu plano tem três passos. Um: mirar nos quinhentos inscritos primeiro, não nos mil. Dois: todo Short meu vai puxar pra um vídeo longo. Três: parar de acreditar no famoso só continue postando. Postar sem plano é igual o Goku em reunião de pais: tá lá, mas totalmente perdido. E os números, eu mostro aqui, sem maquiagem.",
+   "dados": {
+    "titulo": "Meu plano em 3 passos",
+    "cols": 1,
+    "w": 1250,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Mirar nos 500 primeiro",
+      "sub": "não nos mil",
+      "cor": "ouro"
+     },
+     {
+      "ao": "Dois",
+      "t": "Todo Short puxa pra um longo",
+      "sub": "o Short chama, o longo segura",
+      "cor": "ciano"
+     },
+     {
+      "ao": "Três",
+      "t": "Chega de só continue postando",
+      "sub": "postar sem plano não é plano",
+      "cor": "vermelho"
+     }
+    ],
+    "pilula": {
+     "ao": "números",
+     "txt": "Números aqui, sem maquiagem",
+     "cor": "verde"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "comemorando",
+   "fala": "Resumindo! A meta pra monetizar dobra em fevereiro: oito mil horas, ou vinte milhões de Shorts, com mil inscritos. Os quinhentos inscritos continuam abrindo fãs, parcerias e Shopping. Hora do feed de Shorts não conta. E quem já é parceiro aceita os termos até trinta e um de janeiro. Os links oficiais estão na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "dobra",
+      "t": "Meta dobra em fevereiro",
+      "sub": "8 mil h ou 20 mi de Shorts"
+     },
+     {
+      "ao": "quinhentos",
+      "t": "500 inscritos seguem iguais",
+      "sub": "fãs, parcerias e Shopping"
+     },
+     {
+      "ao": "feed",
+      "t": "Feed de Shorts não conta",
+      "sub": "nas horas de exibição"
+     },
+     {
+      "ao": "termos",
+      "t": "Parceiro: aceite os termos",
+      "sub": "até 31 de janeiro"
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Links oficiais na descrição",
+     "cor": "ouro"
+    }
+   }
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "broll": "humano",
+   "pose": "apontando",
+   "fala": "E se você quer ver como eu tô tentando sair das dezenas de views, o próximo vídeo tá aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/criador-2.mp4",
+    "titulo": "Próximo teste do laboratório",
+    "seta": {
+     "ao": "próximo"
+    },
+    "clique": {
+     "ao": "Clica"
+    }
+   }
+  }
+ ],
+ "cauda": 6.0
+}

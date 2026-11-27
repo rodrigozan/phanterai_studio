@@ -1,0 +1,22 @@
+{
+ "qtd": 2,
+ "gap": 3.0,
+ "videos": {
+  "criador": "youtuber recording video with camera at home",
+  "preocupado": "worried man looking at laptop screen",
+  "comemora": "happy woman celebrating in front of laptop",
+  "time": "amateur soccer team celebrating together",
+  "analise": "person checking statistics on smartphone",
+  "editando": "content creator editing video on computer"
+ },
+ "fotos": {
+  "estudio": "home studio camera ring light",
+  "cofrinho": "coins piggy bank savings"
+ },
+ "prints": {},
+ "gatilhos": {
+  "hoje": "prints/cena-hoje.png",
+  "Ganhos": "prints/cena-termos.png",
+  "Central": "prints/topo-mudancas.png"
+ }
+}

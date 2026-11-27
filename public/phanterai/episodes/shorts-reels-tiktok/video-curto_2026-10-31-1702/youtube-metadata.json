@@ -1,0 +1,36 @@
+{
+  "slug": "video-curto_2026-10-31-1702",
+  "title": "Rode IA local no PC sem placa de vídeo | Microsoft BitNet",
+  "description": "IA local no seu PC, sem placa de vídeo? O Microsoft BitNet roda modelos direto na CPU. Veja o que o projeto entrega e o que ainda é só teste.\n\nNúmeros do artigo da Microsoft (testes de velocidade):\n• x86: até 6,17x mais rápido e até 82,2% menos energia\n• ARM: até 5,07x mais rápido e de 55,4% a 70% menos energia\n• Teste com modelo de 100B de parâmetros em 1 CPU: 5 a 7 tokens/s (esse modelo não existe pronto para baixar)\n• Modelo oficial: BitNet-b1.58-2B-4T, 2,4 bilhões de parâmetros\n\nFontes:\n• Repositório: https://github.com/microsoft/BitNet (licença MIT, 41.413 estrelas em 31/10/2026)\n• Artigo: https://arxiv.org/abs/2410.16144 (21/10/2024)\n\nCanal Aprenda YouTube, por PhanterAI Creative Agency. Instagram: @phanteraicreative\n\n#Shorts #IALocal #BitNet #InteligenciaArtificial",
+  "tags": [
+    "ia local",
+    "ia sem placa de vídeo",
+    "microsoft bitnet",
+    "bitnet",
+    "rodar ia no pc",
+    "ia na cpu",
+    "llm local",
+    "pc para ia",
+    "ia sem gpu",
+    "inteligência artificial",
+    "modelo de linguagem local",
+    "1-bit llm",
+    "bitnet b1.58",
+    "ia open source",
+    "ia no computador",
+    "aprenda youtube"
+  ],
+  "searchTerms": [
+    "ia local",
+    "ia sem placa de vídeo",
+    "microsoft bitnet"
+  ],
+  "thumbnailBrief": "Short vertical 9:16, usar o último frame/capa da cena 11 ou capa própria. Texto de até 4 palavras: IA SEM PLACA DE VÍDEO. Elemento visual: PC comum com ícone de GPU riscado e chip de CPU em destaque. Contraste alto, texto claro sobre fundo escuro da marca, legível no grid 3:4. Sem rosto e sem logo da Microsoft. Short usa frame escolhido no upload (thumbnail personalizada é opcional).",
+  "sources": [
+    "https://github.com/microsoft/BitNet",
+    "https://arxiv.org/abs/2410.16144",
+    "pesquisa.md",
+    "fontes.json"
+  ],
+  "author": "jason-david-frank"
+}

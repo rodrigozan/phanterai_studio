@@ -1,0 +1,5 @@
+f026aff 2026-07-13 01:12:05 +0200 fix(hooks): correct context window size + fallback estimation + stop hook cleanup
+8dc2683 2026-07-13 01:02:50 +0200 feat: add runtime hooks — context-status + checkpoint-pulse
+11dbbaf 2026-07-13 00:50:36 +0200 feat: claude-power — lightweight index + 7 reference files
+b7b089a 2026-07-13 00:44:59 +0200 feat: add claude-power skill — 20 native features most people miss
+518d3b4 2026-07-13 00:41:08 +0200 feat: initial release — agent-aware self-awareness protocol for Claude Code

@@ -1,0 +1,175 @@
+https://newsletter.futurepedia.io/p/one-claude-chat-now-runs-all-your-other-chats-11-06-2026
+
+Futurepedia
+Login
+Subscribe
+Home
+Posts
+One Claude Chat Now Runs All Your Other Chats
+Kevin at Futurepedia
+
+Nov 6, 2026
+
+•
+
+3 min read
+
+Anthropic just rebuilt the Claude desktop app, and the new multitasking tools are my favorite part.
+
+This week's guide shows how to keep every Claude chat in check from one spot. You won't need to look at a single line of code.
+
+- Kevin
+
+See how HubSpot Smart CRM brings your tools and data together →
+
+Claude 2.0
+How We Used A Master Session To Run A Product Launch From One Chat
+
+Imagine a small shop owner launching a new product. The pricing page, the launch email and the FAQ each live in their own Claude Code chat. Now, one pinned chat checks acts as a command station for the rest.
+
+Why Claude 2.0 Rocks
+
+Every Claude Code chat can now see and manage your other chats, so one of them can act as your control center. Basically, it's a project manager that lives in your sidebar.
+
+It checks your other chats and reports which are finished, waiting on you, or still working
+
+It starts new chats, plus renames, sorts and messages the ones already running
+
+It flags anything that needs your approval, so nothing sits stuck
+
+It saves you from digging through the sidebar to find where you left off
+
+How We Did It
+
+Here's how we set up a control center for launch week. Claude Code sounds technical, but you just chat in plain language, the same way you do in regular Claude.
+
+1. Open the Code tab and start one chat per job.
+
+Code is the second of the two tabs now (Home holds chat and Cowork together). Open a separate chat for the pricing page, the launch email and the FAQ, and name each one after its job. One job per chat keeps every thread focused.
+
+2. Group them into a section.
+
+Click the three dots on a chat, pick 'Move to section', then create a new one called 'Launch Week'. Drag the other chats in. Sections work like folders, so the whole launch lives in one place, and you can drag more chats in anytime as the project grows.
+
+3. Start one more chat and pin it to the top.
+
+This chat is your control center. There's no special button for it. It's a technique that works because every Code chat can see your others. Tell it its job, e.g., 'You're my control center for launch week. Keep track of the chats in the Launch Week section.'
+
+4. Ask what's waiting on you.
+
+Type 'What's waiting on me?' It checks your other chats and lists which are finished, which need an approval and which are still working. That replaces opening every chat one by one, so a stuck approval gets caught at the first check-in, not the last. Ask again whenever you sit back down, and you'll get a fresh list.
+
+Free Resource
+The system you've been trying to build already exists.
+
+HubSpot Smart CRM unifies your data and tools, automates the busywork, and gives every team the context they need to take the next best action.
+
+No more switching between systems or reconciling data across disconnected tools. The intelligent CRM connects your apps, syncs your data, and integrates with your existing tools, so your agents, workflows, and data all work from the same source of truth.
+
+Every tool connected. No data left behind.
+
+What’s Inside:
+
+Unify your data and tools in one place
+
+Automate the busywork
+
+Connect your apps and sync your data with the tools you already use
+
+Give every team the context to take the next best action
+
+Get Started →
+Claude 2.0 Continued
+
+5. Give it small jobs.
+
+Ask the control chat to start a new chat, rename one, sort them, or send a message to a chat that's already running. e.g., 'Tighten the landing page copy and shorten the hero.' You stay the decision maker while Claude handles the legwork.
+
+6. Open the busy chats side by side.
+
+For the ones that need you, right click a chat, hit 'Open in', then 'Split view'. The chats sit next to each other, so you can approve, answer and move on without hopping around the sidebar. Pull up every chat you're working in, and watch which one finishes first.
+
+Two limits to know. The control chat sees your 20 most recent chats unless you ask it to look further back, and it only sees chats on your computer, not ones running in the cloud. New features also roll out gradually, so something may look different on your screen.
+
+Watch The Full Video →
+Use Cases
+
+Any time you're juggling several Claude chats at once, a control chat keeps them lined up and keeps you in charge of the decisions.
+
+Operations: Ask which month-end report chats are finished and which are waiting on you
+
+Marketing: Keep campaign copy, landing page and email chats in one section with one status check
+
+E-commerce: Line up listing, photo and FAQ chats before a big sale
+
+Client Services: Give each client a section and a control chat for quick status updates
+
+Bonus Tips
+
+Make a control chat for each project: Each project can have its own, plus one more that covers everything you're running
+
+Turn on remote control and keep awake: In settings, switch on 'connect new sessions to remote control' to steer from the Claude app on your phone, then add 'keep computer awake' so long jobs finish while you're away
+
+Write a finish line Claude can check: Use /goal so Claude keeps working until it can verify the job is done, and skip vague goals like 'make it great'
+
+How was Futurepedia today?
+It was epic! 💥
+Just okay. 👌
+Not good! ❌
+
+Login or Subscribe to participate
+
+Keep Reading
+
+Nov 17, 2026
+
+•
+
+3 min read
+
+Why Every Claude Design Looks the Same
+
+Here's the step-by-step way to get Claude designs that actually look like your brand
+
+Kevin at Futurepedia
+
+Nov 3, 2026
+
+•
+
+3 min read
+
+Claude Can Now Build Places You Can Walk Through
+
+Here's the exact workflow and how to build your own space
+
+Saj at Futurepedia
+
+Oct 30, 2026
+
+•
+
+3 min read
+
+How We Used Gemini 4 Argon To Turn A Sketch Into A Playable Game
+
+Here's the exact prompt, the one mistake to avoid, & how to save it for next time
+
+Saj at Futurepedia
+View more
+Futurepedia
+
+Join 280,000+ professionals learning to leverage AI tools and AI skills for work.
+
+Subscribe
+Home
+
+Posts
+
+Futurepedia
+
+Futurepedia
+
+Futurepedia
+Login
+Subscribe

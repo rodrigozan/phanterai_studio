@@ -1,0 +1,137 @@
+[
+ {
+  "n": 1,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c01.mp4",
+    "credito": "Pexels: MART  PRODUCTION (https://www.pexels.com/video/woman-working-on-a-laptop-7706626/)"
+   },
+   {
+    "kind": "img",
+    "file": "img/github-repo.png",
+    "scroll": true,
+    "credito": "página do repositório github.com/anthropics/claude-quickstarts"
+   }
+  ],
+  "kinetic": "6 sistemas|para vender",
+  "pose": "surpresa"
+ },
+ {
+  "n": 2,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/support-v.jpg",
+    "credito": "anthropics/claude-quickstarts/customer-support-agent/tutorial/preview.png"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c02.mp4",
+    "credito": "Pexels: Yan Krukau (https://www.pexels.com/video/a-close-up-video-of-hanging-headsets-8865593/)"
+   }
+  ],
+  "tag": "1 · Atendimento",
+  "badge": "loja e serviços"
+ },
+ {
+  "n": 3,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/finance-v.jpg",
+    "credito": "anthropics/claude-quickstarts/financial-data-analyst/public/hero.png"
+   },
+   {
+    "kind": "img",
+    "file": "img/finance2-v.jpg",
+    "credito": "anthropics/claude-quickstarts/financial-data-analyst/public/image-analysis.png"
+   }
+  ],
+  "tag": "2 · Analista financeiro",
+  "badge": "contabilidade"
+ },
+ {
+  "n": 4,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c04.mp4",
+    "credito": "Pexels: Pavel Danilyuk (https://www.pexels.com/video/a-man-typing-on-his-keyboard-8003418/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c01b.mp4",
+    "credito": "Pexels: Mikhail Nilov (https://www.pexels.com/video/man-using-laptop-in-the-office-6931111/)"
+   }
+  ],
+  "tag": "3 · Automação de navegador",
+  "badge": "portais e cadastros",
+  "pose": "pensando"
+ },
+ {
+  "n": 5,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c05.mp4",
+    "credito": "Pexels: Tima Miroshnichenko (https://www.pexels.com/video/codes-on-computer-screen-5377697/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c05b.mp4",
+    "credito": "Pexels: Mizuno K (https://www.pexels.com/video/hands-typing-on-laptop-keyboard-12893579/)"
+   }
+  ],
+  "tag": "4 · Agente de programação",
+  "badge": "agência de software"
+ },
+ {
+  "n": 6,
+  "tipo": "motion",
+  "motion": "phone",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c06.mp4",
+    "credito": "Pexels: Helin Gezer (https://www.pexels.com/video/cozy-office-coffee-break-with-laptops-31830901/)"
+   }
+  ],
+  "chips": [
+   "Slack",
+   "GitHub",
+   "todo dia útil"
+  ],
+  "tag": "5 · Resumo diário"
+ },
+ {
+  "n": 7,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c07.mp4",
+    "credito": "Pexels: https://kaboompics.com/ (https://www.pexels.com/video/organized-person-putting-her-paperworks-in-a-folder-orderly-8135783/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c07b.mp4",
+    "credito": "Pexels: Alena Darmel (https://www.pexels.com/video/man-and-woman-talking-8141187/)"
+   }
+  ],
+  "tag": "6 · Wiki de conhecimento",
+  "badge": "advocacia e consultoria",
+  "pose": "apontando"
+ },
+ {
+  "n": 8,
+  "tipo": "motion",
+  "motion": "cta",
+  "shots": []
+ }
+]

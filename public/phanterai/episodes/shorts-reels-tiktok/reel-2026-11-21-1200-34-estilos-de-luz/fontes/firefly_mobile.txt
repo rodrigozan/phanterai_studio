@@ -1,0 +1,126 @@
+https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-lighting-for-image-generation.html
+Creativity & Design
+PDFs & E-signatures
+Marketing & Commerce
+Learn & Support
+Buy now
+Sign in
+Mobile
+Web
+Open on mobile
+ Adobe Help Center
+Adobe Firefly Mobile Help
+What's new in Firefly on mobile
+Get started
+Generate images with Text to Image
+Generate images using text prompts
+Customize generated images
+Set content type
+Match image composition with reference image
+Edit generated images
+Set aspect ratio of images
+Set styles for image generation
+Set effects for image generation
+Set color for image generation
+Set lighting for image generation
+Set camera angle for image generation
+Generate images with partner models
+Edit images
+Share and download
+Work with audio and video
+View Generation history
+Set lighting for image generation
+Last updated on Dec 10, 2025
+Generate images using various lighting styles with Firefly on mobile.
+Note
+Extended style components, such as Effects, Color, Lighting, and Camera angle, are only available for Adobe's native image models. Partner models don't support these components.
+Android
+iOS
+Open Firefly on mobile.
+On the home screen, tap Text to image.
+Enter a text prompt in the Prompt field and select any one of the Firefly image models from the Model dropdown menu.
+Tap Additional settings and then select Lighting.
+Set lighting style to define how light interacts with the subject in the image.
+Browse through the options and choose from the following Lighting styles:
+Backlighting
+Dramatic Light
+Golden hour
+Harsh light
+Long-time exposure
+Low lighting
+Multiexposure
+Studio light
+Surreal lighting
+Select the Lighting you want, and then tap the close   icon to confirm your selection.
+Tap the Generate  icon to see a set of image variations.
+Was this page helpful?
+Yes, thanks
+Not really
+Previous
+Set color for image generation
+Next
+Set camera angle for image generation
+Learn
+Learn with step-by-step video tutorials and hands-on guidance right in the app.
+Community
+Join discussions, find answers, learn from experts, and share your knowledge.
+Adobe Home
+Access your favorite Creative Cloud apps, services, file management, and more.
+Este site da Adobe não corresponde à sua localização
+De acordo com sua localização, você pode preferir acessar o site do Brasil, com conteúdo, ofertas e preços regionais.
+Brasil
+United States
+For individuals & small business
+Creative AI
+Photography
+Design and illustration
+Video and animation
+PDF
+3D
+Elements Family
+Stock images and video
+View all products
+For medium & large business
+Personalization at scale
+Content supply chain
+Unified customer experience
+Creativity and production
+B2B GTM orchestration
+View all products
+For organizations
+Education
+Nonprofits
+Government
+Startups
+Support
+Help Center
+Download and install
+Adobe Community
+Adobe Learn
+Medium and large business support
+Adobe
+Log into your account
+About
+Careers
+Events
+Newsroom
+Corporate responsibility
+Investor Relations
+Supply chain
+Trust Center
+Integrity
+Adobe for All
+Adobe Blog
+Featured products
+Acrobat Reader
+Firefly
+Adobe Express
+Photoshop
+Change region
+Copyright © 2026 Adobe. All rights reserved./
+Privacy/
+Terms of Use/
+Cookie preferences/
+Do not sell or share my personal information/
+Site Map/
+AdChoices

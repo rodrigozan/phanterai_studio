@@ -1,0 +1,125 @@
+https://helpx.adobe.com/firefly/web/work-with-images/generate-images/effects-for-generated-images.html
+Creativity & Design
+PDFs & E-signatures
+Marketing & Commerce
+Learn & Support
+Buy now
+Sign in
+Firefly Help
+Mobile
+Web
+Open on web
+ Adobe Help Center
+Adobe Firefly Web Help
+What's new
+Get started
+Work with images
+Generate images
+Generate images from text descriptions
+Writing effective text prompts
+Enhance prompts to generate images
+Generate images quickly using Fast mode
+Set aspect ratio of images
+Set content type
+Match image composition to reference image
+Reference images for styling
+Set styles for image generation
+Modify generated images
+Effects for generated images
+Generate images using FLUX
+Generate images using Gemini
+Generate images using GPT Image
+Generate images using Imagen
+Generate images using Ideogram
+Generate images using Runway
+Edit images
+Generate vectors
+Work with audio and video
+Work with enterprise features
+Perform bulk actions
+Share and download
+Ideation and mood boarding
+Timeline
+Firefly Design Intelligence
+Troubleshoot
+App integrations
+Firefly AI Assistant
+Adobe Brand Intelligence
+Firefly Graph
+Custom models
+Access your files
+Unified generation and editing experience
+Firefly Design (beta)
+Effects for generated images
+Last updated on Jun 16, 2026
+Learn about effects in Generate image that can enhance visual elements and create diverse styled image variations.
+Try it in the app
+Create images from a text description in a few simple steps.
+Open Firefly
+The Effects section in Generate image offers a range of options to boost the visual appeal of your generated images, making it easy to create diverse sets of image variations. After selecting your desired effects, elements like colors, lighting, and camera angles are adjusted to match your chosen style. Additionally, you can explore various art movements and styles to apply distinctive effects to your images.
+The various categories of Effects available in Firefly include:
+Popular
+Techniques
+Movements
+Effects
+Concepts
+Themes
+Materials
+Under the Effects section, you can also specify the Color and tone, Lighting, and Camera angle. 
+Color and tone
+Lighting
+Camera angle
+None
+None
+None
+Black and white
+Backlighting
+Closeup
+Cool tone
+Dramatic light
+Knolling
+Golden
+Golden hour
+Landscape photography
+Monochromatic
+Harsh light
+Macrophotography
+Muted color
+Long-time exposure
+Photographed through window
+Pastel color
+Low lighting
+Shallow depth of field
+Toned image
+Multiexposure
+Shot from above
+Vibrant colors
+Studio light
+Shot from below
+Warm tone
+Surreal lighting
+Surface detail
+Wide angle
+Combine effects to create visually appealing images that communicate your vision.
+Join our community to connect, learn, and engage
+For inspiration, expert tips, and solutions to common issues, visit Discord or the Adobe Firefly Community forum. Connect with our team and fellow users to exchange ideas, share your creations, stay updated with the latest features and announcements, and provide feedback.
+Turn text into art with Adobe Firefly
+Create beautiful images and video clips from text prompts using generative AI.
+Open the app
+Was this page helpful?
+Yes, thanks
+Not really
+Previous
+Modify generated images
+Next
+Generate images using FLUX
+Learn
+Learn with step-by-step video tutorials and hands-on guidance right in the app.
+Community
+Join discussions, find answers, learn from experts, and share your knowledge.
+Adobe Home
+Access your favorite Creative Cloud apps, services, file management, and more.
+Este site da Adobe não corresponde à sua localização
+De acordo com sua localização, você pode preferir acessar o site do Brasil, com conteúdo, ofertas e preços regionais.
+Brasil
+United States

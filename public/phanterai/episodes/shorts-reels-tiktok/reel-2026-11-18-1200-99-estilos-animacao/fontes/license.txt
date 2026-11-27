@@ -1,0 +1,20 @@
+LICENSE
+Lemo-Opuscar
+Copyright (c) 2026 Lemomo (LemoLab)
+https://github.com/lemomo-ai/lemo-opuscar
+
+This file says which licence applies to what. The full licence texts are in LICENSES/ (also at https://github.com/lemomo-ai/lemo-opuscar/tree/main/LICENSES). REUSE.toml states the same rules file by file, in the machine-readable REUSE format (https://reuse.software).
+
+
+WHICH LICENCE APPLIES
+
+Paths are relative to the library's root folder (in the plugin directory edition: skills/lemo-opuscar/library/). The first rule that matches a file decides.
+
+1. Third-party material keeps its own licence: fonts and their licence texts, music, sound recordings and sample libraries, models and textures, data, maps, footage, photographs, and the code libraries bundled with some demos. Each demo's CREDITS names its third-party assets and their licences; REUSE.toml names every third-party file kept in this repository and its licence.
+
+2. Docs: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0, LICENSES/CC-BY-NC-4.0.txt).
+   - Every Markdown file (*.md): the guides, each style's STYLE.md and DEMO.md, the READMEs, and the Markdown of the Claude Code skill.
+   - The image-generation prompts: everything under styles/*/demo/prompts/, styles/manga-panels/demo/tools/style_suffix.txt and styles/comic-history/demo/tools/sheets.json.
+
+3. Demo films, and pictures made from them: Creative Commons Attribution 4.0 International (CC BY 4.0, LICENSES/CC-BY-4.0.txt).
+   - The demo films and the 

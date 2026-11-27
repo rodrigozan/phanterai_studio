@@ -1,0 +1,8758 @@
+{
+ "slug": "2026-11-25-meta-monetizacao-dobrou",
+ "fps": 30,
+ "lead": 0.5,
+ "musica": "CuriousFocus.mp3",
+ "musicaVolume": 0.17,
+ "totalFrames": 9038,
+ "scenes": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "pose": "surpresa",
+   "fala": "O YouTube vai DOBRAR a meta pra monetizar! A partir de fevereiro, são oito mil horas de exibição. Oito MIL! E o meu canal? Fez cinquenta e uma vírgula seis horas em vinte e oito dias. Cinquenta e uma... Mas calma! Tem um caminho que NÃO mudou. E ele começa nos quinhentos inscritos.",
+   "dados": {
+    "bg": "pexels/criador-1.mp4",
+    "esc": 0.55,
+    "l1": "Meta dobrada",
+    "l2": "e o atalho dos 500",
+    "pilulas": [
+     {
+      "ao": "Oito",
+      "txt": "8 mil horas pra monetizar",
+      "cor": "vermelho",
+      "em": 142
+     },
+     {
+      "ao": "Cinquenta",
+      "txt": "Meu canal: 51,6 h em 28 dias",
+      "cor": "violeta",
+      "em": 283
+     },
+     {
+      "ao": "NÃO",
+      "txt": "Um caminho NÃO mudou",
+      "cor": "verde",
+      "em": 502
+     },
+     {
+      "ao": "quinhentos",
+      "txt": "Começa nos 500 inscritos",
+      "cor": "ouro",
+      "em": 557
+     }
+    ],
+    "bgDur": 7
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "YouTube",
+     "s": 0.32,
+     "e": 0.56
+    },
+    {
+     "w": "vai",
+     "s": 0.64,
+     "e": 0.8
+    },
+    {
+     "w": "DOBRAR",
+     "s": 0.88,
+     "e": 1.44
+    },
+    {
+     "w": "a",
+     "s": 1.48,
+     "e": 1.52
+    },
+    {
+     "w": "meta",
+     "s": 1.6,
+     "e": 1.92
+    },
+    {
+     "w": "pra",
+     "s": 2,
+     "e": 2.08
+    },
+    {
+     "w": "monetizar!",
+     "s": 2.16,
+     "e": 2.88
+    },
+    {
+     "w": "A",
+     "s": 3.2,
+     "e": 3.28
+    },
+    {
+     "w": "partir",
+     "s": 3.36,
+     "e": 3.6
+    },
+    {
+     "w": "de",
+     "s": 3.68,
+     "e": 3.76
+    },
+    {
+     "w": "fevereiro,",
+     "s": 3.84,
+     "e": 4.36
+    },
+    {
+     "w": "são",
+     "s": 4.4,
+     "e": 4.64
+    },
+    {
+     "w": "oito",
+     "s": 4.72,
+     "e": 5.04
+    },
+    {
+     "w": "mil",
+     "s": 5.2,
+     "e": 5.36
+    },
+    {
+     "w": "horas",
+     "s": 5.52,
+     "e": 5.76
+    },
+    {
+     "w": "de",
+     "s": 5.84,
+     "e": 5.88
+    },
+    {
+     "w": "exibição.",
+     "s": 5.92,
+     "e": 6.64
+    },
+    {
+     "w": "Oito",
+     "s": 6.8,
+     "e": 7.12
+    },
+    {
+     "w": "MIL!",
+     "s": 7.36,
+     "e": 7.76
+    },
+    {
+     "w": "E",
+     "s": 8.16,
+     "e": 8.2
+    },
+    {
+     "w": "o",
+     "s": 8.24,
+     "e": 8.267
+    },
+    {
+     "w": "meu",
+     "s": 8.293,
+     "e": 8.4
+    },
+    {
+     "w": "canal?",
+     "s": 8.48,
+     "e": 8.8
+    },
+    {
+     "w": "Fez",
+     "s": 9.2,
+     "e": 9.36
+    },
+    {
+     "w": "cinquenta",
+     "s": 9.44,
+     "e": 10
+    },
+    {
+     "w": "e",
+     "s": 10.04,
+     "e": 10.08
+    },
+    {
+     "w": "uma",
+     "s": 10.16,
+     "e": 10.24
+    },
+    {
+     "w": "vírgula",
+     "s": 10.4,
+     "e": 10.8
+    },
+    {
+     "w": "seis",
+     "s": 10.88,
+     "e": 11.04
+    },
+    {
+     "w": "horas",
+     "s": 11.2,
+     "e": 11.44
+    },
+    {
+     "w": "em",
+     "s": 11.52,
+     "e": 11.76
+    },
+    {
+     "w": "vinte",
+     "s": 11.84,
+     "e": 12
+    },
+    {
+     "w": "e",
+     "s": 12.04,
+     "e": 12.08
+    },
+    {
+     "w": "oito",
+     "s": 12.16,
+     "e": 12.32
+    },
+    {
+     "w": "dias.",
+     "s": 12.4,
+     "e": 13
+    },
+    {
+     "w": "Cinquenta",
+     "s": 13.2,
+     "e": 13.92
+    },
+    {
+     "w": "e",
+     "s": 14,
+     "e": 14.08
+    },
+    {
+     "w": "uma...",
+     "s": 14.16,
+     "e": 14.88
+    },
+    {
+     "w": "Mas",
+     "s": 14.96,
+     "e": 15.04
+    },
+    {
+     "w": "calma!",
+     "s": 15.12,
+     "e": 15.52
+    },
+    {
+     "w": "Tem",
+     "s": 15.84,
+     "e": 15.92
+    },
+    {
+     "w": "um",
+     "s": 16,
+     "e": 16.04
+    },
+    {
+     "w": "caminho",
+     "s": 16.08,
+     "e": 16.4
+    },
+    {
+     "w": "que",
+     "s": 16.48,
+     "e": 16.56
+    },
+    {
+     "w": "NÃO",
+     "s": 16.72,
+     "e": 16.8
+    },
+    {
+     "w": "mudou.",
+     "s": 16.88,
+     "e": 17.28
+    },
+    {
+     "w": "E",
+     "s": 17.52,
+     "e": 17.6
+    },
+    {
+     "w": "ele",
+     "s": 17.68,
+     "e": 17.76
+    },
+    {
+     "w": "começa",
+     "s": 17.84,
+     "e": 18.24
+    },
+    {
+     "w": "nos",
+     "s": 18.36,
+     "e": 18.48
+    },
+    {
+     "w": "quinhentos",
+     "s": 18.56,
+     "e": 19.12
+    },
+    {
+     "w": "inscritos.",
+     "s": 19.24,
+     "e": 20.08
+    }
+   ],
+   "startFrame": 15,
+   "endFrame": 626
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "Hoje é Mito versus Realidade. O mito que tá rodando por aí: canal pequeno nunca mais ganha dinheiro no YouTube. Parece final de filme de herói, quando o vilão estala o dedo... Mas eu fui direto na fonte. A Central de Ajuda oficial do YouTube. E a realidade é bem diferente!",
+   "dados": {
+    "bg": "pexels/preocupado-1.mp4",
+    "titulo": "Mito vs. Realidade",
+    "cols": 1,
+    "w": 1250,
+    "itens": [
+     {
+      "ao": "mito",
+      "t": "MITO: canal pequeno nunca mais monetiza",
+      "sub": "o que tá rodando por aí",
+      "icone": "✕",
+      "cor": "vermelho",
+      "em": 17
+     },
+     {
+      "ao": "fonte",
+      "t": "A fonte: Central de Ajuda do YouTube",
+      "sub": "a página oficial, não fofoca",
+      "icone": "?",
+      "cor": "ciano",
+      "em": 370
+     },
+     {
+      "ao": "realidade",
+      "t": "REALIDADE: bem diferente",
+      "sub": "vem comigo",
+      "icone": "✓",
+      "cor": "verde",
+      "em": 46
+     }
+    ],
+    "bgDur": 12
+   },
+   "words": [
+    {
+     "w": "Hoje",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "é",
+     "s": 0.4,
+     "e": 0.48
+    },
+    {
+     "w": "Mito",
+     "s": 0.56,
+     "e": 0.96
+    },
+    {
+     "w": "versus",
+     "s": 1.04,
+     "e": 1.44
+    },
+    {
+     "w": "Realidade.",
+     "s": 1.52,
+     "e": 2.44
+    },
+    {
+     "w": "O",
+     "s": 2.64,
+     "e": 2.68
+    },
+    {
+     "w": "mito",
+     "s": 2.72,
+     "e": 2.92
+    },
+    {
+     "w": "que",
+     "s": 2.96,
+     "e": 3.04
+    },
+    {
+     "w": "tá",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "rodando",
+     "s": 3.28,
+     "e": 3.52
+    },
+    {
+     "w": "por",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "aí:",
+     "s": 3.72,
+     "e": 4.32
+    },
+    {
+     "w": "canal",
+     "s": 4.4,
+     "e": 4.56
+    },
+    {
+     "w": "pequeno",
+     "s": 4.64,
+     "e": 5.2
+    },
+    {
+     "w": "nunca",
+     "s": 5.28,
+     "e": 5.68
+    },
+    {
+     "w": "mais",
+     "s": 5.84,
+     "e": 6.08
+    },
+    {
+     "w": "ganha",
+     "s": 6.16,
+     "e": 6.32
+    },
+    {
+     "w": "dinheiro",
+     "s": 6.4,
+     "e": 6.72
+    },
+    {
+     "w": "no",
+     "s": 6.76,
+     "e": 6.8
+    },
+    {
+     "w": "YouTube.",
+     "s": 6.88,
+     "e": 7.6
+    },
+    {
+     "w": "Parece",
+     "s": 7.653,
+     "e": 7.92
+    },
+    {
+     "w": "final",
+     "s": 8.08,
+     "e": 8.24
+    },
+    {
+     "w": "de",
+     "s": 8.28,
+     "e": 8.32
+    },
+    {
+     "w": "filme",
+     "s": 8.44,
+     "e": 8.56
+    },
+    {
+     "w": "de",
+     "s": 8.6,
+     "e": 8.64
+    },
+    {
+     "w": "herói,",
+     "s": 8.72,
+     "e": 9.2
+    },
+    {
+     "w": "quando",
+     "s": 9.24,
+     "e": 9.36
+    },
+    {
+     "w": "o",
+     "s": 9.387,
+     "e": 9.413
+    },
+    {
+     "w": "vilão",
+     "s": 9.44,
+     "e": 9.68
+    },
+    {
+     "w": "estala",
+     "s": 9.84,
+     "e": 10.16
+    },
+    {
+     "w": "o",
+     "s": 10.2,
+     "e": 10.24
+    },
+    {
+     "w": "dedo...",
+     "s": 10.4,
+     "e": 11.2
+    },
+    {
+     "w": "Mas",
+     "s": 11.24,
+     "e": 11.28
+    },
+    {
+     "w": "eu",
+     "s": 11.36,
+     "e": 11.44
+    },
+    {
+     "w": "fui",
+     "s": 11.493,
+     "e": 11.6
+    },
+    {
+     "w": "direto",
+     "s": 11.76,
+     "e": 12.08
+    },
+    {
+     "w": "na",
+     "s": 12.16,
+     "e": 12.24
+    },
+    {
+     "w": "fonte.",
+     "s": 12.32,
+     "e": 12.96
+    },
+    {
+     "w": "A",
+     "s": 13,
+     "e": 13.04
+    },
+    {
+     "w": "Central",
+     "s": 13.12,
+     "e": 13.52
+    },
+    {
+     "w": "de",
+     "s": 13.56,
+     "e": 13.6
+    },
+    {
+     "w": "Ajuda",
+     "s": 13.68,
+     "e": 14
+    },
+    {
+     "w": "oficial",
+     "s": 14.08,
+     "e": 14.8
+    },
+    {
+     "w": "do",
+     "s": 14.88,
+     "e": 14.92
+    },
+    {
+     "w": "YouTube.",
+     "s": 14.96,
+     "e": 15.76
+    },
+    {
+     "w": "E",
+     "s": 15.8,
+     "e": 15.84
+    },
+    {
+     "w": "a",
+     "s": 15.88,
+     "e": 15.92
+    },
+    {
+     "w": "realidade",
+     "s": 16,
+     "e": 16.56
+    },
+    {
+     "w": "é",
+     "s": 16.8,
+     "e": 17.04
+    },
+    {
+     "w": "bem",
+     "s": 17.12,
+     "e": 17.28
+    },
+    {
+     "w": "diferente!",
+     "s": 17.36,
+     "e": 18.24
+    }
+   ],
+   "startFrame": 626,
+   "endFrame": 1181
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Tá aqui, na página oficial. A partir de primeiro de fevereiro de dois mil e vinte e sete, quem ainda não é parceiro vai precisar de mil inscritos e oito mil horas de exibição nos últimos trezentos e sessenta e cinco dias. Ou então, vinte milhões de visualizações de Shorts em noventa dias.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Ajuda do YouTube (oficial)",
+    "digitar": {
+     "ao": "Tá",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Tá",
+      "arq": "cena-mudanca.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "fevereiro",
+     "x": 188,
+     "y": 386,
+     "w": 710,
+     "h": 124,
+     "em": 103
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 300
+    }
+   },
+   "words": [
+    {
+     "w": "Tá",
+     "s": 0,
+     "e": 0.12
+    },
+    {
+     "w": "aqui,",
+     "s": 0.16,
+     "e": 0.64
+    },
+    {
+     "w": "na",
+     "s": 0.72,
+     "e": 0.8
+    },
+    {
+     "w": "página",
+     "s": 0.88,
+     "e": 1.12
+    },
+    {
+     "w": "oficial.",
+     "s": 1.16,
+     "e": 1.92
+    },
+    {
+     "w": "A",
+     "s": 2.16,
+     "e": 2.24
+    },
+    {
+     "w": "partir",
+     "s": 2.32,
+     "e": 2.56
+    },
+    {
+     "w": "de",
+     "s": 2.64,
+     "e": 2.8
+    },
+    {
+     "w": "primeiro",
+     "s": 2.96,
+     "e": 3.28
+    },
+    {
+     "w": "de",
+     "s": 3.32,
+     "e": 3.36
+    },
+    {
+     "w": "fevereiro",
+     "s": 3.44,
+     "e": 3.92
+    },
+    {
+     "w": "de",
+     "s": 3.96,
+     "e": 4
+    },
+    {
+     "w": "dois",
+     "s": 4.08,
+     "e": 4.24
+    },
+    {
+     "w": "mil",
+     "s": 4.32,
+     "e": 4.36
+    },
+    {
+     "w": "e",
+     "s": 4.4,
+     "e": 4.44
+    },
+    {
+     "w": "vinte",
+     "s": 4.48,
+     "e": 4.56
+    },
+    {
+     "w": "e",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "sete,",
+     "s": 4.84,
+     "e": 5.36
+    },
+    {
+     "w": "quem",
+     "s": 5.4,
+     "e": 5.52
+    },
+    {
+     "w": "ainda",
+     "s": 5.6,
+     "e": 5.84
+    },
+    {
+     "w": "não",
+     "s": 5.92,
+     "e": 6.08
+    },
+    {
+     "w": "é",
+     "s": 6.16,
+     "e": 6.24
+    },
+    {
+     "w": "parceiro",
+     "s": 6.36,
+     "e": 6.8
+    },
+    {
+     "w": "vai",
+     "s": 6.84,
+     "e": 6.96
+    },
+    {
+     "w": "precisar",
+     "s": 7.04,
+     "e": 7.44
+    },
+    {
+     "w": "de",
+     "s": 7.52,
+     "e": 7.68
+    },
+    {
+     "w": "mil",
+     "s": 7.8,
+     "e": 7.92
+    },
+    {
+     "w": "inscritos",
+     "s": 8.04,
+     "e": 8.64
+    },
+    {
+     "w": "e",
+     "s": 8.72,
+     "e": 8.8
+    },
+    {
+     "w": "oito",
+     "s": 8.96,
+     "e": 9.28
+    },
+    {
+     "w": "mil",
+     "s": 9.44,
+     "e": 9.6
+    },
+    {
+     "w": "horas",
+     "s": 9.68,
+     "e": 9.92
+    },
+    {
+     "w": "de",
+     "s": 10,
+     "e": 10.04
+    },
+    {
+     "w": "exibição",
+     "s": 10.08,
+     "e": 10.56
+    },
+    {
+     "w": "nos",
+     "s": 10.64,
+     "e": 10.8
+    },
+    {
+     "w": "últimos",
+     "s": 10.88,
+     "e": 11.2
+    },
+    {
+     "w": "trezentos",
+     "s": 11.28,
+     "e": 11.76
+    },
+    {
+     "w": "e",
+     "s": 11.84,
+     "e": 11.92
+    },
+    {
+     "w": "sessenta",
+     "s": 12,
+     "e": 12.24
+    },
+    {
+     "w": "e",
+     "s": 12.32,
+     "e": 12.4
+    },
+    {
+     "w": "cinco",
+     "s": 12.44,
+     "e": 12.56
+    },
+    {
+     "w": "dias.",
+     "s": 12.72,
+     "e": 13.36
+    },
+    {
+     "w": "Ou",
+     "s": 13.6,
+     "e": 13.68
+    },
+    {
+     "w": "então,",
+     "s": 13.8,
+     "e": 14.28
+    },
+    {
+     "w": "vinte",
+     "s": 14.48,
+     "e": 14.72
+    },
+    {
+     "w": "milhões",
+     "s": 14.8,
+     "e": 15.12
+    },
+    {
+     "w": "de",
+     "s": 15.2,
+     "e": 15.24
+    },
+    {
+     "w": "visualizações",
+     "s": 15.28,
+     "e": 15.92
+    },
+    {
+     "w": "de",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "Shorts",
+     "s": 16.16,
+     "e": 16.56
+    },
+    {
+     "w": "em",
+     "s": 16.64,
+     "e": 16.72
+    },
+    {
+     "w": "noventa",
+     "s": 16.8,
+     "e": 17.2
+    },
+    {
+     "w": "dias.",
+     "s": 17.36,
+     "e": 18
+    }
+   ],
+   "startFrame": 1181,
+   "endFrame": 1729
+  },
+  {
+   "id": "C04",
+   "tipo": "cartoes",
+   "pose": "surpresa",
+   "pantera": false,
+   "fala": "Compara com hoje. Hoje são quatro mil horas, ou dez milhões de visualizações de Shorts. Ou seja: as duas metas DOBRARAM. É o Freeza dizendo: esse nem é o meu poder final. Os mil inscritos continuam. E uma notícia boa: se você já é parceiro, o seu status não muda.",
+   "dados": {
+    "titulo": "Hoje x a partir de fevereiro",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "hoje",
+      "t": "Hoje: 4 mil horas",
+      "sub": "em 12 meses, com mil inscritos",
+      "cor": "ciano",
+      "em": 22
+     },
+     {
+      "ao": "DOBRARAM",
+      "t": "Fevereiro: 8 mil horas",
+      "sub": "em 365 dias, com mil inscritos",
+      "cor": "vermelho",
+      "em": 250
+     },
+     {
+      "ao": "dez",
+      "t": "Hoje: 10 milhões",
+      "sub": "views de Shorts em 90 dias",
+      "cor": "ciano",
+      "em": 118
+     },
+     {
+      "ao": "DOBRARAM",
+      "t": "Fevereiro: 20 milhões",
+      "sub": "views de Shorts em 90 dias",
+      "cor": "vermelho",
+      "em": 250
+     }
+    ],
+    "pilula": {
+     "ao": "status",
+     "txt": "Já é parceiro? Nada muda pra você",
+     "cor": "verde",
+     "em": 540
+    }
+   },
+   "words": [
+    {
+     "w": "Compara",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "com",
+     "s": 0.48,
+     "e": 0.64
+    },
+    {
+     "w": "hoje.",
+     "s": 0.72,
+     "e": 1.24
+    },
+    {
+     "w": "Hoje",
+     "s": 1.44,
+     "e": 1.76
+    },
+    {
+     "w": "são",
+     "s": 1.84,
+     "e": 2
+    },
+    {
+     "w": "quatro",
+     "s": 2.24,
+     "e": 2.56
+    },
+    {
+     "w": "mil",
+     "s": 2.64,
+     "e": 2.8
+    },
+    {
+     "w": "horas,",
+     "s": 2.88,
+     "e": 3.44
+    },
+    {
+     "w": "ou",
+     "s": 3.56,
+     "e": 3.68
+    },
+    {
+     "w": "dez",
+     "s": 3.92,
+     "e": 4.16
+    },
+    {
+     "w": "milhões",
+     "s": 4.32,
+     "e": 4.8
+    },
+    {
+     "w": "de",
+     "s": 4.84,
+     "e": 4.88
+    },
+    {
+     "w": "visualizações",
+     "s": 4.96,
+     "e": 5.6
+    },
+    {
+     "w": "de",
+     "s": 5.64,
+     "e": 5.68
+    },
+    {
+     "w": "Shorts.",
+     "s": 5.84,
+     "e": 6.32
+    },
+    {
+     "w": "Ou",
+     "s": 6.64,
+     "e": 6.72
+    },
+    {
+     "w": "seja:",
+     "s": 6.8,
+     "e": 7.36
+    },
+    {
+     "w": "as",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "duas",
+     "s": 7.6,
+     "e": 7.76
+    },
+    {
+     "w": "metas",
+     "s": 7.92,
+     "e": 8.24
+    },
+    {
+     "w": "DOBRARAM.",
+     "s": 8.32,
+     "e": 9.16
+    },
+    {
+     "w": "É",
+     "s": 9.36,
+     "e": 9.44
+    },
+    {
+     "w": "o",
+     "s": 9.48,
+     "e": 9.52
+    },
+    {
+     "w": "Freeza",
+     "s": 9.6,
+     "e": 9.84
+    },
+    {
+     "w": "dizendo:",
+     "s": 9.92,
+     "e": 10.48
+    },
+    {
+     "w": "esse",
+     "s": 10.72,
+     "e": 10.96
+    },
+    {
+     "w": "nem",
+     "s": 11.12,
+     "e": 11.36
+    },
+    {
+     "w": "é",
+     "s": 11.4,
+     "e": 11.44
+    },
+    {
+     "w": "o",
+     "s": 11.48,
+     "e": 11.52
+    },
+    {
+     "w": "meu",
+     "s": 11.56,
+     "e": 11.68
+    },
+    {
+     "w": "poder",
+     "s": 11.72,
+     "e": 11.92
+    },
+    {
+     "w": "final.",
+     "s": 12,
+     "e": 12.48
+    },
+    {
+     "w": "Os",
+     "s": 12.88,
+     "e": 13.04
+    },
+    {
+     "w": "mil",
+     "s": 13.12,
+     "e": 13.2
+    },
+    {
+     "w": "inscritos",
+     "s": 13.32,
+     "e": 13.84
+    },
+    {
+     "w": "continuam.",
+     "s": 14.04,
+     "e": 14.76
+    },
+    {
+     "w": "E",
+     "s": 14.96,
+     "e": 15.04
+    },
+    {
+     "w": "uma",
+     "s": 15.08,
+     "e": 15.12
+    },
+    {
+     "w": "notícia",
+     "s": 15.2,
+     "e": 15.6
+    },
+    {
+     "w": "boa:",
+     "s": 15.68,
+     "e": 16.16
+    },
+    {
+     "w": "se",
+     "s": 16.2,
+     "e": 16.24
+    },
+    {
+     "w": "você",
+     "s": 16.32,
+     "e": 16.56
+    },
+    {
+     "w": "já",
+     "s": 16.64,
+     "e": 16.8
+    },
+    {
+     "w": "é",
+     "s": 16.88,
+     "e": 16.96
+    },
+    {
+     "w": "parceiro,",
+     "s": 17.04,
+     "e": 17.68
+    },
+    {
+     "w": "o",
+     "s": 17.72,
+     "e": 17.76
+    },
+    {
+     "w": "seu",
+     "s": 17.84,
+     "e": 17.96
+    },
+    {
+     "w": "status",
+     "s": 18,
+     "e": 18.4
+    },
+    {
+     "w": "não",
+     "s": 18.48,
+     "e": 18.64
+    },
+    {
+     "w": "muda.",
+     "s": 18.68,
+     "e": 19.28
+    }
+   ],
+   "startFrame": 1729,
+   "endFrame": 2315
+  },
+  {
+   "id": "C05",
+   "tipo": "cta",
+   "pose": "feliz",
+   "fala": "Rapidinho: se você também tem canal pequeno, deixa o like e se inscreve no Aprenda YouTube. Aqui é laboratório de canal pequeno. Sem pose de guru!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "sub2": "laboratório de canal pequeno",
+    "like": {
+     "ao": "like",
+     "em": 91
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 109
+    },
+    "bgDur": 11
+   },
+   "words": [
+    {
+     "w": "Rapidinho:",
+     "s": 0,
+     "e": 0.8
+    },
+    {
+     "w": "se",
+     "s": 0.84,
+     "e": 0.88
+    },
+    {
+     "w": "você",
+     "s": 0.96,
+     "e": 1.2
+    },
+    {
+     "w": "também",
+     "s": 1.28,
+     "e": 1.52
+    },
+    {
+     "w": "tem",
+     "s": 1.6,
+     "e": 1.68
+    },
+    {
+     "w": "canal",
+     "s": 1.76,
+     "e": 1.92
+    },
+    {
+     "w": "pequeno,",
+     "s": 2,
+     "e": 2.64
+    },
+    {
+     "w": "deixa",
+     "s": 2.72,
+     "e": 2.96
+    },
+    {
+     "w": "o",
+     "s": 2.987,
+     "e": 3.013
+    },
+    {
+     "w": "like",
+     "s": 3.04,
+     "e": 3.36
+    },
+    {
+     "w": "e",
+     "s": 3.387,
+     "e": 3.413
+    },
+    {
+     "w": "se",
+     "s": 3.44,
+     "e": 3.52
+    },
+    {
+     "w": "inscreve",
+     "s": 3.64,
+     "e": 4
+    },
+    {
+     "w": "no",
+     "s": 4.04,
+     "e": 4.08
+    },
+    {
+     "w": "Aprenda",
+     "s": 4.16,
+     "e": 4.48
+    },
+    {
+     "w": "YouTube.",
+     "s": 4.72,
+     "e": 5.28
+    },
+    {
+     "w": "Aqui",
+     "s": 5.36,
+     "e": 5.6
+    },
+    {
+     "w": "é",
+     "s": 5.68,
+     "e": 5.76
+    },
+    {
+     "w": "laboratório",
+     "s": 5.867,
+     "e": 6.48
+    },
+    {
+     "w": "de",
+     "s": 6.56,
+     "e": 6.64
+    },
+    {
+     "w": "canal",
+     "s": 6.72,
+     "e": 6.88
+    },
+    {
+     "w": "pequeno.",
+     "s": 6.96,
+     "e": 7.68
+    },
+    {
+     "w": "Sem",
+     "s": 7.8,
+     "e": 7.92
+    },
+    {
+     "w": "pose",
+     "s": 8,
+     "e": 8.24
+    },
+    {
+     "w": "de",
+     "s": 8.28,
+     "e": 8.32
+    },
+    {
+     "w": "guru!",
+     "s": 8.4,
+     "e": 9.04
+    }
+   ],
+   "startFrame": 2315,
+   "endFrame": 2595
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "E o meu canal nessa história? Nos últimos vinte e oito dias, eu ganhei vinte e seis inscritos. Eu sei... esse número pode não ser grande coisa pra você. Mas foi duzentos e vinte e cinco por cento a mais que nos vinte e oito dias anteriores. Tem noção disso? Vinte e seis pessoas! Dá pra montar dois times de futebol e ainda sobra reserva.",
+   "dados": {
+    "bg": "pexels/time-1.mp4",
+    "titulo": "Meu canal, sem maquiagem",
+    "cols": 1,
+    "w": 1200,
+    "itens": [
+     {
+      "ao": "vinte",
+      "t": "+26 inscritos em 28 dias",
+      "sub": "dado do YouTube Studio",
+      "icone": "+",
+      "cor": "verde",
+      "em": 74
+     },
+     {
+      "ao": "duzentos",
+      "t": "+225% sobre os 28 dias anteriores",
+      "sub": "antes eram uns 8",
+      "icone": "↑",
+      "cor": "ouro",
+      "em": 305
+     },
+     {
+      "ao": "times",
+      "t": "2 times de futebol + reserva",
+      "sub": "a minha multidão",
+      "icone": "★",
+      "cor": "violeta",
+      "em": 564
+     }
+    ],
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "o",
+     "s": 0.12,
+     "e": 0.16
+    },
+    {
+     "w": "meu",
+     "s": 0.2,
+     "e": 0.32
+    },
+    {
+     "w": "canal",
+     "s": 0.4,
+     "e": 0.64
+    },
+    {
+     "w": "nessa",
+     "s": 0.72,
+     "e": 0.84
+    },
+    {
+     "w": "história?",
+     "s": 0.88,
+     "e": 1.56
+    },
+    {
+     "w": "Nos",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "últimos",
+     "s": 2,
+     "e": 2.4
+    },
+    {
+     "w": "vinte",
+     "s": 2.48,
+     "e": 2.72
+    },
+    {
+     "w": "e",
+     "s": 2.76,
+     "e": 2.8
+    },
+    {
+     "w": "oito",
+     "s": 2.84,
+     "e": 2.96
+    },
+    {
+     "w": "dias,",
+     "s": 3.12,
+     "e": 3.6
+    },
+    {
+     "w": "eu",
+     "s": 3.64,
+     "e": 3.68
+    },
+    {
+     "w": "ganhei",
+     "s": 3.76,
+     "e": 4.08
+    },
+    {
+     "w": "vinte",
+     "s": 4.24,
+     "e": 4.48
+    },
+    {
+     "w": "e",
+     "s": 4.56,
+     "e": 4.64
+    },
+    {
+     "w": "seis",
+     "s": 4.68,
+     "e": 4.8
+    },
+    {
+     "w": "inscritos.",
+     "s": 4.88,
+     "e": 5.8
+    },
+    {
+     "w": "Eu",
+     "s": 6,
+     "e": 6.16
+    },
+    {
+     "w": "sei...",
+     "s": 6.24,
+     "e": 6.96
+    },
+    {
+     "w": "esse",
+     "s": 7.08,
+     "e": 7.2
+    },
+    {
+     "w": "número",
+     "s": 7.24,
+     "e": 7.52
+    },
+    {
+     "w": "pode",
+     "s": 7.56,
+     "e": 7.76
+    },
+    {
+     "w": "não",
+     "s": 7.8,
+     "e": 7.92
+    },
+    {
+     "w": "ser",
+     "s": 8,
+     "e": 8.08
+    },
+    {
+     "w": "grande",
+     "s": 8.12,
+     "e": 8.32
+    },
+    {
+     "w": "coisa",
+     "s": 8.4,
+     "e": 8.64
+    },
+    {
+     "w": "pra",
+     "s": 8.68,
+     "e": 8.72
+    },
+    {
+     "w": "você.",
+     "s": 8.8,
+     "e": 9.2
+    },
+    {
+     "w": "Mas",
+     "s": 9.76,
+     "e": 9.92
+    },
+    {
+     "w": "foi",
+     "s": 9.96,
+     "e": 10.08
+    },
+    {
+     "w": "duzentos",
+     "s": 10.16,
+     "e": 10.72
+    },
+    {
+     "w": "e",
+     "s": 10.8,
+     "e": 10.84
+    },
+    {
+     "w": "vinte",
+     "s": 10.88,
+     "e": 11.04
+    },
+    {
+     "w": "e",
+     "s": 11.08,
+     "e": 11.12
+    },
+    {
+     "w": "cinco",
+     "s": 11.16,
+     "e": 11.28
+    },
+    {
+     "w": "por",
+     "s": 11.44,
+     "e": 11.52
+    },
+    {
+     "w": "cento",
+     "s": 11.6,
+     "e": 11.8
+    },
+    {
+     "w": "a",
+     "s": 11.84,
+     "e": 11.92
+    },
+    {
+     "w": "mais",
+     "s": 12,
+     "e": 12.32
+    },
+    {
+     "w": "que",
+     "s": 12.36,
+     "e": 12.4
+    },
+    {
+     "w": "nos",
+     "s": 12.48,
+     "e": 12.64
+    },
+    {
+     "w": "vinte",
+     "s": 12.68,
+     "e": 12.88
+    },
+    {
+     "w": "e",
+     "s": 12.92,
+     "e": 12.96
+    },
+    {
+     "w": "oito",
+     "s": 13.013,
+     "e": 13.12
+    },
+    {
+     "w": "dias",
+     "s": 13.2,
+     "e": 13.36
+    },
+    {
+     "w": "anteriores.",
+     "s": 13.44,
+     "e": 14.16
+    },
+    {
+     "w": "Tem",
+     "s": 14.48,
+     "e": 14.56
+    },
+    {
+     "w": "noção",
+     "s": 14.68,
+     "e": 14.96
+    },
+    {
+     "w": "disso?",
+     "s": 15.04,
+     "e": 15.44
+    },
+    {
+     "w": "Vinte",
+     "s": 15.92,
+     "e": 16.16
+    },
+    {
+     "w": "e",
+     "s": 16.2,
+     "e": 16.24
+    },
+    {
+     "w": "seis",
+     "s": 16.4,
+     "e": 16.56
+    },
+    {
+     "w": "pessoas!",
+     "s": 16.72,
+     "e": 17.52
+    },
+    {
+     "w": "Dá",
+     "s": 17.84,
+     "e": 17.92
+    },
+    {
+     "w": "pra",
+     "s": 17.96,
+     "e": 18
+    },
+    {
+     "w": "montar",
+     "s": 18.08,
+     "e": 18.32
+    },
+    {
+     "w": "dois",
+     "s": 18.48,
+     "e": 18.64
+    },
+    {
+     "w": "times",
+     "s": 18.8,
+     "e": 19.04
+    },
+    {
+     "w": "de",
+     "s": 19.08,
+     "e": 19.12
+    },
+    {
+     "w": "futebol",
+     "s": 19.16,
+     "e": 19.6
+    },
+    {
+     "w": "e",
+     "s": 19.68,
+     "e": 19.76
+    },
+    {
+     "w": "ainda",
+     "s": 19.84,
+     "e": 20
+    },
+    {
+     "w": "sobra",
+     "s": 20.08,
+     "e": 20.32
+    },
+    {
+     "w": "reserva.",
+     "s": 20.44,
+     "e": 21.2
+    }
+   ],
+   "startFrame": 2595,
+   "endFrame": 3239
+  },
+  {
+   "id": "C07",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Agora, a REALIDADE número um. O caminho dos quinhentos inscritos não mudou. Com quinhentos inscritos e três mil horas no último ano, ou três milhões de visualizações de Shorts em noventa dias, você já pode usar o financiamento por fãs, as Parcerias com Criadores e o YouTube Shopping.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Realidade 1: os 500 inscritos",
+    "digitar": {
+     "ao": "Agora",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Agora",
+      "arq": "cena-500.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "Com",
+     "x": 188,
+     "y": 452,
+     "w": 710,
+     "h": 60,
+     "em": 161
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 320
+    }
+   },
+   "words": [
+    {
+     "w": "Agora,",
+     "s": 0,
+     "e": 0.64
+    },
+    {
+     "w": "a",
+     "s": 0.68,
+     "e": 0.72
+    },
+    {
+     "w": "REALIDADE",
+     "s": 0.8,
+     "e": 1.36
+    },
+    {
+     "w": "número",
+     "s": 1.44,
+     "e": 1.68
+    },
+    {
+     "w": "um.",
+     "s": 1.76,
+     "e": 2
+    },
+    {
+     "w": "O",
+     "s": 2.48,
+     "e": 2.52
+    },
+    {
+     "w": "caminho",
+     "s": 2.56,
+     "e": 2.88
+    },
+    {
+     "w": "dos",
+     "s": 2.96,
+     "e": 3.04
+    },
+    {
+     "w": "quinhentos",
+     "s": 3.12,
+     "e": 3.52
+    },
+    {
+     "w": "inscritos",
+     "s": 3.64,
+     "e": 4.24
+    },
+    {
+     "w": "não",
+     "s": 4.32,
+     "e": 4.4
+    },
+    {
+     "w": "mudou.",
+     "s": 4.48,
+     "e": 5.12
+    },
+    {
+     "w": "Com",
+     "s": 5.36,
+     "e": 5.52
+    },
+    {
+     "w": "quinhentos",
+     "s": 5.6,
+     "e": 5.92
+    },
+    {
+     "w": "inscritos",
+     "s": 6,
+     "e": 6.56
+    },
+    {
+     "w": "e",
+     "s": 6.68,
+     "e": 6.8
+    },
+    {
+     "w": "três",
+     "s": 6.88,
+     "e": 7.04
+    },
+    {
+     "w": "mil",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "horas",
+     "s": 7.36,
+     "e": 7.6
+    },
+    {
+     "w": "no",
+     "s": 7.68,
+     "e": 7.76
+    },
+    {
+     "w": "último",
+     "s": 7.8,
+     "e": 8.08
+    },
+    {
+     "w": "ano,",
+     "s": 8.16,
+     "e": 8.64
+    },
+    {
+     "w": "ou",
+     "s": 8.72,
+     "e": 8.8
+    },
+    {
+     "w": "três",
+     "s": 8.96,
+     "e": 9.2
+    },
+    {
+     "w": "milhões",
+     "s": 9.28,
+     "e": 9.68
+    },
+    {
+     "w": "de",
+     "s": 9.76,
+     "e": 9.8
+    },
+    {
+     "w": "visualizações",
+     "s": 9.84,
+     "e": 10.56
+    },
+    {
+     "w": "de",
+     "s": 10.6,
+     "e": 10.64
+    },
+    {
+     "w": "Shorts",
+     "s": 10.8,
+     "e": 11.12
+    },
+    {
+     "w": "em",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "noventa",
+     "s": 11.28,
+     "e": 11.6
+    },
+    {
+     "w": "dias,",
+     "s": 11.76,
+     "e": 12.4
+    },
+    {
+     "w": "você",
+     "s": 12.44,
+     "e": 12.64
+    },
+    {
+     "w": "já",
+     "s": 12.68,
+     "e": 12.8
+    },
+    {
+     "w": "pode",
+     "s": 12.853,
+     "e": 12.96
+    },
+    {
+     "w": "usar",
+     "s": 13.04,
+     "e": 13.2
+    },
+    {
+     "w": "o",
+     "s": 13.24,
+     "e": 13.28
+    },
+    {
+     "w": "financiamento",
+     "s": 13.36,
+     "e": 13.92
+    },
+    {
+     "w": "por",
+     "s": 14,
+     "e": 14.08
+    },
+    {
+     "w": "fãs,",
+     "s": 14.16,
+     "e": 14.72
+    },
+    {
+     "w": "as",
+     "s": 14.8,
+     "e": 14.88
+    },
+    {
+     "w": "Parcerias",
+     "s": 14.96,
+     "e": 15.44
+    },
+    {
+     "w": "com",
+     "s": 15.52,
+     "e": 15.6
+    },
+    {
+     "w": "Criadores",
+     "s": 15.68,
+     "e": 16.32
+    },
+    {
+     "w": "e",
+     "s": 16.4,
+     "e": 16.48
+    },
+    {
+     "w": "o",
+     "s": 16.52,
+     "e": 16.56
+    },
+    {
+     "w": "YouTube",
+     "s": 16.64,
+     "e": 16.96
+    },
+    {
+     "w": "Shopping.",
+     "s": 17.04,
+     "e": 17.68
+    }
+   ],
+   "startFrame": 3239,
+   "endFrame": 3777
+  },
+  {
+   "id": "C08",
+   "tipo": "cartoes",
+   "pose": "apontando",
+   "pantera": false,
+   "fala": "Traduzindo. Financiamento por fãs é o seu público te apoiando direto, com Clube dos Canais e Super Chat. Parcerias com Criadores aproxima você das marcas. E o YouTube Shopping deixa você mostrar produtos nos seus vídeos. É o Naruto antes de virar Hokage: ainda não é o topo, mas já tem missão paga.",
+   "dados": {
+    "titulo": "O que os 500 abrem",
+    "cols": 1,
+    "w": 1200,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "fãs",
+      "t": "Financiamento por fãs",
+      "sub": "Clube dos Canais e Super Chat",
+      "cor": "ouro",
+      "em": 60
+     },
+     {
+      "ao": "Parcerias",
+      "t": "Parcerias com Criadores",
+      "sub": "aproxima você das marcas",
+      "cor": "ciano",
+      "em": 211
+     },
+     {
+      "ao": "Shopping",
+      "t": "YouTube Shopping",
+      "sub": "produtos nos seus vídeos",
+      "cor": "verde",
+      "em": 331
+     }
+    ],
+    "pilula": {
+     "ao": "missão",
+     "txt": "Não é o topo, mas já tem missão paga",
+     "cor": "violeta",
+     "em": 552
+    }
+   },
+   "words": [
+    {
+     "w": "Traduzindo.",
+     "s": 0,
+     "e": 0.92
+    },
+    {
+     "w": "Financiamento",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "por",
+     "s": 1.76,
+     "e": 1.84
+    },
+    {
+     "w": "fãs",
+     "s": 2,
+     "e": 2.48
+    },
+    {
+     "w": "é",
+     "s": 2.56,
+     "e": 2.64
+    },
+    {
+     "w": "o",
+     "s": 2.68,
+     "e": 2.72
+    },
+    {
+     "w": "seu",
+     "s": 2.76,
+     "e": 2.96
+    },
+    {
+     "w": "público",
+     "s": 3,
+     "e": 3.28
+    },
+    {
+     "w": "te",
+     "s": 3.36,
+     "e": 3.44
+    },
+    {
+     "w": "apoiando",
+     "s": 3.48,
+     "e": 3.84
+    },
+    {
+     "w": "direto,",
+     "s": 3.92,
+     "e": 4.64
+    },
+    {
+     "w": "com",
+     "s": 4.72,
+     "e": 4.8
+    },
+    {
+     "w": "Clube",
+     "s": 4.88,
+     "e": 5.04
+    },
+    {
+     "w": "dos",
+     "s": 5.12,
+     "e": 5.2
+    },
+    {
+     "w": "Canais",
+     "s": 5.28,
+     "e": 5.76
+    },
+    {
+     "w": "e",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "Super",
+     "s": 6,
+     "e": 6.24
+    },
+    {
+     "w": "Chat.",
+     "s": 6.32,
+     "e": 6.72
+    },
+    {
+     "w": "Parcerias",
+     "s": 7.04,
+     "e": 7.52
+    },
+    {
+     "w": "com",
+     "s": 7.56,
+     "e": 7.6
+    },
+    {
+     "w": "Criadores",
+     "s": 7.68,
+     "e": 8.32
+    },
+    {
+     "w": "aproxima",
+     "s": 8.4,
+     "e": 8.96
+    },
+    {
+     "w": "você",
+     "s": 9.04,
+     "e": 9.36
+    },
+    {
+     "w": "das",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "marcas.",
+     "s": 9.6,
+     "e": 10.16
+    },
+    {
+     "w": "E",
+     "s": 10.48,
+     "e": 10.52
+    },
+    {
+     "w": "o",
+     "s": 10.56,
+     "e": 10.6
+    },
+    {
+     "w": "YouTube",
+     "s": 10.64,
+     "e": 10.96
+    },
+    {
+     "w": "Shopping",
+     "s": 11.04,
+     "e": 11.44
+    },
+    {
+     "w": "deixa",
+     "s": 11.6,
+     "e": 11.84
+    },
+    {
+     "w": "você",
+     "s": 11.88,
+     "e": 12.08
+    },
+    {
+     "w": "mostrar",
+     "s": 12.16,
+     "e": 12.48
+    },
+    {
+     "w": "produtos",
+     "s": 12.56,
+     "e": 13.12
+    },
+    {
+     "w": "nos",
+     "s": 13.16,
+     "e": 13.2
+    },
+    {
+     "w": "seus",
+     "s": 13.28,
+     "e": 13.44
+    },
+    {
+     "w": "vídeos.",
+     "s": 13.52,
+     "e": 14.08
+    },
+    {
+     "w": "É",
+     "s": 14.24,
+     "e": 14.32
+    },
+    {
+     "w": "o",
+     "s": 14.347,
+     "e": 14.373
+    },
+    {
+     "w": "Naruto",
+     "s": 14.4,
+     "e": 14.88
+    },
+    {
+     "w": "antes",
+     "s": 14.96,
+     "e": 15.2
+    },
+    {
+     "w": "de",
+     "s": 15.24,
+     "e": 15.28
+    },
+    {
+     "w": "virar",
+     "s": 15.36,
+     "e": 15.52
+    },
+    {
+     "w": "Hokage:",
+     "s": 15.56,
+     "e": 16.4
+    },
+    {
+     "w": "ainda",
+     "s": 16.52,
+     "e": 16.72
+    },
+    {
+     "w": "não",
+     "s": 16.747,
+     "e": 16.8
+    },
+    {
+     "w": "é",
+     "s": 16.88,
+     "e": 16.92
+    },
+    {
+     "w": "o",
+     "s": 16.96,
+     "e": 17.04
+    },
+    {
+     "w": "topo,",
+     "s": 17.12,
+     "e": 17.68
+    },
+    {
+     "w": "mas",
+     "s": 17.8,
+     "e": 17.92
+    },
+    {
+     "w": "já",
+     "s": 17.96,
+     "e": 18.08
+    },
+    {
+     "w": "tem",
+     "s": 18.16,
+     "e": 18.24
+    },
+    {
+     "w": "missão",
+     "s": 18.4,
+     "e": 18.56
+    },
+    {
+     "w": "paga.",
+     "s": 18.64,
+     "e": 19.2
+    }
+   ],
+   "startFrame": 3777,
+   "endFrame": 4361
+  },
+  {
+   "id": "C09",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "REALIDADE número dois. E essa pega muita gente! As horas que vêm do feed dos Shorts não contam para as horas de exibição da monetização. Quem diz é a própria página do Programa de Parcerias, nesse aviso aqui.",
+   "dados": {
+    "url": "support.google.com/youtube/answer/72851",
+    "selo": "Realidade 2: horas do feed de Shorts",
+    "digitar": {
+     "ao": "REALIDADE",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "REALIDADE",
+      "arq": "cena-shorts-horas.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "aviso",
+     "x": 196,
+     "y": 414,
+     "w": 700,
+     "h": 72,
+     "em": 403
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 270
+    }
+   },
+   "words": [
+    {
+     "w": "REALIDADE",
+     "s": 0,
+     "e": 0.64
+    },
+    {
+     "w": "número",
+     "s": 0.72,
+     "e": 0.96
+    },
+    {
+     "w": "dois.",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "E",
+     "s": 2,
+     "e": 2.08
+    },
+    {
+     "w": "essa",
+     "s": 2.16,
+     "e": 2.48
+    },
+    {
+     "w": "pega",
+     "s": 2.64,
+     "e": 2.96
+    },
+    {
+     "w": "muita",
+     "s": 3.2,
+     "e": 3.6
+    },
+    {
+     "w": "gente!",
+     "s": 3.68,
+     "e": 4.16
+    },
+    {
+     "w": "As",
+     "s": 4.64,
+     "e": 4.8
+    },
+    {
+     "w": "horas",
+     "s": 4.88,
+     "e": 5.04
+    },
+    {
+     "w": "que",
+     "s": 5.12,
+     "e": 5.2
+    },
+    {
+     "w": "vêm",
+     "s": 5.24,
+     "e": 5.36
+    },
+    {
+     "w": "do",
+     "s": 5.44,
+     "e": 5.52
+    },
+    {
+     "w": "feed",
+     "s": 5.6,
+     "e": 5.84
+    },
+    {
+     "w": "dos",
+     "s": 5.92,
+     "e": 6
+    },
+    {
+     "w": "Shorts",
+     "s": 6.08,
+     "e": 6.48
+    },
+    {
+     "w": "não",
+     "s": 6.72,
+     "e": 6.88
+    },
+    {
+     "w": "contam",
+     "s": 7.04,
+     "e": 7.44
+    },
+    {
+     "w": "para",
+     "s": 7.52,
+     "e": 7.6
+    },
+    {
+     "w": "as",
+     "s": 7.68,
+     "e": 7.76
+    },
+    {
+     "w": "horas",
+     "s": 7.84,
+     "e": 8
+    },
+    {
+     "w": "de",
+     "s": 8.04,
+     "e": 8.08
+    },
+    {
+     "w": "exibição",
+     "s": 8.12,
+     "e": 8.56
+    },
+    {
+     "w": "da",
+     "s": 8.64,
+     "e": 8.68
+    },
+    {
+     "w": "monetização.",
+     "s": 8.72,
+     "e": 9.52
+    },
+    {
+     "w": "Quem",
+     "s": 10,
+     "e": 10.16
+    },
+    {
+     "w": "diz",
+     "s": 10.24,
+     "e": 10.56
+    },
+    {
+     "w": "é",
+     "s": 10.64,
+     "e": 10.72
+    },
+    {
+     "w": "a",
+     "s": 10.8,
+     "e": 10.88
+    },
+    {
+     "w": "própria",
+     "s": 10.96,
+     "e": 11.28
+    },
+    {
+     "w": "página",
+     "s": 11.36,
+     "e": 11.68
+    },
+    {
+     "w": "do",
+     "s": 11.76,
+     "e": 11.8
+    },
+    {
+     "w": "Programa",
+     "s": 11.84,
+     "e": 12.16
+    },
+    {
+     "w": "de",
+     "s": 12.2,
+     "e": 12.24
+    },
+    {
+     "w": "Parcerias,",
+     "s": 12.32,
+     "e": 13.12
+    },
+    {
+     "w": "nesse",
+     "s": 13.2,
+     "e": 13.36
+    },
+    {
+     "w": "aviso",
+     "s": 13.44,
+     "e": 13.68
+    },
+    {
+     "w": "aqui.",
+     "s": 13.72,
+     "e": 14.24
+    }
+   ],
+   "startFrame": 4361,
+   "endFrame": 4797
+  },
+  {
+   "id": "C10",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "pantera": false,
+   "fala": "No meu canal, sete mil e seiscentas das oito mil e quatrocentas visualizações vieram dos Shorts. E vinte e dois dos vinte e seis inscritos, também. Ou seja: o Short me trouxe gente. Mas a hora que conta pra monetizar não vem do feed dos Shorts. Então é jogo em dupla, tipo Power Rangers: o Short chama, o vídeo longo segura. Hora de morfar!",
+   "dados": {
+    "titulo": "O que os meus números dizem",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "sete",
+      "t": "7,6 mil de 8,4 mil views",
+      "sub": "vieram dos Shorts",
+      "cor": "ciano",
+      "em": 32
+     },
+     {
+      "ao": "vinte",
+      "t": "22 de 26 inscritos",
+      "sub": "vieram dos Shorts",
+      "cor": "verde",
+      "em": 202
+     },
+     {
+      "ao": "chama",
+      "t": "O Short chama",
+      "sub": "traz gente nova",
+      "cor": "ouro",
+      "em": 593
+     },
+     {
+      "ao": "segura",
+      "t": "O longo segura",
+      "sub": "soma hora de exibição",
+      "cor": "violeta",
+      "em": 634
+     }
+    ],
+    "pilula": {
+     "ao": "morfar",
+     "txt": "Hora de morfar!",
+     "cor": "vermelho",
+     "em": 667
+    }
+   },
+   "words": [
+    {
+     "w": "No",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "meu",
+     "s": 0.16,
+     "e": 0.24
+    },
+    {
+     "w": "canal,",
+     "s": 0.32,
+     "e": 0.96
+    },
+    {
+     "w": "sete",
+     "s": 1.08,
+     "e": 1.32
+    },
+    {
+     "w": "mil",
+     "s": 1.44,
+     "e": 1.52
+    },
+    {
+     "w": "e",
+     "s": 1.6,
+     "e": 1.68
+    },
+    {
+     "w": "seiscentas",
+     "s": 1.72,
+     "e": 2.32
+    },
+    {
+     "w": "das",
+     "s": 2.4,
+     "e": 2.64
+    },
+    {
+     "w": "oito",
+     "s": 2.68,
+     "e": 2.88
+    },
+    {
+     "w": "mil",
+     "s": 3.04,
+     "e": 3.12
+    },
+    {
+     "w": "e",
+     "s": 3.2,
+     "e": 3.28
+    },
+    {
+     "w": "quatrocentas",
+     "s": 3.32,
+     "e": 3.92
+    },
+    {
+     "w": "visualizações",
+     "s": 4,
+     "e": 4.88
+    },
+    {
+     "w": "vieram",
+     "s": 5,
+     "e": 5.2
+    },
+    {
+     "w": "dos",
+     "s": 5.28,
+     "e": 5.44
+    },
+    {
+     "w": "Shorts.",
+     "s": 5.64,
+     "e": 6
+    },
+    {
+     "w": "E",
+     "s": 6.48,
+     "e": 6.56
+    },
+    {
+     "w": "vinte",
+     "s": 6.72,
+     "e": 6.96
+    },
+    {
+     "w": "e",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "dois",
+     "s": 7.2,
+     "e": 7.36
+    },
+    {
+     "w": "dos",
+     "s": 7.44,
+     "e": 7.68
+    },
+    {
+     "w": "vinte",
+     "s": 7.76,
+     "e": 7.92
+    },
+    {
+     "w": "e",
+     "s": 8,
+     "e": 8.08
+    },
+    {
+     "w": "seis",
+     "s": 8.12,
+     "e": 8.24
+    },
+    {
+     "w": "inscritos,",
+     "s": 8.32,
+     "e": 9.04
+    },
+    {
+     "w": "também.",
+     "s": 9.12,
+     "e": 9.72
+    },
+    {
+     "w": "Ou",
+     "s": 9.92,
+     "e": 10.04
+    },
+    {
+     "w": "seja:",
+     "s": 10.08,
+     "e": 10.48
+    },
+    {
+     "w": "o",
+     "s": 10.8,
+     "e": 10.88
+    },
+    {
+     "w": "Short",
+     "s": 11.04,
+     "e": 11.36
+    },
+    {
+     "w": "me",
+     "s": 11.44,
+     "e": 11.52
+    },
+    {
+     "w": "trouxe",
+     "s": 11.6,
+     "e": 11.92
+    },
+    {
+     "w": "gente.",
+     "s": 12,
+     "e": 12.68
+    },
+    {
+     "w": "Mas",
+     "s": 12.88,
+     "e": 13.04
+    },
+    {
+     "w": "a",
+     "s": 13.08,
+     "e": 13.12
+    },
+    {
+     "w": "hora",
+     "s": 13.2,
+     "e": 13.28
+    },
+    {
+     "w": "que",
+     "s": 13.4,
+     "e": 13.52
+    },
+    {
+     "w": "conta",
+     "s": 13.64,
+     "e": 13.84
+    },
+    {
+     "w": "pra",
+     "s": 13.92,
+     "e": 14
+    },
+    {
+     "w": "monetizar",
+     "s": 14.08,
+     "e": 14.64
+    },
+    {
+     "w": "não",
+     "s": 14.72,
+     "e": 14.88
+    },
+    {
+     "w": "vem",
+     "s": 14.96,
+     "e": 15.2
+    },
+    {
+     "w": "do",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "feed",
+     "s": 15.48,
+     "e": 15.6
+    },
+    {
+     "w": "dos",
+     "s": 15.68,
+     "e": 15.76
+    },
+    {
+     "w": "Shorts.",
+     "s": 15.84,
+     "e": 16.32
+    },
+    {
+     "w": "Então",
+     "s": 16.64,
+     "e": 16.88
+    },
+    {
+     "w": "é",
+     "s": 16.92,
+     "e": 16.96
+    },
+    {
+     "w": "jogo",
+     "s": 17,
+     "e": 17.2
+    },
+    {
+     "w": "em",
+     "s": 17.24,
+     "e": 17.28
+    },
+    {
+     "w": "dupla,",
+     "s": 17.36,
+     "e": 17.84
+    },
+    {
+     "w": "tipo",
+     "s": 17.96,
+     "e": 18.08
+    },
+    {
+     "w": "Power",
+     "s": 18.16,
+     "e": 18.4
+    },
+    {
+     "w": "Rangers:",
+     "s": 18.44,
+     "e": 19.2
+    },
+    {
+     "w": "o",
+     "s": 19.24,
+     "e": 19.28
+    },
+    {
+     "w": "Short",
+     "s": 19.36,
+     "e": 19.68
+    },
+    {
+     "w": "chama,",
+     "s": 19.76,
+     "e": 20.32
+    },
+    {
+     "w": "o",
+     "s": 20.36,
+     "e": 20.4
+    },
+    {
+     "w": "vídeo",
+     "s": 20.48,
+     "e": 20.72
+    },
+    {
+     "w": "longo",
+     "s": 20.8,
+     "e": 21.04
+    },
+    {
+     "w": "segura.",
+     "s": 21.12,
+     "e": 21.6
+    },
+    {
+     "w": "Hora",
+     "s": 21.92,
+     "e": 22.08
+    },
+    {
+     "w": "de",
+     "s": 22.16,
+     "e": 22.2
+    },
+    {
+     "w": "morfar!",
+     "s": 22.24,
+     "e": 22.96
+    }
+   ],
+   "startFrame": 4797,
+   "endFrame": 5494
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "REALIDADE número três: entrou, tem que ficar ativo. A partir de fevereiro, o canal ativo precisa de mil horas em trezentos e sessenta e cinco dias, ou um milhão de visualizações de Shorts em noventa dias, ou enviar dois vídeos longos ou cinco Shorts a cada noventa dias. Cinco Shorts em três meses? Até eu consigo!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/12843009",
+    "selo": "Realidade 3: canal ativo",
+    "digitar": {
+     "ao": "REALIDADE",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "REALIDADE",
+      "arq": "cena-ativo.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "mil",
+     "x": 188,
+     "y": 418,
+     "w": 710,
+     "h": 120,
+     "em": 212
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 320
+    }
+   },
+   "words": [
+    {
+     "w": "REALIDADE",
+     "s": 0,
+     "e": 0.56
+    },
+    {
+     "w": "número",
+     "s": 0.64,
+     "e": 0.88
+    },
+    {
+     "w": "três:",
+     "s": 1.04,
+     "e": 1.52
+    },
+    {
+     "w": "entrou,",
+     "s": 1.84,
+     "e": 2.64
+    },
+    {
+     "w": "tem",
+     "s": 2.72,
+     "e": 2.8
+    },
+    {
+     "w": "que",
+     "s": 2.88,
+     "e": 2.92
+    },
+    {
+     "w": "ficar",
+     "s": 2.96,
+     "e": 3.2
+    },
+    {
+     "w": "ativo.",
+     "s": 3.28,
+     "e": 4
+    },
+    {
+     "w": "A",
+     "s": 4.24,
+     "e": 4.32
+    },
+    {
+     "w": "partir",
+     "s": 4.44,
+     "e": 4.6
+    },
+    {
+     "w": "de",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "fevereiro,",
+     "s": 4.8,
+     "e": 5.44
+    },
+    {
+     "w": "o",
+     "s": 5.48,
+     "e": 5.52
+    },
+    {
+     "w": "canal",
+     "s": 5.6,
+     "e": 5.84
+    },
+    {
+     "w": "ativo",
+     "s": 6.04,
+     "e": 6.24
+    },
+    {
+     "w": "precisa",
+     "s": 6.32,
+     "e": 6.72
+    },
+    {
+     "w": "de",
+     "s": 6.84,
+     "e": 6.96
+    },
+    {
+     "w": "mil",
+     "s": 7.08,
+     "e": 7.2
+    },
+    {
+     "w": "horas",
+     "s": 7.28,
+     "e": 7.52
+    },
+    {
+     "w": "em",
+     "s": 7.6,
+     "e": 7.76
+    },
+    {
+     "w": "trezentos",
+     "s": 7.84,
+     "e": 8.32
+    },
+    {
+     "w": "e",
+     "s": 8.4,
+     "e": 8.48
+    },
+    {
+     "w": "sessenta",
+     "s": 8.56,
+     "e": 8.8
+    },
+    {
+     "w": "e",
+     "s": 8.88,
+     "e": 8.96
+    },
+    {
+     "w": "cinco",
+     "s": 9,
+     "e": 9.12
+    },
+    {
+     "w": "dias,",
+     "s": 9.28,
+     "e": 10
+    },
+    {
+     "w": "ou",
+     "s": 10.12,
+     "e": 10.24
+    },
+    {
+     "w": "um",
+     "s": 10.64,
+     "e": 10.72
+    },
+    {
+     "w": "milhão",
+     "s": 10.8,
+     "e": 11.12
+    },
+    {
+     "w": "de",
+     "s": 11.2,
+     "e": 11.24
+    },
+    {
+     "w": "visualizações",
+     "s": 11.28,
+     "e": 12
+    },
+    {
+     "w": "de",
+     "s": 12.04,
+     "e": 12.08
+    },
+    {
+     "w": "Shorts",
+     "s": 12.24,
+     "e": 12.6
+    },
+    {
+     "w": "em",
+     "s": 12.64,
+     "e": 12.72
+    },
+    {
+     "w": "noventa",
+     "s": 12.8,
+     "e": 13.28
+    },
+    {
+     "w": "dias,",
+     "s": 13.44,
+     "e": 14.16
+    },
+    {
+     "w": "ou",
+     "s": 14.28,
+     "e": 14.4
+    },
+    {
+     "w": "enviar",
+     "s": 14.72,
+     "e": 15.2
+    },
+    {
+     "w": "dois",
+     "s": 15.28,
+     "e": 15.52
+    },
+    {
+     "w": "vídeos",
+     "s": 15.6,
+     "e": 15.92
+    },
+    {
+     "w": "longos",
+     "s": 16,
+     "e": 16.48
+    },
+    {
+     "w": "ou",
+     "s": 16.6,
+     "e": 16.72
+    },
+    {
+     "w": "cinco",
+     "s": 16.8,
+     "e": 17.04
+    },
+    {
+     "w": "Shorts",
+     "s": 17.2,
+     "e": 17.52
+    },
+    {
+     "w": "a",
+     "s": 17.6,
+     "e": 17.64
+    },
+    {
+     "w": "cada",
+     "s": 17.68,
+     "e": 17.84
+    },
+    {
+     "w": "noventa",
+     "s": 17.92,
+     "e": 18.32
+    },
+    {
+     "w": "dias.",
+     "s": 18.48,
+     "e": 19.36
+    },
+    {
+     "w": "Cinco",
+     "s": 19.4,
+     "e": 19.6
+    },
+    {
+     "w": "Shorts",
+     "s": 19.76,
+     "e": 20.04
+    },
+    {
+     "w": "em",
+     "s": 20.08,
+     "e": 20.24
+    },
+    {
+     "w": "três",
+     "s": 20.28,
+     "e": 20.48
+    },
+    {
+     "w": "meses?",
+     "s": 20.56,
+     "e": 21.28
+    },
+    {
+     "w": "Até",
+     "s": 21.4,
+     "e": 21.6
+    },
+    {
+     "w": "eu",
+     "s": 21.68,
+     "e": 21.84
+    },
+    {
+     "w": "consigo!",
+     "s": 22,
+     "e": 22.56
+    }
+   ],
+   "startFrame": 5494,
+   "endFrame": 6178
+  },
+  {
+   "id": "C12",
+   "tipo": "fluxo",
+   "pantera": false,
+   "fala": "E se você já é monetizado, atenção! Tem que aceitar os termos novos até trinta e um de janeiro. No YouTube Studio, procure o aviso no painel ou na guia Ganhos. Clique em revisar em cada módulo, marque a caixa, avançar, e no fim, enviar. Se não aceitar, a monetização desses recursos para em primeiro de fevereiro.",
+   "dados": {
+    "titulo": "Já é monetizado? Até 31 de janeiro",
+    "etapas": [
+     {
+      "ao": "aviso",
+      "t": "Ache o aviso",
+      "sub": "painel ou guia Ganhos",
+      "em": 250
+     },
+     {
+      "ao": "revisar",
+      "t": "Revisar",
+      "sub": "em cada módulo",
+      "em": 343
+     },
+     {
+      "ao": "marque",
+      "t": "Marque e avance",
+      "sub": "caixa + Avançar",
+      "em": 401
+     },
+     {
+      "ao": "enviar",
+      "t": "Enviar",
+      "sub": "no fim de tudo",
+      "em": 481
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "se",
+     "s": 0.2,
+     "e": 0.24
+    },
+    {
+     "w": "você",
+     "s": 0.32,
+     "e": 0.64
+    },
+    {
+     "w": "já",
+     "s": 0.72,
+     "e": 0.88
+    },
+    {
+     "w": "é",
+     "s": 0.96,
+     "e": 1.04
+    },
+    {
+     "w": "monetizado,",
+     "s": 1.12,
+     "e": 2
+    },
+    {
+     "w": "atenção!",
+     "s": 2.24,
+     "e": 2.92
+    },
+    {
+     "w": "Tem",
+     "s": 3.12,
+     "e": 3.28
+    },
+    {
+     "w": "que",
+     "s": 3.32,
+     "e": 3.36
+    },
+    {
+     "w": "aceitar",
+     "s": 3.44,
+     "e": 3.76
+    },
+    {
+     "w": "os",
+     "s": 3.84,
+     "e": 3.92
+    },
+    {
+     "w": "termos",
+     "s": 4,
+     "e": 4.32
+    },
+    {
+     "w": "novos",
+     "s": 4.4,
+     "e": 4.72
+    },
+    {
+     "w": "até",
+     "s": 4.84,
+     "e": 5.04
+    },
+    {
+     "w": "trinta",
+     "s": 5.12,
+     "e": 5.44
+    },
+    {
+     "w": "e",
+     "s": 5.48,
+     "e": 5.52
+    },
+    {
+     "w": "um",
+     "s": 5.6,
+     "e": 5.64
+    },
+    {
+     "w": "de",
+     "s": 5.68,
+     "e": 5.76
+    },
+    {
+     "w": "janeiro.",
+     "s": 5.84,
+     "e": 6.32
+    },
+    {
+     "w": "No",
+     "s": 6.8,
+     "e": 6.88
+    },
+    {
+     "w": "YouTube",
+     "s": 7.04,
+     "e": 7.2
+    },
+    {
+     "w": "Studio,",
+     "s": 7.28,
+     "e": 7.84
+    },
+    {
+     "w": "procure",
+     "s": 7.96,
+     "e": 8.16
+    },
+    {
+     "w": "o",
+     "s": 8.24,
+     "e": 8.28
+    },
+    {
+     "w": "aviso",
+     "s": 8.32,
+     "e": 8.64
+    },
+    {
+     "w": "no",
+     "s": 8.72,
+     "e": 8.8
+    },
+    {
+     "w": "painel",
+     "s": 8.96,
+     "e": 9.36
+    },
+    {
+     "w": "ou",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "na",
+     "s": 9.6,
+     "e": 9.68
+    },
+    {
+     "w": "guia",
+     "s": 9.76,
+     "e": 10
+    },
+    {
+     "w": "Ganhos.",
+     "s": 10.08,
+     "e": 10.96
+    },
+    {
+     "w": "Clique",
+     "s": 11,
+     "e": 11.28
+    },
+    {
+     "w": "em",
+     "s": 11.32,
+     "e": 11.36
+    },
+    {
+     "w": "revisar",
+     "s": 11.44,
+     "e": 12
+    },
+    {
+     "w": "em",
+     "s": 12.08,
+     "e": 12.24
+    },
+    {
+     "w": "cada",
+     "s": 12.32,
+     "e": 12.48
+    },
+    {
+     "w": "módulo,",
+     "s": 12.56,
+     "e": 13.28
+    },
+    {
+     "w": "marque",
+     "s": 13.36,
+     "e": 13.52
+    },
+    {
+     "w": "a",
+     "s": 13.6,
+     "e": 13.64
+    },
+    {
+     "w": "caixa,",
+     "s": 13.68,
+     "e": 14.32
+    },
+    {
+     "w": "avançar,",
+     "s": 14.48,
+     "e": 15.2
+    },
+    {
+     "w": "e",
+     "s": 15.24,
+     "e": 15.28
+    },
+    {
+     "w": "no",
+     "s": 15.36,
+     "e": 15.52
+    },
+    {
+     "w": "fim,",
+     "s": 15.573,
+     "e": 15.92
+    },
+    {
+     "w": "enviar.",
+     "s": 16.04,
+     "e": 16.96
+    },
+    {
+     "w": "Se",
+     "s": 17,
+     "e": 17.04
+    },
+    {
+     "w": "não",
+     "s": 17.12,
+     "e": 17.2
+    },
+    {
+     "w": "aceitar,",
+     "s": 17.32,
+     "e": 17.92
+    },
+    {
+     "w": "a",
+     "s": 17.96,
+     "e": 18
+    },
+    {
+     "w": "monetização",
+     "s": 18.08,
+     "e": 18.64
+    },
+    {
+     "w": "desses",
+     "s": 18.72,
+     "e": 18.96
+    },
+    {
+     "w": "recursos",
+     "s": 19.08,
+     "e": 19.52
+    },
+    {
+     "w": "para",
+     "s": 19.6,
+     "e": 19.76
+    },
+    {
+     "w": "em",
+     "s": 19.84,
+     "e": 19.92
+    },
+    {
+     "w": "primeiro",
+     "s": 20.08,
+     "e": 20.32
+    },
+    {
+     "w": "de",
+     "s": 20.4,
+     "e": 20.48
+    },
+    {
+     "w": "fevereiro.",
+     "s": 20.56,
+     "e": 21.28
+    }
+   ],
+   "startFrame": 6178,
+   "endFrame": 6825
+  },
+  {
+   "id": "C13",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E uma dica pra quem ainda não chegou lá. Na área Monetização do YouTube Studio, tem a opção receber notificação. O YouTube te manda um e-mail quando você bater um dos requisitos. Com grandes poderes, vêm grandes... e-mails!",
+   "dados": {
+    "url": "support.google.com/youtube/answer/72851",
+    "selo": "Dica: receber notificação",
+    "digitar": {
+     "ao": "dica",
+     "em": 10
+    },
+    "telas": [
+     {
+      "ao": "dica",
+      "arq": "cena-notificacao.png",
+      "em": 10
+     }
+    ],
+    "destaque": {
+     "ao": "notificação",
+     "x": 436,
+     "y": 432,
+     "w": 240,
+     "h": 34,
+     "em": 192
+    },
+    "zoom": {
+     "z": 2,
+     "vx": 140,
+     "vy": 300
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "uma",
+     "s": 0.16,
+     "e": 0.24
+    },
+    {
+     "w": "dica",
+     "s": 0.32,
+     "e": 0.64
+    },
+    {
+     "w": "pra",
+     "s": 0.72,
+     "e": 0.8
+    },
+    {
+     "w": "quem",
+     "s": 0.88,
+     "e": 1.04
+    },
+    {
+     "w": "ainda",
+     "s": 1.16,
+     "e": 1.44
+    },
+    {
+     "w": "não",
+     "s": 1.52,
+     "e": 1.68
+    },
+    {
+     "w": "chegou",
+     "s": 1.76,
+     "e": 2
+    },
+    {
+     "w": "lá.",
+     "s": 2.08,
+     "e": 2.32
+    },
+    {
+     "w": "Na",
+     "s": 2.72,
+     "e": 2.88
+    },
+    {
+     "w": "área",
+     "s": 2.92,
+     "e": 3.12
+    },
+    {
+     "w": "Monetização",
+     "s": 3.2,
+     "e": 3.92
+    },
+    {
+     "w": "do",
+     "s": 4,
+     "e": 4.08
+    },
+    {
+     "w": "YouTube",
+     "s": 4.24,
+     "e": 4.4
+    },
+    {
+     "w": "Studio,",
+     "s": 4.48,
+     "e": 5.04
+    },
+    {
+     "w": "tem",
+     "s": 5.12,
+     "e": 5.2
+    },
+    {
+     "w": "a",
+     "s": 5.227,
+     "e": 5.253
+    },
+    {
+     "w": "opção",
+     "s": 5.28,
+     "e": 5.68
+    },
+    {
+     "w": "receber",
+     "s": 5.76,
+     "e": 6.32
+    },
+    {
+     "w": "notificação.",
+     "s": 6.4,
+     "e": 7.2
+    },
+    {
+     "w": "O",
+     "s": 7.68,
+     "e": 7.76
+    },
+    {
+     "w": "YouTube",
+     "s": 7.92,
+     "e": 8.08
+    },
+    {
+     "w": "te",
+     "s": 8.16,
+     "e": 8.24
+    },
+    {
+     "w": "manda",
+     "s": 8.36,
+     "e": 8.48
+    },
+    {
+     "w": "um",
+     "s": 8.52,
+     "e": 8.56
+    },
+    {
+     "w": "e-mail",
+     "s": 8.6,
+     "e": 9.04
+    },
+    {
+     "w": "quando",
+     "s": 9.08,
+     "e": 9.28
+    },
+    {
+     "w": "você",
+     "s": 9.36,
+     "e": 9.52
+    },
+    {
+     "w": "bater",
+     "s": 9.56,
+     "e": 9.84
+    },
+    {
+     "w": "um",
+     "s": 9.88,
+     "e": 9.92
+    },
+    {
+     "w": "dos",
+     "s": 10,
+     "e": 10.08
+    },
+    {
+     "w": "requisitos.",
+     "s": 10.16,
+     "e": 10.96
+    },
+    {
+     "w": "Com",
+     "s": 11.12,
+     "e": 11.28
+    },
+    {
+     "w": "grandes",
+     "s": 11.36,
+     "e": 11.68
+    },
+    {
+     "w": "poderes,",
+     "s": 11.76,
+     "e": 12.4
+    },
+    {
+     "w": "vêm",
+     "s": 12.48,
+     "e": 12.72
+    },
+    {
+     "w": "grandes...",
+     "s": 12.88,
+     "e": 13.84
+    },
+    {
+     "w": "e-mails!",
+     "s": 13.88,
+     "e": 14.88
+    }
+   ],
+   "startFrame": 6825,
+   "endFrame": 7279
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "pose": "feliz",
+   "pantera": false,
+   "fala": "E o que eu vou fazer com tudo isso? Meu plano tem três passos. Um: mirar nos quinhentos inscritos primeiro, não nos mil. Dois: todo Short meu vai puxar pra um vídeo longo. Três: parar de acreditar no famoso só continue postando. Postar sem plano é igual o Goku em reunião de pais: tá lá, mas totalmente perdido. E os números, eu mostro aqui, sem maquiagem.",
+   "dados": {
+    "titulo": "Meu plano em 3 passos",
+    "cols": 1,
+    "w": 1250,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Mirar nos 500 primeiro",
+      "sub": "não nos mil",
+      "cor": "ouro",
+      "em": 122
+     },
+     {
+      "ao": "Dois",
+      "t": "Todo Short puxa pra um longo",
+      "sub": "o Short chama, o longo segura",
+      "cor": "ciano",
+      "em": 247
+     },
+     {
+      "ao": "Três",
+      "t": "Chega de só continue postando",
+      "sub": "postar sem plano não é plano",
+      "cor": "vermelho",
+      "em": 86
+     }
+    ],
+    "pilula": {
+     "ao": "números",
+     "txt": "Números aqui, sem maquiagem",
+     "cor": "verde",
+     "em": 667
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "o",
+     "s": 0.107,
+     "e": 0.133
+    },
+    {
+     "w": "que",
+     "s": 0.16,
+     "e": 0.187
+    },
+    {
+     "w": "eu",
+     "s": 0.213,
+     "e": 0.24
+    },
+    {
+     "w": "vou",
+     "s": 0.28,
+     "e": 0.4
+    },
+    {
+     "w": "fazer",
+     "s": 0.44,
+     "e": 0.72
+    },
+    {
+     "w": "com",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "tudo",
+     "s": 0.96,
+     "e": 1.2
+    },
+    {
+     "w": "isso?",
+     "s": 1.28,
+     "e": 1.6
+    },
+    {
+     "w": "Meu",
+     "s": 2,
+     "e": 2.16
+    },
+    {
+     "w": "plano",
+     "s": 2.24,
+     "e": 2.48
+    },
+    {
+     "w": "tem",
+     "s": 2.56,
+     "e": 2.8
+    },
+    {
+     "w": "três",
+     "s": 2.88,
+     "e": 3.04
+    },
+    {
+     "w": "passos.",
+     "s": 3.12,
+     "e": 3.68
+    },
+    {
+     "w": "Um:",
+     "s": 4.08,
+     "e": 4.72
+    },
+    {
+     "w": "mirar",
+     "s": 4.84,
+     "e": 5.04
+    },
+    {
+     "w": "nos",
+     "s": 5.16,
+     "e": 5.28
+    },
+    {
+     "w": "quinhentos",
+     "s": 5.36,
+     "e": 5.84
+    },
+    {
+     "w": "inscritos",
+     "s": 5.92,
+     "e": 6.4
+    },
+    {
+     "w": "primeiro,",
+     "s": 6.48,
+     "e": 7.04
+    },
+    {
+     "w": "não",
+     "s": 7.12,
+     "e": 7.2
+    },
+    {
+     "w": "nos",
+     "s": 7.28,
+     "e": 7.44
+    },
+    {
+     "w": "mil.",
+     "s": 7.56,
+     "e": 7.76
+    },
+    {
+     "w": "Dois:",
+     "s": 8.24,
+     "e": 9.04
+    },
+    {
+     "w": "todo",
+     "s": 9.12,
+     "e": 9.36
+    },
+    {
+     "w": "Short",
+     "s": 9.44,
+     "e": 9.76
+    },
+    {
+     "w": "meu",
+     "s": 9.84,
+     "e": 10
+    },
+    {
+     "w": "vai",
+     "s": 10.08,
+     "e": 10.16
+    },
+    {
+     "w": "puxar",
+     "s": 10.24,
+     "e": 10.48
+    },
+    {
+     "w": "pra",
+     "s": 10.52,
+     "e": 10.56
+    },
+    {
+     "w": "um",
+     "s": 10.64,
+     "e": 10.68
+    },
+    {
+     "w": "vídeo",
+     "s": 10.72,
+     "e": 10.96
+    },
+    {
+     "w": "longo.",
+     "s": 11.12,
+     "e": 11.44
+    },
+    {
+     "w": "Três:",
+     "s": 11.84,
+     "e": 12.64
+    },
+    {
+     "w": "parar",
+     "s": 12.76,
+     "e": 12.96
+    },
+    {
+     "w": "de",
+     "s": 13,
+     "e": 13.04
+    },
+    {
+     "w": "acreditar",
+     "s": 13.12,
+     "e": 13.52
+    },
+    {
+     "w": "no",
+     "s": 13.6,
+     "e": 13.68
+    },
+    {
+     "w": "famoso",
+     "s": 13.72,
+     "e": 14.16
+    },
+    {
+     "w": "só",
+     "s": 14.4,
+     "e": 14.56
+    },
+    {
+     "w": "continue",
+     "s": 14.64,
+     "e": 15.12
+    },
+    {
+     "w": "postando.",
+     "s": 15.2,
+     "e": 15.84
+    },
+    {
+     "w": "Postar",
+     "s": 16.24,
+     "e": 16.56
+    },
+    {
+     "w": "sem",
+     "s": 16.68,
+     "e": 16.8
+    },
+    {
+     "w": "plano",
+     "s": 16.88,
+     "e": 17.2
+    },
+    {
+     "w": "é",
+     "s": 17.28,
+     "e": 17.36
+    },
+    {
+     "w": "igual",
+     "s": 17.44,
+     "e": 17.6
+    },
+    {
+     "w": "o",
+     "s": 17.64,
+     "e": 17.68
+    },
+    {
+     "w": "Goku",
+     "s": 17.72,
+     "e": 18.08
+    },
+    {
+     "w": "em",
+     "s": 18.12,
+     "e": 18.16
+    },
+    {
+     "w": "reunião",
+     "s": 18.2,
+     "e": 18.48
+    },
+    {
+     "w": "de",
+     "s": 18.56,
+     "e": 18.64
+    },
+    {
+     "w": "pais:",
+     "s": 18.84,
+     "e": 19.28
+    },
+    {
+     "w": "tá",
+     "s": 19.36,
+     "e": 19.44
+    },
+    {
+     "w": "lá,",
+     "s": 19.56,
+     "e": 19.92
+    },
+    {
+     "w": "mas",
+     "s": 20.08,
+     "e": 20.24
+    },
+    {
+     "w": "totalmente",
+     "s": 20.32,
+     "e": 20.96
+    },
+    {
+     "w": "perdido.",
+     "s": 21.04,
+     "e": 21.76
+    },
+    {
+     "w": "E",
+     "s": 22,
+     "e": 22.04
+    },
+    {
+     "w": "os",
+     "s": 22.08,
+     "e": 22.16
+    },
+    {
+     "w": "números,",
+     "s": 22.24,
+     "e": 22.88
+    },
+    {
+     "w": "eu",
+     "s": 22.92,
+     "e": 22.96
+    },
+    {
+     "w": "mostro",
+     "s": 23.04,
+     "e": 23.28
+    },
+    {
+     "w": "aqui,",
+     "s": 23.32,
+     "e": 23.76
+    },
+    {
+     "w": "sem",
+     "s": 23.92,
+     "e": 24.08
+    },
+    {
+     "w": "maquiagem.",
+     "s": 24.16,
+     "e": 24.96
+    }
+   ],
+   "startFrame": 7279,
+   "endFrame": 8036
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Resumindo! A meta pra monetizar dobra em fevereiro: oito mil horas, ou vinte milhões de Shorts, com mil inscritos. Os quinhentos inscritos continuam abrindo fãs, parcerias e Shopping. Hora do feed de Shorts não conta. E quem já é parceiro aceita os termos até trinta e um de janeiro. Os links oficiais estão na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "dobra",
+      "t": "Meta dobra em fevereiro",
+      "sub": "8 mil h ou 20 mi de Shorts",
+      "em": 72
+     },
+     {
+      "ao": "quinhentos",
+      "t": "500 inscritos seguem iguais",
+      "sub": "fãs, parcerias e Shopping",
+      "em": 242
+     },
+     {
+      "ao": "feed",
+      "t": "Feed de Shorts não conta",
+      "sub": "nas horas de exibição",
+      "em": 377
+     },
+     {
+      "ao": "termos",
+      "t": "Parceiro: aceite os termos",
+      "sub": "até 31 de janeiro",
+      "em": 482
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Links oficiais na descrição",
+     "cor": "ouro",
+     "em": 583
+    }
+   },
+   "words": [
+    {
+     "w": "Resumindo!",
+     "s": 0,
+     "e": 0.72
+    },
+    {
+     "w": "A",
+     "s": 1.04,
+     "e": 1.12
+    },
+    {
+     "w": "meta",
+     "s": 1.2,
+     "e": 1.44
+    },
+    {
+     "w": "pra",
+     "s": 1.52,
+     "e": 1.6
+    },
+    {
+     "w": "monetizar",
+     "s": 1.68,
+     "e": 2.16
+    },
+    {
+     "w": "dobra",
+     "s": 2.4,
+     "e": 2.72
+    },
+    {
+     "w": "em",
+     "s": 2.76,
+     "e": 2.8
+    },
+    {
+     "w": "fevereiro:",
+     "s": 2.88,
+     "e": 3.68
+    },
+    {
+     "w": "oito",
+     "s": 3.72,
+     "e": 3.92
+    },
+    {
+     "w": "mil",
+     "s": 4,
+     "e": 4.16
+    },
+    {
+     "w": "horas,",
+     "s": 4.24,
+     "e": 4.8
+    },
+    {
+     "w": "ou",
+     "s": 4.88,
+     "e": 4.96
+    },
+    {
+     "w": "vinte",
+     "s": 5.12,
+     "e": 5.36
+    },
+    {
+     "w": "milhões",
+     "s": 5.44,
+     "e": 5.76
+    },
+    {
+     "w": "de",
+     "s": 5.8,
+     "e": 5.84
+    },
+    {
+     "w": "Shorts,",
+     "s": 5.92,
+     "e": 6.4
+    },
+    {
+     "w": "com",
+     "s": 6.48,
+     "e": 6.56
+    },
+    {
+     "w": "mil",
+     "s": 6.64,
+     "e": 6.8
+    },
+    {
+     "w": "inscritos.",
+     "s": 6.92,
+     "e": 7.52
+    },
+    {
+     "w": "Os",
+     "s": 7.92,
+     "e": 8
+    },
+    {
+     "w": "quinhentos",
+     "s": 8.08,
+     "e": 8.32
+    },
+    {
+     "w": "inscritos",
+     "s": 8.4,
+     "e": 8.88
+    },
+    {
+     "w": "continuam",
+     "s": 8.96,
+     "e": 9.44
+    },
+    {
+     "w": "abrindo",
+     "s": 9.52,
+     "e": 9.84
+    },
+    {
+     "w": "fãs,",
+     "s": 9.92,
+     "e": 10.4
+    },
+    {
+     "w": "parcerias",
+     "s": 10.48,
+     "e": 11.12
+    },
+    {
+     "w": "e",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "Shopping.",
+     "s": 11.36,
+     "e": 11.84
+    },
+    {
+     "w": "Hora",
+     "s": 12.24,
+     "e": 12.4
+    },
+    {
+     "w": "do",
+     "s": 12.44,
+     "e": 12.48
+    },
+    {
+     "w": "feed",
+     "s": 12.56,
+     "e": 12.72
+    },
+    {
+     "w": "de",
+     "s": 12.8,
+     "e": 12.88
+    },
+    {
+     "w": "Shorts",
+     "s": 13.04,
+     "e": 13.28
+    },
+    {
+     "w": "não",
+     "s": 13.44,
+     "e": 13.52
+    },
+    {
+     "w": "conta.",
+     "s": 13.68,
+     "e": 14.08
+    },
+    {
+     "w": "E",
+     "s": 14.4,
+     "e": 14.48
+    },
+    {
+     "w": "quem",
+     "s": 14.52,
+     "e": 14.64
+    },
+    {
+     "w": "já",
+     "s": 14.68,
+     "e": 14.76
+    },
+    {
+     "w": "é",
+     "s": 14.8,
+     "e": 14.88
+    },
+    {
+     "w": "parceiro",
+     "s": 15,
+     "e": 15.44
+    },
+    {
+     "w": "aceita",
+     "s": 15.6,
+     "e": 15.92
+    },
+    {
+     "w": "os",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "termos",
+     "s": 16.08,
+     "e": 16.4
+    },
+    {
+     "w": "até",
+     "s": 16.48,
+     "e": 16.64
+    },
+    {
+     "w": "trinta",
+     "s": 16.72,
+     "e": 16.96
+    },
+    {
+     "w": "e",
+     "s": 17.04,
+     "e": 17.08
+    },
+    {
+     "w": "um",
+     "s": 17.12,
+     "e": 17.16
+    },
+    {
+     "w": "de",
+     "s": 17.2,
+     "e": 17.28
+    },
+    {
+     "w": "janeiro.",
+     "s": 17.36,
+     "e": 18.08
+    },
+    {
+     "w": "Os",
+     "s": 18.16,
+     "e": 18.24
+    },
+    {
+     "w": "links",
+     "s": 18.36,
+     "e": 18.48
+    },
+    {
+     "w": "oficiais",
+     "s": 18.56,
+     "e": 19.04
+    },
+    {
+     "w": "estão",
+     "s": 19.12,
+     "e": 19.28
+    },
+    {
+     "w": "na",
+     "s": 19.32,
+     "e": 19.36
+    },
+    {
+     "w": "descrição.",
+     "s": 19.44,
+     "e": 20.16
+    }
+   ],
+   "startFrame": 8036,
+   "endFrame": 8649
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "pose": "apontando",
+   "fala": "E se você quer ver como eu tô tentando sair das dezenas de views, o próximo vídeo tá aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/criador-2.mp4",
+    "titulo": "Próximo teste do laboratório",
+    "seta": {
+     "ao": "próximo",
+     "em": 121
+    },
+    "clique": {
+     "ao": "Clica",
+     "em": 178
+    },
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "se",
+     "s": 0.12,
+     "e": 0.16
+    },
+    {
+     "w": "você",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "quer",
+     "s": 0.48,
+     "e": 0.64
+    },
+    {
+     "w": "ver",
+     "s": 0.76,
+     "e": 0.88
+    },
+    {
+     "w": "como",
+     "s": 0.96,
+     "e": 1.04
+    },
+    {
+     "w": "eu",
+     "s": 1.08,
+     "e": 1.12
+    },
+    {
+     "w": "tô",
+     "s": 1.16,
+     "e": 1.28
+    },
+    {
+     "w": "tentando",
+     "s": 1.44,
+     "e": 1.84
+    },
+    {
+     "w": "sair",
+     "s": 1.92,
+     "e": 2.16
+    },
+    {
+     "w": "das",
+     "s": 2.28,
+     "e": 2.4
+    },
+    {
+     "w": "dezenas",
+     "s": 2.56,
+     "e": 3.04
+    },
+    {
+     "w": "de",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "views,",
+     "s": 3.28,
+     "e": 3.84
+    },
+    {
+     "w": "o",
+     "s": 3.92,
+     "e": 4
+    },
+    {
+     "w": "próximo",
+     "s": 4.04,
+     "e": 4.4
+    },
+    {
+     "w": "vídeo",
+     "s": 4.48,
+     "e": 4.72
+    },
+    {
+     "w": "tá",
+     "s": 4.8,
+     "e": 4.88
+    },
+    {
+     "w": "aqui",
+     "s": 4.96,
+     "e": 5.12
+    },
+    {
+     "w": "do",
+     "s": 5.16,
+     "e": 5.2
+    },
+    {
+     "w": "lado.",
+     "s": 5.28,
+     "e": 5.84
+    },
+    {
+     "w": "Clica",
+     "s": 5.92,
+     "e": 6.08
+    },
+    {
+     "w": "nele",
+     "s": 6.12,
+     "e": 6.24
+    },
+    {
+     "w": "agora!",
+     "s": 6.32,
+     "e": 7.04
+    }
+   ],
+   "startFrame": 8649,
+   "endFrame": 9038
+  }
+ ],
+ "cortes": [
+  {
+   "id": "K001",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/analise-1.mp4",
+   "from": 0,
+   "startFrame": 72,
+   "endFrame": 123
+  },
+  {
+   "id": "K002",
+   "cena": "C01",
+   "tipo": "foto",
+   "src": "pexels/cofrinho-2.jpg",
+   "from": 0,
+   "startFrame": 225,
+   "endFrame": 274
+  },
+  {
+   "id": "K003",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/comemora-2.mp4",
+   "from": 0,
+   "startFrame": 373,
+   "endFrame": 422
+  },
+  {
+   "id": "K004",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/criador-1.mp4",
+   "from": 0,
+   "startFrame": 498,
+   "endFrame": 547
+  },
+  {
+   "id": "K005",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/editando-2.mp4",
+   "from": 0,
+   "startFrame": 698,
+   "endFrame": 744
+  },
+  {
+   "id": "K006",
+   "cena": "C02",
+   "tipo": "foto",
+   "src": "pexels/cofrinho-1.jpg",
+   "from": 0,
+   "startFrame": 843,
+   "endFrame": 895
+  },
+  {
+   "id": "K007",
+   "cena": "C02",
+   "tipo": "print",
+   "src": "prints/topo-mudancas.png",
+   "from": 0,
+   "startFrame": 1017,
+   "endFrame": 1074
+  },
+  {
+   "id": "K008",
+   "cena": "C05",
+   "tipo": "video",
+   "src": "pexels/preocupado-2.mp4",
+   "from": 0,
+   "startFrame": 2397,
+   "endFrame": 2445
+  },
+  {
+   "id": "K009",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/time-1.mp4",
+   "from": 0,
+   "startFrame": 2683,
+   "endFrame": 2737
+  },
+  {
+   "id": "K010",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/analise-2.mp4",
+   "from": 0,
+   "startFrame": 2829,
+   "endFrame": 2885
+  },
+  {
+   "id": "K011",
+   "cena": "C06",
+   "tipo": "foto",
+   "src": "pexels/estudio-1.jpg",
+   "from": 0,
+   "startFrame": 2992,
+   "endFrame": 3044
+  },
+  {
+   "id": "K012",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/time-2.mp4",
+   "from": 0,
+   "startFrame": 3124,
+   "endFrame": 3175
+  },
+  {
+   "id": "K013",
+   "cena": "C16",
+   "tipo": "video",
+   "src": "pexels/preocupado-1.mp4",
+   "from": 0,
+   "startFrame": 8746,
+   "endFrame": 8800
+  },
+  {
+   "id": "K014",
+   "cena": "C16",
+   "tipo": "video",
+   "src": "pexels/criador-2.mp4",
+   "from": 0,
+   "startFrame": 8878,
+   "endFrame": 8926
+  }
+ ],
+ "words": [
+  {
+   "w": "O",
+   "start": 0.5,
+   "end": 0.58
+  },
+  {
+   "w": "YouTube",
+   "start": 0.82,
+   "end": 1.06
+  },
+  {
+   "w": "vai",
+   "start": 1.14,
+   "end": 1.3
+  },
+  {
+   "w": "DOBRAR",
+   "start": 1.38,
+   "end": 1.94
+  },
+  {
+   "w": "a",
+   "start": 1.98,
+   "end": 2.02
+  },
+  {
+   "w": "meta",
+   "start": 2.1,
+   "end": 2.42
+  },
+  {
+   "w": "pra",
+   "start": 2.5,
+   "end": 2.58
+  },
+  {
+   "w": "monetizar!",
+   "start": 2.66,
+   "end": 3.38
+  },
+  {
+   "w": "A",
+   "start": 3.7,
+   "end": 3.78
+  },
+  {
+   "w": "partir",
+   "start": 3.86,
+   "end": 4.1
+  },
+  {
+   "w": "de",
+   "start": 4.18,
+   "end": 4.26
+  },
+  {
+   "w": "fevereiro,",
+   "start": 4.34,
+   "end": 4.86
+  },
+  {
+   "w": "são",
+   "start": 4.9,
+   "end": 5.14
+  },
+  {
+   "w": "oito",
+   "start": 5.22,
+   "end": 5.54
+  },
+  {
+   "w": "mil",
+   "start": 5.7,
+   "end": 5.86
+  },
+  {
+   "w": "horas",
+   "start": 6.02,
+   "end": 6.26
+  },
+  {
+   "w": "de",
+   "start": 6.34,
+   "end": 6.38
+  },
+  {
+   "w": "exibição.",
+   "start": 6.42,
+   "end": 7.14
+  },
+  {
+   "w": "Oito",
+   "start": 7.3,
+   "end": 7.62
+  },
+  {
+   "w": "MIL!",
+   "start": 7.86,
+   "end": 8.26
+  },
+  {
+   "w": "E",
+   "start": 8.66,
+   "end": 8.7
+  },
+  {
+   "w": "o",
+   "start": 8.74,
+   "end": 8.767
+  },
+  {
+   "w": "meu",
+   "start": 8.793,
+   "end": 8.9
+  },
+  {
+   "w": "canal?",
+   "start": 8.98,
+   "end": 9.3
+  },
+  {
+   "w": "Fez",
+   "start": 9.7,
+   "end": 9.86
+  },
+  {
+   "w": "cinquenta",
+   "start": 9.94,
+   "end": 10.5
+  },
+  {
+   "w": "e",
+   "start": 10.54,
+   "end": 10.58
+  },
+  {
+   "w": "uma",
+   "start": 10.66,
+   "end": 10.74
+  },
+  {
+   "w": "vírgula",
+   "start": 10.9,
+   "end": 11.3
+  },
+  {
+   "w": "seis",
+   "start": 11.38,
+   "end": 11.54
+  },
+  {
+   "w": "horas",
+   "start": 11.7,
+   "end": 11.94
+  },
+  {
+   "w": "em",
+   "start": 12.02,
+   "end": 12.26
+  },
+  {
+   "w": "vinte",
+   "start": 12.34,
+   "end": 12.5
+  },
+  {
+   "w": "e",
+   "start": 12.54,
+   "end": 12.58
+  },
+  {
+   "w": "oito",
+   "start": 12.66,
+   "end": 12.82
+  },
+  {
+   "w": "dias.",
+   "start": 12.9,
+   "end": 13.5
+  },
+  {
+   "w": "Cinquenta",
+   "start": 13.7,
+   "end": 14.42
+  },
+  {
+   "w": "e",
+   "start": 14.5,
+   "end": 14.58
+  },
+  {
+   "w": "uma...",
+   "start": 14.66,
+   "end": 15.38
+  },
+  {
+   "w": "Mas",
+   "start": 15.46,
+   "end": 15.54
+  },
+  {
+   "w": "calma!",
+   "start": 15.62,
+   "end": 16.02
+  },
+  {
+   "w": "Tem",
+   "start": 16.34,
+   "end": 16.42
+  },
+  {
+   "w": "um",
+   "start": 16.5,
+   "end": 16.54
+  },
+  {
+   "w": "caminho",
+   "start": 16.58,
+   "end": 16.9
+  },
+  {
+   "w": "que",
+   "start": 16.98,
+   "end": 17.06
+  },
+  {
+   "w": "NÃO",
+   "start": 17.22,
+   "end": 17.3
+  },
+  {
+   "w": "mudou.",
+   "start": 17.38,
+   "end": 17.78
+  },
+  {
+   "w": "E",
+   "start": 18.02,
+   "end": 18.1
+  },
+  {
+   "w": "ele",
+   "start": 18.18,
+   "end": 18.26
+  },
+  {
+   "w": "começa",
+   "start": 18.34,
+   "end": 18.74
+  },
+  {
+   "w": "nos",
+   "start": 18.86,
+   "end": 18.98
+  },
+  {
+   "w": "quinhentos",
+   "start": 19.06,
+   "end": 19.62
+  },
+  {
+   "w": "inscritos.",
+   "start": 19.74,
+   "end": 20.58
+  },
+  {
+   "w": "Hoje",
+   "start": 20.85,
+   "end": 21.17
+  },
+  {
+   "w": "é",
+   "start": 21.25,
+   "end": 21.33
+  },
+  {
+   "w": "Mito",
+   "start": 21.41,
+   "end": 21.81
+  },
+  {
+   "w": "versus",
+   "start": 21.89,
+   "end": 22.29
+  },
+  {
+   "w": "Realidade.",
+   "start": 22.37,
+   "end": 23.29
+  },
+  {
+   "w": "O",
+   "start": 23.49,
+   "end": 23.53
+  },
+  {
+   "w": "mito",
+   "start": 23.57,
+   "end": 23.77
+  },
+  {
+   "w": "que",
+   "start": 23.81,
+   "end": 23.89
+  },
+  {
+   "w": "tá",
+   "start": 23.97,
+   "end": 24.05
+  },
+  {
+   "w": "rodando",
+   "start": 24.13,
+   "end": 24.37
+  },
+  {
+   "w": "por",
+   "start": 24.45,
+   "end": 24.53
+  },
+  {
+   "w": "aí:",
+   "start": 24.57,
+   "end": 25.17
+  },
+  {
+   "w": "canal",
+   "start": 25.25,
+   "end": 25.41
+  },
+  {
+   "w": "pequeno",
+   "start": 25.49,
+   "end": 26.05
+  },
+  {
+   "w": "nunca",
+   "start": 26.13,
+   "end": 26.53
+  },
+  {
+   "w": "mais",
+   "start": 26.69,
+   "end": 26.93
+  },
+  {
+   "w": "ganha",
+   "start": 27.01,
+   "end": 27.17
+  },
+  {
+   "w": "dinheiro",
+   "start": 27.25,
+   "end": 27.57
+  },
+  {
+   "w": "no",
+   "start": 27.61,
+   "end": 27.65
+  },
+  {
+   "w": "YouTube.",
+   "start": 27.73,
+   "end": 28.45
+  },
+  {
+   "w": "Parece",
+   "start": 28.503,
+   "end": 28.77
+  },
+  {
+   "w": "final",
+   "start": 28.93,
+   "end": 29.09
+  },
+  {
+   "w": "de",
+   "start": 29.13,
+   "end": 29.17
+  },
+  {
+   "w": "filme",
+   "start": 29.29,
+   "end": 29.41
+  },
+  {
+   "w": "de",
+   "start": 29.45,
+   "end": 29.49
+  },
+  {
+   "w": "herói,",
+   "start": 29.57,
+   "end": 30.05
+  },
+  {
+   "w": "quando",
+   "start": 30.09,
+   "end": 30.21
+  },
+  {
+   "w": "o",
+   "start": 30.237,
+   "end": 30.263
+  },
+  {
+   "w": "vilão",
+   "start": 30.29,
+   "end": 30.53
+  },
+  {
+   "w": "estala",
+   "start": 30.69,
+   "end": 31.01
+  },
+  {
+   "w": "o",
+   "start": 31.05,
+   "end": 31.09
+  },
+  {
+   "w": "dedo...",
+   "start": 31.25,
+   "end": 32.05
+  },
+  {
+   "w": "Mas",
+   "start": 32.09,
+   "end": 32.13
+  },
+  {
+   "w": "eu",
+   "start": 32.21,
+   "end": 32.29
+  },
+  {
+   "w": "fui",
+   "start": 32.343,
+   "end": 32.45
+  },
+  {
+   "w": "direto",
+   "start": 32.61,
+   "end": 32.93
+  },
+  {
+   "w": "na",
+   "start": 33.01,
+   "end": 33.09
+  },
+  {
+   "w": "fonte.",
+   "start": 33.17,
+   "end": 33.81
+  },
+  {
+   "w": "A",
+   "start": 33.85,
+   "end": 33.89
+  },
+  {
+   "w": "Central",
+   "start": 33.97,
+   "end": 34.37
+  },
+  {
+   "w": "de",
+   "start": 34.41,
+   "end": 34.45
+  },
+  {
+   "w": "Ajuda",
+   "start": 34.53,
+   "end": 34.85
+  },
+  {
+   "w": "oficial",
+   "start": 34.93,
+   "end": 35.65
+  },
+  {
+   "w": "do",
+   "start": 35.73,
+   "end": 35.77
+  },
+  {
+   "w": "YouTube.",
+   "start": 35.81,
+   "end": 36.61
+  },
+  {
+   "w": "E",
+   "start": 36.65,
+   "end": 36.69
+  },
+  {
+   "w": "a",
+   "start": 36.73,
+   "end": 36.77
+  },
+  {
+   "w": "realidade",
+   "start": 36.85,
+   "end": 37.41
+  },
+  {
+   "w": "é",
+   "start": 37.65,
+   "end": 37.89
+  },
+  {
+   "w": "bem",
+   "start": 37.97,
+   "end": 38.13
+  },
+  {
+   "w": "diferente!",
+   "start": 38.21,
+   "end": 39.09
+  },
+  {
+   "w": "Tá",
+   "start": 39.36,
+   "end": 39.48
+  },
+  {
+   "w": "aqui,",
+   "start": 39.52,
+   "end": 40
+  },
+  {
+   "w": "na",
+   "start": 40.08,
+   "end": 40.16
+  },
+  {
+   "w": "página",
+   "start": 40.24,
+   "end": 40.48
+  },
+  {
+   "w": "oficial.",
+   "start": 40.52,
+   "end": 41.28
+  },
+  {
+   "w": "A",
+   "start": 41.52,
+   "end": 41.6
+  },
+  {
+   "w": "partir",
+   "start": 41.68,
+   "end": 41.92
+  },
+  {
+   "w": "de",
+   "start": 42,
+   "end": 42.16
+  },
+  {
+   "w": "primeiro",
+   "start": 42.32,
+   "end": 42.64
+  },
+  {
+   "w": "de",
+   "start": 42.68,
+   "end": 42.72
+  },
+  {
+   "w": "fevereiro",
+   "start": 42.8,
+   "end": 43.28
+  },
+  {
+   "w": "de",
+   "start": 43.32,
+   "end": 43.36
+  },
+  {
+   "w": "dois",
+   "start": 43.44,
+   "end": 43.6
+  },
+  {
+   "w": "mil",
+   "start": 43.68,
+   "end": 43.72
+  },
+  {
+   "w": "e",
+   "start": 43.76,
+   "end": 43.8
+  },
+  {
+   "w": "vinte",
+   "start": 43.84,
+   "end": 43.92
+  },
+  {
+   "w": "e",
+   "start": 44,
+   "end": 44.08
+  },
+  {
+   "w": "sete,",
+   "start": 44.2,
+   "end": 44.72
+  },
+  {
+   "w": "quem",
+   "start": 44.76,
+   "end": 44.88
+  },
+  {
+   "w": "ainda",
+   "start": 44.96,
+   "end": 45.2
+  },
+  {
+   "w": "não",
+   "start": 45.28,
+   "end": 45.44
+  },
+  {
+   "w": "é",
+   "start": 45.52,
+   "end": 45.6
+  },
+  {
+   "w": "parceiro",
+   "start": 45.72,
+   "end": 46.16
+  },
+  {
+   "w": "vai",
+   "start": 46.2,
+   "end": 46.32
+  },
+  {
+   "w": "precisar",
+   "start": 46.4,
+   "end": 46.8
+  },
+  {
+   "w": "de",
+   "start": 46.88,
+   "end": 47.04
+  },
+  {
+   "w": "mil",
+   "start": 47.16,
+   "end": 47.28
+  },
+  {
+   "w": "inscritos",
+   "start": 47.4,
+   "end": 48
+  },
+  {
+   "w": "e",
+   "start": 48.08,
+   "end": 48.16
+  },
+  {
+   "w": "oito",
+   "start": 48.32,
+   "end": 48.64
+  },
+  {
+   "w": "mil",
+   "start": 48.8,
+   "end": 48.96
+  },
+  {
+   "w": "horas",
+   "start": 49.04,
+   "end": 49.28
+  },
+  {
+   "w": "de",
+   "start": 49.36,
+   "end": 49.4
+  },
+  {
+   "w": "exibição",
+   "start": 49.44,
+   "end": 49.92
+  },
+  {
+   "w": "nos",
+   "start": 50,
+   "end": 50.16
+  },
+  {
+   "w": "últimos",
+   "start": 50.24,
+   "end": 50.56
+  },
+  {
+   "w": "trezentos",
+   "start": 50.64,
+   "end": 51.12
+  },
+  {
+   "w": "e",
+   "start": 51.2,
+   "end": 51.28
+  },
+  {
+   "w": "sessenta",
+   "start": 51.36,
+   "end": 51.6
+  },
+  {
+   "w": "e",
+   "start": 51.68,
+   "end": 51.76
+  },
+  {
+   "w": "cinco",
+   "start": 51.8,
+   "end": 51.92
+  },
+  {
+   "w": "dias.",
+   "start": 52.08,
+   "end": 52.72
+  },
+  {
+   "w": "Ou",
+   "start": 52.96,
+   "end": 53.04
+  },
+  {
+   "w": "então,",
+   "start": 53.16,
+   "end": 53.64
+  },
+  {
+   "w": "vinte",
+   "start": 53.84,
+   "end": 54.08
+  },
+  {
+   "w": "milhões",
+   "start": 54.16,
+   "end": 54.48
+  },
+  {
+   "w": "de",
+   "start": 54.56,
+   "end": 54.6
+  },
+  {
+   "w": "visualizações",
+   "start": 54.64,
+   "end": 55.28
+  },
+  {
+   "w": "de",
+   "start": 55.32,
+   "end": 55.36
+  },
+  {
+   "w": "Shorts",
+   "start": 55.52,
+   "end": 55.92
+  },
+  {
+   "w": "em",
+   "start": 56,
+   "end": 56.08
+  },
+  {
+   "w": "noventa",
+   "start": 56.16,
+   "end": 56.56
+  },
+  {
+   "w": "dias.",
+   "start": 56.72,
+   "end": 57.36
+  },
+  {
+   "w": "Compara",
+   "start": 57.63,
+   "end": 58.03
+  },
+  {
+   "w": "com",
+   "start": 58.11,
+   "end": 58.27
+  },
+  {
+   "w": "hoje.",
+   "start": 58.35,
+   "end": 58.87
+  },
+  {
+   "w": "Hoje",
+   "start": 59.07,
+   "end": 59.39
+  },
+  {
+   "w": "são",
+   "start": 59.47,
+   "end": 59.63
+  },
+  {
+   "w": "quatro",
+   "start": 59.87,
+   "end": 60.19
+  },
+  {
+   "w": "mil",
+   "start": 60.27,
+   "end": 60.43
+  },
+  {
+   "w": "horas,",
+   "start": 60.51,
+   "end": 61.07
+  },
+  {
+   "w": "ou",
+   "start": 61.19,
+   "end": 61.31
+  },
+  {
+   "w": "dez",
+   "start": 61.55,
+   "end": 61.79
+  },
+  {
+   "w": "milhões",
+   "start": 61.95,
+   "end": 62.43
+  },
+  {
+   "w": "de",
+   "start": 62.47,
+   "end": 62.51
+  },
+  {
+   "w": "visualizações",
+   "start": 62.59,
+   "end": 63.23
+  },
+  {
+   "w": "de",
+   "start": 63.27,
+   "end": 63.31
+  },
+  {
+   "w": "Shorts.",
+   "start": 63.47,
+   "end": 63.95
+  },
+  {
+   "w": "Ou",
+   "start": 64.27,
+   "end": 64.35
+  },
+  {
+   "w": "seja:",
+   "start": 64.43,
+   "end": 64.99
+  },
+  {
+   "w": "as",
+   "start": 65.07,
+   "end": 65.15
+  },
+  {
+   "w": "duas",
+   "start": 65.23,
+   "end": 65.39
+  },
+  {
+   "w": "metas",
+   "start": 65.55,
+   "end": 65.87
+  },
+  {
+   "w": "DOBRARAM.",
+   "start": 65.95,
+   "end": 66.79
+  },
+  {
+   "w": "É",
+   "start": 66.99,
+   "end": 67.07
+  },
+  {
+   "w": "o",
+   "start": 67.11,
+   "end": 67.15
+  },
+  {
+   "w": "Freeza",
+   "start": 67.23,
+   "end": 67.47
+  },
+  {
+   "w": "dizendo:",
+   "start": 67.55,
+   "end": 68.11
+  },
+  {
+   "w": "esse",
+   "start": 68.35,
+   "end": 68.59
+  },
+  {
+   "w": "nem",
+   "start": 68.75,
+   "end": 68.99
+  },
+  {
+   "w": "é",
+   "start": 69.03,
+   "end": 69.07
+  },
+  {
+   "w": "o",
+   "start": 69.11,
+   "end": 69.15
+  },
+  {
+   "w": "meu",
+   "start": 69.19,
+   "end": 69.31
+  },
+  {
+   "w": "poder",
+   "start": 69.35,
+   "end": 69.55
+  },
+  {
+   "w": "final.",
+   "start": 69.63,
+   "end": 70.11
+  },
+  {
+   "w": "Os",
+   "start": 70.51,
+   "end": 70.67
+  },
+  {
+   "w": "mil",
+   "start": 70.75,
+   "end": 70.83
+  },
+  {
+   "w": "inscritos",
+   "start": 70.95,
+   "end": 71.47
+  },
+  {
+   "w": "continuam.",
+   "start": 71.67,
+   "end": 72.39
+  },
+  {
+   "w": "E",
+   "start": 72.59,
+   "end": 72.67
+  },
+  {
+   "w": "uma",
+   "start": 72.71,
+   "end": 72.75
+  },
+  {
+   "w": "notícia",
+   "start": 72.83,
+   "end": 73.23
+  },
+  {
+   "w": "boa:",
+   "start": 73.31,
+   "end": 73.79
+  },
+  {
+   "w": "se",
+   "start": 73.83,
+   "end": 73.87
+  },
+  {
+   "w": "você",
+   "start": 73.95,
+   "end": 74.19
+  },
+  {
+   "w": "já",
+   "start": 74.27,
+   "end": 74.43
+  },
+  {
+   "w": "é",
+   "start": 74.51,
+   "end": 74.59
+  },
+  {
+   "w": "parceiro,",
+   "start": 74.67,
+   "end": 75.31
+  },
+  {
+   "w": "o",
+   "start": 75.35,
+   "end": 75.39
+  },
+  {
+   "w": "seu",
+   "start": 75.47,
+   "end": 75.59
+  },
+  {
+   "w": "status",
+   "start": 75.63,
+   "end": 76.03
+  },
+  {
+   "w": "não",
+   "start": 76.11,
+   "end": 76.27
+  },
+  {
+   "w": "muda.",
+   "start": 76.31,
+   "end": 76.91
+  },
+  {
+   "w": "Rapidinho:",
+   "start": 77.18,
+   "end": 77.98
+  },
+  {
+   "w": "se",
+   "start": 78.02,
+   "end": 78.06
+  },
+  {
+   "w": "você",
+   "start": 78.14,
+   "end": 78.38
+  },
+  {
+   "w": "também",
+   "start": 78.46,
+   "end": 78.7
+  },
+  {
+   "w": "tem",
+   "start": 78.78,
+   "end": 78.86
+  },
+  {
+   "w": "canal",
+   "start": 78.94,
+   "end": 79.1
+  },
+  {
+   "w": "pequeno,",
+   "start": 79.18,
+   "end": 79.82
+  },
+  {
+   "w": "deixa",
+   "start": 79.9,
+   "end": 80.14
+  },
+  {
+   "w": "o",
+   "start": 80.167,
+   "end": 80.193
+  },
+  {
+   "w": "like",
+   "start": 80.22,
+   "end": 80.54
+  },
+  {
+   "w": "e",
+   "start": 80.567,
+   "end": 80.593
+  },
+  {
+   "w": "se",
+   "start": 80.62,
+   "end": 80.7
+  },
+  {
+   "w": "inscreve",
+   "start": 80.82,
+   "end": 81.18
+  },
+  {
+   "w": "no",
+   "start": 81.22,
+   "end": 81.26
+  },
+  {
+   "w": "Aprenda",
+   "start": 81.34,
+   "end": 81.66
+  },
+  {
+   "w": "YouTube.",
+   "start": 81.9,
+   "end": 82.46
+  },
+  {
+   "w": "Aqui",
+   "start": 82.54,
+   "end": 82.78
+  },
+  {
+   "w": "é",
+   "start": 82.86,
+   "end": 82.94
+  },
+  {
+   "w": "laboratório",
+   "start": 83.047,
+   "end": 83.66
+  },
+  {
+   "w": "de",
+   "start": 83.74,
+   "end": 83.82
+  },
+  {
+   "w": "canal",
+   "start": 83.9,
+   "end": 84.06
+  },
+  {
+   "w": "pequeno.",
+   "start": 84.14,
+   "end": 84.86
+  },
+  {
+   "w": "Sem",
+   "start": 84.98,
+   "end": 85.1
+  },
+  {
+   "w": "pose",
+   "start": 85.18,
+   "end": 85.42
+  },
+  {
+   "w": "de",
+   "start": 85.46,
+   "end": 85.5
+  },
+  {
+   "w": "guru!",
+   "start": 85.58,
+   "end": 86.22
+  },
+  {
+   "w": "E",
+   "start": 86.49,
+   "end": 86.57
+  },
+  {
+   "w": "o",
+   "start": 86.61,
+   "end": 86.65
+  },
+  {
+   "w": "meu",
+   "start": 86.69,
+   "end": 86.81
+  },
+  {
+   "w": "canal",
+   "start": 86.89,
+   "end": 87.13
+  },
+  {
+   "w": "nessa",
+   "start": 87.21,
+   "end": 87.33
+  },
+  {
+   "w": "história?",
+   "start": 87.37,
+   "end": 88.05
+  },
+  {
+   "w": "Nos",
+   "start": 88.33,
+   "end": 88.41
+  },
+  {
+   "w": "últimos",
+   "start": 88.49,
+   "end": 88.89
+  },
+  {
+   "w": "vinte",
+   "start": 88.97,
+   "end": 89.21
+  },
+  {
+   "w": "e",
+   "start": 89.25,
+   "end": 89.29
+  },
+  {
+   "w": "oito",
+   "start": 89.33,
+   "end": 89.45
+  },
+  {
+   "w": "dias,",
+   "start": 89.61,
+   "end": 90.09
+  },
+  {
+   "w": "eu",
+   "start": 90.13,
+   "end": 90.17
+  },
+  {
+   "w": "ganhei",
+   "start": 90.25,
+   "end": 90.57
+  },
+  {
+   "w": "vinte",
+   "start": 90.73,
+   "end": 90.97
+  },
+  {
+   "w": "e",
+   "start": 91.05,
+   "end": 91.13
+  },
+  {
+   "w": "seis",
+   "start": 91.17,
+   "end": 91.29
+  },
+  {
+   "w": "inscritos.",
+   "start": 91.37,
+   "end": 92.29
+  },
+  {
+   "w": "Eu",
+   "start": 92.49,
+   "end": 92.65
+  },
+  {
+   "w": "sei...",
+   "start": 92.73,
+   "end": 93.45
+  },
+  {
+   "w": "esse",
+   "start": 93.57,
+   "end": 93.69
+  },
+  {
+   "w": "número",
+   "start": 93.73,
+   "end": 94.01
+  },
+  {
+   "w": "pode",
+   "start": 94.05,
+   "end": 94.25
+  },
+  {
+   "w": "não",
+   "start": 94.29,
+   "end": 94.41
+  },
+  {
+   "w": "ser",
+   "start": 94.49,
+   "end": 94.57
+  },
+  {
+   "w": "grande",
+   "start": 94.61,
+   "end": 94.81
+  },
+  {
+   "w": "coisa",
+   "start": 94.89,
+   "end": 95.13
+  },
+  {
+   "w": "pra",
+   "start": 95.17,
+   "end": 95.21
+  },
+  {
+   "w": "você.",
+   "start": 95.29,
+   "end": 95.69
+  },
+  {
+   "w": "Mas",
+   "start": 96.25,
+   "end": 96.41
+  },
+  {
+   "w": "foi",
+   "start": 96.45,
+   "end": 96.57
+  },
+  {
+   "w": "duzentos",
+   "start": 96.65,
+   "end": 97.21
+  },
+  {
+   "w": "e",
+   "start": 97.29,
+   "end": 97.33
+  },
+  {
+   "w": "vinte",
+   "start": 97.37,
+   "end": 97.53
+  },
+  {
+   "w": "e",
+   "start": 97.57,
+   "end": 97.61
+  },
+  {
+   "w": "cinco",
+   "start": 97.65,
+   "end": 97.77
+  },
+  {
+   "w": "por",
+   "start": 97.93,
+   "end": 98.01
+  },
+  {
+   "w": "cento",
+   "start": 98.09,
+   "end": 98.29
+  },
+  {
+   "w": "a",
+   "start": 98.33,
+   "end": 98.41
+  },
+  {
+   "w": "mais",
+   "start": 98.49,
+   "end": 98.81
+  },
+  {
+   "w": "que",
+   "start": 98.85,
+   "end": 98.89
+  },
+  {
+   "w": "nos",
+   "start": 98.97,
+   "end": 99.13
+  },
+  {
+   "w": "vinte",
+   "start": 99.17,
+   "end": 99.37
+  },
+  {
+   "w": "e",
+   "start": 99.41,
+   "end": 99.45
+  },
+  {
+   "w": "oito",
+   "start": 99.503,
+   "end": 99.61
+  },
+  {
+   "w": "dias",
+   "start": 99.69,
+   "end": 99.85
+  },
+  {
+   "w": "anteriores.",
+   "start": 99.93,
+   "end": 100.65
+  },
+  {
+   "w": "Tem",
+   "start": 100.97,
+   "end": 101.05
+  },
+  {
+   "w": "noção",
+   "start": 101.17,
+   "end": 101.45
+  },
+  {
+   "w": "disso?",
+   "start": 101.53,
+   "end": 101.93
+  },
+  {
+   "w": "Vinte",
+   "start": 102.41,
+   "end": 102.65
+  },
+  {
+   "w": "e",
+   "start": 102.69,
+   "end": 102.73
+  },
+  {
+   "w": "seis",
+   "start": 102.89,
+   "end": 103.05
+  },
+  {
+   "w": "pessoas!",
+   "start": 103.21,
+   "end": 104.01
+  },
+  {
+   "w": "Dá",
+   "start": 104.33,
+   "end": 104.41
+  },
+  {
+   "w": "pra",
+   "start": 104.45,
+   "end": 104.49
+  },
+  {
+   "w": "montar",
+   "start": 104.57,
+   "end": 104.81
+  },
+  {
+   "w": "dois",
+   "start": 104.97,
+   "end": 105.13
+  },
+  {
+   "w": "times",
+   "start": 105.29,
+   "end": 105.53
+  },
+  {
+   "w": "de",
+   "start": 105.57,
+   "end": 105.61
+  },
+  {
+   "w": "futebol",
+   "start": 105.65,
+   "end": 106.09
+  },
+  {
+   "w": "e",
+   "start": 106.17,
+   "end": 106.25
+  },
+  {
+   "w": "ainda",
+   "start": 106.33,
+   "end": 106.49
+  },
+  {
+   "w": "sobra",
+   "start": 106.57,
+   "end": 106.81
+  },
+  {
+   "w": "reserva.",
+   "start": 106.93,
+   "end": 107.69
+  },
+  {
+   "w": "Agora,",
+   "start": 107.96,
+   "end": 108.6
+  },
+  {
+   "w": "a",
+   "start": 108.64,
+   "end": 108.68
+  },
+  {
+   "w": "REALIDADE",
+   "start": 108.76,
+   "end": 109.32
+  },
+  {
+   "w": "número",
+   "start": 109.4,
+   "end": 109.64
+  },
+  {
+   "w": "um.",
+   "start": 109.72,
+   "end": 109.96
+  },
+  {
+   "w": "O",
+   "start": 110.44,
+   "end": 110.48
+  },
+  {
+   "w": "caminho",
+   "start": 110.52,
+   "end": 110.84
+  },
+  {
+   "w": "dos",
+   "start": 110.92,
+   "end": 111
+  },
+  {
+   "w": "quinhentos",
+   "start": 111.08,
+   "end": 111.48
+  },
+  {
+   "w": "inscritos",
+   "start": 111.6,
+   "end": 112.2
+  },
+  {
+   "w": "não",
+   "start": 112.28,
+   "end": 112.36
+  },
+  {
+   "w": "mudou.",
+   "start": 112.44,
+   "end": 113.08
+  },
+  {
+   "w": "Com",
+   "start": 113.32,
+   "end": 113.48
+  },
+  {
+   "w": "quinhentos",
+   "start": 113.56,
+   "end": 113.88
+  },
+  {
+   "w": "inscritos",
+   "start": 113.96,
+   "end": 114.52
+  },
+  {
+   "w": "e",
+   "start": 114.64,
+   "end": 114.76
+  },
+  {
+   "w": "três",
+   "start": 114.84,
+   "end": 115
+  },
+  {
+   "w": "mil",
+   "start": 115.08,
+   "end": 115.24
+  },
+  {
+   "w": "horas",
+   "start": 115.32,
+   "end": 115.56
+  },
+  {
+   "w": "no",
+   "start": 115.64,
+   "end": 115.72
+  },
+  {
+   "w": "último",
+   "start": 115.76,
+   "end": 116.04
+  },
+  {
+   "w": "ano,",
+   "start": 116.12,
+   "end": 116.6
+  },
+  {
+   "w": "ou",
+   "start": 116.68,
+   "end": 116.76
+  },
+  {
+   "w": "três",
+   "start": 116.92,
+   "end": 117.16
+  },
+  {
+   "w": "milhões",
+   "start": 117.24,
+   "end": 117.64
+  },
+  {
+   "w": "de",
+   "start": 117.72,
+   "end": 117.76
+  },
+  {
+   "w": "visualizações",
+   "start": 117.8,
+   "end": 118.52
+  },
+  {
+   "w": "de",
+   "start": 118.56,
+   "end": 118.6
+  },
+  {
+   "w": "Shorts",
+   "start": 118.76,
+   "end": 119.08
+  },
+  {
+   "w": "em",
+   "start": 119.12,
+   "end": 119.16
+  },
+  {
+   "w": "noventa",
+   "start": 119.24,
+   "end": 119.56
+  },
+  {
+   "w": "dias,",
+   "start": 119.72,
+   "end": 120.36
+  },
+  {
+   "w": "você",
+   "start": 120.4,
+   "end": 120.6
+  },
+  {
+   "w": "já",
+   "start": 120.64,
+   "end": 120.76
+  },
+  {
+   "w": "pode",
+   "start": 120.813,
+   "end": 120.92
+  },
+  {
+   "w": "usar",
+   "start": 121,
+   "end": 121.16
+  },
+  {
+   "w": "o",
+   "start": 121.2,
+   "end": 121.24
+  },
+  {
+   "w": "financiamento",
+   "start": 121.32,
+   "end": 121.88
+  },
+  {
+   "w": "por",
+   "start": 121.96,
+   "end": 122.04
+  },
+  {
+   "w": "fãs,",
+   "start": 122.12,
+   "end": 122.68
+  },
+  {
+   "w": "as",
+   "start": 122.76,
+   "end": 122.84
+  },
+  {
+   "w": "Parcerias",
+   "start": 122.92,
+   "end": 123.4
+  },
+  {
+   "w": "com",
+   "start": 123.48,
+   "end": 123.56
+  },
+  {
+   "w": "Criadores",
+   "start": 123.64,
+   "end": 124.28
+  },
+  {
+   "w": "e",
+   "start": 124.36,
+   "end": 124.44
+  },
+  {
+   "w": "o",
+   "start": 124.48,
+   "end": 124.52
+  },
+  {
+   "w": "YouTube",
+   "start": 124.6,
+   "end": 124.92
+  },
+  {
+   "w": "Shopping.",
+   "start": 125,
+   "end": 125.64
+  },
+  {
+   "w": "Traduzindo.",
+   "start": 125.91,
+   "end": 126.83
+  },
+  {
+   "w": "Financiamento",
+   "start": 127.03,
+   "end": 127.59
+  },
+  {
+   "w": "por",
+   "start": 127.67,
+   "end": 127.75
+  },
+  {
+   "w": "fãs",
+   "start": 127.91,
+   "end": 128.39
+  },
+  {
+   "w": "é",
+   "start": 128.47,
+   "end": 128.55
+  },
+  {
+   "w": "o",
+   "start": 128.59,
+   "end": 128.63
+  },
+  {
+   "w": "seu",
+   "start": 128.67,
+   "end": 128.87
+  },
+  {
+   "w": "público",
+   "start": 128.91,
+   "end": 129.19
+  },
+  {
+   "w": "te",
+   "start": 129.27,
+   "end": 129.35
+  },
+  {
+   "w": "apoiando",
+   "start": 129.39,
+   "end": 129.75
+  },
+  {
+   "w": "direto,",
+   "start": 129.83,
+   "end": 130.55
+  },
+  {
+   "w": "com",
+   "start": 130.63,
+   "end": 130.71
+  },
+  {
+   "w": "Clube",
+   "start": 130.79,
+   "end": 130.95
+  },
+  {
+   "w": "dos",
+   "start": 131.03,
+   "end": 131.11
+  },
+  {
+   "w": "Canais",
+   "start": 131.19,
+   "end": 131.67
+  },
+  {
+   "w": "e",
+   "start": 131.75,
+   "end": 131.83
+  },
+  {
+   "w": "Super",
+   "start": 131.91,
+   "end": 132.15
+  },
+  {
+   "w": "Chat.",
+   "start": 132.23,
+   "end": 132.63
+  },
+  {
+   "w": "Parcerias",
+   "start": 132.95,
+   "end": 133.43
+  },
+  {
+   "w": "com",
+   "start": 133.47,
+   "end": 133.51
+  },
+  {
+   "w": "Criadores",
+   "start": 133.59,
+   "end": 134.23
+  },
+  {
+   "w": "aproxima",
+   "start": 134.31,
+   "end": 134.87
+  },
+  {
+   "w": "você",
+   "start": 134.95,
+   "end": 135.27
+  },
+  {
+   "w": "das",
+   "start": 135.35,
+   "end": 135.43
+  },
+  {
+   "w": "marcas.",
+   "start": 135.51,
+   "end": 136.07
+  },
+  {
+   "w": "E",
+   "start": 136.39,
+   "end": 136.43
+  },
+  {
+   "w": "o",
+   "start": 136.47,
+   "end": 136.51
+  },
+  {
+   "w": "YouTube",
+   "start": 136.55,
+   "end": 136.87
+  },
+  {
+   "w": "Shopping",
+   "start": 136.95,
+   "end": 137.35
+  },
+  {
+   "w": "deixa",
+   "start": 137.51,
+   "end": 137.75
+  },
+  {
+   "w": "você",
+   "start": 137.79,
+   "end": 137.99
+  },
+  {
+   "w": "mostrar",
+   "start": 138.07,
+   "end": 138.39
+  },
+  {
+   "w": "produtos",
+   "start": 138.47,
+   "end": 139.03
+  },
+  {
+   "w": "nos",
+   "start": 139.07,
+   "end": 139.11
+  },
+  {
+   "w": "seus",
+   "start": 139.19,
+   "end": 139.35
+  },
+  {
+   "w": "vídeos.",
+   "start": 139.43,
+   "end": 139.99
+  },
+  {
+   "w": "É",
+   "start": 140.15,
+   "end": 140.23
+  },
+  {
+   "w": "o",
+   "start": 140.257,
+   "end": 140.283
+  },
+  {
+   "w": "Naruto",
+   "start": 140.31,
+   "end": 140.79
+  },
+  {
+   "w": "antes",
+   "start": 140.87,
+   "end": 141.11
+  },
+  {
+   "w": "de",
+   "start": 141.15,
+   "end": 141.19
+  },
+  {
+   "w": "virar",
+   "start": 141.27,
+   "end": 141.43
+  },
+  {
+   "w": "Hokage:",
+   "start": 141.47,
+   "end": 142.31
+  },
+  {
+   "w": "ainda",
+   "start": 142.43,
+   "end": 142.63
+  },
+  {
+   "w": "não",
+   "start": 142.657,
+   "end": 142.71
+  },
+  {
+   "w": "é",
+   "start": 142.79,
+   "end": 142.83
+  },
+  {
+   "w": "o",
+   "start": 142.87,
+   "end": 142.95
+  },
+  {
+   "w": "topo,",
+   "start": 143.03,
+   "end": 143.59
+  },
+  {
+   "w": "mas",
+   "start": 143.71,
+   "end": 143.83
+  },
+  {
+   "w": "já",
+   "start": 143.87,
+   "end": 143.99
+  },
+  {
+   "w": "tem",
+   "start": 144.07,
+   "end": 144.15
+  },
+  {
+   "w": "missão",
+   "start": 144.31,
+   "end": 144.47
+  },
+  {
+   "w": "paga.",
+   "start": 144.55,
+   "end": 145.11
+  },
+  {
+   "w": "REALIDADE",
+   "start": 145.38,
+   "end": 146.02
+  },
+  {
+   "w": "número",
+   "start": 146.1,
+   "end": 146.34
+  },
+  {
+   "w": "dois.",
+   "start": 146.5,
+   "end": 147.06
+  },
+  {
+   "w": "E",
+   "start": 147.38,
+   "end": 147.46
+  },
+  {
+   "w": "essa",
+   "start": 147.54,
+   "end": 147.86
+  },
+  {
+   "w": "pega",
+   "start": 148.02,
+   "end": 148.34
+  },
+  {
+   "w": "muita",
+   "start": 148.58,
+   "end": 148.98
+  },
+  {
+   "w": "gente!",
+   "start": 149.06,
+   "end": 149.54
+  },
+  {
+   "w": "As",
+   "start": 150.02,
+   "end": 150.18
+  },
+  {
+   "w": "horas",
+   "start": 150.26,
+   "end": 150.42
+  },
+  {
+   "w": "que",
+   "start": 150.5,
+   "end": 150.58
+  },
+  {
+   "w": "vêm",
+   "start": 150.62,
+   "end": 150.74
+  },
+  {
+   "w": "do",
+   "start": 150.82,
+   "end": 150.9
+  },
+  {
+   "w": "feed",
+   "start": 150.98,
+   "end": 151.22
+  },
+  {
+   "w": "dos",
+   "start": 151.3,
+   "end": 151.38
+  },
+  {
+   "w": "Shorts",
+   "start": 151.46,
+   "end": 151.86
+  },
+  {
+   "w": "não",
+   "start": 152.1,
+   "end": 152.26
+  },
+  {
+   "w": "contam",
+   "start": 152.42,
+   "end": 152.82
+  },
+  {
+   "w": "para",
+   "start": 152.9,
+   "end": 152.98
+  },
+  {
+   "w": "as",
+   "start": 153.06,
+   "end": 153.14
+  },
+  {
+   "w": "horas",
+   "start": 153.22,
+   "end": 153.38
+  },
+  {
+   "w": "de",
+   "start": 153.42,
+   "end": 153.46
+  },
+  {
+   "w": "exibição",
+   "start": 153.5,
+   "end": 153.94
+  },
+  {
+   "w": "da",
+   "start": 154.02,
+   "end": 154.06
+  },
+  {
+   "w": "monetização.",
+   "start": 154.1,
+   "end": 154.9
+  },
+  {
+   "w": "Quem",
+   "start": 155.38,
+   "end": 155.54
+  },
+  {
+   "w": "diz",
+   "start": 155.62,
+   "end": 155.94
+  },
+  {
+   "w": "é",
+   "start": 156.02,
+   "end": 156.1
+  },
+  {
+   "w": "a",
+   "start": 156.18,
+   "end": 156.26
+  },
+  {
+   "w": "própria",
+   "start": 156.34,
+   "end": 156.66
+  },
+  {
+   "w": "página",
+   "start": 156.74,
+   "end": 157.06
+  },
+  {
+   "w": "do",
+   "start": 157.14,
+   "end": 157.18
+  },
+  {
+   "w": "Programa",
+   "start": 157.22,
+   "end": 157.54
+  },
+  {
+   "w": "de",
+   "start": 157.58,
+   "end": 157.62
+  },
+  {
+   "w": "Parcerias,",
+   "start": 157.7,
+   "end": 158.5
+  },
+  {
+   "w": "nesse",
+   "start": 158.58,
+   "end": 158.74
+  },
+  {
+   "w": "aviso",
+   "start": 158.82,
+   "end": 159.06
+  },
+  {
+   "w": "aqui.",
+   "start": 159.1,
+   "end": 159.62
+  },
+  {
+   "w": "No",
+   "start": 159.89,
+   "end": 159.97
+  },
+  {
+   "w": "meu",
+   "start": 160.05,
+   "end": 160.13
+  },
+  {
+   "w": "canal,",
+   "start": 160.21,
+   "end": 160.85
+  },
+  {
+   "w": "sete",
+   "start": 160.97,
+   "end": 161.21
+  },
+  {
+   "w": "mil",
+   "start": 161.33,
+   "end": 161.41
+  },
+  {
+   "w": "e",
+   "start": 161.49,
+   "end": 161.57
+  },
+  {
+   "w": "seiscentas",
+   "start": 161.61,
+   "end": 162.21
+  },
+  {
+   "w": "das",
+   "start": 162.29,
+   "end": 162.53
+  },
+  {
+   "w": "oito",
+   "start": 162.57,
+   "end": 162.77
+  },
+  {
+   "w": "mil",
+   "start": 162.93,
+   "end": 163.01
+  },
+  {
+   "w": "e",
+   "start": 163.09,
+   "end": 163.17
+  },
+  {
+   "w": "quatrocentas",
+   "start": 163.21,
+   "end": 163.81
+  },
+  {
+   "w": "visualizações",
+   "start": 163.89,
+   "end": 164.77
+  },
+  {
+   "w": "vieram",
+   "start": 164.89,
+   "end": 165.09
+  },
+  {
+   "w": "dos",
+   "start": 165.17,
+   "end": 165.33
+  },
+  {
+   "w": "Shorts.",
+   "start": 165.53,
+   "end": 165.89
+  },
+  {
+   "w": "E",
+   "start": 166.37,
+   "end": 166.45
+  },
+  {
+   "w": "vinte",
+   "start": 166.61,
+   "end": 166.85
+  },
+  {
+   "w": "e",
+   "start": 166.93,
+   "end": 167.01
+  },
+  {
+   "w": "dois",
+   "start": 167.09,
+   "end": 167.25
+  },
+  {
+   "w": "dos",
+   "start": 167.33,
+   "end": 167.57
+  },
+  {
+   "w": "vinte",
+   "start": 167.65,
+   "end": 167.81
+  },
+  {
+   "w": "e",
+   "start": 167.89,
+   "end": 167.97
+  },
+  {
+   "w": "seis",
+   "start": 168.01,
+   "end": 168.13
+  },
+  {
+   "w": "inscritos,",
+   "start": 168.21,
+   "end": 168.93
+  },
+  {
+   "w": "também.",
+   "start": 169.01,
+   "end": 169.61
+  },
+  {
+   "w": "Ou",
+   "start": 169.81,
+   "end": 169.93
+  },
+  {
+   "w": "seja:",
+   "start": 169.97,
+   "end": 170.37
+  },
+  {
+   "w": "o",
+   "start": 170.69,
+   "end": 170.77
+  },
+  {
+   "w": "Short",
+   "start": 170.93,
+   "end": 171.25
+  },
+  {
+   "w": "me",
+   "start": 171.33,
+   "end": 171.41
+  },
+  {
+   "w": "trouxe",
+   "start": 171.49,
+   "end": 171.81
+  },
+  {
+   "w": "gente.",
+   "start": 171.89,
+   "end": 172.57
+  },
+  {
+   "w": "Mas",
+   "start": 172.77,
+   "end": 172.93
+  },
+  {
+   "w": "a",
+   "start": 172.97,
+   "end": 173.01
+  },
+  {
+   "w": "hora",
+   "start": 173.09,
+   "end": 173.17
+  },
+  {
+   "w": "que",
+   "start": 173.29,
+   "end": 173.41
+  },
+  {
+   "w": "conta",
+   "start": 173.53,
+   "end": 173.73
+  },
+  {
+   "w": "pra",
+   "start": 173.81,
+   "end": 173.89
+  },
+  {
+   "w": "monetizar",
+   "start": 173.97,
+   "end": 174.53
+  },
+  {
+   "w": "não",
+   "start": 174.61,
+   "end": 174.77
+  },
+  {
+   "w": "vem",
+   "start": 174.85,
+   "end": 175.09
+  },
+  {
+   "w": "do",
+   "start": 175.17,
+   "end": 175.25
+  },
+  {
+   "w": "feed",
+   "start": 175.37,
+   "end": 175.49
+  },
+  {
+   "w": "dos",
+   "start": 175.57,
+   "end": 175.65
+  },
+  {
+   "w": "Shorts.",
+   "start": 175.73,
+   "end": 176.21
+  },
+  {
+   "w": "Então",
+   "start": 176.53,
+   "end": 176.77
+  },
+  {
+   "w": "é",
+   "start": 176.81,
+   "end": 176.85
+  },
+  {
+   "w": "jogo",
+   "start": 176.89,
+   "end": 177.09
+  },
+  {
+   "w": "em",
+   "start": 177.13,
+   "end": 177.17
+  },
+  {
+   "w": "dupla,",
+   "start": 177.25,
+   "end": 177.73
+  },
+  {
+   "w": "tipo",
+   "start": 177.85,
+   "end": 177.97
+  },
+  {
+   "w": "Power",
+   "start": 178.05,
+   "end": 178.29
+  },
+  {
+   "w": "Rangers:",
+   "start": 178.33,
+   "end": 179.09
+  },
+  {
+   "w": "o",
+   "start": 179.13,
+   "end": 179.17
+  },
+  {
+   "w": "Short",
+   "start": 179.25,
+   "end": 179.57
+  },
+  {
+   "w": "chama,",
+   "start": 179.65,
+   "end": 180.21
+  },
+  {
+   "w": "o",
+   "start": 180.25,
+   "end": 180.29
+  },
+  {
+   "w": "vídeo",
+   "start": 180.37,
+   "end": 180.61
+  },
+  {
+   "w": "longo",
+   "start": 180.69,
+   "end": 180.93
+  },
+  {
+   "w": "segura.",
+   "start": 181.01,
+   "end": 181.49
+  },
+  {
+   "w": "Hora",
+   "start": 181.81,
+   "end": 181.97
+  },
+  {
+   "w": "de",
+   "start": 182.05,
+   "end": 182.09
+  },
+  {
+   "w": "morfar!",
+   "start": 182.13,
+   "end": 182.85
+  },
+  {
+   "w": "REALIDADE",
+   "start": 183.12,
+   "end": 183.68
+  },
+  {
+   "w": "número",
+   "start": 183.76,
+   "end": 184
+  },
+  {
+   "w": "três:",
+   "start": 184.16,
+   "end": 184.64
+  },
+  {
+   "w": "entrou,",
+   "start": 184.96,
+   "end": 185.76
+  },
+  {
+   "w": "tem",
+   "start": 185.84,
+   "end": 185.92
+  },
+  {
+   "w": "que",
+   "start": 186,
+   "end": 186.04
+  },
+  {
+   "w": "ficar",
+   "start": 186.08,
+   "end": 186.32
+  },
+  {
+   "w": "ativo.",
+   "start": 186.4,
+   "end": 187.12
+  },
+  {
+   "w": "A",
+   "start": 187.36,
+   "end": 187.44
+  },
+  {
+   "w": "partir",
+   "start": 187.56,
+   "end": 187.72
+  },
+  {
+   "w": "de",
+   "start": 187.76,
+   "end": 187.84
+  },
+  {
+   "w": "fevereiro,",
+   "start": 187.92,
+   "end": 188.56
+  },
+  {
+   "w": "o",
+   "start": 188.6,
+   "end": 188.64
+  },
+  {
+   "w": "canal",
+   "start": 188.72,
+   "end": 188.96
+  },
+  {
+   "w": "ativo",
+   "start": 189.16,
+   "end": 189.36
+  },
+  {
+   "w": "precisa",
+   "start": 189.44,
+   "end": 189.84
+  },
+  {
+   "w": "de",
+   "start": 189.96,
+   "end": 190.08
+  },
+  {
+   "w": "mil",
+   "start": 190.2,
+   "end": 190.32
+  },
+  {
+   "w": "horas",
+   "start": 190.4,
+   "end": 190.64
+  },
+  {
+   "w": "em",
+   "start": 190.72,
+   "end": 190.88
+  },
+  {
+   "w": "trezentos",
+   "start": 190.96,
+   "end": 191.44
+  },
+  {
+   "w": "e",
+   "start": 191.52,
+   "end": 191.6
+  },
+  {
+   "w": "sessenta",
+   "start": 191.68,
+   "end": 191.92
+  },
+  {
+   "w": "e",
+   "start": 192,
+   "end": 192.08
+  },
+  {
+   "w": "cinco",
+   "start": 192.12,
+   "end": 192.24
+  },
+  {
+   "w": "dias,",
+   "start": 192.4,
+   "end": 193.12
+  },
+  {
+   "w": "ou",
+   "start": 193.24,
+   "end": 193.36
+  },
+  {
+   "w": "um",
+   "start": 193.76,
+   "end": 193.84
+  },
+  {
+   "w": "milhão",
+   "start": 193.92,
+   "end": 194.24
+  },
+  {
+   "w": "de",
+   "start": 194.32,
+   "end": 194.36
+  },
+  {
+   "w": "visualizações",
+   "start": 194.4,
+   "end": 195.12
+  },
+  {
+   "w": "de",
+   "start": 195.16,
+   "end": 195.2
+  },
+  {
+   "w": "Shorts",
+   "start": 195.36,
+   "end": 195.72
+  },
+  {
+   "w": "em",
+   "start": 195.76,
+   "end": 195.84
+  },
+  {
+   "w": "noventa",
+   "start": 195.92,
+   "end": 196.4
+  },
+  {
+   "w": "dias,",
+   "start": 196.56,
+   "end": 197.28
+  },
+  {
+   "w": "ou",
+   "start": 197.4,
+   "end": 197.52
+  },
+  {
+   "w": "enviar",
+   "start": 197.84,
+   "end": 198.32
+  },
+  {
+   "w": "dois",
+   "start": 198.4,
+   "end": 198.64
+  },
+  {
+   "w": "vídeos",
+   "start": 198.72,
+   "end": 199.04
+  },
+  {
+   "w": "longos",
+   "start": 199.12,
+   "end": 199.6
+  },
+  {
+   "w": "ou",
+   "start": 199.72,
+   "end": 199.84
+  },
+  {
+   "w": "cinco",
+   "start": 199.92,
+   "end": 200.16
+  },
+  {
+   "w": "Shorts",
+   "start": 200.32,
+   "end": 200.64
+  },
+  {
+   "w": "a",
+   "start": 200.72,
+   "end": 200.76
+  },
+  {
+   "w": "cada",
+   "start": 200.8,
+   "end": 200.96
+  },
+  {
+   "w": "noventa",
+   "start": 201.04,
+   "end": 201.44
+  },
+  {
+   "w": "dias.",
+   "start": 201.6,
+   "end": 202.48
+  },
+  {
+   "w": "Cinco",
+   "start": 202.52,
+   "end": 202.72
+  },
+  {
+   "w": "Shorts",
+   "start": 202.88,
+   "end": 203.16
+  },
+  {
+   "w": "em",
+   "start": 203.2,
+   "end": 203.36
+  },
+  {
+   "w": "três",
+   "start": 203.4,
+   "end": 203.6
+  },
+  {
+   "w": "meses?",
+   "start": 203.68,
+   "end": 204.4
+  },
+  {
+   "w": "Até",
+   "start": 204.52,
+   "end": 204.72
+  },
+  {
+   "w": "eu",
+   "start": 204.8,
+   "end": 204.96
+  },
+  {
+   "w": "consigo!",
+   "start": 205.12,
+   "end": 205.68
+  },
+  {
+   "w": "E",
+   "start": 205.95,
+   "end": 206.11
+  },
+  {
+   "w": "se",
+   "start": 206.15,
+   "end": 206.19
+  },
+  {
+   "w": "você",
+   "start": 206.27,
+   "end": 206.59
+  },
+  {
+   "w": "já",
+   "start": 206.67,
+   "end": 206.83
+  },
+  {
+   "w": "é",
+   "start": 206.91,
+   "end": 206.99
+  },
+  {
+   "w": "monetizado,",
+   "start": 207.07,
+   "end": 207.95
+  },
+  {
+   "w": "atenção!",
+   "start": 208.19,
+   "end": 208.87
+  },
+  {
+   "w": "Tem",
+   "start": 209.07,
+   "end": 209.23
+  },
+  {
+   "w": "que",
+   "start": 209.27,
+   "end": 209.31
+  },
+  {
+   "w": "aceitar",
+   "start": 209.39,
+   "end": 209.71
+  },
+  {
+   "w": "os",
+   "start": 209.79,
+   "end": 209.87
+  },
+  {
+   "w": "termos",
+   "start": 209.95,
+   "end": 210.27
+  },
+  {
+   "w": "novos",
+   "start": 210.35,
+   "end": 210.67
+  },
+  {
+   "w": "até",
+   "start": 210.79,
+   "end": 210.99
+  },
+  {
+   "w": "trinta",
+   "start": 211.07,
+   "end": 211.39
+  },
+  {
+   "w": "e",
+   "start": 211.43,
+   "end": 211.47
+  },
+  {
+   "w": "um",
+   "start": 211.55,
+   "end": 211.59
+  },
+  {
+   "w": "de",
+   "start": 211.63,
+   "end": 211.71
+  },
+  {
+   "w": "janeiro.",
+   "start": 211.79,
+   "end": 212.27
+  },
+  {
+   "w": "No",
+   "start": 212.75,
+   "end": 212.83
+  },
+  {
+   "w": "YouTube",
+   "start": 212.99,
+   "end": 213.15
+  },
+  {
+   "w": "Studio,",
+   "start": 213.23,
+   "end": 213.79
+  },
+  {
+   "w": "procure",
+   "start": 213.91,
+   "end": 214.11
+  },
+  {
+   "w": "o",
+   "start": 214.19,
+   "end": 214.23
+  },
+  {
+   "w": "aviso",
+   "start": 214.27,
+   "end": 214.59
+  },
+  {
+   "w": "no",
+   "start": 214.67,
+   "end": 214.75
+  },
+  {
+   "w": "painel",
+   "start": 214.91,
+   "end": 215.31
+  },
+  {
+   "w": "ou",
+   "start": 215.39,
+   "end": 215.47
+  },
+  {
+   "w": "na",
+   "start": 215.55,
+   "end": 215.63
+  },
+  {
+   "w": "guia",
+   "start": 215.71,
+   "end": 215.95
+  },
+  {
+   "w": "Ganhos.",
+   "start": 216.03,
+   "end": 216.91
+  },
+  {
+   "w": "Clique",
+   "start": 216.95,
+   "end": 217.23
+  },
+  {
+   "w": "em",
+   "start": 217.27,
+   "end": 217.31
+  },
+  {
+   "w": "revisar",
+   "start": 217.39,
+   "end": 217.95
+  },
+  {
+   "w": "em",
+   "start": 218.03,
+   "end": 218.19
+  },
+  {
+   "w": "cada",
+   "start": 218.27,
+   "end": 218.43
+  },
+  {
+   "w": "módulo,",
+   "start": 218.51,
+   "end": 219.23
+  },
+  {
+   "w": "marque",
+   "start": 219.31,
+   "end": 219.47
+  },
+  {
+   "w": "a",
+   "start": 219.55,
+   "end": 219.59
+  },
+  {
+   "w": "caixa,",
+   "start": 219.63,
+   "end": 220.27
+  },
+  {
+   "w": "avançar,",
+   "start": 220.43,
+   "end": 221.15
+  },
+  {
+   "w": "e",
+   "start": 221.19,
+   "end": 221.23
+  },
+  {
+   "w": "no",
+   "start": 221.31,
+   "end": 221.47
+  },
+  {
+   "w": "fim,",
+   "start": 221.523,
+   "end": 221.87
+  },
+  {
+   "w": "enviar.",
+   "start": 221.99,
+   "end": 222.91
+  },
+  {
+   "w": "Se",
+   "start": 222.95,
+   "end": 222.99
+  },
+  {
+   "w": "não",
+   "start": 223.07,
+   "end": 223.15
+  },
+  {
+   "w": "aceitar,",
+   "start": 223.27,
+   "end": 223.87
+  },
+  {
+   "w": "a",
+   "start": 223.91,
+   "end": 223.95
+  },
+  {
+   "w": "monetização",
+   "start": 224.03,
+   "end": 224.59
+  },
+  {
+   "w": "desses",
+   "start": 224.67,
+   "end": 224.91
+  },
+  {
+   "w": "recursos",
+   "start": 225.03,
+   "end": 225.47
+  },
+  {
+   "w": "para",
+   "start": 225.55,
+   "end": 225.71
+  },
+  {
+   "w": "em",
+   "start": 225.79,
+   "end": 225.87
+  },
+  {
+   "w": "primeiro",
+   "start": 226.03,
+   "end": 226.27
+  },
+  {
+   "w": "de",
+   "start": 226.35,
+   "end": 226.43
+  },
+  {
+   "w": "fevereiro.",
+   "start": 226.51,
+   "end": 227.23
+  },
+  {
+   "w": "E",
+   "start": 227.5,
+   "end": 227.58
+  },
+  {
+   "w": "uma",
+   "start": 227.66,
+   "end": 227.74
+  },
+  {
+   "w": "dica",
+   "start": 227.82,
+   "end": 228.14
+  },
+  {
+   "w": "pra",
+   "start": 228.22,
+   "end": 228.3
+  },
+  {
+   "w": "quem",
+   "start": 228.38,
+   "end": 228.54
+  },
+  {
+   "w": "ainda",
+   "start": 228.66,
+   "end": 228.94
+  },
+  {
+   "w": "não",
+   "start": 229.02,
+   "end": 229.18
+  },
+  {
+   "w": "chegou",
+   "start": 229.26,
+   "end": 229.5
+  },
+  {
+   "w": "lá.",
+   "start": 229.58,
+   "end": 229.82
+  },
+  {
+   "w": "Na",
+   "start": 230.22,
+   "end": 230.38
+  },
+  {
+   "w": "área",
+   "start": 230.42,
+   "end": 230.62
+  },
+  {
+   "w": "Monetização",
+   "start": 230.7,
+   "end": 231.42
+  },
+  {
+   "w": "do",
+   "start": 231.5,
+   "end": 231.58
+  },
+  {
+   "w": "YouTube",
+   "start": 231.74,
+   "end": 231.9
+  },
+  {
+   "w": "Studio,",
+   "start": 231.98,
+   "end": 232.54
+  },
+  {
+   "w": "tem",
+   "start": 232.62,
+   "end": 232.7
+  },
+  {
+   "w": "a",
+   "start": 232.727,
+   "end": 232.753
+  },
+  {
+   "w": "opção",
+   "start": 232.78,
+   "end": 233.18
+  },
+  {
+   "w": "receber",
+   "start": 233.26,
+   "end": 233.82
+  },
+  {
+   "w": "notificação.",
+   "start": 233.9,
+   "end": 234.7
+  },
+  {
+   "w": "O",
+   "start": 235.18,
+   "end": 235.26
+  },
+  {
+   "w": "YouTube",
+   "start": 235.42,
+   "end": 235.58
+  },
+  {
+   "w": "te",
+   "start": 235.66,
+   "end": 235.74
+  },
+  {
+   "w": "manda",
+   "start": 235.86,
+   "end": 235.98
+  },
+  {
+   "w": "um",
+   "start": 236.02,
+   "end": 236.06
+  },
+  {
+   "w": "e-mail",
+   "start": 236.1,
+   "end": 236.54
+  },
+  {
+   "w": "quando",
+   "start": 236.58,
+   "end": 236.78
+  },
+  {
+   "w": "você",
+   "start": 236.86,
+   "end": 237.02
+  },
+  {
+   "w": "bater",
+   "start": 237.06,
+   "end": 237.34
+  },
+  {
+   "w": "um",
+   "start": 237.38,
+   "end": 237.42
+  },
+  {
+   "w": "dos",
+   "start": 237.5,
+   "end": 237.58
+  },
+  {
+   "w": "requisitos.",
+   "start": 237.66,
+   "end": 238.46
+  },
+  {
+   "w": "Com",
+   "start": 238.62,
+   "end": 238.78
+  },
+  {
+   "w": "grandes",
+   "start": 238.86,
+   "end": 239.18
+  },
+  {
+   "w": "poderes,",
+   "start": 239.26,
+   "end": 239.9
+  },
+  {
+   "w": "vêm",
+   "start": 239.98,
+   "end": 240.22
+  },
+  {
+   "w": "grandes...",
+   "start": 240.38,
+   "end": 241.34
+  },
+  {
+   "w": "e-mails!",
+   "start": 241.38,
+   "end": 242.38
+  },
+  {
+   "w": "E",
+   "start": 242.65,
+   "end": 242.73
+  },
+  {
+   "w": "o",
+   "start": 242.757,
+   "end": 242.783
+  },
+  {
+   "w": "que",
+   "start": 242.81,
+   "end": 242.837
+  },
+  {
+   "w": "eu",
+   "start": 242.863,
+   "end": 242.89
+  },
+  {
+   "w": "vou",
+   "start": 242.93,
+   "end": 243.05
+  },
+  {
+   "w": "fazer",
+   "start": 243.09,
+   "end": 243.37
+  },
+  {
+   "w": "com",
+   "start": 243.45,
+   "end": 243.53
+  },
+  {
+   "w": "tudo",
+   "start": 243.61,
+   "end": 243.85
+  },
+  {
+   "w": "isso?",
+   "start": 243.93,
+   "end": 244.25
+  },
+  {
+   "w": "Meu",
+   "start": 244.65,
+   "end": 244.81
+  },
+  {
+   "w": "plano",
+   "start": 244.89,
+   "end": 245.13
+  },
+  {
+   "w": "tem",
+   "start": 245.21,
+   "end": 245.45
+  },
+  {
+   "w": "três",
+   "start": 245.53,
+   "end": 245.69
+  },
+  {
+   "w": "passos.",
+   "start": 245.77,
+   "end": 246.33
+  },
+  {
+   "w": "Um:",
+   "start": 246.73,
+   "end": 247.37
+  },
+  {
+   "w": "mirar",
+   "start": 247.49,
+   "end": 247.69
+  },
+  {
+   "w": "nos",
+   "start": 247.81,
+   "end": 247.93
+  },
+  {
+   "w": "quinhentos",
+   "start": 248.01,
+   "end": 248.49
+  },
+  {
+   "w": "inscritos",
+   "start": 248.57,
+   "end": 249.05
+  },
+  {
+   "w": "primeiro,",
+   "start": 249.13,
+   "end": 249.69
+  },
+  {
+   "w": "não",
+   "start": 249.77,
+   "end": 249.85
+  },
+  {
+   "w": "nos",
+   "start": 249.93,
+   "end": 250.09
+  },
+  {
+   "w": "mil.",
+   "start": 250.21,
+   "end": 250.41
+  },
+  {
+   "w": "Dois:",
+   "start": 250.89,
+   "end": 251.69
+  },
+  {
+   "w": "todo",
+   "start": 251.77,
+   "end": 252.01
+  },
+  {
+   "w": "Short",
+   "start": 252.09,
+   "end": 252.41
+  },
+  {
+   "w": "meu",
+   "start": 252.49,
+   "end": 252.65
+  },
+  {
+   "w": "vai",
+   "start": 252.73,
+   "end": 252.81
+  },
+  {
+   "w": "puxar",
+   "start": 252.89,
+   "end": 253.13
+  },
+  {
+   "w": "pra",
+   "start": 253.17,
+   "end": 253.21
+  },
+  {
+   "w": "um",
+   "start": 253.29,
+   "end": 253.33
+  },
+  {
+   "w": "vídeo",
+   "start": 253.37,
+   "end": 253.61
+  },
+  {
+   "w": "longo.",
+   "start": 253.77,
+   "end": 254.09
+  },
+  {
+   "w": "Três:",
+   "start": 254.49,
+   "end": 255.29
+  },
+  {
+   "w": "parar",
+   "start": 255.41,
+   "end": 255.61
+  },
+  {
+   "w": "de",
+   "start": 255.65,
+   "end": 255.69
+  },
+  {
+   "w": "acreditar",
+   "start": 255.77,
+   "end": 256.17
+  },
+  {
+   "w": "no",
+   "start": 256.25,
+   "end": 256.33
+  },
+  {
+   "w": "famoso",
+   "start": 256.37,
+   "end": 256.81
+  },
+  {
+   "w": "só",
+   "start": 257.05,
+   "end": 257.21
+  },
+  {
+   "w": "continue",
+   "start": 257.29,
+   "end": 257.77
+  },
+  {
+   "w": "postando.",
+   "start": 257.85,
+   "end": 258.49
+  },
+  {
+   "w": "Postar",
+   "start": 258.89,
+   "end": 259.21
+  },
+  {
+   "w": "sem",
+   "start": 259.33,
+   "end": 259.45
+  },
+  {
+   "w": "plano",
+   "start": 259.53,
+   "end": 259.85
+  },
+  {
+   "w": "é",
+   "start": 259.93,
+   "end": 260.01
+  },
+  {
+   "w": "igual",
+   "start": 260.09,
+   "end": 260.25
+  },
+  {
+   "w": "o",
+   "start": 260.29,
+   "end": 260.33
+  },
+  {
+   "w": "Goku",
+   "start": 260.37,
+   "end": 260.73
+  },
+  {
+   "w": "em",
+   "start": 260.77,
+   "end": 260.81
+  },
+  {
+   "w": "reunião",
+   "start": 260.85,
+   "end": 261.13
+  },
+  {
+   "w": "de",
+   "start": 261.21,
+   "end": 261.29
+  },
+  {
+   "w": "pais:",
+   "start": 261.49,
+   "end": 261.93
+  },
+  {
+   "w": "tá",
+   "start": 262.01,
+   "end": 262.09
+  },
+  {
+   "w": "lá,",
+   "start": 262.21,
+   "end": 262.57
+  },
+  {
+   "w": "mas",
+   "start": 262.73,
+   "end": 262.89
+  },
+  {
+   "w": "totalmente",
+   "start": 262.97,
+   "end": 263.61
+  },
+  {
+   "w": "perdido.",
+   "start": 263.69,
+   "end": 264.41
+  },
+  {
+   "w": "E",
+   "start": 264.65,
+   "end": 264.69
+  },
+  {
+   "w": "os",
+   "start": 264.73,
+   "end": 264.81
+  },
+  {
+   "w": "números,",
+   "start": 264.89,
+   "end": 265.53
+  },
+  {
+   "w": "eu",
+   "start": 265.57,
+   "end": 265.61
+  },
+  {
+   "w": "mostro",
+   "start": 265.69,
+   "end": 265.93
+  },
+  {
+   "w": "aqui,",
+   "start": 265.97,
+   "end": 266.41
+  },
+  {
+   "w": "sem",
+   "start": 266.57,
+   "end": 266.73
+  },
+  {
+   "w": "maquiagem.",
+   "start": 266.81,
+   "end": 267.61
+  },
+  {
+   "w": "Resumindo!",
+   "start": 267.88,
+   "end": 268.6
+  },
+  {
+   "w": "A",
+   "start": 268.92,
+   "end": 269
+  },
+  {
+   "w": "meta",
+   "start": 269.08,
+   "end": 269.32
+  },
+  {
+   "w": "pra",
+   "start": 269.4,
+   "end": 269.48
+  },
+  {
+   "w": "monetizar",
+   "start": 269.56,
+   "end": 270.04
+  },
+  {
+   "w": "dobra",
+   "start": 270.28,
+   "end": 270.6
+  },
+  {
+   "w": "em",
+   "start": 270.64,
+   "end": 270.68
+  },
+  {
+   "w": "fevereiro:",
+   "start": 270.76,
+   "end": 271.56
+  },
+  {
+   "w": "oito",
+   "start": 271.6,
+   "end": 271.8
+  },
+  {
+   "w": "mil",
+   "start": 271.88,
+   "end": 272.04
+  },
+  {
+   "w": "horas,",
+   "start": 272.12,
+   "end": 272.68
+  },
+  {
+   "w": "ou",
+   "start": 272.76,
+   "end": 272.84
+  },
+  {
+   "w": "vinte",
+   "start": 273,
+   "end": 273.24
+  },
+  {
+   "w": "milhões",
+   "start": 273.32,
+   "end": 273.64
+  },
+  {
+   "w": "de",
+   "start": 273.68,
+   "end": 273.72
+  },
+  {
+   "w": "Shorts,",
+   "start": 273.8,
+   "end": 274.28
+  },
+  {
+   "w": "com",
+   "start": 274.36,
+   "end": 274.44
+  },
+  {
+   "w": "mil",
+   "start": 274.52,
+   "end": 274.68
+  },
+  {
+   "w": "inscritos.",
+   "start": 274.8,
+   "end": 275.4
+  },
+  {
+   "w": "Os",
+   "start": 275.8,
+   "end": 275.88
+  },
+  {
+   "w": "quinhentos",
+   "start": 275.96,
+   "end": 276.2
+  },
+  {
+   "w": "inscritos",
+   "start": 276.28,
+   "end": 276.76
+  },
+  {
+   "w": "continuam",
+   "start": 276.84,
+   "end": 277.32
+  },
+  {
+   "w": "abrindo",
+   "start": 277.4,
+   "end": 277.72
+  },
+  {
+   "w": "fãs,",
+   "start": 277.8,
+   "end": 278.28
+  },
+  {
+   "w": "parcerias",
+   "start": 278.36,
+   "end": 279
+  },
+  {
+   "w": "e",
+   "start": 279.08,
+   "end": 279.16
+  },
+  {
+   "w": "Shopping.",
+   "start": 279.24,
+   "end": 279.72
+  },
+  {
+   "w": "Hora",
+   "start": 280.12,
+   "end": 280.28
+  },
+  {
+   "w": "do",
+   "start": 280.32,
+   "end": 280.36
+  },
+  {
+   "w": "feed",
+   "start": 280.44,
+   "end": 280.6
+  },
+  {
+   "w": "de",
+   "start": 280.68,
+   "end": 280.76
+  },
+  {
+   "w": "Shorts",
+   "start": 280.92,
+   "end": 281.16
+  },
+  {
+   "w": "não",
+   "start": 281.32,
+   "end": 281.4
+  },
+  {
+   "w": "conta.",
+   "start": 281.56,
+   "end": 281.96
+  },
+  {
+   "w": "E",
+   "start": 282.28,
+   "end": 282.36
+  },
+  {
+   "w": "quem",
+   "start": 282.4,
+   "end": 282.52
+  },
+  {
+   "w": "já",
+   "start": 282.56,
+   "end": 282.64
+  },
+  {
+   "w": "é",
+   "start": 282.68,
+   "end": 282.76
+  },
+  {
+   "w": "parceiro",
+   "start": 282.88,
+   "end": 283.32
+  },
+  {
+   "w": "aceita",
+   "start": 283.48,
+   "end": 283.8
+  },
+  {
+   "w": "os",
+   "start": 283.84,
+   "end": 283.88
+  },
+  {
+   "w": "termos",
+   "start": 283.96,
+   "end": 284.28
+  },
+  {
+   "w": "até",
+   "start": 284.36,
+   "end": 284.52
+  },
+  {
+   "w": "trinta",
+   "start": 284.6,
+   "end": 284.84
+  },
+  {
+   "w": "e",
+   "start": 284.92,
+   "end": 284.96
+  },
+  {
+   "w": "um",
+   "start": 285,
+   "end": 285.04
+  },
+  {
+   "w": "de",
+   "start": 285.08,
+   "end": 285.16
+  },
+  {
+   "w": "janeiro.",
+   "start": 285.24,
+   "end": 285.96
+  },
+  {
+   "w": "Os",
+   "start": 286.04,
+   "end": 286.12
+  },
+  {
+   "w": "links",
+   "start": 286.24,
+   "end": 286.36
+  },
+  {
+   "w": "oficiais",
+   "start": 286.44,
+   "end": 286.92
+  },
+  {
+   "w": "estão",
+   "start": 287,
+   "end": 287.16
+  },
+  {
+   "w": "na",
+   "start": 287.2,
+   "end": 287.24
+  },
+  {
+   "w": "descrição.",
+   "start": 287.32,
+   "end": 288.04
+  },
+  {
+   "w": "E",
+   "start": 288.31,
+   "end": 288.39
+  },
+  {
+   "w": "se",
+   "start": 288.43,
+   "end": 288.47
+  },
+  {
+   "w": "você",
+   "start": 288.55,
+   "end": 288.71
+  },
+  {
+   "w": "quer",
+   "start": 288.79,
+   "end": 288.95
+  },
+  {
+   "w": "ver",
+   "start": 289.07,
+   "end": 289.19
+  },
+  {
+   "w": "como",
+   "start": 289.27,
+   "end": 289.35
+  },
+  {
+   "w": "eu",
+   "start": 289.39,
+   "end": 289.43
+  },
+  {
+   "w": "tô",
+   "start": 289.47,
+   "end": 289.59
+  },
+  {
+   "w": "tentando",
+   "start": 289.75,
+   "end": 290.15
+  },
+  {
+   "w": "sair",
+   "start": 290.23,
+   "end": 290.47
+  },
+  {
+   "w": "das",
+   "start": 290.59,
+   "end": 290.71
+  },
+  {
+   "w": "dezenas",
+   "start": 290.87,
+   "end": 291.35
+  },
+  {
+   "w": "de",
+   "start": 291.43,
+   "end": 291.51
+  },
+  {
+   "w": "views,",
+   "start": 291.59,
+   "end": 292.15
+  },
+  {
+   "w": "o",
+   "start": 292.23,
+   "end": 292.31
+  },
+  {
+   "w": "próximo",
+   "start": 292.35,
+   "end": 292.71
+  },
+  {
+   "w": "vídeo",
+   "start": 292.79,
+   "end": 293.03
+  },
+  {
+   "w": "tá",
+   "start": 293.11,
+   "end": 293.19
+  },
+  {
+   "w": "aqui",
+   "start": 293.27,
+   "end": 293.43
+  },
+  {
+   "w": "do",
+   "start": 293.47,
+   "end": 293.51
+  },
+  {
+   "w": "lado.",
+   "start": 293.59,
+   "end": 294.15
+  },
+  {
+   "w": "Clica",
+   "start": 294.23,
+   "end": 294.39
+  },
+  {
+   "w": "nele",
+   "start": 294.43,
+   "end": 294.55
+  },
+  {
+   "w": "agora!",
+   "start": 294.63,
+   "end": 295.35
+  }
+ ]
+}

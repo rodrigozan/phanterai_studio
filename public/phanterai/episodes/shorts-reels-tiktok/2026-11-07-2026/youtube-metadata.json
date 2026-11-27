@@ -1,0 +1,31 @@
+{
+  "slug": "2026-11-07-2026",
+  "title": "Anthropic Scion: o controle de versão interno criado para agentes de IA",
+  "description": "Anthropic Scion: o controle de versão interno que a Anthropic criou quando o Git não deu conta do código dos agentes de IA.\n\nSegundo a Anthropic, os merges por dia foram de cerca de 2.500 em maio para mais de 30 mil em setembro de 2026. Sete pessoas construíram o Scion e migraram o monorepo em cinco meses. A infraestrutura ficou 200 vezes menor, e o checkout para teste passou de minutos para segundos.\n\nAtenção: o Scion é interno. Não dá para baixar, e a própria Anthropic diz que ele não substitui o Git no uso geral. Todos os números são da Anthropic, sem teste independente.\n\nOpinião da PhanterAI: quando a IA acelera uma parte do trabalho, o gargalo muda de lugar. Onde está o seu? Conta aí nos comentários.\n\nFonte: Anthropic Engineering, \"Redesigning source control at Anthropic\", 13/10/2026: https://www.anthropic.com/engineering/redesigning-source-control\n\n#Shorts #Anthropic #Scion",
+  "tags": [
+    "Anthropic Scion",
+    "Scion Anthropic",
+    "Anthropic Scion Git",
+    "Scion Git",
+    "Anthropic Git",
+    "controle de versão",
+    "controle de versão git",
+    "agentes de IA",
+    "Git",
+    "Anthropic",
+    "Claude",
+    "monorepo",
+    "IA para programação",
+    "notícias de IA"
+  ],
+  "searchTerms": [
+    "Anthropic Scion",
+    "Anthropic Scion Git",
+    "agentes de IA"
+  ],
+  "thumbnailBrief": "Texto exato: \"GIT NÃO DEU CONTA\" (4 palavras). Elemento visual único: a barra magenta de merges da C02 estourando o quadro, com o rótulo 30.000+ e a pantera `apontando` para ela; sem logo, arte ou print da Anthropic. Fundo #080810, barra em gradiente #B0179F→#FF1FBF, texto #F8FAFC em Sora 800, alto contraste e legível em miniatura. Não repetir o título, não escrever \"substitui o Git\" nem sugerir que dá para baixar. Produzir thumbnail.png 1280x720 e capa vertical 1080x1920 com texto e pantera na área central 1080x1350, longe dos controles.",
+  "sources": [
+    "https://www.anthropic.com/engineering/redesigning-source-control"
+  ],
+  "author": "jason-david-frank"
+}

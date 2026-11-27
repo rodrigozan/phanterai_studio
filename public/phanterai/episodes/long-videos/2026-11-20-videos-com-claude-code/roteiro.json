@@ -1,0 +1,826 @@
+{
+  "slug": "2026-11-20-videos-com-claude-code",
+  "titulo": "Crie vídeos só conversando com o Claude Code (Remotion)",
+  "fontes": [
+    "https://www.remotion.dev/docs/ai/claude-code",
+    "https://www.remotion.dev/docs/ai/skills",
+    "https://www.remotion.dev/docs/",
+    "https://www.remotion.dev/docs/license/pricing",
+    "https://code.claude.com/docs/en/setup",
+    "https://nodejs.org/en/download"
+  ],
+  "cenas": [
+    {
+      "id": "C01",
+      "tipo": "gancho-video",
+      "fala": "Esquece editor de vídeo. Agora dá para criar vídeos animados só conversando com a inteligência artificial. Você escreve o que quer, em português, e o Claude Code monta o vídeo inteiro: texto animado, cenas, música e legenda. Hoje eu te mostro tudo, do zero, tela por tela.",
+      "dados": {
+        "bg": "pexels/edicao.mp4",
+        "l1": "Vídeos com IA",
+        "l2": "só conversando",
+        "pilulas": [
+          {
+            "ao": "português",
+            "txt": "Você pede em português",
+            "cor": "verde"
+          },
+          {
+            "ao": "inteiro",
+            "txt": "texto · cenas · música · legenda",
+            "cor": "violeta"
+          },
+          {
+            "ao": "tela",
+            "txt": "Windows · Mac · Linux",
+            "cor": "escuro"
+          }
+        ]
+      },
+      "pose": "surpresa"
+    },
+    {
+      "id": "C02",
+      "tipo": "cartoes",
+      "fala": "O segredo é juntar duas ferramentas. A primeira é o Claude Code, o agente de programação da Anthropic, que escreve e roda código para você. A segunda é o Remotion, que transforma código em vídeo de verdade, em MP4. E, para quem cria sozinho, o Remotion é grátis.",
+      "dados": {
+        "bg": "pexels/codigo.mp4",
+        "titulo": "Duas ferramentas",
+        "cols": 1,
+        "w": 1300,
+        "itens": [
+          {
+            "ao": "primeira",
+            "t": "Claude Code",
+            "sub": "escreve e roda o código para você",
+            "icone": "✻",
+            "cor": "laranja"
+          },
+          {
+            "ao": "segunda",
+            "t": "Remotion",
+            "sub": "transforma código em vídeo MP4",
+            "icone": "▶",
+            "cor": "ciano"
+          }
+        ],
+        "pilula": {
+          "ao": "grátis",
+          "txt": "Remotion: grátis para quem cria sozinho",
+          "cor": "verde",
+          "sfx": "coin"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C03",
+      "tipo": "fluxo",
+      "fala": "Funciona assim: você pede, por exemplo, faça um vídeo de quinze segundos apresentando a minha loja. O Claude Code cria as cenas em código. Você assiste à prévia no navegador, pede ajustes, e no final exporta o arquivo pronto.",
+      "dados": {
+        "titulo": "Como funciona",
+        "etapas": [
+          {
+            "ao": "pede",
+            "t": "Você pede",
+            "sub": "em português"
+          },
+          {
+            "ao": "cria",
+            "t": "Claude cria",
+            "sub": "as cenas em código"
+          },
+          {
+            "ao": "prévia",
+            "t": "Prévia",
+            "sub": "no navegador"
+          },
+          {
+            "ao": "exporta",
+            "t": "Exporta",
+            "sub": "o MP4 pronto"
+          }
+        ]
+      },
+      "pose": "pensando",
+      "pantera": false
+    },
+    {
+      "id": "C04",
+      "tipo": "cartoes",
+      "fala": "Com isso você cria vinheta para o seu canal, vídeo de produto, gráfico animado com os seus números, e até Reels e Shorts no formato vertical. E dá para ir além: montar uma fábrica que gera vídeos em série, todo dia. Se você quer aprender a montar essa fábrica, comenta fábrica de vídeos aqui embaixo. Se tiver demanda, eu faço esse vídeo.",
+      "dados": {
+        "bg": "pexels/criador.mp4",
+        "titulo": "O que dá pra criar",
+        "cols": 2,
+        "itens": [
+          {
+            "ao": "vinheta",
+            "t": "Vinheta",
+            "sub": "abertura do seu canal"
+          },
+          {
+            "ao": "produto",
+            "t": "Vídeo de produto",
+            "sub": "para vender mais"
+          },
+          {
+            "ao": "gráfico",
+            "t": "Gráfico animado",
+            "sub": "com os seus números"
+          },
+          {
+            "ao": "Reels",
+            "t": "Reels e Shorts",
+            "sub": "no formato vertical"
+          }
+        ],
+        "pilula": {
+          "ao": "comenta",
+          "txt": "Comente: Fábrica de Vídeos",
+          "cor": "ouro",
+          "sfx": "coin"
+        }
+      },
+      "pose": "comemorando"
+    },
+    {
+      "id": "C05",
+      "tipo": "cta",
+      "fala": "Antes de começar, um pedido rápido. Se esse vídeo já está te ajudando, deixa o like e se inscreve no Aprenda YouTube. É assim que eu continuo trazendo tutorial de inteligência artificial, passo a passo, de graça.",
+      "dados": {
+        "bg": "pexels/comemora.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "tipo": "cartoes",
+      "fala": "O plano tem quatro passos. Um: instalar o Node, que é o motor que roda o Remotion. Dois: instalar o Claude Code. Três: criar o projeto de vídeo, já com as skills do Remotion. Quatro: pedir o vídeo em português e exportar.",
+      "dados": {
+        "bg": "pexels/foto-mesa.jpg",
+        "titulo": "O plano em 4 passos",
+        "cols": 1,
+        "w": 1300,
+        "numerar": true,
+        "itens": [
+          {
+            "ao": "Um",
+            "t": "Instalar o Node",
+            "sub": "o motor que roda o Remotion",
+            "cor": "verde"
+          },
+          {
+            "ao": "Dois",
+            "t": "Instalar o Claude Code",
+            "sub": "o agente que escreve o código",
+            "cor": "laranja"
+          },
+          {
+            "ao": "Três",
+            "t": "Criar o projeto de vídeo",
+            "sub": "com as skills do Remotion",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Quatro#2",
+            "t": "Pedir e exportar",
+            "sub": "em português, até o MP4",
+            "cor": "ouro"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C07",
+      "tipo": "cartoes",
+      "fala": "O que você precisa? Um computador com Windows, Mac ou Linux. O Node, que a gente instala agora. E uma conta do Claude no plano Pro ou superior, porque o Claude Code faz parte da assinatura. E não precisa saber programar: quem escreve o código é ele.",
+      "dados": {
+        "bg": "pexels/setup.mp4",
+        "titulo": "O que você precisa",
+        "cols": 2,
+        "itens": [
+          {
+            "ao": "Windows",
+            "t": "Windows, Mac ou Linux",
+            "sub": "qualquer um dos três",
+            "icone": "▣",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Node",
+            "t": "Node.js (LTS)",
+            "sub": "a gente instala agora",
+            "icone": "⬢",
+            "cor": "verde"
+          },
+          {
+            "ao": "Pro",
+            "t": "Claude Pro ou superior",
+            "sub": "o Claude Code vem na assinatura",
+            "icone": "✻",
+            "cor": "laranja"
+          },
+          {
+            "ao": "programar",
+            "t": "Sem saber programar",
+            "sub": "quem escreve o código é ele",
+            "icone": "✓",
+            "cor": "ouro"
+          }
+        ]
+      },
+      "pose": "pensando"
+    },
+    {
+      "id": "C08",
+      "tipo": "navegador-print",
+      "fala": "Passo um. Abra o navegador e entre em nodejs ponto org, barra download. O site já reconhece o seu sistema. Baixe a versão LTS, que é a versão estável. No Windows, clique em Windows Installer. No Mac, o botão é o macOS Installer.",
+      "dados": {
+        "url": "nodejs.org/en/download",
+        "selo": "Passo 1: Node.js",
+        "digitar": {
+          "ao": "entre"
+        },
+        "telas": [
+          {
+            "ao": "entre",
+            "arq": "node-download-windows.png"
+          },
+          {
+            "ao": "Mac",
+            "arq": "node-download-mac.png"
+          }
+        ],
+        "destaque": {
+          "ao": "LTS",
+          "x": 190,
+          "y": 80,
+          "w": 140,
+          "h": 26
+        },
+        "cliques": [
+          {
+            "ao": "Windows#2",
+            "x": 384,
+            "y": 726,
+            "chip": "node-v26.13.1-x64.msi"
+          },
+          {
+            "ao": "macOS",
+            "x": 384,
+            "y": 726,
+            "chip": "node-v26.13.1.pkg"
+          }
+        ],
+        "zoom": {
+          "z": 1.35,
+          "vx": 60,
+          "vy": 30
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C09",
+      "tipo": "instalador-assistente",
+      "fala": "Abra o arquivo que você baixou e vá clicando em Next, ou Continuar no Mac, até o final. É o instalador padrão, sem nenhuma configuração especial.",
+      "dados": {
+        "nome": "Node.js Setup",
+        "titulo": "Instalar o Node.js",
+        "sub": "O ambiente que roda o Remotion no seu computador.",
+        "b": {
+          "ao": "Next"
+        },
+        "c": {
+          "ao": "final"
+        },
+        "selo": "Node.js instalado"
+      },
+      "pose": "comemorando",
+      "pantera": false
+    },
+    {
+      "id": "C10",
+      "tipo": "terminal",
+      "fala": "No Linux, a própria página do Node mostra os comandos prontos. Primeiro, um comando instala o ene vê eme, o gerenciador de versões. Depois, digite: ene vê eme install vinte e seis.",
+      "dados": {
+        "titulo": "Linux · Terminal",
+        "rotulo": "LINUX",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash",
+            "ao": "instala",
+            "cpf": 1.6
+          },
+          {
+            "t": "dim",
+            "text": "=> nvm instalado"
+          },
+          {
+            "t": "cmd",
+            "text": "\\. \"$HOME/.nvm/nvm.sh\"",
+            "cpf": 1.2
+          },
+          {
+            "t": "cmd",
+            "text": "nvm install 26",
+            "ao": "digite"
+          },
+          {
+            "t": "dim",
+            "text": "Downloading and installing node v26.13.1..."
+          },
+          {
+            "t": "ok",
+            "text": "Now using node v26.13.1 (npm v11.20.0)"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C11",
+      "tipo": "terminal",
+      "fala": "Para conferir, abra um terminal novo e digite node, espaço, traço v. Se aparecer vinte e seis e mais um número, o passo um está pronto.",
+      "dados": {
+        "titulo": "Terminal",
+        "size": 44,
+        "h": 420,
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "node -v",
+            "ao": "digite"
+          },
+          {
+            "t": "ok",
+            "text": "v26.13.1",
+            "ao": "aparecer"
+          }
+        ],
+        "selo": {
+          "ao": "pronto",
+          "txt": "Passo 1 pronto"
+        }
+      },
+      "pose": "comemorando",
+      "pantera": false
+    },
+    {
+      "id": "C12",
+      "tipo": "terminais-claude",
+      "fala": "Passo dois: instalar o Claude Code. No Windows, abra o PowerShell e cole este comando. No Mac e no Linux, abra o terminal e cole este outro. O instalador não mostra progresso, então espere ele terminar.",
+      "dados": {
+        "win": {
+          "ao": "PowerShell"
+        },
+        "mac": {
+          "ao": "Mac"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C13",
+      "tipo": "terminal-versao-claude",
+      "fala": "Quando terminar, feche o terminal e abra de novo. Digite claude, dois traços, version. Apareceu a versão? Está instalado. Se o terminal disser que não achou o comando, feche e abra mais uma vez. A página de instalação explica como ajustar o caminho.",
+      "dados": {
+        "t": {
+          "ao": "Digite"
+        },
+        "ok": {
+          "ao": "Apareceu"
+        },
+        "err": {
+          "ao": "disser"
+        },
+        "fix": {
+          "ao": "explica"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C14",
+      "tipo": "terminal",
+      "fala": "Na primeira vez, digite só claude e faça login com a sua conta, no navegador. Passo três: o projeto de vídeo. No terminal, digite: ene pê xis, create video, dois traços yes, dois traços blank, meu vídeo. Esse comando cria um projeto do Remotion em branco, na pasta meu vídeo.",
+      "dados": {
+        "titulo": "Terminal",
+        "rotulo": "PASSO 3: PROJETO DE VÍDEO",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "claude",
+            "ao": "só"
+          },
+          {
+            "t": "dim",
+            "text": "Abrindo o navegador para o login…"
+          },
+          {
+            "t": "ok",
+            "text": "✔ Login feito"
+          },
+          {
+            "t": "cmd",
+            "text": "npx create-video --yes --blank meu-video",
+            "ao": "digite#2"
+          },
+          {
+            "t": "out",
+            "text": "Welcome to Remotion!"
+          },
+          {
+            "t": "dim",
+            "text": "Installing dependencies..."
+          },
+          {
+            "t": "ok",
+            "text": "✔ Projeto criado em ./meu-video",
+            "ao": "cria"
+          }
+        ]
+      },
+      "pantera": false
+    },
+    {
+      "id": "C15",
+      "tipo": "terminal",
+      "fala": "Agora entre na pasta, com cd meu vídeo, e instale as skills do Remotion: ene pê xis, remotion skills add. As skills são o manual de boas práticas do Remotion para o Claude. Com elas, ele já sabe animar texto, colocar áudio, legenda e exportar.",
+      "dados": {
+        "titulo": "Terminal",
+        "rotulo": "SKILLS DO REMOTION",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "cd meu-video",
+            "ao": "entre"
+          },
+          {
+            "t": "cmd",
+            "text": "npx remotion skills add",
+            "ao": "instale"
+          },
+          {
+            "t": "dim",
+            "text": "◇  Found 13 skills"
+          },
+          {
+            "t": "dim",
+            "text": "●  Installing all 13 skills"
+          },
+          {
+            "t": "ok",
+            "text": "└  Done!",
+            "ao": "manual"
+          }
+        ],
+        "selo": {
+          "ao": "manual",
+          "txt": "O manual do Remotion para o Claude"
+        }
+      },
+      "pose": "apontando"
+    },
+    {
+      "id": "C16",
+      "tipo": "terminal",
+      "fala": "Depois, digite: ene pê eme, run dev. Isso abre o Remotion Studio no navegador, a tela onde você assiste à prévia do vídeo enquanto ele é criado.",
+      "dados": {
+        "titulo": "Terminal 1",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "npm run dev",
+            "ao": "digite"
+          },
+          {
+            "t": "dim",
+            "text": "> remotion studio"
+          },
+          {
+            "t": "ok",
+            "text": "Server ready - Local: http://localhost:3000",
+            "ao": "abre"
+          }
+        ],
+        "selo": {
+          "ao": "prévia",
+          "txt": "Remotion Studio aberto"
+        }
+      },
+      "pose": "feliz",
+      "pantera": false
+    },
+    {
+      "id": "C17",
+      "tipo": "terminal",
+      "fala": "Agora abra um segundo terminal, entre na mesma pasta e digite claude. Pronto: o Claude Code abre dentro do seu projeto de vídeo, já com as skills do Remotion.",
+      "dados": {
+        "titulo": "Terminal 2",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "cd meu-video",
+            "ao": "entre"
+          },
+          {
+            "t": "cmd",
+            "text": "claude",
+            "ao": "digite"
+          },
+          {
+            "t": "ok",
+            "text": "✻ Welcome to Claude Code!",
+            "ao": "Pronto"
+          },
+          {
+            "t": "dim",
+            "text": "  ~/meu-video · 13 skills do Remotion"
+          }
+        ],
+        "selo": {
+          "ao": "skills",
+          "txt": "Claude Code + skills"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C18",
+      "tipo": "claude-pedido",
+      "fala": "Vamos testar. Eu escrevo: crie um vídeo de quinze segundos, horizontal, apresentando o canal Aprenda YouTube, com título animado, três frases entrando uma por vez e um botão de inscreva-se no final. Antes de criar os arquivos, ele pede a sua permissão. Você lê e aprova.",
+      "dados": {
+        "pedido": "crie um vídeo de 15 segundos, horizontal, apresentando o canal Aprenda YouTube, com título animado, três frases entrando uma por vez e um botão de inscreva-se no final",
+        "a": {
+          "ao": "escrevo"
+        },
+        "acoes": [
+          {
+            "ao": "Antes",
+            "txt": "● Vou criar src/Apresentacao.tsx e registrar a composição."
+          }
+        ],
+        "perm": {
+          "ao": "permissão",
+          "pergunta": "Create file src/Apresentacao.tsx?"
+        },
+        "ok": {
+          "ao": "aprova",
+          "txt": "✔ Apresentacao.tsx criado · composição de 15 s registrada"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C19",
+      "tipo": "studio-preview",
+      "fala": "E olha a prévia no Studio. O título entra, as frases aparecem uma por vez, e o botão de inscrição chega no final. Tudo isso a partir de um pedido em português, sem abrir nenhum editor de vídeo.",
+      "dados": {
+        "titulo": {
+          "ao": "título"
+        },
+        "frases": [
+          {
+            "ao": "frases",
+            "txt": "Tutoriais de IA"
+          },
+          {
+            "ao": "uma",
+            "txt": "Passo a passo"
+          },
+          {
+            "ao": "vez",
+            "txt": "Toda semana"
+          }
+        ],
+        "botao": {
+          "ao": "botão"
+        },
+        "fim": {
+          "ao": "português"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C20",
+      "tipo": "claude-pedido",
+      "fala": "Não gostou de alguma coisa? É só pedir. Por exemplo: deixe o fundo roxo e use a música trilha ponto mp3, da pasta public. Ele muda só o que você pediu, e a prévia atualiza na hora.",
+      "dados": {
+        "pedido": "deixe o fundo roxo e use a música trilha.mp3 da pasta public",
+        "a": {
+          "ao": "exemplo"
+        },
+        "acoes": [
+          {
+            "ao": "muda",
+            "txt": "● Editando src/Apresentacao.tsx (fundo + <Audio>)"
+          }
+        ],
+        "ok": {
+          "ao": "atualiza",
+          "txt": "✔ Fundo roxo e trilha.mp3 aplicados"
+        }
+      },
+      "pantera": false
+    },
+    {
+      "id": "C21",
+      "tipo": "terminal",
+      "fala": "Para exportar, peça: renderize o vídeo em MP4. Ou rode você mesmo: ene pê xis, remotion render. O arquivo sai na pasta out, pronto para postar no YouTube, no Instagram ou no TikTok.",
+      "dados": {
+        "titulo": "Terminal",
+        "rotulo": "PASSO 4: EXPORTAR",
+        "linhas": [
+          {
+            "t": "cmd",
+            "text": "npx remotion render",
+            "ao": "rode"
+          },
+          {
+            "t": "dim",
+            "text": "Rendered 450/450 frames"
+          },
+          {
+            "t": "ok",
+            "text": "+ out/Apresentacao.mp4",
+            "ao": "out"
+          }
+        ],
+        "selo": {
+          "ao": "postar",
+          "txt": "MP4 pronto para postar"
+        }
+      },
+      "pose": "comemorando",
+      "pantera": false
+    },
+    {
+      "id": "C22",
+      "tipo": "cartoes",
+      "fala": "Três dicas para o vídeo sair melhor. Um: diga o formato e a duração, por exemplo, vertical, trinta segundos. Dois: peça uma cena de cada vez e ajuste antes de seguir. Três: coloque as suas imagens e músicas na pasta public e diga o nome do arquivo no pedido.",
+      "dados": {
+        "bg": "pexels/foto-ideia.jpg",
+        "titulo": "3 dicas de pedido",
+        "cols": 1,
+        "w": 1350,
+        "numerar": true,
+        "itens": [
+          {
+            "ao": "Um",
+            "t": "Diga formato e duração",
+            "sub": "ex.: vertical, 30 segundos",
+            "cor": "ciano"
+          },
+          {
+            "ao": "Dois",
+            "t": "Uma cena de cada vez",
+            "sub": "ajuste antes de seguir",
+            "cor": "verde"
+          },
+          {
+            "ao": "Três#2",
+            "t": "Seus arquivos na pasta public",
+            "sub": "e diga o nome no pedido",
+            "cor": "ouro"
+          }
+        ]
+      },
+      "pose": "apontando"
+    },
+    {
+      "id": "C23",
+      "tipo": "cartoes",
+      "fala": "E você pode chamar as skills pelo nome. Barra remotion create cria um vídeo novo. Barra remotion captions cuida das legendas. E barra remotion render exporta o arquivo.",
+      "dados": {
+        "titulo": "Skills pelo nome",
+        "cols": 1,
+        "w": 1300,
+        "mono": true,
+        "itens": [
+          {
+            "ao": "create",
+            "t": "/remotion-create",
+            "sub": "cria um vídeo novo",
+            "cor": "ciano"
+          },
+          {
+            "ao": "captions",
+            "t": "/remotion-captions",
+            "sub": "cuida das legendas",
+            "cor": "violeta"
+          },
+          {
+            "ao": "render",
+            "t": "/remotion-render",
+            "sub": "exporta o arquivo",
+            "cor": "verde"
+          }
+        ]
+      },
+      "pose": "feliz",
+      "pantera": false
+    },
+    {
+      "id": "C24",
+      "tipo": "cartoes",
+      "fala": "Alguns cuidados rápidos. O Claude Code precisa de um plano pago do Claude, o plano gratuito não inclui. O Remotion é grátis para pessoas e empresas de até três pessoas; empresa maior paga licença. E use só imagens e músicas que você tem direito de usar.",
+      "dados": {
+        "bg": "pexels/cadeado.mp4",
+        "titulo": "Cuidados rápidos",
+        "cols": 1,
+        "w": 1350,
+        "itens": [
+          {
+            "ao": "pago",
+            "t": "Claude Code: plano pago",
+            "sub": "Pro ou superior; o gratuito não inclui",
+            "icone": "1",
+            "cor": "laranja"
+          },
+          {
+            "ao": "grátis",
+            "t": "Remotion: grátis até 3 pessoas",
+            "sub": "empresa maior paga licença",
+            "icone": "2",
+            "cor": "ciano"
+          },
+          {
+            "ao": "direito",
+            "t": "Mídia com direito de uso",
+            "sub": "imagens e músicas",
+            "icone": "3",
+            "cor": "ouro"
+          }
+        ]
+      },
+      "pose": "pensando"
+    },
+    {
+      "id": "C25",
+      "tipo": "cartoes",
+      "fala": "Resumindo: instalou o Node, instalou o Claude Code, criou o projeto com as skills do Remotion e pediu o vídeo em português. O passo a passo completo, com todos os comandos, está no link da descrição.",
+      "dados": {
+        "bg": "pexels/teclado.mp4",
+        "titulo": "Resumo",
+        "cols": 2,
+        "check": true,
+        "itens": [
+          {
+            "ao": "Node",
+            "t": "Instalou o Node"
+          },
+          {
+            "ao": "Code",
+            "t": "Instalou o Claude Code"
+          },
+          {
+            "ao": "criou",
+            "t": "Criou o projeto + skills"
+          },
+          {
+            "ao": "pediu",
+            "t": "Pediu o vídeo"
+          }
+        ],
+        "pilula": {
+          "ao": "descrição",
+          "txt": "Passo a passo no link da descrição",
+          "cor": "ouro",
+          "sfx": "ding"
+        }
+      },
+      "pose": "comemorando"
+    },
+    {
+      "id": "C26",
+      "tipo": "cta-final",
+      "fala": "Se esse vídeo te ajudou, deixa o like, se inscreve no Aprenda YouTube e comenta fábrica de vídeos, se você quer o vídeo sobre gerar vídeos em série. E me conta: qual vídeo você vai criar primeiro? Até o próximo!",
+      "dados": {
+        "bg": "pexels/robo.mp4",
+        "like": {
+          "ao": "like"
+        },
+        "sub": {
+          "ao": "inscreve"
+        },
+        "guia": {
+          "ao": "fábrica"
+        },
+        "guiaTxt": "Comente: Fábrica de Vídeos",
+        "q": {
+          "ao": "qual"
+        },
+        "qTxt": "Qual vídeo você vai criar primeiro?"
+      }
+    }
+  ]
+}

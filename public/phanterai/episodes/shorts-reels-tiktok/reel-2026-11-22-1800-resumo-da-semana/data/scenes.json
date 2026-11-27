@@ -1,0 +1,499 @@
+{
+ "slug": "reel-2026-11-22-1800-resumo-da-semana",
+ "composicao": "ShortResumoSemana",
+ "musica": "phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.2)",
+ "panterinha": [
+  "surpresa 0–3,9 s",
+  "apontando no item 5 (US$ 81,3 bi)",
+  "comemorando no CTA"
+ ],
+ "visual": "100% interface recriada em motion no Remotion; nenhum print, nenhum Pexels, nada gerado por IA, nenhuma fonte na tela",
+ "cenas": [
+  {
+   "cena": "gancho",
+   "componentes": "contador US$ bi + pilhas de dinheiro + carimbo 1 OFERTA + 5 cartões (nº 5 trancado) + pílula do loop",
+   "acoes": [
+    {
+     "inicio": 0.0,
+     "acao": "contador 20→81,3 bi, zoom 1,15→1, whoosh+coin+riser",
+     "palavra_gatilho": "Oitenta",
+     "palavra_real": "Oitenta"
+    },
+    {
+     "inicio": 1.04,
+     "acao": "pílula 'bilhões de dólares' + pop",
+     "palavra_gatilho": "bilhões",
+     "palavra_real": "bilhões"
+    },
+    {
+     "inicio": 1.84,
+     "acao": "notas voando + coin",
+     "palavra_gatilho": "dólares",
+     "palavra_real": "dólares"
+    },
+    {
+     "inicio": 2.48,
+     "acao": "palavra gigante 'numa oferta só' + carimbo 1 OFERTA + flash",
+     "palavra_gatilho": "numa",
+     "palavra_real": "numa"
+    },
+    {
+     "inicio": 3.36,
+     "acao": "tremida + error",
+     "palavra_gatilho": "só!",
+     "palavra_real": "só!"
+    },
+    {
+     "inicio": 4.24,
+     "acao": "5 cartões numerados entrando + whoosh",
+     "palavra_gatilho": "cinco",
+     "palavra_real": "cinco"
+    },
+    {
+     "inicio": 4.24,
+     "acao": "pílula 'a nº 5 explica os US$ 81 bi 🔒' (+10 quadros)",
+     "palavra_gatilho": "cinco",
+     "palavra_real": "cinco"
+    },
+    {
+     "inicio": 5.12,
+     "acao": "pílula 'semana 16 a 22/11'",
+     "palavra_gatilho": "semana",
+     "palavra_real": "semana"
+    },
+    {
+     "inicio": 6.85,
+     "acao": "cartão 5 treme e acende",
+     "palavra_gatilho": "número",
+     "palavra_real": "número"
+    },
+    {
+     "inicio": 8.9,
+     "acao": "barra de progresso 'fica até o fim'",
+     "palavra_gatilho": "Fica",
+     "palavra_real": "Fica"
+    }
+   ]
+  },
+  {
+   "cena": "item1 Microsoft",
+   "componentes": "chip 1 + grade de 7 modelos MAI + barras qualidade/preço + etiqueta 5% + seletor do GitHub Copilot",
+   "acoes": [
+    {
+     "inicio": 9.67,
+     "acao": "chip Nº 1",
+     "palavra_gatilho": "Número",
+     "palavra_real": "Número"
+    },
+    {
+     "inicio": 10.45,
+     "acao": "contador de modelos + tiles acendendo",
+     "palavra_gatilho": "Microsoft",
+     "palavra_real": "Microsoft"
+    },
+    {
+     "inicio": 13.25,
+     "acao": "carimbo 7 DE UMA VEZ",
+     "palavra_gatilho": "vez!",
+     "palavra_real": "vez!"
+    },
+    {
+     "inicio": 14.01,
+     "acao": "card qualidade",
+     "palavra_gatilho": "MAI",
+     "palavra_real": "MAI"
+    },
+    {
+     "inicio": 15.45,
+     "acao": "barra MAI Code 2 → 96%",
+     "palavra_gatilho": "noventa",
+     "palavra_real": "noventa"
+    },
+    {
+     "inicio": 16.89,
+     "acao": "barra Opus 5.5 → 100%",
+     "palavra_gatilho": "Claude",
+     "palavra_real": "Claude"
+    },
+    {
+     "inicio": 17.61,
+     "acao": "carimbo QUASE IGUAL",
+     "palavra_gatilho": "cinco",
+     "palavra_real": "cinco"
+    },
+    {
+     "inicio": 18.77,
+     "acao": "troca para preço",
+     "palavra_gatilho": "por",
+     "palavra_real": "por"
+    },
+    {
+     "inicio": 18.97,
+     "acao": "barra 5% + etiqueta 5% balançando",
+     "palavra_gatilho": "cinco",
+     "palavra_real": "cinco"
+    },
+    {
+     "inicio": 21.1,
+     "acao": "seletor Copilot digitando MAI Code 2 ✓",
+     "palavra_gatilho": "GitHub",
+     "palavra_real": "GitHub"
+    }
+   ]
+  },
+  {
+   "cena": "item2 Liquid AI",
+   "componentes": "chip 2 + nome digitado + conversa ✕ / decide 🎯 + fatura com pergunta, resposta e medidor de confiança + onda de áudio + ranking",
+   "acoes": [
+    {
+     "inicio": 22.11,
+     "acao": "chip Nº 2",
+     "palavra_gatilho": "Número",
+     "palavra_real": "Número"
+    },
+    {
+     "inicio": 23.12,
+     "acao": "nome d1.2",
+     "palavra_gatilho": "Liquid",
+     "palavra_real": "Liquid"
+    },
+    {
+     "inicio": 24.48,
+     "acao": "digita d1.2-ultra",
+     "palavra_gatilho": "dê",
+     "palavra_real": "dê"
+    },
+    {
+     "inicio": 26.13,
+     "acao": "card conversa",
+     "palavra_gatilho": "modelo",
+     "palavra_real": "modelo"
+    },
+    {
+     "inicio": 26.77,
+     "acao": "X vermelho",
+     "palavra_gatilho": "não",
+     "palavra_real": "não"
+    },
+    {
+     "inicio": 27.95,
+     "acao": "card decide",
+     "palavra_gatilho": "decide.",
+     "palavra_real": "decide."
+    },
+    {
+     "inicio": 28.84,
+     "acao": "fatura + 'Quanto é devido?' digitando",
+     "palavra_gatilho": "pergunta,",
+     "palavra_real": "pergunta,"
+    },
+    {
+     "inicio": 29.72,
+     "acao": "resposta 1 234,50 EUR marcada",
+     "palavra_gatilho": "escolhe",
+     "palavra_real": "escolhe"
+    },
+    {
+     "inicio": 31.32,
+     "acao": "medidor chance de estar certo",
+     "palavra_gatilho": "chance",
+     "palavra_real": "chance"
+    },
+    {
+     "inicio": 32.95,
+     "acao": "onda de áudio + ✓",
+     "palavra_gatilho": "entende",
+     "palavra_real": "entende"
+    },
+    {
+     "inicio": 34.39,
+     "acao": "ranking: d1.2-ultra sobe para 1º (75 x 73)",
+     "palavra_gatilho": "primeiro",
+     "palavra_real": "primeiro"
+    },
+    {
+     "inicio": 35.95,
+     "acao": "título Decision Index + carimbo +2 PONTOS",
+     "palavra_gatilho": "Artificial",
+     "palavra_real": "Artificial"
+    }
+   ]
+  },
+  {
+   "cena": "item3 Google",
+   "componentes": "chip 3 + Gemini 4 Neon em neon + etiqueta US$ 3 + contador de contexto 0→1.000.000 + pódio 1º 58,6",
+   "acoes": [
+    {
+     "inicio": 37.29,
+     "acao": "chip Nº 3",
+     "palavra_gatilho": "Número",
+     "palavra_real": "Número"
+    },
+    {
+     "inicio": 38.49,
+     "acao": "Gemini 4",
+     "palavra_gatilho": "Google",
+     "palavra_real": "Google"
+    },
+    {
+     "inicio": 39.29,
+     "acao": "Neon acende",
+     "palavra_gatilho": "Gemini",
+     "palavra_real": "Gemini"
+    },
+    {
+     "inicio": 40.81,
+     "acao": "etiqueta US$ 3",
+     "palavra_gatilho": "Três",
+     "palavra_real": "Três"
+    },
+    {
+     "inicio": 41.77,
+     "acao": "sub por milhão de tokens",
+     "palavra_gatilho": "milhão",
+     "palavra_real": "milhão"
+    },
+    {
+     "inicio": 42.97,
+     "acao": "pílula entrada · saída US$ 15",
+     "palavra_gatilho": "entrada,",
+     "palavra_real": "entrada,"
+    },
+    {
+     "inicio": 43.45,
+     "acao": "contador de contexto + barra + chips de mídia",
+     "palavra_gatilho": "um",
+     "palavra_real": "um"
+    },
+    {
+     "inicio": 45.28,
+     "acao": "pódio subindo",
+     "palavra_gatilho": "primeiro",
+     "palavra_real": "primeiro"
+    },
+    {
+     "inicio": 46.8,
+     "acao": "medalha Gemini 4 Neon 58,6",
+     "palavra_gatilho": "agentes",
+     "palavra_real": "agentes"
+    },
+    {
+     "inicio": 47.84,
+     "acao": "título Coding Agent Index",
+     "palavra_gatilho": "Artificial",
+     "palavra_real": "Artificial"
+    }
+   ]
+  },
+  {
+   "cena": "item4 OpenAI",
+   "componentes": "chip 4 + cards Astra/Sol + etiqueta US$ 8 com carimbo −20% + preço antigo riscado + barras Agents' Last Exam + barras de custo",
+   "acoes": [
+    {
+     "inicio": 49.13,
+     "acao": "chip Nº 4",
+     "palavra_gatilho": "Número",
+     "palavra_real": "Número"
+    },
+    {
+     "inicio": 50.12,
+     "acao": "cards ❔",
+     "palavra_gatilho": "OpenAI",
+     "palavra_real": "OpenAI"
+    },
+    {
+     "inicio": 51.2,
+     "acao": "card Astra revela",
+     "palavra_gatilho": "GPT",
+     "palavra_real": "GPT"
+    },
+    {
+     "inicio": 53.24,
+     "acao": "card Sol revela",
+     "palavra_gatilho": "o",
+     "palavra_real": "o"
+    },
+    {
+     "inicio": 54.33,
+     "acao": "etiqueta US$ 8",
+     "palavra_gatilho": "ficou",
+     "palavra_real": "ficou"
+    },
+    {
+     "inicio": 54.73,
+     "acao": "carimbo −20%",
+     "palavra_gatilho": "vinte",
+     "palavra_real": "vinte"
+    },
+    {
+     "inicio": 56.45,
+     "acao": "GPT-6 Astra US$ 10 riscado",
+     "palavra_gatilho": "GPT",
+     "palavra_real": "GPT"
+    },
+    {
+     "inicio": 57.72,
+     "acao": "card Agents' Last Exam",
+     "palavra_gatilho": "teste",
+     "palavra_real": "num"
+    },
+    {
+     "inicio": 58.68,
+     "acao": "barra Fable",
+     "palavra_gatilho": "profissional,",
+     "palavra_real": "profissional,"
+    },
+    {
+     "inicio": 59.44,
+     "acao": "barra Astra ultrapassa +5,5 + carimbo PASSOU",
+     "palavra_gatilho": "passou",
+     "palavra_real": "passou"
+    },
+    {
+     "inicio": 61.8,
+     "acao": "custo por tarefa",
+     "palavra_gatilho": "gastando",
+     "palavra_real": "gastando"
+    },
+    {
+     "inicio": 62.6,
+     "acao": "barra 5%",
+     "palavra_gatilho": "cinco",
+     "palavra_real": "cinco"
+    }
+   ]
+  },
+  {
+   "cena": "item5 Anthropic",
+   "componentes": "chip 5 + checklist IPO + sino + contador de preço 0→83 + contador de ações 0→980 mi + conta 83×980 = US$ 81,3 bi + placa Nasdaq com letras A N T",
+   "acoes": [
+    {
+     "inicio": 64.11,
+     "acao": "chip Nº 5",
+     "palavra_gatilho": "Número",
+     "palavra_real": "Número"
+    },
+    {
+     "inicio": 65.27,
+     "acao": "sino + Anthropic + checklist",
+     "palavra_gatilho": "Anthropic,",
+     "palavra_real": "Anthropic,"
+    },
+    {
+     "inicio": 66.51,
+     "acao": "item Claude ✓",
+     "palavra_gatilho": "Claude,",
+     "palavra_real": "Claude,"
+    },
+    {
+     "inicio": 67.11,
+     "acao": "sino toca + 'abriu capital!'",
+     "palavra_gatilho": "abriu",
+     "palavra_real": "abriu"
+    },
+    {
+     "inicio": 68.13,
+     "acao": "contador US$ 83,00",
+     "palavra_gatilho": "Oitenta",
+     "palavra_real": "Oitenta"
+    },
+    {
+     "inicio": 70.17,
+     "acao": "contador 980 mi + grade",
+     "palavra_gatilho": "novecentos",
+     "palavra_real": "novecentos"
+    },
+    {
+     "inicio": 72.7,
+     "acao": "conta US$ 83 × 980 mi = + panterinha apontando",
+     "palavra_gatilho": "mais",
+     "palavra_real": "mais"
+    },
+    {
+     "inicio": 73.02,
+     "acao": "US$ 81,3 bi gigante + flash + coin; pílula 'o número do começo'",
+     "palavra_gatilho": "oitenta",
+     "palavra_real": "oitenta"
+    },
+    {
+     "inicio": 75.34,
+     "acao": "placa 'desde quinta'",
+     "palavra_gatilho": "E",
+     "palavra_real": "E"
+    },
+    {
+     "inicio": 76.46,
+     "acao": "Nasdaq + whoosh",
+     "palavra_gatilho": "Nasdaq,",
+     "palavra_real": "Nasdaq,"
+    },
+    {
+     "inicio": 77.78,
+     "acao": "letra A",
+     "palavra_gatilho": "A",
+     "palavra_real": "A"
+    },
+    {
+     "inicio": 77.94,
+     "acao": "letra N",
+     "palavra_gatilho": "N",
+     "palavra_real": "N"
+    },
+    {
+     "inicio": 78.26,
+     "acao": "letra T",
+     "palavra_gatilho": "T.",
+     "palavra_real": "T."
+    }
+   ]
+  },
+  {
+   "cena": "CTA",
+   "componentes": "pergunta + 5 cartões + caixa de comentário digitando 'o número 5!' + Seguir→Seguindo + panterinha comemorando",
+   "acoes": [
+    {
+     "inicio": 78.6,
+     "acao": "'qual te surpreendeu?' + cartões",
+     "palavra_gatilho": "Qual",
+     "palavra_real": "Qual"
+    },
+    {
+     "inicio": 79.48,
+     "acao": "cartões acendendo em sequência",
+     "palavra_gatilho": "surpreendeu?",
+     "palavra_real": "surpreendeu?"
+    },
+    {
+     "inicio": 80.16,
+     "acao": "caixa de comentário",
+     "palavra_gatilho": "Comenta",
+     "palavra_real": "Comenta"
+    },
+    {
+     "inicio": 80.58,
+     "acao": "coração + ding",
+     "palavra_gatilho": "número!",
+     "palavra_real": "número!"
+    },
+    {
+     "inicio": 81.2,
+     "acao": "botão Seguir + panterinha comemorando",
+     "palavra_gatilho": "segue",
+     "palavra_real": "segue"
+    },
+    {
+     "inicio": 81.53,
+     "acao": "@phanteraicreative",
+     "palavra_gatilho": "arroba",
+     "palavra_real": "arroba"
+    },
+    {
+     "inicio": 83.72,
+     "acao": "Seguindo ✓",
+     "palavra_gatilho": "toda",
+     "palavra_real": "toda"
+    }
+   ]
+  }
+ ]
+}

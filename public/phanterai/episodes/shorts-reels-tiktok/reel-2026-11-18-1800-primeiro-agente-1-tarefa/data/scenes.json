@@ -1,0 +1,12 @@
+{"slug":"reel-2026-11-18-1800-primeiro-agente-1-tarefa","musica":"Coding_at_Night.mp3","trechos":[
+{"inicio":0.0,"palavra_gatilho":"Seu (quadro 0)","componente":"card 'meu agente' + palavra gigante 'faz tudo'","acao":"chips de tarefas entrando a cada 0,1 s, contador 2→12 tarefas, zoom 1,15→1, whoosh"},
+{"inicio":1.32,"palavra_gatilho":"falhar","componente":"card do agente","acao":"flash vermelho, 'falha', tremida, '✗ erro: travou no meio', som error, panterinha surpresa"},
+{"inicio":3.2,"palavra_gatilho":"Quatro passos","componente":"4 slots numerados","acao":"slots entram, 'menor agente útil' em ~4,3 s, slot 4 tranca com cadeado em 'quarto'"},
+{"inicio":9.0,"palavra_gatilho":"Anthropic","componente":"card de recomendação","acao":"nome digitado, frase 'comece pelo mais simples', slider complexo→simples"},
+{"inicio":12.6,"palavra_gatilho":"Agente","componente":"equação agente = IA + ferramentas","acao":"cards entram por palavra, anel 'em loop' girando"},
+{"inicio":16.3,"palavra_gatilho":"Número um","componente":"chip 1 + calendário semanal","acao":"segundas acendem com 🔁 em 'toda semana', '🏁 fim claro', tarefa digitada 'resumir os comentários do canal'"},
+{"inicio":24.6,"palavra_gatilho":"Número dois","componente":"pasta comentarios/ + ferramenta ler_arquivo()","acao":"arquivos entram, interruptor 'ler' liga (apagar/enviar desligados), agente 'lendo…'"},
+{"inicio":30.4,"palavra_gatilho":"Número três","componente":"ciclo busca contexto → age → confere → repete","acao":"nós acendem na palavra, ponto orbitando, contador de voltas"},
+{"inicio":37.0,"palavra_gatilho":"Número quatro","componente":"placa FREIO + limite de voltas + modal de aprovação","acao":"contador 0/5→5/5 'para aqui', modal 'Enviar o resumo?', cursor clica 'Aprovado ✓', ding; panterinha apontando"},
+{"inicio":42.6,"palavra_gatilho":"Funcionou?","componente":"cards tarefa 1 ✓ / tarefa 2","acao":"tarefa 1 verde, tarefa 2 entra em 'segunda tarefa'"},
+{"inicio":45.8,"palavra_gatilho":"Comenta AGENTE","componente":"card de CTA","acao":"AGENTE digitado, Seguir→Seguindo ✓, 'guia oficial na legenda', bolhas; panterinha comemorando"}]}

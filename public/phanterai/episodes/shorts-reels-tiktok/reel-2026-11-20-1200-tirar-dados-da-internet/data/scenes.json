@@ -1,0 +1,78 @@
+{
+ "slug": "reel-2026-11-20-1200-tirar-dados-da-internet",
+ "composicao": "ShortTirarDados",
+ "musica": "phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.2)",
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "inicio": 0
+  },
+  {
+   "pose": "apontando",
+   "inicio": 48.56
+  },
+  {
+   "pose": "comemorando",
+   "inicio": 57.68
+  }
+ ],
+ "trechos": [
+  {
+   "trecho": "gancho",
+   "componente": "Busca + cartões de resultado com telefone/CPF/endereço em alerta; 'seu telefone' gigante",
+   "acao": "quadro 0: telefone sendo revelado; CPF aparece; 3º resultado treme",
+   "palavra_gatilho": "Seu",
+   "inicio": 0
+  },
+  {
+   "trecho": "gancho",
+   "componente": "5 cartões numerados + Ctrl+V + prompt digitando; cartão 5 vira cadeado e interruptor 'vem ligado'",
+   "acao": "cartões entram, colam, 5º treme",
+   "palavra_gatilho": "Cinco",
+   "inicio": 3.44
+  },
+  {
+   "trecho": "item1",
+   "componente": "radar da IA procurando 'você' → chat com prompt digitado → 3 resultados (telefone, endereço, CPF)",
+   "acao": "Ctrl+V no 'Cola'; cada resultado no tempo da palavra",
+   "palavra_gatilho": "Cola",
+   "inicio": 11.65
+  },
+  {
+   "trecho": "item2",
+   "componente": "menu do Google → tela 'Privacidade nos resultados sobre você' → formulário (nome, telefone, e-mail, CPF) → notificações → 'Para analisar' → Pedir remoção → Em andamento",
+   "acao": "campos preenchem no tempo de telefone/e-mail/CPF",
+   "palavra_gatilho": "Privacidade",
+   "inicio": 19.87
+  },
+  {
+   "trecho": "item3",
+   "componente": "resultado 'ainda no ar ✗ não tirou' → chat com prompt LGPD → carta de pedido de eliminação escrevendo → etiqueta R$ 0 balançando + art. 18 §5º",
+   "acao": "R$ 0 no 'sem custo'",
+   "palavra_gatilho": "Cola",
+   "inicio": 30.25
+  },
+  {
+   "trecho": "item4",
+   "componente": "chat 'O que você lembra sobre mim?' → 4 memórias (ilustrativas) → Excluir memória → itens voam → 'Memória excluída'",
+   "acao": "excluir no 'Excluir'",
+   "palavra_gatilho": "pergunta",
+   "inicio": 39.42
+  },
+  {
+   "trecho": "item5",
+   "componente": "conversas voando para o modelo, treino 0→100% → interruptor 'Melhorar o modelo para todo mundo' liga (padrão) → painel ChatGPT desliga → painel Claude 'Ajude a melhorar nossos modelos de IA' desliga, mão tocando",
+   "acao": "desliga no 'modelo' e no 'melhorar'",
+   "palavra_gatilho": "treina",
+   "inicio": 46.16
+  },
+  {
+   "trecho": "cta",
+   "componente": "checklist dos 5 passos ficando verde → 'tudo na legenda' → comentário DADOS + coração → Seguir→Seguindo",
+   "acao": "",
+   "palavra_gatilho": "Comenta",
+   "inicio": 57.68
+  }
+ ],
+ "obs": "100% interface recriada em motion; nenhum print, nenhum Pexels, nada gerado por IA, nenhum crédito na tela. Nomes, sites (.exemplo), números e memórias nas demos são ilustrativos."
+}

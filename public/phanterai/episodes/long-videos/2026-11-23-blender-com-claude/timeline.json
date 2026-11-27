@@ -1,0 +1,12577 @@
+{
+ "slug": "2026-11-23-blender-com-claude",
+ "fps": 30,
+ "lead": 0.5,
+ "musica": "Coding_at_Night.mp3",
+ "musicaVolume": 0.2,
+ "totalFrames": 12251,
+ "scenes": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "fala": "Eu abri o Claude e pedi, em português: crie uma ilha flutuante com casinha, árvores e lago, e faça a câmera girar em volta. E o Claude montou essa cena em três dê sozinho, dentro do Blender. O Blender é grátis, e isso funciona até no plano gratuito do Claude. Hoje eu te mostro o passo a passo, no Windows, no Mac e no Linux.",
+   "dados": {
+    "bg": "render/ilha.mp4",
+    "esc": 0.22,
+    "l1": "Animação 3D",
+    "l2": "só pedindo",
+    "pilulas": [
+     {
+      "ao": "português",
+      "txt": "Você pede em português",
+      "cor": "verde",
+      "em": 61
+     },
+     {
+      "ao": "sozinho",
+      "txt": "O Claude monta a cena 3D",
+      "cor": "violeta",
+      "em": 336
+     },
+     {
+      "ao": "grátis",
+      "txt": "Blender grátis",
+      "cor": "ouro",
+      "em": 415
+     },
+     {
+      "ao": "Windows",
+      "txt": "Windows · Mac · Linux",
+      "cor": "escuro",
+      "em": 581
+     }
+    ],
+    "bgDur": 5
+   },
+   "words": [
+    {
+     "w": "Eu",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "abri",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "o",
+     "s": 0.44,
+     "e": 0.48
+    },
+    {
+     "w": "Claude",
+     "s": 0.56,
+     "e": 0.96
+    },
+    {
+     "w": "e",
+     "s": 1.04,
+     "e": 1.08
+    },
+    {
+     "w": "pedi,",
+     "s": 1.12,
+     "e": 1.76
+    },
+    {
+     "w": "em",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "português:",
+     "s": 2.04,
+     "e": 2.64
+    },
+    {
+     "w": "crie",
+     "s": 3.04,
+     "e": 3.28
+    },
+    {
+     "w": "uma",
+     "s": 3.4,
+     "e": 3.52
+    },
+    {
+     "w": "ilha",
+     "s": 3.64,
+     "e": 3.76
+    },
+    {
+     "w": "flutuante",
+     "s": 3.8,
+     "e": 4.4
+    },
+    {
+     "w": "com",
+     "s": 4.48,
+     "e": 4.56
+    },
+    {
+     "w": "casinha,",
+     "s": 4.64,
+     "e": 5.44
+    },
+    {
+     "w": "árvores",
+     "s": 5.56,
+     "e": 6
+    },
+    {
+     "w": "e",
+     "s": 6.027,
+     "e": 6.053
+    },
+    {
+     "w": "lago,",
+     "s": 6.08,
+     "e": 6.64
+    },
+    {
+     "w": "e",
+     "s": 6.68,
+     "e": 6.72
+    },
+    {
+     "w": "faça",
+     "s": 6.88,
+     "e": 7.12
+    },
+    {
+     "w": "a",
+     "s": 7.16,
+     "e": 7.2
+    },
+    {
+     "w": "câmera",
+     "s": 7.28,
+     "e": 7.6
+    },
+    {
+     "w": "girar",
+     "s": 7.64,
+     "e": 7.92
+    },
+    {
+     "w": "em",
+     "s": 8,
+     "e": 8.08
+    },
+    {
+     "w": "volta.",
+     "s": 8.16,
+     "e": 8.72
+    },
+    {
+     "w": "E",
+     "s": 8.96,
+     "e": 9
+    },
+    {
+     "w": "o",
+     "s": 9.04,
+     "e": 9.08
+    },
+    {
+     "w": "Claude",
+     "s": 9.12,
+     "e": 9.44
+    },
+    {
+     "w": "montou",
+     "s": 9.56,
+     "e": 9.76
+    },
+    {
+     "w": "essa",
+     "s": 9.88,
+     "e": 10
+    },
+    {
+     "w": "cena",
+     "s": 10.08,
+     "e": 10.32
+    },
+    {
+     "w": "em",
+     "s": 10.44,
+     "e": 10.56
+    },
+    {
+     "w": "três",
+     "s": 10.64,
+     "e": 10.88
+    },
+    {
+     "w": "dê",
+     "s": 10.96,
+     "e": 11.12
+    },
+    {
+     "w": "sozinho,",
+     "s": 11.2,
+     "e": 12
+    },
+    {
+     "w": "dentro",
+     "s": 12.12,
+     "e": 12.32
+    },
+    {
+     "w": "do",
+     "s": 12.36,
+     "e": 12.4
+    },
+    {
+     "w": "Blender.",
+     "s": 12.48,
+     "e": 12.96
+    },
+    {
+     "w": "O",
+     "s": 13.28,
+     "e": 13.36
+    },
+    {
+     "w": "Blender",
+     "s": 13.44,
+     "e": 13.68
+    },
+    {
+     "w": "é",
+     "s": 13.72,
+     "e": 13.76
+    },
+    {
+     "w": "grátis,",
+     "s": 13.84,
+     "e": 14.4
+    },
+    {
+     "w": "e",
+     "s": 14.48,
+     "e": 14.52
+    },
+    {
+     "w": "isso",
+     "s": 14.56,
+     "e": 14.72
+    },
+    {
+     "w": "funciona",
+     "s": 14.8,
+     "e": 15.2
+    },
+    {
+     "w": "até",
+     "s": 15.32,
+     "e": 15.52
+    },
+    {
+     "w": "no",
+     "s": 15.6,
+     "e": 15.68
+    },
+    {
+     "w": "plano",
+     "s": 15.72,
+     "e": 15.92
+    },
+    {
+     "w": "gratuito",
+     "s": 16,
+     "e": 16.48
+    },
+    {
+     "w": "do",
+     "s": 16.52,
+     "e": 16.56
+    },
+    {
+     "w": "Claude.",
+     "s": 16.64,
+     "e": 17.04
+    },
+    {
+     "w": "Hoje",
+     "s": 17.44,
+     "e": 17.6
+    },
+    {
+     "w": "eu",
+     "s": 17.64,
+     "e": 17.68
+    },
+    {
+     "w": "te",
+     "s": 17.72,
+     "e": 17.76
+    },
+    {
+     "w": "mostro",
+     "s": 17.84,
+     "e": 18.133
+    },
+    {
+     "w": "o",
+     "s": 18.187,
+     "e": 18.24
+    },
+    {
+     "w": "passo",
+     "s": 18.36,
+     "e": 18.52
+    },
+    {
+     "w": "a",
+     "s": 18.56,
+     "e": 18.6
+    },
+    {
+     "w": "passo,",
+     "s": 18.64,
+     "e": 19.12
+    },
+    {
+     "w": "no",
+     "s": 19.2,
+     "e": 19.28
+    },
+    {
+     "w": "Windows,",
+     "s": 19.36,
+     "e": 19.92
+    },
+    {
+     "w": "no",
+     "s": 19.96,
+     "e": 20
+    },
+    {
+     "w": "Mac",
+     "s": 20.08,
+     "e": 20.48
+    },
+    {
+     "w": "e",
+     "s": 20.56,
+     "e": 20.64
+    },
+    {
+     "w": "no",
+     "s": 20.68,
+     "e": 20.72
+    },
+    {
+     "w": "Linux.",
+     "s": 20.8,
+     "e": 21.52
+    }
+   ],
+   "startFrame": 15,
+   "endFrame": 669
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "pantera": false,
+   "fala": "O segredo é juntar duas coisas. A primeira é o Blender, o programa de três dê gratuito, usado de jogos independentes até produção de filmes. A segunda é o conector oficial do Blender para o Claude, criado pelos próprios desenvolvedores do Blender e lançado junto com a Anthropic. Ele deixa o Claude mexer no Blender por você.",
+   "dados": {
+    "bg": "pexels/artista3d-2.mp4",
+    "titulo": "Duas peças",
+    "cols": 1,
+    "w": 1350,
+    "itens": [
+     {
+      "ao": "primeira",
+      "t": "Blender",
+      "sub": "programa de 3D gratuito e de código aberto",
+      "icone": "◆",
+      "cor": "laranja",
+      "em": 79
+     },
+     {
+      "ao": "segunda",
+      "t": "Conector oficial do Blender",
+      "sub": "feito pelo Blender Lab, lançado com a Anthropic",
+      "icone": "✻",
+      "cor": "ciano",
+      "em": 288
+     }
+    ],
+    "pilula": {
+     "ao": "mexer",
+     "txt": "O Claude mexe no Blender por você",
+     "cor": "verde",
+     "em": 550
+    },
+    "bgDur": 16
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "segredo",
+     "s": 0.16,
+     "e": 0.64
+    },
+    {
+     "w": "é",
+     "s": 0.68,
+     "e": 0.72
+    },
+    {
+     "w": "juntar",
+     "s": 0.8,
+     "e": 1.12
+    },
+    {
+     "w": "duas",
+     "s": 1.2,
+     "e": 1.52
+    },
+    {
+     "w": "coisas.",
+     "s": 1.6,
+     "e": 2.24
+    },
+    {
+     "w": "A",
+     "s": 2.4,
+     "e": 2.48
+    },
+    {
+     "w": "primeira",
+     "s": 2.64,
+     "e": 3.04
+    },
+    {
+     "w": "é",
+     "s": 3.12,
+     "e": 3.147
+    },
+    {
+     "w": "o",
+     "s": 3.173,
+     "e": 3.2
+    },
+    {
+     "w": "Blender,",
+     "s": 3.28,
+     "e": 3.92
+    },
+    {
+     "w": "o",
+     "s": 3.96,
+     "e": 4
+    },
+    {
+     "w": "programa",
+     "s": 4.16,
+     "e": 4.4
+    },
+    {
+     "w": "de",
+     "s": 4.48,
+     "e": 4.56
+    },
+    {
+     "w": "três",
+     "s": 4.64,
+     "e": 4.88
+    },
+    {
+     "w": "dê",
+     "s": 4.92,
+     "e": 5.04
+    },
+    {
+     "w": "gratuito,",
+     "s": 5.08,
+     "e": 5.92
+    },
+    {
+     "w": "usado",
+     "s": 6,
+     "e": 6.24
+    },
+    {
+     "w": "de",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "jogos",
+     "s": 6.48,
+     "e": 6.72
+    },
+    {
+     "w": "independentes",
+     "s": 6.76,
+     "e": 7.52
+    },
+    {
+     "w": "até",
+     "s": 7.6,
+     "e": 7.84
+    },
+    {
+     "w": "produção",
+     "s": 7.92,
+     "e": 8.32
+    },
+    {
+     "w": "de",
+     "s": 8.4,
+     "e": 8.48
+    },
+    {
+     "w": "filmes.",
+     "s": 8.56,
+     "e": 9.2
+    },
+    {
+     "w": "A",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "segunda",
+     "s": 9.6,
+     "e": 10.08
+    },
+    {
+     "w": "é",
+     "s": 10.16,
+     "e": 10.24
+    },
+    {
+     "w": "o",
+     "s": 10.28,
+     "e": 10.32
+    },
+    {
+     "w": "conector",
+     "s": 10.4,
+     "e": 10.8
+    },
+    {
+     "w": "oficial",
+     "s": 10.88,
+     "e": 11.36
+    },
+    {
+     "w": "do",
+     "s": 11.44,
+     "e": 11.52
+    },
+    {
+     "w": "Blender",
+     "s": 11.56,
+     "e": 11.92
+    },
+    {
+     "w": "para",
+     "s": 12,
+     "e": 12.08
+    },
+    {
+     "w": "o",
+     "s": 12.12,
+     "e": 12.16
+    },
+    {
+     "w": "Claude,",
+     "s": 12.24,
+     "e": 12.8
+    },
+    {
+     "w": "criado",
+     "s": 12.88,
+     "e": 13.2
+    },
+    {
+     "w": "pelos",
+     "s": 13.24,
+     "e": 13.52
+    },
+    {
+     "w": "próprios",
+     "s": 13.6,
+     "e": 13.92
+    },
+    {
+     "w": "desenvolvedores",
+     "s": 14,
+     "e": 14.72
+    },
+    {
+     "w": "do",
+     "s": 14.76,
+     "e": 14.8
+    },
+    {
+     "w": "Blender",
+     "s": 14.88,
+     "e": 15.28
+    },
+    {
+     "w": "e",
+     "s": 15.32,
+     "e": 15.36
+    },
+    {
+     "w": "lançado",
+     "s": 15.48,
+     "e": 15.92
+    },
+    {
+     "w": "junto",
+     "s": 15.96,
+     "e": 16.16
+    },
+    {
+     "w": "com",
+     "s": 16.24,
+     "e": 16.32
+    },
+    {
+     "w": "a",
+     "s": 16.36,
+     "e": 16.4
+    },
+    {
+     "w": "Anthropic.",
+     "s": 16.48,
+     "e": 17.44
+    },
+    {
+     "w": "Ele",
+     "s": 17.52,
+     "e": 17.6
+    },
+    {
+     "w": "deixa",
+     "s": 17.68,
+     "e": 17.84
+    },
+    {
+     "w": "o",
+     "s": 17.88,
+     "e": 17.92
+    },
+    {
+     "w": "Claude",
+     "s": 18,
+     "e": 18.24
+    },
+    {
+     "w": "mexer",
+     "s": 18.32,
+     "e": 18.72
+    },
+    {
+     "w": "no",
+     "s": 18.76,
+     "e": 18.8
+    },
+    {
+     "w": "Blender",
+     "s": 18.88,
+     "e": 19.2
+    },
+    {
+     "w": "por",
+     "s": 19.28,
+     "e": 19.36
+    },
+    {
+     "w": "você.",
+     "s": 19.44,
+     "e": 20.08
+    }
+   ],
+   "startFrame": 669,
+   "endFrame": 1279
+  },
+  {
+   "id": "C03",
+   "tipo": "fluxo",
+   "pantera": false,
+   "fala": "Funciona assim: você pede o que quer, em português. O Claude escreve o código em Python, que é a língua que o Blender entende. O conector roda esse código dentro do Blender. E a cena aparece na sua tela. Você não precisa saber programar nada.",
+   "dados": {
+    "titulo": "Como funciona",
+    "etapas": [
+     {
+      "ao": "pede",
+      "t": "Você pede",
+      "sub": "em português",
+      "em": 48
+     },
+     {
+      "ao": "escreve",
+      "t": "Claude escreve",
+      "sub": "o código em Python",
+      "em": 132
+     },
+     {
+      "ao": "roda",
+      "t": "O conector roda",
+      "sub": "dentro do Blender",
+      "em": 269
+     },
+     {
+      "ao": "aparece",
+      "t": "Cena pronta",
+      "sub": "na sua tela",
+      "em": 355
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Funciona",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "assim:",
+     "s": 0.52,
+     "e": 1.2
+    },
+    {
+     "w": "você",
+     "s": 1.24,
+     "e": 1.52
+    },
+    {
+     "w": "pede",
+     "s": 1.6,
+     "e": 1.8
+    },
+    {
+     "w": "o",
+     "s": 1.84,
+     "e": 1.867
+    },
+    {
+     "w": "que",
+     "s": 1.893,
+     "e": 1.92
+    },
+    {
+     "w": "quer,",
+     "s": 2.08,
+     "e": 2.48
+    },
+    {
+     "w": "em",
+     "s": 2.56,
+     "e": 2.64
+    },
+    {
+     "w": "português.",
+     "s": 2.76,
+     "e": 3.36
+    },
+    {
+     "w": "O",
+     "s": 3.76,
+     "e": 3.84
+    },
+    {
+     "w": "Claude",
+     "s": 3.92,
+     "e": 4.32
+    },
+    {
+     "w": "escreve",
+     "s": 4.4,
+     "e": 4.8
+    },
+    {
+     "w": "o",
+     "s": 4.84,
+     "e": 4.88
+    },
+    {
+     "w": "código",
+     "s": 4.96,
+     "e": 5.28
+    },
+    {
+     "w": "em",
+     "s": 5.36,
+     "e": 5.44
+    },
+    {
+     "w": "Python,",
+     "s": 5.52,
+     "e": 6.08
+    },
+    {
+     "w": "que",
+     "s": 6.12,
+     "e": 6.16
+    },
+    {
+     "w": "é",
+     "s": 6.24,
+     "e": 6.267
+    },
+    {
+     "w": "a",
+     "s": 6.293,
+     "e": 6.32
+    },
+    {
+     "w": "língua",
+     "s": 6.4,
+     "e": 6.64
+    },
+    {
+     "w": "que",
+     "s": 6.68,
+     "e": 6.72
+    },
+    {
+     "w": "o",
+     "s": 6.8,
+     "e": 6.84
+    },
+    {
+     "w": "Blender",
+     "s": 6.88,
+     "e": 7.12
+    },
+    {
+     "w": "entende.",
+     "s": 7.2,
+     "e": 7.76
+    },
+    {
+     "w": "O",
+     "s": 8.16,
+     "e": 8.24
+    },
+    {
+     "w": "conector",
+     "s": 8.32,
+     "e": 8.8
+    },
+    {
+     "w": "roda",
+     "s": 8.96,
+     "e": 9.2
+    },
+    {
+     "w": "esse",
+     "s": 9.32,
+     "e": 9.44
+    },
+    {
+     "w": "código",
+     "s": 9.52,
+     "e": 9.92
+    },
+    {
+     "w": "dentro",
+     "s": 10,
+     "e": 10.32
+    },
+    {
+     "w": "do",
+     "s": 10.36,
+     "e": 10.4
+    },
+    {
+     "w": "Blender.",
+     "s": 10.48,
+     "e": 10.96
+    },
+    {
+     "w": "E",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "a",
+     "s": 11.4,
+     "e": 11.44
+    },
+    {
+     "w": "cena",
+     "s": 11.52,
+     "e": 11.76
+    },
+    {
+     "w": "aparece",
+     "s": 11.84,
+     "e": 12.16
+    },
+    {
+     "w": "na",
+     "s": 12.24,
+     "e": 12.32
+    },
+    {
+     "w": "sua",
+     "s": 12.373,
+     "e": 12.48
+    },
+    {
+     "w": "tela.",
+     "s": 12.56,
+     "e": 12.88
+    },
+    {
+     "w": "Você",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "não",
+     "s": 13.467,
+     "e": 13.52
+    },
+    {
+     "w": "precisa",
+     "s": 13.6,
+     "e": 13.92
+    },
+    {
+     "w": "saber",
+     "s": 13.96,
+     "e": 14.16
+    },
+    {
+     "w": "programar",
+     "s": 14.24,
+     "e": 14.8
+    },
+    {
+     "w": "nada.",
+     "s": 14.96,
+     "e": 15.52
+    }
+   ],
+   "startFrame": 1279,
+   "endFrame": 1755
+  },
+  {
+   "id": "C04",
+   "tipo": "cartoes",
+   "fala": "Com isso você cria cenários para os seus vídeos, um logo em três dê para o seu canal, um produto girando para um anúncio, e animações curtas para Reels e Shorts. E se você já usa o Blender, ele também explica arquivos complicados e organiza a sua cena.",
+   "dados": {
+    "bg": "pexels/render3d-2.jpg",
+    "titulo": "O que dá pra criar",
+    "cols": 2,
+    "itens": [
+     {
+      "ao": "cenários",
+      "t": "Cenários",
+      "sub": "para os seus vídeos",
+      "em": 34
+     },
+     {
+      "ao": "logo",
+      "t": "Logo em 3D",
+      "sub": "para o seu canal",
+      "em": 94
+     },
+     {
+      "ao": "produto",
+      "t": "Produto girando",
+      "sub": "para anúncios",
+      "em": 163
+     },
+     {
+      "ao": "Reels",
+      "t": "Animações curtas",
+      "sub": "para Reels e Shorts",
+      "em": 264
+     }
+    ],
+    "pilula": {
+     "ao": "explica",
+     "txt": "E ainda explica e organiza a sua cena",
+     "cor": "ouro",
+     "em": 376
+    }
+   },
+   "words": [
+    {
+     "w": "Com",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "isso",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "você",
+     "s": 0.56,
+     "e": 0.8
+    },
+    {
+     "w": "cria",
+     "s": 0.88,
+     "e": 1.04
+    },
+    {
+     "w": "cenários",
+     "s": 1.12,
+     "e": 1.68
+    },
+    {
+     "w": "para",
+     "s": 1.76,
+     "e": 1.84
+    },
+    {
+     "w": "os",
+     "s": 1.88,
+     "e": 1.92
+    },
+    {
+     "w": "seus",
+     "s": 1.96,
+     "e": 2.16
+    },
+    {
+     "w": "vídeos,",
+     "s": 2.24,
+     "e": 2.96
+    },
+    {
+     "w": "um",
+     "s": 3,
+     "e": 3.04
+    },
+    {
+     "w": "logo",
+     "s": 3.12,
+     "e": 3.36
+    },
+    {
+     "w": "em",
+     "s": 3.44,
+     "e": 3.52
+    },
+    {
+     "w": "três",
+     "s": 3.6,
+     "e": 3.92
+    },
+    {
+     "w": "dê",
+     "s": 4,
+     "e": 4.16
+    },
+    {
+     "w": "para",
+     "s": 4.24,
+     "e": 4.32
+    },
+    {
+     "w": "o",
+     "s": 4.36,
+     "e": 4.4
+    },
+    {
+     "w": "seu",
+     "s": 4.44,
+     "e": 4.56
+    },
+    {
+     "w": "canal,",
+     "s": 4.64,
+     "e": 5.28
+    },
+    {
+     "w": "um",
+     "s": 5.32,
+     "e": 5.36
+    },
+    {
+     "w": "produto",
+     "s": 5.44,
+     "e": 5.84
+    },
+    {
+     "w": "girando",
+     "s": 5.88,
+     "e": 6.32
+    },
+    {
+     "w": "para",
+     "s": 6.4,
+     "e": 6.48
+    },
+    {
+     "w": "um",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "anúncio,",
+     "s": 6.64,
+     "e": 7.36
+    },
+    {
+     "w": "e",
+     "s": 7.4,
+     "e": 7.44
+    },
+    {
+     "w": "animações",
+     "s": 7.52,
+     "e": 8
+    },
+    {
+     "w": "curtas",
+     "s": 8.08,
+     "e": 8.48
+    },
+    {
+     "w": "para",
+     "s": 8.56,
+     "e": 8.72
+    },
+    {
+     "w": "Reels",
+     "s": 8.8,
+     "e": 9.2
+    },
+    {
+     "w": "e",
+     "s": 9.24,
+     "e": 9.28
+    },
+    {
+     "w": "Shorts.",
+     "s": 9.36,
+     "e": 10.32
+    },
+    {
+     "w": "E",
+     "s": 10.36,
+     "e": 10.4
+    },
+    {
+     "w": "se",
+     "s": 10.44,
+     "e": 10.48
+    },
+    {
+     "w": "você",
+     "s": 10.56,
+     "e": 10.8
+    },
+    {
+     "w": "já",
+     "s": 10.84,
+     "e": 10.96
+    },
+    {
+     "w": "usa",
+     "s": 11.04,
+     "e": 11.2
+    },
+    {
+     "w": "o",
+     "s": 11.24,
+     "e": 11.28
+    },
+    {
+     "w": "Blender,",
+     "s": 11.36,
+     "e": 11.92
+    },
+    {
+     "w": "ele",
+     "s": 12,
+     "e": 12.08
+    },
+    {
+     "w": "também",
+     "s": 12.16,
+     "e": 12.4
+    },
+    {
+     "w": "explica",
+     "s": 12.52,
+     "e": 12.8
+    },
+    {
+     "w": "arquivos",
+     "s": 12.88,
+     "e": 13.28
+    },
+    {
+     "w": "complicados",
+     "s": 13.36,
+     "e": 14.08
+    },
+    {
+     "w": "e",
+     "s": 14.16,
+     "e": 14.24
+    },
+    {
+     "w": "organiza",
+     "s": 14.4,
+     "e": 14.8
+    },
+    {
+     "w": "a",
+     "s": 14.827,
+     "e": 14.853
+    },
+    {
+     "w": "sua",
+     "s": 14.88,
+     "e": 15.04
+    },
+    {
+     "w": "cena.",
+     "s": 15.12,
+     "e": 15.68
+    }
+   ],
+   "startFrame": 1755,
+   "endFrame": 2234
+  },
+  {
+   "id": "C05",
+   "tipo": "cta",
+   "fala": "Antes de começar, um pedido rápido. Se esse vídeo já está te ajudando, deixa o like e se inscreve no Aprenda YouTube. Toda semana tem tutorial de inteligência artificial, passo a passo, para quem não é programador.",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "like": {
+     "ao": "like",
+     "em": 149
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 169
+    },
+    "bgDur": 13
+   },
+   "words": [
+    {
+     "w": "Antes",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "de",
+     "s": 0.28,
+     "e": 0.32
+    },
+    {
+     "w": "começar,",
+     "s": 0.4,
+     "e": 1.12
+    },
+    {
+     "w": "um",
+     "s": 1.16,
+     "e": 1.2
+    },
+    {
+     "w": "pedido",
+     "s": 1.28,
+     "e": 1.52
+    },
+    {
+     "w": "rápido.",
+     "s": 1.6,
+     "e": 2.08
+    },
+    {
+     "w": "Se",
+     "s": 2.48,
+     "e": 2.56
+    },
+    {
+     "w": "esse",
+     "s": 2.64,
+     "e": 2.72
+    },
+    {
+     "w": "vídeo",
+     "s": 2.8,
+     "e": 3.12
+    },
+    {
+     "w": "já",
+     "s": 3.2,
+     "e": 3.36
+    },
+    {
+     "w": "está",
+     "s": 3.48,
+     "e": 3.64
+    },
+    {
+     "w": "te",
+     "s": 3.68,
+     "e": 3.76
+    },
+    {
+     "w": "ajudando,",
+     "s": 3.8,
+     "e": 4.56
+    },
+    {
+     "w": "deixa",
+     "s": 4.64,
+     "e": 4.8
+    },
+    {
+     "w": "o",
+     "s": 4.84,
+     "e": 4.88
+    },
+    {
+     "w": "like",
+     "s": 4.96,
+     "e": 5.28
+    },
+    {
+     "w": "e",
+     "s": 5.36,
+     "e": 5.44
+    },
+    {
+     "w": "se",
+     "s": 5.48,
+     "e": 5.52
+    },
+    {
+     "w": "inscreve",
+     "s": 5.64,
+     "e": 6.08
+    },
+    {
+     "w": "no",
+     "s": 6.12,
+     "e": 6.16
+    },
+    {
+     "w": "Aprenda",
+     "s": 6.24,
+     "e": 6.56
+    },
+    {
+     "w": "YouTube.",
+     "s": 6.8,
+     "e": 7.12
+    },
+    {
+     "w": "Toda",
+     "s": 7.52,
+     "e": 7.68
+    },
+    {
+     "w": "semana",
+     "s": 7.76,
+     "e": 8.16
+    },
+    {
+     "w": "tem",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "tutorial",
+     "s": 8.56,
+     "e": 8.8
+    },
+    {
+     "w": "de",
+     "s": 8.84,
+     "e": 8.88
+    },
+    {
+     "w": "inteligência",
+     "s": 8.96,
+     "e": 9.44
+    },
+    {
+     "w": "artificial,",
+     "s": 9.52,
+     "e": 10.32
+    },
+    {
+     "w": "passo",
+     "s": 10.44,
+     "e": 10.6
+    },
+    {
+     "w": "a",
+     "s": 10.64,
+     "e": 10.72
+    },
+    {
+     "w": "passo,",
+     "s": 10.8,
+     "e": 11.2
+    },
+    {
+     "w": "para",
+     "s": 11.24,
+     "e": 11.28
+    },
+    {
+     "w": "quem",
+     "s": 11.36,
+     "e": 11.6
+    },
+    {
+     "w": "não",
+     "s": 11.68,
+     "e": 11.84
+    },
+    {
+     "w": "é",
+     "s": 11.92,
+     "e": 12
+    },
+    {
+     "w": "programador.",
+     "s": 12.16,
+     "e": 12.88
+    }
+   ],
+   "startFrame": 2234,
+   "endFrame": 2628
+  },
+  {
+   "id": "C06",
+   "tipo": "cartoes",
+   "pantera": false,
+   "fala": "O plano tem três passos. Um: instalar o Blender. Dois: adicionar o conector do Blender no Claude Desktop, que é o aplicativo do Claude para computador. Três: ligar o complemento dentro do Blender. Depois disso, é só pedir.",
+   "dados": {
+    "bg": "pexels/mesa-1.jpg",
+    "titulo": "O plano em 3 passos",
+    "cols": 1,
+    "w": 1300,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Instalar o Blender",
+      "sub": "grátis, no site oficial",
+      "cor": "laranja",
+      "em": 60
+     },
+     {
+      "ao": "Dois",
+      "t": "Adicionar o conector",
+      "sub": "no aplicativo Claude Desktop",
+      "cor": "ciano",
+      "em": 120
+     },
+     {
+      "ao": "Três",
+      "t": "Ligar o complemento",
+      "sub": "dentro do Blender",
+      "cor": "verde",
+      "em": 24
+     }
+    ],
+    "pilula": {
+     "ao": "pedir",
+     "txt": "Depois é só pedir",
+     "cor": "ouro",
+     "em": 434
+    }
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "plano",
+     "s": 0.16,
+     "e": 0.4
+    },
+    {
+     "w": "tem",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "três",
+     "s": 0.8,
+     "e": 1.04
+    },
+    {
+     "w": "passos.",
+     "s": 1.12,
+     "e": 1.92
+    },
+    {
+     "w": "Um:",
+     "s": 2,
+     "e": 2.56
+    },
+    {
+     "w": "instalar",
+     "s": 2.68,
+     "e": 2.96
+    },
+    {
+     "w": "o",
+     "s": 3.04,
+     "e": 3.08
+    },
+    {
+     "w": "Blender.",
+     "s": 3.12,
+     "e": 3.92
+    },
+    {
+     "w": "Dois:",
+     "s": 4,
+     "e": 4.64
+    },
+    {
+     "w": "adicionar",
+     "s": 4.72,
+     "e": 5.2
+    },
+    {
+     "w": "o",
+     "s": 5.24,
+     "e": 5.28
+    },
+    {
+     "w": "conector",
+     "s": 5.36,
+     "e": 5.76
+    },
+    {
+     "w": "do",
+     "s": 5.8,
+     "e": 5.84
+    },
+    {
+     "w": "Blender",
+     "s": 5.92,
+     "e": 6.32
+    },
+    {
+     "w": "no",
+     "s": 6.4,
+     "e": 6.48
+    },
+    {
+     "w": "Claude",
+     "s": 6.56,
+     "e": 6.8
+    },
+    {
+     "w": "Desktop,",
+     "s": 6.88,
+     "e": 7.6
+    },
+    {
+     "w": "que",
+     "s": 7.64,
+     "e": 7.68
+    },
+    {
+     "w": "é",
+     "s": 7.72,
+     "e": 7.76
+    },
+    {
+     "w": "o",
+     "s": 7.8,
+     "e": 7.84
+    },
+    {
+     "w": "aplicativo",
+     "s": 7.88,
+     "e": 8.32
+    },
+    {
+     "w": "do",
+     "s": 8.4,
+     "e": 8.48
+    },
+    {
+     "w": "Claude",
+     "s": 8.56,
+     "e": 8.8
+    },
+    {
+     "w": "para",
+     "s": 8.88,
+     "e": 8.96
+    },
+    {
+     "w": "computador.",
+     "s": 9.04,
+     "e": 10
+    },
+    {
+     "w": "Três:",
+     "s": 10.08,
+     "e": 10.72
+    },
+    {
+     "w": "ligar",
+     "s": 10.84,
+     "e": 11.04
+    },
+    {
+     "w": "o",
+     "s": 11.12,
+     "e": 11.16
+    },
+    {
+     "w": "complemento",
+     "s": 11.2,
+     "e": 11.92
+    },
+    {
+     "w": "dentro",
+     "s": 12.04,
+     "e": 12.24
+    },
+    {
+     "w": "do",
+     "s": 12.28,
+     "e": 12.32
+    },
+    {
+     "w": "Blender.",
+     "s": 12.4,
+     "e": 13.12
+    },
+    {
+     "w": "Depois",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "disso,",
+     "s": 13.52,
+     "e": 14.08
+    },
+    {
+     "w": "é",
+     "s": 14.16,
+     "e": 14.24
+    },
+    {
+     "w": "só",
+     "s": 14.28,
+     "e": 14.4
+    },
+    {
+     "w": "pedir.",
+     "s": 14.48,
+     "e": 15.04
+    }
+   ],
+   "startFrame": 2628,
+   "endFrame": 3088
+  },
+  {
+   "id": "C07",
+   "tipo": "cartoes",
+   "fala": "O que você precisa? Um computador com Windows, Mac ou Linux. O Claude Desktop, em qualquer plano, inclusive o gratuito. E o Blender na versão quatro ponto dois ou mais nova, que também é gratuito. Um detalhe importante: o conector não funciona no Claude pelo navegador. Tem que ser o aplicativo instalado.",
+   "dados": {
+    "bg": "pexels/digitando-1.mp4",
+    "titulo": "O que você precisa",
+    "cols": 1,
+    "w": 1300,
+    "itens": [
+     {
+      "ao": "Windows",
+      "t": "Windows, Mac ou Linux",
+      "sub": "qualquer um dos três",
+      "icone": "▣",
+      "cor": "ciano",
+      "em": 70
+     },
+     {
+      "ao": "Desktop",
+      "t": "Claude Desktop",
+      "sub": "qualquer plano, inclusive o gratuito",
+      "icone": "✻",
+      "cor": "laranja",
+      "em": 154
+     },
+     {
+      "ao": "versão",
+      "t": "Blender 4.2 ou mais novo",
+      "sub": "também gratuito",
+      "icone": "◆",
+      "cor": "verde",
+      "em": 283
+     }
+    ],
+    "pilula": {
+     "ao": "navegador",
+     "txt": "Pelo navegador não funciona",
+     "cor": "vermelho",
+     "sfx": "error",
+     "em": 515
+    },
+    "bgDur": 16
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "que",
+     "s": 0.12,
+     "e": 0.16
+    },
+    {
+     "w": "você",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "precisa?",
+     "s": 0.48,
+     "e": 1.24
+    },
+    {
+     "w": "Um",
+     "s": 1.44,
+     "e": 1.52
+    },
+    {
+     "w": "computador",
+     "s": 1.6,
+     "e": 2.08
+    },
+    {
+     "w": "com",
+     "s": 2.16,
+     "e": 2.24
+    },
+    {
+     "w": "Windows,",
+     "s": 2.32,
+     "e": 2.96
+    },
+    {
+     "w": "Mac",
+     "s": 3.04,
+     "e": 3.44
+    },
+    {
+     "w": "ou",
+     "s": 3.52,
+     "e": 3.6
+    },
+    {
+     "w": "Linux.",
+     "s": 3.68,
+     "e": 4.24
+    },
+    {
+     "w": "O",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "Claude",
+     "s": 4.8,
+     "e": 5.04
+    },
+    {
+     "w": "Desktop,",
+     "s": 5.12,
+     "e": 5.76
+    },
+    {
+     "w": "em",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "qualquer",
+     "s": 6,
+     "e": 6.4
+    },
+    {
+     "w": "plano,",
+     "s": 6.48,
+     "e": 7.04
+    },
+    {
+     "w": "inclusive",
+     "s": 7.32,
+     "e": 7.6
+    },
+    {
+     "w": "o",
+     "s": 7.627,
+     "e": 7.653
+    },
+    {
+     "w": "gratuito.",
+     "s": 7.68,
+     "e": 8.32
+    },
+    {
+     "w": "E",
+     "s": 8.72,
+     "e": 8.76
+    },
+    {
+     "w": "o",
+     "s": 8.8,
+     "e": 8.84
+    },
+    {
+     "w": "Blender",
+     "s": 8.88,
+     "e": 9.28
+    },
+    {
+     "w": "na",
+     "s": 9.32,
+     "e": 9.36
+    },
+    {
+     "w": "versão",
+     "s": 9.44,
+     "e": 9.76
+    },
+    {
+     "w": "quatro",
+     "s": 9.92,
+     "e": 10.08
+    },
+    {
+     "w": "ponto",
+     "s": 10.24,
+     "e": 10.4
+    },
+    {
+     "w": "dois",
+     "s": 10.56,
+     "e": 10.72
+    },
+    {
+     "w": "ou",
+     "s": 10.96,
+     "e": 11.04
+    },
+    {
+     "w": "mais",
+     "s": 11.12,
+     "e": 11.28
+    },
+    {
+     "w": "nova,",
+     "s": 11.36,
+     "e": 11.76
+    },
+    {
+     "w": "que",
+     "s": 11.84,
+     "e": 11.92
+    },
+    {
+     "w": "também",
+     "s": 12,
+     "e": 12.32
+    },
+    {
+     "w": "é",
+     "s": 12.36,
+     "e": 12.4
+    },
+    {
+     "w": "gratuito.",
+     "s": 12.44,
+     "e": 13.2
+    },
+    {
+     "w": "Um",
+     "s": 13.44,
+     "e": 13.52
+    },
+    {
+     "w": "detalhe",
+     "s": 13.6,
+     "e": 13.893
+    },
+    {
+     "w": "importante:",
+     "s": 14.027,
+     "e": 14.8
+    },
+    {
+     "w": "o",
+     "s": 14.84,
+     "e": 14.88
+    },
+    {
+     "w": "conector",
+     "s": 14.96,
+     "e": 15.44
+    },
+    {
+     "w": "não",
+     "s": 15.6,
+     "e": 15.76
+    },
+    {
+     "w": "funciona",
+     "s": 15.84,
+     "e": 16.32
+    },
+    {
+     "w": "no",
+     "s": 16.4,
+     "e": 16.48
+    },
+    {
+     "w": "Claude",
+     "s": 16.56,
+     "e": 16.88
+    },
+    {
+     "w": "pelo",
+     "s": 16.96,
+     "e": 17.12
+    },
+    {
+     "w": "navegador.",
+     "s": 17.173,
+     "e": 17.76
+    },
+    {
+     "w": "Tem",
+     "s": 18.08,
+     "e": 18.24
+    },
+    {
+     "w": "que",
+     "s": 18.28,
+     "e": 18.32
+    },
+    {
+     "w": "ser",
+     "s": 18.48,
+     "e": 18.56
+    },
+    {
+     "w": "o",
+     "s": 18.64,
+     "e": 18.693
+    },
+    {
+     "w": "aplicativo",
+     "s": 18.747,
+     "e": 19.2
+    },
+    {
+     "w": "instalado.",
+     "s": 19.32,
+     "e": 20.08
+    }
+   ],
+   "startFrame": 3088,
+   "endFrame": 3698
+  },
+  {
+   "id": "C08",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Quem confirma isso é a própria página oficial do conector, da Anthropic. Os requisitos estão aqui: Claude Desktop, em qualquer plano, e o Blender quatro ponto dois ou mais novo, grátis em blender ponto org, barra download.",
+   "dados": {
+    "url": "claude.com/resources/tutorials/using-the-blender-connector-in-claude",
+    "selo": "Página oficial do conector",
+    "digitar": {
+     "ao": "Quem",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Quem",
+      "arq": "cena-requisitos.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "requisitos",
+     "x": 410,
+     "y": 900,
+     "w": 420,
+     "h": 72,
+     "em": 144
+    },
+    "zoom": {
+     "z": 1.5,
+     "vx": 300,
+     "vy": 640
+    }
+   },
+   "words": [
+    {
+     "w": "Quem",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "confirma",
+     "s": 0.28,
+     "e": 0.64
+    },
+    {
+     "w": "isso",
+     "s": 0.72,
+     "e": 1.04
+    },
+    {
+     "w": "é",
+     "s": 1.12,
+     "e": 1.2
+    },
+    {
+     "w": "a",
+     "s": 1.24,
+     "e": 1.28
+    },
+    {
+     "w": "própria",
+     "s": 1.44,
+     "e": 1.76
+    },
+    {
+     "w": "página",
+     "s": 1.84,
+     "e": 2.08
+    },
+    {
+     "w": "oficial",
+     "s": 2.16,
+     "e": 2.56
+    },
+    {
+     "w": "do",
+     "s": 2.6,
+     "e": 2.64
+    },
+    {
+     "w": "conector,",
+     "s": 2.72,
+     "e": 3.44
+    },
+    {
+     "w": "da",
+     "s": 3.48,
+     "e": 3.52
+    },
+    {
+     "w": "Anthropic.",
+     "s": 3.64,
+     "e": 4.24
+    },
+    {
+     "w": "Os",
+     "s": 4.56,
+     "e": 4.72
+    },
+    {
+     "w": "requisitos",
+     "s": 4.8,
+     "e": 5.2
+    },
+    {
+     "w": "estão",
+     "s": 5.28,
+     "e": 5.52
+    },
+    {
+     "w": "aqui:",
+     "s": 5.56,
+     "e": 6.08
+    },
+    {
+     "w": "Claude",
+     "s": 6.32,
+     "e": 6.64
+    },
+    {
+     "w": "Desktop,",
+     "s": 6.96,
+     "e": 7.36
+    },
+    {
+     "w": "em",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "qualquer",
+     "s": 7.64,
+     "e": 7.92
+    },
+    {
+     "w": "plano,",
+     "s": 8,
+     "e": 8.4
+    },
+    {
+     "w": "e",
+     "s": 8.72,
+     "e": 8.8
+    },
+    {
+     "w": "o",
+     "s": 8.84,
+     "e": 8.88
+    },
+    {
+     "w": "Blender",
+     "s": 8.96,
+     "e": 9.36
+    },
+    {
+     "w": "quatro",
+     "s": 9.44,
+     "e": 9.68
+    },
+    {
+     "w": "ponto",
+     "s": 9.76,
+     "e": 9.92
+    },
+    {
+     "w": "dois",
+     "s": 10.08,
+     "e": 10.24
+    },
+    {
+     "w": "ou",
+     "s": 10.48,
+     "e": 10.64
+    },
+    {
+     "w": "mais",
+     "s": 10.68,
+     "e": 10.88
+    },
+    {
+     "w": "novo,",
+     "s": 10.92,
+     "e": 11.44
+    },
+    {
+     "w": "grátis",
+     "s": 11.52,
+     "e": 12
+    },
+    {
+     "w": "em",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "blender",
+     "s": 12.24,
+     "e": 12.56
+    },
+    {
+     "w": "ponto",
+     "s": 12.6,
+     "e": 12.8
+    },
+    {
+     "w": "org,",
+     "s": 12.88,
+     "e": 13.36
+    },
+    {
+     "w": "barra",
+     "s": 13.44,
+     "e": 13.6
+    },
+    {
+     "w": "download.",
+     "s": 13.68,
+     "e": 14.48
+    }
+   ],
+   "startFrame": 3698,
+   "endFrame": 4141
+  },
+  {
+   "id": "C09",
+   "tipo": "instalador-sistemas",
+   "pantera": false,
+   "fala": "Passo um. Entre em blender ponto org, barra download, e baixe a versão do seu sistema. No Windows, abra o arquivo e vá clicando em Next até o final. No Mac, abra o arquivo e arraste o Blender para a pasta Aplicativos. No Linux, o jeito mais fácil é a loja de aplicativos do seu sistema: procure Blender e clique em instalar.",
+   "dados": {
+    "nome": "Blender",
+    "baixa": {
+     "ao": "baixe",
+     "em": 130
+    },
+    "win": {
+     "ao": "Windows",
+     "em": 199
+    },
+    "winFim": {
+     "ao": "final",
+     "em": 288
+    },
+    "mac": {
+     "ao": "Mac",
+     "em": 320
+    },
+    "macArrasta": {
+     "ao": "arraste",
+     "em": 368
+    },
+    "linux": {
+     "ao": "Linux",
+     "em": 463
+    },
+    "linuxBusca": {
+     "ao": "procure",
+     "em": 582
+    },
+    "linuxInstala": {
+     "ao": "instalar",
+     "em": 626
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "um.",
+     "s": 0.4,
+     "e": 0.72
+    },
+    {
+     "w": "Entre",
+     "s": 1.2,
+     "e": 1.44
+    },
+    {
+     "w": "em",
+     "s": 1.52,
+     "e": 1.68
+    },
+    {
+     "w": "blender",
+     "s": 1.72,
+     "e": 2.08
+    },
+    {
+     "w": "ponto",
+     "s": 2.12,
+     "e": 2.24
+    },
+    {
+     "w": "org,",
+     "s": 2.4,
+     "e": 2.84
+    },
+    {
+     "w": "barra",
+     "s": 2.96,
+     "e": 3.2
+    },
+    {
+     "w": "download,",
+     "s": 3.28,
+     "e": 4.04
+    },
+    {
+     "w": "e",
+     "s": 4.16,
+     "e": 4.24
+    },
+    {
+     "w": "baixe",
+     "s": 4.32,
+     "e": 4.56
+    },
+    {
+     "w": "a",
+     "s": 4.64,
+     "e": 4.68
+    },
+    {
+     "w": "versão",
+     "s": 4.72,
+     "e": 5.04
+    },
+    {
+     "w": "do",
+     "s": 5.12,
+     "e": 5.16
+    },
+    {
+     "w": "seu",
+     "s": 5.2,
+     "e": 5.32
+    },
+    {
+     "w": "sistema.",
+     "s": 5.36,
+     "e": 6.08
+    },
+    {
+     "w": "No",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "Windows,",
+     "s": 6.64,
+     "e": 6.96
+    },
+    {
+     "w": "abra",
+     "s": 7.2,
+     "e": 7.44
+    },
+    {
+     "w": "o",
+     "s": 7.48,
+     "e": 7.52
+    },
+    {
+     "w": "arquivo",
+     "s": 7.6,
+     "e": 8
+    },
+    {
+     "w": "e",
+     "s": 8.04,
+     "e": 8.08
+    },
+    {
+     "w": "vá",
+     "s": 8.12,
+     "e": 8.24
+    },
+    {
+     "w": "clicando",
+     "s": 8.28,
+     "e": 8.64
+    },
+    {
+     "w": "em",
+     "s": 8.68,
+     "e": 8.72
+    },
+    {
+     "w": "Next",
+     "s": 8.8,
+     "e": 9.2
+    },
+    {
+     "w": "até",
+     "s": 9.32,
+     "e": 9.48
+    },
+    {
+     "w": "o",
+     "s": 9.52,
+     "e": 9.56
+    },
+    {
+     "w": "final.",
+     "s": 9.6,
+     "e": 10
+    },
+    {
+     "w": "No",
+     "s": 10.4,
+     "e": 10.48
+    },
+    {
+     "w": "Mac,",
+     "s": 10.68,
+     "e": 11.2
+    },
+    {
+     "w": "abra",
+     "s": 11.32,
+     "e": 11.44
+    },
+    {
+     "w": "o",
+     "s": 11.48,
+     "e": 11.52
+    },
+    {
+     "w": "arquivo",
+     "s": 11.6,
+     "e": 12
+    },
+    {
+     "w": "e",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "arraste",
+     "s": 12.28,
+     "e": 12.64
+    },
+    {
+     "w": "o",
+     "s": 12.68,
+     "e": 12.72
+    },
+    {
+     "w": "Blender",
+     "s": 12.76,
+     "e": 13.04
+    },
+    {
+     "w": "para",
+     "s": 13.12,
+     "e": 13.2
+    },
+    {
+     "w": "a",
+     "s": 13.28,
+     "e": 13.36
+    },
+    {
+     "w": "pasta",
+     "s": 13.467,
+     "e": 13.68
+    },
+    {
+     "w": "Aplicativos.",
+     "s": 13.76,
+     "e": 14.72
+    },
+    {
+     "w": "No",
+     "s": 15.12,
+     "e": 15.2
+    },
+    {
+     "w": "Linux,",
+     "s": 15.44,
+     "e": 15.8
+    },
+    {
+     "w": "o",
+     "s": 15.92,
+     "e": 16
+    },
+    {
+     "w": "jeito",
+     "s": 16.08,
+     "e": 16.32
+    },
+    {
+     "w": "mais",
+     "s": 16.36,
+     "e": 16.56
+    },
+    {
+     "w": "fácil",
+     "s": 16.64,
+     "e": 17.04
+    },
+    {
+     "w": "é",
+     "s": 17.08,
+     "e": 17.12
+    },
+    {
+     "w": "a",
+     "s": 17.16,
+     "e": 17.2
+    },
+    {
+     "w": "loja",
+     "s": 17.28,
+     "e": 17.44
+    },
+    {
+     "w": "de",
+     "s": 17.52,
+     "e": 17.573
+    },
+    {
+     "w": "aplicativos",
+     "s": 17.627,
+     "e": 18.16
+    },
+    {
+     "w": "do",
+     "s": 18.2,
+     "e": 18.24
+    },
+    {
+     "w": "seu",
+     "s": 18.32,
+     "e": 18.44
+    },
+    {
+     "w": "sistema:",
+     "s": 18.48,
+     "e": 19.28
+    },
+    {
+     "w": "procure",
+     "s": 19.4,
+     "e": 19.68
+    },
+    {
+     "w": "Blender",
+     "s": 19.76,
+     "e": 20.16
+    },
+    {
+     "w": "e",
+     "s": 20.24,
+     "e": 20.32
+    },
+    {
+     "w": "clique",
+     "s": 20.4,
+     "e": 20.64
+    },
+    {
+     "w": "em",
+     "s": 20.72,
+     "e": 20.8
+    },
+    {
+     "w": "instalar.",
+     "s": 20.88,
+     "e": 21.68
+    }
+   ],
+   "startFrame": 4141,
+   "endFrame": 4799
+  },
+  {
+   "id": "C10",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Se você ainda não tem o Claude Desktop, entre em claude ponto com, barra download. O site já mostra o botão do seu sistema, tem Mac, Windows e Linux. Instale como qualquer programa e entre com a sua conta do Claude.",
+   "dados": {
+    "url": "claude.com/download",
+    "selo": "Claude Desktop",
+    "digitar": {
+     "ao": "entre",
+     "em": 79
+    },
+    "telas": [
+     {
+      "ao": "entre",
+      "arq": "cena-download-claude.png",
+      "em": 79
+     }
+    ],
+    "destaque": {
+     "ao": "botão",
+     "x": 700,
+     "y": 382,
+     "w": 200,
+     "h": 40,
+     "em": 199
+    },
+    "cliques": [
+     {
+      "ao": "Instale",
+      "x": 800,
+      "y": 400,
+      "chip": "Claude Desktop (instalador)",
+      "em": 305
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Se",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "você",
+     "s": 0.2,
+     "e": 0.4
+    },
+    {
+     "w": "ainda",
+     "s": 0.48,
+     "e": 0.64
+    },
+    {
+     "w": "não",
+     "s": 0.72,
+     "e": 0.8
+    },
+    {
+     "w": "tem",
+     "s": 0.96,
+     "e": 1.12
+    },
+    {
+     "w": "o",
+     "s": 1.2,
+     "e": 1.28
+    },
+    {
+     "w": "Claude",
+     "s": 1.36,
+     "e": 1.6
+    },
+    {
+     "w": "Desktop,",
+     "s": 1.92,
+     "e": 2.48
+    },
+    {
+     "w": "entre",
+     "s": 2.64,
+     "e": 2.8
+    },
+    {
+     "w": "em",
+     "s": 2.88,
+     "e": 2.96
+    },
+    {
+     "w": "claude",
+     "s": 3.04,
+     "e": 3.36
+    },
+    {
+     "w": "ponto",
+     "s": 3.4,
+     "e": 3.6
+    },
+    {
+     "w": "com,",
+     "s": 3.68,
+     "e": 4.16
+    },
+    {
+     "w": "barra",
+     "s": 4.24,
+     "e": 4.4
+    },
+    {
+     "w": "download.",
+     "s": 4.48,
+     "e": 5.12
+    },
+    {
+     "w": "O",
+     "s": 5.52,
+     "e": 5.6
+    },
+    {
+     "w": "site",
+     "s": 5.68,
+     "e": 5.92
+    },
+    {
+     "w": "já",
+     "s": 6,
+     "e": 6.08
+    },
+    {
+     "w": "mostra",
+     "s": 6.16,
+     "e": 6.48
+    },
+    {
+     "w": "o",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "botão",
+     "s": 6.64,
+     "e": 6.8
+    },
+    {
+     "w": "do",
+     "s": 6.84,
+     "e": 6.88
+    },
+    {
+     "w": "seu",
+     "s": 6.92,
+     "e": 7.04
+    },
+    {
+     "w": "sistema,",
+     "s": 7.08,
+     "e": 7.76
+    },
+    {
+     "w": "tem",
+     "s": 7.88,
+     "e": 8
+    },
+    {
+     "w": "Mac,",
+     "s": 8.2,
+     "e": 8.56
+    },
+    {
+     "w": "Windows",
+     "s": 8.8,
+     "e": 9.04
+    },
+    {
+     "w": "e",
+     "s": 9.12,
+     "e": 9.16
+    },
+    {
+     "w": "Linux.",
+     "s": 9.2,
+     "e": 9.92
+    },
+    {
+     "w": "Instale",
+     "s": 10.16,
+     "e": 10.48
+    },
+    {
+     "w": "como",
+     "s": 10.56,
+     "e": 10.72
+    },
+    {
+     "w": "qualquer",
+     "s": 10.84,
+     "e": 11.12
+    },
+    {
+     "w": "programa",
+     "s": 11.36,
+     "e": 11.68
+    },
+    {
+     "w": "e",
+     "s": 11.84,
+     "e": 11.92
+    },
+    {
+     "w": "entre",
+     "s": 12.04,
+     "e": 12.16
+    },
+    {
+     "w": "com",
+     "s": 12.24,
+     "e": 12.28
+    },
+    {
+     "w": "a",
+     "s": 12.32,
+     "e": 12.36
+    },
+    {
+     "w": "sua",
+     "s": 12.4,
+     "e": 12.56
+    },
+    {
+     "w": "conta",
+     "s": 12.64,
+     "e": 12.84
+    },
+    {
+     "w": "do",
+     "s": 12.88,
+     "e": 12.96
+    },
+    {
+     "w": "Claude.",
+     "s": 13.04,
+     "e": 13.6
+    }
+   ],
+   "startFrame": 4799,
+   "endFrame": 5215
+  },
+  {
+   "id": "C11",
+   "tipo": "desktop-conectores",
+   "pantera": false,
+   "fala": "Passo dois. Abra o Claude Desktop, clique em personalizar e abra o diretório de conectores. Na busca, digite Blender. Vai aparecer o conector oficial, feito pelo Blender Lab. Clique em instalar. Pronto: o Claude já sabe falar com o Blender.",
+   "dados": {
+    "menu": {
+     "ao": "personalizar",
+     "em": 101
+    },
+    "diretorio": {
+     "ao": "diretório",
+     "em": 148
+    },
+    "busca": {
+     "ao": "digite",
+     "em": 223
+    },
+    "achou": {
+     "ao": "Lab",
+     "em": 346
+    },
+    "instalar": {
+     "ao": "instalar",
+     "em": 383
+    },
+    "ok": {
+     "ao": "Pronto",
+     "em": 410
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "dois.",
+     "s": 0.4,
+     "e": 1.04
+    },
+    {
+     "w": "Abra",
+     "s": 1.28,
+     "e": 1.48
+    },
+    {
+     "w": "o",
+     "s": 1.52,
+     "e": 1.6
+    },
+    {
+     "w": "Claude",
+     "s": 1.68,
+     "e": 1.92
+    },
+    {
+     "w": "Desktop,",
+     "s": 2.24,
+     "e": 2.8
+    },
+    {
+     "w": "clique",
+     "s": 2.88,
+     "e": 3.12
+    },
+    {
+     "w": "em",
+     "s": 3.16,
+     "e": 3.2
+    },
+    {
+     "w": "personalizar",
+     "s": 3.36,
+     "e": 4.16
+    },
+    {
+     "w": "e",
+     "s": 4.32,
+     "e": 4.4
+    },
+    {
+     "w": "abra",
+     "s": 4.48,
+     "e": 4.72
+    },
+    {
+     "w": "o",
+     "s": 4.76,
+     "e": 4.8
+    },
+    {
+     "w": "diretório",
+     "s": 4.92,
+     "e": 5.28
+    },
+    {
+     "w": "de",
+     "s": 5.36,
+     "e": 5.4
+    },
+    {
+     "w": "conectores.",
+     "s": 5.44,
+     "e": 6.24
+    },
+    {
+     "w": "Na",
+     "s": 6.72,
+     "e": 6.8
+    },
+    {
+     "w": "busca,",
+     "s": 6.88,
+     "e": 7.36
+    },
+    {
+     "w": "digite",
+     "s": 7.44,
+     "e": 7.84
+    },
+    {
+     "w": "Blender.",
+     "s": 7.92,
+     "e": 8.6
+    },
+    {
+     "w": "Vai",
+     "s": 8.8,
+     "e": 8.88
+    },
+    {
+     "w": "aparecer",
+     "s": 8.96,
+     "e": 9.28
+    },
+    {
+     "w": "o",
+     "s": 9.36,
+     "e": 9.4
+    },
+    {
+     "w": "conector",
+     "s": 9.44,
+     "e": 9.84
+    },
+    {
+     "w": "oficial,",
+     "s": 9.92,
+     "e": 10.56
+    },
+    {
+     "w": "feito",
+     "s": 10.64,
+     "e": 10.88
+    },
+    {
+     "w": "pelo",
+     "s": 10.96,
+     "e": 11.12
+    },
+    {
+     "w": "Blender",
+     "s": 11.16,
+     "e": 11.44
+    },
+    {
+     "w": "Lab.",
+     "s": 11.52,
+     "e": 11.92
+    },
+    {
+     "w": "Clique",
+     "s": 12.24,
+     "e": 12.48
+    },
+    {
+     "w": "em",
+     "s": 12.56,
+     "e": 12.64
+    },
+    {
+     "w": "instalar.",
+     "s": 12.76,
+     "e": 13.28
+    },
+    {
+     "w": "Pronto:",
+     "s": 13.68,
+     "e": 14.32
+    },
+    {
+     "w": "o",
+     "s": 14.36,
+     "e": 14.4
+    },
+    {
+     "w": "Claude",
+     "s": 14.48,
+     "e": 14.88
+    },
+    {
+     "w": "já",
+     "s": 14.96,
+     "e": 15.12
+    },
+    {
+     "w": "sabe",
+     "s": 15.28,
+     "e": 15.44
+    },
+    {
+     "w": "falar",
+     "s": 15.52,
+     "e": 15.76
+    },
+    {
+     "w": "com",
+     "s": 15.84,
+     "e": 15.92
+    },
+    {
+     "w": "o",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "Blender.",
+     "s": 16.04,
+     "e": 16.64
+    }
+   ],
+   "startFrame": 5215,
+   "endFrame": 5722
+  },
+  {
+   "id": "C12",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Passo três. O conector precisa de um complemento dentro do Blender. Na página oficial do conector tem o link das instruções, que leva para a página do servidor, no site do Blender Lab. É de lá que você pega o link de instalação.",
+   "dados": {
+    "url": "claude.com/connectors/blender",
+    "selo": "Passo 3: complemento",
+    "digitar": {
+     "ao": "Passo",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Passo",
+      "arq": "cena-conector.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "instruções",
+     "x": 440,
+     "y": 896,
+     "w": 630,
+     "h": 48,
+     "em": 215
+    },
+    "zoom": {
+     "z": 1.25,
+     "vx": 250,
+     "vy": 520
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "três.",
+     "s": 0.4,
+     "e": 1.08
+    },
+    {
+     "w": "O",
+     "s": 1.28,
+     "e": 1.32
+    },
+    {
+     "w": "conector",
+     "s": 1.36,
+     "e": 1.84
+    },
+    {
+     "w": "precisa",
+     "s": 1.96,
+     "e": 2.24
+    },
+    {
+     "w": "de",
+     "s": 2.32,
+     "e": 2.36
+    },
+    {
+     "w": "um",
+     "s": 2.4,
+     "e": 2.44
+    },
+    {
+     "w": "complemento",
+     "s": 2.48,
+     "e": 3.24
+    },
+    {
+     "w": "dentro",
+     "s": 3.28,
+     "e": 3.52
+    },
+    {
+     "w": "do",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "Blender.",
+     "s": 3.76,
+     "e": 4.4
+    },
+    {
+     "w": "Na",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "página",
+     "s": 4.8,
+     "e": 5.04
+    },
+    {
+     "w": "oficial",
+     "s": 5.12,
+     "e": 5.52
+    },
+    {
+     "w": "do",
+     "s": 5.56,
+     "e": 5.6
+    },
+    {
+     "w": "conector",
+     "s": 5.68,
+     "e": 6.16
+    },
+    {
+     "w": "tem",
+     "s": 6.32,
+     "e": 6.48
+    },
+    {
+     "w": "o",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "link",
+     "s": 6.64,
+     "e": 6.88
+    },
+    {
+     "w": "das",
+     "s": 6.96,
+     "e": 7.04
+    },
+    {
+     "w": "instruções,",
+     "s": 7.16,
+     "e": 8
+    },
+    {
+     "w": "que",
+     "s": 8.16,
+     "e": 8.24
+    },
+    {
+     "w": "leva",
+     "s": 8.32,
+     "e": 8.56
+    },
+    {
+     "w": "para",
+     "s": 8.64,
+     "e": 8.72
+    },
+    {
+     "w": "a",
+     "s": 8.76,
+     "e": 8.8
+    },
+    {
+     "w": "página",
+     "s": 8.88,
+     "e": 9.2
+    },
+    {
+     "w": "do",
+     "s": 9.24,
+     "e": 9.28
+    },
+    {
+     "w": "servidor,",
+     "s": 9.36,
+     "e": 10
+    },
+    {
+     "w": "no",
+     "s": 10.08,
+     "e": 10.16
+    },
+    {
+     "w": "site",
+     "s": 10.24,
+     "e": 10.48
+    },
+    {
+     "w": "do",
+     "s": 10.56,
+     "e": 10.64
+    },
+    {
+     "w": "Blender",
+     "s": 10.68,
+     "e": 10.96
+    },
+    {
+     "w": "Lab.",
+     "s": 11.12,
+     "e": 11.36
+    },
+    {
+     "w": "É",
+     "s": 11.84,
+     "e": 11.92
+    },
+    {
+     "w": "de",
+     "s": 12,
+     "e": 12.08
+    },
+    {
+     "w": "lá",
+     "s": 12.2,
+     "e": 12.32
+    },
+    {
+     "w": "que",
+     "s": 12.4,
+     "e": 12.48
+    },
+    {
+     "w": "você",
+     "s": 12.56,
+     "e": 12.72
+    },
+    {
+     "w": "pega",
+     "s": 12.8,
+     "e": 12.96
+    },
+    {
+     "w": "o",
+     "s": 13,
+     "e": 13.04
+    },
+    {
+     "w": "link",
+     "s": 13.16,
+     "e": 13.28
+    },
+    {
+     "w": "de",
+     "s": 13.32,
+     "e": 13.36
+    },
+    {
+     "w": "instalação.",
+     "s": 13.44,
+     "e": 14.32
+    }
+   ],
+   "startFrame": 5722,
+   "endFrame": 6160
+  },
+  {
+   "id": "C13",
+   "tipo": "blender-janela",
+   "pantera": false,
+   "fala": "Com o Blender aberto, arraste esse link de instalação da página para dentro da janela do Blender. Na primeira vez, ele pergunta se pode adicionar o repositório de extensões do Blender Lab. Clique em permitir. Depois, arraste o mesmo link mais uma vez. Agora sim, ele instala o complemento.",
+   "dados": {
+    "modo": "arrastar",
+    "arrasta": {
+     "ao": "arraste",
+     "em": 41
+    },
+    "pergunta": {
+     "ao": "pergunta",
+     "em": 216
+    },
+    "permitir": {
+     "ao": "permitir",
+     "em": 358
+    },
+    "arrasta2": {
+     "ao": "arraste#2",
+     "em": 415
+    },
+    "instala": {
+     "ao": "instala",
+     "em": 528
+    }
+   },
+   "words": [
+    {
+     "w": "Com",
+     "s": 0,
+     "e": 0.133
+    },
+    {
+     "w": "o",
+     "s": 0.16,
+     "e": 0.2
+    },
+    {
+     "w": "Blender",
+     "s": 0.24,
+     "e": 0.512
+    },
+    {
+     "w": "aberto,",
+     "s": 0.56,
+     "e": 1.2
+    },
+    {
+     "w": "arraste",
+     "s": 1.36,
+     "e": 1.78
+    },
+    {
+     "w": "esse",
+     "s": 1.84,
+     "e": 2.05
+    },
+    {
+     "w": "link",
+     "s": 2.08,
+     "e": 2.4
+    },
+    {
+     "w": "de",
+     "s": 2.44,
+     "e": 2.48
+    },
+    {
+     "w": "instalação",
+     "s": 2.6,
+     "e": 3.04
+    },
+    {
+     "w": "da",
+     "s": 3.12,
+     "e": 3.2
+    },
+    {
+     "w": "página",
+     "s": 3.28,
+     "e": 3.68
+    },
+    {
+     "w": "para",
+     "s": 3.76,
+     "e": 4
+    },
+    {
+     "w": "dentro",
+     "s": 4.16,
+     "e": 4.48
+    },
+    {
+     "w": "da",
+     "s": 4.52,
+     "e": 4.56
+    },
+    {
+     "w": "janela",
+     "s": 4.64,
+     "e": 4.96
+    },
+    {
+     "w": "do",
+     "s": 5,
+     "e": 5.04
+    },
+    {
+     "w": "Blender.",
+     "s": 5.12,
+     "e": 5.6
+    },
+    {
+     "w": "Na",
+     "s": 6,
+     "e": 6.08
+    },
+    {
+     "w": "primeira",
+     "s": 6.2,
+     "e": 6.4
+    },
+    {
+     "w": "vez,",
+     "s": 6.48,
+     "e": 6.96
+    },
+    {
+     "w": "ele",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "pergunta",
+     "s": 7.2,
+     "e": 7.6
+    },
+    {
+     "w": "se",
+     "s": 7.68,
+     "e": 7.84
+    },
+    {
+     "w": "pode",
+     "s": 7.92,
+     "e": 8.08
+    },
+    {
+     "w": "adicionar",
+     "s": 8.16,
+     "e": 8.64
+    },
+    {
+     "w": "o",
+     "s": 8.68,
+     "e": 8.72
+    },
+    {
+     "w": "repositório",
+     "s": 8.8,
+     "e": 9.44
+    },
+    {
+     "w": "de",
+     "s": 9.467,
+     "e": 9.493
+    },
+    {
+     "w": "extensões",
+     "s": 9.52,
+     "e": 10.08
+    },
+    {
+     "w": "do",
+     "s": 10.16,
+     "e": 10.24
+    },
+    {
+     "w": "Blender",
+     "s": 10.28,
+     "e": 10.56
+    },
+    {
+     "w": "Lab.",
+     "s": 10.64,
+     "e": 11.04
+    },
+    {
+     "w": "Clique",
+     "s": 11.44,
+     "e": 11.68
+    },
+    {
+     "w": "em",
+     "s": 11.76,
+     "e": 11.84
+    },
+    {
+     "w": "permitir.",
+     "s": 11.92,
+     "e": 12.56
+    },
+    {
+     "w": "Depois,",
+     "s": 13.04,
+     "e": 13.6
+    },
+    {
+     "w": "arraste",
+     "s": 13.84,
+     "e": 14.24
+    },
+    {
+     "w": "o",
+     "s": 14.32,
+     "e": 14.4
+    },
+    {
+     "w": "mesmo",
+     "s": 14.52,
+     "e": 14.72
+    },
+    {
+     "w": "link",
+     "s": 14.8,
+     "e": 15.12
+    },
+    {
+     "w": "mais",
+     "s": 15.2,
+     "e": 15.44
+    },
+    {
+     "w": "uma",
+     "s": 15.52,
+     "e": 15.6
+    },
+    {
+     "w": "vez.",
+     "s": 15.68,
+     "e": 16.08
+    },
+    {
+     "w": "Agora",
+     "s": 16.48,
+     "e": 16.8
+    },
+    {
+     "w": "sim,",
+     "s": 16.88,
+     "e": 17.28
+    },
+    {
+     "w": "ele",
+     "s": 17.36,
+     "e": 17.44
+    },
+    {
+     "w": "instala",
+     "s": 17.6,
+     "e": 17.84
+    },
+    {
+     "w": "o",
+     "s": 17.88,
+     "e": 17.92
+    },
+    {
+     "w": "complemento.",
+     "s": 18,
+     "e": 18.88
+    }
+   ],
+   "startFrame": 6160,
+   "endFrame": 6735
+  },
+  {
+   "id": "C14",
+   "tipo": "blender-janela",
+   "pantera": false,
+   "fala": "Para ligar, vá em Edit, Preferences, e abra a aba Add-ons. Procure o Blender eme cê pê e clique em Start eme cê pê Server. Isso liga a ponte entre o Blender e o Claude. Toda vez que for trabalhar, abra o seu projeto e ligue o servidor de novo.",
+   "dados": {
+    "modo": "preferencias",
+    "edit": {
+     "ao": "Edit",
+     "em": 48
+    },
+    "addons": {
+     "ao": "Add-ons",
+     "em": 127
+    },
+    "procura": {
+     "ao": "Procure",
+     "em": 161
+    },
+    "start": {
+     "ao": "Start",
+     "em": 238
+    },
+    "ponte": {
+     "ao": "ponte",
+     "em": 324
+    },
+    "toda": {
+     "ao": "Toda",
+     "em": 389
+    }
+   },
+   "words": [
+    {
+     "w": "Para",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "ligar,",
+     "s": 0.24,
+     "e": 0.88
+    },
+    {
+     "w": "vá",
+     "s": 0.96,
+     "e": 1.12
+    },
+    {
+     "w": "em",
+     "s": 1.24,
+     "e": 1.36
+    },
+    {
+     "w": "Edit,",
+     "s": 1.6,
+     "e": 1.92
+    },
+    {
+     "w": "Preferences,",
+     "s": 2.24,
+     "e": 3.04
+    },
+    {
+     "w": "e",
+     "s": 3.28,
+     "e": 3.36
+    },
+    {
+     "w": "abra",
+     "s": 3.44,
+     "e": 3.68
+    },
+    {
+     "w": "a",
+     "s": 3.72,
+     "e": 3.76
+    },
+    {
+     "w": "aba",
+     "s": 3.92,
+     "e": 4.08
+    },
+    {
+     "w": "Add-ons.",
+     "s": 4.24,
+     "e": 4.96
+    },
+    {
+     "w": "Procure",
+     "s": 5.36,
+     "e": 5.68
+    },
+    {
+     "w": "o",
+     "s": 5.76,
+     "e": 5.8
+    },
+    {
+     "w": "Blender",
+     "s": 5.84,
+     "e": 6.16
+    },
+    {
+     "w": "eme",
+     "s": 6.32,
+     "e": 6.56
+    },
+    {
+     "w": "cê",
+     "s": 6.6,
+     "e": 6.72
+    },
+    {
+     "w": "pê",
+     "s": 6.8,
+     "e": 7.04
+    },
+    {
+     "w": "e",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "clique",
+     "s": 7.44,
+     "e": 7.68
+    },
+    {
+     "w": "em",
+     "s": 7.76,
+     "e": 7.84
+    },
+    {
+     "w": "Start",
+     "s": 7.92,
+     "e": 8.4
+    },
+    {
+     "w": "eme",
+     "s": 8.48,
+     "e": 8.72
+    },
+    {
+     "w": "cê",
+     "s": 8.76,
+     "e": 8.84
+    },
+    {
+     "w": "pê",
+     "s": 8.88,
+     "e": 9.12
+    },
+    {
+     "w": "Server.",
+     "s": 9.2,
+     "e": 9.92
+    },
+    {
+     "w": "Isso",
+     "s": 10.16,
+     "e": 10.4
+    },
+    {
+     "w": "liga",
+     "s": 10.52,
+     "e": 10.64
+    },
+    {
+     "w": "a",
+     "s": 10.693,
+     "e": 10.747
+    },
+    {
+     "w": "ponte",
+     "s": 10.8,
+     "e": 11.12
+    },
+    {
+     "w": "entre",
+     "s": 11.24,
+     "e": 11.36
+    },
+    {
+     "w": "o",
+     "s": 11.387,
+     "e": 11.413
+    },
+    {
+     "w": "Blender",
+     "s": 11.44,
+     "e": 11.84
+    },
+    {
+     "w": "e",
+     "s": 11.92,
+     "e": 11.96
+    },
+    {
+     "w": "o",
+     "s": 12,
+     "e": 12.04
+    },
+    {
+     "w": "Claude.",
+     "s": 12.08,
+     "e": 12.64
+    },
+    {
+     "w": "Toda",
+     "s": 12.96,
+     "e": 13.12
+    },
+    {
+     "w": "vez",
+     "s": 13.2,
+     "e": 13.36
+    },
+    {
+     "w": "que",
+     "s": 13.4,
+     "e": 13.44
+    },
+    {
+     "w": "for",
+     "s": 13.52,
+     "e": 13.6
+    },
+    {
+     "w": "trabalhar,",
+     "s": 13.68,
+     "e": 14.4
+    },
+    {
+     "w": "abra",
+     "s": 14.52,
+     "e": 14.64
+    },
+    {
+     "w": "o",
+     "s": 14.68,
+     "e": 14.72
+    },
+    {
+     "w": "seu",
+     "s": 14.76,
+     "e": 14.88
+    },
+    {
+     "w": "projeto",
+     "s": 15.04,
+     "e": 15.52
+    },
+    {
+     "w": "e",
+     "s": 15.6,
+     "e": 15.68
+    },
+    {
+     "w": "ligue",
+     "s": 15.76,
+     "e": 16
+    },
+    {
+     "w": "o",
+     "s": 16.04,
+     "e": 16.08
+    },
+    {
+     "w": "servidor",
+     "s": 16.16,
+     "e": 16.48
+    },
+    {
+     "w": "de",
+     "s": 16.52,
+     "e": 16.56
+    },
+    {
+     "w": "novo.",
+     "s": 16.64,
+     "e": 17.2
+    }
+   ],
+   "startFrame": 6735,
+   "endFrame": 7259
+  },
+  {
+   "id": "C15",
+   "tipo": "desktop-pedido",
+   "pantera": false,
+   "fala": "Hora do teste. Abra uma conversa nova no Claude e escreva: crie uma ilha flutuante em estilo low poly, com uma casinha, árvores, um lago e nuvens, e coloque uma câmera girando em volta. Na primeira vez, o Claude pede permissão para usar o Blender. Clique em permitir.",
+   "dados": {
+    "pedido": "Crie uma ilha flutuante em estilo low poly, com uma casinha, árvores, um lago e nuvens, e coloque uma câmera girando em volta.",
+    "a": {
+     "ao": "escreva",
+     "em": 101
+    },
+    "perm": {
+     "ao": "permissão",
+     "em": 442
+    },
+    "ok": {
+     "ao": "permitir",
+     "em": 509
+    },
+    "acoes": [
+     {
+      "ao": "permitir",
+      "txt": "Blender · executando código Python na cena aberta",
+      "em": 509
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Hora",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "do",
+     "s": 0.28,
+     "e": 0.32
+    },
+    {
+     "w": "teste.",
+     "s": 0.4,
+     "e": 1.12
+    },
+    {
+     "w": "Abra",
+     "s": 1.36,
+     "e": 1.6
+    },
+    {
+     "w": "uma",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "conversa",
+     "s": 1.84,
+     "e": 2.16
+    },
+    {
+     "w": "nova",
+     "s": 2.32,
+     "e": 2.56
+    },
+    {
+     "w": "no",
+     "s": 2.64,
+     "e": 2.72
+    },
+    {
+     "w": "Claude",
+     "s": 2.84,
+     "e": 3.2
+    },
+    {
+     "w": "e",
+     "s": 3.28,
+     "e": 3.32
+    },
+    {
+     "w": "escreva:",
+     "s": 3.36,
+     "e": 4.4
+    },
+    {
+     "w": "crie",
+     "s": 4.48,
+     "e": 4.72
+    },
+    {
+     "w": "uma",
+     "s": 4.84,
+     "e": 4.96
+    },
+    {
+     "w": "ilha",
+     "s": 5.08,
+     "e": 5.2
+    },
+    {
+     "w": "flutuante",
+     "s": 5.24,
+     "e": 5.84
+    },
+    {
+     "w": "em",
+     "s": 5.92,
+     "e": 6
+    },
+    {
+     "w": "estilo",
+     "s": 6.12,
+     "e": 6.4
+    },
+    {
+     "w": "low",
+     "s": 6.52,
+     "e": 6.64
+    },
+    {
+     "w": "poly,",
+     "s": 6.72,
+     "e": 7.2
+    },
+    {
+     "w": "com",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "uma",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "casinha,",
+     "s": 7.6,
+     "e": 8.4
+    },
+    {
+     "w": "árvores,",
+     "s": 8.52,
+     "e": 9.12
+    },
+    {
+     "w": "um",
+     "s": 9.16,
+     "e": 9.2
+    },
+    {
+     "w": "lago",
+     "s": 9.28,
+     "e": 9.68
+    },
+    {
+     "w": "e",
+     "s": 9.76,
+     "e": 9.84
+    },
+    {
+     "w": "nuvens,",
+     "s": 9.92,
+     "e": 10.48
+    },
+    {
+     "w": "e",
+     "s": 10.72,
+     "e": 10.8
+    },
+    {
+     "w": "coloque",
+     "s": 10.92,
+     "e": 11.12
+    },
+    {
+     "w": "uma",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "câmera",
+     "s": 11.36,
+     "e": 11.64
+    },
+    {
+     "w": "girando",
+     "s": 11.68,
+     "e": 12
+    },
+    {
+     "w": "em",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "volta.",
+     "s": 12.24,
+     "e": 12.8
+    },
+    {
+     "w": "Na",
+     "s": 13.04,
+     "e": 13.12
+    },
+    {
+     "w": "primeira",
+     "s": 13.2,
+     "e": 13.44
+    },
+    {
+     "w": "vez,",
+     "s": 13.52,
+     "e": 13.92
+    },
+    {
+     "w": "o",
+     "s": 13.96,
+     "e": 14
+    },
+    {
+     "w": "Claude",
+     "s": 14.08,
+     "e": 14.4
+    },
+    {
+     "w": "pede",
+     "s": 14.48,
+     "e": 14.64
+    },
+    {
+     "w": "permissão",
+     "s": 14.72,
+     "e": 15.2
+    },
+    {
+     "w": "para",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "usar",
+     "s": 15.44,
+     "e": 15.6
+    },
+    {
+     "w": "o",
+     "s": 15.64,
+     "e": 15.68
+    },
+    {
+     "w": "Blender.",
+     "s": 15.72,
+     "e": 16.16
+    },
+    {
+     "w": "Clique",
+     "s": 16.48,
+     "e": 16.72
+    },
+    {
+     "w": "em",
+     "s": 16.8,
+     "e": 16.88
+    },
+    {
+     "w": "permitir.",
+     "s": 16.96,
+     "e": 17.84
+    }
+   ],
+   "startFrame": 7259,
+   "endFrame": 7802
+  },
+  {
+   "id": "C16",
+   "tipo": "blender-janela",
+   "pantera": false,
+   "fala": "E aí é só assistir. O Claude cria o terreno, as árvores, a casinha, o lago, as nuvens, a luz e a câmera, uma coisa de cada vez, e lê a cena para conferir o que fez. Em poucos minutos, está tudo pronto na sua tela.",
+   "dados": {
+    "modo": "video",
+    "video": "render/ilha.mp4",
+    "videoDur": 5,
+    "itens": [
+     {
+      "ao": "terreno",
+      "t": "Ilha",
+      "em": 82
+     },
+     {
+      "ao": "árvores",
+      "t": "Árvores",
+      "em": 110
+     },
+     {
+      "ao": "casinha",
+      "t": "Casinha",
+      "em": 132
+     },
+     {
+      "ao": "lago",
+      "t": "Lago",
+      "em": 161
+     },
+     {
+      "ao": "nuvens",
+      "t": "Nuvens",
+      "em": 190
+     },
+     {
+      "ao": "luz",
+      "t": "Sol",
+      "em": 216
+     },
+     {
+      "ao": "câmera",
+      "t": "Câmera",
+      "em": 238
+     }
+    ],
+    "revela": {
+     "ao": "terreno",
+     "em": 82
+    },
+    "ok": {
+     "ao": "pronto",
+     "txt": "Cena criada pelo Claude",
+     "em": 432
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "aí",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "é",
+     "s": 0.48,
+     "e": 0.64
+    },
+    {
+     "w": "só",
+     "s": 0.68,
+     "e": 0.8
+    },
+    {
+     "w": "assistir.",
+     "s": 1,
+     "e": 1.44
+    },
+    {
+     "w": "O",
+     "s": 1.76,
+     "e": 1.84
+    },
+    {
+     "w": "Claude",
+     "s": 1.92,
+     "e": 2.32
+    },
+    {
+     "w": "cria",
+     "s": 2.4,
+     "e": 2.533
+    },
+    {
+     "w": "o",
+     "s": 2.587,
+     "e": 2.64
+    },
+    {
+     "w": "terreno,",
+     "s": 2.72,
+     "e": 3.36
+    },
+    {
+     "w": "as",
+     "s": 3.48,
+     "e": 3.6
+    },
+    {
+     "w": "árvores,",
+     "s": 3.68,
+     "e": 4.267
+    },
+    {
+     "w": "a",
+     "s": 4.293,
+     "e": 4.32
+    },
+    {
+     "w": "casinha,",
+     "s": 4.4,
+     "e": 5.2
+    },
+    {
+     "w": "o",
+     "s": 5.24,
+     "e": 5.28
+    },
+    {
+     "w": "lago,",
+     "s": 5.36,
+     "e": 6
+    },
+    {
+     "w": "as",
+     "s": 6.12,
+     "e": 6.24
+    },
+    {
+     "w": "nuvens,",
+     "s": 6.32,
+     "e": 6.96
+    },
+    {
+     "w": "a",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "luz",
+     "s": 7.2,
+     "e": 7.52
+    },
+    {
+     "w": "e",
+     "s": 7.6,
+     "e": 7.68
+    },
+    {
+     "w": "a",
+     "s": 7.72,
+     "e": 7.76
+    },
+    {
+     "w": "câmera,",
+     "s": 7.92,
+     "e": 8.56
+    },
+    {
+     "w": "uma",
+     "s": 8.68,
+     "e": 8.8
+    },
+    {
+     "w": "coisa",
+     "s": 8.84,
+     "e": 8.96
+    },
+    {
+     "w": "de",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "cada",
+     "s": 9.2,
+     "e": 9.36
+    },
+    {
+     "w": "vez,",
+     "s": 9.44,
+     "e": 10.08
+    },
+    {
+     "w": "e",
+     "s": 10.12,
+     "e": 10.16
+    },
+    {
+     "w": "lê",
+     "s": 10.24,
+     "e": 10.4
+    },
+    {
+     "w": "a",
+     "s": 10.48,
+     "e": 10.56
+    },
+    {
+     "w": "cena",
+     "s": 10.64,
+     "e": 10.88
+    },
+    {
+     "w": "para",
+     "s": 10.96,
+     "e": 11.12
+    },
+    {
+     "w": "conferir",
+     "s": 11.2,
+     "e": 11.44
+    },
+    {
+     "w": "o",
+     "s": 11.52,
+     "e": 11.56
+    },
+    {
+     "w": "que",
+     "s": 11.6,
+     "e": 11.68
+    },
+    {
+     "w": "fez.",
+     "s": 11.76,
+     "e": 12.48
+    },
+    {
+     "w": "Em",
+     "s": 12.6,
+     "e": 12.72
+    },
+    {
+     "w": "poucos",
+     "s": 12.773,
+     "e": 13.04
+    },
+    {
+     "w": "minutos,",
+     "s": 13.16,
+     "e": 13.68
+    },
+    {
+     "w": "está",
+     "s": 13.76,
+     "e": 14
+    },
+    {
+     "w": "tudo",
+     "s": 14.04,
+     "e": 14.32
+    },
+    {
+     "w": "pronto",
+     "s": 14.4,
+     "e": 14.64
+    },
+    {
+     "w": "na",
+     "s": 14.72,
+     "e": 14.8
+    },
+    {
+     "w": "sua",
+     "s": 14.853,
+     "e": 14.96
+    },
+    {
+     "w": "tela.",
+     "s": 15.04,
+     "e": 15.52
+    }
+   ],
+   "startFrame": 7802,
+   "endFrame": 8276
+  },
+  {
+   "id": "C17",
+   "tipo": "desktop-pedido",
+   "pantera": false,
+   "fala": "Não gostou de alguma coisa? É só pedir. Por exemplo: deixe o céu com cor de pôr do sol e acenda uma luz nas janelas da casa. Ele muda só o que você pediu, e você vê a mudança na hora.",
+   "dados": {
+    "pedido": "Deixe o céu com cor de pôr do sol e acenda uma luz nas janelas da casa.",
+    "a": {
+     "ao": "Por",
+     "em": 82
+    },
+    "acoes": [
+     {
+      "ao": "muda",
+      "txt": "Blender · céu e janelas atualizados",
+      "em": 268
+     }
+    ],
+    "fim": {
+     "ao": "hora",
+     "txt": "Pronto! O céu agora tem as cores do pôr do sol e as janelas estão acesas.",
+     "em": 358
+    },
+    "thumb": "render/ilha-final.jpg"
+   },
+   "words": [
+    {
+     "w": "Não",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "gostou",
+     "s": 0.2,
+     "e": 0.48
+    },
+    {
+     "w": "de",
+     "s": 0.52,
+     "e": 0.56
+    },
+    {
+     "w": "alguma",
+     "s": 0.64,
+     "e": 0.8
+    },
+    {
+     "w": "coisa?",
+     "s": 0.88,
+     "e": 1.36
+    },
+    {
+     "w": "É",
+     "s": 1.68,
+     "e": 1.76
+    },
+    {
+     "w": "só",
+     "s": 1.8,
+     "e": 1.92
+    },
+    {
+     "w": "pedir.",
+     "s": 2.04,
+     "e": 2.4
+    },
+    {
+     "w": "Por",
+     "s": 2.72,
+     "e": 2.8
+    },
+    {
+     "w": "exemplo:",
+     "s": 2.88,
+     "e": 3.44
+    },
+    {
+     "w": "deixe",
+     "s": 4,
+     "e": 4.24
+    },
+    {
+     "w": "o",
+     "s": 4.28,
+     "e": 4.32
+    },
+    {
+     "w": "céu",
+     "s": 4.4,
+     "e": 4.64
+    },
+    {
+     "w": "com",
+     "s": 4.72,
+     "e": 4.8
+    },
+    {
+     "w": "cor",
+     "s": 4.88,
+     "e": 5.04
+    },
+    {
+     "w": "de",
+     "s": 5.12,
+     "e": 5.28
+    },
+    {
+     "w": "pôr",
+     "s": 5.32,
+     "e": 5.52
+    },
+    {
+     "w": "do",
+     "s": 5.6,
+     "e": 5.68
+    },
+    {
+     "w": "sol",
+     "s": 5.76,
+     "e": 6.08
+    },
+    {
+     "w": "e",
+     "s": 6.24,
+     "e": 6.32
+    },
+    {
+     "w": "acenda",
+     "s": 6.44,
+     "e": 6.72
+    },
+    {
+     "w": "uma",
+     "s": 6.8,
+     "e": 6.88
+    },
+    {
+     "w": "luz",
+     "s": 6.96,
+     "e": 7.2
+    },
+    {
+     "w": "nas",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "janelas",
+     "s": 7.44,
+     "e": 7.68
+    },
+    {
+     "w": "da",
+     "s": 7.76,
+     "e": 7.84
+    },
+    {
+     "w": "casa.",
+     "s": 7.92,
+     "e": 8.32
+    },
+    {
+     "w": "Ele",
+     "s": 8.72,
+     "e": 8.88
+    },
+    {
+     "w": "muda",
+     "s": 8.92,
+     "e": 9.2
+    },
+    {
+     "w": "só",
+     "s": 9.36,
+     "e": 9.44
+    },
+    {
+     "w": "o",
+     "s": 9.52,
+     "e": 9.6
+    },
+    {
+     "w": "que",
+     "s": 9.64,
+     "e": 9.68
+    },
+    {
+     "w": "você",
+     "s": 9.72,
+     "e": 9.92
+    },
+    {
+     "w": "pediu,",
+     "s": 10,
+     "e": 10.56
+    },
+    {
+     "w": "e",
+     "s": 10.6,
+     "e": 10.64
+    },
+    {
+     "w": "você",
+     "s": 10.72,
+     "e": 10.96
+    },
+    {
+     "w": "vê",
+     "s": 11.04,
+     "e": 11.12
+    },
+    {
+     "w": "a",
+     "s": 11.147,
+     "e": 11.173
+    },
+    {
+     "w": "mudança",
+     "s": 11.2,
+     "e": 11.6
+    },
+    {
+     "w": "na",
+     "s": 11.68,
+     "e": 11.84
+    },
+    {
+     "w": "hora.",
+     "s": 11.92,
+     "e": 12.48
+    }
+   ],
+   "startFrame": 8276,
+   "endFrame": 8658
+  },
+  {
+   "id": "C18",
+   "tipo": "blender-janela",
+   "pantera": false,
+   "fala": "Para transformar em vídeo, peça para ele configurar a saída em vídeo eme pê quatro. Depois, no Blender, clique em Render e em Render Animation. O Blender desenha quadro por quadro, e o vídeo sai pronto para postar.",
+   "dados": {
+    "modo": "render",
+    "video": "render/ilha.mp4",
+    "videoDur": 5,
+    "menu": {
+     "ao": "Render",
+     "em": 228
+    },
+    "anim": {
+     "ao": "Animation",
+     "em": 264
+    },
+    "fim": {
+     "ao": "postar",
+     "em": 406
+    }
+   },
+   "words": [
+    {
+     "w": "Para",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "transformar",
+     "s": 0.24,
+     "e": 0.72
+    },
+    {
+     "w": "em",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "vídeo,",
+     "s": 0.96,
+     "e": 1.52
+    },
+    {
+     "w": "peça",
+     "s": 1.6,
+     "e": 1.84
+    },
+    {
+     "w": "para",
+     "s": 1.92,
+     "e": 2.08
+    },
+    {
+     "w": "ele",
+     "s": 2.16,
+     "e": 2.24
+    },
+    {
+     "w": "configurar",
+     "s": 2.32,
+     "e": 2.8
+    },
+    {
+     "w": "a",
+     "s": 2.84,
+     "e": 2.88
+    },
+    {
+     "w": "saída",
+     "s": 2.96,
+     "e": 3.36
+    },
+    {
+     "w": "em",
+     "s": 3.44,
+     "e": 3.52
+    },
+    {
+     "w": "vídeo",
+     "s": 3.64,
+     "e": 4
+    },
+    {
+     "w": "eme",
+     "s": 4.16,
+     "e": 4.32
+    },
+    {
+     "w": "pê",
+     "s": 4.36,
+     "e": 4.56
+    },
+    {
+     "w": "quatro.",
+     "s": 4.6,
+     "e": 5.44
+    },
+    {
+     "w": "Depois,",
+     "s": 5.56,
+     "e": 6.08
+    },
+    {
+     "w": "no",
+     "s": 6.16,
+     "e": 6.24
+    },
+    {
+     "w": "Blender,",
+     "s": 6.28,
+     "e": 7.04
+    },
+    {
+     "w": "clique",
+     "s": 7.08,
+     "e": 7.36
+    },
+    {
+     "w": "em",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "Render",
+     "s": 7.6,
+     "e": 8.08
+    },
+    {
+     "w": "e",
+     "s": 8.16,
+     "e": 8.24
+    },
+    {
+     "w": "em",
+     "s": 8.32,
+     "e": 8.4
+    },
+    {
+     "w": "Render",
+     "s": 8.48,
+     "e": 8.72
+    },
+    {
+     "w": "Animation.",
+     "s": 8.8,
+     "e": 9.92
+    },
+    {
+     "w": "O",
+     "s": 9.96,
+     "e": 10
+    },
+    {
+     "w": "Blender",
+     "s": 10.08,
+     "e": 10.4
+    },
+    {
+     "w": "desenha",
+     "s": 10.52,
+     "e": 10.88
+    },
+    {
+     "w": "quadro",
+     "s": 10.96,
+     "e": 11.28
+    },
+    {
+     "w": "por",
+     "s": 11.36,
+     "e": 11.44
+    },
+    {
+     "w": "quadro,",
+     "s": 11.6,
+     "e": 12.16
+    },
+    {
+     "w": "e",
+     "s": 12.2,
+     "e": 12.24
+    },
+    {
+     "w": "o",
+     "s": 12.28,
+     "e": 12.32
+    },
+    {
+     "w": "vídeo",
+     "s": 12.4,
+     "e": 12.72
+    },
+    {
+     "w": "sai",
+     "s": 12.8,
+     "e": 12.96
+    },
+    {
+     "w": "pronto",
+     "s": 13.04,
+     "e": 13.28
+    },
+    {
+     "w": "para",
+     "s": 13.36,
+     "e": 13.44
+    },
+    {
+     "w": "postar.",
+     "s": 13.52,
+     "e": 14.16
+    }
+   ],
+   "startFrame": 8658,
+   "endFrame": 9091
+  },
+  {
+   "id": "C19",
+   "tipo": "cartoes",
+   "fala": "E não é só criar do zero. Você também pode pedir: renomeie os objetos da cena com nomes que façam sentido. Explique como esse arquivo funciona. Ou: mostre quais objetos estão deixando a cena pesada. São exemplos que a própria Anthropic usa no tutorial oficial.",
+   "dados": {
+    "bg": "pexels/modelagem-2.mp4",
+    "titulo": "Outros pedidos que funcionam",
+    "cols": 1,
+    "w": 1350,
+    "itens": [
+     {
+      "ao": "renomeie",
+      "t": "Renomeie os objetos da cena",
+      "sub": "nomes que fazem sentido",
+      "icone": "1",
+      "cor": "ciano",
+      "em": 106
+     },
+     {
+      "ao": "Explique",
+      "t": "Explique como esse arquivo funciona",
+      "sub": "ótimo para arquivos baixados",
+      "icone": "2",
+      "cor": "verde",
+      "em": 221
+     },
+     {
+      "ao": "mostre",
+      "t": "Mostre o que deixa a cena pesada",
+      "sub": "e o que dá para aliviar",
+      "icone": "3",
+      "cor": "ouro",
+      "em": 319
+     }
+    ],
+    "bgDur": 24
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "não",
+     "s": 0.2,
+     "e": 0.32
+    },
+    {
+     "w": "é",
+     "s": 0.4,
+     "e": 0.48
+    },
+    {
+     "w": "só",
+     "s": 0.52,
+     "e": 0.64
+    },
+    {
+     "w": "criar",
+     "s": 0.72,
+     "e": 0.96
+    },
+    {
+     "w": "do",
+     "s": 1.04,
+     "e": 1.12
+    },
+    {
+     "w": "zero.",
+     "s": 1.2,
+     "e": 1.6
+    },
+    {
+     "w": "Você",
+     "s": 1.84,
+     "e": 2.08
+    },
+    {
+     "w": "também",
+     "s": 2.133,
+     "e": 2.32
+    },
+    {
+     "w": "pode",
+     "s": 2.36,
+     "e": 2.56
+    },
+    {
+     "w": "pedir:",
+     "s": 2.68,
+     "e": 3.04
+    },
+    {
+     "w": "renomeie",
+     "s": 3.52,
+     "e": 4
+    },
+    {
+     "w": "os",
+     "s": 4.04,
+     "e": 4.08
+    },
+    {
+     "w": "objetos",
+     "s": 4.16,
+     "e": 4.64
+    },
+    {
+     "w": "da",
+     "s": 4.72,
+     "e": 4.8
+    },
+    {
+     "w": "cena",
+     "s": 4.88,
+     "e": 5.28
+    },
+    {
+     "w": "com",
+     "s": 5.36,
+     "e": 5.44
+    },
+    {
+     "w": "nomes",
+     "s": 5.52,
+     "e": 5.76
+    },
+    {
+     "w": "que",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "façam",
+     "s": 6,
+     "e": 6.24
+    },
+    {
+     "w": "sentido.",
+     "s": 6.32,
+     "e": 7.12
+    },
+    {
+     "w": "Explique",
+     "s": 7.36,
+     "e": 7.84
+    },
+    {
+     "w": "como",
+     "s": 8,
+     "e": 8.16
+    },
+    {
+     "w": "esse",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "arquivo",
+     "s": 8.4,
+     "e": 8.72
+    },
+    {
+     "w": "funciona.",
+     "s": 8.8,
+     "e": 9.44
+    },
+    {
+     "w": "Ou:",
+     "s": 9.84,
+     "e": 10.16
+    },
+    {
+     "w": "mostre",
+     "s": 10.64,
+     "e": 11.04
+    },
+    {
+     "w": "quais",
+     "s": 11.12,
+     "e": 11.36
+    },
+    {
+     "w": "objetos",
+     "s": 11.6,
+     "e": 12
+    },
+    {
+     "w": "estão",
+     "s": 12.08,
+     "e": 12.24
+    },
+    {
+     "w": "deixando",
+     "s": 12.28,
+     "e": 12.64
+    },
+    {
+     "w": "a",
+     "s": 12.667,
+     "e": 12.693
+    },
+    {
+     "w": "cena",
+     "s": 12.72,
+     "e": 12.96
+    },
+    {
+     "w": "pesada.",
+     "s": 13.04,
+     "e": 13.84
+    },
+    {
+     "w": "São",
+     "s": 14.08,
+     "e": 14.16
+    },
+    {
+     "w": "exemplos",
+     "s": 14.24,
+     "e": 14.72
+    },
+    {
+     "w": "que",
+     "s": 14.76,
+     "e": 14.8
+    },
+    {
+     "w": "a",
+     "s": 14.88,
+     "e": 14.96
+    },
+    {
+     "w": "própria",
+     "s": 15,
+     "e": 15.28
+    },
+    {
+     "w": "Anthropic",
+     "s": 15.36,
+     "e": 15.84
+    },
+    {
+     "w": "usa",
+     "s": 15.92,
+     "e": 16.08
+    },
+    {
+     "w": "no",
+     "s": 16.16,
+     "e": 16.24
+    },
+    {
+     "w": "tutorial",
+     "s": 16.44,
+     "e": 16.64
+    },
+    {
+     "w": "oficial.",
+     "s": 16.72,
+     "e": 17.52
+    }
+   ],
+   "startFrame": 9091,
+   "endFrame": 9625
+  },
+  {
+   "id": "C20",
+   "tipo": "cartoes",
+   "fala": "Três dicas para o resultado sair melhor. Um: diga o estilo, por exemplo, low poly, desenho animado ou realista. Dois: peça uma coisa de cada vez, e ajuste antes de seguir. Três: salve no Blender. O Claude trabalha na cena aberta, e as mudanças só vão para o arquivo quando você salva.",
+   "dados": {
+    "bg": "pexels/ideia-1.jpg",
+    "titulo": "3 dicas de pedido",
+    "cols": 1,
+    "w": 1350,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "Um",
+      "t": "Diga o estilo",
+      "sub": "low poly, desenho animado ou realista",
+      "cor": "ciano",
+      "em": 84
+     },
+     {
+      "ao": "Dois",
+      "t": "Uma coisa de cada vez",
+      "sub": "ajuste antes de seguir",
+      "cor": "verde",
+      "em": 264
+     },
+     {
+      "ao": "Três",
+      "t": "Salve no Blender",
+      "sub": "a mudança só vai pro arquivo quando você salva",
+      "cor": "ouro",
+      "em": 0
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Três",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "dicas",
+     "s": 0.4,
+     "e": 0.72
+    },
+    {
+     "w": "para",
+     "s": 0.8,
+     "e": 0.88
+    },
+    {
+     "w": "o",
+     "s": 0.92,
+     "e": 0.96
+    },
+    {
+     "w": "resultado",
+     "s": 1.24,
+     "e": 1.52
+    },
+    {
+     "w": "sair",
+     "s": 1.56,
+     "e": 1.84
+    },
+    {
+     "w": "melhor.",
+     "s": 1.92,
+     "e": 2.4
+    },
+    {
+     "w": "Um:",
+     "s": 2.8,
+     "e": 3.44
+    },
+    {
+     "w": "diga",
+     "s": 3.52,
+     "e": 3.76
+    },
+    {
+     "w": "o",
+     "s": 3.8,
+     "e": 3.84
+    },
+    {
+     "w": "estilo,",
+     "s": 4,
+     "e": 4.64
+    },
+    {
+     "w": "por",
+     "s": 4.68,
+     "e": 4.72
+    },
+    {
+     "w": "exemplo,",
+     "s": 4.8,
+     "e": 5.44
+    },
+    {
+     "w": "low",
+     "s": 5.52,
+     "e": 5.68
+    },
+    {
+     "w": "poly,",
+     "s": 5.76,
+     "e": 6.4
+    },
+    {
+     "w": "desenho",
+     "s": 6.48,
+     "e": 6.72
+    },
+    {
+     "w": "animado",
+     "s": 6.84,
+     "e": 7.36
+    },
+    {
+     "w": "ou",
+     "s": 7.52,
+     "e": 7.6
+    },
+    {
+     "w": "realista.",
+     "s": 7.68,
+     "e": 8.72
+    },
+    {
+     "w": "Dois:",
+     "s": 8.8,
+     "e": 9.52
+    },
+    {
+     "w": "peça",
+     "s": 9.6,
+     "e": 9.84
+    },
+    {
+     "w": "uma",
+     "s": 9.92,
+     "e": 10.16
+    },
+    {
+     "w": "coisa",
+     "s": 10.24,
+     "e": 10.48
+    },
+    {
+     "w": "de",
+     "s": 10.56,
+     "e": 10.64
+    },
+    {
+     "w": "cada",
+     "s": 10.72,
+     "e": 10.88
+    },
+    {
+     "w": "vez,",
+     "s": 10.96,
+     "e": 11.52
+    },
+    {
+     "w": "e",
+     "s": 11.56,
+     "e": 11.6
+    },
+    {
+     "w": "ajuste",
+     "s": 11.72,
+     "e": 12.24
+    },
+    {
+     "w": "antes",
+     "s": 12.32,
+     "e": 12.56
+    },
+    {
+     "w": "de",
+     "s": 12.64,
+     "e": 12.72
+    },
+    {
+     "w": "seguir.",
+     "s": 12.8,
+     "e": 13.52
+    },
+    {
+     "w": "Três:",
+     "s": 13.6,
+     "e": 14.32
+    },
+    {
+     "w": "salve",
+     "s": 14.44,
+     "e": 14.64
+    },
+    {
+     "w": "no",
+     "s": 14.72,
+     "e": 14.8
+    },
+    {
+     "w": "Blender.",
+     "s": 14.84,
+     "e": 15.68
+    },
+    {
+     "w": "O",
+     "s": 15.76,
+     "e": 15.84
+    },
+    {
+     "w": "Claude",
+     "s": 15.92,
+     "e": 16.16
+    },
+    {
+     "w": "trabalha",
+     "s": 16.24,
+     "e": 16.56
+    },
+    {
+     "w": "na",
+     "s": 16.6,
+     "e": 16.64
+    },
+    {
+     "w": "cena",
+     "s": 16.8,
+     "e": 16.96
+    },
+    {
+     "w": "aberta,",
+     "s": 17.08,
+     "e": 17.68
+    },
+    {
+     "w": "e",
+     "s": 17.72,
+     "e": 17.76
+    },
+    {
+     "w": "as",
+     "s": 17.8,
+     "e": 17.84
+    },
+    {
+     "w": "mudanças",
+     "s": 17.92,
+     "e": 18.4
+    },
+    {
+     "w": "só",
+     "s": 18.44,
+     "e": 18.56
+    },
+    {
+     "w": "vão",
+     "s": 18.72,
+     "e": 18.88
+    },
+    {
+     "w": "para",
+     "s": 18.96,
+     "e": 19.04
+    },
+    {
+     "w": "o",
+     "s": 19.067,
+     "e": 19.093
+    },
+    {
+     "w": "arquivo",
+     "s": 19.12,
+     "e": 19.52
+    },
+    {
+     "w": "quando",
+     "s": 19.6,
+     "e": 19.76
+    },
+    {
+     "w": "você",
+     "s": 19.84,
+     "e": 20.08
+    },
+    {
+     "w": "salva.",
+     "s": 20.16,
+     "e": 20.64
+    }
+   ],
+   "startFrame": 9625,
+   "endFrame": 10255
+  },
+  {
+   "id": "C21",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "pantera": false,
+   "fala": "Se o Claude disser que não encontrou o Blender, confira três coisas. O Blender está aberto. O servidor foi ligado, no Start eme cê pê Server. E você está no Claude Desktop, não no site. Depois, feche e abra o Claude Desktop de novo, e tente outra vez.",
+   "dados": {
+    "bg": "pexels/frustrado-2.mp4",
+    "titulo": "Não conectou?",
+    "cols": 1,
+    "w": 1300,
+    "check": true,
+    "itens": [
+     {
+      "ao": "aberto",
+      "t": "O Blender está aberto",
+      "em": 160
+     },
+     {
+      "ao": "ligado",
+      "t": "O servidor está ligado",
+      "em": 206
+     },
+     {
+      "ao": "Desktop",
+      "t": "Você está no Claude Desktop",
+      "em": 331
+     }
+    ],
+    "pilula": {
+     "ao": "feche",
+     "txt": "Feche e abra o Claude de novo",
+     "cor": "ouro",
+     "em": 420
+    },
+    "bgDur": 7
+   },
+   "words": [
+    {
+     "w": "Se",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "o",
+     "s": 0.2,
+     "e": 0.24
+    },
+    {
+     "w": "Claude",
+     "s": 0.32,
+     "e": 0.56
+    },
+    {
+     "w": "disser",
+     "s": 0.64,
+     "e": 1.04
+    },
+    {
+     "w": "que",
+     "s": 1.12,
+     "e": 1.2
+    },
+    {
+     "w": "não",
+     "s": 1.28,
+     "e": 1.44
+    },
+    {
+     "w": "encontrou",
+     "s": 1.52,
+     "e": 1.92
+    },
+    {
+     "w": "o",
+     "s": 1.947,
+     "e": 1.973
+    },
+    {
+     "w": "Blender,",
+     "s": 2,
+     "e": 2.64
+    },
+    {
+     "w": "confira",
+     "s": 2.76,
+     "e": 3.12
+    },
+    {
+     "w": "três",
+     "s": 3.2,
+     "e": 3.44
+    },
+    {
+     "w": "coisas.",
+     "s": 3.52,
+     "e": 4.24
+    },
+    {
+     "w": "O",
+     "s": 4.48,
+     "e": 4.56
+    },
+    {
+     "w": "Blender",
+     "s": 4.64,
+     "e": 4.96
+    },
+    {
+     "w": "está",
+     "s": 5.04,
+     "e": 5.2
+    },
+    {
+     "w": "aberto.",
+     "s": 5.32,
+     "e": 5.92
+    },
+    {
+     "w": "O",
+     "s": 6.08,
+     "e": 6.16
+    },
+    {
+     "w": "servidor",
+     "s": 6.28,
+     "e": 6.64
+    },
+    {
+     "w": "foi",
+     "s": 6.68,
+     "e": 6.8
+    },
+    {
+     "w": "ligado,",
+     "s": 6.88,
+     "e": 7.44
+    },
+    {
+     "w": "no",
+     "s": 7.48,
+     "e": 7.52
+    },
+    {
+     "w": "Start",
+     "s": 7.6,
+     "e": 8.08
+    },
+    {
+     "w": "eme",
+     "s": 8.16,
+     "e": 8.4
+    },
+    {
+     "w": "cê",
+     "s": 8.48,
+     "e": 8.64
+    },
+    {
+     "w": "pê",
+     "s": 8.68,
+     "e": 8.88
+    },
+    {
+     "w": "Server.",
+     "s": 9.12,
+     "e": 9.44
+    },
+    {
+     "w": "E",
+     "s": 9.92,
+     "e": 9.96
+    },
+    {
+     "w": "você",
+     "s": 10,
+     "e": 10.24
+    },
+    {
+     "w": "está",
+     "s": 10.36,
+     "e": 10.52
+    },
+    {
+     "w": "no",
+     "s": 10.56,
+     "e": 10.64
+    },
+    {
+     "w": "Claude",
+     "s": 10.72,
+     "e": 10.96
+    },
+    {
+     "w": "Desktop,",
+     "s": 11.04,
+     "e": 11.84
+    },
+    {
+     "w": "não",
+     "s": 11.92,
+     "e": 12.08
+    },
+    {
+     "w": "no",
+     "s": 12.16,
+     "e": 12.24
+    },
+    {
+     "w": "site.",
+     "s": 12.44,
+     "e": 12.72
+    },
+    {
+     "w": "Depois,",
+     "s": 13.2,
+     "e": 13.92
+    },
+    {
+     "w": "feche",
+     "s": 14,
+     "e": 14.48
+    },
+    {
+     "w": "e",
+     "s": 14.56,
+     "e": 14.64
+    },
+    {
+     "w": "abra",
+     "s": 14.72,
+     "e": 14.96
+    },
+    {
+     "w": "o",
+     "s": 15,
+     "e": 15.04
+    },
+    {
+     "w": "Claude",
+     "s": 15.12,
+     "e": 15.36
+    },
+    {
+     "w": "Desktop",
+     "s": 15.64,
+     "e": 15.92
+    },
+    {
+     "w": "de",
+     "s": 15.96,
+     "e": 16
+    },
+    {
+     "w": "novo,",
+     "s": 16.08,
+     "e": 16.64
+    },
+    {
+     "w": "e",
+     "s": 16.68,
+     "e": 16.72
+    },
+    {
+     "w": "tente",
+     "s": 16.8,
+     "e": 16.96
+    },
+    {
+     "w": "outra",
+     "s": 17,
+     "e": 17.2
+    },
+    {
+     "w": "vez.",
+     "s": 17.36,
+     "e": 17.84
+    }
+   ],
+   "startFrame": 10255,
+   "endFrame": 10798
+  },
+  {
+   "id": "C22",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "Alguns cuidados rápidos. O plano gratuito do Claude tem limite de uso, então cenas grandes podem pedir mais de uma sessão. O render final usa o seu computador, então pode demorar mais em máquina simples. E algumas telas deste vídeo são ilustrações. Os links certos estão na descrição.",
+   "dados": {
+    "bg": "pexels/mesa-2.jpg",
+    "titulo": "Cuidados rápidos",
+    "cols": 1,
+    "w": 1350,
+    "itens": [
+     {
+      "ao": "limite",
+      "t": "Plano gratuito tem limite de uso",
+      "sub": "cena grande pode levar mais de uma sessão",
+      "icone": "1",
+      "cor": "laranja",
+      "em": 110
+     },
+     {
+      "ao": "render",
+      "t": "O render usa o seu computador",
+      "sub": "máquina simples demora mais",
+      "icone": "2",
+      "cor": "ciano",
+      "em": 264
+     },
+     {
+      "ao": "ilustrações",
+      "t": "Algumas telas são ilustrações",
+      "sub": "links oficiais na descrição",
+      "icone": "3",
+      "cor": "violeta",
+      "em": 470
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Alguns",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "cuidados",
+     "s": 0.4,
+     "e": 0.8
+    },
+    {
+     "w": "rápidos.",
+     "s": 0.88,
+     "e": 1.76
+    },
+    {
+     "w": "O",
+     "s": 2,
+     "e": 2.08
+    },
+    {
+     "w": "plano",
+     "s": 2.16,
+     "e": 2.32
+    },
+    {
+     "w": "gratuito",
+     "s": 2.4,
+     "e": 2.88
+    },
+    {
+     "w": "do",
+     "s": 2.92,
+     "e": 2.96
+    },
+    {
+     "w": "Claude",
+     "s": 3.04,
+     "e": 3.44
+    },
+    {
+     "w": "tem",
+     "s": 3.52,
+     "e": 3.6
+    },
+    {
+     "w": "limite",
+     "s": 3.68,
+     "e": 4
+    },
+    {
+     "w": "de",
+     "s": 4.08,
+     "e": 4.16
+    },
+    {
+     "w": "uso,",
+     "s": 4.24,
+     "e": 4.8
+    },
+    {
+     "w": "então",
+     "s": 4.92,
+     "e": 5.2
+    },
+    {
+     "w": "cenas",
+     "s": 5.36,
+     "e": 5.76
+    },
+    {
+     "w": "grandes",
+     "s": 5.84,
+     "e": 6.32
+    },
+    {
+     "w": "podem",
+     "s": 6.4,
+     "e": 6.64
+    },
+    {
+     "w": "pedir",
+     "s": 6.72,
+     "e": 7.04
+    },
+    {
+     "w": "mais",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "de",
+     "s": 7.36,
+     "e": 7.4
+    },
+    {
+     "w": "uma",
+     "s": 7.44,
+     "e": 7.52
+    },
+    {
+     "w": "sessão.",
+     "s": 7.6,
+     "e": 8.08
+    },
+    {
+     "w": "O",
+     "s": 8.56,
+     "e": 8.64
+    },
+    {
+     "w": "render",
+     "s": 8.8,
+     "e": 8.96
+    },
+    {
+     "w": "final",
+     "s": 9.2,
+     "e": 9.44
+    },
+    {
+     "w": "usa",
+     "s": 9.52,
+     "e": 9.68
+    },
+    {
+     "w": "o",
+     "s": 9.76,
+     "e": 9.84
+    },
+    {
+     "w": "seu",
+     "s": 9.92,
+     "e": 10.08
+    },
+    {
+     "w": "computador,",
+     "s": 10.24,
+     "e": 10.96
+    },
+    {
+     "w": "então",
+     "s": 11.08,
+     "e": 11.28
+    },
+    {
+     "w": "pode",
+     "s": 11.44,
+     "e": 11.6
+    },
+    {
+     "w": "demorar",
+     "s": 11.68,
+     "e": 12.08
+    },
+    {
+     "w": "mais",
+     "s": 12.16,
+     "e": 12.4
+    },
+    {
+     "w": "em",
+     "s": 12.48,
+     "e": 12.56
+    },
+    {
+     "w": "máquina",
+     "s": 12.6,
+     "e": 12.88
+    },
+    {
+     "w": "simples.",
+     "s": 13.04,
+     "e": 13.6
+    },
+    {
+     "w": "E",
+     "s": 14.08,
+     "e": 14.12
+    },
+    {
+     "w": "algumas",
+     "s": 14.16,
+     "e": 14.48
+    },
+    {
+     "w": "telas",
+     "s": 14.56,
+     "e": 14.8
+    },
+    {
+     "w": "deste",
+     "s": 14.92,
+     "e": 15.08
+    },
+    {
+     "w": "vídeo",
+     "s": 15.12,
+     "e": 15.44
+    },
+    {
+     "w": "são",
+     "s": 15.52,
+     "e": 15.6
+    },
+    {
+     "w": "ilustrações.",
+     "s": 15.68,
+     "e": 16.64
+    },
+    {
+     "w": "Os",
+     "s": 16.8,
+     "e": 16.88
+    },
+    {
+     "w": "links",
+     "s": 16.96,
+     "e": 17.2
+    },
+    {
+     "w": "certos",
+     "s": 17.36,
+     "e": 17.68
+    },
+    {
+     "w": "estão",
+     "s": 17.76,
+     "e": 17.92
+    },
+    {
+     "w": "na",
+     "s": 17.96,
+     "e": 18
+    },
+    {
+     "w": "descrição.",
+     "s": 18.08,
+     "e": 18.88
+    }
+   ],
+   "startFrame": 10798,
+   "endFrame": 11372
+  },
+  {
+   "id": "C23",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Resumindo: instalou o Blender, adicionou o conector no Claude Desktop, ligou o servidor no Blender e pediu a cena em português. O passo a passo completo, com todos os links, está na descrição.",
+   "dados": {
+    "bg": "pexels/comemora-2.mp4",
+    "titulo": "Resumo",
+    "cols": 2,
+    "check": true,
+    "itens": [
+     {
+      "ao": "instalou",
+      "t": "Instalou o Blender",
+      "em": 29
+     },
+     {
+      "ao": "adicionou",
+      "t": "Adicionou o conector",
+      "em": 67
+     },
+     {
+      "ao": "ligou",
+      "t": "Ligou o servidor",
+      "em": 149
+     },
+     {
+      "ao": "pediu",
+      "t": "Pediu a cena",
+      "em": 199
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Passo a passo e links na descrição",
+     "cor": "ouro",
+     "em": 350
+    },
+    "bgDur": 8
+   },
+   "words": [
+    {
+     "w": "Resumindo:",
+     "s": 0,
+     "e": 0.8
+    },
+    {
+     "w": "instalou",
+     "s": 0.96,
+     "e": 1.36
+    },
+    {
+     "w": "o",
+     "s": 1.4,
+     "e": 1.44
+    },
+    {
+     "w": "Blender,",
+     "s": 1.52,
+     "e": 2.16
+    },
+    {
+     "w": "adicionou",
+     "s": 2.24,
+     "e": 2.72
+    },
+    {
+     "w": "o",
+     "s": 2.76,
+     "e": 2.8
+    },
+    {
+     "w": "conector",
+     "s": 2.88,
+     "e": 3.36
+    },
+    {
+     "w": "no",
+     "s": 3.44,
+     "e": 3.52
+    },
+    {
+     "w": "Claude",
+     "s": 3.6,
+     "e": 3.84
+    },
+    {
+     "w": "Desktop,",
+     "s": 4.16,
+     "e": 4.8
+    },
+    {
+     "w": "ligou",
+     "s": 4.96,
+     "e": 5.2
+    },
+    {
+     "w": "o",
+     "s": 5.28,
+     "e": 5.36
+    },
+    {
+     "w": "servidor",
+     "s": 5.48,
+     "e": 5.76
+    },
+    {
+     "w": "no",
+     "s": 5.84,
+     "e": 5.92
+    },
+    {
+     "w": "Blender",
+     "s": 6,
+     "e": 6.4
+    },
+    {
+     "w": "e",
+     "s": 6.48,
+     "e": 6.56
+    },
+    {
+     "w": "pediu",
+     "s": 6.64,
+     "e": 6.96
+    },
+    {
+     "w": "a",
+     "s": 7,
+     "e": 7.04
+    },
+    {
+     "w": "cena",
+     "s": 7.12,
+     "e": 7.28
+    },
+    {
+     "w": "em",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "português.",
+     "s": 7.52,
+     "e": 8.48
+    },
+    {
+     "w": "O",
+     "s": 8.56,
+     "e": 8.64
+    },
+    {
+     "w": "passo",
+     "s": 8.72,
+     "e": 8.84
+    },
+    {
+     "w": "a",
+     "s": 8.88,
+     "e": 8.96
+    },
+    {
+     "w": "passo",
+     "s": 9.04,
+     "e": 9.28
+    },
+    {
+     "w": "completo,",
+     "s": 9.4,
+     "e": 9.96
+    },
+    {
+     "w": "com",
+     "s": 10,
+     "e": 10.24
+    },
+    {
+     "w": "todos",
+     "s": 10.4,
+     "e": 10.56
+    },
+    {
+     "w": "os",
+     "s": 10.64,
+     "e": 10.72
+    },
+    {
+     "w": "links,",
+     "s": 10.92,
+     "e": 11.2
+    },
+    {
+     "w": "está",
+     "s": 11.32,
+     "e": 11.48
+    },
+    {
+     "w": "na",
+     "s": 11.52,
+     "e": 11.6
+    },
+    {
+     "w": "descrição.",
+     "s": 11.68,
+     "e": 12.4
+    }
+   ],
+   "startFrame": 11372,
+   "endFrame": 11753
+  },
+  {
+   "id": "C24",
+   "tipo": "cta-final",
+   "fala": "Se esse vídeo te ajudou, deixa o like, se inscreve no Aprenda YouTube e comenta mundo três dê, se você quer um vídeo só com ideias de cenas para pedir. E me conta aqui embaixo: qual cena você vai pedir primeiro? Até o próximo!",
+   "dados": {
+    "bg": "pexels/artista3d-1.mp4",
+    "like": {
+     "ao": "like",
+     "em": 55
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 78
+    },
+    "guia": {
+     "ao": "mundo",
+     "em": 144
+    },
+    "guiaTxt": "Comente: Mundo 3D",
+    "q": {
+     "ao": "qual",
+     "em": 322
+    },
+    "qTxt": "Qual cena você vai pedir primeiro?",
+    "bgDur": 8
+   },
+   "words": [
+    {
+     "w": "Se",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "esse",
+     "s": 0.24,
+     "e": 0.32
+    },
+    {
+     "w": "vídeo",
+     "s": 0.4,
+     "e": 0.56
+    },
+    {
+     "w": "te",
+     "s": 0.64,
+     "e": 0.72
+    },
+    {
+     "w": "ajudou,",
+     "s": 0.76,
+     "e": 1.44
+    },
+    {
+     "w": "deixa",
+     "s": 1.52,
+     "e": 1.68
+    },
+    {
+     "w": "o",
+     "s": 1.72,
+     "e": 1.76
+    },
+    {
+     "w": "like,",
+     "s": 1.84,
+     "e": 2.32
+    },
+    {
+     "w": "se",
+     "s": 2.4,
+     "e": 2.48
+    },
+    {
+     "w": "inscreve",
+     "s": 2.6,
+     "e": 2.96
+    },
+    {
+     "w": "no",
+     "s": 3,
+     "e": 3.04
+    },
+    {
+     "w": "Aprenda",
+     "s": 3.12,
+     "e": 3.44
+    },
+    {
+     "w": "YouTube",
+     "s": 3.68,
+     "e": 3.92
+    },
+    {
+     "w": "e",
+     "s": 4.08,
+     "e": 4.16
+    },
+    {
+     "w": "comenta",
+     "s": 4.24,
+     "e": 4.64
+    },
+    {
+     "w": "mundo",
+     "s": 4.8,
+     "e": 5.12
+    },
+    {
+     "w": "três",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "dê,",
+     "s": 5.52,
+     "e": 5.84
+    },
+    {
+     "w": "se",
+     "s": 5.92,
+     "e": 6
+    },
+    {
+     "w": "você",
+     "s": 6.04,
+     "e": 6.24
+    },
+    {
+     "w": "quer",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "um",
+     "s": 6.48,
+     "e": 6.56
+    },
+    {
+     "w": "vídeo",
+     "s": 6.64,
+     "e": 6.96
+    },
+    {
+     "w": "só",
+     "s": 7.04,
+     "e": 7.2
+    },
+    {
+     "w": "com",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "ideias",
+     "s": 7.44,
+     "e": 7.84
+    },
+    {
+     "w": "de",
+     "s": 7.92,
+     "e": 8
+    },
+    {
+     "w": "cenas",
+     "s": 8.04,
+     "e": 8.32
+    },
+    {
+     "w": "para",
+     "s": 8.4,
+     "e": 8.48
+    },
+    {
+     "w": "pedir.",
+     "s": 8.56,
+     "e": 9.36
+    },
+    {
+     "w": "E",
+     "s": 9.4,
+     "e": 9.44
+    },
+    {
+     "w": "me",
+     "s": 9.48,
+     "e": 9.52
+    },
+    {
+     "w": "conta",
+     "s": 9.6,
+     "e": 9.76
+    },
+    {
+     "w": "aqui",
+     "s": 9.787,
+     "e": 9.84
+    },
+    {
+     "w": "embaixo:",
+     "s": 9.92,
+     "e": 10.64
+    },
+    {
+     "w": "qual",
+     "s": 10.72,
+     "e": 10.8
+    },
+    {
+     "w": "cena",
+     "s": 10.96,
+     "e": 11.2
+    },
+    {
+     "w": "você",
+     "s": 11.24,
+     "e": 11.44
+    },
+    {
+     "w": "vai",
+     "s": 11.493,
+     "e": 11.6
+    },
+    {
+     "w": "pedir",
+     "s": 11.68,
+     "e": 11.84
+    },
+    {
+     "w": "primeiro?",
+     "s": 11.96,
+     "e": 12.64
+    },
+    {
+     "w": "Até",
+     "s": 12.76,
+     "e": 12.907
+    },
+    {
+     "w": "o",
+     "s": 12.933,
+     "e": 12.96
+    },
+    {
+     "w": "próximo!",
+     "s": 13.04,
+     "e": 13.68
+    }
+   ],
+   "startFrame": 11753,
+   "endFrame": 12251
+  }
+ ],
+ "cortes": [
+  {
+   "id": "K001",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/criador-1.mp4",
+   "from": 0,
+   "startFrame": 112,
+   "endFrame": 167
+  },
+  {
+   "id": "K002",
+   "cena": "C01",
+   "tipo": "foto",
+   "src": "pexels/mesa-2.jpg",
+   "from": 0,
+   "startFrame": 283,
+   "endFrame": 332
+  },
+  {
+   "id": "K003",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/frustrado-1.mp4",
+   "from": 0,
+   "startFrame": 449,
+   "endFrame": 501
+  },
+  {
+   "id": "K004",
+   "cena": "C01",
+   "tipo": "video",
+   "src": "pexels/artista3d-1.mp4",
+   "from": 0,
+   "startFrame": 596,
+   "endFrame": 650
+  },
+  {
+   "id": "K005",
+   "cena": "C02",
+   "tipo": "print",
+   "src": "prints/cena-conector.png",
+   "from": 0,
+   "startFrame": 766,
+   "endFrame": 813
+  },
+  {
+   "id": "K006",
+   "cena": "C02",
+   "tipo": "print",
+   "src": "prints/claude-conector.png",
+   "from": 0,
+   "startFrame": 978,
+   "endFrame": 1035
+  },
+  {
+   "id": "K007",
+   "cena": "C02",
+   "tipo": "print",
+   "src": "prints/anthropic-criativo.png",
+   "from": 0,
+   "startFrame": 1160,
+   "endFrame": 1217
+  },
+  {
+   "id": "K008",
+   "cena": "C03",
+   "tipo": "foto",
+   "src": "pexels/ideia-1.jpg",
+   "from": 0,
+   "startFrame": 1340,
+   "endFrame": 1386
+  },
+  {
+   "id": "K009",
+   "cena": "C03",
+   "tipo": "video",
+   "src": "pexels/modelagem-2.mp4",
+   "from": 0,
+   "startFrame": 1500,
+   "endFrame": 1552
+  },
+  {
+   "id": "K010",
+   "cena": "C03",
+   "tipo": "foto",
+   "src": "pexels/render3d-1.jpg",
+   "from": 0,
+   "startFrame": 1667,
+   "endFrame": 1717
+  },
+  {
+   "id": "K011",
+   "cena": "C04",
+   "tipo": "video",
+   "src": "pexels/frustrado-2.mp4",
+   "from": 0,
+   "startFrame": 1842,
+   "endFrame": 1889
+  },
+  {
+   "id": "K012",
+   "cena": "C04",
+   "tipo": "video",
+   "src": "pexels/digitando-1.mp4",
+   "from": 0,
+   "startFrame": 1993,
+   "endFrame": 2047
+  },
+  {
+   "id": "K013",
+   "cena": "C04",
+   "tipo": "print",
+   "src": "prints/claude-tutorial.png",
+   "from": 0,
+   "startFrame": 2143,
+   "endFrame": 2190
+  },
+  {
+   "id": "K014",
+   "cena": "C05",
+   "tipo": "foto",
+   "src": "pexels/render3d-2.jpg",
+   "from": 0,
+   "startFrame": 2298,
+   "endFrame": 2348
+  },
+  {
+   "id": "K015",
+   "cena": "C05",
+   "tipo": "video",
+   "src": "pexels/artista3d-2.mp4",
+   "from": 0,
+   "startFrame": 2428,
+   "endFrame": 2479
+  },
+  {
+   "id": "K016",
+   "cena": "C05",
+   "tipo": "foto",
+   "src": "pexels/ideia-2.jpg",
+   "from": 0,
+   "startFrame": 2561,
+   "endFrame": 2617
+  },
+  {
+   "id": "K017",
+   "cena": "C06",
+   "tipo": "print",
+   "src": "prints/claude-conector.png",
+   "from": 0,
+   "startFrame": 2786,
+   "endFrame": 2843
+  },
+  {
+   "id": "K018",
+   "cena": "C06",
+   "tipo": "video",
+   "src": "pexels/comemora-1.mp4",
+   "from": 0,
+   "startFrame": 2922,
+   "endFrame": 2972
+  },
+  {
+   "id": "K019",
+   "cena": "C07",
+   "tipo": "video",
+   "src": "pexels/comemora-2.mp4",
+   "from": 0,
+   "startFrame": 3184,
+   "endFrame": 3238
+  },
+  {
+   "id": "K020",
+   "cena": "C07",
+   "tipo": "print",
+   "src": "prints/cena-download-claude.png",
+   "from": 0,
+   "startFrame": 3349,
+   "endFrame": 3402
+  },
+  {
+   "id": "K021",
+   "cena": "C07",
+   "tipo": "foto",
+   "src": "pexels/mesa-1.jpg",
+   "from": 0,
+   "startFrame": 3494,
+   "endFrame": 3539
+  },
+  {
+   "id": "K022",
+   "cena": "C08",
+   "tipo": "print",
+   "src": "prints/claude-tutorial.png",
+   "from": 0,
+   "startFrame": 3760,
+   "endFrame": 3817
+  },
+  {
+   "id": "K023",
+   "cena": "C08",
+   "tipo": "video",
+   "src": "pexels/modelagem-1.mp4",
+   "from": 0,
+   "startFrame": 3896,
+   "endFrame": 3946
+  },
+  {
+   "id": "K024",
+   "cena": "C08",
+   "tipo": "foto",
+   "src": "pexels/mesa-2.jpg",
+   "from": 0,
+   "startFrame": 4033,
+   "endFrame": 4089
+  },
+  {
+   "id": "K025",
+   "cena": "C09",
+   "tipo": "video",
+   "src": "pexels/criador-1.mp4",
+   "from": 2.3,
+   "startFrame": 4269,
+   "endFrame": 4326
+  },
+  {
+   "id": "K026",
+   "cena": "C09",
+   "tipo": "video",
+   "src": "pexels/frustrado-1.mp4",
+   "from": 2.3,
+   "startFrame": 4483,
+   "endFrame": 4540
+  },
+  {
+   "id": "K027",
+   "cena": "C09",
+   "tipo": "print",
+   "src": "prints/claude-conector.png",
+   "from": 0,
+   "startFrame": 4715,
+   "endFrame": 4768
+  },
+  {
+   "id": "K028",
+   "cena": "C10",
+   "tipo": "foto",
+   "src": "pexels/ideia-1.jpg",
+   "from": 0,
+   "startFrame": 4902,
+   "endFrame": 4955
+  },
+  {
+   "id": "K029",
+   "cena": "C10",
+   "tipo": "video",
+   "src": "pexels/artista3d-1.mp4",
+   "from": 2.3,
+   "startFrame": 5039,
+   "endFrame": 5094
+  },
+  {
+   "id": "K030",
+   "cena": "C11",
+   "tipo": "foto",
+   "src": "pexels/render3d-1.jpg",
+   "from": 0,
+   "startFrame": 5393,
+   "endFrame": 5443
+  },
+  {
+   "id": "K031",
+   "cena": "C11",
+   "tipo": "print",
+   "src": "prints/claude-conector.png",
+   "from": 0,
+   "startFrame": 5495,
+   "endFrame": 5552
+  },
+  {
+   "id": "K032",
+   "cena": "C12",
+   "tipo": "video",
+   "src": "pexels/modelagem-2.mp4",
+   "from": 2.3,
+   "startFrame": 5785,
+   "endFrame": 5836
+  },
+  {
+   "id": "K033",
+   "cena": "C12",
+   "tipo": "print",
+   "src": "prints/claude-tutorial.png",
+   "from": 0,
+   "startFrame": 5873,
+   "endFrame": 5930
+  },
+  {
+   "id": "K034",
+   "cena": "C12",
+   "tipo": "video",
+   "src": "pexels/frustrado-2.mp4",
+   "from": 2.3,
+   "startFrame": 6009,
+   "endFrame": 6063
+  },
+  {
+   "id": "K035",
+   "cena": "C13",
+   "tipo": "print",
+   "src": "prints/cena-requisitos.png",
+   "from": 0,
+   "startFrame": 6292,
+   "endFrame": 6348
+  },
+  {
+   "id": "K036",
+   "cena": "C13",
+   "tipo": "foto",
+   "src": "pexels/render3d-2.jpg",
+   "from": 0,
+   "startFrame": 6502,
+   "endFrame": 6556
+  },
+  {
+   "id": "K037",
+   "cena": "C14",
+   "tipo": "video",
+   "src": "pexels/digitando-1.mp4",
+   "from": 2.3,
+   "startFrame": 6886,
+   "endFrame": 6937
+  },
+  {
+   "id": "K038",
+   "cena": "C14",
+   "tipo": "foto",
+   "src": "pexels/ideia-2.jpg",
+   "from": 0,
+   "startFrame": 7154,
+   "endFrame": 7199
+  },
+  {
+   "id": "K039",
+   "cena": "C15",
+   "tipo": "video",
+   "src": "pexels/artista3d-2.mp4",
+   "from": 2.3,
+   "startFrame": 7399,
+   "endFrame": 7455
+  },
+  {
+   "id": "K040",
+   "cena": "C15",
+   "tipo": "video",
+   "src": "pexels/comemora-1.mp4",
+   "from": 2.3,
+   "startFrame": 7679,
+   "endFrame": 7726
+  },
+  {
+   "id": "K041",
+   "cena": "C17",
+   "tipo": "print",
+   "src": "prints/anthropic-criativo.png",
+   "from": 0,
+   "startFrame": 8424,
+   "endFrame": 8469
+  },
+  {
+   "id": "K042",
+   "cena": "C18",
+   "tipo": "foto",
+   "src": "pexels/mesa-1.jpg",
+   "from": 0,
+   "startFrame": 8752,
+   "endFrame": 8805
+  },
+  {
+   "id": "K043",
+   "cena": "C18",
+   "tipo": "video",
+   "src": "pexels/comemora-2.mp4",
+   "from": 2.3,
+   "startFrame": 8973,
+   "endFrame": 9024
+  },
+  {
+   "id": "K044",
+   "cena": "C19",
+   "tipo": "foto",
+   "src": "pexels/mesa-2.jpg",
+   "from": 0,
+   "startFrame": 9165,
+   "endFrame": 9213
+  },
+  {
+   "id": "K045",
+   "cena": "C19",
+   "tipo": "video",
+   "src": "pexels/modelagem-1.mp4",
+   "from": 2.3,
+   "startFrame": 9308,
+   "endFrame": 9356
+  },
+  {
+   "id": "K046",
+   "cena": "C19",
+   "tipo": "print",
+   "src": "prints/anthropic-criativo.png",
+   "from": 0,
+   "startFrame": 9549,
+   "endFrame": 9606
+  },
+  {
+   "id": "K047",
+   "cena": "C20",
+   "tipo": "video",
+   "src": "pexels/criador-1.mp4",
+   "from": 4.6,
+   "startFrame": 9725,
+   "endFrame": 9781
+  },
+  {
+   "id": "K048",
+   "cena": "C20",
+   "tipo": "print",
+   "src": "prints/claude-download.png",
+   "from": 0,
+   "startFrame": 9882,
+   "endFrame": 9929
+  },
+  {
+   "id": "K049",
+   "cena": "C20",
+   "tipo": "foto",
+   "src": "pexels/ideia-1.jpg",
+   "from": 0,
+   "startFrame": 10024,
+   "endFrame": 10078
+  },
+  {
+   "id": "K050",
+   "cena": "C20",
+   "tipo": "video",
+   "src": "pexels/frustrado-1.mp4",
+   "from": 4.6,
+   "startFrame": 10167,
+   "endFrame": 10216
+  },
+  {
+   "id": "K051",
+   "cena": "C21",
+   "tipo": "foto",
+   "src": "pexels/render3d-1.jpg",
+   "from": 0,
+   "startFrame": 10358,
+   "endFrame": 10405
+  },
+  {
+   "id": "K052",
+   "cena": "C21",
+   "tipo": "video",
+   "src": "pexels/artista3d-1.mp4",
+   "from": 4.6,
+   "startFrame": 10493,
+   "endFrame": 10539
+  },
+  {
+   "id": "K053",
+   "cena": "C21",
+   "tipo": "video",
+   "src": "pexels/modelagem-2.mp4",
+   "from": 4.6,
+   "startFrame": 10634,
+   "endFrame": 10682
+  },
+  {
+   "id": "K054",
+   "cena": "C22",
+   "tipo": "print",
+   "src": "prints/cena-conector.png",
+   "from": 0,
+   "startFrame": 10880,
+   "endFrame": 10927
+  },
+  {
+   "id": "K055",
+   "cena": "C22",
+   "tipo": "foto",
+   "src": "pexels/render3d-2.jpg",
+   "from": 0,
+   "startFrame": 11014,
+   "endFrame": 11065
+  },
+  {
+   "id": "K056",
+   "cena": "C22",
+   "tipo": "video",
+   "src": "pexels/frustrado-2.mp4",
+   "from": 4.6,
+   "startFrame": 11177,
+   "endFrame": 11227
+  },
+  {
+   "id": "K057",
+   "cena": "C23",
+   "tipo": "print",
+   "src": "prints/claude-conector.png",
+   "from": 0,
+   "startFrame": 11455,
+   "endFrame": 11512
+  },
+  {
+   "id": "K058",
+   "cena": "C23",
+   "tipo": "foto",
+   "src": "pexels/ideia-2.jpg",
+   "from": 0,
+   "startFrame": 11592,
+   "endFrame": 11641
+  },
+  {
+   "id": "K059",
+   "cena": "C24",
+   "tipo": "video",
+   "src": "pexels/digitando-1.mp4",
+   "from": 4.6,
+   "startFrame": 11840,
+   "endFrame": 11896
+  },
+  {
+   "id": "K060",
+   "cena": "C24",
+   "tipo": "video",
+   "src": "pexels/artista3d-2.mp4",
+   "from": 4.6,
+   "startFrame": 11999,
+   "endFrame": 12047
+  },
+  {
+   "id": "K061",
+   "cena": "C24",
+   "tipo": "print",
+   "src": "prints/claude-tutorial.png",
+   "from": 0,
+   "startFrame": 12160,
+   "endFrame": 12210
+  }
+ ],
+ "words": [
+  {
+   "w": "Eu",
+   "start": 0.5,
+   "end": 0.66
+  },
+  {
+   "w": "abri",
+   "start": 0.74,
+   "end": 0.9
+  },
+  {
+   "w": "o",
+   "start": 0.94,
+   "end": 0.98
+  },
+  {
+   "w": "Claude",
+   "start": 1.06,
+   "end": 1.46
+  },
+  {
+   "w": "e",
+   "start": 1.54,
+   "end": 1.58
+  },
+  {
+   "w": "pedi,",
+   "start": 1.62,
+   "end": 2.26
+  },
+  {
+   "w": "em",
+   "start": 2.34,
+   "end": 2.42
+  },
+  {
+   "w": "português:",
+   "start": 2.54,
+   "end": 3.14
+  },
+  {
+   "w": "crie",
+   "start": 3.54,
+   "end": 3.78
+  },
+  {
+   "w": "uma",
+   "start": 3.9,
+   "end": 4.02
+  },
+  {
+   "w": "ilha",
+   "start": 4.14,
+   "end": 4.26
+  },
+  {
+   "w": "flutuante",
+   "start": 4.3,
+   "end": 4.9
+  },
+  {
+   "w": "com",
+   "start": 4.98,
+   "end": 5.06
+  },
+  {
+   "w": "casinha,",
+   "start": 5.14,
+   "end": 5.94
+  },
+  {
+   "w": "árvores",
+   "start": 6.06,
+   "end": 6.5
+  },
+  {
+   "w": "e",
+   "start": 6.527,
+   "end": 6.553
+  },
+  {
+   "w": "lago,",
+   "start": 6.58,
+   "end": 7.14
+  },
+  {
+   "w": "e",
+   "start": 7.18,
+   "end": 7.22
+  },
+  {
+   "w": "faça",
+   "start": 7.38,
+   "end": 7.62
+  },
+  {
+   "w": "a",
+   "start": 7.66,
+   "end": 7.7
+  },
+  {
+   "w": "câmera",
+   "start": 7.78,
+   "end": 8.1
+  },
+  {
+   "w": "girar",
+   "start": 8.14,
+   "end": 8.42
+  },
+  {
+   "w": "em",
+   "start": 8.5,
+   "end": 8.58
+  },
+  {
+   "w": "volta.",
+   "start": 8.66,
+   "end": 9.22
+  },
+  {
+   "w": "E",
+   "start": 9.46,
+   "end": 9.5
+  },
+  {
+   "w": "o",
+   "start": 9.54,
+   "end": 9.58
+  },
+  {
+   "w": "Claude",
+   "start": 9.62,
+   "end": 9.94
+  },
+  {
+   "w": "montou",
+   "start": 10.06,
+   "end": 10.26
+  },
+  {
+   "w": "essa",
+   "start": 10.38,
+   "end": 10.5
+  },
+  {
+   "w": "cena",
+   "start": 10.58,
+   "end": 10.82
+  },
+  {
+   "w": "em",
+   "start": 10.94,
+   "end": 11.06
+  },
+  {
+   "w": "três",
+   "start": 11.14,
+   "end": 11.38
+  },
+  {
+   "w": "dê",
+   "start": 11.46,
+   "end": 11.62
+  },
+  {
+   "w": "sozinho,",
+   "start": 11.7,
+   "end": 12.5
+  },
+  {
+   "w": "dentro",
+   "start": 12.62,
+   "end": 12.82
+  },
+  {
+   "w": "do",
+   "start": 12.86,
+   "end": 12.9
+  },
+  {
+   "w": "Blender.",
+   "start": 12.98,
+   "end": 13.46
+  },
+  {
+   "w": "O",
+   "start": 13.78,
+   "end": 13.86
+  },
+  {
+   "w": "Blender",
+   "start": 13.94,
+   "end": 14.18
+  },
+  {
+   "w": "é",
+   "start": 14.22,
+   "end": 14.26
+  },
+  {
+   "w": "grátis,",
+   "start": 14.34,
+   "end": 14.9
+  },
+  {
+   "w": "e",
+   "start": 14.98,
+   "end": 15.02
+  },
+  {
+   "w": "isso",
+   "start": 15.06,
+   "end": 15.22
+  },
+  {
+   "w": "funciona",
+   "start": 15.3,
+   "end": 15.7
+  },
+  {
+   "w": "até",
+   "start": 15.82,
+   "end": 16.02
+  },
+  {
+   "w": "no",
+   "start": 16.1,
+   "end": 16.18
+  },
+  {
+   "w": "plano",
+   "start": 16.22,
+   "end": 16.42
+  },
+  {
+   "w": "gratuito",
+   "start": 16.5,
+   "end": 16.98
+  },
+  {
+   "w": "do",
+   "start": 17.02,
+   "end": 17.06
+  },
+  {
+   "w": "Claude.",
+   "start": 17.14,
+   "end": 17.54
+  },
+  {
+   "w": "Hoje",
+   "start": 17.94,
+   "end": 18.1
+  },
+  {
+   "w": "eu",
+   "start": 18.14,
+   "end": 18.18
+  },
+  {
+   "w": "te",
+   "start": 18.22,
+   "end": 18.26
+  },
+  {
+   "w": "mostro",
+   "start": 18.34,
+   "end": 18.633
+  },
+  {
+   "w": "o",
+   "start": 18.687,
+   "end": 18.74
+  },
+  {
+   "w": "passo",
+   "start": 18.86,
+   "end": 19.02
+  },
+  {
+   "w": "a",
+   "start": 19.06,
+   "end": 19.1
+  },
+  {
+   "w": "passo,",
+   "start": 19.14,
+   "end": 19.62
+  },
+  {
+   "w": "no",
+   "start": 19.7,
+   "end": 19.78
+  },
+  {
+   "w": "Windows,",
+   "start": 19.86,
+   "end": 20.42
+  },
+  {
+   "w": "no",
+   "start": 20.46,
+   "end": 20.5
+  },
+  {
+   "w": "Mac",
+   "start": 20.58,
+   "end": 20.98
+  },
+  {
+   "w": "e",
+   "start": 21.06,
+   "end": 21.14
+  },
+  {
+   "w": "no",
+   "start": 21.18,
+   "end": 21.22
+  },
+  {
+   "w": "Linux.",
+   "start": 21.3,
+   "end": 22.02
+  },
+  {
+   "w": "O",
+   "start": 22.29,
+   "end": 22.37
+  },
+  {
+   "w": "segredo",
+   "start": 22.45,
+   "end": 22.93
+  },
+  {
+   "w": "é",
+   "start": 22.97,
+   "end": 23.01
+  },
+  {
+   "w": "juntar",
+   "start": 23.09,
+   "end": 23.41
+  },
+  {
+   "w": "duas",
+   "start": 23.49,
+   "end": 23.81
+  },
+  {
+   "w": "coisas.",
+   "start": 23.89,
+   "end": 24.53
+  },
+  {
+   "w": "A",
+   "start": 24.69,
+   "end": 24.77
+  },
+  {
+   "w": "primeira",
+   "start": 24.93,
+   "end": 25.33
+  },
+  {
+   "w": "é",
+   "start": 25.41,
+   "end": 25.437
+  },
+  {
+   "w": "o",
+   "start": 25.463,
+   "end": 25.49
+  },
+  {
+   "w": "Blender,",
+   "start": 25.57,
+   "end": 26.21
+  },
+  {
+   "w": "o",
+   "start": 26.25,
+   "end": 26.29
+  },
+  {
+   "w": "programa",
+   "start": 26.45,
+   "end": 26.69
+  },
+  {
+   "w": "de",
+   "start": 26.77,
+   "end": 26.85
+  },
+  {
+   "w": "três",
+   "start": 26.93,
+   "end": 27.17
+  },
+  {
+   "w": "dê",
+   "start": 27.21,
+   "end": 27.33
+  },
+  {
+   "w": "gratuito,",
+   "start": 27.37,
+   "end": 28.21
+  },
+  {
+   "w": "usado",
+   "start": 28.29,
+   "end": 28.53
+  },
+  {
+   "w": "de",
+   "start": 28.61,
+   "end": 28.69
+  },
+  {
+   "w": "jogos",
+   "start": 28.77,
+   "end": 29.01
+  },
+  {
+   "w": "independentes",
+   "start": 29.05,
+   "end": 29.81
+  },
+  {
+   "w": "até",
+   "start": 29.89,
+   "end": 30.13
+  },
+  {
+   "w": "produção",
+   "start": 30.21,
+   "end": 30.61
+  },
+  {
+   "w": "de",
+   "start": 30.69,
+   "end": 30.77
+  },
+  {
+   "w": "filmes.",
+   "start": 30.85,
+   "end": 31.49
+  },
+  {
+   "w": "A",
+   "start": 31.73,
+   "end": 31.81
+  },
+  {
+   "w": "segunda",
+   "start": 31.89,
+   "end": 32.37
+  },
+  {
+   "w": "é",
+   "start": 32.45,
+   "end": 32.53
+  },
+  {
+   "w": "o",
+   "start": 32.57,
+   "end": 32.61
+  },
+  {
+   "w": "conector",
+   "start": 32.69,
+   "end": 33.09
+  },
+  {
+   "w": "oficial",
+   "start": 33.17,
+   "end": 33.65
+  },
+  {
+   "w": "do",
+   "start": 33.73,
+   "end": 33.81
+  },
+  {
+   "w": "Blender",
+   "start": 33.85,
+   "end": 34.21
+  },
+  {
+   "w": "para",
+   "start": 34.29,
+   "end": 34.37
+  },
+  {
+   "w": "o",
+   "start": 34.41,
+   "end": 34.45
+  },
+  {
+   "w": "Claude,",
+   "start": 34.53,
+   "end": 35.09
+  },
+  {
+   "w": "criado",
+   "start": 35.17,
+   "end": 35.49
+  },
+  {
+   "w": "pelos",
+   "start": 35.53,
+   "end": 35.81
+  },
+  {
+   "w": "próprios",
+   "start": 35.89,
+   "end": 36.21
+  },
+  {
+   "w": "desenvolvedores",
+   "start": 36.29,
+   "end": 37.01
+  },
+  {
+   "w": "do",
+   "start": 37.05,
+   "end": 37.09
+  },
+  {
+   "w": "Blender",
+   "start": 37.17,
+   "end": 37.57
+  },
+  {
+   "w": "e",
+   "start": 37.61,
+   "end": 37.65
+  },
+  {
+   "w": "lançado",
+   "start": 37.77,
+   "end": 38.21
+  },
+  {
+   "w": "junto",
+   "start": 38.25,
+   "end": 38.45
+  },
+  {
+   "w": "com",
+   "start": 38.53,
+   "end": 38.61
+  },
+  {
+   "w": "a",
+   "start": 38.65,
+   "end": 38.69
+  },
+  {
+   "w": "Anthropic.",
+   "start": 38.77,
+   "end": 39.73
+  },
+  {
+   "w": "Ele",
+   "start": 39.81,
+   "end": 39.89
+  },
+  {
+   "w": "deixa",
+   "start": 39.97,
+   "end": 40.13
+  },
+  {
+   "w": "o",
+   "start": 40.17,
+   "end": 40.21
+  },
+  {
+   "w": "Claude",
+   "start": 40.29,
+   "end": 40.53
+  },
+  {
+   "w": "mexer",
+   "start": 40.61,
+   "end": 41.01
+  },
+  {
+   "w": "no",
+   "start": 41.05,
+   "end": 41.09
+  },
+  {
+   "w": "Blender",
+   "start": 41.17,
+   "end": 41.49
+  },
+  {
+   "w": "por",
+   "start": 41.57,
+   "end": 41.65
+  },
+  {
+   "w": "você.",
+   "start": 41.73,
+   "end": 42.37
+  },
+  {
+   "w": "Funciona",
+   "start": 42.64,
+   "end": 43.04
+  },
+  {
+   "w": "assim:",
+   "start": 43.16,
+   "end": 43.84
+  },
+  {
+   "w": "você",
+   "start": 43.88,
+   "end": 44.16
+  },
+  {
+   "w": "pede",
+   "start": 44.24,
+   "end": 44.44
+  },
+  {
+   "w": "o",
+   "start": 44.48,
+   "end": 44.507
+  },
+  {
+   "w": "que",
+   "start": 44.533,
+   "end": 44.56
+  },
+  {
+   "w": "quer,",
+   "start": 44.72,
+   "end": 45.12
+  },
+  {
+   "w": "em",
+   "start": 45.2,
+   "end": 45.28
+  },
+  {
+   "w": "português.",
+   "start": 45.4,
+   "end": 46
+  },
+  {
+   "w": "O",
+   "start": 46.4,
+   "end": 46.48
+  },
+  {
+   "w": "Claude",
+   "start": 46.56,
+   "end": 46.96
+  },
+  {
+   "w": "escreve",
+   "start": 47.04,
+   "end": 47.44
+  },
+  {
+   "w": "o",
+   "start": 47.48,
+   "end": 47.52
+  },
+  {
+   "w": "código",
+   "start": 47.6,
+   "end": 47.92
+  },
+  {
+   "w": "em",
+   "start": 48,
+   "end": 48.08
+  },
+  {
+   "w": "Python,",
+   "start": 48.16,
+   "end": 48.72
+  },
+  {
+   "w": "que",
+   "start": 48.76,
+   "end": 48.8
+  },
+  {
+   "w": "é",
+   "start": 48.88,
+   "end": 48.907
+  },
+  {
+   "w": "a",
+   "start": 48.933,
+   "end": 48.96
+  },
+  {
+   "w": "língua",
+   "start": 49.04,
+   "end": 49.28
+  },
+  {
+   "w": "que",
+   "start": 49.32,
+   "end": 49.36
+  },
+  {
+   "w": "o",
+   "start": 49.44,
+   "end": 49.48
+  },
+  {
+   "w": "Blender",
+   "start": 49.52,
+   "end": 49.76
+  },
+  {
+   "w": "entende.",
+   "start": 49.84,
+   "end": 50.4
+  },
+  {
+   "w": "O",
+   "start": 50.8,
+   "end": 50.88
+  },
+  {
+   "w": "conector",
+   "start": 50.96,
+   "end": 51.44
+  },
+  {
+   "w": "roda",
+   "start": 51.6,
+   "end": 51.84
+  },
+  {
+   "w": "esse",
+   "start": 51.96,
+   "end": 52.08
+  },
+  {
+   "w": "código",
+   "start": 52.16,
+   "end": 52.56
+  },
+  {
+   "w": "dentro",
+   "start": 52.64,
+   "end": 52.96
+  },
+  {
+   "w": "do",
+   "start": 53,
+   "end": 53.04
+  },
+  {
+   "w": "Blender.",
+   "start": 53.12,
+   "end": 53.6
+  },
+  {
+   "w": "E",
+   "start": 53.92,
+   "end": 54
+  },
+  {
+   "w": "a",
+   "start": 54.04,
+   "end": 54.08
+  },
+  {
+   "w": "cena",
+   "start": 54.16,
+   "end": 54.4
+  },
+  {
+   "w": "aparece",
+   "start": 54.48,
+   "end": 54.8
+  },
+  {
+   "w": "na",
+   "start": 54.88,
+   "end": 54.96
+  },
+  {
+   "w": "sua",
+   "start": 55.013,
+   "end": 55.12
+  },
+  {
+   "w": "tela.",
+   "start": 55.2,
+   "end": 55.52
+  },
+  {
+   "w": "Você",
+   "start": 55.84,
+   "end": 56.08
+  },
+  {
+   "w": "não",
+   "start": 56.107,
+   "end": 56.16
+  },
+  {
+   "w": "precisa",
+   "start": 56.24,
+   "end": 56.56
+  },
+  {
+   "w": "saber",
+   "start": 56.6,
+   "end": 56.8
+  },
+  {
+   "w": "programar",
+   "start": 56.88,
+   "end": 57.44
+  },
+  {
+   "w": "nada.",
+   "start": 57.6,
+   "end": 58.16
+  },
+  {
+   "w": "Com",
+   "start": 58.51,
+   "end": 58.67
+  },
+  {
+   "w": "isso",
+   "start": 58.75,
+   "end": 58.99
+  },
+  {
+   "w": "você",
+   "start": 59.07,
+   "end": 59.31
+  },
+  {
+   "w": "cria",
+   "start": 59.39,
+   "end": 59.55
+  },
+  {
+   "w": "cenários",
+   "start": 59.63,
+   "end": 60.19
+  },
+  {
+   "w": "para",
+   "start": 60.27,
+   "end": 60.35
+  },
+  {
+   "w": "os",
+   "start": 60.39,
+   "end": 60.43
+  },
+  {
+   "w": "seus",
+   "start": 60.47,
+   "end": 60.67
+  },
+  {
+   "w": "vídeos,",
+   "start": 60.75,
+   "end": 61.47
+  },
+  {
+   "w": "um",
+   "start": 61.51,
+   "end": 61.55
+  },
+  {
+   "w": "logo",
+   "start": 61.63,
+   "end": 61.87
+  },
+  {
+   "w": "em",
+   "start": 61.95,
+   "end": 62.03
+  },
+  {
+   "w": "três",
+   "start": 62.11,
+   "end": 62.43
+  },
+  {
+   "w": "dê",
+   "start": 62.51,
+   "end": 62.67
+  },
+  {
+   "w": "para",
+   "start": 62.75,
+   "end": 62.83
+  },
+  {
+   "w": "o",
+   "start": 62.87,
+   "end": 62.91
+  },
+  {
+   "w": "seu",
+   "start": 62.95,
+   "end": 63.07
+  },
+  {
+   "w": "canal,",
+   "start": 63.15,
+   "end": 63.79
+  },
+  {
+   "w": "um",
+   "start": 63.83,
+   "end": 63.87
+  },
+  {
+   "w": "produto",
+   "start": 63.95,
+   "end": 64.35
+  },
+  {
+   "w": "girando",
+   "start": 64.39,
+   "end": 64.83
+  },
+  {
+   "w": "para",
+   "start": 64.91,
+   "end": 64.99
+  },
+  {
+   "w": "um",
+   "start": 65.03,
+   "end": 65.07
+  },
+  {
+   "w": "anúncio,",
+   "start": 65.15,
+   "end": 65.87
+  },
+  {
+   "w": "e",
+   "start": 65.91,
+   "end": 65.95
+  },
+  {
+   "w": "animações",
+   "start": 66.03,
+   "end": 66.51
+  },
+  {
+   "w": "curtas",
+   "start": 66.59,
+   "end": 66.99
+  },
+  {
+   "w": "para",
+   "start": 67.07,
+   "end": 67.23
+  },
+  {
+   "w": "Reels",
+   "start": 67.31,
+   "end": 67.71
+  },
+  {
+   "w": "e",
+   "start": 67.75,
+   "end": 67.79
+  },
+  {
+   "w": "Shorts.",
+   "start": 67.87,
+   "end": 68.83
+  },
+  {
+   "w": "E",
+   "start": 68.87,
+   "end": 68.91
+  },
+  {
+   "w": "se",
+   "start": 68.95,
+   "end": 68.99
+  },
+  {
+   "w": "você",
+   "start": 69.07,
+   "end": 69.31
+  },
+  {
+   "w": "já",
+   "start": 69.35,
+   "end": 69.47
+  },
+  {
+   "w": "usa",
+   "start": 69.55,
+   "end": 69.71
+  },
+  {
+   "w": "o",
+   "start": 69.75,
+   "end": 69.79
+  },
+  {
+   "w": "Blender,",
+   "start": 69.87,
+   "end": 70.43
+  },
+  {
+   "w": "ele",
+   "start": 70.51,
+   "end": 70.59
+  },
+  {
+   "w": "também",
+   "start": 70.67,
+   "end": 70.91
+  },
+  {
+   "w": "explica",
+   "start": 71.03,
+   "end": 71.31
+  },
+  {
+   "w": "arquivos",
+   "start": 71.39,
+   "end": 71.79
+  },
+  {
+   "w": "complicados",
+   "start": 71.87,
+   "end": 72.59
+  },
+  {
+   "w": "e",
+   "start": 72.67,
+   "end": 72.75
+  },
+  {
+   "w": "organiza",
+   "start": 72.91,
+   "end": 73.31
+  },
+  {
+   "w": "a",
+   "start": 73.337,
+   "end": 73.363
+  },
+  {
+   "w": "sua",
+   "start": 73.39,
+   "end": 73.55
+  },
+  {
+   "w": "cena.",
+   "start": 73.63,
+   "end": 74.19
+  },
+  {
+   "w": "Antes",
+   "start": 74.46,
+   "end": 74.7
+  },
+  {
+   "w": "de",
+   "start": 74.74,
+   "end": 74.78
+  },
+  {
+   "w": "começar,",
+   "start": 74.86,
+   "end": 75.58
+  },
+  {
+   "w": "um",
+   "start": 75.62,
+   "end": 75.66
+  },
+  {
+   "w": "pedido",
+   "start": 75.74,
+   "end": 75.98
+  },
+  {
+   "w": "rápido.",
+   "start": 76.06,
+   "end": 76.54
+  },
+  {
+   "w": "Se",
+   "start": 76.94,
+   "end": 77.02
+  },
+  {
+   "w": "esse",
+   "start": 77.1,
+   "end": 77.18
+  },
+  {
+   "w": "vídeo",
+   "start": 77.26,
+   "end": 77.58
+  },
+  {
+   "w": "já",
+   "start": 77.66,
+   "end": 77.82
+  },
+  {
+   "w": "está",
+   "start": 77.94,
+   "end": 78.1
+  },
+  {
+   "w": "te",
+   "start": 78.14,
+   "end": 78.22
+  },
+  {
+   "w": "ajudando,",
+   "start": 78.26,
+   "end": 79.02
+  },
+  {
+   "w": "deixa",
+   "start": 79.1,
+   "end": 79.26
+  },
+  {
+   "w": "o",
+   "start": 79.3,
+   "end": 79.34
+  },
+  {
+   "w": "like",
+   "start": 79.42,
+   "end": 79.74
+  },
+  {
+   "w": "e",
+   "start": 79.82,
+   "end": 79.9
+  },
+  {
+   "w": "se",
+   "start": 79.94,
+   "end": 79.98
+  },
+  {
+   "w": "inscreve",
+   "start": 80.1,
+   "end": 80.54
+  },
+  {
+   "w": "no",
+   "start": 80.58,
+   "end": 80.62
+  },
+  {
+   "w": "Aprenda",
+   "start": 80.7,
+   "end": 81.02
+  },
+  {
+   "w": "YouTube.",
+   "start": 81.26,
+   "end": 81.58
+  },
+  {
+   "w": "Toda",
+   "start": 81.98,
+   "end": 82.14
+  },
+  {
+   "w": "semana",
+   "start": 82.22,
+   "end": 82.62
+  },
+  {
+   "w": "tem",
+   "start": 82.7,
+   "end": 82.78
+  },
+  {
+   "w": "tutorial",
+   "start": 83.02,
+   "end": 83.26
+  },
+  {
+   "w": "de",
+   "start": 83.3,
+   "end": 83.34
+  },
+  {
+   "w": "inteligência",
+   "start": 83.42,
+   "end": 83.9
+  },
+  {
+   "w": "artificial,",
+   "start": 83.98,
+   "end": 84.78
+  },
+  {
+   "w": "passo",
+   "start": 84.9,
+   "end": 85.06
+  },
+  {
+   "w": "a",
+   "start": 85.1,
+   "end": 85.18
+  },
+  {
+   "w": "passo,",
+   "start": 85.26,
+   "end": 85.66
+  },
+  {
+   "w": "para",
+   "start": 85.7,
+   "end": 85.74
+  },
+  {
+   "w": "quem",
+   "start": 85.82,
+   "end": 86.06
+  },
+  {
+   "w": "não",
+   "start": 86.14,
+   "end": 86.3
+  },
+  {
+   "w": "é",
+   "start": 86.38,
+   "end": 86.46
+  },
+  {
+   "w": "programador.",
+   "start": 86.62,
+   "end": 87.34
+  },
+  {
+   "w": "O",
+   "start": 87.61,
+   "end": 87.69
+  },
+  {
+   "w": "plano",
+   "start": 87.77,
+   "end": 88.01
+  },
+  {
+   "w": "tem",
+   "start": 88.09,
+   "end": 88.33
+  },
+  {
+   "w": "três",
+   "start": 88.41,
+   "end": 88.65
+  },
+  {
+   "w": "passos.",
+   "start": 88.73,
+   "end": 89.53
+  },
+  {
+   "w": "Um:",
+   "start": 89.61,
+   "end": 90.17
+  },
+  {
+   "w": "instalar",
+   "start": 90.29,
+   "end": 90.57
+  },
+  {
+   "w": "o",
+   "start": 90.65,
+   "end": 90.69
+  },
+  {
+   "w": "Blender.",
+   "start": 90.73,
+   "end": 91.53
+  },
+  {
+   "w": "Dois:",
+   "start": 91.61,
+   "end": 92.25
+  },
+  {
+   "w": "adicionar",
+   "start": 92.33,
+   "end": 92.81
+  },
+  {
+   "w": "o",
+   "start": 92.85,
+   "end": 92.89
+  },
+  {
+   "w": "conector",
+   "start": 92.97,
+   "end": 93.37
+  },
+  {
+   "w": "do",
+   "start": 93.41,
+   "end": 93.45
+  },
+  {
+   "w": "Blender",
+   "start": 93.53,
+   "end": 93.93
+  },
+  {
+   "w": "no",
+   "start": 94.01,
+   "end": 94.09
+  },
+  {
+   "w": "Claude",
+   "start": 94.17,
+   "end": 94.41
+  },
+  {
+   "w": "Desktop,",
+   "start": 94.49,
+   "end": 95.21
+  },
+  {
+   "w": "que",
+   "start": 95.25,
+   "end": 95.29
+  },
+  {
+   "w": "é",
+   "start": 95.33,
+   "end": 95.37
+  },
+  {
+   "w": "o",
+   "start": 95.41,
+   "end": 95.45
+  },
+  {
+   "w": "aplicativo",
+   "start": 95.49,
+   "end": 95.93
+  },
+  {
+   "w": "do",
+   "start": 96.01,
+   "end": 96.09
+  },
+  {
+   "w": "Claude",
+   "start": 96.17,
+   "end": 96.41
+  },
+  {
+   "w": "para",
+   "start": 96.49,
+   "end": 96.57
+  },
+  {
+   "w": "computador.",
+   "start": 96.65,
+   "end": 97.61
+  },
+  {
+   "w": "Três:",
+   "start": 97.69,
+   "end": 98.33
+  },
+  {
+   "w": "ligar",
+   "start": 98.45,
+   "end": 98.65
+  },
+  {
+   "w": "o",
+   "start": 98.73,
+   "end": 98.77
+  },
+  {
+   "w": "complemento",
+   "start": 98.81,
+   "end": 99.53
+  },
+  {
+   "w": "dentro",
+   "start": 99.65,
+   "end": 99.85
+  },
+  {
+   "w": "do",
+   "start": 99.89,
+   "end": 99.93
+  },
+  {
+   "w": "Blender.",
+   "start": 100.01,
+   "end": 100.73
+  },
+  {
+   "w": "Depois",
+   "start": 100.81,
+   "end": 101.05
+  },
+  {
+   "w": "disso,",
+   "start": 101.13,
+   "end": 101.69
+  },
+  {
+   "w": "é",
+   "start": 101.77,
+   "end": 101.85
+  },
+  {
+   "w": "só",
+   "start": 101.89,
+   "end": 102.01
+  },
+  {
+   "w": "pedir.",
+   "start": 102.09,
+   "end": 102.65
+  },
+  {
+   "w": "O",
+   "start": 102.92,
+   "end": 103
+  },
+  {
+   "w": "que",
+   "start": 103.04,
+   "end": 103.08
+  },
+  {
+   "w": "você",
+   "start": 103.16,
+   "end": 103.32
+  },
+  {
+   "w": "precisa?",
+   "start": 103.4,
+   "end": 104.16
+  },
+  {
+   "w": "Um",
+   "start": 104.36,
+   "end": 104.44
+  },
+  {
+   "w": "computador",
+   "start": 104.52,
+   "end": 105
+  },
+  {
+   "w": "com",
+   "start": 105.08,
+   "end": 105.16
+  },
+  {
+   "w": "Windows,",
+   "start": 105.24,
+   "end": 105.88
+  },
+  {
+   "w": "Mac",
+   "start": 105.96,
+   "end": 106.36
+  },
+  {
+   "w": "ou",
+   "start": 106.44,
+   "end": 106.52
+  },
+  {
+   "w": "Linux.",
+   "start": 106.6,
+   "end": 107.16
+  },
+  {
+   "w": "O",
+   "start": 107.56,
+   "end": 107.64
+  },
+  {
+   "w": "Claude",
+   "start": 107.72,
+   "end": 107.96
+  },
+  {
+   "w": "Desktop,",
+   "start": 108.04,
+   "end": 108.68
+  },
+  {
+   "w": "em",
+   "start": 108.76,
+   "end": 108.84
+  },
+  {
+   "w": "qualquer",
+   "start": 108.92,
+   "end": 109.32
+  },
+  {
+   "w": "plano,",
+   "start": 109.4,
+   "end": 109.96
+  },
+  {
+   "w": "inclusive",
+   "start": 110.24,
+   "end": 110.52
+  },
+  {
+   "w": "o",
+   "start": 110.547,
+   "end": 110.573
+  },
+  {
+   "w": "gratuito.",
+   "start": 110.6,
+   "end": 111.24
+  },
+  {
+   "w": "E",
+   "start": 111.64,
+   "end": 111.68
+  },
+  {
+   "w": "o",
+   "start": 111.72,
+   "end": 111.76
+  },
+  {
+   "w": "Blender",
+   "start": 111.8,
+   "end": 112.2
+  },
+  {
+   "w": "na",
+   "start": 112.24,
+   "end": 112.28
+  },
+  {
+   "w": "versão",
+   "start": 112.36,
+   "end": 112.68
+  },
+  {
+   "w": "quatro",
+   "start": 112.84,
+   "end": 113
+  },
+  {
+   "w": "ponto",
+   "start": 113.16,
+   "end": 113.32
+  },
+  {
+   "w": "dois",
+   "start": 113.48,
+   "end": 113.64
+  },
+  {
+   "w": "ou",
+   "start": 113.88,
+   "end": 113.96
+  },
+  {
+   "w": "mais",
+   "start": 114.04,
+   "end": 114.2
+  },
+  {
+   "w": "nova,",
+   "start": 114.28,
+   "end": 114.68
+  },
+  {
+   "w": "que",
+   "start": 114.76,
+   "end": 114.84
+  },
+  {
+   "w": "também",
+   "start": 114.92,
+   "end": 115.24
+  },
+  {
+   "w": "é",
+   "start": 115.28,
+   "end": 115.32
+  },
+  {
+   "w": "gratuito.",
+   "start": 115.36,
+   "end": 116.12
+  },
+  {
+   "w": "Um",
+   "start": 116.36,
+   "end": 116.44
+  },
+  {
+   "w": "detalhe",
+   "start": 116.52,
+   "end": 116.813
+  },
+  {
+   "w": "importante:",
+   "start": 116.947,
+   "end": 117.72
+  },
+  {
+   "w": "o",
+   "start": 117.76,
+   "end": 117.8
+  },
+  {
+   "w": "conector",
+   "start": 117.88,
+   "end": 118.36
+  },
+  {
+   "w": "não",
+   "start": 118.52,
+   "end": 118.68
+  },
+  {
+   "w": "funciona",
+   "start": 118.76,
+   "end": 119.24
+  },
+  {
+   "w": "no",
+   "start": 119.32,
+   "end": 119.4
+  },
+  {
+   "w": "Claude",
+   "start": 119.48,
+   "end": 119.8
+  },
+  {
+   "w": "pelo",
+   "start": 119.88,
+   "end": 120.04
+  },
+  {
+   "w": "navegador.",
+   "start": 120.093,
+   "end": 120.68
+  },
+  {
+   "w": "Tem",
+   "start": 121,
+   "end": 121.16
+  },
+  {
+   "w": "que",
+   "start": 121.2,
+   "end": 121.24
+  },
+  {
+   "w": "ser",
+   "start": 121.4,
+   "end": 121.48
+  },
+  {
+   "w": "o",
+   "start": 121.56,
+   "end": 121.613
+  },
+  {
+   "w": "aplicativo",
+   "start": 121.667,
+   "end": 122.12
+  },
+  {
+   "w": "instalado.",
+   "start": 122.24,
+   "end": 123
+  },
+  {
+   "w": "Quem",
+   "start": 123.27,
+   "end": 123.43
+  },
+  {
+   "w": "confirma",
+   "start": 123.55,
+   "end": 123.91
+  },
+  {
+   "w": "isso",
+   "start": 123.99,
+   "end": 124.31
+  },
+  {
+   "w": "é",
+   "start": 124.39,
+   "end": 124.47
+  },
+  {
+   "w": "a",
+   "start": 124.51,
+   "end": 124.55
+  },
+  {
+   "w": "própria",
+   "start": 124.71,
+   "end": 125.03
+  },
+  {
+   "w": "página",
+   "start": 125.11,
+   "end": 125.35
+  },
+  {
+   "w": "oficial",
+   "start": 125.43,
+   "end": 125.83
+  },
+  {
+   "w": "do",
+   "start": 125.87,
+   "end": 125.91
+  },
+  {
+   "w": "conector,",
+   "start": 125.99,
+   "end": 126.71
+  },
+  {
+   "w": "da",
+   "start": 126.75,
+   "end": 126.79
+  },
+  {
+   "w": "Anthropic.",
+   "start": 126.91,
+   "end": 127.51
+  },
+  {
+   "w": "Os",
+   "start": 127.83,
+   "end": 127.99
+  },
+  {
+   "w": "requisitos",
+   "start": 128.07,
+   "end": 128.47
+  },
+  {
+   "w": "estão",
+   "start": 128.55,
+   "end": 128.79
+  },
+  {
+   "w": "aqui:",
+   "start": 128.83,
+   "end": 129.35
+  },
+  {
+   "w": "Claude",
+   "start": 129.59,
+   "end": 129.91
+  },
+  {
+   "w": "Desktop,",
+   "start": 130.23,
+   "end": 130.63
+  },
+  {
+   "w": "em",
+   "start": 130.71,
+   "end": 130.79
+  },
+  {
+   "w": "qualquer",
+   "start": 130.91,
+   "end": 131.19
+  },
+  {
+   "w": "plano,",
+   "start": 131.27,
+   "end": 131.67
+  },
+  {
+   "w": "e",
+   "start": 131.99,
+   "end": 132.07
+  },
+  {
+   "w": "o",
+   "start": 132.11,
+   "end": 132.15
+  },
+  {
+   "w": "Blender",
+   "start": 132.23,
+   "end": 132.63
+  },
+  {
+   "w": "quatro",
+   "start": 132.71,
+   "end": 132.95
+  },
+  {
+   "w": "ponto",
+   "start": 133.03,
+   "end": 133.19
+  },
+  {
+   "w": "dois",
+   "start": 133.35,
+   "end": 133.51
+  },
+  {
+   "w": "ou",
+   "start": 133.75,
+   "end": 133.91
+  },
+  {
+   "w": "mais",
+   "start": 133.95,
+   "end": 134.15
+  },
+  {
+   "w": "novo,",
+   "start": 134.19,
+   "end": 134.71
+  },
+  {
+   "w": "grátis",
+   "start": 134.79,
+   "end": 135.27
+  },
+  {
+   "w": "em",
+   "start": 135.35,
+   "end": 135.43
+  },
+  {
+   "w": "blender",
+   "start": 135.51,
+   "end": 135.83
+  },
+  {
+   "w": "ponto",
+   "start": 135.87,
+   "end": 136.07
+  },
+  {
+   "w": "org,",
+   "start": 136.15,
+   "end": 136.63
+  },
+  {
+   "w": "barra",
+   "start": 136.71,
+   "end": 136.87
+  },
+  {
+   "w": "download.",
+   "start": 136.95,
+   "end": 137.75
+  },
+  {
+   "w": "Passo",
+   "start": 138.02,
+   "end": 138.34
+  },
+  {
+   "w": "um.",
+   "start": 138.42,
+   "end": 138.74
+  },
+  {
+   "w": "Entre",
+   "start": 139.22,
+   "end": 139.46
+  },
+  {
+   "w": "em",
+   "start": 139.54,
+   "end": 139.7
+  },
+  {
+   "w": "blender",
+   "start": 139.74,
+   "end": 140.1
+  },
+  {
+   "w": "ponto",
+   "start": 140.14,
+   "end": 140.26
+  },
+  {
+   "w": "org,",
+   "start": 140.42,
+   "end": 140.86
+  },
+  {
+   "w": "barra",
+   "start": 140.98,
+   "end": 141.22
+  },
+  {
+   "w": "download,",
+   "start": 141.3,
+   "end": 142.06
+  },
+  {
+   "w": "e",
+   "start": 142.18,
+   "end": 142.26
+  },
+  {
+   "w": "baixe",
+   "start": 142.34,
+   "end": 142.58
+  },
+  {
+   "w": "a",
+   "start": 142.66,
+   "end": 142.7
+  },
+  {
+   "w": "versão",
+   "start": 142.74,
+   "end": 143.06
+  },
+  {
+   "w": "do",
+   "start": 143.14,
+   "end": 143.18
+  },
+  {
+   "w": "seu",
+   "start": 143.22,
+   "end": 143.34
+  },
+  {
+   "w": "sistema.",
+   "start": 143.38,
+   "end": 144.1
+  },
+  {
+   "w": "No",
+   "start": 144.34,
+   "end": 144.42
+  },
+  {
+   "w": "Windows,",
+   "start": 144.66,
+   "end": 144.98
+  },
+  {
+   "w": "abra",
+   "start": 145.22,
+   "end": 145.46
+  },
+  {
+   "w": "o",
+   "start": 145.5,
+   "end": 145.54
+  },
+  {
+   "w": "arquivo",
+   "start": 145.62,
+   "end": 146.02
+  },
+  {
+   "w": "e",
+   "start": 146.06,
+   "end": 146.1
+  },
+  {
+   "w": "vá",
+   "start": 146.14,
+   "end": 146.26
+  },
+  {
+   "w": "clicando",
+   "start": 146.3,
+   "end": 146.66
+  },
+  {
+   "w": "em",
+   "start": 146.7,
+   "end": 146.74
+  },
+  {
+   "w": "Next",
+   "start": 146.82,
+   "end": 147.22
+  },
+  {
+   "w": "até",
+   "start": 147.34,
+   "end": 147.5
+  },
+  {
+   "w": "o",
+   "start": 147.54,
+   "end": 147.58
+  },
+  {
+   "w": "final.",
+   "start": 147.62,
+   "end": 148.02
+  },
+  {
+   "w": "No",
+   "start": 148.42,
+   "end": 148.5
+  },
+  {
+   "w": "Mac,",
+   "start": 148.7,
+   "end": 149.22
+  },
+  {
+   "w": "abra",
+   "start": 149.34,
+   "end": 149.46
+  },
+  {
+   "w": "o",
+   "start": 149.5,
+   "end": 149.54
+  },
+  {
+   "w": "arquivo",
+   "start": 149.62,
+   "end": 150.02
+  },
+  {
+   "w": "e",
+   "start": 150.1,
+   "end": 150.18
+  },
+  {
+   "w": "arraste",
+   "start": 150.3,
+   "end": 150.66
+  },
+  {
+   "w": "o",
+   "start": 150.7,
+   "end": 150.74
+  },
+  {
+   "w": "Blender",
+   "start": 150.78,
+   "end": 151.06
+  },
+  {
+   "w": "para",
+   "start": 151.14,
+   "end": 151.22
+  },
+  {
+   "w": "a",
+   "start": 151.3,
+   "end": 151.38
+  },
+  {
+   "w": "pasta",
+   "start": 151.487,
+   "end": 151.7
+  },
+  {
+   "w": "Aplicativos.",
+   "start": 151.78,
+   "end": 152.74
+  },
+  {
+   "w": "No",
+   "start": 153.14,
+   "end": 153.22
+  },
+  {
+   "w": "Linux,",
+   "start": 153.46,
+   "end": 153.82
+  },
+  {
+   "w": "o",
+   "start": 153.94,
+   "end": 154.02
+  },
+  {
+   "w": "jeito",
+   "start": 154.1,
+   "end": 154.34
+  },
+  {
+   "w": "mais",
+   "start": 154.38,
+   "end": 154.58
+  },
+  {
+   "w": "fácil",
+   "start": 154.66,
+   "end": 155.06
+  },
+  {
+   "w": "é",
+   "start": 155.1,
+   "end": 155.14
+  },
+  {
+   "w": "a",
+   "start": 155.18,
+   "end": 155.22
+  },
+  {
+   "w": "loja",
+   "start": 155.3,
+   "end": 155.46
+  },
+  {
+   "w": "de",
+   "start": 155.54,
+   "end": 155.593
+  },
+  {
+   "w": "aplicativos",
+   "start": 155.647,
+   "end": 156.18
+  },
+  {
+   "w": "do",
+   "start": 156.22,
+   "end": 156.26
+  },
+  {
+   "w": "seu",
+   "start": 156.34,
+   "end": 156.46
+  },
+  {
+   "w": "sistema:",
+   "start": 156.5,
+   "end": 157.3
+  },
+  {
+   "w": "procure",
+   "start": 157.42,
+   "end": 157.7
+  },
+  {
+   "w": "Blender",
+   "start": 157.78,
+   "end": 158.18
+  },
+  {
+   "w": "e",
+   "start": 158.26,
+   "end": 158.34
+  },
+  {
+   "w": "clique",
+   "start": 158.42,
+   "end": 158.66
+  },
+  {
+   "w": "em",
+   "start": 158.74,
+   "end": 158.82
+  },
+  {
+   "w": "instalar.",
+   "start": 158.9,
+   "end": 159.7
+  },
+  {
+   "w": "Se",
+   "start": 159.97,
+   "end": 160.13
+  },
+  {
+   "w": "você",
+   "start": 160.17,
+   "end": 160.37
+  },
+  {
+   "w": "ainda",
+   "start": 160.45,
+   "end": 160.61
+  },
+  {
+   "w": "não",
+   "start": 160.69,
+   "end": 160.77
+  },
+  {
+   "w": "tem",
+   "start": 160.93,
+   "end": 161.09
+  },
+  {
+   "w": "o",
+   "start": 161.17,
+   "end": 161.25
+  },
+  {
+   "w": "Claude",
+   "start": 161.33,
+   "end": 161.57
+  },
+  {
+   "w": "Desktop,",
+   "start": 161.89,
+   "end": 162.45
+  },
+  {
+   "w": "entre",
+   "start": 162.61,
+   "end": 162.77
+  },
+  {
+   "w": "em",
+   "start": 162.85,
+   "end": 162.93
+  },
+  {
+   "w": "claude",
+   "start": 163.01,
+   "end": 163.33
+  },
+  {
+   "w": "ponto",
+   "start": 163.37,
+   "end": 163.57
+  },
+  {
+   "w": "com,",
+   "start": 163.65,
+   "end": 164.13
+  },
+  {
+   "w": "barra",
+   "start": 164.21,
+   "end": 164.37
+  },
+  {
+   "w": "download.",
+   "start": 164.45,
+   "end": 165.09
+  },
+  {
+   "w": "O",
+   "start": 165.49,
+   "end": 165.57
+  },
+  {
+   "w": "site",
+   "start": 165.65,
+   "end": 165.89
+  },
+  {
+   "w": "já",
+   "start": 165.97,
+   "end": 166.05
+  },
+  {
+   "w": "mostra",
+   "start": 166.13,
+   "end": 166.45
+  },
+  {
+   "w": "o",
+   "start": 166.49,
+   "end": 166.53
+  },
+  {
+   "w": "botão",
+   "start": 166.61,
+   "end": 166.77
+  },
+  {
+   "w": "do",
+   "start": 166.81,
+   "end": 166.85
+  },
+  {
+   "w": "seu",
+   "start": 166.89,
+   "end": 167.01
+  },
+  {
+   "w": "sistema,",
+   "start": 167.05,
+   "end": 167.73
+  },
+  {
+   "w": "tem",
+   "start": 167.85,
+   "end": 167.97
+  },
+  {
+   "w": "Mac,",
+   "start": 168.17,
+   "end": 168.53
+  },
+  {
+   "w": "Windows",
+   "start": 168.77,
+   "end": 169.01
+  },
+  {
+   "w": "e",
+   "start": 169.09,
+   "end": 169.13
+  },
+  {
+   "w": "Linux.",
+   "start": 169.17,
+   "end": 169.89
+  },
+  {
+   "w": "Instale",
+   "start": 170.13,
+   "end": 170.45
+  },
+  {
+   "w": "como",
+   "start": 170.53,
+   "end": 170.69
+  },
+  {
+   "w": "qualquer",
+   "start": 170.81,
+   "end": 171.09
+  },
+  {
+   "w": "programa",
+   "start": 171.33,
+   "end": 171.65
+  },
+  {
+   "w": "e",
+   "start": 171.81,
+   "end": 171.89
+  },
+  {
+   "w": "entre",
+   "start": 172.01,
+   "end": 172.13
+  },
+  {
+   "w": "com",
+   "start": 172.21,
+   "end": 172.25
+  },
+  {
+   "w": "a",
+   "start": 172.29,
+   "end": 172.33
+  },
+  {
+   "w": "sua",
+   "start": 172.37,
+   "end": 172.53
+  },
+  {
+   "w": "conta",
+   "start": 172.61,
+   "end": 172.81
+  },
+  {
+   "w": "do",
+   "start": 172.85,
+   "end": 172.93
+  },
+  {
+   "w": "Claude.",
+   "start": 173.01,
+   "end": 173.57
+  },
+  {
+   "w": "Passo",
+   "start": 173.84,
+   "end": 174.16
+  },
+  {
+   "w": "dois.",
+   "start": 174.24,
+   "end": 174.88
+  },
+  {
+   "w": "Abra",
+   "start": 175.12,
+   "end": 175.32
+  },
+  {
+   "w": "o",
+   "start": 175.36,
+   "end": 175.44
+  },
+  {
+   "w": "Claude",
+   "start": 175.52,
+   "end": 175.76
+  },
+  {
+   "w": "Desktop,",
+   "start": 176.08,
+   "end": 176.64
+  },
+  {
+   "w": "clique",
+   "start": 176.72,
+   "end": 176.96
+  },
+  {
+   "w": "em",
+   "start": 177,
+   "end": 177.04
+  },
+  {
+   "w": "personalizar",
+   "start": 177.2,
+   "end": 178
+  },
+  {
+   "w": "e",
+   "start": 178.16,
+   "end": 178.24
+  },
+  {
+   "w": "abra",
+   "start": 178.32,
+   "end": 178.56
+  },
+  {
+   "w": "o",
+   "start": 178.6,
+   "end": 178.64
+  },
+  {
+   "w": "diretório",
+   "start": 178.76,
+   "end": 179.12
+  },
+  {
+   "w": "de",
+   "start": 179.2,
+   "end": 179.24
+  },
+  {
+   "w": "conectores.",
+   "start": 179.28,
+   "end": 180.08
+  },
+  {
+   "w": "Na",
+   "start": 180.56,
+   "end": 180.64
+  },
+  {
+   "w": "busca,",
+   "start": 180.72,
+   "end": 181.2
+  },
+  {
+   "w": "digite",
+   "start": 181.28,
+   "end": 181.68
+  },
+  {
+   "w": "Blender.",
+   "start": 181.76,
+   "end": 182.44
+  },
+  {
+   "w": "Vai",
+   "start": 182.64,
+   "end": 182.72
+  },
+  {
+   "w": "aparecer",
+   "start": 182.8,
+   "end": 183.12
+  },
+  {
+   "w": "o",
+   "start": 183.2,
+   "end": 183.24
+  },
+  {
+   "w": "conector",
+   "start": 183.28,
+   "end": 183.68
+  },
+  {
+   "w": "oficial,",
+   "start": 183.76,
+   "end": 184.4
+  },
+  {
+   "w": "feito",
+   "start": 184.48,
+   "end": 184.72
+  },
+  {
+   "w": "pelo",
+   "start": 184.8,
+   "end": 184.96
+  },
+  {
+   "w": "Blender",
+   "start": 185,
+   "end": 185.28
+  },
+  {
+   "w": "Lab.",
+   "start": 185.36,
+   "end": 185.76
+  },
+  {
+   "w": "Clique",
+   "start": 186.08,
+   "end": 186.32
+  },
+  {
+   "w": "em",
+   "start": 186.4,
+   "end": 186.48
+  },
+  {
+   "w": "instalar.",
+   "start": 186.6,
+   "end": 187.12
+  },
+  {
+   "w": "Pronto:",
+   "start": 187.52,
+   "end": 188.16
+  },
+  {
+   "w": "o",
+   "start": 188.2,
+   "end": 188.24
+  },
+  {
+   "w": "Claude",
+   "start": 188.32,
+   "end": 188.72
+  },
+  {
+   "w": "já",
+   "start": 188.8,
+   "end": 188.96
+  },
+  {
+   "w": "sabe",
+   "start": 189.12,
+   "end": 189.28
+  },
+  {
+   "w": "falar",
+   "start": 189.36,
+   "end": 189.6
+  },
+  {
+   "w": "com",
+   "start": 189.68,
+   "end": 189.76
+  },
+  {
+   "w": "o",
+   "start": 189.8,
+   "end": 189.84
+  },
+  {
+   "w": "Blender.",
+   "start": 189.88,
+   "end": 190.48
+  },
+  {
+   "w": "Passo",
+   "start": 190.75,
+   "end": 191.07
+  },
+  {
+   "w": "três.",
+   "start": 191.15,
+   "end": 191.83
+  },
+  {
+   "w": "O",
+   "start": 192.03,
+   "end": 192.07
+  },
+  {
+   "w": "conector",
+   "start": 192.11,
+   "end": 192.59
+  },
+  {
+   "w": "precisa",
+   "start": 192.71,
+   "end": 192.99
+  },
+  {
+   "w": "de",
+   "start": 193.07,
+   "end": 193.11
+  },
+  {
+   "w": "um",
+   "start": 193.15,
+   "end": 193.19
+  },
+  {
+   "w": "complemento",
+   "start": 193.23,
+   "end": 193.99
+  },
+  {
+   "w": "dentro",
+   "start": 194.03,
+   "end": 194.27
+  },
+  {
+   "w": "do",
+   "start": 194.35,
+   "end": 194.43
+  },
+  {
+   "w": "Blender.",
+   "start": 194.51,
+   "end": 195.15
+  },
+  {
+   "w": "Na",
+   "start": 195.39,
+   "end": 195.47
+  },
+  {
+   "w": "página",
+   "start": 195.55,
+   "end": 195.79
+  },
+  {
+   "w": "oficial",
+   "start": 195.87,
+   "end": 196.27
+  },
+  {
+   "w": "do",
+   "start": 196.31,
+   "end": 196.35
+  },
+  {
+   "w": "conector",
+   "start": 196.43,
+   "end": 196.91
+  },
+  {
+   "w": "tem",
+   "start": 197.07,
+   "end": 197.23
+  },
+  {
+   "w": "o",
+   "start": 197.27,
+   "end": 197.31
+  },
+  {
+   "w": "link",
+   "start": 197.39,
+   "end": 197.63
+  },
+  {
+   "w": "das",
+   "start": 197.71,
+   "end": 197.79
+  },
+  {
+   "w": "instruções,",
+   "start": 197.91,
+   "end": 198.75
+  },
+  {
+   "w": "que",
+   "start": 198.91,
+   "end": 198.99
+  },
+  {
+   "w": "leva",
+   "start": 199.07,
+   "end": 199.31
+  },
+  {
+   "w": "para",
+   "start": 199.39,
+   "end": 199.47
+  },
+  {
+   "w": "a",
+   "start": 199.51,
+   "end": 199.55
+  },
+  {
+   "w": "página",
+   "start": 199.63,
+   "end": 199.95
+  },
+  {
+   "w": "do",
+   "start": 199.99,
+   "end": 200.03
+  },
+  {
+   "w": "servidor,",
+   "start": 200.11,
+   "end": 200.75
+  },
+  {
+   "w": "no",
+   "start": 200.83,
+   "end": 200.91
+  },
+  {
+   "w": "site",
+   "start": 200.99,
+   "end": 201.23
+  },
+  {
+   "w": "do",
+   "start": 201.31,
+   "end": 201.39
+  },
+  {
+   "w": "Blender",
+   "start": 201.43,
+   "end": 201.71
+  },
+  {
+   "w": "Lab.",
+   "start": 201.87,
+   "end": 202.11
+  },
+  {
+   "w": "É",
+   "start": 202.59,
+   "end": 202.67
+  },
+  {
+   "w": "de",
+   "start": 202.75,
+   "end": 202.83
+  },
+  {
+   "w": "lá",
+   "start": 202.95,
+   "end": 203.07
+  },
+  {
+   "w": "que",
+   "start": 203.15,
+   "end": 203.23
+  },
+  {
+   "w": "você",
+   "start": 203.31,
+   "end": 203.47
+  },
+  {
+   "w": "pega",
+   "start": 203.55,
+   "end": 203.71
+  },
+  {
+   "w": "o",
+   "start": 203.75,
+   "end": 203.79
+  },
+  {
+   "w": "link",
+   "start": 203.91,
+   "end": 204.03
+  },
+  {
+   "w": "de",
+   "start": 204.07,
+   "end": 204.11
+  },
+  {
+   "w": "instalação.",
+   "start": 204.19,
+   "end": 205.07
+  },
+  {
+   "w": "Com",
+   "start": 205.34,
+   "end": 205.473
+  },
+  {
+   "w": "o",
+   "start": 205.5,
+   "end": 205.54
+  },
+  {
+   "w": "Blender",
+   "start": 205.58,
+   "end": 205.852
+  },
+  {
+   "w": "aberto,",
+   "start": 205.9,
+   "end": 206.54
+  },
+  {
+   "w": "arraste",
+   "start": 206.7,
+   "end": 207.12
+  },
+  {
+   "w": "esse",
+   "start": 207.18,
+   "end": 207.39
+  },
+  {
+   "w": "link",
+   "start": 207.42,
+   "end": 207.74
+  },
+  {
+   "w": "de",
+   "start": 207.78,
+   "end": 207.82
+  },
+  {
+   "w": "instalação",
+   "start": 207.94,
+   "end": 208.38
+  },
+  {
+   "w": "da",
+   "start": 208.46,
+   "end": 208.54
+  },
+  {
+   "w": "página",
+   "start": 208.62,
+   "end": 209.02
+  },
+  {
+   "w": "para",
+   "start": 209.1,
+   "end": 209.34
+  },
+  {
+   "w": "dentro",
+   "start": 209.5,
+   "end": 209.82
+  },
+  {
+   "w": "da",
+   "start": 209.86,
+   "end": 209.9
+  },
+  {
+   "w": "janela",
+   "start": 209.98,
+   "end": 210.3
+  },
+  {
+   "w": "do",
+   "start": 210.34,
+   "end": 210.38
+  },
+  {
+   "w": "Blender.",
+   "start": 210.46,
+   "end": 210.94
+  },
+  {
+   "w": "Na",
+   "start": 211.34,
+   "end": 211.42
+  },
+  {
+   "w": "primeira",
+   "start": 211.54,
+   "end": 211.74
+  },
+  {
+   "w": "vez,",
+   "start": 211.82,
+   "end": 212.3
+  },
+  {
+   "w": "ele",
+   "start": 212.38,
+   "end": 212.46
+  },
+  {
+   "w": "pergunta",
+   "start": 212.54,
+   "end": 212.94
+  },
+  {
+   "w": "se",
+   "start": 213.02,
+   "end": 213.18
+  },
+  {
+   "w": "pode",
+   "start": 213.26,
+   "end": 213.42
+  },
+  {
+   "w": "adicionar",
+   "start": 213.5,
+   "end": 213.98
+  },
+  {
+   "w": "o",
+   "start": 214.02,
+   "end": 214.06
+  },
+  {
+   "w": "repositório",
+   "start": 214.14,
+   "end": 214.78
+  },
+  {
+   "w": "de",
+   "start": 214.807,
+   "end": 214.833
+  },
+  {
+   "w": "extensões",
+   "start": 214.86,
+   "end": 215.42
+  },
+  {
+   "w": "do",
+   "start": 215.5,
+   "end": 215.58
+  },
+  {
+   "w": "Blender",
+   "start": 215.62,
+   "end": 215.9
+  },
+  {
+   "w": "Lab.",
+   "start": 215.98,
+   "end": 216.38
+  },
+  {
+   "w": "Clique",
+   "start": 216.78,
+   "end": 217.02
+  },
+  {
+   "w": "em",
+   "start": 217.1,
+   "end": 217.18
+  },
+  {
+   "w": "permitir.",
+   "start": 217.26,
+   "end": 217.9
+  },
+  {
+   "w": "Depois,",
+   "start": 218.38,
+   "end": 218.94
+  },
+  {
+   "w": "arraste",
+   "start": 219.18,
+   "end": 219.58
+  },
+  {
+   "w": "o",
+   "start": 219.66,
+   "end": 219.74
+  },
+  {
+   "w": "mesmo",
+   "start": 219.86,
+   "end": 220.06
+  },
+  {
+   "w": "link",
+   "start": 220.14,
+   "end": 220.46
+  },
+  {
+   "w": "mais",
+   "start": 220.54,
+   "end": 220.78
+  },
+  {
+   "w": "uma",
+   "start": 220.86,
+   "end": 220.94
+  },
+  {
+   "w": "vez.",
+   "start": 221.02,
+   "end": 221.42
+  },
+  {
+   "w": "Agora",
+   "start": 221.82,
+   "end": 222.14
+  },
+  {
+   "w": "sim,",
+   "start": 222.22,
+   "end": 222.62
+  },
+  {
+   "w": "ele",
+   "start": 222.7,
+   "end": 222.78
+  },
+  {
+   "w": "instala",
+   "start": 222.94,
+   "end": 223.18
+  },
+  {
+   "w": "o",
+   "start": 223.22,
+   "end": 223.26
+  },
+  {
+   "w": "complemento.",
+   "start": 223.34,
+   "end": 224.22
+  },
+  {
+   "w": "Para",
+   "start": 224.49,
+   "end": 224.65
+  },
+  {
+   "w": "ligar,",
+   "start": 224.73,
+   "end": 225.37
+  },
+  {
+   "w": "vá",
+   "start": 225.45,
+   "end": 225.61
+  },
+  {
+   "w": "em",
+   "start": 225.73,
+   "end": 225.85
+  },
+  {
+   "w": "Edit,",
+   "start": 226.09,
+   "end": 226.41
+  },
+  {
+   "w": "Preferences,",
+   "start": 226.73,
+   "end": 227.53
+  },
+  {
+   "w": "e",
+   "start": 227.77,
+   "end": 227.85
+  },
+  {
+   "w": "abra",
+   "start": 227.93,
+   "end": 228.17
+  },
+  {
+   "w": "a",
+   "start": 228.21,
+   "end": 228.25
+  },
+  {
+   "w": "aba",
+   "start": 228.41,
+   "end": 228.57
+  },
+  {
+   "w": "Add-ons.",
+   "start": 228.73,
+   "end": 229.45
+  },
+  {
+   "w": "Procure",
+   "start": 229.85,
+   "end": 230.17
+  },
+  {
+   "w": "o",
+   "start": 230.25,
+   "end": 230.29
+  },
+  {
+   "w": "Blender",
+   "start": 230.33,
+   "end": 230.65
+  },
+  {
+   "w": "eme",
+   "start": 230.81,
+   "end": 231.05
+  },
+  {
+   "w": "cê",
+   "start": 231.09,
+   "end": 231.21
+  },
+  {
+   "w": "pê",
+   "start": 231.29,
+   "end": 231.53
+  },
+  {
+   "w": "e",
+   "start": 231.77,
+   "end": 231.85
+  },
+  {
+   "w": "clique",
+   "start": 231.93,
+   "end": 232.17
+  },
+  {
+   "w": "em",
+   "start": 232.25,
+   "end": 232.33
+  },
+  {
+   "w": "Start",
+   "start": 232.41,
+   "end": 232.89
+  },
+  {
+   "w": "eme",
+   "start": 232.97,
+   "end": 233.21
+  },
+  {
+   "w": "cê",
+   "start": 233.25,
+   "end": 233.33
+  },
+  {
+   "w": "pê",
+   "start": 233.37,
+   "end": 233.61
+  },
+  {
+   "w": "Server.",
+   "start": 233.69,
+   "end": 234.41
+  },
+  {
+   "w": "Isso",
+   "start": 234.65,
+   "end": 234.89
+  },
+  {
+   "w": "liga",
+   "start": 235.01,
+   "end": 235.13
+  },
+  {
+   "w": "a",
+   "start": 235.183,
+   "end": 235.237
+  },
+  {
+   "w": "ponte",
+   "start": 235.29,
+   "end": 235.61
+  },
+  {
+   "w": "entre",
+   "start": 235.73,
+   "end": 235.85
+  },
+  {
+   "w": "o",
+   "start": 235.877,
+   "end": 235.903
+  },
+  {
+   "w": "Blender",
+   "start": 235.93,
+   "end": 236.33
+  },
+  {
+   "w": "e",
+   "start": 236.41,
+   "end": 236.45
+  },
+  {
+   "w": "o",
+   "start": 236.49,
+   "end": 236.53
+  },
+  {
+   "w": "Claude.",
+   "start": 236.57,
+   "end": 237.13
+  },
+  {
+   "w": "Toda",
+   "start": 237.45,
+   "end": 237.61
+  },
+  {
+   "w": "vez",
+   "start": 237.69,
+   "end": 237.85
+  },
+  {
+   "w": "que",
+   "start": 237.89,
+   "end": 237.93
+  },
+  {
+   "w": "for",
+   "start": 238.01,
+   "end": 238.09
+  },
+  {
+   "w": "trabalhar,",
+   "start": 238.17,
+   "end": 238.89
+  },
+  {
+   "w": "abra",
+   "start": 239.01,
+   "end": 239.13
+  },
+  {
+   "w": "o",
+   "start": 239.17,
+   "end": 239.21
+  },
+  {
+   "w": "seu",
+   "start": 239.25,
+   "end": 239.37
+  },
+  {
+   "w": "projeto",
+   "start": 239.53,
+   "end": 240.01
+  },
+  {
+   "w": "e",
+   "start": 240.09,
+   "end": 240.17
+  },
+  {
+   "w": "ligue",
+   "start": 240.25,
+   "end": 240.49
+  },
+  {
+   "w": "o",
+   "start": 240.53,
+   "end": 240.57
+  },
+  {
+   "w": "servidor",
+   "start": 240.65,
+   "end": 240.97
+  },
+  {
+   "w": "de",
+   "start": 241.01,
+   "end": 241.05
+  },
+  {
+   "w": "novo.",
+   "start": 241.13,
+   "end": 241.69
+  },
+  {
+   "w": "Hora",
+   "start": 241.96,
+   "end": 242.2
+  },
+  {
+   "w": "do",
+   "start": 242.24,
+   "end": 242.28
+  },
+  {
+   "w": "teste.",
+   "start": 242.36,
+   "end": 243.08
+  },
+  {
+   "w": "Abra",
+   "start": 243.32,
+   "end": 243.56
+  },
+  {
+   "w": "uma",
+   "start": 243.64,
+   "end": 243.72
+  },
+  {
+   "w": "conversa",
+   "start": 243.8,
+   "end": 244.12
+  },
+  {
+   "w": "nova",
+   "start": 244.28,
+   "end": 244.52
+  },
+  {
+   "w": "no",
+   "start": 244.6,
+   "end": 244.68
+  },
+  {
+   "w": "Claude",
+   "start": 244.8,
+   "end": 245.16
+  },
+  {
+   "w": "e",
+   "start": 245.24,
+   "end": 245.28
+  },
+  {
+   "w": "escreva:",
+   "start": 245.32,
+   "end": 246.36
+  },
+  {
+   "w": "crie",
+   "start": 246.44,
+   "end": 246.68
+  },
+  {
+   "w": "uma",
+   "start": 246.8,
+   "end": 246.92
+  },
+  {
+   "w": "ilha",
+   "start": 247.04,
+   "end": 247.16
+  },
+  {
+   "w": "flutuante",
+   "start": 247.2,
+   "end": 247.8
+  },
+  {
+   "w": "em",
+   "start": 247.88,
+   "end": 247.96
+  },
+  {
+   "w": "estilo",
+   "start": 248.08,
+   "end": 248.36
+  },
+  {
+   "w": "low",
+   "start": 248.48,
+   "end": 248.6
+  },
+  {
+   "w": "poly,",
+   "start": 248.68,
+   "end": 249.16
+  },
+  {
+   "w": "com",
+   "start": 249.24,
+   "end": 249.32
+  },
+  {
+   "w": "uma",
+   "start": 249.4,
+   "end": 249.48
+  },
+  {
+   "w": "casinha,",
+   "start": 249.56,
+   "end": 250.36
+  },
+  {
+   "w": "árvores,",
+   "start": 250.48,
+   "end": 251.08
+  },
+  {
+   "w": "um",
+   "start": 251.12,
+   "end": 251.16
+  },
+  {
+   "w": "lago",
+   "start": 251.24,
+   "end": 251.64
+  },
+  {
+   "w": "e",
+   "start": 251.72,
+   "end": 251.8
+  },
+  {
+   "w": "nuvens,",
+   "start": 251.88,
+   "end": 252.44
+  },
+  {
+   "w": "e",
+   "start": 252.68,
+   "end": 252.76
+  },
+  {
+   "w": "coloque",
+   "start": 252.88,
+   "end": 253.08
+  },
+  {
+   "w": "uma",
+   "start": 253.16,
+   "end": 253.24
+  },
+  {
+   "w": "câmera",
+   "start": 253.32,
+   "end": 253.6
+  },
+  {
+   "w": "girando",
+   "start": 253.64,
+   "end": 253.96
+  },
+  {
+   "w": "em",
+   "start": 254.04,
+   "end": 254.12
+  },
+  {
+   "w": "volta.",
+   "start": 254.2,
+   "end": 254.76
+  },
+  {
+   "w": "Na",
+   "start": 255,
+   "end": 255.08
+  },
+  {
+   "w": "primeira",
+   "start": 255.16,
+   "end": 255.4
+  },
+  {
+   "w": "vez,",
+   "start": 255.48,
+   "end": 255.88
+  },
+  {
+   "w": "o",
+   "start": 255.92,
+   "end": 255.96
+  },
+  {
+   "w": "Claude",
+   "start": 256.04,
+   "end": 256.36
+  },
+  {
+   "w": "pede",
+   "start": 256.44,
+   "end": 256.6
+  },
+  {
+   "w": "permissão",
+   "start": 256.68,
+   "end": 257.16
+  },
+  {
+   "w": "para",
+   "start": 257.24,
+   "end": 257.32
+  },
+  {
+   "w": "usar",
+   "start": 257.4,
+   "end": 257.56
+  },
+  {
+   "w": "o",
+   "start": 257.6,
+   "end": 257.64
+  },
+  {
+   "w": "Blender.",
+   "start": 257.68,
+   "end": 258.12
+  },
+  {
+   "w": "Clique",
+   "start": 258.44,
+   "end": 258.68
+  },
+  {
+   "w": "em",
+   "start": 258.76,
+   "end": 258.84
+  },
+  {
+   "w": "permitir.",
+   "start": 258.92,
+   "end": 259.8
+  },
+  {
+   "w": "E",
+   "start": 260.07,
+   "end": 260.23
+  },
+  {
+   "w": "aí",
+   "start": 260.31,
+   "end": 260.47
+  },
+  {
+   "w": "é",
+   "start": 260.55,
+   "end": 260.71
+  },
+  {
+   "w": "só",
+   "start": 260.75,
+   "end": 260.87
+  },
+  {
+   "w": "assistir.",
+   "start": 261.07,
+   "end": 261.51
+  },
+  {
+   "w": "O",
+   "start": 261.83,
+   "end": 261.91
+  },
+  {
+   "w": "Claude",
+   "start": 261.99,
+   "end": 262.39
+  },
+  {
+   "w": "cria",
+   "start": 262.47,
+   "end": 262.603
+  },
+  {
+   "w": "o",
+   "start": 262.657,
+   "end": 262.71
+  },
+  {
+   "w": "terreno,",
+   "start": 262.79,
+   "end": 263.43
+  },
+  {
+   "w": "as",
+   "start": 263.55,
+   "end": 263.67
+  },
+  {
+   "w": "árvores,",
+   "start": 263.75,
+   "end": 264.337
+  },
+  {
+   "w": "a",
+   "start": 264.363,
+   "end": 264.39
+  },
+  {
+   "w": "casinha,",
+   "start": 264.47,
+   "end": 265.27
+  },
+  {
+   "w": "o",
+   "start": 265.31,
+   "end": 265.35
+  },
+  {
+   "w": "lago,",
+   "start": 265.43,
+   "end": 266.07
+  },
+  {
+   "w": "as",
+   "start": 266.19,
+   "end": 266.31
+  },
+  {
+   "w": "nuvens,",
+   "start": 266.39,
+   "end": 267.03
+  },
+  {
+   "w": "a",
+   "start": 267.11,
+   "end": 267.19
+  },
+  {
+   "w": "luz",
+   "start": 267.27,
+   "end": 267.59
+  },
+  {
+   "w": "e",
+   "start": 267.67,
+   "end": 267.75
+  },
+  {
+   "w": "a",
+   "start": 267.79,
+   "end": 267.83
+  },
+  {
+   "w": "câmera,",
+   "start": 267.99,
+   "end": 268.63
+  },
+  {
+   "w": "uma",
+   "start": 268.75,
+   "end": 268.87
+  },
+  {
+   "w": "coisa",
+   "start": 268.91,
+   "end": 269.03
+  },
+  {
+   "w": "de",
+   "start": 269.11,
+   "end": 269.19
+  },
+  {
+   "w": "cada",
+   "start": 269.27,
+   "end": 269.43
+  },
+  {
+   "w": "vez,",
+   "start": 269.51,
+   "end": 270.15
+  },
+  {
+   "w": "e",
+   "start": 270.19,
+   "end": 270.23
+  },
+  {
+   "w": "lê",
+   "start": 270.31,
+   "end": 270.47
+  },
+  {
+   "w": "a",
+   "start": 270.55,
+   "end": 270.63
+  },
+  {
+   "w": "cena",
+   "start": 270.71,
+   "end": 270.95
+  },
+  {
+   "w": "para",
+   "start": 271.03,
+   "end": 271.19
+  },
+  {
+   "w": "conferir",
+   "start": 271.27,
+   "end": 271.51
+  },
+  {
+   "w": "o",
+   "start": 271.59,
+   "end": 271.63
+  },
+  {
+   "w": "que",
+   "start": 271.67,
+   "end": 271.75
+  },
+  {
+   "w": "fez.",
+   "start": 271.83,
+   "end": 272.55
+  },
+  {
+   "w": "Em",
+   "start": 272.67,
+   "end": 272.79
+  },
+  {
+   "w": "poucos",
+   "start": 272.843,
+   "end": 273.11
+  },
+  {
+   "w": "minutos,",
+   "start": 273.23,
+   "end": 273.75
+  },
+  {
+   "w": "está",
+   "start": 273.83,
+   "end": 274.07
+  },
+  {
+   "w": "tudo",
+   "start": 274.11,
+   "end": 274.39
+  },
+  {
+   "w": "pronto",
+   "start": 274.47,
+   "end": 274.71
+  },
+  {
+   "w": "na",
+   "start": 274.79,
+   "end": 274.87
+  },
+  {
+   "w": "sua",
+   "start": 274.923,
+   "end": 275.03
+  },
+  {
+   "w": "tela.",
+   "start": 275.11,
+   "end": 275.59
+  },
+  {
+   "w": "Não",
+   "start": 275.86,
+   "end": 276.02
+  },
+  {
+   "w": "gostou",
+   "start": 276.06,
+   "end": 276.34
+  },
+  {
+   "w": "de",
+   "start": 276.38,
+   "end": 276.42
+  },
+  {
+   "w": "alguma",
+   "start": 276.5,
+   "end": 276.66
+  },
+  {
+   "w": "coisa?",
+   "start": 276.74,
+   "end": 277.22
+  },
+  {
+   "w": "É",
+   "start": 277.54,
+   "end": 277.62
+  },
+  {
+   "w": "só",
+   "start": 277.66,
+   "end": 277.78
+  },
+  {
+   "w": "pedir.",
+   "start": 277.9,
+   "end": 278.26
+  },
+  {
+   "w": "Por",
+   "start": 278.58,
+   "end": 278.66
+  },
+  {
+   "w": "exemplo:",
+   "start": 278.74,
+   "end": 279.3
+  },
+  {
+   "w": "deixe",
+   "start": 279.86,
+   "end": 280.1
+  },
+  {
+   "w": "o",
+   "start": 280.14,
+   "end": 280.18
+  },
+  {
+   "w": "céu",
+   "start": 280.26,
+   "end": 280.5
+  },
+  {
+   "w": "com",
+   "start": 280.58,
+   "end": 280.66
+  },
+  {
+   "w": "cor",
+   "start": 280.74,
+   "end": 280.9
+  },
+  {
+   "w": "de",
+   "start": 280.98,
+   "end": 281.14
+  },
+  {
+   "w": "pôr",
+   "start": 281.18,
+   "end": 281.38
+  },
+  {
+   "w": "do",
+   "start": 281.46,
+   "end": 281.54
+  },
+  {
+   "w": "sol",
+   "start": 281.62,
+   "end": 281.94
+  },
+  {
+   "w": "e",
+   "start": 282.1,
+   "end": 282.18
+  },
+  {
+   "w": "acenda",
+   "start": 282.3,
+   "end": 282.58
+  },
+  {
+   "w": "uma",
+   "start": 282.66,
+   "end": 282.74
+  },
+  {
+   "w": "luz",
+   "start": 282.82,
+   "end": 283.06
+  },
+  {
+   "w": "nas",
+   "start": 283.14,
+   "end": 283.22
+  },
+  {
+   "w": "janelas",
+   "start": 283.3,
+   "end": 283.54
+  },
+  {
+   "w": "da",
+   "start": 283.62,
+   "end": 283.7
+  },
+  {
+   "w": "casa.",
+   "start": 283.78,
+   "end": 284.18
+  },
+  {
+   "w": "Ele",
+   "start": 284.58,
+   "end": 284.74
+  },
+  {
+   "w": "muda",
+   "start": 284.78,
+   "end": 285.06
+  },
+  {
+   "w": "só",
+   "start": 285.22,
+   "end": 285.3
+  },
+  {
+   "w": "o",
+   "start": 285.38,
+   "end": 285.46
+  },
+  {
+   "w": "que",
+   "start": 285.5,
+   "end": 285.54
+  },
+  {
+   "w": "você",
+   "start": 285.58,
+   "end": 285.78
+  },
+  {
+   "w": "pediu,",
+   "start": 285.86,
+   "end": 286.42
+  },
+  {
+   "w": "e",
+   "start": 286.46,
+   "end": 286.5
+  },
+  {
+   "w": "você",
+   "start": 286.58,
+   "end": 286.82
+  },
+  {
+   "w": "vê",
+   "start": 286.9,
+   "end": 286.98
+  },
+  {
+   "w": "a",
+   "start": 287.007,
+   "end": 287.033
+  },
+  {
+   "w": "mudança",
+   "start": 287.06,
+   "end": 287.46
+  },
+  {
+   "w": "na",
+   "start": 287.54,
+   "end": 287.7
+  },
+  {
+   "w": "hora.",
+   "start": 287.78,
+   "end": 288.34
+  },
+  {
+   "w": "Para",
+   "start": 288.61,
+   "end": 288.77
+  },
+  {
+   "w": "transformar",
+   "start": 288.85,
+   "end": 289.33
+  },
+  {
+   "w": "em",
+   "start": 289.41,
+   "end": 289.49
+  },
+  {
+   "w": "vídeo,",
+   "start": 289.57,
+   "end": 290.13
+  },
+  {
+   "w": "peça",
+   "start": 290.21,
+   "end": 290.45
+  },
+  {
+   "w": "para",
+   "start": 290.53,
+   "end": 290.69
+  },
+  {
+   "w": "ele",
+   "start": 290.77,
+   "end": 290.85
+  },
+  {
+   "w": "configurar",
+   "start": 290.93,
+   "end": 291.41
+  },
+  {
+   "w": "a",
+   "start": 291.45,
+   "end": 291.49
+  },
+  {
+   "w": "saída",
+   "start": 291.57,
+   "end": 291.97
+  },
+  {
+   "w": "em",
+   "start": 292.05,
+   "end": 292.13
+  },
+  {
+   "w": "vídeo",
+   "start": 292.25,
+   "end": 292.61
+  },
+  {
+   "w": "eme",
+   "start": 292.77,
+   "end": 292.93
+  },
+  {
+   "w": "pê",
+   "start": 292.97,
+   "end": 293.17
+  },
+  {
+   "w": "quatro.",
+   "start": 293.21,
+   "end": 294.05
+  },
+  {
+   "w": "Depois,",
+   "start": 294.17,
+   "end": 294.69
+  },
+  {
+   "w": "no",
+   "start": 294.77,
+   "end": 294.85
+  },
+  {
+   "w": "Blender,",
+   "start": 294.89,
+   "end": 295.65
+  },
+  {
+   "w": "clique",
+   "start": 295.69,
+   "end": 295.97
+  },
+  {
+   "w": "em",
+   "start": 296.05,
+   "end": 296.13
+  },
+  {
+   "w": "Render",
+   "start": 296.21,
+   "end": 296.69
+  },
+  {
+   "w": "e",
+   "start": 296.77,
+   "end": 296.85
+  },
+  {
+   "w": "em",
+   "start": 296.93,
+   "end": 297.01
+  },
+  {
+   "w": "Render",
+   "start": 297.09,
+   "end": 297.33
+  },
+  {
+   "w": "Animation.",
+   "start": 297.41,
+   "end": 298.53
+  },
+  {
+   "w": "O",
+   "start": 298.57,
+   "end": 298.61
+  },
+  {
+   "w": "Blender",
+   "start": 298.69,
+   "end": 299.01
+  },
+  {
+   "w": "desenha",
+   "start": 299.13,
+   "end": 299.49
+  },
+  {
+   "w": "quadro",
+   "start": 299.57,
+   "end": 299.89
+  },
+  {
+   "w": "por",
+   "start": 299.97,
+   "end": 300.05
+  },
+  {
+   "w": "quadro,",
+   "start": 300.21,
+   "end": 300.77
+  },
+  {
+   "w": "e",
+   "start": 300.81,
+   "end": 300.85
+  },
+  {
+   "w": "o",
+   "start": 300.89,
+   "end": 300.93
+  },
+  {
+   "w": "vídeo",
+   "start": 301.01,
+   "end": 301.33
+  },
+  {
+   "w": "sai",
+   "start": 301.41,
+   "end": 301.57
+  },
+  {
+   "w": "pronto",
+   "start": 301.65,
+   "end": 301.89
+  },
+  {
+   "w": "para",
+   "start": 301.97,
+   "end": 302.05
+  },
+  {
+   "w": "postar.",
+   "start": 302.13,
+   "end": 302.77
+  },
+  {
+   "w": "E",
+   "start": 303.04,
+   "end": 303.2
+  },
+  {
+   "w": "não",
+   "start": 303.24,
+   "end": 303.36
+  },
+  {
+   "w": "é",
+   "start": 303.44,
+   "end": 303.52
+  },
+  {
+   "w": "só",
+   "start": 303.56,
+   "end": 303.68
+  },
+  {
+   "w": "criar",
+   "start": 303.76,
+   "end": 304
+  },
+  {
+   "w": "do",
+   "start": 304.08,
+   "end": 304.16
+  },
+  {
+   "w": "zero.",
+   "start": 304.24,
+   "end": 304.64
+  },
+  {
+   "w": "Você",
+   "start": 304.88,
+   "end": 305.12
+  },
+  {
+   "w": "também",
+   "start": 305.173,
+   "end": 305.36
+  },
+  {
+   "w": "pode",
+   "start": 305.4,
+   "end": 305.6
+  },
+  {
+   "w": "pedir:",
+   "start": 305.72,
+   "end": 306.08
+  },
+  {
+   "w": "renomeie",
+   "start": 306.56,
+   "end": 307.04
+  },
+  {
+   "w": "os",
+   "start": 307.08,
+   "end": 307.12
+  },
+  {
+   "w": "objetos",
+   "start": 307.2,
+   "end": 307.68
+  },
+  {
+   "w": "da",
+   "start": 307.76,
+   "end": 307.84
+  },
+  {
+   "w": "cena",
+   "start": 307.92,
+   "end": 308.32
+  },
+  {
+   "w": "com",
+   "start": 308.4,
+   "end": 308.48
+  },
+  {
+   "w": "nomes",
+   "start": 308.56,
+   "end": 308.8
+  },
+  {
+   "w": "que",
+   "start": 308.88,
+   "end": 308.96
+  },
+  {
+   "w": "façam",
+   "start": 309.04,
+   "end": 309.28
+  },
+  {
+   "w": "sentido.",
+   "start": 309.36,
+   "end": 310.16
+  },
+  {
+   "w": "Explique",
+   "start": 310.4,
+   "end": 310.88
+  },
+  {
+   "w": "como",
+   "start": 311.04,
+   "end": 311.2
+  },
+  {
+   "w": "esse",
+   "start": 311.28,
+   "end": 311.36
+  },
+  {
+   "w": "arquivo",
+   "start": 311.44,
+   "end": 311.76
+  },
+  {
+   "w": "funciona.",
+   "start": 311.84,
+   "end": 312.48
+  },
+  {
+   "w": "Ou:",
+   "start": 312.88,
+   "end": 313.2
+  },
+  {
+   "w": "mostre",
+   "start": 313.68,
+   "end": 314.08
+  },
+  {
+   "w": "quais",
+   "start": 314.16,
+   "end": 314.4
+  },
+  {
+   "w": "objetos",
+   "start": 314.64,
+   "end": 315.04
+  },
+  {
+   "w": "estão",
+   "start": 315.12,
+   "end": 315.28
+  },
+  {
+   "w": "deixando",
+   "start": 315.32,
+   "end": 315.68
+  },
+  {
+   "w": "a",
+   "start": 315.707,
+   "end": 315.733
+  },
+  {
+   "w": "cena",
+   "start": 315.76,
+   "end": 316
+  },
+  {
+   "w": "pesada.",
+   "start": 316.08,
+   "end": 316.88
+  },
+  {
+   "w": "São",
+   "start": 317.12,
+   "end": 317.2
+  },
+  {
+   "w": "exemplos",
+   "start": 317.28,
+   "end": 317.76
+  },
+  {
+   "w": "que",
+   "start": 317.8,
+   "end": 317.84
+  },
+  {
+   "w": "a",
+   "start": 317.92,
+   "end": 318
+  },
+  {
+   "w": "própria",
+   "start": 318.04,
+   "end": 318.32
+  },
+  {
+   "w": "Anthropic",
+   "start": 318.4,
+   "end": 318.88
+  },
+  {
+   "w": "usa",
+   "start": 318.96,
+   "end": 319.12
+  },
+  {
+   "w": "no",
+   "start": 319.2,
+   "end": 319.28
+  },
+  {
+   "w": "tutorial",
+   "start": 319.48,
+   "end": 319.68
+  },
+  {
+   "w": "oficial.",
+   "start": 319.76,
+   "end": 320.56
+  },
+  {
+   "w": "Três",
+   "start": 320.83,
+   "end": 321.07
+  },
+  {
+   "w": "dicas",
+   "start": 321.23,
+   "end": 321.55
+  },
+  {
+   "w": "para",
+   "start": 321.63,
+   "end": 321.71
+  },
+  {
+   "w": "o",
+   "start": 321.75,
+   "end": 321.79
+  },
+  {
+   "w": "resultado",
+   "start": 322.07,
+   "end": 322.35
+  },
+  {
+   "w": "sair",
+   "start": 322.39,
+   "end": 322.67
+  },
+  {
+   "w": "melhor.",
+   "start": 322.75,
+   "end": 323.23
+  },
+  {
+   "w": "Um:",
+   "start": 323.63,
+   "end": 324.27
+  },
+  {
+   "w": "diga",
+   "start": 324.35,
+   "end": 324.59
+  },
+  {
+   "w": "o",
+   "start": 324.63,
+   "end": 324.67
+  },
+  {
+   "w": "estilo,",
+   "start": 324.83,
+   "end": 325.47
+  },
+  {
+   "w": "por",
+   "start": 325.51,
+   "end": 325.55
+  },
+  {
+   "w": "exemplo,",
+   "start": 325.63,
+   "end": 326.27
+  },
+  {
+   "w": "low",
+   "start": 326.35,
+   "end": 326.51
+  },
+  {
+   "w": "poly,",
+   "start": 326.59,
+   "end": 327.23
+  },
+  {
+   "w": "desenho",
+   "start": 327.31,
+   "end": 327.55
+  },
+  {
+   "w": "animado",
+   "start": 327.67,
+   "end": 328.19
+  },
+  {
+   "w": "ou",
+   "start": 328.35,
+   "end": 328.43
+  },
+  {
+   "w": "realista.",
+   "start": 328.51,
+   "end": 329.55
+  },
+  {
+   "w": "Dois:",
+   "start": 329.63,
+   "end": 330.35
+  },
+  {
+   "w": "peça",
+   "start": 330.43,
+   "end": 330.67
+  },
+  {
+   "w": "uma",
+   "start": 330.75,
+   "end": 330.99
+  },
+  {
+   "w": "coisa",
+   "start": 331.07,
+   "end": 331.31
+  },
+  {
+   "w": "de",
+   "start": 331.39,
+   "end": 331.47
+  },
+  {
+   "w": "cada",
+   "start": 331.55,
+   "end": 331.71
+  },
+  {
+   "w": "vez,",
+   "start": 331.79,
+   "end": 332.35
+  },
+  {
+   "w": "e",
+   "start": 332.39,
+   "end": 332.43
+  },
+  {
+   "w": "ajuste",
+   "start": 332.55,
+   "end": 333.07
+  },
+  {
+   "w": "antes",
+   "start": 333.15,
+   "end": 333.39
+  },
+  {
+   "w": "de",
+   "start": 333.47,
+   "end": 333.55
+  },
+  {
+   "w": "seguir.",
+   "start": 333.63,
+   "end": 334.35
+  },
+  {
+   "w": "Três:",
+   "start": 334.43,
+   "end": 335.15
+  },
+  {
+   "w": "salve",
+   "start": 335.27,
+   "end": 335.47
+  },
+  {
+   "w": "no",
+   "start": 335.55,
+   "end": 335.63
+  },
+  {
+   "w": "Blender.",
+   "start": 335.67,
+   "end": 336.51
+  },
+  {
+   "w": "O",
+   "start": 336.59,
+   "end": 336.67
+  },
+  {
+   "w": "Claude",
+   "start": 336.75,
+   "end": 336.99
+  },
+  {
+   "w": "trabalha",
+   "start": 337.07,
+   "end": 337.39
+  },
+  {
+   "w": "na",
+   "start": 337.43,
+   "end": 337.47
+  },
+  {
+   "w": "cena",
+   "start": 337.63,
+   "end": 337.79
+  },
+  {
+   "w": "aberta,",
+   "start": 337.91,
+   "end": 338.51
+  },
+  {
+   "w": "e",
+   "start": 338.55,
+   "end": 338.59
+  },
+  {
+   "w": "as",
+   "start": 338.63,
+   "end": 338.67
+  },
+  {
+   "w": "mudanças",
+   "start": 338.75,
+   "end": 339.23
+  },
+  {
+   "w": "só",
+   "start": 339.27,
+   "end": 339.39
+  },
+  {
+   "w": "vão",
+   "start": 339.55,
+   "end": 339.71
+  },
+  {
+   "w": "para",
+   "start": 339.79,
+   "end": 339.87
+  },
+  {
+   "w": "o",
+   "start": 339.897,
+   "end": 339.923
+  },
+  {
+   "w": "arquivo",
+   "start": 339.95,
+   "end": 340.35
+  },
+  {
+   "w": "quando",
+   "start": 340.43,
+   "end": 340.59
+  },
+  {
+   "w": "você",
+   "start": 340.67,
+   "end": 340.91
+  },
+  {
+   "w": "salva.",
+   "start": 340.99,
+   "end": 341.47
+  },
+  {
+   "w": "Se",
+   "start": 341.82,
+   "end": 341.98
+  },
+  {
+   "w": "o",
+   "start": 342.02,
+   "end": 342.06
+  },
+  {
+   "w": "Claude",
+   "start": 342.14,
+   "end": 342.38
+  },
+  {
+   "w": "disser",
+   "start": 342.46,
+   "end": 342.86
+  },
+  {
+   "w": "que",
+   "start": 342.94,
+   "end": 343.02
+  },
+  {
+   "w": "não",
+   "start": 343.1,
+   "end": 343.26
+  },
+  {
+   "w": "encontrou",
+   "start": 343.34,
+   "end": 343.74
+  },
+  {
+   "w": "o",
+   "start": 343.767,
+   "end": 343.793
+  },
+  {
+   "w": "Blender,",
+   "start": 343.82,
+   "end": 344.46
+  },
+  {
+   "w": "confira",
+   "start": 344.58,
+   "end": 344.94
+  },
+  {
+   "w": "três",
+   "start": 345.02,
+   "end": 345.26
+  },
+  {
+   "w": "coisas.",
+   "start": 345.34,
+   "end": 346.06
+  },
+  {
+   "w": "O",
+   "start": 346.3,
+   "end": 346.38
+  },
+  {
+   "w": "Blender",
+   "start": 346.46,
+   "end": 346.78
+  },
+  {
+   "w": "está",
+   "start": 346.86,
+   "end": 347.02
+  },
+  {
+   "w": "aberto.",
+   "start": 347.14,
+   "end": 347.74
+  },
+  {
+   "w": "O",
+   "start": 347.9,
+   "end": 347.98
+  },
+  {
+   "w": "servidor",
+   "start": 348.1,
+   "end": 348.46
+  },
+  {
+   "w": "foi",
+   "start": 348.5,
+   "end": 348.62
+  },
+  {
+   "w": "ligado,",
+   "start": 348.7,
+   "end": 349.26
+  },
+  {
+   "w": "no",
+   "start": 349.3,
+   "end": 349.34
+  },
+  {
+   "w": "Start",
+   "start": 349.42,
+   "end": 349.9
+  },
+  {
+   "w": "eme",
+   "start": 349.98,
+   "end": 350.22
+  },
+  {
+   "w": "cê",
+   "start": 350.3,
+   "end": 350.46
+  },
+  {
+   "w": "pê",
+   "start": 350.5,
+   "end": 350.7
+  },
+  {
+   "w": "Server.",
+   "start": 350.94,
+   "end": 351.26
+  },
+  {
+   "w": "E",
+   "start": 351.74,
+   "end": 351.78
+  },
+  {
+   "w": "você",
+   "start": 351.82,
+   "end": 352.06
+  },
+  {
+   "w": "está",
+   "start": 352.18,
+   "end": 352.34
+  },
+  {
+   "w": "no",
+   "start": 352.38,
+   "end": 352.46
+  },
+  {
+   "w": "Claude",
+   "start": 352.54,
+   "end": 352.78
+  },
+  {
+   "w": "Desktop,",
+   "start": 352.86,
+   "end": 353.66
+  },
+  {
+   "w": "não",
+   "start": 353.74,
+   "end": 353.9
+  },
+  {
+   "w": "no",
+   "start": 353.98,
+   "end": 354.06
+  },
+  {
+   "w": "site.",
+   "start": 354.26,
+   "end": 354.54
+  },
+  {
+   "w": "Depois,",
+   "start": 355.02,
+   "end": 355.74
+  },
+  {
+   "w": "feche",
+   "start": 355.82,
+   "end": 356.3
+  },
+  {
+   "w": "e",
+   "start": 356.38,
+   "end": 356.46
+  },
+  {
+   "w": "abra",
+   "start": 356.54,
+   "end": 356.78
+  },
+  {
+   "w": "o",
+   "start": 356.82,
+   "end": 356.86
+  },
+  {
+   "w": "Claude",
+   "start": 356.94,
+   "end": 357.18
+  },
+  {
+   "w": "Desktop",
+   "start": 357.46,
+   "end": 357.74
+  },
+  {
+   "w": "de",
+   "start": 357.78,
+   "end": 357.82
+  },
+  {
+   "w": "novo,",
+   "start": 357.9,
+   "end": 358.46
+  },
+  {
+   "w": "e",
+   "start": 358.5,
+   "end": 358.54
+  },
+  {
+   "w": "tente",
+   "start": 358.62,
+   "end": 358.78
+  },
+  {
+   "w": "outra",
+   "start": 358.82,
+   "end": 359.02
+  },
+  {
+   "w": "vez.",
+   "start": 359.18,
+   "end": 359.66
+  },
+  {
+   "w": "Alguns",
+   "start": 359.93,
+   "end": 360.25
+  },
+  {
+   "w": "cuidados",
+   "start": 360.33,
+   "end": 360.73
+  },
+  {
+   "w": "rápidos.",
+   "start": 360.81,
+   "end": 361.69
+  },
+  {
+   "w": "O",
+   "start": 361.93,
+   "end": 362.01
+  },
+  {
+   "w": "plano",
+   "start": 362.09,
+   "end": 362.25
+  },
+  {
+   "w": "gratuito",
+   "start": 362.33,
+   "end": 362.81
+  },
+  {
+   "w": "do",
+   "start": 362.85,
+   "end": 362.89
+  },
+  {
+   "w": "Claude",
+   "start": 362.97,
+   "end": 363.37
+  },
+  {
+   "w": "tem",
+   "start": 363.45,
+   "end": 363.53
+  },
+  {
+   "w": "limite",
+   "start": 363.61,
+   "end": 363.93
+  },
+  {
+   "w": "de",
+   "start": 364.01,
+   "end": 364.09
+  },
+  {
+   "w": "uso,",
+   "start": 364.17,
+   "end": 364.73
+  },
+  {
+   "w": "então",
+   "start": 364.85,
+   "end": 365.13
+  },
+  {
+   "w": "cenas",
+   "start": 365.29,
+   "end": 365.69
+  },
+  {
+   "w": "grandes",
+   "start": 365.77,
+   "end": 366.25
+  },
+  {
+   "w": "podem",
+   "start": 366.33,
+   "end": 366.57
+  },
+  {
+   "w": "pedir",
+   "start": 366.65,
+   "end": 366.97
+  },
+  {
+   "w": "mais",
+   "start": 367.05,
+   "end": 367.21
+  },
+  {
+   "w": "de",
+   "start": 367.29,
+   "end": 367.33
+  },
+  {
+   "w": "uma",
+   "start": 367.37,
+   "end": 367.45
+  },
+  {
+   "w": "sessão.",
+   "start": 367.53,
+   "end": 368.01
+  },
+  {
+   "w": "O",
+   "start": 368.49,
+   "end": 368.57
+  },
+  {
+   "w": "render",
+   "start": 368.73,
+   "end": 368.89
+  },
+  {
+   "w": "final",
+   "start": 369.13,
+   "end": 369.37
+  },
+  {
+   "w": "usa",
+   "start": 369.45,
+   "end": 369.61
+  },
+  {
+   "w": "o",
+   "start": 369.69,
+   "end": 369.77
+  },
+  {
+   "w": "seu",
+   "start": 369.85,
+   "end": 370.01
+  },
+  {
+   "w": "computador,",
+   "start": 370.17,
+   "end": 370.89
+  },
+  {
+   "w": "então",
+   "start": 371.01,
+   "end": 371.21
+  },
+  {
+   "w": "pode",
+   "start": 371.37,
+   "end": 371.53
+  },
+  {
+   "w": "demorar",
+   "start": 371.61,
+   "end": 372.01
+  },
+  {
+   "w": "mais",
+   "start": 372.09,
+   "end": 372.33
+  },
+  {
+   "w": "em",
+   "start": 372.41,
+   "end": 372.49
+  },
+  {
+   "w": "máquina",
+   "start": 372.53,
+   "end": 372.81
+  },
+  {
+   "w": "simples.",
+   "start": 372.97,
+   "end": 373.53
+  },
+  {
+   "w": "E",
+   "start": 374.01,
+   "end": 374.05
+  },
+  {
+   "w": "algumas",
+   "start": 374.09,
+   "end": 374.41
+  },
+  {
+   "w": "telas",
+   "start": 374.49,
+   "end": 374.73
+  },
+  {
+   "w": "deste",
+   "start": 374.85,
+   "end": 375.01
+  },
+  {
+   "w": "vídeo",
+   "start": 375.05,
+   "end": 375.37
+  },
+  {
+   "w": "são",
+   "start": 375.45,
+   "end": 375.53
+  },
+  {
+   "w": "ilustrações.",
+   "start": 375.61,
+   "end": 376.57
+  },
+  {
+   "w": "Os",
+   "start": 376.73,
+   "end": 376.81
+  },
+  {
+   "w": "links",
+   "start": 376.89,
+   "end": 377.13
+  },
+  {
+   "w": "certos",
+   "start": 377.29,
+   "end": 377.61
+  },
+  {
+   "w": "estão",
+   "start": 377.69,
+   "end": 377.85
+  },
+  {
+   "w": "na",
+   "start": 377.89,
+   "end": 377.93
+  },
+  {
+   "w": "descrição.",
+   "start": 378.01,
+   "end": 378.81
+  },
+  {
+   "w": "Resumindo:",
+   "start": 379.08,
+   "end": 379.88
+  },
+  {
+   "w": "instalou",
+   "start": 380.04,
+   "end": 380.44
+  },
+  {
+   "w": "o",
+   "start": 380.48,
+   "end": 380.52
+  },
+  {
+   "w": "Blender,",
+   "start": 380.6,
+   "end": 381.24
+  },
+  {
+   "w": "adicionou",
+   "start": 381.32,
+   "end": 381.8
+  },
+  {
+   "w": "o",
+   "start": 381.84,
+   "end": 381.88
+  },
+  {
+   "w": "conector",
+   "start": 381.96,
+   "end": 382.44
+  },
+  {
+   "w": "no",
+   "start": 382.52,
+   "end": 382.6
+  },
+  {
+   "w": "Claude",
+   "start": 382.68,
+   "end": 382.92
+  },
+  {
+   "w": "Desktop,",
+   "start": 383.24,
+   "end": 383.88
+  },
+  {
+   "w": "ligou",
+   "start": 384.04,
+   "end": 384.28
+  },
+  {
+   "w": "o",
+   "start": 384.36,
+   "end": 384.44
+  },
+  {
+   "w": "servidor",
+   "start": 384.56,
+   "end": 384.84
+  },
+  {
+   "w": "no",
+   "start": 384.92,
+   "end": 385
+  },
+  {
+   "w": "Blender",
+   "start": 385.08,
+   "end": 385.48
+  },
+  {
+   "w": "e",
+   "start": 385.56,
+   "end": 385.64
+  },
+  {
+   "w": "pediu",
+   "start": 385.72,
+   "end": 386.04
+  },
+  {
+   "w": "a",
+   "start": 386.08,
+   "end": 386.12
+  },
+  {
+   "w": "cena",
+   "start": 386.2,
+   "end": 386.36
+  },
+  {
+   "w": "em",
+   "start": 386.44,
+   "end": 386.52
+  },
+  {
+   "w": "português.",
+   "start": 386.6,
+   "end": 387.56
+  },
+  {
+   "w": "O",
+   "start": 387.64,
+   "end": 387.72
+  },
+  {
+   "w": "passo",
+   "start": 387.8,
+   "end": 387.92
+  },
+  {
+   "w": "a",
+   "start": 387.96,
+   "end": 388.04
+  },
+  {
+   "w": "passo",
+   "start": 388.12,
+   "end": 388.36
+  },
+  {
+   "w": "completo,",
+   "start": 388.48,
+   "end": 389.04
+  },
+  {
+   "w": "com",
+   "start": 389.08,
+   "end": 389.32
+  },
+  {
+   "w": "todos",
+   "start": 389.48,
+   "end": 389.64
+  },
+  {
+   "w": "os",
+   "start": 389.72,
+   "end": 389.8
+  },
+  {
+   "w": "links,",
+   "start": 390,
+   "end": 390.28
+  },
+  {
+   "w": "está",
+   "start": 390.4,
+   "end": 390.56
+  },
+  {
+   "w": "na",
+   "start": 390.6,
+   "end": 390.68
+  },
+  {
+   "w": "descrição.",
+   "start": 390.76,
+   "end": 391.48
+  },
+  {
+   "w": "Se",
+   "start": 391.75,
+   "end": 391.91
+  },
+  {
+   "w": "esse",
+   "start": 391.99,
+   "end": 392.07
+  },
+  {
+   "w": "vídeo",
+   "start": 392.15,
+   "end": 392.31
+  },
+  {
+   "w": "te",
+   "start": 392.39,
+   "end": 392.47
+  },
+  {
+   "w": "ajudou,",
+   "start": 392.51,
+   "end": 393.19
+  },
+  {
+   "w": "deixa",
+   "start": 393.27,
+   "end": 393.43
+  },
+  {
+   "w": "o",
+   "start": 393.47,
+   "end": 393.51
+  },
+  {
+   "w": "like,",
+   "start": 393.59,
+   "end": 394.07
+  },
+  {
+   "w": "se",
+   "start": 394.15,
+   "end": 394.23
+  },
+  {
+   "w": "inscreve",
+   "start": 394.35,
+   "end": 394.71
+  },
+  {
+   "w": "no",
+   "start": 394.75,
+   "end": 394.79
+  },
+  {
+   "w": "Aprenda",
+   "start": 394.87,
+   "end": 395.19
+  },
+  {
+   "w": "YouTube",
+   "start": 395.43,
+   "end": 395.67
+  },
+  {
+   "w": "e",
+   "start": 395.83,
+   "end": 395.91
+  },
+  {
+   "w": "comenta",
+   "start": 395.99,
+   "end": 396.39
+  },
+  {
+   "w": "mundo",
+   "start": 396.55,
+   "end": 396.87
+  },
+  {
+   "w": "três",
+   "start": 396.95,
+   "end": 397.19
+  },
+  {
+   "w": "dê,",
+   "start": 397.27,
+   "end": 397.59
+  },
+  {
+   "w": "se",
+   "start": 397.67,
+   "end": 397.75
+  },
+  {
+   "w": "você",
+   "start": 397.79,
+   "end": 397.99
+  },
+  {
+   "w": "quer",
+   "start": 398.07,
+   "end": 398.15
+  },
+  {
+   "w": "um",
+   "start": 398.23,
+   "end": 398.31
+  },
+  {
+   "w": "vídeo",
+   "start": 398.39,
+   "end": 398.71
+  },
+  {
+   "w": "só",
+   "start": 398.79,
+   "end": 398.95
+  },
+  {
+   "w": "com",
+   "start": 399.03,
+   "end": 399.11
+  },
+  {
+   "w": "ideias",
+   "start": 399.19,
+   "end": 399.59
+  },
+  {
+   "w": "de",
+   "start": 399.67,
+   "end": 399.75
+  },
+  {
+   "w": "cenas",
+   "start": 399.79,
+   "end": 400.07
+  },
+  {
+   "w": "para",
+   "start": 400.15,
+   "end": 400.23
+  },
+  {
+   "w": "pedir.",
+   "start": 400.31,
+   "end": 401.11
+  },
+  {
+   "w": "E",
+   "start": 401.15,
+   "end": 401.19
+  },
+  {
+   "w": "me",
+   "start": 401.23,
+   "end": 401.27
+  },
+  {
+   "w": "conta",
+   "start": 401.35,
+   "end": 401.51
+  },
+  {
+   "w": "aqui",
+   "start": 401.537,
+   "end": 401.59
+  },
+  {
+   "w": "embaixo:",
+   "start": 401.67,
+   "end": 402.39
+  },
+  {
+   "w": "qual",
+   "start": 402.47,
+   "end": 402.55
+  },
+  {
+   "w": "cena",
+   "start": 402.71,
+   "end": 402.95
+  },
+  {
+   "w": "você",
+   "start": 402.99,
+   "end": 403.19
+  },
+  {
+   "w": "vai",
+   "start": 403.243,
+   "end": 403.35
+  },
+  {
+   "w": "pedir",
+   "start": 403.43,
+   "end": 403.59
+  },
+  {
+   "w": "primeiro?",
+   "start": 403.71,
+   "end": 404.39
+  },
+  {
+   "w": "Até",
+   "start": 404.51,
+   "end": 404.657
+  },
+  {
+   "w": "o",
+   "start": 404.683,
+   "end": 404.71
+  },
+  {
+   "w": "próximo!",
+   "start": 404.79,
+   "end": 405.43
+  }
+ ]
+}

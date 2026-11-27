@@ -1,0 +1,6 @@
+{
+ "fontes": ["https://github.com/bradautomates/head-of-content", "https://raw.githubusercontent.com/bradautomates/head-of-content/main/README.md"],
+ "imagens": ["bradautomates/head-of-content: images/claude-cowork.png (README oficial) e página do repositório no GitHub", "TubeLab: página inicial tubelab.net"],
+ "pexels": ["Nathan J Hilton (https://www.pexels.com/video/17512949/)", "cottonbro studio (https://www.pexels.com/video/6115066/)", "Blue Bird (https://www.pexels.com/video/7234088/)", "Wolf Art (https://www.pexels.com/video/37446281/)", "Ivan S (https://www.pexels.com/video/7252715/)", "kaboompics (https://www.pexels.com/video/6332245/)"],
+ "music": {"file": "phanterai/music/Code_and_Coffe.mp3", "volume": 0.2, "loop": true}
+}

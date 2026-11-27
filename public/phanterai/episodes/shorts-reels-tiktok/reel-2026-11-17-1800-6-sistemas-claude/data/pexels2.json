@@ -1,0 +1,29 @@
+{
+  "source": "Pexels",
+  "media": {
+    "c05b": {
+      "query": "developer working computer",
+      "pexels_id": 12893579,
+      "url": "https://www.pexels.com/video/hands-typing-on-laptop-keyboard-12893579/",
+      "author": "Mizuno K",
+      "author_url": "https://www.pexels.com/@mizunokozuki",
+      "duration": 10
+    },
+    "c07b": {
+      "query": "business meeting consulting",
+      "pexels_id": 8141187,
+      "url": "https://www.pexels.com/video/man-and-woman-talking-8141187/",
+      "author": "Alena Darmel",
+      "author_url": "https://www.pexels.com/@a-darmel",
+      "duration": 13
+    },
+    "c02b": {
+      "query": "online shopping laptop",
+      "pexels_id": 5586006,
+      "url": "https://www.pexels.com/video/person-browsing-on-laptop-5586006/",
+      "author": "Polina Tankilevitch",
+      "author_url": "https://www.pexels.com/@polina-tankilevitch",
+      "duration": 6
+    }
+  }
+}

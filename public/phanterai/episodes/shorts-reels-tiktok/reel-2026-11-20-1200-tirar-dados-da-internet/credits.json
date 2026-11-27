@@ -1,0 +1,11 @@
+{
+ "fontes": [
+  "https://support.google.com/websearch/answer/12719076?hl=pt-BR",
+  "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+  "https://help.openai.com/pt-br/articles/7730893",
+  "https://help.openai.com/pt-br/articles/8590148",
+  "https://privacy.claude.com/pt/articles/12109829"
+ ],
+ "media": {},
+ "music": {"file": "public/phanterai/music/Code_and_Coffe.mp3", "volume": 0.2, "loop": true}
+}

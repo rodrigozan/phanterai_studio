@@ -1,0 +1,114 @@
+URL: https://support.google.com/websearch/answer/12719076?hl=pt-BR
+STATUS: 200
+CAPTURADO: 2026-11-20T06:33:04.687Z
+
+Pular para o conteúdo principal
+Ajuda da Pesquisa do Google
+Fazer login
+Central de Ajuda
+Comunidade
+Melhorar sua Conta do Google
+Pesquisa do Google
+Encontrar e remover informações pessoais nos resultados da Pesquisa Google
+Na página "Privacidade nos resultados sobre você", é possível descobrir se as suas informações pessoais, como endereço residencial, número de telefone ou endereço de e-mail, aparecem nos resultados da pesquisa.
+Importante: no momento, alguns desses recursos estão sendo lançados para usuários com mais de 18 anos em determinados mercados. Para solicitar a remoção de um resultado que mostra as informações pessoais de uma pessoa com menos de 18 anos, use o formulário completo de pedido de remoção.
+Encontrar suas informações pessoais nos resultados da Pesquisa Google
+Etapa 1: encontrar resultados sobre você
+Acesse a página "Privacidade nos resultados sobre você".
+No app do Google:
+Faça login no app do Google.
+Para abrir o "Menu", clique na sua foto do perfil ou sua inicial.
+No "Menu", selecione Privacidade nos resultados sobre você.
+Na web para dispositivos móveis ou em computadores:
+Acesse Privacidade nos resultados sobre você.
+Selecione Vamos começar ou Configurações.
+Digite seu nome e as informações pessoais que você quer encontrar nos resultados da pesquisa.
+O Google usa essas informações para conferir se elas aparecem em algum resultado.
+Dica: também é possível inserir estes tipos de dados de contato no formulário:
+Apelido
+Nome de solteira
+Vários números de telefone pessoais
+Vários endereços de casa
+Vários endereços de e-mail
+CPF ou CNPJ
+Número do passaporte
+Número da carteira de habilitação
+Configure as notificações.
+Você pode escolher se quer receber notificações por e-mail caso o Google encontre resultados com suas informações pessoais. Também é possível receber notificações pelo app do Google.
+Se as notificações estiverem ativadas, você vai receber uma avisando que os resultados têm informações suas. Depois dessa resposta inicial, você receberá novas notificações sempre que forem encontrados mais resultados com suas informações pessoais.
+Etapa 2: analisar os resultados sobre você
+Se as notificações estiverem ativadas, você vai receber uma em algumas horas avisando se algum resultado da pesquisa inclui seu nome e suas informações pessoais. Também é possível conferir isso na página "Privacidade nos resultados sobre você".
+Para encontrar seus resultados, acesse a guia "Para analisar" nessa página.
+Ao selecionar um resultado, você poderá saber mais sobre ele, como o site de origem ou as informações pessoais que ele contém.
+Etapa 3: pedir a remoção de resultados sobre você
+Se você encontrar um resultado que prefere manter em particular, poderá pedir a remoção dele dos resultados da pesquisa.
+Para a remoção de um único resultado, selecione o ítem em questão para abrir a opção  Pedir remoção.
+Se você não quiser pedir uma remoção, também pode escolher "Marcar como analisado".
+O Google considera alguns resultados valiosos para o público. Isso pode incluir sites governamentais ou educacionais, jornais on-line ou sites comerciais. Se um resultado com seu nome e seus dados de contato pessoais for de um site como esse, a opção "Remover resultado" não estará disponível.
+Você vai receber um e-mail para confirmar o pedido de remoção e receber atualizações de status quando ele for analisado. É possível conferir o status dos seus pedidos a qualquer momento na seção "Pedidos de remoção" da página "Privacidade nos resultados sobre você".
+Remover resultados quando você usa a Pesquisa Google
+Etapa 1: denunciar URLs na Pesquisa Google
+Em um computador ou dispositivo móvel, faça login com sua Conta do Google.
+Você vai receber uma atualização sobre o status dos pedidos pelo endereço de e-mail associado à sua conta.
+Se você quiser pedir a remoção de um resultado para outra pessoa ou não quiser fazer login, use o formulário completo de pedido de remoção.
+Na Pesquisa Google, pesquise seu nome.
+Para encontrar resultados que mostrem seus dados de contato pessoais, pesquise seu nome e sua cidade de residência ou seu nome e endereço residencial.
+Para acessar o painel "Sobre este resultado", clique em Mais .
+Selecione Remover resultado  O resultado mostra minhas informações pessoais, e eu não quero que elas apareçam nele  Dados de contato.
+Siga o fluxo de denúncia.
+Envie seu pedido.
+Depois disso, selecione Terminei.
+Dica: insira seu nome e os dados de contato pessoais mostrados na página de resultados exatamente como aparecem no resultado. Por exemplo, se o resultado mostrar:
+Seu apelido: insira seu apelido no formulário.
+Um endereço residencial antigo: insira o endereço residencial antigo no formulário.
+Mais de um tipo de dado de contato: inclua apenas um tipo de dado de contato no formulário de pedido. Isso inclui seu número de telefone e endereço residencial.
+Mais de um tipo de dado de contato: não é necessário enviar vários pedidos de remoção para o mesmo URL.
+Etapa 2: conferir a confirmação por e-mail
+Nas próximas horas, você vai receber um e-mail confirmando que seu pedido foi enviado.
+Etapa 3: monitorar o status dos pedidos
+Na página Privacidade nos resultados sobre você, é possível consultar se o pedido tem o status:
+Em andamento
+Aprovado
+Negado
+Alterações desfeitas
+Depois de selecionar um pedido específico, você pode conferir detalhes como:
+Link para a página sinalizada
+Dia e hora do envio
+ID do pedido
+Dados de contato que você marcou na página
+Dica: depois do pedido ser aprovado, pode levar um tempo para que o resultado seja removido dos resultados da pesquisa. Você pode confirmar se as informações já foram removidas algumas horas após a aprovação.
+Requisitos da política para pedidos de remoção
+Depois que você envia um pedido, o Google analisa o caso para garantir que ele atende aos requisitos da política de remoção. Os pedidos precisam satisfazer os seguintes requisitos da política:
+Os dados de contato mostrados ou número do documento de identidade oficial no resultado precisam ser seus dados pessoais. Para solicitar a remoção de informações profissionais publicadas com a intenção de prejudicar você, use o formulário completo de pedido de remoção.
+Você não controla as informações. Ou seja, não são informações que você pode remover da internet por conta própria, como aquelas no seu perfil em redes sociais ou no seu blog pessoal.
+Como a Pesquisa Google busca fornecer informações úteis aos usuários, ela não remove dados que são valiosos para o público. Por exemplo, o Google não remove resultados de páginas da Web que são de propriedade de:
+Instituições educacionais ou governamentais
+Jornais
+Perguntas frequentes
+O que o Google faz com as informações pessoais que você fornece para monitoramento?
+O que o Google faz com os dados fornecidos nos pedidos de remoção?
+O que acontece com os URLs depois que a remoção é aprovada?
+O que acontece se meu pedido for negado?
+Que tipo de pedido o Google aprova pela página "Privacidade nos resultados sobre você"?
+Que outros tipos de informações posso remover da Pesquisa Google?
+E se eu tiver uma solicitação de remoção judicial?
+O que acontece se eu mudar de ideia sobre a remoção de um resultado?
+O que devo fazer se minhas informações pessoais estiverem atrás de um paywall?
+Posso enviar um pedido de remoção em nome de outra pessoa?
+O que acontece se o recurso "Privacidade nos resultados sobre você" for usado indevidamente?
+Esta página pode ter conteúdo que foi traduzido com tecnologia de IA. As traduções de IA podem conter erros.
+Envie feedback sobre este artigo
+Isso foi útil?SimNão
+Precisa de mais ajuda?
+Siga as próximas etapas:
+Postar na Comunidade de Ajuda
+Receba respostas dos membros da comunidade
+Ajuda
+Informar um problema
+Solicitar a remoção de conteúdo pessoal da Pesquisa Google
+Ajuda para remover imagens pessoais explícitas ou íntimas
+Encontrar e remover informações pessoais nos resultados da Pesquisa Google
+Opções de remoção de conteúdo fora da Pesquisa Google
+©2026 Google  Política de Privacidade  Termos de Serviço
+Idioma
+português (Brasil)‎

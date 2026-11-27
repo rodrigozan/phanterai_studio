@@ -1,0 +1,151 @@
+[
+ {
+  "n": 1,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c01.mp4",
+    "credito": "Pexels: Nathan J Hilton (https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/)"
+   }
+  ],
+  "kinetic": "Pare de rolar|o feed",
+  "pose": "surpresa"
+ },
+ {
+  "n": 2,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/cowork-dir.png",
+    "pos": "50% 30%",
+    "credito": "bradautomates/head-of-content, images/claude-cowork.png (README oficial)"
+   },
+   {
+    "kind": "img",
+    "file": "img/github-repo.png",
+    "scroll": true,
+    "credito": "página do repositório github.com/bradautomates/head-of-content"
+   }
+  ],
+  "tag": "Head of Content"
+ },
+ {
+  "n": 3,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c03.mp4",
+    "credito": "Pexels: cottonbro studio (https://www.pexels.com/video/sales-posting-on-instagram-6115066/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c03b.mp4",
+    "credito": "Pexels: Blue Bird (https://www.pexels.com/video/a-woman-recording-herself-in-a-video-using-a-smartphone-7234088/)"
+   }
+  ],
+  "list": [
+   "X",
+   "Instagram",
+   "YouTube",
+   "TikTok"
+  ]
+ },
+ {
+  "n": 4,
+  "tipo": "motion",
+  "motion": "outlier",
+  "pose": "apontando",
+  "shots": []
+ },
+ {
+  "n": 5,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c05b.mp4",
+    "credito": "Pexels: Wolf Art (https://www.pexels.com/video/dynamic-video-editing-timeline-in-action-37446281/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c06.mp4",
+    "credito": "Pexels: Ivan S (https://www.pexels.com/video/person-typing-on-a-laptop-7252715/)"
+   }
+  ],
+  "list": [
+   "gancho",
+   "estrutura",
+   "padrão"
+  ],
+  "pose": "pensando"
+ },
+ {
+  "n": 6,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/cowork-artefatos.png",
+    "pos": "50% 30%",
+    "credito": "bradautomates/head-of-content, images/claude-cowork.png"
+   },
+   {
+    "kind": "img",
+    "file": "img/cowork-esq.png",
+    "pos": "50% 40%",
+    "credito": "bradautomates/head-of-content, images/claude-cowork.png"
+   }
+  ],
+  "tag": "plano + guia por rede"
+ },
+ {
+  "n": 7,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/tubelab.png",
+    "pos": "50% 75%",
+    "credito": "página do TubeLab (tubelab.net)"
+   },
+   {
+    "kind": "img",
+    "file": "img/github-repo.png",
+    "pos": "50% 0%",
+    "credito": "página do repositório no GitHub"
+   }
+  ],
+  "list": [
+   "Claude Max",
+   "Apify",
+   "TubeLab",
+   "Gemini"
+  ],
+  "listTop": 880
+ },
+ {
+  "n": 8,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c08b.mp4",
+    "credito": "Pexels: kaboompics (https://www.pexels.com/video/a-man-vlogging-6332245/)"
+   }
+  ],
+  "swap": [
+   "adivinhar",
+   "o que deu certo"
+  ],
+  "pose": "comemorando"
+ },
+ {
+  "n": 9,
+  "tipo": "motion",
+  "motion": "cta",
+  "shots": []
+ }
+]

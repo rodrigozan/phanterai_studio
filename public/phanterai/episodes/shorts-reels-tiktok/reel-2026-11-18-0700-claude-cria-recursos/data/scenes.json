@@ -1,0 +1,290 @@
+{
+ "slug": "reel-2026-11-18-0700-claude-cria-recursos",
+ "musica": "CuriousFocus.mp3",
+ "cenas": [
+  {
+   "cena": "hook",
+   "componente": "contador 0→5 'recursos novos' + janela claude code",
+   "acoes": [
+    {
+     "acao": "contador conta 0→5",
+     "palavra_gatilho": "O",
+     "inicio": 0.0
+    },
+    {
+     "acao": "linha 'novo recurso' entra",
+     "palavra_gatilho": "agora",
+     "inicio": 0.77
+    },
+    {
+     "acao": "'criando…'",
+     "palavra_gatilho": "recursos",
+     "inicio": 1.61
+    },
+    {
+     "acao": "prompt digitado 'faz um mod que…'",
+     "palavra_gatilho": "Você",
+     "inicio": 3.27
+    },
+    {
+     "acao": "código register(on) entra linha a linha",
+     "palavra_gatilho": "escreve",
+     "inicio": 4.58
+    },
+    {
+     "acao": "5 cards numerados pulam; contador pulsa",
+     "palavra_gatilho": "cinco",
+     "inicio": 5.96
+    },
+    {
+     "acao": "panterinha surpresa (reação 1)",
+     "palavra_gatilho": "ele",
+     "inicio": 2.38
+    }
+   ]
+  },
+  {
+   "cena": "o_que_e",
+   "componente": "selo 'mod' + árvore de arquivos do mod + janela",
+   "acoes": [
+    {
+     "acao": "selo 'mod' e árvore first-mod/ digitada",
+     "palavra_gatilho": "mod:",
+     "inicio": 9.08
+    },
+    {
+     "acao": "árvore entra na janela",
+     "palavra_gatilho": "roda",
+     "inicio": 9.85
+    },
+    {
+     "acao": "janela brilha: interface personalizada",
+     "palavra_gatilho": "aparece",
+     "inicio": 12.15
+    },
+    {
+     "acao": "check comportamento",
+     "palavra_gatilho": "age.",
+     "inicio": 13.08
+    },
+    {
+     "acao": "cadeado 'Nº 5' cai",
+     "palavra_gatilho": "cinco",
+     "inicio": 13.73
+    },
+    {
+     "acao": "panterinha apontando (reação 2)",
+     "palavra_gatilho": "a",
+     "inicio": 14.23
+    }
+   ]
+  },
+  {
+   "cena": "item1",
+   "componente": "chip 1 + janela com painel lateral",
+   "acoes": [
+    {
+     "acao": "chip 1",
+     "palavra_gatilho": "Número",
+     "inicio": 16.15
+    },
+    {
+     "acao": "painel desliza",
+     "palavra_gatilho": "painel",
+     "inicio": 17.04
+    },
+    {
+     "acao": "bolhas da conversa",
+     "palavra_gatilho": "conversa,",
+     "inicio": 18.42
+    },
+    {
+     "acao": "abas",
+     "palavra_gatilho": "abas,",
+     "inicio": 19.27
+    },
+    {
+     "acao": "botões",
+     "palavra_gatilho": "botões",
+     "inicio": 19.89
+    },
+    {
+     "acao": "campo de texto digitando",
+     "palavra_gatilho": "campos",
+     "inicio": 20.58
+    }
+   ]
+  },
+  {
+   "cena": "item2",
+   "componente": "chip 2 + interface redesenhada",
+   "acoes": [
+    {
+     "acao": "chip 2",
+     "palavra_gatilho": "Número",
+     "inicio": 21.89
+    },
+    {
+     "acao": "spinner muda de estilo",
+     "palavra_gatilho": "spinner,",
+     "inicio": 25.0
+    },
+    {
+     "acao": "linhas de ferramenta restilizadas uma a uma",
+     "palavra_gatilho": "linha",
+     "inicio": 25.77
+    },
+    {
+     "acao": "caixa de pergunta sobe",
+     "palavra_gatilho": "a",
+     "inicio": 27.15
+    }
+   ]
+  },
+  {
+   "cena": "item3",
+   "componente": "chip 3 + /tally",
+   "acoes": [
+    {
+     "acao": "chip 3",
+     "palavra_gatilho": "Número",
+     "inicio": 28.5
+    },
+    {
+     "acao": "/tally digitado",
+     "palavra_gatilho": "comando",
+     "inicio": 29.61
+    },
+    {
+     "acao": "resultado 'tool calls' contando",
+     "palavra_gatilho": "roda",
+     "inicio": 30.92
+    },
+    {
+     "acao": "'turnos do Claude: 0'",
+     "palavra_gatilho": "sem",
+     "inicio": 32.46
+    },
+    {
+     "acao": "check",
+     "palavra_gatilho": "turno",
+     "inicio": 33.15
+    }
+   ]
+  },
+  {
+   "cena": "item4",
+   "componente": "chip 4 + dois hooks ligados",
+   "acoes": [
+    {
+     "acao": "chip 4",
+     "palavra_gatilho": "Número",
+     "inicio": 34.5
+    },
+    {
+     "acao": "caixas on('tool.call') e spinner",
+     "palavra_gatilho": "Hooks",
+     "inicio": 35.35
+    },
+    {
+     "acao": "chamadas de ferramenta +1",
+     "palavra_gatilho": "conta",
+     "inicio": 37.19
+    },
+    {
+     "acao": "spinner mostra 'tool calls: 3'",
+     "palavra_gatilho": "mostra",
+     "inicio": 38.81
+    }
+   ]
+  },
+  {
+   "cena": "item5",
+   "componente": "chip 5 + terminal rm -rf segurado",
+   "acoes": [
+    {
+     "acao": "chip 5",
+     "palavra_gatilho": "Número",
+     "inicio": 40.88
+    },
+    {
+     "acao": "selo SEGURADO",
+     "palavra_gatilho": "segurar",
+     "inicio": 41.81
+    },
+    {
+     "acao": "rm -rf digitado",
+     "palavra_gatilho": "um",
+     "inicio": 42.19
+    },
+    {
+     "acao": "diálogo Prosseguir/Cancelar",
+     "palavra_gatilho": "te",
+     "inicio": 43.88
+    },
+    {
+     "acao": "pedido → outro modelo, barras acendendo",
+     "palavra_gatilho": "ou",
+     "inicio": 45.31
+    }
+   ]
+  },
+  {
+   "cena": "como_pedir",
+   "componente": "selo 'como pedir?' + prompt digitado + arquivos + barra de progresso",
+   "acoes": [
+    {
+     "acao": "selo",
+     "palavra_gatilho": "Como",
+     "inicio": 47.27
+    },
+    {
+     "acao": "prompt digitado palavra a palavra",
+     "palavra_gatilho": "escreve:",
+     "inicio": 49.15
+    },
+    {
+     "acao": "arquivos em ~/.claude/dev-mods com checks",
+     "palavra_gatilho": "grava",
+     "inicio": 53.5
+    },
+    {
+     "acao": "barra 0→100%",
+     "palavra_gatilho": "carrega",
+     "inicio": 54.04
+    },
+    {
+     "acao": "'⎇ main' acima do prompt",
+     "palavra_gatilho": "fim",
+     "inicio": 54.58
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "componente": "card Comente MOD + Seguir",
+   "acoes": [
+    {
+     "acao": "card + panterinha comemorando (reação 3)",
+     "palavra_gatilho": "Comenta",
+     "inicio": 55.42
+    },
+    {
+     "acao": "MOD digitado, bolhas subindo",
+     "palavra_gatilho": "MOD",
+     "inicio": 55.88
+    },
+    {
+     "acao": "Seguir → Seguindo ✓",
+     "palavra_gatilho": "me",
+     "inicio": 56.35
+    },
+    {
+     "acao": "link na legenda ↓",
+     "palavra_gatilho": "link",
+     "inicio": 57.27
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "fontes": [
+  {"url": "https://docs.x.ai/grok-bot/get-started", "uso": "instalação (macOS, Windows, Linux, iPhone, Android), planos, cloud computer, cartão de aprovação, 'one job in its first message', starter prompt Inbox manager, passo 5 Make it a routine"},
+  {"url": "https://docs.x.ai/grok-bot/bots", "uso": "'In your first message, give the Bot its job, sources, and approval boundaries, and ask it to remember them'; regra duradoura 'never send external messages without approval'"},
+  {"url": "https://docs.x.ai/grok-bot/use-cases", "uso": "starter prompts e o passo 'tell the Bot its job and its limits... save as skill... create a routine'"},
+  {"url": "https://docs.x.ai/grok-bot/skills-routines-and-automations", "uso": "exemplo de rotina 'Every weekday at 8:00 AM'"}
+ ],
+ "imagens_videos": "nenhum: toda a interface é recriada em motion no Remotion (genérica, sem logo oficial); sem Pexels, sem print, nada gerado por IA",
+ "musica": "public/phanterai/music/Daniel.mp3 (biblioteca PhanterAI)",
+ "sfx": "public/sfx (whoosh, riser, ding, error, pop)"
+}

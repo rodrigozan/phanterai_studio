@@ -1,0 +1,142 @@
+{
+  "videos": [
+    {
+      "nome": "criador-1",
+      "id": 6332247,
+      "termo": "youtuber recording video with camera at home",
+      "duracao": 7,
+      "largura": 1366,
+      "autor": "kaboompics",
+      "pagina": "https://www.pexels.com/video/man-fixing-his-ring-light-for-making-videos-6332247/"
+    },
+    {
+      "nome": "criador-2",
+      "id": 7514343,
+      "termo": "youtuber recording video with camera at home",
+      "duracao": 10,
+      "largura": 1280,
+      "autor": "Kampus Production",
+      "pagina": "https://www.pexels.com/video/a-man-using-smartphone-for-video-recording-7514343/"
+    },
+    {
+      "nome": "preocupado-1",
+      "id": 6962702,
+      "termo": "worried man looking at laptop screen",
+      "duracao": 12,
+      "largura": 1280,
+      "autor": "Mikhail Nilov",
+      "pagina": "https://www.pexels.com/video/a-bearded-man-looking-at-laptop-6962702/"
+    },
+    {
+      "nome": "preocupado-2",
+      "id": 6963976,
+      "termo": "worried man looking at laptop screen",
+      "duracao": 15,
+      "largura": 1280,
+      "autor": "Mikhail Nilov",
+      "pagina": "https://www.pexels.com/video/couple-using-laptop-6963976/"
+    },
+    {
+      "nome": "comemora-1",
+      "id": 6628024,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 11,
+      "largura": 1366,
+      "autor": "KoolShooters",
+      "pagina": "https://www.pexels.com/video/happy-woman-using-laptop-6628024/"
+    },
+    {
+      "nome": "comemora-2",
+      "id": 4586616,
+      "termo": "happy woman celebrating in front of laptop",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Ketut Subiyanto",
+      "pagina": "https://www.pexels.com/video/a-woman-laughing-with-different-hand-gestures-4586616/"
+    },
+    {
+      "nome": "time-1",
+      "id": 9517845,
+      "termo": "amateur soccer team celebrating together",
+      "duracao": 10,
+      "largura": 1366,
+      "autor": "Anastasia  Shuraeva",
+      "pagina": "https://www.pexels.com/video/women-cheering-together-9517845/"
+    },
+    {
+      "nome": "time-2",
+      "id": 3196221,
+      "termo": "amateur soccer team celebrating together",
+      "duracao": 15,
+      "largura": 1280,
+      "autor": "Pressmaster",
+      "pagina": "https://www.pexels.com/video/a-group-of-elderly-men-playing-a-soccer-game-3196221/"
+    },
+    {
+      "nome": "analise-1",
+      "id": 7247822,
+      "termo": "person checking statistics on smartphone",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Leeloo The First",
+      "pagina": "https://www.pexels.com/video/a-person-calculating-taxes-on-her-phone-with-the-documents-on-the-table-7247822/"
+    },
+    {
+      "nome": "analise-2",
+      "id": 7947484,
+      "termo": "person checking statistics on smartphone",
+      "duracao": 12,
+      "largura": 1280,
+      "autor": "RDNE Stock project",
+      "pagina": "https://www.pexels.com/video/an-animated-report-on-a-cellphone-7947484/"
+    },
+    {
+      "nome": "editando-1",
+      "id": 19162499,
+      "termo": "content creator editing video on computer",
+      "duracao": 8,
+      "largura": 1280,
+      "autor": "Nathan J Hilton",
+      "pagina": "https://www.pexels.com/video/unboxing-the-apple-mac-studio-19162499/"
+    },
+    {
+      "nome": "editando-2",
+      "id": 33897462,
+      "termo": "content creator editing video on computer",
+      "duracao": 13,
+      "largura": 1280,
+      "autor": "Jakub Zerdzicki",
+      "pagina": "https://www.pexels.com/video/efficient-photo-editing-workspace-setup-33897462/"
+    }
+  ],
+  "fotos": [
+    {
+      "nome": "estudio-1",
+      "id": 4499737,
+      "termo": "home studio camera ring light",
+      "autor": "Chelsey Horne",
+      "pagina": "https://www.pexels.com/photo/a-vlogging-studio-4499737/"
+    },
+    {
+      "nome": "estudio-2",
+      "id": 7014668,
+      "termo": "home studio camera ring light",
+      "autor": "George Milton",
+      "pagina": "https://www.pexels.com/photo/photographer-shooting-party-ball-and-shiny-tinsel-placed-on-table-7014668/"
+    },
+    {
+      "nome": "cofrinho-1",
+      "id": 4056856,
+      "termo": "coins piggy bank savings",
+      "autor": "Suzy Hazelwood",
+      "pagina": "https://www.pexels.com/photo/coins-and-a-piggy-bank-4056856/"
+    },
+    {
+      "nome": "cofrinho-2",
+      "id": 3943727,
+      "termo": "coins piggy bank savings",
+      "autor": "cottonbro studio",
+      "pagina": "https://www.pexels.com/photo/a-black-piggy-bank-in-the-middle-of-coins-3943727/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+ "qtd": 2,
+ "gap": 3.0,
+ "videos": {
+  "papelada": "small business owner stressed with paperwork and calculator",
+  "noite": "woman working late at night on laptop at kitchen table",
+  "confeiteira": "baker decorating cake in small bakery",
+  "comemora": "happy woman celebrating in front of laptop",
+  "celular": "woman sending message on smartphone in shop",
+  "loja": "small shop owner smiling behind counter"
+ },
+ "fotos": {
+  "doces": "brigadeiros sweets party table",
+  "bolo": "birthday cake party table"
+ },
+ "prints": {},
+ "gatilhos": {
+  "oficial": "prints/ajuda-arquivos.png"
+ }
+}

@@ -1,0 +1,138 @@
+[
+ {
+  "n": 1,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c01.mp4",
+    "credito": "Pexels: Ivan S (https://www.pexels.com/video/a-person-paying-bill-using-his-card-7669652/)"
+   }
+  ],
+  "kinetic": "A IA ganhou|carteira",
+  "pose": "surpresa"
+ },
+ {
+  "n": 2,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/yt-uXspbC2srEQ.jpg",
+    "pos": "50% 50%",
+    "credito": "OpenAI, miniatura oficial do vídeo https://www.youtube.com/watch?v=uXspbC2srEQ"
+   },
+   {
+    "kind": "img",
+    "file": "img/yt-fHEIw5CcN5U.jpg",
+    "pos": "35% 50%",
+    "credito": "OpenAI, miniatura oficial do vídeo https://www.youtube.com/watch?v=fHEIw5CcN5U"
+   }
+  ],
+  "tag": "ChatGPT Wallet"
+ },
+ {
+  "n": 3,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c03.mp4",
+    "credito": "Pexels: Polina Tankilevitch (https://www.pexels.com/video/person-browsing-on-laptop-5586006/)"
+   },
+   {
+    "kind": "video",
+    "file": "bg/c09.mp4",
+    "credito": "Pexels: Tim Douglas (https://www.pexels.com/video/a-woman-using-smartphone-6565715/)"
+   }
+  ],
+  "tag": "seu dot compra"
+ },
+ {
+  "n": 4,
+  "tipo": "motion",
+  "motion": "token",
+  "pose": "apontando"
+ },
+ {
+  "n": 5,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c05.mp4",
+    "credito": "Pexels: RDNE Stock project (https://www.pexels.com/video/notification-on-a-phone-7822022/)"
+   }
+  ],
+  "badge": "Aprovado"
+ },
+ {
+  "n": 6,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c06.mp4",
+    "credito": "Pexels: Cup of  Couple (https://www.pexels.com/video/a-person-looking-at-a-credit-card-6956640/)"
+   }
+  ],
+  "list": [
+   "Amex",
+   "Chase",
+   "Mastercard",
+   "Visa"
+  ],
+  "no": "Débito"
+ },
+ {
+  "n": 7,
+  "tipo": "motion",
+  "motion": "phone",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c07.mp4",
+    "credito": "Pexels: Collis Torrington (https://www.pexels.com/video/vibrant-street-scene-in-downtown-manhattan-37692139/)"
+   }
+  ],
+  "chips": [
+   "EUA",
+   "ChatGPT Pro"
+  ]
+ },
+ {
+  "n": 8,
+  "tipo": "pexels",
+  "shots": [
+   {
+    "kind": "video",
+    "file": "bg/c08.mp4",
+    "credito": "Pexels: Mikhail Nilov (https://www.pexels.com/video/a-person-browsing-the-internet-with-a-cellphone-while-holding-a-credit-card-6898100/)"
+   }
+  ],
+  "tag": "checkout de sempre"
+ },
+ {
+  "n": 9,
+  "tipo": "imagem_produto",
+  "shots": [
+   {
+    "kind": "img",
+    "file": "img/yt-p5KxBTUncoE.jpg",
+    "pos": "14% 50%",
+    "credito": "OpenAI, miniatura oficial do vídeo https://www.youtube.com/watch?v=p5KxBTUncoE"
+   }
+  ],
+  "swap": [
+   "recomendar",
+   "comprar"
+  ],
+  "pose": "pensando"
+ },
+ {
+  "n": 10,
+  "tipo": "motion",
+  "motion": "cta",
+  "pose": "comemorando"
+ }
+]

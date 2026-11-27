@@ -1,0 +1,171 @@
+[
+ {
+  "n": 1,
+  "type": "hook"
+ },
+ {
+  "n": 2,
+  "id": "c02",
+  "pill": "GRÁTIS",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "50 créditos/dia",
+  "small": "sem assinatura · Google Flow",
+  "bg": false,
+  "pose": "surpresa",
+  "type": "card",
+  "box": {
+   "x": 117,
+   "y": 638,
+   "w": 658.484375,
+   "h": 44
+  },
+  "url": "https://support.google.com/flow/answer/16353333?hl=en",
+  "side": "disponível no Brasil · 18+"
+ },
+ {
+  "n": 3,
+  "id": "c03",
+  "pill": "CUSTO",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "8 s = 10 créditos",
+  "small": "Veo 3.1 Lite → 5 cenas por dia",
+  "bg": true,
+  "pose": "pensando",
+  "type": "card",
+  "box": {
+   "x": 639.28125,
+   "y": 300.34375,
+   "w": 63.09375,
+   "h": 18
+  },
+  "url": "https://support.google.com/flow/answer/16526234?hl=en"
+ },
+ {
+  "n": 4,
+  "id": "c04",
+  "pill": "IMAGENS",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "até 400/dia",
+  "small": "Nano Banana · não gasta crédito",
+  "bg": false,
+  "pose": "comemorando",
+  "type": "card",
+  "box": {
+   "x": 320.03125,
+   "y": 300.046875,
+   "w": 100.515625,
+   "h": 39.015625
+  },
+  "url": "https://support.google.com/flow/answer/16729550?hl=en"
+ },
+ {
+  "n": 5,
+  "id": "c05",
+  "pill": "ESTILO 1/4",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "gere as referências",
+  "small": "personagem · objeto · cenário",
+  "bg": false,
+  "pose": "apontando",
+  "type": "card",
+  "box": {
+   "x": 233.875,
+   "y": 300,
+   "w": 409.828125,
+   "h": 20
+  },
+  "url": "https://support.google.com/flow/answer/16353334?hl=en"
+ },
+ {
+  "n": 6,
+  "id": "c06",
+  "pill": "ESTILO 2/4",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "Ingredients",
+  "small": "as mesmas imagens em cada cena",
+  "bg": true,
+  "pose": "apontando",
+  "type": "card",
+  "box": {
+   "x": 248.703125,
+   "y": 300,
+   "w": 440.03125,
+   "h": 20
+  },
+  "url": "https://support.google.com/flow/answer/16353334?hl=en"
+ },
+ {
+  "n": 7,
+  "id": "c07",
+  "pill": "ESTILO 3/4",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "fundo liso",
+  "small": "sem gente sobrando",
+  "bg": false,
+  "pose": "pensando",
+  "type": "card",
+  "box": {
+   "x": 81,
+   "y": 300,
+   "w": 641.453125,
+   "h": 44
+  },
+  "url": "https://support.google.com/flow/answer/16353334?hl=en"
+ },
+ {
+  "n": 8,
+  "id": "c08",
+  "pill": "ESTILO 4/4",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "mesmo visual",
+  "small": "em todas as referências",
+  "bg": false,
+  "pose": "feliz",
+  "type": "card",
+  "box": {
+   "x": 113,
+   "y": 300,
+   "w": 432.65625,
+   "h": 20
+  },
+  "url": "https://support.google.com/flow/answer/16353334?hl=en"
+ },
+ {
+  "n": 9,
+  "id": "c09",
+  "pill": "AVISO",
+  "date": null,
+  "source": "support.google.com/flow",
+  "print": true,
+  "big": "11h–14h sem vídeo",
+  "small": "horário de pico, quem não assina",
+  "bg": true,
+  "pose": "triste",
+  "type": "card",
+  "box": {
+   "x": 236,
+   "y": 386,
+   "w": 196,
+   "h": 20
+  },
+  "url": "https://support.google.com/flow/answer/16526234?hl=en"
+ },
+ {
+  "n": 10,
+  "type": "cta"
+ }
+]

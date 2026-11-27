@@ -1,0 +1,16 @@
+{
+ "fontes": [
+  "https://elevenlabs.io/docs/overview/capabilities/text-to-speech",
+  "https://github.com/openai/whisper",
+  "https://www.canva.com/canva-ai/",
+  "https://www.opus.pro/",
+  "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+  "https://v0.app/docs",
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat",
+  "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/",
+  "https://elevenlabs.io/docs/eleven-agents/phone-numbers/twilio-integration/native-integration",
+  "https://code.claude.com/docs/en/overview"
+ ],
+ "visual": "interface recriada em motion graphics pela PhanterAI (sem print, sem Pexels, nada gerado por IA)",
+ "musica": "Daniel (biblioteca PhanterAI)"
+}

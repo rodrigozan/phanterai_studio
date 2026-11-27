@@ -1,0 +1,41 @@
+https://seed.bytedance.com/en/seedance2_5
+
+Home
+Models
+Blog & Publication
+Seed Edge
+Join Us
+Try now
+中文
+Seedance 2.5
+Seedance 2.5 is a next-generation audio-video joint generation model, built for 30-second storytelling with precise reference control and powerful editing capabilities.
+Enterprise
+Try now
+Compare now
+Longer Narratives. Better Control.
+Create videos up to 30 seconds in a single generation, with the option to extend twice for richer, more complete storytelling. Motion is smoother and more consistent, and the visuals are more realistic.
+Smarter Reference and Editing Capabilites
+Understands reference videos more precisely -- capturing the intention, framing, and cinematic language to go beyond motion transfer into creative interpretation. Editing becomes more reliable, and responds to a wider range of audio and visual editing requests.
+Aiming for Professional Production
+Provides advanced capabilities such as white-model control and green-screen editing, combined with professional camera movement and performance blocking, to better support complex video production and professional creative workflows.
+Creativity Unleashed, Explore the Possibilities
+Browse our curated showcase to spark your next great idea.
+Advancing the frontier of intelligence,
+in service of humanity
+Join ByteDance Seed
+Models
+Seed2.1
+Seedance 2.5
+Seedream 5.5
+SeedRealtime
+Seed Audio 1.0
+Seed GR-RL
+Learn More
+Publications
+Seed Edge
+Seed STEM Fellows Program
+Seed Campus Recruitment
+Transparency
+Copyright© 2026 Bytedance Seed
+Disclaimer
+Contact us : seed.feedback@bytedance.com

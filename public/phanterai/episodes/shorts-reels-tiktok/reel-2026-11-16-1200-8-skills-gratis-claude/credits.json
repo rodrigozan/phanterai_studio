@@ -1,0 +1,45 @@
+{
+  "source": "Pexels",
+  "media": {
+    "c03": {
+      "query": "web design screen",
+      "pexels_id": 34459460,
+      "url": "https://www.pexels.com/video/colorful-html-code-on-computer-monitor-34459460/",
+      "author": "Jakub Zerdzicki",
+      "author_url": "https://www.pexels.com/@jakubzerdzicki",
+      "duration": 8
+    },
+    "c06": {
+      "query": "laptop coding dark",
+      "pexels_id": 36628017,
+      "url": "https://www.pexels.com/video/coding-session-in-modern-office-36628017/",
+      "author": "Jakub Zerdzicki",
+      "author_url": "https://www.pexels.com/@jakubzerdzicki",
+      "duration": 14
+    },
+    "c09": {
+      "query": "abstract art colorful",
+      "pexels_id": 7101965,
+      "url": "https://www.pexels.com/video/motion-background-7101965/",
+      "author": "Eugene Vasilevich",
+      "author_url": "https://www.pexels.com/@yauheni-vasilevich",
+      "duration": 10
+    },
+    "c11": {
+      "query": "typing keyboard neon",
+      "pexels_id": 35281906,
+      "url": "https://www.pexels.com/video/hands-typing-on-rgb-keyboard-in-low-light-35281906/",
+      "author": "Azhaan Bashmil",
+      "author_url": "https://www.pexels.com/@azhaan-bashmil-728761857",
+      "duration": 11
+    }
+  },
+  "music": {
+    "file": "public/music/CuriousFocus.mp3",
+    "volume": 0.2,
+    "loop": true
+  },
+  "fontes": [
+    "https://github.com/anthropics/skills"
+  ]
+}

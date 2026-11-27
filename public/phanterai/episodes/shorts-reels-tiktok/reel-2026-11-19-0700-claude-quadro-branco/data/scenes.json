@@ -1,0 +1,253 @@
+{
+ "slug": "reel-2026-11-19-0700-claude-quadro-branco",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (loop, volume 0.2)",
+ "fonte": "https://claude.com/blog/sheets-whiteboards-data",
+ "acoes": [
+  {
+   "componente": "Hook",
+   "acao": "janelas chat→outro app com balão 'resposta' voando, contador 'colado Nx', palavra gigante 'copia…'",
+   "palavra_gatilho": "Ainda",
+   "inicio": 0
+  },
+  {
+   "componente": "Hook",
+   "acao": "palavra gigante troca para 'e cola…' + flash rosa + pop",
+   "palavra_gatilho": "colando",
+   "inicio": 0.96
+  },
+  {
+   "componente": "Hook",
+   "acao": "carimbo ✗ vermelho, 'acabou!', tremida, som error, panterinha surpresa",
+   "palavra_gatilho": "Acabou",
+   "inicio": 2.64
+  },
+  {
+   "componente": "Hook",
+   "acao": "'o Claude ganhou' + 2 cards '?'",
+   "palavra_gatilho": "Claude",
+   "inicio": 3.52
+  },
+  {
+   "componente": "Hook",
+   "acao": "card quadro branco revelado",
+   "palavra_gatilho": "quadro",
+   "inicio": 4.32
+  },
+  {
+   "componente": "Hook",
+   "acao": "card planilha revelado",
+   "palavra_gatilho": "planilha",
+   "inicio": 5.28
+  },
+  {
+   "componente": "Hook",
+   "acao": "3 slots numerados acendendo em sequência",
+   "palavra_gatilho": "Três",
+   "inicio": 6.16
+  },
+  {
+   "componente": "Hook",
+   "acao": "slot 3 tracejado pulsando com ❓",
+   "palavra_gatilho": "terceiro",
+   "inicio": 7.76
+  },
+  {
+   "componente": "Hook",
+   "acao": "'Ctrl+C · Ctrl+V' riscado, ✂️ no slot 3",
+   "palavra_gatilho": "mata",
+   "inicio": 8.56
+  },
+  {
+   "componente": "Hook",
+   "acao": "barra de progresso enchendo",
+   "palavra_gatilho": "Fica",
+   "inicio": 9.86
+  },
+  {
+   "componente": "Item1",
+   "acao": "chip 1 Quadro branco + card de microfone com onda",
+   "palavra_gatilho": "Número",
+   "inicio": 10.8
+  },
+  {
+   "componente": "Item1",
+   "acao": "fala transcrita digitando",
+   "palavra_gatilho": "fala",
+   "inicio": 13.2
+  },
+  {
+   "componente": "Item1",
+   "acao": "selo 'bagunçado'",
+   "palavra_gatilho": "bagunçado",
+   "inicio": 13.76
+  },
+  {
+   "componente": "Item1",
+   "acao": "janela quadro branco, post-its voando",
+   "palavra_gatilho": "monta",
+   "inicio": 16.24
+  },
+  {
+   "componente": "Item1",
+   "acao": "linha do cronograma desenhando",
+   "palavra_gatilho": "cronograma",
+   "inicio": 17.32
+  },
+  {
+   "componente": "Item1",
+   "acao": "crachás de responsável nos post-its",
+   "palavra_gatilho": "responsável",
+   "inicio": 18.28
+  },
+  {
+   "componente": "Item1",
+   "acao": "datas nos post-its",
+   "palavra_gatilho": "data",
+   "inicio": 19.04
+  },
+  {
+   "componente": "Item1",
+   "acao": "cursor arrasta caixa de seleção em 2 post-its",
+   "palavra_gatilho": "Arrasta",
+   "inicio": 21.2
+  },
+  {
+   "componente": "Item1",
+   "acao": "caixa de pergunta digitando + resposta do Claude",
+   "palavra_gatilho": "pergunta",
+   "inicio": 22.64
+  },
+  {
+   "componente": "Item2",
+   "acao": "chip 2 Planilha + prompt digitando 'um controle de campanha'",
+   "palavra_gatilho": "Número",
+   "inicio": 23.49
+  },
+  {
+   "componente": "Item2",
+   "acao": "grade da planilha montando linha a linha",
+   "palavra_gatilho": "cria",
+   "inicio": 27.17
+  },
+  {
+   "componente": "Item2",
+   "acao": "abas Campanha/Verba/Resultados",
+   "palavra_gatilho": "abas",
+   "inicio": 27.73
+  },
+  {
+   "componente": "Item2",
+   "acao": "fórmula =SOMA(B2:B5) e total R$ 1.000",
+   "palavra_gatilho": "fórmulas",
+   "inicio": 28.37
+  },
+  {
+   "componente": "Item2",
+   "acao": "cabeçalho rosa (formatação)",
+   "palavra_gatilho": "formatação",
+   "inicio": 29.01
+  },
+  {
+   "componente": "Item2",
+   "acao": "lista suspensa ativo/pausado/encerrado abrindo",
+   "palavra_gatilho": "listas",
+   "inicio": 29.97
+  },
+  {
+   "componente": "Item2",
+   "acao": "células destacadas uma a uma com 'editado pelo Claude'",
+   "palavra_gatilho": "marca",
+   "inicio": 31.57
+  },
+  {
+   "componente": "Item3",
+   "acao": "chip 3 + mini quadro, 'terminou? ✓'",
+   "palavra_gatilho": "Número",
+   "inicio": 33.45
+  },
+  {
+   "componente": "Item3",
+   "acao": "quadro encolhe e solta conector",
+   "palavra_gatilho": "vira",
+   "inicio": 36.41
+  },
+  {
+   "componente": "Item3",
+   "acao": "card documento",
+   "palavra_gatilho": "documento",
+   "inicio": 36.89
+  },
+  {
+   "componente": "Item3",
+   "acao": "card apresentação, panterinha apontando",
+   "palavra_gatilho": "apresentação",
+   "inicio": 37.53
+  },
+  {
+   "componente": "Item3",
+   "acao": "mini planilha",
+   "palavra_gatilho": "planilha",
+   "inicio": 38.57
+  },
+  {
+   "componente": "Item3",
+   "acao": "arquivo .xlsx voando",
+   "palavra_gatilho": "Excel",
+   "inicio": 39.53
+  },
+  {
+   "componente": "Item3",
+   "acao": "arquivo .csv voando",
+   "palavra_gatilho": "C",
+   "inicio": 40.25
+  },
+  {
+   "componente": "Virada",
+   "acao": "janela Claude 'tudo dentro do Claude' com doc/quadro/planilha",
+   "palavra_gatilho": "E",
+   "inicio": 41.21
+  },
+  {
+   "componente": "Virada",
+   "acao": "3 cursores colaborativos + '3 editando agora'",
+   "palavra_gatilho": "time",
+   "inicio": 43.37
+  },
+  {
+   "componente": "Virada",
+   "acao": "selo BETA",
+   "palavra_gatilho": "Tá",
+   "inicio": 44.72
+  },
+  {
+   "componente": "Virada",
+   "acao": "selo planos pagos",
+   "palavra_gatilho": "pagos",
+   "inicio": 45.6
+  },
+  {
+   "componente": "Virada",
+   "acao": "ícones navegador/computador/celular ✓",
+   "palavra_gatilho": "navegador",
+   "inicio": 46.76
+  },
+  {
+   "componente": "CTA",
+   "acao": "perfil + botão Seguir→Seguindo, panterinha comemorando",
+   "palavra_gatilho": "Me",
+   "inicio": 49.52
+  },
+  {
+   "componente": "CTA",
+   "acao": "comentário 'QUADRO' digitado + corações",
+   "palavra_gatilho": "comenta",
+   "inicio": 50.24
+  },
+  {
+   "componente": "CTA",
+   "acao": "'anúncio oficial na legenda ↓'",
+   "palavra_gatilho": "anúncio",
+   "inicio": 51.4
+  }
+ ]
+}

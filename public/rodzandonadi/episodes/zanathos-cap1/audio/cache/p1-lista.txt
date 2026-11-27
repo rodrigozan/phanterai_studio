@@ -1,0 +1,8 @@
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/p1-lead.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/4f5630360879ff21-v1.06.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/sil-0.5.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/f173fc258a2ffb2a-v1.06.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/sil-0.5.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/e6a14501cc6dfea9-v1.06.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/sil-1.wav'
+file '/root/phanterai_studio/public/rodzandonadi/episodes/zanathos-cap1/audio/cache/3e68ac7585381c5a-v1.06.wav'

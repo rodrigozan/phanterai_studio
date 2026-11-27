@@ -1,0 +1,266 @@
+https://support.google.com/youtube/answer/12220281?hl=en&co=GENIE.Platform%3DDesktop
+
+Skip to main content
+YouTube Help
+Sign in
+Help Center
+Community
+Creator Tips
+YouTube
+Fix a problemWatch videosManage your account & settingsSupervised experiences on YouTubeYouTube PremiumCreate & grow your channelMonetize your contentPolicy, safety, & copyright
+Analyze performance with analyticsContent tab (channel level)Understand your YouTube content performance
+Understand your YouTube content performance
+
+Beginning November 2026, YouTube public view counts on video watch pages incorporate co-views by estimating the number of individual viewers watching together on TV screens. Views are counted the moment a video starts to play across all formats, including Shorts, long-form videos (VODs), and live streams.
+
+This update won’t impact your YouTube Partner Program (YPP) earnings or eligibility. YPP earnings will still be based on “engaged Shorts views” and “engaged watch hours”. YPP eligibility will still be based on “qualified Shorts views” and “qualified watch hours.”
+
+The Content tab in YouTube Insights gives you an overview of how your audience finds your content, what your audience is watching, and how they interact with your content. The Content tab is only available at the channel level. Learn more about how engagement metrics are counted.
+
+Check out the following video from the YouTube Creators channel to learn more about your content reach and engagement.
+
+Subscribe to the YouTube Creators channel for the latest news, updates, and tips.
+Get content tab tips for creators.
+Learn the basics
+In this article:
+View your reach and engagement reports
+Computer Android phone & tabletiPhone & iPad
+Sign in to YouTube Studio.
+In the left Menu, select Analytics.
+From the top menu, select Content.
+
+Note: You can click SEE MORE or ADVANCED MODE to view an expanded insights report to get specific data, compare performance, and export data.
+
+All
+New viewers
+
+This reports viewers who watched something on your channel for the first time in the selected time period.
+
+Casual viewers
+
+Casual viewers are viewers who have watched your channel occasionally for a while. Casual viewers have watched your channel at least once per month for one to 5 months in the past year.
+
+Regular viewers
+
+Regular viewers are viewers who have been watching consistently for a long time. Regular viewers have watched your channel at least once per month for more than 6 months in the past year.
+
+Unique reach
+
+Estimated total number of individual people who saw your video or channel. This accounts for shared viewing on devices like YouTube TV and the main YouTube app on TV.
+
+Views (Co-viewed)
+
+Estimated total view count including multiple people watching together.
+
+Note: This metric is available in YouTube Insights Advanced Mode until May 2027.
+Co-view rate
+
+A dedicated metric that helps you understand how co-viewing impacts your overall view count. You can divide your total views by this rate to calculate your baseline views without co-viewers.
+
+Subscribers
+
+This report shows the number of subscribers that you gained from each content type: videos, Shorts, live streams, posts, and others. “Others” include subscriptions from YouTube search and your channel page. This info helps you understand what content performs best at turning viewers into subscribers.
+
+Views
+
+This report shows you the number of legitimate views on your content for Shorts, videos, and live streams.
+
+Views are counted the moment a video starts to play across all formats, and incorporate co-views by estimating the number of individual viewers watching together on TV screens.
+Impressions and how they led to watch time
+
+This report shows you how many times a thumbnail was shown to viewers on YouTube (impressions), how frequently those thumbnails resulted in a view (click-through rate), and how those views ultimately led to watch time. Learn more tips for using impressions and CTR data.
+
+Published content
+
+This report shows the number of videos, Shorts, live streams, and posts you’ve published on YouTube.
+
+Viewers across formats
+
+This report shows the breakdown and overlap of viewers consuming your content by format (videos, Shorts, and live).
+
+How viewers found your content
+
+This report shows you how your viewers found your content within browse features, Shorts feed, suggested videos, YouTube search, channel pages, and others.
+
+Top remixed
+
+This report shows a visual overview of your remix views, total remixes, and top remixed content.
+
+Videos
+Key metrics card
+
+This gives you a visual overview of your views, average view duration, impressions, and impressions click-through rate.
+
+Key moments for audience retention
+
+This report shows how well different moments of your video held viewers' attention. You can also use typical retention to compare your 10 latest videos of similar length.
+
+How viewers find your videos
+
+This report shows you how your viewers found your videos within YouTube search, browse features, suggested videos, external, channel pages, and others.
+
+Top videos
+
+This report highlights your most popular videos.
+
+Shorts
+Key metrics card
+
+This gives you a visual overview of your views, likes, and subscribers.
+
+How viewers find your Shorts
+
+This report shows you how your viewers found your Shorts within Shorts feed, YouTube search, channel pages, browse features, external, and others.
+
+How viewers engaged
+
+The percentage of times viewers stayed to watch past the initial seconds of a Short.
+
+Top Shorts
+
+This report highlights your most popular Shorts.
+
+Top remixed
+
+This report shows a visual overview of your remix views, total remixes, and top remixed content.
+
+Live
+Key metrics card
+
+This gives you a visual overview of your views, average view duration, impressions, and impressions click-through rate.
+
+How viewers find your live streams
+
+This report shows you how your viewers found your live streams within browse features, YouTube search, suggested videos, direct or unknown, channel pages, and others.
+
+Top live streams
+
+This report highlights your most popular live streams. You can use the expanded insights report to view more metrics, like views and impressions.
+
+Concurrent viewers
+
+This report shows you your peak and average concurrent viewers on a given live stream, and incorporates co-viewing estimates for viewers watching together on TV screens.
+
+Posts
+Impressions
+
+This report shows you how many times your post was shown to viewers.
+
+Likes
+
+This report shows how many times viewers liked your posts.
+
+Subscribers
+
+This report shows the number of subscribers that you gained from posts.
+
+Top posts
+
+This report highlights your most popular posts based on likes or votes.
+
+Playlists
+Top playlists card
+
+This report highlights your most popular playlists and helps you compare them. From here, you can access each playlist's insights. Learn how to access your playlist insights.
+
+Get tips to establish your fanbase for creators.
+Podcasts
+Top podcasts card
+
+This report highlights your most popular podcasts and helps you compare them. Learn more about your podcast’s performance.
+
+Understand types of traffic
+
+Traffic to your videos can come from either within YouTube, or from external sources. You can view both on the How viewers find your content (or videos, Shorts, Live) report.
+
+Organic & paid traffic
+
+Traffic from within YouTube
+Traffic from external sources
+Metrics to know
+Thumbnail impressions	
+
+How many times your thumbnails were shown to viewers on YouTube through registered thumbnail impressions.
+
+
+
+
+Thumbnail impressions click-through-rate
+
+	
+
+How often viewers watched a video after seeing a thumbnail.
+
+
+Engaged views	
+
+How many times viewers stayed to watch past the initial seconds, not including any loops. This does not include co-views.
+
+
+Stayed to watch	The percentage of times viewers stayed to watch past the initial seconds of a Short.
+
+
+Unique viewers
+
+	
+
+Estimated number of viewers that watched your content within the selected date range, based on engaged views. This does not include co-viewers.
+
+
+Unique reach	Estimated total number of individual people who saw your video or channel. This accounts for shared viewing on devices like YouTube TV and the main YouTube app on TV.
+Views (Co-viewed)	
+
+Estimated total number of views, including multiple people watching together. This accounts for shared viewing on devices like YouTube TV and the main YouTube app on TV.
+
+Note: This metric will be available until May 2027.
+
+
+Co-View Rate	A dedicated metric that helps you understand how co-viewing impacts your overall view count. You can divide your total views by this rate to calculate your baseline views without co-views.
+
+
+Average view duration
+
+	
+
+Average minutes watched among those who stayed to watch.
+
+This is calculated from engaged views and their corresponding watch time.
+
+
+Average percentage viewed
+
+	
+
+Average percentage of a video watched among those who stayed to watch.
+
+This is calculated from engaged views and their corresponding watch time.
+
+
+
+
+Watch time (hours)
+
+	
+
+The amount of time viewers have watched your video. This includes watch time from co-views.
+
+
+Post likes	The amount of likes your post received.
+Post like rate	The percentage of viewers that liked your post.
+Views from playlist	Video views from viewers watching the playlist itself. This is the same metric available externally on the public playlist page.
+Total views	Total views of all the videos in the playlist, regardless of whether they’re from the playlist or elsewhere. This is only computed for videos that you owned in the playlist.
+Follow-on Views	Organic views you get when someone watches your videos after seeing your promoted content.
+Give feedback about this article
+Was this helpful?YesNo
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Content tab (channel level)
+Explore Inspiration tab on YouTube
+Understand your YouTube content performance
+Check your YouTube thumbnail impressions and watch time
+Impressions & click-through-rate FAQs
+©2026 Google  Privacy Policy  YouTube Terms of Service
+Language
+English‎

@@ -1,0 +1,495 @@
+{
+ "slug": "2026-11-26-orcamento-com-claude",
+ "titulo": "Orçamento profissional em PDF com uma frase (Claude grátis)",
+ "fontes": [
+  "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+  "https://claude.com/resources/articles/create-files"
+ ],
+ "cenas": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "broll": false,
+   "pose": "surpresa",
+   "fala": "Esse orçamento aqui, com tabela, total, sinal e validade, saiu de um pedido em português. Eu não abri o Word, não abri o Excel, e não paguei nada. Ele já vem em PDF, pronto pra mandar no WhatsApp do cliente. E no final, você ainda ganha uma planilha pra controlar todos os seus orçamentos.",
+   "dados": {
+    "bg": "render/orcamento-16x9.png",
+    "esc": 0.2,
+    "l1": "Orçamento pronto",
+    "l2": "com um pedido",
+    "pilulas": [
+     {
+      "ao": "português",
+      "txt": "Um pedido em português",
+      "cor": "verde"
+     },
+     {
+      "ao": "nada",
+      "txt": "Funciona no plano grátis",
+      "cor": "ouro"
+     },
+     {
+      "ao": "PDF",
+      "txt": "PDF pronto pro cliente",
+      "cor": "violeta"
+     },
+     {
+      "ao": "planilha",
+      "txt": "+ planilha de controle",
+      "cor": "escuro"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "pensando",
+   "fala": "Se você tem um pequeno negócio, você conhece essa cena. O cliente pergunta o preço, e lá vai você montar o orçamento na mão, fazendo conta na calculadora, tarde da noite. E no fim, o orçamento sai num texto corrido no celular. Hoje você vai ver o Claude fazer essa parte por você.",
+   "dados": {
+    "bg": "pexels/papelada-1.mp4",
+    "titulo": "Orçamento na mão",
+    "cols": 1,
+    "w": 1150,
+    "itens": [
+     {
+      "ao": "preço",
+      "t": "O cliente pergunta o preço",
+      "sub": "e quer resposta rápida",
+      "icone": "?",
+      "cor": "ciano"
+     },
+     {
+      "ao": "calculadora",
+      "t": "Conta na calculadora",
+      "sub": "tarde da noite",
+      "icone": "✕",
+      "cor": "vermelho"
+     },
+     {
+      "ao": "corrido",
+      "t": "Texto corrido no celular",
+      "sub": "sem cara de profissional",
+      "icone": "✕",
+      "cor": "vermelho"
+     }
+    ],
+    "pilula": {
+     "ao": "Claude",
+     "txt": "Hoje o Claude faz por você",
+     "cor": "verde"
+    }
+   }
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E isso é oficial. Na central de ajuda da Anthropic, a empresa que faz o Claude, está escrito: o Claude cria planilhas do Excel, documentos do Word, apresentações e arquivos em PDF. E isso vale pra todos os planos, inclusive o gratuito, no navegador, no aplicativo do computador e no celular.",
+   "dados": {
+    "url": "support.claude.com/create-and-edit-files",
+    "selo": "Central de ajuda do Claude (oficial)",
+    "digitar": {
+     "ao": "E"
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "ajuda-arquivos.png"
+     }
+    ],
+    "destaque": {
+     "ao": "todos",
+     "x": 406,
+     "y": 322,
+     "w": 808,
+     "h": 62
+    },
+    "zoom": {
+     "z": 1.6,
+     "vx": 300,
+     "vy": 160
+    }
+   }
+  },
+  {
+   "id": "C04",
+   "tipo": "cta",
+   "broll": "humano",
+   "pose": "feliz",
+   "fala": "Antes de começar: se você quer usar a inteligência artificial pra trabalhar menos no seu negócio, deixa o like e se inscreve no canal. Toda semana tem um passo a passo novo aqui.",
+   "dados": {
+    "bg": "pexels/loja-1.mp4",
+    "sub2": "IA pro seu negócio, sem complicação",
+    "like": {
+     "ao": "like"
+    },
+    "sub": {
+     "ao": "inscreve"
+    },
+    "canal": "PhanterAI Creative"
+   }
+  },
+  {
+   "id": "C05",
+   "tipo": "fluxo",
+   "pantera": false,
+   "broll": false,
+   "fala": "O plano é simples, são três passos. Primeiro: ligar a opção de criar arquivos. Segundo: fazer o pedido do orçamento com os seus dados. Terceiro: pedir a planilha e a mensagem pro cliente.",
+   "dados": {
+    "titulo": "O plano em 3 passos",
+    "etapas": [
+     {
+      "ao": "Primeiro",
+      "t": "Ligar a opção",
+      "sub": "criar e editar arquivos"
+     },
+     {
+      "ao": "Segundo",
+      "t": "Fazer o pedido",
+      "sub": "com os seus dados e preços"
+     },
+     {
+      "ao": "Terceiro",
+      "t": "Planilha e mensagem",
+      "sub": "pra controlar e enviar"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C06",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "Passo um. Entre no site do Claude, ou abra o aplicativo do Claude no computador. Abra as Configurações e entre em Capacidades. Procure a opção criar e editar arquivos, e deixe ligada. No plano gratuito, ela já vem ligada, mas vale conferir.",
+   "dados": {
+    "url": "claude.ai/settings/capabilities",
+    "selo": "Configurações > Capacidades",
+    "digitar": {
+     "ao": "Passo"
+    },
+    "telas": [
+     {
+      "ao": "Passo",
+      "arq": "config-capacidades.png"
+     }
+    ],
+    "cliques": [
+     {
+      "ao": "Capacidades",
+      "x": 150,
+      "y": 314
+     }
+    ],
+    "destaque": {
+     "ao": "ligada",
+     "x": 380,
+     "y": 137,
+     "w": 1100,
+     "h": 114
+    }
+   }
+  },
+  {
+   "id": "C07",
+   "tipo": "desktop-pedido",
+   "pantera": false,
+   "broll": false,
+   "pose": "apontando",
+   "fala": "Passo dois: o pedido. Abra uma conversa nova e escreva tudo de uma vez: quem é você, quem é o cliente, o que ele pediu, e os seus preços. Olha o meu exemplo, de uma confeitaria. Um bolo de três quilos, cem brigadeiros, cinquenta beijinhos, cinquenta bem-casados, e a entrega. Sinal de cinquenta por cento, e validade de sete dias.",
+   "dados": {
+    "pedido": "Crie um orçamento em PDF da Doce Ana Confeitaria para Juliana Souza, festa de 5 anos do Theo em 13/12. Bolo de chocolate 3 kg R$ 270, 100 brigadeiros a R$ 1,50, 50 beijinhos a R$ 1,50, 50 bem-casados a R$ 3,50 e entrega R$ 40. Sinal de 50% e validade de 7 dias.",
+    "a": {
+     "ao": "escreva"
+    },
+    "acoes": [
+     {
+      "ao": "Sinal",
+      "txt": "Criando o arquivo orcamento-juliana.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C08",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E olha o que volta. Um PDF de verdade, com o nome da confeitaria, os dados da cliente, a tabela com cada item, quantidade e preço, e o total já somado: setecentos e dez reais. Embaixo, o sinal de trezentos e cinquenta e cinco reais pra reservar a data, a forma de pagamento e a validade. É só clicar e baixar.",
+   "dados": {
+    "url": "orcamento-juliana.pdf",
+    "selo": "O PDF que o Claude entregou",
+    "digitar": {
+     "ao": "E"
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "pdf-topo.png"
+     },
+     {
+      "ao": "setecentos",
+      "arq": "pdf-meio.png"
+     }
+    ],
+    "destaque": {
+     "ao": "Embaixo",
+     "x": 364,
+     "y": 607,
+     "w": 280,
+     "h": 122
+    },
+    "zoom": {
+     "z": 1.25,
+     "vx": 280,
+     "vy": 150
+    }
+   }
+  },
+  {
+   "id": "C09",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "apontando",
+   "fala": "Agora, a dica de ouro: confira as contas. O preço é seu, e quem manda o orçamento é você. Eu conferi: duzentos e setenta do bolo, mais cento e cinquenta, setenta e cinco, cento e setenta e cinco, e quarenta da entrega. Setecentos e dez. Bateu certinho.",
+   "dados": {
+    "titulo": "Conferi as contas",
+    "cols": 2,
+    "w": 820,
+    "check": true,
+    "itens": [
+     {
+      "ao": "duzentos",
+      "t": "Bolo 3 kg: R$ 270"
+     },
+     {
+      "ao": "cento",
+      "t": "100 brigadeiros: R$ 150"
+     },
+     {
+      "ao": "setenta",
+      "t": "50 beijinhos: R$ 75"
+     },
+     {
+      "ao": "cento#2",
+      "t": "50 bem-casados: R$ 175"
+     },
+     {
+      "ao": "quarenta",
+      "t": "Entrega: R$ 40"
+     }
+    ],
+    "pilula": {
+     "ao": "Bateu",
+     "txt": "Total R$ 710: bateu certinho",
+     "cor": "verde",
+     "sfx": "coin"
+    }
+   },
+   "pantera": false
+  },
+  {
+   "id": "C10",
+   "tipo": "desktop-pedido",
+   "pantera": false,
+   "broll": false,
+   "pose": "feliz",
+   "fala": "Passo três. Na mesma conversa, peça: agora crie uma planilha do Excel pra eu controlar os meus orçamentos, com data, cliente, evento, valor, sinal, e se fechou ou não.",
+   "dados": {
+    "pedido": "Agora crie uma planilha do Excel para eu controlar os meus orçamentos, com data, cliente, evento, valor, sinal e se fechou ou não.",
+    "a": {
+     "ao": "peça"
+    },
+    "acoes": [
+     {
+      "ao": "sinal",
+      "txt": "Criando o arquivo controle-de-orcamentos.xlsx"
+     }
+    ],
+    "fim": {
+     "ao": "não",
+     "txt": "Pronto! Sua planilha de controle está pronta para baixar."
+    },
+    "thumb": "render/planilha-thumb.png"
+   }
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "broll": false,
+   "fala": "E aqui está a planilha. Cada orçamento numa linha, a coluna de status com aguardando, fechado ou recusado, e lá embaixo, o total orçado e o total fechado no mês. Você baixa e abre no Excel, ou salva direto no Google Drive, e vai preenchendo a cada cliente novo.",
+   "dados": {
+    "url": "controle-de-orcamentos.xlsx",
+    "selo": "Planilha de controle",
+    "digitar": {
+     "ao": "E"
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "planilha.png"
+     }
+    ],
+    "destaque": {
+     "ao": "total",
+     "x": 0,
+     "y": 506,
+     "w": 760,
+     "h": 104
+    },
+    "zoom": {
+     "z": 1.45,
+     "vx": 0,
+     "vy": 120
+    }
+   }
+  },
+  {
+   "id": "C12",
+   "tipo": "desktop-pedido",
+   "pantera": false,
+   "broll": false,
+   "pose": "comemorando",
+   "fala": "E o bônus: peça também a mensagem pra mandar junto. Escreva: crie uma mensagem curta e simpática pra eu mandar no WhatsApp com esse orçamento. Em segundos, ela está pronta. É só copiar, colar, e anexar o PDF.",
+   "dados": {
+    "pedido": "Crie uma mensagem curta e simpática para eu mandar no WhatsApp com esse orçamento.",
+    "a": {
+     "ao": "Escreva"
+    },
+    "fim": {
+     "ao": "segundos",
+     "txt": "Oi, Juliana! Tudo bem? Segue o orçamento da festa do Theo, no dia 13/12: R$ 710,00. Para reservar a data, é só fazer o sinal de R$ 355,00. Qualquer dúvida, estou por aqui!"
+    }
+   }
+  },
+  {
+   "id": "C13",
+   "tipo": "cartoes",
+   "broll": "humano",
+   "pose": "feliz",
+   "fala": "E não para no orçamento. Com o mesmo jeito de pedir, você cria a tabela de preços do seu negócio, uma proposta pra um cliente maior, um recibo, ou uma apresentação pra mostrar o seu trabalho. Você pede em português, e o arquivo sai pronto.",
+   "dados": {
+    "bg": "pexels/confeiteira-1.mp4",
+    "titulo": "Do mesmo jeito, você cria",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "tabela",
+      "t": "Tabela de preços",
+      "sub": "PDF ou Excel",
+      "cor": "ouro"
+     },
+     {
+      "ao": "proposta",
+      "t": "Proposta para cliente",
+      "sub": "documento do Word",
+      "cor": "ciano"
+     },
+     {
+      "ao": "recibo",
+      "t": "Recibo",
+      "sub": "em PDF",
+      "cor": "verde"
+     },
+     {
+      "ao": "apresentação",
+      "t": "Apresentação",
+      "sub": "do seu trabalho",
+      "cor": "violeta"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "pensando",
+   "fala": "Dois cuidados rápidos. Criar arquivos gasta mais do seu limite de uso do que uma conversa normal, então mande o pedido bem explicado, de uma vez. E sempre revise o arquivo antes de enviar: nome, data e valores.",
+   "dados": {
+    "titulo": "Dois cuidados",
+    "cols": 1,
+    "w": 1150,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "limite",
+      "t": "Gasta mais do seu limite",
+      "sub": "peça tudo bem explicado, de uma vez",
+      "cor": "ouro"
+     },
+     {
+      "ao": "revise",
+      "t": "Revise antes de enviar",
+      "sub": "nome, data e valores",
+      "cor": "ciano"
+     }
+    ]
+   },
+   "pantera": false
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "broll": false,
+   "pose": "comemorando",
+   "fala": "Resumindo: ligue a opção criar e editar arquivos, faça o pedido com os seus dados e preços, confira as contas, e peça a planilha e a mensagem do WhatsApp. O link da página oficial está na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "ligue",
+      "t": "Ligue a opção",
+      "sub": "criar e editar arquivos"
+     },
+     {
+      "ao": "pedido",
+      "t": "Faça o pedido",
+      "sub": "com seus dados e preços"
+     },
+     {
+      "ao": "confira",
+      "t": "Confira as contas",
+      "sub": "o preço é seu"
+     },
+     {
+      "ao": "planilha",
+      "t": "Planilha + WhatsApp",
+      "sub": "controle e envio"
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Link oficial na descrição",
+     "cor": "ouro"
+    }
+   }
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "broll": "humano",
+   "pose": "apontando",
+   "fala": "E se você quer mais jeitos de colocar a inteligência artificial pra trabalhar no seu negócio, o próximo vídeo está aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "titulo": "Próximo passo",
+    "seta": {
+     "ao": "próximo"
+    },
+    "clique": {
+     "ao": "Clica"
+    }
+   }
+  }
+ ],
+ "cauda": 6.0
+}

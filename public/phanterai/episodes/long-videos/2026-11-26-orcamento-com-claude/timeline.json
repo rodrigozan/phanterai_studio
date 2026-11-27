@@ -1,0 +1,7671 @@
+{
+ "slug": "2026-11-26-orcamento-com-claude",
+ "fps": 30,
+ "lead": 0.5,
+ "musica": "CuriousFocus.mp3",
+ "musicaVolume": 0.17,
+ "totalFrames": 7936,
+ "scenes": [
+  {
+   "id": "C01",
+   "tipo": "gancho-video",
+   "pose": "surpresa",
+   "fala": "Esse orçamento aqui, com tabela, total, sinal e validade, saiu de um pedido em português. Eu não abri o Word, não abri o Excel, e não paguei nada. Ele já vem em PDF, pronto pra mandar no WhatsApp do cliente. E no final, você ainda ganha uma planilha pra controlar todos os seus orçamentos.",
+   "dados": {
+    "bg": "render/orcamento-16x9.png",
+    "esc": 0.2,
+    "l1": "Orçamento pronto",
+    "l2": "com um pedido",
+    "pilulas": [
+     {
+      "ao": "português",
+      "txt": "Um pedido em português",
+      "cor": "verde",
+      "em": 169
+     },
+     {
+      "ao": "nada",
+      "txt": "Funciona no plano grátis",
+      "cor": "ouro",
+      "em": 300
+     },
+     {
+      "ao": "PDF",
+      "txt": "PDF pronto pro cliente",
+      "cor": "violeta",
+      "em": 346
+     },
+     {
+      "ao": "planilha",
+      "txt": "+ planilha de controle",
+      "cor": "escuro",
+      "em": 492
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Esse",
+     "s": 0,
+     "e": 0.2
+    },
+    {
+     "w": "orçamento",
+     "s": 0.24,
+     "e": 0.72
+    },
+    {
+     "w": "aqui,",
+     "s": 0.76,
+     "e": 1.24
+    },
+    {
+     "w": "com",
+     "s": 1.36,
+     "e": 1.52
+    },
+    {
+     "w": "tabela,",
+     "s": 1.56,
+     "e": 2.32
+    },
+    {
+     "w": "total,",
+     "s": 2.6,
+     "e": 2.96
+    },
+    {
+     "w": "sinal",
+     "s": 3.04,
+     "e": 3.44
+    },
+    {
+     "w": "e",
+     "s": 3.467,
+     "e": 3.493
+    },
+    {
+     "w": "validade,",
+     "s": 3.52,
+     "e": 4.32
+    },
+    {
+     "w": "saiu",
+     "s": 4.4,
+     "e": 4.64
+    },
+    {
+     "w": "de",
+     "s": 4.68,
+     "e": 4.72
+    },
+    {
+     "w": "um",
+     "s": 4.8,
+     "e": 4.88
+    },
+    {
+     "w": "pedido",
+     "s": 4.96,
+     "e": 5.36
+    },
+    {
+     "w": "em",
+     "s": 5.44,
+     "e": 5.52
+    },
+    {
+     "w": "português.",
+     "s": 5.64,
+     "e": 6.32
+    },
+    {
+     "w": "Eu",
+     "s": 6.72,
+     "e": 6.8
+    },
+    {
+     "w": "não",
+     "s": 6.88,
+     "e": 6.96
+    },
+    {
+     "w": "abri",
+     "s": 7.04,
+     "e": 7.2
+    },
+    {
+     "w": "o",
+     "s": 7.24,
+     "e": 7.28
+    },
+    {
+     "w": "Word,",
+     "s": 7.36,
+     "e": 7.92
+    },
+    {
+     "w": "não",
+     "s": 8.08,
+     "e": 8.24
+    },
+    {
+     "w": "abri",
+     "s": 8.32,
+     "e": 8.48
+    },
+    {
+     "w": "o",
+     "s": 8.507,
+     "e": 8.533
+    },
+    {
+     "w": "Excel,",
+     "s": 8.56,
+     "e": 9.2
+    },
+    {
+     "w": "e",
+     "s": 9.24,
+     "e": 9.28
+    },
+    {
+     "w": "não",
+     "s": 9.36,
+     "e": 9.44
+    },
+    {
+     "w": "paguei",
+     "s": 9.52,
+     "e": 9.84
+    },
+    {
+     "w": "nada.",
+     "s": 10,
+     "e": 10.4
+    },
+    {
+     "w": "Ele",
+     "s": 10.8,
+     "e": 10.96
+    },
+    {
+     "w": "já",
+     "s": 11.04,
+     "e": 11.12
+    },
+    {
+     "w": "vem",
+     "s": 11.2,
+     "e": 11.28
+    },
+    {
+     "w": "em",
+     "s": 11.36,
+     "e": 11.44
+    },
+    {
+     "w": "PDF,",
+     "s": 11.52,
+     "e": 12.4
+    },
+    {
+     "w": "pronto",
+     "s": 12.44,
+     "e": 12.72
+    },
+    {
+     "w": "pra",
+     "s": 12.8,
+     "e": 12.88
+    },
+    {
+     "w": "mandar",
+     "s": 12.96,
+     "e": 13.12
+    },
+    {
+     "w": "no",
+     "s": 13.16,
+     "e": 13.2
+    },
+    {
+     "w": "WhatsApp",
+     "s": 13.4,
+     "e": 13.6
+    },
+    {
+     "w": "do",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "cliente.",
+     "s": 14,
+     "e": 14.32
+    },
+    {
+     "w": "E",
+     "s": 14.72,
+     "e": 14.8
+    },
+    {
+     "w": "no",
+     "s": 14.84,
+     "e": 14.88
+    },
+    {
+     "w": "final,",
+     "s": 14.96,
+     "e": 15.44
+    },
+    {
+     "w": "você",
+     "s": 15.48,
+     "e": 15.68
+    },
+    {
+     "w": "ainda",
+     "s": 15.76,
+     "e": 15.92
+    },
+    {
+     "w": "ganha",
+     "s": 16,
+     "e": 16.16
+    },
+    {
+     "w": "uma",
+     "s": 16.24,
+     "e": 16.32
+    },
+    {
+     "w": "planilha",
+     "s": 16.4,
+     "e": 16.88
+    },
+    {
+     "w": "pra",
+     "s": 16.96,
+     "e": 17.04
+    },
+    {
+     "w": "controlar",
+     "s": 17.2,
+     "e": 17.52
+    },
+    {
+     "w": "todos",
+     "s": 17.76,
+     "e": 18.08
+    },
+    {
+     "w": "os",
+     "s": 18.12,
+     "e": 18.16
+    },
+    {
+     "w": "seus",
+     "s": 18.24,
+     "e": 18.4
+    },
+    {
+     "w": "orçamentos.",
+     "s": 18.48,
+     "e": 19.36
+    }
+   ],
+   "startFrame": 15,
+   "endFrame": 604
+  },
+  {
+   "id": "C02",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "fala": "Se você tem um pequeno negócio, você conhece essa cena. O cliente pergunta o preço, e lá vai você montar o orçamento na mão, fazendo conta na calculadora, tarde da noite. E no fim, o orçamento sai num texto corrido no celular. Hoje você vai ver o Claude fazer essa parte por você.",
+   "dados": {
+    "bg": "pexels/papelada-1.mp4",
+    "titulo": "Orçamento na mão",
+    "cols": 1,
+    "w": 1150,
+    "itens": [
+     {
+      "ao": "preço",
+      "t": "O cliente pergunta o preço",
+      "sub": "e quer resposta rápida",
+      "icone": "?",
+      "cor": "ciano",
+      "em": 137
+     },
+     {
+      "ao": "calculadora",
+      "t": "Conta na calculadora",
+      "sub": "tarde da noite",
+      "icone": "✕",
+      "cor": "vermelho",
+      "em": 259
+     },
+     {
+      "ao": "corrido",
+      "t": "Texto corrido no celular",
+      "sub": "sem cara de profissional",
+      "icone": "✕",
+      "cor": "vermelho",
+      "em": 398
+     }
+    ],
+    "pilula": {
+     "ao": "Claude",
+     "txt": "Hoje o Claude faz por você",
+     "cor": "verde",
+     "em": 482
+    },
+    "bgDur": 24
+   },
+   "words": [
+    {
+     "w": "Se",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "você",
+     "s": 0.2,
+     "e": 0.4
+    },
+    {
+     "w": "tem",
+     "s": 0.48,
+     "e": 0.56
+    },
+    {
+     "w": "um",
+     "s": 0.6,
+     "e": 0.64
+    },
+    {
+     "w": "pequeno",
+     "s": 0.72,
+     "e": 1.04
+    },
+    {
+     "w": "negócio,",
+     "s": 1.16,
+     "e": 1.76
+    },
+    {
+     "w": "você",
+     "s": 1.8,
+     "e": 2.08
+    },
+    {
+     "w": "conhece",
+     "s": 2.16,
+     "e": 2.48
+    },
+    {
+     "w": "essa",
+     "s": 2.6,
+     "e": 2.72
+    },
+    {
+     "w": "cena.",
+     "s": 2.8,
+     "e": 3.36
+    },
+    {
+     "w": "O",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "cliente",
+     "s": 3.76,
+     "e": 4
+    },
+    {
+     "w": "pergunta",
+     "s": 4.08,
+     "e": 4.4
+    },
+    {
+     "w": "o",
+     "s": 4.44,
+     "e": 4.48
+    },
+    {
+     "w": "preço,",
+     "s": 4.56,
+     "e": 5.2
+    },
+    {
+     "w": "e",
+     "s": 5.28,
+     "e": 5.36
+    },
+    {
+     "w": "lá",
+     "s": 5.48,
+     "e": 5.6
+    },
+    {
+     "w": "vai",
+     "s": 5.68,
+     "e": 5.92
+    },
+    {
+     "w": "você",
+     "s": 5.96,
+     "e": 6.32
+    },
+    {
+     "w": "montar",
+     "s": 6.4,
+     "e": 6.64
+    },
+    {
+     "w": "o",
+     "s": 6.68,
+     "e": 6.72
+    },
+    {
+     "w": "orçamento",
+     "s": 6.8,
+     "e": 7.2
+    },
+    {
+     "w": "na",
+     "s": 7.28,
+     "e": 7.36
+    },
+    {
+     "w": "mão,",
+     "s": 7.44,
+     "e": 7.84
+    },
+    {
+     "w": "fazendo",
+     "s": 7.88,
+     "e": 8.24
+    },
+    {
+     "w": "conta",
+     "s": 8.32,
+     "e": 8.48
+    },
+    {
+     "w": "na",
+     "s": 8.52,
+     "e": 8.56
+    },
+    {
+     "w": "calculadora,",
+     "s": 8.64,
+     "e": 9.68
+    },
+    {
+     "w": "tarde",
+     "s": 9.8,
+     "e": 10.08
+    },
+    {
+     "w": "da",
+     "s": 10.12,
+     "e": 10.16
+    },
+    {
+     "w": "noite.",
+     "s": 10.24,
+     "e": 11.12
+    },
+    {
+     "w": "E",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "no",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "fim,",
+     "s": 11.4,
+     "e": 11.84
+    },
+    {
+     "w": "o",
+     "s": 11.88,
+     "e": 11.92
+    },
+    {
+     "w": "orçamento",
+     "s": 12,
+     "e": 12.48
+    },
+    {
+     "w": "sai",
+     "s": 12.52,
+     "e": 12.64
+    },
+    {
+     "w": "num",
+     "s": 12.72,
+     "e": 12.88
+    },
+    {
+     "w": "texto",
+     "s": 13.04,
+     "e": 13.2
+    },
+    {
+     "w": "corrido",
+     "s": 13.28,
+     "e": 13.68
+    },
+    {
+     "w": "no",
+     "s": 13.76,
+     "e": 13.84
+    },
+    {
+     "w": "celular.",
+     "s": 13.92,
+     "e": 14.96
+    },
+    {
+     "w": "Hoje",
+     "s": 15.04,
+     "e": 15.28
+    },
+    {
+     "w": "você",
+     "s": 15.32,
+     "e": 15.52
+    },
+    {
+     "w": "vai",
+     "s": 15.56,
+     "e": 15.68
+    },
+    {
+     "w": "ver",
+     "s": 15.76,
+     "e": 15.84
+    },
+    {
+     "w": "o",
+     "s": 15.92,
+     "e": 16
+    },
+    {
+     "w": "Claude",
+     "s": 16.08,
+     "e": 16.4
+    },
+    {
+     "w": "fazer",
+     "s": 16.44,
+     "e": 16.72
+    },
+    {
+     "w": "essa",
+     "s": 16.84,
+     "e": 16.96
+    },
+    {
+     "w": "parte",
+     "s": 17.04,
+     "e": 17.28
+    },
+    {
+     "w": "por",
+     "s": 17.36,
+     "e": 17.44
+    },
+    {
+     "w": "você.",
+     "s": 17.48,
+     "e": 18.08
+    }
+   ],
+   "startFrame": 604,
+   "endFrame": 1154
+  },
+  {
+   "id": "C03",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E isso é oficial. Na central de ajuda da Anthropic, a empresa que faz o Claude, está escrito: o Claude cria planilhas do Excel, documentos do Word, apresentações e arquivos em PDF. E isso vale pra todos os planos, inclusive o gratuito, no navegador, no aplicativo do computador e no celular.",
+   "dados": {
+    "url": "support.claude.com/create-and-edit-files",
+    "selo": "Central de ajuda do Claude (oficial)",
+    "digitar": {
+     "ao": "E",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "ajuda-arquivos.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "todos",
+     "x": 406,
+     "y": 322,
+     "w": 808,
+     "h": 62,
+     "em": 401
+    },
+    "zoom": {
+     "z": 1.6,
+     "vx": 300,
+     "vy": 160
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "isso",
+     "s": 0.24,
+     "e": 0.48
+    },
+    {
+     "w": "é",
+     "s": 0.64,
+     "e": 0.72
+    },
+    {
+     "w": "oficial.",
+     "s": 0.84,
+     "e": 1.72
+    },
+    {
+     "w": "Na",
+     "s": 1.92,
+     "e": 2.08
+    },
+    {
+     "w": "central",
+     "s": 2.24,
+     "e": 2.4
+    },
+    {
+     "w": "de",
+     "s": 2.44,
+     "e": 2.48
+    },
+    {
+     "w": "ajuda",
+     "s": 2.56,
+     "e": 2.8
+    },
+    {
+     "w": "da",
+     "s": 2.88,
+     "e": 2.96
+    },
+    {
+     "w": "Anthropic,",
+     "s": 3.04,
+     "e": 3.68
+    },
+    {
+     "w": "a",
+     "s": 3.76,
+     "e": 3.8
+    },
+    {
+     "w": "empresa",
+     "s": 3.84,
+     "e": 4.16
+    },
+    {
+     "w": "que",
+     "s": 4.2,
+     "e": 4.24
+    },
+    {
+     "w": "faz",
+     "s": 4.32,
+     "e": 4.56
+    },
+    {
+     "w": "o",
+     "s": 4.6,
+     "e": 4.64
+    },
+    {
+     "w": "Claude,",
+     "s": 4.72,
+     "e": 5.12
+    },
+    {
+     "w": "está",
+     "s": 5.2,
+     "e": 5.44
+    },
+    {
+     "w": "escrito:",
+     "s": 5.52,
+     "e": 6.32
+    },
+    {
+     "w": "o",
+     "s": 6.4,
+     "e": 6.44
+    },
+    {
+     "w": "Claude",
+     "s": 6.48,
+     "e": 6.88
+    },
+    {
+     "w": "cria",
+     "s": 6.96,
+     "e": 7.12
+    },
+    {
+     "w": "planilhas",
+     "s": 7.2,
+     "e": 7.6
+    },
+    {
+     "w": "do",
+     "s": 7.64,
+     "e": 7.68
+    },
+    {
+     "w": "Excel,",
+     "s": 7.92,
+     "e": 8.32
+    },
+    {
+     "w": "documentos",
+     "s": 8.56,
+     "e": 8.96
+    },
+    {
+     "w": "do",
+     "s": 9,
+     "e": 9.04
+    },
+    {
+     "w": "Word,",
+     "s": 9.12,
+     "e": 9.6
+    },
+    {
+     "w": "apresentações",
+     "s": 9.68,
+     "e": 10.56
+    },
+    {
+     "w": "e",
+     "s": 10.64,
+     "e": 10.68
+    },
+    {
+     "w": "arquivos",
+     "s": 10.72,
+     "e": 11.2
+    },
+    {
+     "w": "em",
+     "s": 11.24,
+     "e": 11.28
+    },
+    {
+     "w": "PDF.",
+     "s": 11.36,
+     "e": 12
+    },
+    {
+     "w": "E",
+     "s": 12.48,
+     "e": 12.52
+    },
+    {
+     "w": "isso",
+     "s": 12.56,
+     "e": 12.72
+    },
+    {
+     "w": "vale",
+     "s": 12.8,
+     "e": 13.04
+    },
+    {
+     "w": "pra",
+     "s": 13.12,
+     "e": 13.2
+    },
+    {
+     "w": "todos",
+     "s": 13.36,
+     "e": 13.6
+    },
+    {
+     "w": "os",
+     "s": 13.68,
+     "e": 13.76
+    },
+    {
+     "w": "planos,",
+     "s": 13.84,
+     "e": 14.4
+    },
+    {
+     "w": "inclusive",
+     "s": 14.64,
+     "e": 14.88
+    },
+    {
+     "w": "o",
+     "s": 14.907,
+     "e": 14.933
+    },
+    {
+     "w": "gratuito,",
+     "s": 14.96,
+     "e": 15.64
+    },
+    {
+     "w": "no",
+     "s": 15.76,
+     "e": 15.84
+    },
+    {
+     "w": "navegador,",
+     "s": 15.893,
+     "e": 16.64
+    },
+    {
+     "w": "no",
+     "s": 16.68,
+     "e": 16.72
+    },
+    {
+     "w": "aplicativo",
+     "s": 16.8,
+     "e": 17.28
+    },
+    {
+     "w": "do",
+     "s": 17.32,
+     "e": 17.36
+    },
+    {
+     "w": "computador",
+     "s": 17.48,
+     "e": 17.92
+    },
+    {
+     "w": "e",
+     "s": 18.16,
+     "e": 18.24
+    },
+    {
+     "w": "no",
+     "s": 18.28,
+     "e": 18.32
+    },
+    {
+     "w": "celular.",
+     "s": 18.4,
+     "e": 19.12
+    }
+   ],
+   "startFrame": 1154,
+   "endFrame": 1736
+  },
+  {
+   "id": "C04",
+   "tipo": "cta",
+   "pose": "feliz",
+   "fala": "Antes de começar: se você quer usar a inteligência artificial pra trabalhar menos no seu negócio, deixa o like e se inscreve no canal. Toda semana tem um passo a passo novo aqui.",
+   "dados": {
+    "bg": "pexels/loja-1.mp4",
+    "sub2": "IA pro seu negócio, sem complicação",
+    "like": {
+     "ao": "like",
+     "em": 187
+    },
+    "sub": {
+     "ao": "inscreve",
+     "em": 200
+    },
+    "canal": "PhanterAI Creative",
+    "bgDur": 10
+   },
+   "words": [
+    {
+     "w": "Antes",
+     "s": 0,
+     "e": 0.28
+    },
+    {
+     "w": "de",
+     "s": 0.32,
+     "e": 0.36
+    },
+    {
+     "w": "começar:",
+     "s": 0.4,
+     "e": 1.36
+    },
+    {
+     "w": "se",
+     "s": 1.4,
+     "e": 1.44
+    },
+    {
+     "w": "você",
+     "s": 1.52,
+     "e": 1.76
+    },
+    {
+     "w": "quer",
+     "s": 1.84,
+     "e": 1.92
+    },
+    {
+     "w": "usar",
+     "s": 2,
+     "e": 2.16
+    },
+    {
+     "w": "a",
+     "s": 2.2,
+     "e": 2.24
+    },
+    {
+     "w": "inteligência",
+     "s": 2.32,
+     "e": 2.8
+    },
+    {
+     "w": "artificial",
+     "s": 2.88,
+     "e": 3.44
+    },
+    {
+     "w": "pra",
+     "s": 3.52,
+     "e": 3.6
+    },
+    {
+     "w": "trabalhar",
+     "s": 3.68,
+     "e": 4.16
+    },
+    {
+     "w": "menos",
+     "s": 4.24,
+     "e": 4.56
+    },
+    {
+     "w": "no",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "seu",
+     "s": 4.76,
+     "e": 4.88
+    },
+    {
+     "w": "negócio,",
+     "s": 5,
+     "e": 5.68
+    },
+    {
+     "w": "deixa",
+     "s": 5.76,
+     "e": 6
+    },
+    {
+     "w": "o",
+     "s": 6.04,
+     "e": 6.08
+    },
+    {
+     "w": "like",
+     "s": 6.24,
+     "e": 6.4
+    },
+    {
+     "w": "e",
+     "s": 6.44,
+     "e": 6.48
+    },
+    {
+     "w": "se",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "inscreve",
+     "s": 6.68,
+     "e": 7.04
+    },
+    {
+     "w": "no",
+     "s": 7.08,
+     "e": 7.12
+    },
+    {
+     "w": "canal.",
+     "s": 7.2,
+     "e": 7.84
+    },
+    {
+     "w": "Toda",
+     "s": 7.88,
+     "e": 8.08
+    },
+    {
+     "w": "semana",
+     "s": 8.16,
+     "e": 8.56
+    },
+    {
+     "w": "tem",
+     "s": 8.64,
+     "e": 8.72
+    },
+    {
+     "w": "um",
+     "s": 8.8,
+     "e": 8.88
+    },
+    {
+     "w": "passo",
+     "s": 8.96,
+     "e": 9.08
+    },
+    {
+     "w": "a",
+     "s": 9.12,
+     "e": 9.2
+    },
+    {
+     "w": "passo",
+     "s": 9.28,
+     "e": 9.44
+    },
+    {
+     "w": "novo",
+     "s": 9.52,
+     "e": 9.76
+    },
+    {
+     "w": "aqui.",
+     "s": 9.8,
+     "e": 10.32
+    }
+   ],
+   "startFrame": 1736,
+   "endFrame": 2054
+  },
+  {
+   "id": "C05",
+   "tipo": "fluxo",
+   "pantera": false,
+   "fala": "O plano é simples, são três passos. Primeiro: ligar a opção de criar arquivos. Segundo: fazer o pedido do orçamento com os seus dados. Terceiro: pedir a planilha e a mensagem pro cliente.",
+   "dados": {
+    "titulo": "O plano em 3 passos",
+    "etapas": [
+     {
+      "ao": "Primeiro",
+      "t": "Ligar a opção",
+      "sub": "criar e editar arquivos",
+      "em": 82
+     },
+     {
+      "ao": "Segundo",
+      "t": "Fazer o pedido",
+      "sub": "com os seus dados e preços",
+      "em": 175
+     },
+     {
+      "ao": "Terceiro",
+      "t": "Planilha e mensagem",
+      "sub": "pra controlar e enviar",
+      "em": 287
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "O",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "plano",
+     "s": 0.16,
+     "e": 0.32
+    },
+    {
+     "w": "é",
+     "s": 0.4,
+     "e": 0.48
+    },
+    {
+     "w": "simples,",
+     "s": 0.64,
+     "e": 1.2
+    },
+    {
+     "w": "são",
+     "s": 1.28,
+     "e": 1.52
+    },
+    {
+     "w": "três",
+     "s": 1.6,
+     "e": 1.84
+    },
+    {
+     "w": "passos.",
+     "s": 1.92,
+     "e": 2.56
+    },
+    {
+     "w": "Primeiro:",
+     "s": 2.72,
+     "e": 3.52
+    },
+    {
+     "w": "ligar",
+     "s": 3.64,
+     "e": 3.84
+    },
+    {
+     "w": "a",
+     "s": 3.92,
+     "e": 4
+    },
+    {
+     "w": "opção",
+     "s": 4.08,
+     "e": 4.32
+    },
+    {
+     "w": "de",
+     "s": 4.4,
+     "e": 4.48
+    },
+    {
+     "w": "criar",
+     "s": 4.56,
+     "e": 4.72
+    },
+    {
+     "w": "arquivos.",
+     "s": 4.8,
+     "e": 5.64
+    },
+    {
+     "w": "Segundo:",
+     "s": 5.84,
+     "e": 6.64
+    },
+    {
+     "w": "fazer",
+     "s": 6.68,
+     "e": 6.96
+    },
+    {
+     "w": "o",
+     "s": 7,
+     "e": 7.04
+    },
+    {
+     "w": "pedido",
+     "s": 7.24,
+     "e": 7.44
+    },
+    {
+     "w": "do",
+     "s": 7.48,
+     "e": 7.52
+    },
+    {
+     "w": "orçamento",
+     "s": 7.6,
+     "e": 8.16
+    },
+    {
+     "w": "com",
+     "s": 8.2,
+     "e": 8.24
+    },
+    {
+     "w": "os",
+     "s": 8.32,
+     "e": 8.4
+    },
+    {
+     "w": "seus",
+     "s": 8.44,
+     "e": 8.64
+    },
+    {
+     "w": "dados.",
+     "s": 8.88,
+     "e": 9.44
+    },
+    {
+     "w": "Terceiro:",
+     "s": 9.56,
+     "e": 10.32
+    },
+    {
+     "w": "pedir",
+     "s": 10.4,
+     "e": 10.64
+    },
+    {
+     "w": "a",
+     "s": 10.72,
+     "e": 10.76
+    },
+    {
+     "w": "planilha",
+     "s": 10.8,
+     "e": 11.36
+    },
+    {
+     "w": "e",
+     "s": 11.4,
+     "e": 11.44
+    },
+    {
+     "w": "a",
+     "s": 11.467,
+     "e": 11.493
+    },
+    {
+     "w": "mensagem",
+     "s": 11.52,
+     "e": 12
+    },
+    {
+     "w": "pro",
+     "s": 12.08,
+     "e": 12.16
+    },
+    {
+     "w": "cliente.",
+     "s": 12.24,
+     "e": 12.88
+    }
+   ],
+   "startFrame": 2054,
+   "endFrame": 2448
+  },
+  {
+   "id": "C06",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "Passo um. Entre no site do Claude, ou abra o aplicativo do Claude no computador. Abra as Configurações e entre em Capacidades. Procure a opção criar e editar arquivos, e deixe ligada. No plano gratuito, ela já vem ligada, mas vale conferir.",
+   "dados": {
+    "url": "claude.ai/settings/capabilities",
+    "selo": "Configurações > Capacidades",
+    "digitar": {
+     "ao": "Passo",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "Passo",
+      "arq": "config-capacidades.png",
+      "em": 0
+     }
+    ],
+    "cliques": [
+     {
+      "ao": "Capacidades",
+      "x": 150,
+      "y": 314,
+      "em": 230
+     }
+    ],
+    "destaque": {
+     "ao": "ligada",
+     "x": 380,
+     "y": 137,
+     "w": 1100,
+     "h": 114,
+     "em": 372
+    }
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.4
+    },
+    {
+     "w": "um.",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "Entre",
+     "s": 1.2,
+     "e": 1.44
+    },
+    {
+     "w": "no",
+     "s": 1.52,
+     "e": 1.6
+    },
+    {
+     "w": "site",
+     "s": 1.68,
+     "e": 1.92
+    },
+    {
+     "w": "do",
+     "s": 2,
+     "e": 2.08
+    },
+    {
+     "w": "Claude,",
+     "s": 2.16,
+     "e": 2.72
+    },
+    {
+     "w": "ou",
+     "s": 2.8,
+     "e": 2.96
+    },
+    {
+     "w": "abra",
+     "s": 3.04,
+     "e": 3.28
+    },
+    {
+     "w": "o",
+     "s": 3.307,
+     "e": 3.333
+    },
+    {
+     "w": "aplicativo",
+     "s": 3.36,
+     "e": 3.92
+    },
+    {
+     "w": "do",
+     "s": 3.96,
+     "e": 4
+    },
+    {
+     "w": "Claude",
+     "s": 4.08,
+     "e": 4.4
+    },
+    {
+     "w": "no",
+     "s": 4.44,
+     "e": 4.48
+    },
+    {
+     "w": "computador.",
+     "s": 4.56,
+     "e": 5.4
+    },
+    {
+     "w": "Abra",
+     "s": 5.68,
+     "e": 5.92
+    },
+    {
+     "w": "as",
+     "s": 5.96,
+     "e": 6
+    },
+    {
+     "w": "Configurações",
+     "s": 6.16,
+     "e": 6.96
+    },
+    {
+     "w": "e",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "entre",
+     "s": 7.2,
+     "e": 7.52
+    },
+    {
+     "w": "em",
+     "s": 7.56,
+     "e": 7.6
+    },
+    {
+     "w": "Capacidades.",
+     "s": 7.68,
+     "e": 8.72
+    },
+    {
+     "w": "Procure",
+     "s": 9.12,
+     "e": 9.44
+    },
+    {
+     "w": "a",
+     "s": 9.467,
+     "e": 9.493
+    },
+    {
+     "w": "opção",
+     "s": 9.52,
+     "e": 9.92
+    },
+    {
+     "w": "criar",
+     "s": 10.08,
+     "e": 10.56
+    },
+    {
+     "w": "e",
+     "s": 10.64,
+     "e": 10.68
+    },
+    {
+     "w": "editar",
+     "s": 10.72,
+     "e": 11.12
+    },
+    {
+     "w": "arquivos,",
+     "s": 11.2,
+     "e": 11.88
+    },
+    {
+     "w": "e",
+     "s": 12,
+     "e": 12.04
+    },
+    {
+     "w": "deixe",
+     "s": 12.08,
+     "e": 12.32
+    },
+    {
+     "w": "ligada.",
+     "s": 12.4,
+     "e": 13.04
+    },
+    {
+     "w": "No",
+     "s": 13.28,
+     "e": 13.36
+    },
+    {
+     "w": "plano",
+     "s": 13.44,
+     "e": 13.6
+    },
+    {
+     "w": "gratuito,",
+     "s": 13.68,
+     "e": 14.32
+    },
+    {
+     "w": "ela",
+     "s": 14.4,
+     "e": 14.48
+    },
+    {
+     "w": "já",
+     "s": 14.56,
+     "e": 14.72
+    },
+    {
+     "w": "vem",
+     "s": 14.8,
+     "e": 14.96
+    },
+    {
+     "w": "ligada,",
+     "s": 15.04,
+     "e": 15.6
+    },
+    {
+     "w": "mas",
+     "s": 15.72,
+     "e": 15.84
+    },
+    {
+     "w": "vale",
+     "s": 15.92,
+     "e": 16.08
+    },
+    {
+     "w": "conferir.",
+     "s": 16.16,
+     "e": 16.88
+    }
+   ],
+   "startFrame": 2448,
+   "endFrame": 2963
+  },
+  {
+   "id": "C07",
+   "tipo": "desktop-pedido",
+   "pose": "apontando",
+   "pantera": false,
+   "fala": "Passo dois: o pedido. Abra uma conversa nova e escreva tudo de uma vez: quem é você, quem é o cliente, o que ele pediu, e os seus preços. Olha o meu exemplo, de uma confeitaria. Um bolo de três quilos, cem brigadeiros, cinquenta beijinhos, cinquenta bem-casados, e a entrega. Sinal de cinquenta por cento, e validade de sete dias.",
+   "dados": {
+    "pedido": "Crie um orçamento em PDF da Doce Ana Confeitaria para Juliana Souza, festa de 5 anos do Theo em 13/12. Bolo de chocolate 3 kg R$ 270, 100 brigadeiros a R$ 1,50, 50 beijinhos a R$ 1,50, 50 bem-casados a R$ 3,50 e entrega R$ 40. Sinal de 50% e validade de 7 dias.",
+    "a": {
+     "ao": "escreva",
+     "em": 120
+    },
+    "acoes": [
+     {
+      "ao": "Sinal",
+      "txt": "Criando o arquivo orcamento-juliana.pdf",
+      "em": 595
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "dois:",
+     "s": 0.4,
+     "e": 1.12
+    },
+    {
+     "w": "o",
+     "s": 1.16,
+     "e": 1.2
+    },
+    {
+     "w": "pedido.",
+     "s": 1.28,
+     "e": 1.84
+    },
+    {
+     "w": "Abra",
+     "s": 2.4,
+     "e": 2.64
+    },
+    {
+     "w": "uma",
+     "s": 2.68,
+     "e": 2.72
+    },
+    {
+     "w": "conversa",
+     "s": 2.8,
+     "e": 3.2
+    },
+    {
+     "w": "nova",
+     "s": 3.36,
+     "e": 3.76
+    },
+    {
+     "w": "e",
+     "s": 3.84,
+     "e": 3.92
+    },
+    {
+     "w": "escreva",
+     "s": 4,
+     "e": 4.48
+    },
+    {
+     "w": "tudo",
+     "s": 4.56,
+     "e": 4.72
+    },
+    {
+     "w": "de",
+     "s": 4.8,
+     "e": 4.84
+    },
+    {
+     "w": "uma",
+     "s": 4.88,
+     "e": 5.04
+    },
+    {
+     "w": "vez:",
+     "s": 5.12,
+     "e": 5.76
+    },
+    {
+     "w": "quem",
+     "s": 5.8,
+     "e": 5.92
+    },
+    {
+     "w": "é",
+     "s": 5.96,
+     "e": 6
+    },
+    {
+     "w": "você,",
+     "s": 6.08,
+     "e": 6.8
+    },
+    {
+     "w": "quem",
+     "s": 6.84,
+     "e": 6.96
+    },
+    {
+     "w": "é",
+     "s": 7.04,
+     "e": 7.067
+    },
+    {
+     "w": "o",
+     "s": 7.093,
+     "e": 7.12
+    },
+    {
+     "w": "cliente,",
+     "s": 7.2,
+     "e": 7.92
+    },
+    {
+     "w": "o",
+     "s": 7.96,
+     "e": 8
+    },
+    {
+     "w": "que",
+     "s": 8.08,
+     "e": 8.16
+    },
+    {
+     "w": "ele",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "pediu,",
+     "s": 8.4,
+     "e": 8.96
+    },
+    {
+     "w": "e",
+     "s": 9,
+     "e": 9.04
+    },
+    {
+     "w": "os",
+     "s": 9.08,
+     "e": 9.12
+    },
+    {
+     "w": "seus",
+     "s": 9.16,
+     "e": 9.36
+    },
+    {
+     "w": "preços.",
+     "s": 9.44,
+     "e": 10.16
+    },
+    {
+     "w": "Olha",
+     "s": 10.4,
+     "e": 10.56
+    },
+    {
+     "w": "o",
+     "s": 10.587,
+     "e": 10.613
+    },
+    {
+     "w": "meu",
+     "s": 10.64,
+     "e": 10.76
+    },
+    {
+     "w": "exemplo,",
+     "s": 10.8,
+     "e": 11.36
+    },
+    {
+     "w": "de",
+     "s": 11.44,
+     "e": 11.48
+    },
+    {
+     "w": "uma",
+     "s": 11.52,
+     "e": 11.6
+    },
+    {
+     "w": "confeitaria.",
+     "s": 11.68,
+     "e": 12.4
+    },
+    {
+     "w": "Um",
+     "s": 12.96,
+     "e": 13.04
+    },
+    {
+     "w": "bolo",
+     "s": 13.12,
+     "e": 13.36
+    },
+    {
+     "w": "de",
+     "s": 13.44,
+     "e": 13.52
+    },
+    {
+     "w": "três",
+     "s": 13.6,
+     "e": 13.84
+    },
+    {
+     "w": "quilos,",
+     "s": 13.92,
+     "e": 14.64
+    },
+    {
+     "w": "cem",
+     "s": 14.72,
+     "e": 14.88
+    },
+    {
+     "w": "brigadeiros,",
+     "s": 15,
+     "e": 15.84
+    },
+    {
+     "w": "cinquenta",
+     "s": 15.96,
+     "e": 16.32
+    },
+    {
+     "w": "beijinhos,",
+     "s": 16.4,
+     "e": 17.2
+    },
+    {
+     "w": "cinquenta",
+     "s": 17.32,
+     "e": 17.68
+    },
+    {
+     "w": "bem-casados,",
+     "s": 17.76,
+     "e": 18.64
+    },
+    {
+     "w": "e",
+     "s": 18.72,
+     "e": 18.8
+    },
+    {
+     "w": "a",
+     "s": 18.84,
+     "e": 18.88
+    },
+    {
+     "w": "entrega.",
+     "s": 18.96,
+     "e": 19.44
+    },
+    {
+     "w": "Sinal",
+     "s": 19.84,
+     "e": 20.08
+    },
+    {
+     "w": "de",
+     "s": 20.12,
+     "e": 20.16
+    },
+    {
+     "w": "cinquenta",
+     "s": 20.24,
+     "e": 20.56
+    },
+    {
+     "w": "por",
+     "s": 20.64,
+     "e": 20.8
+    },
+    {
+     "w": "cento,",
+     "s": 20.88,
+     "e": 21.36
+    },
+    {
+     "w": "e",
+     "s": 21.387,
+     "e": 21.413
+    },
+    {
+     "w": "validade",
+     "s": 21.44,
+     "e": 22
+    },
+    {
+     "w": "de",
+     "s": 22.08,
+     "e": 22.16
+    },
+    {
+     "w": "sete",
+     "s": 22.24,
+     "e": 22.48
+    },
+    {
+     "w": "dias.",
+     "s": 22.56,
+     "e": 23.2
+    }
+   ],
+   "startFrame": 2963,
+   "endFrame": 3669
+  },
+  {
+   "id": "C08",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E olha o que volta. Um PDF de verdade, com o nome da confeitaria, os dados da cliente, a tabela com cada item, quantidade e preço, e o total já somado: setecentos e dez reais. Embaixo, o sinal de trezentos e cinquenta e cinco reais pra reservar a data, a forma de pagamento e a validade. É só clicar e baixar.",
+   "dados": {
+    "url": "orcamento-juliana.pdf",
+    "selo": "O PDF que o Claude entregou",
+    "digitar": {
+     "ao": "E",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "pdf-topo.png",
+      "em": 0
+     },
+     {
+      "ao": "setecentos",
+      "arq": "pdf-meio.png",
+      "em": 317
+     }
+    ],
+    "destaque": {
+     "ao": "Embaixo",
+     "x": 364,
+     "y": 607,
+     "w": 280,
+     "h": 122,
+     "em": 377
+    },
+    "zoom": {
+     "z": 1.25,
+     "vx": 280,
+     "vy": 150
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "olha",
+     "s": 0.24,
+     "e": 0.347
+    },
+    {
+     "w": "o",
+     "s": 0.373,
+     "e": 0.4
+    },
+    {
+     "w": "que",
+     "s": 0.44,
+     "e": 0.48
+    },
+    {
+     "w": "volta.",
+     "s": 0.56,
+     "e": 1.04
+    },
+    {
+     "w": "Um",
+     "s": 1.28,
+     "e": 1.36
+    },
+    {
+     "w": "PDF",
+     "s": 1.6,
+     "e": 2.16
+    },
+    {
+     "w": "de",
+     "s": 2.24,
+     "e": 2.32
+    },
+    {
+     "w": "verdade,",
+     "s": 2.4,
+     "e": 3.2
+    },
+    {
+     "w": "com",
+     "s": 3.28,
+     "e": 3.36
+    },
+    {
+     "w": "o",
+     "s": 3.4,
+     "e": 3.44
+    },
+    {
+     "w": "nome",
+     "s": 3.56,
+     "e": 3.68
+    },
+    {
+     "w": "da",
+     "s": 3.72,
+     "e": 3.76
+    },
+    {
+     "w": "confeitaria,",
+     "s": 3.84,
+     "e": 4.64
+    },
+    {
+     "w": "os",
+     "s": 4.72,
+     "e": 4.8
+    },
+    {
+     "w": "dados",
+     "s": 4.88,
+     "e": 5.2
+    },
+    {
+     "w": "da",
+     "s": 5.24,
+     "e": 5.28
+    },
+    {
+     "w": "cliente,",
+     "s": 5.36,
+     "e": 6
+    },
+    {
+     "w": "a",
+     "s": 6.04,
+     "e": 6.08
+    },
+    {
+     "w": "tabela",
+     "s": 6.16,
+     "e": 6.56
+    },
+    {
+     "w": "com",
+     "s": 6.64,
+     "e": 6.72
+    },
+    {
+     "w": "cada",
+     "s": 6.8,
+     "e": 7.04
+    },
+    {
+     "w": "item,",
+     "s": 7.2,
+     "e": 7.52
+    },
+    {
+     "w": "quantidade",
+     "s": 7.64,
+     "e": 8.16
+    },
+    {
+     "w": "e",
+     "s": 8.24,
+     "e": 8.32
+    },
+    {
+     "w": "preço,",
+     "s": 8.4,
+     "e": 9.12
+    },
+    {
+     "w": "e",
+     "s": 9.16,
+     "e": 9.2
+    },
+    {
+     "w": "o",
+     "s": 9.227,
+     "e": 9.253
+    },
+    {
+     "w": "total",
+     "s": 9.28,
+     "e": 9.6
+    },
+    {
+     "w": "já",
+     "s": 9.64,
+     "e": 9.76
+    },
+    {
+     "w": "somado:",
+     "s": 9.88,
+     "e": 10.48
+    },
+    {
+     "w": "setecentos",
+     "s": 10.56,
+     "e": 11.2
+    },
+    {
+     "w": "e",
+     "s": 11.253,
+     "e": 11.307
+    },
+    {
+     "w": "dez",
+     "s": 11.36,
+     "e": 11.52
+    },
+    {
+     "w": "reais.",
+     "s": 11.6,
+     "e": 12.16
+    },
+    {
+     "w": "Embaixo,",
+     "s": 12.56,
+     "e": 13.16
+    },
+    {
+     "w": "o",
+     "s": 13.2,
+     "e": 13.24
+    },
+    {
+     "w": "sinal",
+     "s": 13.28,
+     "e": 13.52
+    },
+    {
+     "w": "de",
+     "s": 13.6,
+     "e": 13.68
+    },
+    {
+     "w": "trezentos",
+     "s": 13.76,
+     "e": 14.16
+    },
+    {
+     "w": "e",
+     "s": 14.24,
+     "e": 14.32
+    },
+    {
+     "w": "cinquenta",
+     "s": 14.36,
+     "e": 14.56
+    },
+    {
+     "w": "e",
+     "s": 14.64,
+     "e": 14.72
+    },
+    {
+     "w": "cinco",
+     "s": 14.76,
+     "e": 14.88
+    },
+    {
+     "w": "reais",
+     "s": 14.96,
+     "e": 15.2
+    },
+    {
+     "w": "pra",
+     "s": 15.28,
+     "e": 15.36
+    },
+    {
+     "w": "reservar",
+     "s": 15.44,
+     "e": 15.84
+    },
+    {
+     "w": "a",
+     "s": 15.88,
+     "e": 15.92
+    },
+    {
+     "w": "data,",
+     "s": 16,
+     "e": 16.56
+    },
+    {
+     "w": "a",
+     "s": 16.613,
+     "e": 16.667
+    },
+    {
+     "w": "forma",
+     "s": 16.72,
+     "e": 16.96
+    },
+    {
+     "w": "de",
+     "s": 17,
+     "e": 17.04
+    },
+    {
+     "w": "pagamento",
+     "s": 17.12,
+     "e": 17.68
+    },
+    {
+     "w": "e",
+     "s": 17.76,
+     "e": 17.8
+    },
+    {
+     "w": "a",
+     "s": 17.84,
+     "e": 17.88
+    },
+    {
+     "w": "validade.",
+     "s": 17.92,
+     "e": 18.8
+    },
+    {
+     "w": "É",
+     "s": 18.84,
+     "e": 18.88
+    },
+    {
+     "w": "só",
+     "s": 18.96,
+     "e": 19.04
+    },
+    {
+     "w": "clicar",
+     "s": 19.12,
+     "e": 19.44
+    },
+    {
+     "w": "e",
+     "s": 19.48,
+     "e": 19.52
+    },
+    {
+     "w": "baixar.",
+     "s": 19.56,
+     "e": 20.24
+    }
+   ],
+   "startFrame": 3669,
+   "endFrame": 4285
+  },
+  {
+   "id": "C09",
+   "tipo": "cartoes",
+   "pose": "apontando",
+   "pantera": false,
+   "fala": "Agora, a dica de ouro: confira as contas. O preço é seu, e quem manda o orçamento é você. Eu conferi: duzentos e setenta do bolo, mais cento e cinquenta, setenta e cinco, cento e setenta e cinco, e quarenta da entrega. Setecentos e dez. Bateu certinho.",
+   "dados": {
+    "titulo": "Conferi as contas",
+    "cols": 2,
+    "w": 820,
+    "check": true,
+    "itens": [
+     {
+      "ao": "duzentos",
+      "t": "Bolo 3 kg: R$ 270",
+      "em": 258
+     },
+     {
+      "ao": "cento",
+      "t": "100 brigadeiros: R$ 150",
+      "em": 319
+     },
+     {
+      "ao": "setenta",
+      "t": "50 beijinhos: R$ 75",
+      "em": 276
+     },
+     {
+      "ao": "cento#2",
+      "t": "50 bem-casados: R$ 175",
+      "em": 394
+     },
+     {
+      "ao": "quarenta",
+      "t": "Entrega: R$ 40",
+      "em": 443
+     }
+    ],
+    "pilula": {
+     "ao": "Bateu",
+     "txt": "Total R$ 710: bateu certinho",
+     "cor": "verde",
+     "sfx": "coin",
+     "em": 523
+    }
+   },
+   "words": [
+    {
+     "w": "Agora,",
+     "s": 0,
+     "e": 0.64
+    },
+    {
+     "w": "a",
+     "s": 0.72,
+     "e": 0.8
+    },
+    {
+     "w": "dica",
+     "s": 0.96,
+     "e": 1.28
+    },
+    {
+     "w": "de",
+     "s": 1.36,
+     "e": 1.44
+    },
+    {
+     "w": "ouro:",
+     "s": 1.52,
+     "e": 2.16
+    },
+    {
+     "w": "confira",
+     "s": 2.36,
+     "e": 2.72
+    },
+    {
+     "w": "as",
+     "s": 2.84,
+     "e": 2.96
+    },
+    {
+     "w": "contas.",
+     "s": 3.04,
+     "e": 3.6
+    },
+    {
+     "w": "O",
+     "s": 3.92,
+     "e": 4
+    },
+    {
+     "w": "preço",
+     "s": 4.08,
+     "e": 4.32
+    },
+    {
+     "w": "é",
+     "s": 4.4,
+     "e": 4.48
+    },
+    {
+     "w": "seu,",
+     "s": 4.56,
+     "e": 4.96
+    },
+    {
+     "w": "e",
+     "s": 5,
+     "e": 5.04
+    },
+    {
+     "w": "quem",
+     "s": 5.12,
+     "e": 5.28
+    },
+    {
+     "w": "manda",
+     "s": 5.4,
+     "e": 5.52
+    },
+    {
+     "w": "o",
+     "s": 5.56,
+     "e": 5.6
+    },
+    {
+     "w": "orçamento",
+     "s": 5.68,
+     "e": 6.24
+    },
+    {
+     "w": "é",
+     "s": 6.4,
+     "e": 6.44
+    },
+    {
+     "w": "você.",
+     "s": 6.48,
+     "e": 7.04
+    },
+    {
+     "w": "Eu",
+     "s": 7.52,
+     "e": 7.6
+    },
+    {
+     "w": "conferi:",
+     "s": 7.68,
+     "e": 8.56
+    },
+    {
+     "w": "duzentos",
+     "s": 8.6,
+     "e": 8.96
+    },
+    {
+     "w": "e",
+     "s": 9.04,
+     "e": 9.12
+    },
+    {
+     "w": "setenta",
+     "s": 9.2,
+     "e": 9.44
+    },
+    {
+     "w": "do",
+     "s": 9.52,
+     "e": 9.6
+    },
+    {
+     "w": "bolo,",
+     "s": 9.68,
+     "e": 10.24
+    },
+    {
+     "w": "mais",
+     "s": 10.32,
+     "e": 10.56
+    },
+    {
+     "w": "cento",
+     "s": 10.64,
+     "e": 10.8
+    },
+    {
+     "w": "e",
+     "s": 10.84,
+     "e": 10.88
+    },
+    {
+     "w": "cinquenta,",
+     "s": 10.96,
+     "e": 11.84
+    },
+    {
+     "w": "setenta",
+     "s": 11.92,
+     "e": 12.16
+    },
+    {
+     "w": "e",
+     "s": 12.24,
+     "e": 12.32
+    },
+    {
+     "w": "cinco,",
+     "s": 12.4,
+     "e": 13.04
+    },
+    {
+     "w": "cento",
+     "s": 13.12,
+     "e": 13.32
+    },
+    {
+     "w": "e",
+     "s": 13.36,
+     "e": 13.4
+    },
+    {
+     "w": "setenta",
+     "s": 13.44,
+     "e": 13.68
+    },
+    {
+     "w": "e",
+     "s": 13.76,
+     "e": 13.92
+    },
+    {
+     "w": "cinco,",
+     "s": 14,
+     "e": 14.4
+    },
+    {
+     "w": "e",
+     "s": 14.56,
+     "e": 14.72
+    },
+    {
+     "w": "quarenta",
+     "s": 14.76,
+     "e": 15.08
+    },
+    {
+     "w": "da",
+     "s": 15.12,
+     "e": 15.2
+    },
+    {
+     "w": "entrega.",
+     "s": 15.28,
+     "e": 16.08
+    },
+    {
+     "w": "Setecentos",
+     "s": 16.16,
+     "e": 16.64
+    },
+    {
+     "w": "e",
+     "s": 16.72,
+     "e": 16.8
+    },
+    {
+     "w": "dez.",
+     "s": 16.96,
+     "e": 17.2
+    },
+    {
+     "w": "Bateu",
+     "s": 17.44,
+     "e": 17.76
+    },
+    {
+     "w": "certinho.",
+     "s": 17.92,
+     "e": 18.8
+    }
+   ],
+   "startFrame": 4285,
+   "endFrame": 4857
+  },
+  {
+   "id": "C10",
+   "tipo": "desktop-pedido",
+   "pose": "feliz",
+   "pantera": false,
+   "fala": "Passo três. Na mesma conversa, peça: agora crie uma planilha do Excel pra eu controlar os meus orçamentos, com data, cliente, evento, valor, sinal, e se fechou ou não.",
+   "dados": {
+    "pedido": "Agora crie uma planilha do Excel para eu controlar os meus orçamentos, com data, cliente, evento, valor, sinal e se fechou ou não.",
+    "a": {
+     "ao": "peça",
+     "em": 74
+    },
+    "acoes": [
+     {
+      "ao": "sinal",
+      "txt": "Criando o arquivo controle-de-orcamentos.xlsx",
+      "em": 313
+     }
+    ],
+    "fim": {
+     "ao": "não",
+     "txt": "Pronto! Sua planilha de controle está pronta para baixar.",
+     "em": 360
+    },
+    "thumb": "render/planilha-thumb.png"
+   },
+   "words": [
+    {
+     "w": "Passo",
+     "s": 0,
+     "e": 0.32
+    },
+    {
+     "w": "três.",
+     "s": 0.4,
+     "e": 1.08
+    },
+    {
+     "w": "Na",
+     "s": 1.28,
+     "e": 1.36
+    },
+    {
+     "w": "mesma",
+     "s": 1.44,
+     "e": 1.6
+    },
+    {
+     "w": "conversa,",
+     "s": 1.68,
+     "e": 2.4
+    },
+    {
+     "w": "peça:",
+     "s": 2.48,
+     "e": 2.96
+    },
+    {
+     "w": "agora",
+     "s": 3.44,
+     "e": 3.76
+    },
+    {
+     "w": "crie",
+     "s": 3.92,
+     "e": 4.12
+    },
+    {
+     "w": "uma",
+     "s": 4.16,
+     "e": 4.32
+    },
+    {
+     "w": "planilha",
+     "s": 4.44,
+     "e": 4.72
+    },
+    {
+     "w": "do",
+     "s": 4.76,
+     "e": 4.8
+    },
+    {
+     "w": "Excel",
+     "s": 5.08,
+     "e": 5.36
+    },
+    {
+     "w": "pra",
+     "s": 5.4,
+     "e": 5.44
+    },
+    {
+     "w": "eu",
+     "s": 5.52,
+     "e": 5.6
+    },
+    {
+     "w": "controlar",
+     "s": 5.76,
+     "e": 6
+    },
+    {
+     "w": "os",
+     "s": 6.08,
+     "e": 6.16
+    },
+    {
+     "w": "meus",
+     "s": 6.2,
+     "e": 6.32
+    },
+    {
+     "w": "orçamentos,",
+     "s": 6.4,
+     "e": 7.28
+    },
+    {
+     "w": "com",
+     "s": 7.36,
+     "e": 7.44
+    },
+    {
+     "w": "data,",
+     "s": 7.52,
+     "e": 8.08
+    },
+    {
+     "w": "cliente,",
+     "s": 8.4,
+     "e": 8.88
+    },
+    {
+     "w": "evento,",
+     "s": 9.2,
+     "e": 9.68
+    },
+    {
+     "w": "valor,",
+     "s": 9.92,
+     "e": 10.4
+    },
+    {
+     "w": "sinal,",
+     "s": 10.44,
+     "e": 11.12
+    },
+    {
+     "w": "e",
+     "s": 11.16,
+     "e": 11.2
+    },
+    {
+     "w": "se",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "fechou",
+     "s": 11.48,
+     "e": 11.84
+    },
+    {
+     "w": "ou",
+     "s": 11.88,
+     "e": 11.92
+    },
+    {
+     "w": "não.",
+     "s": 12,
+     "e": 12.48
+    }
+   ],
+   "startFrame": 4857,
+   "endFrame": 5239
+  },
+  {
+   "id": "C11",
+   "tipo": "navegador-print",
+   "pantera": false,
+   "fala": "E aqui está a planilha. Cada orçamento numa linha, a coluna de status com aguardando, fechado ou recusado, e lá embaixo, o total orçado e o total fechado no mês. Você baixa e abre no Excel, ou salva direto no Google Drive, e vai preenchendo a cada cliente novo.",
+   "dados": {
+    "url": "controle-de-orcamentos.xlsx",
+    "selo": "Planilha de controle",
+    "digitar": {
+     "ao": "E",
+     "em": 0
+    },
+    "telas": [
+     {
+      "ao": "E",
+      "arq": "planilha.png",
+      "em": 0
+     }
+    ],
+    "destaque": {
+     "ao": "total",
+     "x": 0,
+     "y": 506,
+     "w": 760,
+     "h": 104,
+     "em": 250
+    },
+    "zoom": {
+     "z": 1.45,
+     "vx": 0,
+     "vy": 120
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "aqui",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "está",
+     "s": 0.52,
+     "e": 0.667
+    },
+    {
+     "w": "a",
+     "s": 0.693,
+     "e": 0.72
+    },
+    {
+     "w": "planilha.",
+     "s": 0.8,
+     "e": 1.48
+    },
+    {
+     "w": "Cada",
+     "s": 1.68,
+     "e": 1.84
+    },
+    {
+     "w": "orçamento",
+     "s": 1.92,
+     "e": 2.48
+    },
+    {
+     "w": "numa",
+     "s": 2.56,
+     "e": 2.68
+    },
+    {
+     "w": "linha,",
+     "s": 2.72,
+     "e": 3.28
+    },
+    {
+     "w": "a",
+     "s": 3.32,
+     "e": 3.36
+    },
+    {
+     "w": "coluna",
+     "s": 3.44,
+     "e": 3.76
+    },
+    {
+     "w": "de",
+     "s": 3.84,
+     "e": 3.92
+    },
+    {
+     "w": "status",
+     "s": 4,
+     "e": 4.48
+    },
+    {
+     "w": "com",
+     "s": 4.56,
+     "e": 4.72
+    },
+    {
+     "w": "aguardando,",
+     "s": 4.8,
+     "e": 5.52
+    },
+    {
+     "w": "fechado",
+     "s": 5.6,
+     "e": 6.16
+    },
+    {
+     "w": "ou",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "recusado,",
+     "s": 6.48,
+     "e": 7.36
+    },
+    {
+     "w": "e",
+     "s": 7.4,
+     "e": 7.44
+    },
+    {
+     "w": "lá",
+     "s": 7.48,
+     "e": 7.52
+    },
+    {
+     "w": "embaixo,",
+     "s": 7.6,
+     "e": 8.16
+    },
+    {
+     "w": "o",
+     "s": 8.2,
+     "e": 8.24
+    },
+    {
+     "w": "total",
+     "s": 8.32,
+     "e": 8.64
+    },
+    {
+     "w": "orçado",
+     "s": 8.76,
+     "e": 9.2
+    },
+    {
+     "w": "e",
+     "s": 9.28,
+     "e": 9.36
+    },
+    {
+     "w": "o",
+     "s": 9.387,
+     "e": 9.413
+    },
+    {
+     "w": "total",
+     "s": 9.44,
+     "e": 9.76
+    },
+    {
+     "w": "fechado",
+     "s": 9.88,
+     "e": 10.24
+    },
+    {
+     "w": "no",
+     "s": 10.32,
+     "e": 10.4
+    },
+    {
+     "w": "mês.",
+     "s": 10.44,
+     "e": 10.8
+    },
+    {
+     "w": "Você",
+     "s": 11.2,
+     "e": 11.44
+    },
+    {
+     "w": "baixa",
+     "s": 11.52,
+     "e": 11.92
+    },
+    {
+     "w": "e",
+     "s": 12,
+     "e": 12.08
+    },
+    {
+     "w": "abre",
+     "s": 12.16,
+     "e": 12.32
+    },
+    {
+     "w": "no",
+     "s": 12.36,
+     "e": 12.4
+    },
+    {
+     "w": "Excel,",
+     "s": 12.64,
+     "e": 13.04
+    },
+    {
+     "w": "ou",
+     "s": 13.12,
+     "e": 13.28
+    },
+    {
+     "w": "salva",
+     "s": 13.36,
+     "e": 13.6
+    },
+    {
+     "w": "direto",
+     "s": 13.68,
+     "e": 13.92
+    },
+    {
+     "w": "no",
+     "s": 14,
+     "e": 14.08
+    },
+    {
+     "w": "Google",
+     "s": 14.2,
+     "e": 14.32
+    },
+    {
+     "w": "Drive,",
+     "s": 14.4,
+     "e": 15.04
+    },
+    {
+     "w": "e",
+     "s": 15.08,
+     "e": 15.12
+    },
+    {
+     "w": "vai",
+     "s": 15.2,
+     "e": 15.28
+    },
+    {
+     "w": "preenchendo",
+     "s": 15.36,
+     "e": 15.84
+    },
+    {
+     "w": "a",
+     "s": 15.88,
+     "e": 15.92
+    },
+    {
+     "w": "cada",
+     "s": 16,
+     "e": 16.24
+    },
+    {
+     "w": "cliente",
+     "s": 16.32,
+     "e": 16.64
+    },
+    {
+     "w": "novo.",
+     "s": 16.72,
+     "e": 17.28
+    }
+   ],
+   "startFrame": 5239,
+   "endFrame": 5766
+  },
+  {
+   "id": "C12",
+   "tipo": "desktop-pedido",
+   "pose": "comemorando",
+   "pantera": false,
+   "fala": "E o bônus: peça também a mensagem pra mandar junto. Escreva: crie uma mensagem curta e simpática pra eu mandar no WhatsApp com esse orçamento. Em segundos, ela está pronta. É só copiar, colar, e anexar o PDF.",
+   "dados": {
+    "pedido": "Crie uma mensagem curta e simpática para eu mandar no WhatsApp com esse orçamento.",
+    "a": {
+     "ao": "Escreva",
+     "em": 106
+    },
+    "fim": {
+     "ao": "segundos",
+     "txt": "Oi, Juliana! Tudo bem? Segue o orçamento da festa do Theo, no dia 13/12: R$ 710,00. Para reservar a data, é só fazer o sinal de R$ 355,00. Qualquer dúvida, estou por aqui!",
+     "em": 280
+    }
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.08
+    },
+    {
+     "w": "o",
+     "s": 0.12,
+     "e": 0.16
+    },
+    {
+     "w": "bônus:",
+     "s": 0.2,
+     "e": 1.04
+    },
+    {
+     "w": "peça",
+     "s": 1.12,
+     "e": 1.36
+    },
+    {
+     "w": "também",
+     "s": 1.44,
+     "e": 1.68
+    },
+    {
+     "w": "a",
+     "s": 1.707,
+     "e": 1.733
+    },
+    {
+     "w": "mensagem",
+     "s": 1.76,
+     "e": 2.24
+    },
+    {
+     "w": "pra",
+     "s": 2.32,
+     "e": 2.4
+    },
+    {
+     "w": "mandar",
+     "s": 2.48,
+     "e": 2.72
+    },
+    {
+     "w": "junto.",
+     "s": 2.76,
+     "e": 3.44
+    },
+    {
+     "w": "Escreva:",
+     "s": 3.52,
+     "e": 4.4
+    },
+    {
+     "w": "crie",
+     "s": 4.48,
+     "e": 4.6
+    },
+    {
+     "w": "uma",
+     "s": 4.64,
+     "e": 4.72
+    },
+    {
+     "w": "mensagem",
+     "s": 4.8,
+     "e": 5.28
+    },
+    {
+     "w": "curta",
+     "s": 5.36,
+     "e": 5.68
+    },
+    {
+     "w": "e",
+     "s": 5.707,
+     "e": 5.733
+    },
+    {
+     "w": "simpática",
+     "s": 5.76,
+     "e": 6.48
+    },
+    {
+     "w": "pra",
+     "s": 6.52,
+     "e": 6.56
+    },
+    {
+     "w": "eu",
+     "s": 6.6,
+     "e": 6.64
+    },
+    {
+     "w": "mandar",
+     "s": 6.72,
+     "e": 6.96
+    },
+    {
+     "w": "no",
+     "s": 7,
+     "e": 7.04
+    },
+    {
+     "w": "WhatsApp",
+     "s": 7.12,
+     "e": 7.6
+    },
+    {
+     "w": "com",
+     "s": 7.68,
+     "e": 7.76
+    },
+    {
+     "w": "esse",
+     "s": 7.84,
+     "e": 7.92
+    },
+    {
+     "w": "orçamento.",
+     "s": 8,
+     "e": 8.96
+    },
+    {
+     "w": "Em",
+     "s": 9.08,
+     "e": 9.2
+    },
+    {
+     "w": "segundos,",
+     "s": 9.32,
+     "e": 9.893
+    },
+    {
+     "w": "ela",
+     "s": 9.947,
+     "e": 10
+    },
+    {
+     "w": "está",
+     "s": 10.08,
+     "e": 10.24
+    },
+    {
+     "w": "pronta.",
+     "s": 10.32,
+     "e": 10.933
+    },
+    {
+     "w": "É",
+     "s": 10.987,
+     "e": 11.04
+    },
+    {
+     "w": "só",
+     "s": 11.067,
+     "e": 11.12
+    },
+    {
+     "w": "copiar,",
+     "s": 11.2,
+     "e": 11.92
+    },
+    {
+     "w": "colar,",
+     "s": 12.04,
+     "e": 12.56
+    },
+    {
+     "w": "e",
+     "s": 12.587,
+     "e": 12.613
+    },
+    {
+     "w": "anexar",
+     "s": 12.64,
+     "e": 13.04
+    },
+    {
+     "w": "o",
+     "s": 13.08,
+     "e": 13.12
+    },
+    {
+     "w": "PDF.",
+     "s": 13.16,
+     "e": 13.92
+    }
+   ],
+   "startFrame": 5766,
+   "endFrame": 6191
+  },
+  {
+   "id": "C13",
+   "tipo": "cartoes",
+   "pose": "feliz",
+   "fala": "E não para no orçamento. Com o mesmo jeito de pedir, você cria a tabela de preços do seu negócio, uma proposta pra um cliente maior, um recibo, ou uma apresentação pra mostrar o seu trabalho. Você pede em português, e o arquivo sai pronto.",
+   "dados": {
+    "bg": "pexels/confeiteira-1.mp4",
+    "titulo": "Do mesmo jeito, você cria",
+    "cols": 2,
+    "w": 760,
+    "itens": [
+     {
+      "ao": "tabela",
+      "t": "Tabela de preços",
+      "sub": "PDF ou Excel",
+      "cor": "ouro",
+      "em": 128
+     },
+     {
+      "ao": "proposta",
+      "t": "Proposta para cliente",
+      "sub": "documento do Word",
+      "cor": "ciano",
+      "em": 194
+     },
+     {
+      "ao": "recibo",
+      "t": "Recibo",
+      "sub": "em PDF",
+      "cor": "verde",
+      "em": 253
+     },
+     {
+      "ao": "apresentação",
+      "t": "Apresentação",
+      "sub": "do seu trabalho",
+      "cor": "violeta",
+      "em": 288
+     }
+    ],
+    "bgDur": 39
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "não",
+     "s": 0.24,
+     "e": 0.4
+    },
+    {
+     "w": "para",
+     "s": 0.48,
+     "e": 0.72
+    },
+    {
+     "w": "no",
+     "s": 0.76,
+     "e": 0.8
+    },
+    {
+     "w": "orçamento.",
+     "s": 0.88,
+     "e": 1.84
+    },
+    {
+     "w": "Com",
+     "s": 1.92,
+     "e": 2
+    },
+    {
+     "w": "o",
+     "s": 2.08,
+     "e": 2.16
+    },
+    {
+     "w": "mesmo",
+     "s": 2.28,
+     "e": 2.48
+    },
+    {
+     "w": "jeito",
+     "s": 2.56,
+     "e": 2.8
+    },
+    {
+     "w": "de",
+     "s": 2.88,
+     "e": 2.96
+    },
+    {
+     "w": "pedir,",
+     "s": 3.04,
+     "e": 3.52
+    },
+    {
+     "w": "você",
+     "s": 3.627,
+     "e": 3.84
+    },
+    {
+     "w": "cria",
+     "s": 3.92,
+     "e": 4.04
+    },
+    {
+     "w": "a",
+     "s": 4.08,
+     "e": 4.16
+    },
+    {
+     "w": "tabela",
+     "s": 4.267,
+     "e": 4.48
+    },
+    {
+     "w": "de",
+     "s": 4.56,
+     "e": 4.64
+    },
+    {
+     "w": "preços",
+     "s": 4.72,
+     "e": 5.12
+    },
+    {
+     "w": "do",
+     "s": 5.16,
+     "e": 5.2
+    },
+    {
+     "w": "seu",
+     "s": 5.28,
+     "e": 5.467
+    },
+    {
+     "w": "negócio,",
+     "s": 5.573,
+     "e": 6.24
+    },
+    {
+     "w": "uma",
+     "s": 6.32,
+     "e": 6.4
+    },
+    {
+     "w": "proposta",
+     "s": 6.48,
+     "e": 6.96
+    },
+    {
+     "w": "pra",
+     "s": 7,
+     "e": 7.04
+    },
+    {
+     "w": "um",
+     "s": 7.08,
+     "e": 7.12
+    },
+    {
+     "w": "cliente",
+     "s": 7.28,
+     "e": 7.44
+    },
+    {
+     "w": "maior,",
+     "s": 7.52,
+     "e": 8.16
+    },
+    {
+     "w": "um",
+     "s": 8.2,
+     "e": 8.24
+    },
+    {
+     "w": "recibo,",
+     "s": 8.44,
+     "e": 9.2
+    },
+    {
+     "w": "ou",
+     "s": 9.28,
+     "e": 9.36
+    },
+    {
+     "w": "uma",
+     "s": 9.44,
+     "e": 9.52
+    },
+    {
+     "w": "apresentação",
+     "s": 9.6,
+     "e": 10.24
+    },
+    {
+     "w": "pra",
+     "s": 10.32,
+     "e": 10.4
+    },
+    {
+     "w": "mostrar",
+     "s": 10.48,
+     "e": 10.72
+    },
+    {
+     "w": "o",
+     "s": 10.76,
+     "e": 10.8
+    },
+    {
+     "w": "seu",
+     "s": 10.84,
+     "e": 10.96
+    },
+    {
+     "w": "trabalho.",
+     "s": 11,
+     "e": 11.84
+    },
+    {
+     "w": "Você",
+     "s": 12,
+     "e": 12.16
+    },
+    {
+     "w": "pede",
+     "s": 12.24,
+     "e": 12.373
+    },
+    {
+     "w": "em",
+     "s": 12.427,
+     "e": 12.48
+    },
+    {
+     "w": "português,",
+     "s": 12.6,
+     "e": 13.36
+    },
+    {
+     "w": "e",
+     "s": 13.387,
+     "e": 13.413
+    },
+    {
+     "w": "o",
+     "s": 13.44,
+     "e": 13.48
+    },
+    {
+     "w": "arquivo",
+     "s": 13.52,
+     "e": 13.92
+    },
+    {
+     "w": "sai",
+     "s": 14,
+     "e": 14.24
+    },
+    {
+     "w": "pronto.",
+     "s": 14.32,
+     "e": 14.96
+    }
+   ],
+   "startFrame": 6191,
+   "endFrame": 6648
+  },
+  {
+   "id": "C14",
+   "tipo": "cartoes",
+   "pose": "pensando",
+   "pantera": false,
+   "fala": "Dois cuidados rápidos. Criar arquivos gasta mais do seu limite de uso do que uma conversa normal, então mande o pedido bem explicado, de uma vez. E sempre revise o arquivo antes de enviar: nome, data e valores.",
+   "dados": {
+    "titulo": "Dois cuidados",
+    "cols": 1,
+    "w": 1150,
+    "numerar": true,
+    "itens": [
+     {
+      "ao": "limite",
+      "t": "Gasta mais do seu limite",
+      "sub": "peça tudo bem explicado, de uma vez",
+      "cor": "ouro",
+      "em": 118
+     },
+     {
+      "ao": "revise",
+      "t": "Revise antes de enviar",
+      "sub": "nome, data e valores",
+      "cor": "ciano",
+      "em": 318
+     }
+    ]
+   },
+   "words": [
+    {
+     "w": "Dois",
+     "s": 0,
+     "e": 0.24
+    },
+    {
+     "w": "cuidados",
+     "s": 0.28,
+     "e": 0.72
+    },
+    {
+     "w": "rápidos.",
+     "s": 0.8,
+     "e": 1.44
+    },
+    {
+     "w": "Criar",
+     "s": 1.84,
+     "e": 2.16
+    },
+    {
+     "w": "arquivos",
+     "s": 2.24,
+     "e": 2.8
+    },
+    {
+     "w": "gasta",
+     "s": 2.84,
+     "e": 3.2
+    },
+    {
+     "w": "mais",
+     "s": 3.28,
+     "e": 3.52
+    },
+    {
+     "w": "do",
+     "s": 3.6,
+     "e": 3.68
+    },
+    {
+     "w": "seu",
+     "s": 3.72,
+     "e": 3.84
+    },
+    {
+     "w": "limite",
+     "s": 3.92,
+     "e": 4.16
+    },
+    {
+     "w": "de",
+     "s": 4.24,
+     "e": 4.32
+    },
+    {
+     "w": "uso",
+     "s": 4.4,
+     "e": 4.72
+    },
+    {
+     "w": "do",
+     "s": 4.8,
+     "e": 4.88
+    },
+    {
+     "w": "que",
+     "s": 4.92,
+     "e": 4.96
+    },
+    {
+     "w": "uma",
+     "s": 5.04,
+     "e": 5.12
+    },
+    {
+     "w": "conversa",
+     "s": 5.2,
+     "e": 5.56
+    },
+    {
+     "w": "normal,",
+     "s": 5.6,
+     "e": 6.32
+    },
+    {
+     "w": "então",
+     "s": 6.44,
+     "e": 6.8
+    },
+    {
+     "w": "mande",
+     "s": 6.96,
+     "e": 7.2
+    },
+    {
+     "w": "o",
+     "s": 7.227,
+     "e": 7.253
+    },
+    {
+     "w": "pedido",
+     "s": 7.28,
+     "e": 7.6
+    },
+    {
+     "w": "bem",
+     "s": 7.68,
+     "e": 7.84
+    },
+    {
+     "w": "explicado,",
+     "s": 7.92,
+     "e": 8.72
+    },
+    {
+     "w": "de",
+     "s": 8.76,
+     "e": 8.8
+    },
+    {
+     "w": "uma",
+     "s": 8.88,
+     "e": 8.96
+    },
+    {
+     "w": "vez.",
+     "s": 9.04,
+     "e": 9.44
+    },
+    {
+     "w": "E",
+     "s": 9.84,
+     "e": 10
+    },
+    {
+     "w": "sempre",
+     "s": 10.08,
+     "e": 10.48
+    },
+    {
+     "w": "revise",
+     "s": 10.6,
+     "e": 10.88
+    },
+    {
+     "w": "o",
+     "s": 10.92,
+     "e": 10.96
+    },
+    {
+     "w": "arquivo",
+     "s": 11.04,
+     "e": 11.36
+    },
+    {
+     "w": "antes",
+     "s": 11.44,
+     "e": 11.68
+    },
+    {
+     "w": "de",
+     "s": 11.72,
+     "e": 11.76
+    },
+    {
+     "w": "enviar:",
+     "s": 11.84,
+     "e": 12.56
+    },
+    {
+     "w": "nome,",
+     "s": 12.76,
+     "e": 13.2
+    },
+    {
+     "w": "data",
+     "s": 13.4,
+     "e": 13.6
+    },
+    {
+     "w": "e",
+     "s": 13.76,
+     "e": 13.8
+    },
+    {
+     "w": "valores.",
+     "s": 13.84,
+     "e": 14.72
+    }
+   ],
+   "startFrame": 6648,
+   "endFrame": 7098
+  },
+  {
+   "id": "C15",
+   "tipo": "cartoes",
+   "pose": "comemorando",
+   "fala": "Resumindo: ligue a opção criar e editar arquivos, faça o pedido com os seus dados e preços, confira as contas, e peça a planilha e a mensagem do WhatsApp. O link da página oficial está na descrição.",
+   "dados": {
+    "titulo": "Resumo",
+    "cols": 2,
+    "w": 760,
+    "check": true,
+    "itens": [
+     {
+      "ao": "ligue",
+      "t": "Ligue a opção",
+      "sub": "criar e editar arquivos",
+      "em": 34
+     },
+     {
+      "ao": "pedido",
+      "t": "Faça o pedido",
+      "sub": "com seus dados e preços",
+      "em": 138
+     },
+     {
+      "ao": "confira",
+      "t": "Confira as contas",
+      "sub": "o preço é seu",
+      "em": 202
+     },
+     {
+      "ao": "planilha",
+      "t": "Planilha + WhatsApp",
+      "sub": "controle e envio",
+      "em": 257
+     }
+    ],
+    "pilula": {
+     "ao": "descrição",
+     "txt": "Link oficial na descrição",
+     "cor": "ouro",
+     "em": 382
+    }
+   },
+   "words": [
+    {
+     "w": "Resumindo:",
+     "s": 0,
+     "e": 0.72
+    },
+    {
+     "w": "ligue",
+     "s": 1.12,
+     "e": 1.36
+    },
+    {
+     "w": "a",
+     "s": 1.387,
+     "e": 1.413
+    },
+    {
+     "w": "opção",
+     "s": 1.44,
+     "e": 1.84
+    },
+    {
+     "w": "criar",
+     "s": 2,
+     "e": 2.4
+    },
+    {
+     "w": "e",
+     "s": 2.427,
+     "e": 2.453
+    },
+    {
+     "w": "editar",
+     "s": 2.48,
+     "e": 2.88
+    },
+    {
+     "w": "arquivos,",
+     "s": 2.96,
+     "e": 3.92
+    },
+    {
+     "w": "faça",
+     "s": 4,
+     "e": 4.32
+    },
+    {
+     "w": "o",
+     "s": 4.36,
+     "e": 4.4
+    },
+    {
+     "w": "pedido",
+     "s": 4.6,
+     "e": 4.8
+    },
+    {
+     "w": "com",
+     "s": 4.88,
+     "e": 4.96
+    },
+    {
+     "w": "os",
+     "s": 5,
+     "e": 5.04
+    },
+    {
+     "w": "seus",
+     "s": 5.08,
+     "e": 5.28
+    },
+    {
+     "w": "dados",
+     "s": 5.44,
+     "e": 5.6
+    },
+    {
+     "w": "e",
+     "s": 5.64,
+     "e": 5.68
+    },
+    {
+     "w": "preços,",
+     "s": 5.76,
+     "e": 6.56
+    },
+    {
+     "w": "confira",
+     "s": 6.72,
+     "e": 6.96
+    },
+    {
+     "w": "as",
+     "s": 7.04,
+     "e": 7.12
+    },
+    {
+     "w": "contas,",
+     "s": 7.2,
+     "e": 7.92
+    },
+    {
+     "w": "e",
+     "s": 7.96,
+     "e": 8
+    },
+    {
+     "w": "peça",
+     "s": 8.16,
+     "e": 8.4
+    },
+    {
+     "w": "a",
+     "s": 8.48,
+     "e": 8.52
+    },
+    {
+     "w": "planilha",
+     "s": 8.56,
+     "e": 9.12
+    },
+    {
+     "w": "e",
+     "s": 9.16,
+     "e": 9.2
+    },
+    {
+     "w": "a",
+     "s": 9.227,
+     "e": 9.253
+    },
+    {
+     "w": "mensagem",
+     "s": 9.28,
+     "e": 9.84
+    },
+    {
+     "w": "do",
+     "s": 9.88,
+     "e": 9.92
+    },
+    {
+     "w": "WhatsApp.",
+     "s": 10.2,
+     "e": 10.88
+    },
+    {
+     "w": "O",
+     "s": 10.92,
+     "e": 10.96
+    },
+    {
+     "w": "link",
+     "s": 11.08,
+     "e": 11.2
+    },
+    {
+     "w": "da",
+     "s": 11.28,
+     "e": 11.36
+    },
+    {
+     "w": "página",
+     "s": 11.44,
+     "e": 11.68
+    },
+    {
+     "w": "oficial",
+     "s": 11.72,
+     "e": 12.24
+    },
+    {
+     "w": "está",
+     "s": 12.36,
+     "e": 12.533
+    },
+    {
+     "w": "na",
+     "s": 12.587,
+     "e": 12.64
+    },
+    {
+     "w": "descrição.",
+     "s": 12.72,
+     "e": 13.44
+    }
+   ],
+   "startFrame": 7098,
+   "endFrame": 7509
+  },
+  {
+   "id": "C16",
+   "tipo": "cta-proximo",
+   "pose": "apontando",
+   "fala": "E se você quer mais jeitos de colocar a inteligência artificial pra trabalhar no seu negócio, o próximo vídeo está aqui do lado. Clica nele agora!",
+   "dados": {
+    "bg": "pexels/comemora-1.mp4",
+    "titulo": "Próximo passo",
+    "seta": {
+     "ao": "próximo",
+     "em": 156
+    },
+    "clique": {
+     "ao": "Clica",
+     "em": 216
+    },
+    "bgDur": 11
+   },
+   "words": [
+    {
+     "w": "E",
+     "s": 0,
+     "e": 0.16
+    },
+    {
+     "w": "se",
+     "s": 0.2,
+     "e": 0.24
+    },
+    {
+     "w": "você",
+     "s": 0.28,
+     "e": 0.48
+    },
+    {
+     "w": "quer",
+     "s": 0.56,
+     "e": 0.8
+    },
+    {
+     "w": "mais",
+     "s": 0.88,
+     "e": 1.12
+    },
+    {
+     "w": "jeitos",
+     "s": 1.2,
+     "e": 1.52
+    },
+    {
+     "w": "de",
+     "s": 1.56,
+     "e": 1.6
+    },
+    {
+     "w": "colocar",
+     "s": 1.68,
+     "e": 2
+    },
+    {
+     "w": "a",
+     "s": 2.04,
+     "e": 2.08
+    },
+    {
+     "w": "inteligência",
+     "s": 2.12,
+     "e": 2.56
+    },
+    {
+     "w": "artificial",
+     "s": 2.64,
+     "e": 3.2
+    },
+    {
+     "w": "pra",
+     "s": 3.28,
+     "e": 3.36
+    },
+    {
+     "w": "trabalhar",
+     "s": 3.4,
+     "e": 3.76
+    },
+    {
+     "w": "no",
+     "s": 3.84,
+     "e": 3.92
+    },
+    {
+     "w": "seu",
+     "s": 4,
+     "e": 4.16
+    },
+    {
+     "w": "negócio,",
+     "s": 4.28,
+     "e": 4.96
+    },
+    {
+     "w": "o",
+     "s": 5.04,
+     "e": 5.12
+    },
+    {
+     "w": "próximo",
+     "s": 5.2,
+     "e": 5.6
+    },
+    {
+     "w": "vídeo",
+     "s": 5.68,
+     "e": 5.92
+    },
+    {
+     "w": "está",
+     "s": 6,
+     "e": 6.16
+    },
+    {
+     "w": "aqui",
+     "s": 6.24,
+     "e": 6.32
+    },
+    {
+     "w": "do",
+     "s": 6.4,
+     "e": 6.48
+    },
+    {
+     "w": "lado.",
+     "s": 6.52,
+     "e": 7.12
+    },
+    {
+     "w": "Clica",
+     "s": 7.2,
+     "e": 7.36
+    },
+    {
+     "w": "nele",
+     "s": 7.4,
+     "e": 7.52
+    },
+    {
+     "w": "agora!",
+     "s": 7.6,
+     "e": 8.32
+    }
+   ],
+   "startFrame": 7509,
+   "endFrame": 7936
+  }
+ ],
+ "cortes": [
+  {
+   "id": "K001",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/comemora-2.mp4",
+   "from": 0,
+   "startFrame": 664,
+   "endFrame": 717
+  },
+  {
+   "id": "K002",
+   "cena": "C02",
+   "tipo": "foto",
+   "src": "pexels/doces-1.jpg",
+   "from": 0,
+   "startFrame": 817,
+   "endFrame": 864
+  },
+  {
+   "id": "K003",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/papelada-1.mp4",
+   "from": 0,
+   "startFrame": 937,
+   "endFrame": 987
+  },
+  {
+   "id": "K004",
+   "cena": "C02",
+   "tipo": "video",
+   "src": "pexels/loja-1.mp4",
+   "from": 0,
+   "startFrame": 1069,
+   "endFrame": 1120
+  },
+  {
+   "id": "K005",
+   "cena": "C04",
+   "tipo": "video",
+   "src": "pexels/celular-2.mp4",
+   "from": 0,
+   "startFrame": 1826,
+   "endFrame": 1877
+  },
+  {
+   "id": "K006",
+   "cena": "C04",
+   "tipo": "foto",
+   "src": "pexels/bolo-2.jpg",
+   "from": 0,
+   "startFrame": 1967,
+   "endFrame": 2013
+  },
+  {
+   "id": "K007",
+   "cena": "C13",
+   "tipo": "video",
+   "src": "pexels/comemora-1.mp4",
+   "from": 0,
+   "startFrame": 6273,
+   "endFrame": 6318
+  },
+  {
+   "id": "K008",
+   "cena": "C13",
+   "tipo": "video",
+   "src": "pexels/papelada-2.mp4",
+   "from": 0,
+   "startFrame": 6403,
+   "endFrame": 6460
+  },
+  {
+   "id": "K009",
+   "cena": "C13",
+   "tipo": "video",
+   "src": "pexels/noite-2.mp4",
+   "from": 0,
+   "startFrame": 6555,
+   "endFrame": 6600
+  },
+  {
+   "id": "K010",
+   "cena": "C16",
+   "tipo": "foto",
+   "src": "pexels/bolo-1.jpg",
+   "from": 0,
+   "startFrame": 7586,
+   "endFrame": 7633
+  },
+  {
+   "id": "K011",
+   "cena": "C16",
+   "tipo": "video",
+   "src": "pexels/noite-1.mp4",
+   "from": 0,
+   "startFrame": 7716,
+   "endFrame": 7767
+  },
+  {
+   "id": "K012",
+   "cena": "C16",
+   "tipo": "video",
+   "src": "pexels/celular-1.mp4",
+   "from": 0,
+   "startFrame": 7857,
+   "endFrame": 7907
+  }
+ ],
+ "words": [
+  {
+   "w": "Esse",
+   "start": 0.5,
+   "end": 0.7
+  },
+  {
+   "w": "orçamento",
+   "start": 0.74,
+   "end": 1.22
+  },
+  {
+   "w": "aqui,",
+   "start": 1.26,
+   "end": 1.74
+  },
+  {
+   "w": "com",
+   "start": 1.86,
+   "end": 2.02
+  },
+  {
+   "w": "tabela,",
+   "start": 2.06,
+   "end": 2.82
+  },
+  {
+   "w": "total,",
+   "start": 3.1,
+   "end": 3.46
+  },
+  {
+   "w": "sinal",
+   "start": 3.54,
+   "end": 3.94
+  },
+  {
+   "w": "e",
+   "start": 3.967,
+   "end": 3.993
+  },
+  {
+   "w": "validade,",
+   "start": 4.02,
+   "end": 4.82
+  },
+  {
+   "w": "saiu",
+   "start": 4.9,
+   "end": 5.14
+  },
+  {
+   "w": "de",
+   "start": 5.18,
+   "end": 5.22
+  },
+  {
+   "w": "um",
+   "start": 5.3,
+   "end": 5.38
+  },
+  {
+   "w": "pedido",
+   "start": 5.46,
+   "end": 5.86
+  },
+  {
+   "w": "em",
+   "start": 5.94,
+   "end": 6.02
+  },
+  {
+   "w": "português.",
+   "start": 6.14,
+   "end": 6.82
+  },
+  {
+   "w": "Eu",
+   "start": 7.22,
+   "end": 7.3
+  },
+  {
+   "w": "não",
+   "start": 7.38,
+   "end": 7.46
+  },
+  {
+   "w": "abri",
+   "start": 7.54,
+   "end": 7.7
+  },
+  {
+   "w": "o",
+   "start": 7.74,
+   "end": 7.78
+  },
+  {
+   "w": "Word,",
+   "start": 7.86,
+   "end": 8.42
+  },
+  {
+   "w": "não",
+   "start": 8.58,
+   "end": 8.74
+  },
+  {
+   "w": "abri",
+   "start": 8.82,
+   "end": 8.98
+  },
+  {
+   "w": "o",
+   "start": 9.007,
+   "end": 9.033
+  },
+  {
+   "w": "Excel,",
+   "start": 9.06,
+   "end": 9.7
+  },
+  {
+   "w": "e",
+   "start": 9.74,
+   "end": 9.78
+  },
+  {
+   "w": "não",
+   "start": 9.86,
+   "end": 9.94
+  },
+  {
+   "w": "paguei",
+   "start": 10.02,
+   "end": 10.34
+  },
+  {
+   "w": "nada.",
+   "start": 10.5,
+   "end": 10.9
+  },
+  {
+   "w": "Ele",
+   "start": 11.3,
+   "end": 11.46
+  },
+  {
+   "w": "já",
+   "start": 11.54,
+   "end": 11.62
+  },
+  {
+   "w": "vem",
+   "start": 11.7,
+   "end": 11.78
+  },
+  {
+   "w": "em",
+   "start": 11.86,
+   "end": 11.94
+  },
+  {
+   "w": "PDF,",
+   "start": 12.02,
+   "end": 12.9
+  },
+  {
+   "w": "pronto",
+   "start": 12.94,
+   "end": 13.22
+  },
+  {
+   "w": "pra",
+   "start": 13.3,
+   "end": 13.38
+  },
+  {
+   "w": "mandar",
+   "start": 13.46,
+   "end": 13.62
+  },
+  {
+   "w": "no",
+   "start": 13.66,
+   "end": 13.7
+  },
+  {
+   "w": "WhatsApp",
+   "start": 13.9,
+   "end": 14.1
+  },
+  {
+   "w": "do",
+   "start": 14.18,
+   "end": 14.26
+  },
+  {
+   "w": "cliente.",
+   "start": 14.5,
+   "end": 14.82
+  },
+  {
+   "w": "E",
+   "start": 15.22,
+   "end": 15.3
+  },
+  {
+   "w": "no",
+   "start": 15.34,
+   "end": 15.38
+  },
+  {
+   "w": "final,",
+   "start": 15.46,
+   "end": 15.94
+  },
+  {
+   "w": "você",
+   "start": 15.98,
+   "end": 16.18
+  },
+  {
+   "w": "ainda",
+   "start": 16.26,
+   "end": 16.42
+  },
+  {
+   "w": "ganha",
+   "start": 16.5,
+   "end": 16.66
+  },
+  {
+   "w": "uma",
+   "start": 16.74,
+   "end": 16.82
+  },
+  {
+   "w": "planilha",
+   "start": 16.9,
+   "end": 17.38
+  },
+  {
+   "w": "pra",
+   "start": 17.46,
+   "end": 17.54
+  },
+  {
+   "w": "controlar",
+   "start": 17.7,
+   "end": 18.02
+  },
+  {
+   "w": "todos",
+   "start": 18.26,
+   "end": 18.58
+  },
+  {
+   "w": "os",
+   "start": 18.62,
+   "end": 18.66
+  },
+  {
+   "w": "seus",
+   "start": 18.74,
+   "end": 18.9
+  },
+  {
+   "w": "orçamentos.",
+   "start": 18.98,
+   "end": 19.86
+  },
+  {
+   "w": "Se",
+   "start": 20.13,
+   "end": 20.29
+  },
+  {
+   "w": "você",
+   "start": 20.33,
+   "end": 20.53
+  },
+  {
+   "w": "tem",
+   "start": 20.61,
+   "end": 20.69
+  },
+  {
+   "w": "um",
+   "start": 20.73,
+   "end": 20.77
+  },
+  {
+   "w": "pequeno",
+   "start": 20.85,
+   "end": 21.17
+  },
+  {
+   "w": "negócio,",
+   "start": 21.29,
+   "end": 21.89
+  },
+  {
+   "w": "você",
+   "start": 21.93,
+   "end": 22.21
+  },
+  {
+   "w": "conhece",
+   "start": 22.29,
+   "end": 22.61
+  },
+  {
+   "w": "essa",
+   "start": 22.73,
+   "end": 22.85
+  },
+  {
+   "w": "cena.",
+   "start": 22.93,
+   "end": 23.49
+  },
+  {
+   "w": "O",
+   "start": 23.73,
+   "end": 23.81
+  },
+  {
+   "w": "cliente",
+   "start": 23.89,
+   "end": 24.13
+  },
+  {
+   "w": "pergunta",
+   "start": 24.21,
+   "end": 24.53
+  },
+  {
+   "w": "o",
+   "start": 24.57,
+   "end": 24.61
+  },
+  {
+   "w": "preço,",
+   "start": 24.69,
+   "end": 25.33
+  },
+  {
+   "w": "e",
+   "start": 25.41,
+   "end": 25.49
+  },
+  {
+   "w": "lá",
+   "start": 25.61,
+   "end": 25.73
+  },
+  {
+   "w": "vai",
+   "start": 25.81,
+   "end": 26.05
+  },
+  {
+   "w": "você",
+   "start": 26.09,
+   "end": 26.45
+  },
+  {
+   "w": "montar",
+   "start": 26.53,
+   "end": 26.77
+  },
+  {
+   "w": "o",
+   "start": 26.81,
+   "end": 26.85
+  },
+  {
+   "w": "orçamento",
+   "start": 26.93,
+   "end": 27.33
+  },
+  {
+   "w": "na",
+   "start": 27.41,
+   "end": 27.49
+  },
+  {
+   "w": "mão,",
+   "start": 27.57,
+   "end": 27.97
+  },
+  {
+   "w": "fazendo",
+   "start": 28.01,
+   "end": 28.37
+  },
+  {
+   "w": "conta",
+   "start": 28.45,
+   "end": 28.61
+  },
+  {
+   "w": "na",
+   "start": 28.65,
+   "end": 28.69
+  },
+  {
+   "w": "calculadora,",
+   "start": 28.77,
+   "end": 29.81
+  },
+  {
+   "w": "tarde",
+   "start": 29.93,
+   "end": 30.21
+  },
+  {
+   "w": "da",
+   "start": 30.25,
+   "end": 30.29
+  },
+  {
+   "w": "noite.",
+   "start": 30.37,
+   "end": 31.25
+  },
+  {
+   "w": "E",
+   "start": 31.29,
+   "end": 31.33
+  },
+  {
+   "w": "no",
+   "start": 31.41,
+   "end": 31.49
+  },
+  {
+   "w": "fim,",
+   "start": 31.53,
+   "end": 31.97
+  },
+  {
+   "w": "o",
+   "start": 32.01,
+   "end": 32.05
+  },
+  {
+   "w": "orçamento",
+   "start": 32.13,
+   "end": 32.61
+  },
+  {
+   "w": "sai",
+   "start": 32.65,
+   "end": 32.77
+  },
+  {
+   "w": "num",
+   "start": 32.85,
+   "end": 33.01
+  },
+  {
+   "w": "texto",
+   "start": 33.17,
+   "end": 33.33
+  },
+  {
+   "w": "corrido",
+   "start": 33.41,
+   "end": 33.81
+  },
+  {
+   "w": "no",
+   "start": 33.89,
+   "end": 33.97
+  },
+  {
+   "w": "celular.",
+   "start": 34.05,
+   "end": 35.09
+  },
+  {
+   "w": "Hoje",
+   "start": 35.17,
+   "end": 35.41
+  },
+  {
+   "w": "você",
+   "start": 35.45,
+   "end": 35.65
+  },
+  {
+   "w": "vai",
+   "start": 35.69,
+   "end": 35.81
+  },
+  {
+   "w": "ver",
+   "start": 35.89,
+   "end": 35.97
+  },
+  {
+   "w": "o",
+   "start": 36.05,
+   "end": 36.13
+  },
+  {
+   "w": "Claude",
+   "start": 36.21,
+   "end": 36.53
+  },
+  {
+   "w": "fazer",
+   "start": 36.57,
+   "end": 36.85
+  },
+  {
+   "w": "essa",
+   "start": 36.97,
+   "end": 37.09
+  },
+  {
+   "w": "parte",
+   "start": 37.17,
+   "end": 37.41
+  },
+  {
+   "w": "por",
+   "start": 37.49,
+   "end": 37.57
+  },
+  {
+   "w": "você.",
+   "start": 37.61,
+   "end": 38.21
+  },
+  {
+   "w": "E",
+   "start": 38.48,
+   "end": 38.64
+  },
+  {
+   "w": "isso",
+   "start": 38.72,
+   "end": 38.96
+  },
+  {
+   "w": "é",
+   "start": 39.12,
+   "end": 39.2
+  },
+  {
+   "w": "oficial.",
+   "start": 39.32,
+   "end": 40.2
+  },
+  {
+   "w": "Na",
+   "start": 40.4,
+   "end": 40.56
+  },
+  {
+   "w": "central",
+   "start": 40.72,
+   "end": 40.88
+  },
+  {
+   "w": "de",
+   "start": 40.92,
+   "end": 40.96
+  },
+  {
+   "w": "ajuda",
+   "start": 41.04,
+   "end": 41.28
+  },
+  {
+   "w": "da",
+   "start": 41.36,
+   "end": 41.44
+  },
+  {
+   "w": "Anthropic,",
+   "start": 41.52,
+   "end": 42.16
+  },
+  {
+   "w": "a",
+   "start": 42.24,
+   "end": 42.28
+  },
+  {
+   "w": "empresa",
+   "start": 42.32,
+   "end": 42.64
+  },
+  {
+   "w": "que",
+   "start": 42.68,
+   "end": 42.72
+  },
+  {
+   "w": "faz",
+   "start": 42.8,
+   "end": 43.04
+  },
+  {
+   "w": "o",
+   "start": 43.08,
+   "end": 43.12
+  },
+  {
+   "w": "Claude,",
+   "start": 43.2,
+   "end": 43.6
+  },
+  {
+   "w": "está",
+   "start": 43.68,
+   "end": 43.92
+  },
+  {
+   "w": "escrito:",
+   "start": 44,
+   "end": 44.8
+  },
+  {
+   "w": "o",
+   "start": 44.88,
+   "end": 44.92
+  },
+  {
+   "w": "Claude",
+   "start": 44.96,
+   "end": 45.36
+  },
+  {
+   "w": "cria",
+   "start": 45.44,
+   "end": 45.6
+  },
+  {
+   "w": "planilhas",
+   "start": 45.68,
+   "end": 46.08
+  },
+  {
+   "w": "do",
+   "start": 46.12,
+   "end": 46.16
+  },
+  {
+   "w": "Excel,",
+   "start": 46.4,
+   "end": 46.8
+  },
+  {
+   "w": "documentos",
+   "start": 47.04,
+   "end": 47.44
+  },
+  {
+   "w": "do",
+   "start": 47.48,
+   "end": 47.52
+  },
+  {
+   "w": "Word,",
+   "start": 47.6,
+   "end": 48.08
+  },
+  {
+   "w": "apresentações",
+   "start": 48.16,
+   "end": 49.04
+  },
+  {
+   "w": "e",
+   "start": 49.12,
+   "end": 49.16
+  },
+  {
+   "w": "arquivos",
+   "start": 49.2,
+   "end": 49.68
+  },
+  {
+   "w": "em",
+   "start": 49.72,
+   "end": 49.76
+  },
+  {
+   "w": "PDF.",
+   "start": 49.84,
+   "end": 50.48
+  },
+  {
+   "w": "E",
+   "start": 50.96,
+   "end": 51
+  },
+  {
+   "w": "isso",
+   "start": 51.04,
+   "end": 51.2
+  },
+  {
+   "w": "vale",
+   "start": 51.28,
+   "end": 51.52
+  },
+  {
+   "w": "pra",
+   "start": 51.6,
+   "end": 51.68
+  },
+  {
+   "w": "todos",
+   "start": 51.84,
+   "end": 52.08
+  },
+  {
+   "w": "os",
+   "start": 52.16,
+   "end": 52.24
+  },
+  {
+   "w": "planos,",
+   "start": 52.32,
+   "end": 52.88
+  },
+  {
+   "w": "inclusive",
+   "start": 53.12,
+   "end": 53.36
+  },
+  {
+   "w": "o",
+   "start": 53.387,
+   "end": 53.413
+  },
+  {
+   "w": "gratuito,",
+   "start": 53.44,
+   "end": 54.12
+  },
+  {
+   "w": "no",
+   "start": 54.24,
+   "end": 54.32
+  },
+  {
+   "w": "navegador,",
+   "start": 54.373,
+   "end": 55.12
+  },
+  {
+   "w": "no",
+   "start": 55.16,
+   "end": 55.2
+  },
+  {
+   "w": "aplicativo",
+   "start": 55.28,
+   "end": 55.76
+  },
+  {
+   "w": "do",
+   "start": 55.8,
+   "end": 55.84
+  },
+  {
+   "w": "computador",
+   "start": 55.96,
+   "end": 56.4
+  },
+  {
+   "w": "e",
+   "start": 56.64,
+   "end": 56.72
+  },
+  {
+   "w": "no",
+   "start": 56.76,
+   "end": 56.8
+  },
+  {
+   "w": "celular.",
+   "start": 56.88,
+   "end": 57.6
+  },
+  {
+   "w": "Antes",
+   "start": 57.87,
+   "end": 58.15
+  },
+  {
+   "w": "de",
+   "start": 58.19,
+   "end": 58.23
+  },
+  {
+   "w": "começar:",
+   "start": 58.27,
+   "end": 59.23
+  },
+  {
+   "w": "se",
+   "start": 59.27,
+   "end": 59.31
+  },
+  {
+   "w": "você",
+   "start": 59.39,
+   "end": 59.63
+  },
+  {
+   "w": "quer",
+   "start": 59.71,
+   "end": 59.79
+  },
+  {
+   "w": "usar",
+   "start": 59.87,
+   "end": 60.03
+  },
+  {
+   "w": "a",
+   "start": 60.07,
+   "end": 60.11
+  },
+  {
+   "w": "inteligência",
+   "start": 60.19,
+   "end": 60.67
+  },
+  {
+   "w": "artificial",
+   "start": 60.75,
+   "end": 61.31
+  },
+  {
+   "w": "pra",
+   "start": 61.39,
+   "end": 61.47
+  },
+  {
+   "w": "trabalhar",
+   "start": 61.55,
+   "end": 62.03
+  },
+  {
+   "w": "menos",
+   "start": 62.11,
+   "end": 62.43
+  },
+  {
+   "w": "no",
+   "start": 62.51,
+   "end": 62.59
+  },
+  {
+   "w": "seu",
+   "start": 62.63,
+   "end": 62.75
+  },
+  {
+   "w": "negócio,",
+   "start": 62.87,
+   "end": 63.55
+  },
+  {
+   "w": "deixa",
+   "start": 63.63,
+   "end": 63.87
+  },
+  {
+   "w": "o",
+   "start": 63.91,
+   "end": 63.95
+  },
+  {
+   "w": "like",
+   "start": 64.11,
+   "end": 64.27
+  },
+  {
+   "w": "e",
+   "start": 64.31,
+   "end": 64.35
+  },
+  {
+   "w": "se",
+   "start": 64.39,
+   "end": 64.43
+  },
+  {
+   "w": "inscreve",
+   "start": 64.55,
+   "end": 64.91
+  },
+  {
+   "w": "no",
+   "start": 64.95,
+   "end": 64.99
+  },
+  {
+   "w": "canal.",
+   "start": 65.07,
+   "end": 65.71
+  },
+  {
+   "w": "Toda",
+   "start": 65.75,
+   "end": 65.95
+  },
+  {
+   "w": "semana",
+   "start": 66.03,
+   "end": 66.43
+  },
+  {
+   "w": "tem",
+   "start": 66.51,
+   "end": 66.59
+  },
+  {
+   "w": "um",
+   "start": 66.67,
+   "end": 66.75
+  },
+  {
+   "w": "passo",
+   "start": 66.83,
+   "end": 66.95
+  },
+  {
+   "w": "a",
+   "start": 66.99,
+   "end": 67.07
+  },
+  {
+   "w": "passo",
+   "start": 67.15,
+   "end": 67.31
+  },
+  {
+   "w": "novo",
+   "start": 67.39,
+   "end": 67.63
+  },
+  {
+   "w": "aqui.",
+   "start": 67.67,
+   "end": 68.19
+  },
+  {
+   "w": "O",
+   "start": 68.46,
+   "end": 68.54
+  },
+  {
+   "w": "plano",
+   "start": 68.62,
+   "end": 68.78
+  },
+  {
+   "w": "é",
+   "start": 68.86,
+   "end": 68.94
+  },
+  {
+   "w": "simples,",
+   "start": 69.1,
+   "end": 69.66
+  },
+  {
+   "w": "são",
+   "start": 69.74,
+   "end": 69.98
+  },
+  {
+   "w": "três",
+   "start": 70.06,
+   "end": 70.3
+  },
+  {
+   "w": "passos.",
+   "start": 70.38,
+   "end": 71.02
+  },
+  {
+   "w": "Primeiro:",
+   "start": 71.18,
+   "end": 71.98
+  },
+  {
+   "w": "ligar",
+   "start": 72.1,
+   "end": 72.3
+  },
+  {
+   "w": "a",
+   "start": 72.38,
+   "end": 72.46
+  },
+  {
+   "w": "opção",
+   "start": 72.54,
+   "end": 72.78
+  },
+  {
+   "w": "de",
+   "start": 72.86,
+   "end": 72.94
+  },
+  {
+   "w": "criar",
+   "start": 73.02,
+   "end": 73.18
+  },
+  {
+   "w": "arquivos.",
+   "start": 73.26,
+   "end": 74.1
+  },
+  {
+   "w": "Segundo:",
+   "start": 74.3,
+   "end": 75.1
+  },
+  {
+   "w": "fazer",
+   "start": 75.14,
+   "end": 75.42
+  },
+  {
+   "w": "o",
+   "start": 75.46,
+   "end": 75.5
+  },
+  {
+   "w": "pedido",
+   "start": 75.7,
+   "end": 75.9
+  },
+  {
+   "w": "do",
+   "start": 75.94,
+   "end": 75.98
+  },
+  {
+   "w": "orçamento",
+   "start": 76.06,
+   "end": 76.62
+  },
+  {
+   "w": "com",
+   "start": 76.66,
+   "end": 76.7
+  },
+  {
+   "w": "os",
+   "start": 76.78,
+   "end": 76.86
+  },
+  {
+   "w": "seus",
+   "start": 76.9,
+   "end": 77.1
+  },
+  {
+   "w": "dados.",
+   "start": 77.34,
+   "end": 77.9
+  },
+  {
+   "w": "Terceiro:",
+   "start": 78.02,
+   "end": 78.78
+  },
+  {
+   "w": "pedir",
+   "start": 78.86,
+   "end": 79.1
+  },
+  {
+   "w": "a",
+   "start": 79.18,
+   "end": 79.22
+  },
+  {
+   "w": "planilha",
+   "start": 79.26,
+   "end": 79.82
+  },
+  {
+   "w": "e",
+   "start": 79.86,
+   "end": 79.9
+  },
+  {
+   "w": "a",
+   "start": 79.927,
+   "end": 79.953
+  },
+  {
+   "w": "mensagem",
+   "start": 79.98,
+   "end": 80.46
+  },
+  {
+   "w": "pro",
+   "start": 80.54,
+   "end": 80.62
+  },
+  {
+   "w": "cliente.",
+   "start": 80.7,
+   "end": 81.34
+  },
+  {
+   "w": "Passo",
+   "start": 81.61,
+   "end": 82.01
+  },
+  {
+   "w": "um.",
+   "start": 82.09,
+   "end": 82.33
+  },
+  {
+   "w": "Entre",
+   "start": 82.81,
+   "end": 83.05
+  },
+  {
+   "w": "no",
+   "start": 83.13,
+   "end": 83.21
+  },
+  {
+   "w": "site",
+   "start": 83.29,
+   "end": 83.53
+  },
+  {
+   "w": "do",
+   "start": 83.61,
+   "end": 83.69
+  },
+  {
+   "w": "Claude,",
+   "start": 83.77,
+   "end": 84.33
+  },
+  {
+   "w": "ou",
+   "start": 84.41,
+   "end": 84.57
+  },
+  {
+   "w": "abra",
+   "start": 84.65,
+   "end": 84.89
+  },
+  {
+   "w": "o",
+   "start": 84.917,
+   "end": 84.943
+  },
+  {
+   "w": "aplicativo",
+   "start": 84.97,
+   "end": 85.53
+  },
+  {
+   "w": "do",
+   "start": 85.57,
+   "end": 85.61
+  },
+  {
+   "w": "Claude",
+   "start": 85.69,
+   "end": 86.01
+  },
+  {
+   "w": "no",
+   "start": 86.05,
+   "end": 86.09
+  },
+  {
+   "w": "computador.",
+   "start": 86.17,
+   "end": 87.01
+  },
+  {
+   "w": "Abra",
+   "start": 87.29,
+   "end": 87.53
+  },
+  {
+   "w": "as",
+   "start": 87.57,
+   "end": 87.61
+  },
+  {
+   "w": "Configurações",
+   "start": 87.77,
+   "end": 88.57
+  },
+  {
+   "w": "e",
+   "start": 88.65,
+   "end": 88.73
+  },
+  {
+   "w": "entre",
+   "start": 88.81,
+   "end": 89.13
+  },
+  {
+   "w": "em",
+   "start": 89.17,
+   "end": 89.21
+  },
+  {
+   "w": "Capacidades.",
+   "start": 89.29,
+   "end": 90.33
+  },
+  {
+   "w": "Procure",
+   "start": 90.73,
+   "end": 91.05
+  },
+  {
+   "w": "a",
+   "start": 91.077,
+   "end": 91.103
+  },
+  {
+   "w": "opção",
+   "start": 91.13,
+   "end": 91.53
+  },
+  {
+   "w": "criar",
+   "start": 91.69,
+   "end": 92.17
+  },
+  {
+   "w": "e",
+   "start": 92.25,
+   "end": 92.29
+  },
+  {
+   "w": "editar",
+   "start": 92.33,
+   "end": 92.73
+  },
+  {
+   "w": "arquivos,",
+   "start": 92.81,
+   "end": 93.49
+  },
+  {
+   "w": "e",
+   "start": 93.61,
+   "end": 93.65
+  },
+  {
+   "w": "deixe",
+   "start": 93.69,
+   "end": 93.93
+  },
+  {
+   "w": "ligada.",
+   "start": 94.01,
+   "end": 94.65
+  },
+  {
+   "w": "No",
+   "start": 94.89,
+   "end": 94.97
+  },
+  {
+   "w": "plano",
+   "start": 95.05,
+   "end": 95.21
+  },
+  {
+   "w": "gratuito,",
+   "start": 95.29,
+   "end": 95.93
+  },
+  {
+   "w": "ela",
+   "start": 96.01,
+   "end": 96.09
+  },
+  {
+   "w": "já",
+   "start": 96.17,
+   "end": 96.33
+  },
+  {
+   "w": "vem",
+   "start": 96.41,
+   "end": 96.57
+  },
+  {
+   "w": "ligada,",
+   "start": 96.65,
+   "end": 97.21
+  },
+  {
+   "w": "mas",
+   "start": 97.33,
+   "end": 97.45
+  },
+  {
+   "w": "vale",
+   "start": 97.53,
+   "end": 97.69
+  },
+  {
+   "w": "conferir.",
+   "start": 97.77,
+   "end": 98.49
+  },
+  {
+   "w": "Passo",
+   "start": 98.76,
+   "end": 99.08
+  },
+  {
+   "w": "dois:",
+   "start": 99.16,
+   "end": 99.88
+  },
+  {
+   "w": "o",
+   "start": 99.92,
+   "end": 99.96
+  },
+  {
+   "w": "pedido.",
+   "start": 100.04,
+   "end": 100.6
+  },
+  {
+   "w": "Abra",
+   "start": 101.16,
+   "end": 101.4
+  },
+  {
+   "w": "uma",
+   "start": 101.44,
+   "end": 101.48
+  },
+  {
+   "w": "conversa",
+   "start": 101.56,
+   "end": 101.96
+  },
+  {
+   "w": "nova",
+   "start": 102.12,
+   "end": 102.52
+  },
+  {
+   "w": "e",
+   "start": 102.6,
+   "end": 102.68
+  },
+  {
+   "w": "escreva",
+   "start": 102.76,
+   "end": 103.24
+  },
+  {
+   "w": "tudo",
+   "start": 103.32,
+   "end": 103.48
+  },
+  {
+   "w": "de",
+   "start": 103.56,
+   "end": 103.6
+  },
+  {
+   "w": "uma",
+   "start": 103.64,
+   "end": 103.8
+  },
+  {
+   "w": "vez:",
+   "start": 103.88,
+   "end": 104.52
+  },
+  {
+   "w": "quem",
+   "start": 104.56,
+   "end": 104.68
+  },
+  {
+   "w": "é",
+   "start": 104.72,
+   "end": 104.76
+  },
+  {
+   "w": "você,",
+   "start": 104.84,
+   "end": 105.56
+  },
+  {
+   "w": "quem",
+   "start": 105.6,
+   "end": 105.72
+  },
+  {
+   "w": "é",
+   "start": 105.8,
+   "end": 105.827
+  },
+  {
+   "w": "o",
+   "start": 105.853,
+   "end": 105.88
+  },
+  {
+   "w": "cliente,",
+   "start": 105.96,
+   "end": 106.68
+  },
+  {
+   "w": "o",
+   "start": 106.72,
+   "end": 106.76
+  },
+  {
+   "w": "que",
+   "start": 106.84,
+   "end": 106.92
+  },
+  {
+   "w": "ele",
+   "start": 107,
+   "end": 107.08
+  },
+  {
+   "w": "pediu,",
+   "start": 107.16,
+   "end": 107.72
+  },
+  {
+   "w": "e",
+   "start": 107.76,
+   "end": 107.8
+  },
+  {
+   "w": "os",
+   "start": 107.84,
+   "end": 107.88
+  },
+  {
+   "w": "seus",
+   "start": 107.92,
+   "end": 108.12
+  },
+  {
+   "w": "preços.",
+   "start": 108.2,
+   "end": 108.92
+  },
+  {
+   "w": "Olha",
+   "start": 109.16,
+   "end": 109.32
+  },
+  {
+   "w": "o",
+   "start": 109.347,
+   "end": 109.373
+  },
+  {
+   "w": "meu",
+   "start": 109.4,
+   "end": 109.52
+  },
+  {
+   "w": "exemplo,",
+   "start": 109.56,
+   "end": 110.12
+  },
+  {
+   "w": "de",
+   "start": 110.2,
+   "end": 110.24
+  },
+  {
+   "w": "uma",
+   "start": 110.28,
+   "end": 110.36
+  },
+  {
+   "w": "confeitaria.",
+   "start": 110.44,
+   "end": 111.16
+  },
+  {
+   "w": "Um",
+   "start": 111.72,
+   "end": 111.8
+  },
+  {
+   "w": "bolo",
+   "start": 111.88,
+   "end": 112.12
+  },
+  {
+   "w": "de",
+   "start": 112.2,
+   "end": 112.28
+  },
+  {
+   "w": "três",
+   "start": 112.36,
+   "end": 112.6
+  },
+  {
+   "w": "quilos,",
+   "start": 112.68,
+   "end": 113.4
+  },
+  {
+   "w": "cem",
+   "start": 113.48,
+   "end": 113.64
+  },
+  {
+   "w": "brigadeiros,",
+   "start": 113.76,
+   "end": 114.6
+  },
+  {
+   "w": "cinquenta",
+   "start": 114.72,
+   "end": 115.08
+  },
+  {
+   "w": "beijinhos,",
+   "start": 115.16,
+   "end": 115.96
+  },
+  {
+   "w": "cinquenta",
+   "start": 116.08,
+   "end": 116.44
+  },
+  {
+   "w": "bem-casados,",
+   "start": 116.52,
+   "end": 117.4
+  },
+  {
+   "w": "e",
+   "start": 117.48,
+   "end": 117.56
+  },
+  {
+   "w": "a",
+   "start": 117.6,
+   "end": 117.64
+  },
+  {
+   "w": "entrega.",
+   "start": 117.72,
+   "end": 118.2
+  },
+  {
+   "w": "Sinal",
+   "start": 118.6,
+   "end": 118.84
+  },
+  {
+   "w": "de",
+   "start": 118.88,
+   "end": 118.92
+  },
+  {
+   "w": "cinquenta",
+   "start": 119,
+   "end": 119.32
+  },
+  {
+   "w": "por",
+   "start": 119.4,
+   "end": 119.56
+  },
+  {
+   "w": "cento,",
+   "start": 119.64,
+   "end": 120.12
+  },
+  {
+   "w": "e",
+   "start": 120.147,
+   "end": 120.173
+  },
+  {
+   "w": "validade",
+   "start": 120.2,
+   "end": 120.76
+  },
+  {
+   "w": "de",
+   "start": 120.84,
+   "end": 120.92
+  },
+  {
+   "w": "sete",
+   "start": 121,
+   "end": 121.24
+  },
+  {
+   "w": "dias.",
+   "start": 121.32,
+   "end": 121.96
+  },
+  {
+   "w": "E",
+   "start": 122.31,
+   "end": 122.47
+  },
+  {
+   "w": "olha",
+   "start": 122.55,
+   "end": 122.657
+  },
+  {
+   "w": "o",
+   "start": 122.683,
+   "end": 122.71
+  },
+  {
+   "w": "que",
+   "start": 122.75,
+   "end": 122.79
+  },
+  {
+   "w": "volta.",
+   "start": 122.87,
+   "end": 123.35
+  },
+  {
+   "w": "Um",
+   "start": 123.59,
+   "end": 123.67
+  },
+  {
+   "w": "PDF",
+   "start": 123.91,
+   "end": 124.47
+  },
+  {
+   "w": "de",
+   "start": 124.55,
+   "end": 124.63
+  },
+  {
+   "w": "verdade,",
+   "start": 124.71,
+   "end": 125.51
+  },
+  {
+   "w": "com",
+   "start": 125.59,
+   "end": 125.67
+  },
+  {
+   "w": "o",
+   "start": 125.71,
+   "end": 125.75
+  },
+  {
+   "w": "nome",
+   "start": 125.87,
+   "end": 125.99
+  },
+  {
+   "w": "da",
+   "start": 126.03,
+   "end": 126.07
+  },
+  {
+   "w": "confeitaria,",
+   "start": 126.15,
+   "end": 126.95
+  },
+  {
+   "w": "os",
+   "start": 127.03,
+   "end": 127.11
+  },
+  {
+   "w": "dados",
+   "start": 127.19,
+   "end": 127.51
+  },
+  {
+   "w": "da",
+   "start": 127.55,
+   "end": 127.59
+  },
+  {
+   "w": "cliente,",
+   "start": 127.67,
+   "end": 128.31
+  },
+  {
+   "w": "a",
+   "start": 128.35,
+   "end": 128.39
+  },
+  {
+   "w": "tabela",
+   "start": 128.47,
+   "end": 128.87
+  },
+  {
+   "w": "com",
+   "start": 128.95,
+   "end": 129.03
+  },
+  {
+   "w": "cada",
+   "start": 129.11,
+   "end": 129.35
+  },
+  {
+   "w": "item,",
+   "start": 129.51,
+   "end": 129.83
+  },
+  {
+   "w": "quantidade",
+   "start": 129.95,
+   "end": 130.47
+  },
+  {
+   "w": "e",
+   "start": 130.55,
+   "end": 130.63
+  },
+  {
+   "w": "preço,",
+   "start": 130.71,
+   "end": 131.43
+  },
+  {
+   "w": "e",
+   "start": 131.47,
+   "end": 131.51
+  },
+  {
+   "w": "o",
+   "start": 131.537,
+   "end": 131.563
+  },
+  {
+   "w": "total",
+   "start": 131.59,
+   "end": 131.91
+  },
+  {
+   "w": "já",
+   "start": 131.95,
+   "end": 132.07
+  },
+  {
+   "w": "somado:",
+   "start": 132.19,
+   "end": 132.79
+  },
+  {
+   "w": "setecentos",
+   "start": 132.87,
+   "end": 133.51
+  },
+  {
+   "w": "e",
+   "start": 133.563,
+   "end": 133.617
+  },
+  {
+   "w": "dez",
+   "start": 133.67,
+   "end": 133.83
+  },
+  {
+   "w": "reais.",
+   "start": 133.91,
+   "end": 134.47
+  },
+  {
+   "w": "Embaixo,",
+   "start": 134.87,
+   "end": 135.47
+  },
+  {
+   "w": "o",
+   "start": 135.51,
+   "end": 135.55
+  },
+  {
+   "w": "sinal",
+   "start": 135.59,
+   "end": 135.83
+  },
+  {
+   "w": "de",
+   "start": 135.91,
+   "end": 135.99
+  },
+  {
+   "w": "trezentos",
+   "start": 136.07,
+   "end": 136.47
+  },
+  {
+   "w": "e",
+   "start": 136.55,
+   "end": 136.63
+  },
+  {
+   "w": "cinquenta",
+   "start": 136.67,
+   "end": 136.87
+  },
+  {
+   "w": "e",
+   "start": 136.95,
+   "end": 137.03
+  },
+  {
+   "w": "cinco",
+   "start": 137.07,
+   "end": 137.19
+  },
+  {
+   "w": "reais",
+   "start": 137.27,
+   "end": 137.51
+  },
+  {
+   "w": "pra",
+   "start": 137.59,
+   "end": 137.67
+  },
+  {
+   "w": "reservar",
+   "start": 137.75,
+   "end": 138.15
+  },
+  {
+   "w": "a",
+   "start": 138.19,
+   "end": 138.23
+  },
+  {
+   "w": "data,",
+   "start": 138.31,
+   "end": 138.87
+  },
+  {
+   "w": "a",
+   "start": 138.923,
+   "end": 138.977
+  },
+  {
+   "w": "forma",
+   "start": 139.03,
+   "end": 139.27
+  },
+  {
+   "w": "de",
+   "start": 139.31,
+   "end": 139.35
+  },
+  {
+   "w": "pagamento",
+   "start": 139.43,
+   "end": 139.99
+  },
+  {
+   "w": "e",
+   "start": 140.07,
+   "end": 140.11
+  },
+  {
+   "w": "a",
+   "start": 140.15,
+   "end": 140.19
+  },
+  {
+   "w": "validade.",
+   "start": 140.23,
+   "end": 141.11
+  },
+  {
+   "w": "É",
+   "start": 141.15,
+   "end": 141.19
+  },
+  {
+   "w": "só",
+   "start": 141.27,
+   "end": 141.35
+  },
+  {
+   "w": "clicar",
+   "start": 141.43,
+   "end": 141.75
+  },
+  {
+   "w": "e",
+   "start": 141.79,
+   "end": 141.83
+  },
+  {
+   "w": "baixar.",
+   "start": 141.87,
+   "end": 142.55
+  },
+  {
+   "w": "Agora,",
+   "start": 142.82,
+   "end": 143.46
+  },
+  {
+   "w": "a",
+   "start": 143.54,
+   "end": 143.62
+  },
+  {
+   "w": "dica",
+   "start": 143.78,
+   "end": 144.1
+  },
+  {
+   "w": "de",
+   "start": 144.18,
+   "end": 144.26
+  },
+  {
+   "w": "ouro:",
+   "start": 144.34,
+   "end": 144.98
+  },
+  {
+   "w": "confira",
+   "start": 145.18,
+   "end": 145.54
+  },
+  {
+   "w": "as",
+   "start": 145.66,
+   "end": 145.78
+  },
+  {
+   "w": "contas.",
+   "start": 145.86,
+   "end": 146.42
+  },
+  {
+   "w": "O",
+   "start": 146.74,
+   "end": 146.82
+  },
+  {
+   "w": "preço",
+   "start": 146.9,
+   "end": 147.14
+  },
+  {
+   "w": "é",
+   "start": 147.22,
+   "end": 147.3
+  },
+  {
+   "w": "seu,",
+   "start": 147.38,
+   "end": 147.78
+  },
+  {
+   "w": "e",
+   "start": 147.82,
+   "end": 147.86
+  },
+  {
+   "w": "quem",
+   "start": 147.94,
+   "end": 148.1
+  },
+  {
+   "w": "manda",
+   "start": 148.22,
+   "end": 148.34
+  },
+  {
+   "w": "o",
+   "start": 148.38,
+   "end": 148.42
+  },
+  {
+   "w": "orçamento",
+   "start": 148.5,
+   "end": 149.06
+  },
+  {
+   "w": "é",
+   "start": 149.22,
+   "end": 149.26
+  },
+  {
+   "w": "você.",
+   "start": 149.3,
+   "end": 149.86
+  },
+  {
+   "w": "Eu",
+   "start": 150.34,
+   "end": 150.42
+  },
+  {
+   "w": "conferi:",
+   "start": 150.5,
+   "end": 151.38
+  },
+  {
+   "w": "duzentos",
+   "start": 151.42,
+   "end": 151.78
+  },
+  {
+   "w": "e",
+   "start": 151.86,
+   "end": 151.94
+  },
+  {
+   "w": "setenta",
+   "start": 152.02,
+   "end": 152.26
+  },
+  {
+   "w": "do",
+   "start": 152.34,
+   "end": 152.42
+  },
+  {
+   "w": "bolo,",
+   "start": 152.5,
+   "end": 153.06
+  },
+  {
+   "w": "mais",
+   "start": 153.14,
+   "end": 153.38
+  },
+  {
+   "w": "cento",
+   "start": 153.46,
+   "end": 153.62
+  },
+  {
+   "w": "e",
+   "start": 153.66,
+   "end": 153.7
+  },
+  {
+   "w": "cinquenta,",
+   "start": 153.78,
+   "end": 154.66
+  },
+  {
+   "w": "setenta",
+   "start": 154.74,
+   "end": 154.98
+  },
+  {
+   "w": "e",
+   "start": 155.06,
+   "end": 155.14
+  },
+  {
+   "w": "cinco,",
+   "start": 155.22,
+   "end": 155.86
+  },
+  {
+   "w": "cento",
+   "start": 155.94,
+   "end": 156.14
+  },
+  {
+   "w": "e",
+   "start": 156.18,
+   "end": 156.22
+  },
+  {
+   "w": "setenta",
+   "start": 156.26,
+   "end": 156.5
+  },
+  {
+   "w": "e",
+   "start": 156.58,
+   "end": 156.74
+  },
+  {
+   "w": "cinco,",
+   "start": 156.82,
+   "end": 157.22
+  },
+  {
+   "w": "e",
+   "start": 157.38,
+   "end": 157.54
+  },
+  {
+   "w": "quarenta",
+   "start": 157.58,
+   "end": 157.9
+  },
+  {
+   "w": "da",
+   "start": 157.94,
+   "end": 158.02
+  },
+  {
+   "w": "entrega.",
+   "start": 158.1,
+   "end": 158.9
+  },
+  {
+   "w": "Setecentos",
+   "start": 158.98,
+   "end": 159.46
+  },
+  {
+   "w": "e",
+   "start": 159.54,
+   "end": 159.62
+  },
+  {
+   "w": "dez.",
+   "start": 159.78,
+   "end": 160.02
+  },
+  {
+   "w": "Bateu",
+   "start": 160.26,
+   "end": 160.58
+  },
+  {
+   "w": "certinho.",
+   "start": 160.74,
+   "end": 161.62
+  },
+  {
+   "w": "Passo",
+   "start": 161.89,
+   "end": 162.21
+  },
+  {
+   "w": "três.",
+   "start": 162.29,
+   "end": 162.97
+  },
+  {
+   "w": "Na",
+   "start": 163.17,
+   "end": 163.25
+  },
+  {
+   "w": "mesma",
+   "start": 163.33,
+   "end": 163.49
+  },
+  {
+   "w": "conversa,",
+   "start": 163.57,
+   "end": 164.29
+  },
+  {
+   "w": "peça:",
+   "start": 164.37,
+   "end": 164.85
+  },
+  {
+   "w": "agora",
+   "start": 165.33,
+   "end": 165.65
+  },
+  {
+   "w": "crie",
+   "start": 165.81,
+   "end": 166.01
+  },
+  {
+   "w": "uma",
+   "start": 166.05,
+   "end": 166.21
+  },
+  {
+   "w": "planilha",
+   "start": 166.33,
+   "end": 166.61
+  },
+  {
+   "w": "do",
+   "start": 166.65,
+   "end": 166.69
+  },
+  {
+   "w": "Excel",
+   "start": 166.97,
+   "end": 167.25
+  },
+  {
+   "w": "pra",
+   "start": 167.29,
+   "end": 167.33
+  },
+  {
+   "w": "eu",
+   "start": 167.41,
+   "end": 167.49
+  },
+  {
+   "w": "controlar",
+   "start": 167.65,
+   "end": 167.89
+  },
+  {
+   "w": "os",
+   "start": 167.97,
+   "end": 168.05
+  },
+  {
+   "w": "meus",
+   "start": 168.09,
+   "end": 168.21
+  },
+  {
+   "w": "orçamentos,",
+   "start": 168.29,
+   "end": 169.17
+  },
+  {
+   "w": "com",
+   "start": 169.25,
+   "end": 169.33
+  },
+  {
+   "w": "data,",
+   "start": 169.41,
+   "end": 169.97
+  },
+  {
+   "w": "cliente,",
+   "start": 170.29,
+   "end": 170.77
+  },
+  {
+   "w": "evento,",
+   "start": 171.09,
+   "end": 171.57
+  },
+  {
+   "w": "valor,",
+   "start": 171.81,
+   "end": 172.29
+  },
+  {
+   "w": "sinal,",
+   "start": 172.33,
+   "end": 173.01
+  },
+  {
+   "w": "e",
+   "start": 173.05,
+   "end": 173.09
+  },
+  {
+   "w": "se",
+   "start": 173.17,
+   "end": 173.25
+  },
+  {
+   "w": "fechou",
+   "start": 173.37,
+   "end": 173.73
+  },
+  {
+   "w": "ou",
+   "start": 173.77,
+   "end": 173.81
+  },
+  {
+   "w": "não.",
+   "start": 173.89,
+   "end": 174.37
+  },
+  {
+   "w": "E",
+   "start": 174.64,
+   "end": 174.8
+  },
+  {
+   "w": "aqui",
+   "start": 174.88,
+   "end": 175.04
+  },
+  {
+   "w": "está",
+   "start": 175.16,
+   "end": 175.307
+  },
+  {
+   "w": "a",
+   "start": 175.333,
+   "end": 175.36
+  },
+  {
+   "w": "planilha.",
+   "start": 175.44,
+   "end": 176.12
+  },
+  {
+   "w": "Cada",
+   "start": 176.32,
+   "end": 176.48
+  },
+  {
+   "w": "orçamento",
+   "start": 176.56,
+   "end": 177.12
+  },
+  {
+   "w": "numa",
+   "start": 177.2,
+   "end": 177.32
+  },
+  {
+   "w": "linha,",
+   "start": 177.36,
+   "end": 177.92
+  },
+  {
+   "w": "a",
+   "start": 177.96,
+   "end": 178
+  },
+  {
+   "w": "coluna",
+   "start": 178.08,
+   "end": 178.4
+  },
+  {
+   "w": "de",
+   "start": 178.48,
+   "end": 178.56
+  },
+  {
+   "w": "status",
+   "start": 178.64,
+   "end": 179.12
+  },
+  {
+   "w": "com",
+   "start": 179.2,
+   "end": 179.36
+  },
+  {
+   "w": "aguardando,",
+   "start": 179.44,
+   "end": 180.16
+  },
+  {
+   "w": "fechado",
+   "start": 180.24,
+   "end": 180.8
+  },
+  {
+   "w": "ou",
+   "start": 180.96,
+   "end": 181.04
+  },
+  {
+   "w": "recusado,",
+   "start": 181.12,
+   "end": 182
+  },
+  {
+   "w": "e",
+   "start": 182.04,
+   "end": 182.08
+  },
+  {
+   "w": "lá",
+   "start": 182.12,
+   "end": 182.16
+  },
+  {
+   "w": "embaixo,",
+   "start": 182.24,
+   "end": 182.8
+  },
+  {
+   "w": "o",
+   "start": 182.84,
+   "end": 182.88
+  },
+  {
+   "w": "total",
+   "start": 182.96,
+   "end": 183.28
+  },
+  {
+   "w": "orçado",
+   "start": 183.4,
+   "end": 183.84
+  },
+  {
+   "w": "e",
+   "start": 183.92,
+   "end": 184
+  },
+  {
+   "w": "o",
+   "start": 184.027,
+   "end": 184.053
+  },
+  {
+   "w": "total",
+   "start": 184.08,
+   "end": 184.4
+  },
+  {
+   "w": "fechado",
+   "start": 184.52,
+   "end": 184.88
+  },
+  {
+   "w": "no",
+   "start": 184.96,
+   "end": 185.04
+  },
+  {
+   "w": "mês.",
+   "start": 185.08,
+   "end": 185.44
+  },
+  {
+   "w": "Você",
+   "start": 185.84,
+   "end": 186.08
+  },
+  {
+   "w": "baixa",
+   "start": 186.16,
+   "end": 186.56
+  },
+  {
+   "w": "e",
+   "start": 186.64,
+   "end": 186.72
+  },
+  {
+   "w": "abre",
+   "start": 186.8,
+   "end": 186.96
+  },
+  {
+   "w": "no",
+   "start": 187,
+   "end": 187.04
+  },
+  {
+   "w": "Excel,",
+   "start": 187.28,
+   "end": 187.68
+  },
+  {
+   "w": "ou",
+   "start": 187.76,
+   "end": 187.92
+  },
+  {
+   "w": "salva",
+   "start": 188,
+   "end": 188.24
+  },
+  {
+   "w": "direto",
+   "start": 188.32,
+   "end": 188.56
+  },
+  {
+   "w": "no",
+   "start": 188.64,
+   "end": 188.72
+  },
+  {
+   "w": "Google",
+   "start": 188.84,
+   "end": 188.96
+  },
+  {
+   "w": "Drive,",
+   "start": 189.04,
+   "end": 189.68
+  },
+  {
+   "w": "e",
+   "start": 189.72,
+   "end": 189.76
+  },
+  {
+   "w": "vai",
+   "start": 189.84,
+   "end": 189.92
+  },
+  {
+   "w": "preenchendo",
+   "start": 190,
+   "end": 190.48
+  },
+  {
+   "w": "a",
+   "start": 190.52,
+   "end": 190.56
+  },
+  {
+   "w": "cada",
+   "start": 190.64,
+   "end": 190.88
+  },
+  {
+   "w": "cliente",
+   "start": 190.96,
+   "end": 191.28
+  },
+  {
+   "w": "novo.",
+   "start": 191.36,
+   "end": 191.92
+  },
+  {
+   "w": "E",
+   "start": 192.19,
+   "end": 192.27
+  },
+  {
+   "w": "o",
+   "start": 192.31,
+   "end": 192.35
+  },
+  {
+   "w": "bônus:",
+   "start": 192.39,
+   "end": 193.23
+  },
+  {
+   "w": "peça",
+   "start": 193.31,
+   "end": 193.55
+  },
+  {
+   "w": "também",
+   "start": 193.63,
+   "end": 193.87
+  },
+  {
+   "w": "a",
+   "start": 193.897,
+   "end": 193.923
+  },
+  {
+   "w": "mensagem",
+   "start": 193.95,
+   "end": 194.43
+  },
+  {
+   "w": "pra",
+   "start": 194.51,
+   "end": 194.59
+  },
+  {
+   "w": "mandar",
+   "start": 194.67,
+   "end": 194.91
+  },
+  {
+   "w": "junto.",
+   "start": 194.95,
+   "end": 195.63
+  },
+  {
+   "w": "Escreva:",
+   "start": 195.71,
+   "end": 196.59
+  },
+  {
+   "w": "crie",
+   "start": 196.67,
+   "end": 196.79
+  },
+  {
+   "w": "uma",
+   "start": 196.83,
+   "end": 196.91
+  },
+  {
+   "w": "mensagem",
+   "start": 196.99,
+   "end": 197.47
+  },
+  {
+   "w": "curta",
+   "start": 197.55,
+   "end": 197.87
+  },
+  {
+   "w": "e",
+   "start": 197.897,
+   "end": 197.923
+  },
+  {
+   "w": "simpática",
+   "start": 197.95,
+   "end": 198.67
+  },
+  {
+   "w": "pra",
+   "start": 198.71,
+   "end": 198.75
+  },
+  {
+   "w": "eu",
+   "start": 198.79,
+   "end": 198.83
+  },
+  {
+   "w": "mandar",
+   "start": 198.91,
+   "end": 199.15
+  },
+  {
+   "w": "no",
+   "start": 199.19,
+   "end": 199.23
+  },
+  {
+   "w": "WhatsApp",
+   "start": 199.31,
+   "end": 199.79
+  },
+  {
+   "w": "com",
+   "start": 199.87,
+   "end": 199.95
+  },
+  {
+   "w": "esse",
+   "start": 200.03,
+   "end": 200.11
+  },
+  {
+   "w": "orçamento.",
+   "start": 200.19,
+   "end": 201.15
+  },
+  {
+   "w": "Em",
+   "start": 201.27,
+   "end": 201.39
+  },
+  {
+   "w": "segundos,",
+   "start": 201.51,
+   "end": 202.083
+  },
+  {
+   "w": "ela",
+   "start": 202.137,
+   "end": 202.19
+  },
+  {
+   "w": "está",
+   "start": 202.27,
+   "end": 202.43
+  },
+  {
+   "w": "pronta.",
+   "start": 202.51,
+   "end": 203.123
+  },
+  {
+   "w": "É",
+   "start": 203.177,
+   "end": 203.23
+  },
+  {
+   "w": "só",
+   "start": 203.257,
+   "end": 203.31
+  },
+  {
+   "w": "copiar,",
+   "start": 203.39,
+   "end": 204.11
+  },
+  {
+   "w": "colar,",
+   "start": 204.23,
+   "end": 204.75
+  },
+  {
+   "w": "e",
+   "start": 204.777,
+   "end": 204.803
+  },
+  {
+   "w": "anexar",
+   "start": 204.83,
+   "end": 205.23
+  },
+  {
+   "w": "o",
+   "start": 205.27,
+   "end": 205.31
+  },
+  {
+   "w": "PDF.",
+   "start": 205.35,
+   "end": 206.11
+  },
+  {
+   "w": "E",
+   "start": 206.38,
+   "end": 206.54
+  },
+  {
+   "w": "não",
+   "start": 206.62,
+   "end": 206.78
+  },
+  {
+   "w": "para",
+   "start": 206.86,
+   "end": 207.1
+  },
+  {
+   "w": "no",
+   "start": 207.14,
+   "end": 207.18
+  },
+  {
+   "w": "orçamento.",
+   "start": 207.26,
+   "end": 208.22
+  },
+  {
+   "w": "Com",
+   "start": 208.3,
+   "end": 208.38
+  },
+  {
+   "w": "o",
+   "start": 208.46,
+   "end": 208.54
+  },
+  {
+   "w": "mesmo",
+   "start": 208.66,
+   "end": 208.86
+  },
+  {
+   "w": "jeito",
+   "start": 208.94,
+   "end": 209.18
+  },
+  {
+   "w": "de",
+   "start": 209.26,
+   "end": 209.34
+  },
+  {
+   "w": "pedir,",
+   "start": 209.42,
+   "end": 209.9
+  },
+  {
+   "w": "você",
+   "start": 210.007,
+   "end": 210.22
+  },
+  {
+   "w": "cria",
+   "start": 210.3,
+   "end": 210.42
+  },
+  {
+   "w": "a",
+   "start": 210.46,
+   "end": 210.54
+  },
+  {
+   "w": "tabela",
+   "start": 210.647,
+   "end": 210.86
+  },
+  {
+   "w": "de",
+   "start": 210.94,
+   "end": 211.02
+  },
+  {
+   "w": "preços",
+   "start": 211.1,
+   "end": 211.5
+  },
+  {
+   "w": "do",
+   "start": 211.54,
+   "end": 211.58
+  },
+  {
+   "w": "seu",
+   "start": 211.66,
+   "end": 211.847
+  },
+  {
+   "w": "negócio,",
+   "start": 211.953,
+   "end": 212.62
+  },
+  {
+   "w": "uma",
+   "start": 212.7,
+   "end": 212.78
+  },
+  {
+   "w": "proposta",
+   "start": 212.86,
+   "end": 213.34
+  },
+  {
+   "w": "pra",
+   "start": 213.38,
+   "end": 213.42
+  },
+  {
+   "w": "um",
+   "start": 213.46,
+   "end": 213.5
+  },
+  {
+   "w": "cliente",
+   "start": 213.66,
+   "end": 213.82
+  },
+  {
+   "w": "maior,",
+   "start": 213.9,
+   "end": 214.54
+  },
+  {
+   "w": "um",
+   "start": 214.58,
+   "end": 214.62
+  },
+  {
+   "w": "recibo,",
+   "start": 214.82,
+   "end": 215.58
+  },
+  {
+   "w": "ou",
+   "start": 215.66,
+   "end": 215.74
+  },
+  {
+   "w": "uma",
+   "start": 215.82,
+   "end": 215.9
+  },
+  {
+   "w": "apresentação",
+   "start": 215.98,
+   "end": 216.62
+  },
+  {
+   "w": "pra",
+   "start": 216.7,
+   "end": 216.78
+  },
+  {
+   "w": "mostrar",
+   "start": 216.86,
+   "end": 217.1
+  },
+  {
+   "w": "o",
+   "start": 217.14,
+   "end": 217.18
+  },
+  {
+   "w": "seu",
+   "start": 217.22,
+   "end": 217.34
+  },
+  {
+   "w": "trabalho.",
+   "start": 217.38,
+   "end": 218.22
+  },
+  {
+   "w": "Você",
+   "start": 218.38,
+   "end": 218.54
+  },
+  {
+   "w": "pede",
+   "start": 218.62,
+   "end": 218.753
+  },
+  {
+   "w": "em",
+   "start": 218.807,
+   "end": 218.86
+  },
+  {
+   "w": "português,",
+   "start": 218.98,
+   "end": 219.74
+  },
+  {
+   "w": "e",
+   "start": 219.767,
+   "end": 219.793
+  },
+  {
+   "w": "o",
+   "start": 219.82,
+   "end": 219.86
+  },
+  {
+   "w": "arquivo",
+   "start": 219.9,
+   "end": 220.3
+  },
+  {
+   "w": "sai",
+   "start": 220.38,
+   "end": 220.62
+  },
+  {
+   "w": "pronto.",
+   "start": 220.7,
+   "end": 221.34
+  },
+  {
+   "w": "Dois",
+   "start": 221.61,
+   "end": 221.85
+  },
+  {
+   "w": "cuidados",
+   "start": 221.89,
+   "end": 222.33
+  },
+  {
+   "w": "rápidos.",
+   "start": 222.41,
+   "end": 223.05
+  },
+  {
+   "w": "Criar",
+   "start": 223.45,
+   "end": 223.77
+  },
+  {
+   "w": "arquivos",
+   "start": 223.85,
+   "end": 224.41
+  },
+  {
+   "w": "gasta",
+   "start": 224.45,
+   "end": 224.81
+  },
+  {
+   "w": "mais",
+   "start": 224.89,
+   "end": 225.13
+  },
+  {
+   "w": "do",
+   "start": 225.21,
+   "end": 225.29
+  },
+  {
+   "w": "seu",
+   "start": 225.33,
+   "end": 225.45
+  },
+  {
+   "w": "limite",
+   "start": 225.53,
+   "end": 225.77
+  },
+  {
+   "w": "de",
+   "start": 225.85,
+   "end": 225.93
+  },
+  {
+   "w": "uso",
+   "start": 226.01,
+   "end": 226.33
+  },
+  {
+   "w": "do",
+   "start": 226.41,
+   "end": 226.49
+  },
+  {
+   "w": "que",
+   "start": 226.53,
+   "end": 226.57
+  },
+  {
+   "w": "uma",
+   "start": 226.65,
+   "end": 226.73
+  },
+  {
+   "w": "conversa",
+   "start": 226.81,
+   "end": 227.17
+  },
+  {
+   "w": "normal,",
+   "start": 227.21,
+   "end": 227.93
+  },
+  {
+   "w": "então",
+   "start": 228.05,
+   "end": 228.41
+  },
+  {
+   "w": "mande",
+   "start": 228.57,
+   "end": 228.81
+  },
+  {
+   "w": "o",
+   "start": 228.837,
+   "end": 228.863
+  },
+  {
+   "w": "pedido",
+   "start": 228.89,
+   "end": 229.21
+  },
+  {
+   "w": "bem",
+   "start": 229.29,
+   "end": 229.45
+  },
+  {
+   "w": "explicado,",
+   "start": 229.53,
+   "end": 230.33
+  },
+  {
+   "w": "de",
+   "start": 230.37,
+   "end": 230.41
+  },
+  {
+   "w": "uma",
+   "start": 230.49,
+   "end": 230.57
+  },
+  {
+   "w": "vez.",
+   "start": 230.65,
+   "end": 231.05
+  },
+  {
+   "w": "E",
+   "start": 231.45,
+   "end": 231.61
+  },
+  {
+   "w": "sempre",
+   "start": 231.69,
+   "end": 232.09
+  },
+  {
+   "w": "revise",
+   "start": 232.21,
+   "end": 232.49
+  },
+  {
+   "w": "o",
+   "start": 232.53,
+   "end": 232.57
+  },
+  {
+   "w": "arquivo",
+   "start": 232.65,
+   "end": 232.97
+  },
+  {
+   "w": "antes",
+   "start": 233.05,
+   "end": 233.29
+  },
+  {
+   "w": "de",
+   "start": 233.33,
+   "end": 233.37
+  },
+  {
+   "w": "enviar:",
+   "start": 233.45,
+   "end": 234.17
+  },
+  {
+   "w": "nome,",
+   "start": 234.37,
+   "end": 234.81
+  },
+  {
+   "w": "data",
+   "start": 235.01,
+   "end": 235.21
+  },
+  {
+   "w": "e",
+   "start": 235.37,
+   "end": 235.41
+  },
+  {
+   "w": "valores.",
+   "start": 235.45,
+   "end": 236.33
+  },
+  {
+   "w": "Resumindo:",
+   "start": 236.6,
+   "end": 237.32
+  },
+  {
+   "w": "ligue",
+   "start": 237.72,
+   "end": 237.96
+  },
+  {
+   "w": "a",
+   "start": 237.987,
+   "end": 238.013
+  },
+  {
+   "w": "opção",
+   "start": 238.04,
+   "end": 238.44
+  },
+  {
+   "w": "criar",
+   "start": 238.6,
+   "end": 239
+  },
+  {
+   "w": "e",
+   "start": 239.027,
+   "end": 239.053
+  },
+  {
+   "w": "editar",
+   "start": 239.08,
+   "end": 239.48
+  },
+  {
+   "w": "arquivos,",
+   "start": 239.56,
+   "end": 240.52
+  },
+  {
+   "w": "faça",
+   "start": 240.6,
+   "end": 240.92
+  },
+  {
+   "w": "o",
+   "start": 240.96,
+   "end": 241
+  },
+  {
+   "w": "pedido",
+   "start": 241.2,
+   "end": 241.4
+  },
+  {
+   "w": "com",
+   "start": 241.48,
+   "end": 241.56
+  },
+  {
+   "w": "os",
+   "start": 241.6,
+   "end": 241.64
+  },
+  {
+   "w": "seus",
+   "start": 241.68,
+   "end": 241.88
+  },
+  {
+   "w": "dados",
+   "start": 242.04,
+   "end": 242.2
+  },
+  {
+   "w": "e",
+   "start": 242.24,
+   "end": 242.28
+  },
+  {
+   "w": "preços,",
+   "start": 242.36,
+   "end": 243.16
+  },
+  {
+   "w": "confira",
+   "start": 243.32,
+   "end": 243.56
+  },
+  {
+   "w": "as",
+   "start": 243.64,
+   "end": 243.72
+  },
+  {
+   "w": "contas,",
+   "start": 243.8,
+   "end": 244.52
+  },
+  {
+   "w": "e",
+   "start": 244.56,
+   "end": 244.6
+  },
+  {
+   "w": "peça",
+   "start": 244.76,
+   "end": 245
+  },
+  {
+   "w": "a",
+   "start": 245.08,
+   "end": 245.12
+  },
+  {
+   "w": "planilha",
+   "start": 245.16,
+   "end": 245.72
+  },
+  {
+   "w": "e",
+   "start": 245.76,
+   "end": 245.8
+  },
+  {
+   "w": "a",
+   "start": 245.827,
+   "end": 245.853
+  },
+  {
+   "w": "mensagem",
+   "start": 245.88,
+   "end": 246.44
+  },
+  {
+   "w": "do",
+   "start": 246.48,
+   "end": 246.52
+  },
+  {
+   "w": "WhatsApp.",
+   "start": 246.8,
+   "end": 247.48
+  },
+  {
+   "w": "O",
+   "start": 247.52,
+   "end": 247.56
+  },
+  {
+   "w": "link",
+   "start": 247.68,
+   "end": 247.8
+  },
+  {
+   "w": "da",
+   "start": 247.88,
+   "end": 247.96
+  },
+  {
+   "w": "página",
+   "start": 248.04,
+   "end": 248.28
+  },
+  {
+   "w": "oficial",
+   "start": 248.32,
+   "end": 248.84
+  },
+  {
+   "w": "está",
+   "start": 248.96,
+   "end": 249.133
+  },
+  {
+   "w": "na",
+   "start": 249.187,
+   "end": 249.24
+  },
+  {
+   "w": "descrição.",
+   "start": 249.32,
+   "end": 250.04
+  },
+  {
+   "w": "E",
+   "start": 250.31,
+   "end": 250.47
+  },
+  {
+   "w": "se",
+   "start": 250.51,
+   "end": 250.55
+  },
+  {
+   "w": "você",
+   "start": 250.59,
+   "end": 250.79
+  },
+  {
+   "w": "quer",
+   "start": 250.87,
+   "end": 251.11
+  },
+  {
+   "w": "mais",
+   "start": 251.19,
+   "end": 251.43
+  },
+  {
+   "w": "jeitos",
+   "start": 251.51,
+   "end": 251.83
+  },
+  {
+   "w": "de",
+   "start": 251.87,
+   "end": 251.91
+  },
+  {
+   "w": "colocar",
+   "start": 251.99,
+   "end": 252.31
+  },
+  {
+   "w": "a",
+   "start": 252.35,
+   "end": 252.39
+  },
+  {
+   "w": "inteligência",
+   "start": 252.43,
+   "end": 252.87
+  },
+  {
+   "w": "artificial",
+   "start": 252.95,
+   "end": 253.51
+  },
+  {
+   "w": "pra",
+   "start": 253.59,
+   "end": 253.67
+  },
+  {
+   "w": "trabalhar",
+   "start": 253.71,
+   "end": 254.07
+  },
+  {
+   "w": "no",
+   "start": 254.15,
+   "end": 254.23
+  },
+  {
+   "w": "seu",
+   "start": 254.31,
+   "end": 254.47
+  },
+  {
+   "w": "negócio,",
+   "start": 254.59,
+   "end": 255.27
+  },
+  {
+   "w": "o",
+   "start": 255.35,
+   "end": 255.43
+  },
+  {
+   "w": "próximo",
+   "start": 255.51,
+   "end": 255.91
+  },
+  {
+   "w": "vídeo",
+   "start": 255.99,
+   "end": 256.23
+  },
+  {
+   "w": "está",
+   "start": 256.31,
+   "end": 256.47
+  },
+  {
+   "w": "aqui",
+   "start": 256.55,
+   "end": 256.63
+  },
+  {
+   "w": "do",
+   "start": 256.71,
+   "end": 256.79
+  },
+  {
+   "w": "lado.",
+   "start": 256.83,
+   "end": 257.43
+  },
+  {
+   "w": "Clica",
+   "start": 257.51,
+   "end": 257.67
+  },
+  {
+   "w": "nele",
+   "start": 257.71,
+   "end": 257.83
+  },
+  {
+   "w": "agora!",
+   "start": 257.91,
+   "end": 258.63
+  }
+ ]
+}

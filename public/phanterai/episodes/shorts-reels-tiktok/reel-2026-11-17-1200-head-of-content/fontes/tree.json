@@ -1,0 +1,290 @@
+[
+  {
+    "name": ".claude",
+    "path": ".claude",
+    "sha": "3194d7a1924a582ac954f57a9d6753ffaf91d2c3",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/.claude?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/.claude",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/3194d7a1924a582ac954f57a9d6753ffaf91d2c3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/.claude?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/3194d7a1924a582ac954f57a9d6753ffaf91d2c3",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/.claude"
+    }
+  },
+  {
+    "name": ".env.example",
+    "path": ".env.example",
+    "sha": "7d04e9a0b748ca8574521831c201f1c3cd702797",
+    "size": 370,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/.env.example?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/.env.example",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/7d04e9a0b748ca8574521831c201f1c3cd702797",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/.env.example",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/.env.example?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/7d04e9a0b748ca8574521831c201f1c3cd702797",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/.env.example"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "3a253f073c6fd8251c66b86217cf395793997ac0",
+    "size": 576,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/3a253f073c6fd8251c66b86217cf395793997ac0",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/3a253f073c6fd8251c66b86217cf395793997ac0",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "CLAUDE.md",
+    "path": "CLAUDE.md",
+    "sha": "97b88926afe1c846ffc3c61d186ef174f821b35b",
+    "size": 5152,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/CLAUDE.md?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/CLAUDE.md",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/97b88926afe1c846ffc3c61d186ef174f821b35b",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/CLAUDE.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/CLAUDE.md?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/97b88926afe1c846ffc3c61d186ef174f821b35b",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/CLAUDE.md"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "6d527514e96bcd981ddfa58fae261defcb37fbc5",
+    "size": 1070,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/6d527514e96bcd981ddfa58fae261defcb37fbc5",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/6d527514e96bcd981ddfa58fae261defcb37fbc5",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "27546517d3d96cf8fac52b65a2f6d36550611440",
+    "size": 11148,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/README.md?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/27546517d3d96cf8fac52b65a2f6d36550611440",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/27546517d3d96cf8fac52b65a2f6d36550611440",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/README.md"
+    }
+  },
+  {
+    "name": "content-planner.skill",
+    "path": "content-planner.skill",
+    "sha": "1dfd3ba3665b64127c8b00acf8917d49e7cc7560",
+    "size": 5992,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/content-planner.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/content-planner.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/1dfd3ba3665b64127c8b00acf8917d49e7cc7560",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/content-planner.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/content-planner.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/1dfd3ba3665b64127c8b00acf8917d49e7cc7560",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/content-planner.skill"
+    }
+  },
+  {
+    "name": "content-plans",
+    "path": "content-plans",
+    "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/content-plans?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/content-plans",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/content-plans?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/content-plans"
+    }
+  },
+  {
+    "name": "images",
+    "path": "images",
+    "sha": "0daabedc89a156f04fb0f3e9e3edd288dcafbc10",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/images?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/images",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/0daabedc89a156f04fb0f3e9e3edd288dcafbc10",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/images?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/0daabedc89a156f04fb0f3e9e3edd288dcafbc10",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/images"
+    }
+  },
+  {
+    "name": "instagram-research.skill",
+    "path": "instagram-research.skill",
+    "sha": "9df895c31b7c5db6612019c364f5c7705a2176ce",
+    "size": 28802,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/instagram-research.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/instagram-research.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/9df895c31b7c5db6612019c364f5c7705a2176ce",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/instagram-research.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/instagram-research.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/9df895c31b7c5db6612019c364f5c7705a2176ce",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/instagram-research.skill"
+    }
+  },
+  {
+    "name": "instagram-research",
+    "path": "instagram-research",
+    "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/instagram-research?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/instagram-research",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/instagram-research?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/instagram-research"
+    }
+  },
+  {
+    "name": "tiktok-research.skill",
+    "path": "tiktok-research.skill",
+    "sha": "69d452a4793ec0ea420804cfb6f8b1f4b3a037cc",
+    "size": 18124,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/tiktok-research.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/tiktok-research.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/69d452a4793ec0ea420804cfb6f8b1f4b3a037cc",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/tiktok-research.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/tiktok-research.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/69d452a4793ec0ea420804cfb6f8b1f4b3a037cc",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/tiktok-research.skill"
+    }
+  },
+  {
+    "name": "tiktok-research",
+    "path": "tiktok-research",
+    "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/tiktok-research?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/tiktok-research",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/tiktok-research?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/tiktok-research"
+    }
+  },
+  {
+    "name": "video-content-analyzer.skill",
+    "path": "video-content-analyzer.skill",
+    "sha": "865222e1bbd3a423277180f87e549899ec4ffde3",
+    "size": 6694,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/video-content-analyzer.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/video-content-analyzer.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/865222e1bbd3a423277180f87e549899ec4ffde3",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/video-content-analyzer.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/video-content-analyzer.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/865222e1bbd3a423277180f87e549899ec4ffde3",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/video-content-analyzer.skill"
+    }
+  },
+  {
+    "name": "x-research.skill",
+    "path": "x-research.skill",
+    "sha": "c5b7f8f5a634fe335b11ce6bfa77898da8947f74",
+    "size": 7791,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/x-research.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/x-research.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/c5b7f8f5a634fe335b11ce6bfa77898da8947f74",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/x-research.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/x-research.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/c5b7f8f5a634fe335b11ce6bfa77898da8947f74",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/x-research.skill"
+    }
+  },
+  {
+    "name": "x-research",
+    "path": "x-research",
+    "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/x-research?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/x-research",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/x-research?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/x-research"
+    }
+  },
+  {
+    "name": "youtube-research.skill",
+    "path": "youtube-research.skill",
+    "sha": "ee270cfca1ab90e19e171252edff8166152e824c",
+    "size": 10757,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/youtube-research.skill?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/blob/main/youtube-research.skill",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/ee270cfca1ab90e19e171252edff8166152e824c",
+    "download_url": "https://raw.githubusercontent.com/bradautomates/head-of-content/main/youtube-research.skill",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/youtube-research.skill?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/blobs/ee270cfca1ab90e19e171252edff8166152e824c",
+      "html": "https://github.com/bradautomates/head-of-content/blob/main/youtube-research.skill"
+    }
+  },
+  {
+    "name": "youtube-research",
+    "path": "youtube-research",
+    "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "size": 0,
+    "url": "https://api.github.com/repos/bradautomates/head-of-content/contents/youtube-research?ref=main",
+    "html_url": "https://github.com/bradautomates/head-of-content/tree/main/youtube-research",
+    "git_url": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/bradautomates/head-of-content/contents/youtube-research?ref=main",
+      "git": "https://api.github.com/repos/bradautomates/head-of-content/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "html": "https://github.com/bradautomates/head-of-content/tree/main/youtube-research"
+    }
+  }
+]

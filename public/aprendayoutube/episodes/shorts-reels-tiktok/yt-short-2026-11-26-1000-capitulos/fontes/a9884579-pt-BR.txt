@@ -1,0 +1,63 @@
+Pular para o conteúdo principal
+Ajuda do YouTube
+Fazer login
+Central de Ajuda
+Comunidade
+Dicas para criadores de conteúdo
+YouTube
+Corrigir um problemaAssistir vídeosGerenciar sua conta e suas configuraçõesExperiências supervisionadas no YouTubeYouTube PremiumComo criar e desenvolver seu canalGerar receita com seu conteúdoPolítica, segurança e direitos autorais
+Editar vídeos e as configurações delesCapítulos de vídeo
+
+Siga @TeamYouTube no X, antigo Twitter para receber as atualizações mais recentes e respostas às suas perguntas em francês/russo. Estamos aqui para ajudar.
+
+Capítulos de vídeo
+
+Os capítulos dividem o vídeo em seções, e cada um deles pode ser visto em uma prévia individual. Esse recurso oferece mais informações e contexto sobre cada parte do vídeo. Com eles, fica mais fácil encontrar e assistir certas partes do vídeo novamente. Os YouTubers podem adicionar capítulos de vídeo por conta própria ou aproveitar os que são gerados automaticamente. Os capítulos podem aparecer nas transcrições. É possível desativar a opção de capítulos de vídeo automáticos no YouTube Studio.
+
+Observação: caso você ainda não tenha acesso aos capítulos, solicite o acesso aos recursos avançados.
+Para adicionar seus próprios capítulos de vídeo, siga estas instruções:
+Faça login no YouTube Studio.
+No menu à esquerda, selecione Conteúdo.
+Clique no conteúdo que você quer editar.
+Na Descrição, adicione uma lista com marcações de tempo e títulos.
+Confira se a primeira marcação começa com 00:00.
+Seu vídeo precisa ter pelo menos três marcações de tempo organizadas em ordem crescente.
+A duração mínima de cada capítulo é de 10 segundos.
+Clique em SALVAR.
+Observação: essa opção substitui os capítulos de vídeo automáticos.
+Para usar os capítulos de vídeo automáticos, siga estas instruções:
+Faça login no YouTube Studio.
+No menu à esquerda, selecione Conteúdo.
+Clique no conteúdo que você quer editar.
+Clique em MOSTRAR MAIS e, em Capítulos automáticos, selecione Permitir capítulos automáticos. Por padrão, essa caixa é marcada em todos os novos envios. Você também pode escolher criar capítulos de vídeo automáticos em massa.
+Clique em SALVAR.
+Observação: nem todos os vídeos podem ter capítulos automáticos e nem todo o conteúdo qualificado para esse recurso terá os capítulos. Se o canal tiver avisos ativos ou caso o conteúdo seja inadequado para alguns espectadores, os capítulos de vídeo não estarão disponíveis.
+Se você quiser fazer isso em um vídeo específico, siga estas instruções:
+Faça login no YouTube Studio.
+No menu à esquerda, selecione Conteúdo.
+Clique no conteúdo que você quer editar.
+Clique em MOSTRAR MAIS e, em Capítulos automáticos, desmarque a opção Permitir capítulos automáticos.
+Clique em SALVAR.
+Observação: você também pode desativar os capítulos automáticos de vídeo em massa.
+Para desativar o uso de capítulos de vídeo automáticos:
+Faça login no YouTube Studio.
+Clique em Configurações .
+Clique em Padrões de envio.
+Clique em Configurações avançadas e desmarque a opção "Permitir capítulos automáticos (quando disponível)".
+Clique em SALVAR.
+Esta página pode ter conteúdo que foi traduzido com tecnologia de IA. As traduções de IA podem conter erros.
+Envie feedback sobre este artigo
+Isso foi útil?SimNão
+Precisa de mais ajuda?
+Siga as próximas etapas:
+Postar na Comunidade de Ajuda
+Receba respostas dos membros da comunidade
+Editar vídeos e as configurações deles
+Remover conteúdo com reivindicação de direitos autorais de vídeos
+Usar músicas e efeitos sonoros da Biblioteca de áudio
+Mencionar canais em títulos e descrições de vídeos
+Capítulos de vídeo
+Convidar colaboradores para seu vídeo
+©2026 Google  Política de Privacidade  Termos de Serviço do YouTube
+Idioma
+português (Brasil)‎

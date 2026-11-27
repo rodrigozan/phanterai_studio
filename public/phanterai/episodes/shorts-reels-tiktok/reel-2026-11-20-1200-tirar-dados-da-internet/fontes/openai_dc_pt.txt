@@ -1,0 +1,111 @@
+URL: https://help.openai.com/pt-br/articles/7730893-data-controls-in-chatgpt
+STATUS: 200
+CAPTURADO: 2026-11-20T06:34:51.885Z
+
+OpenAI Support
+Central de Ajuda
+Language
+português
+Brasil
+Login
+All Collections
+ChatGPT
+Controles de Dados
+Controles de dados no ChatGPT
+Controles de dados no ChatGPT
+Saiba como gerenciar o treinamento de modelos, o histórico de chats, as exportações de dados, a exclusão de conta e outras opções de privacidade no ChatGPT.
+Atualizado: há 3 dias
+Visão geral
+Os controles de dados permitem que você escolha se suas conversas ajudam a treinar modelos da OpenAI. Você também pode usá-los para exportar dados, gerenciar links compartilhados e outras configurações de dados disponíveis para sua conta.
+Os controles disponíveis dependem de você ter feito login, do seu plano e das configurações do seu espaço de trabalho.
+Encontre seus Controles de dados
+Abra as Configurações e selecione "Controles de dados" para gerenciar as opções disponíveis para sua conta.
+A Central de Privacidade explica suas opções de privacidade e ajuda você a encontrar as configurações para gerenciá-las. Você ainda pode gerenciar essas configurações pelo menu Configurações no ChatGPT.
+Desativar "Melhorar o modelo para todo mundo"
+Nos espaços de trabalho pessoais dos planos ChatGPT Free, Plus e Pro, o compartilhamento de dados para treinamento fica ativado por padrão. Você pode desativar Melhorar o modelo para todo mundo e continuar mantendo seu histórico de conversas.
+Acesso de confiança em contas pessoais
+Programas de Acesso Confiável, como o Daybreak Blue, oferecem suporte a trabalhos mais sensíveis. Durante as sessões do Daybreak realizadas na sua conta pessoal, podemos usar o conteúdo das suas interações para aprimorar nossos modelos, mesmo que a opção "Melhorar o modelo para todo mundo" esteja desativada. Isso nos ajuda a reforçar as proteções contra o uso indevido de recursos para fins cibernéticos. A configuração "Melhorar o modelo para todo mundo" continua sendo aplicada às suas outras atividades, ou seja, àquelas realizadas fora das sessões de Acesso Confiável (consulte "Acesso ao Daybreak").
+O modo voz tem um controle separado para o compartilhamento de dados destinados ao treinamento de modelos. Acesse o Portal de Privacidade para saber mais sobre suas opções de privacidade.
+Web (sessão iniciada)
+Abra o menu da sua conta.
+Selecione "Configurações".
+Selecione "Controles de dados".
+Selecione "Melhorar o modelo para todo mundo", desative a opção e selecione "Pronto".
+iOS e Android
+Abra a barra lateral.
+Selecione o ícone do seu perfil para abrir as Configurações.
+Selecione "Controles de dados".
+Desative "Melhorar o modelo para todo mundo".
+Quando você está conectado à sua conta, a configuração Melhorar o modelo para todo mundo se aplica a ela em dispositivos móveis e na web.
+Uso sem login
+Ao usar o ChatGPT sem fazer login, abra as Configurações e desative a opção "Melhorar o modelo para todo mundo". Sua escolha é salva nesse navegador.
+Gerenciar o treinamento de modelos para tarefas do Codex
+O Codex tem uma configuração separada, Incluir ambientes, nas Configurações do Codex que controla se o contexto adicional dos seus ambientes do Codex pode ser usado para treinar modelos da OpenAI. Alterar a configuração do ChatGPT ou desativar essa opção no Portal de Privacidade não altera essa configuração.
+O que acontece com os chats salvos
+Desativar a opção "Melhorar o modelo para todo mundo" não exclui nem oculta os chats salvos.
+Os chats regulares permanecem no histórico.
+Os chats arquivados permanecem arquivados.
+As conversas bloqueadas continuarão salvas, mas ficarão ocultas da barra lateral padrão, da Pesquisa, da lista de conversas recentes, das notificações e das prévias. A configuração Melhorar o modelo para todo mundo e as políticas aplicáveis ao espaço de trabalho continuarão em vigor.
+Os chats de projetos permanecem em seus projetos.
+Arquivar um chat não altera o fato de que ele pode ser usado para treinar os modelos da OpenAI. A configuração "Melhorar o modelo para todo mundo" continua em vigor.
+Chat temporário
+Enquanto permanecerem temporários, esses chats:
+não aparecem no seu histórico de chats;
+não criam nem atualizam memórias;
+não são usados para aprimorar os modelos da OpenAI;
+podem ser retidos por até 30 dias por motivos de segurança.
+Antes de a conversa começar, escolha se o chat temporário será personalizado. Um chat temporário personalizado pode usar memórias existentes, instruções personalizadas e plugins, sujeito às configurações da sua conta e do seu espaço de trabalho. Você pode desativar a personalização ao iniciar o chat.
+Se você salvar um chat temporário, ele se tornará um chat normal no seu histórico e seguirá as configurações da sua conta para personalização e melhoria dos modelos.
+Para obter mais informações sobre bate-papo temporário, consulte: Bate-papo temporário no ChatGPT.
+Exporte seus dados
+Usuários conectados do ChatGPT Free, Go, Plus e Pro podem solicitar uma cópia dos seus dados nas Configurações do ChatGPT. Você também pode usar o Portal de Privacidade da OpenAI.
+A exportação de dados em regime de autosserviço não está disponível para espaços de trabalho do ChatGPT Business, Enterprise ou ChatGPT para o setor de saúde e deve ser solicitada ao proprietário do espaço de trabalho. Espaços de trabalho do ChatGPT Edu elegíveis podem permitir exportações quando um administrador as habilita.
+Para mais instruções sobre exportação de dados e disponibilidade, consulte o artigo Exportando seu histórico e dados do ChatGPT.
+Excluir sua conta
+Usuários conectados do ChatGPT Free, Go, Plus e Pro podem excluir a conta nas Configurações do ChatGPT. A exclusão da sua conta da OpenAI é permanente e afeta os dados e as assinaturas associadas. A exclusão de conta por autosserviço não está disponível em espaços de trabalho gerenciados e deve ser solicitada ao proprietário do espaço de trabalho. Entre em contato com sua organização para obter ajuda com uma conta gerenciada.
+Para obter instruções sobre a exclusão da conta e informações importantes sobre cobrança, consulte o artigo Excluindo sua conta ChatGPT.
+Memória e contexto de segurança
+A Memória controla como o ChatGPT personaliza as respostas. Os controles de treinamento do modelo determinam se o conteúdo elegível pode ser usado para aprimorar os modelos da OpenAI. Essas configurações são separadas.
+Desativar a memória ou a personalização não desativa os recursos de segurança que podem usar um contexto limitado e relevante para a segurança em situações raras de alto risco, a fim de ajudar o ChatGPT a responder com mais segurança.
+Para mais informações sobre a Memória, consulte o artigo Memória no ChatGPT.
+Workspaces gerenciados
+Por padrão, a OpenAI não utiliza conteúdo dos espaços de trabalho do ChatGPT Business, Enterprise, Edu ou ChatGPT para o setor de saúde para treinar seus modelos.
+Por padrão, a OpenAI também não usa as entradas e saídas fornecidas por meio da Plataforma de API para treinar seus modelos.
+Espaços de trabalho gerenciados também podem ter configurações de retenção, Memória, conformidade e acesso de acordo com a organização.
+As políticas de privacidade, retenção e acesso da sua organização continuam se aplicando.
+Para mais informações sobre privacidade empresarial, consulte a página Privacidade empresarial na OpenAI.
+Controles de anúncios
+Nas contas em que os anúncios estão disponíveis, controles separados podem determinar como os anúncios são personalizados.
+Para mais informações sobre anúncios, consulte o artigo Anúncios no ChatGPT.
+Perguntas Frequentes
+Posso alterar a configuração "Melhorar o modelo para todo mundo"?
+Se a configuração estiver disponível para sua conta, sim. As configurações de controles parentais e do espaço de trabalho podem limitar a possibilidade de você alterá-la.
+Desativar o treinamento de modelos exclui meus chats?
+Não. Exclua um chat ou sua conta separadamente quando quiser remover conteúdo.
+O que acontece se eu enviar feedback depois de optar por não participar do treinamento?
+Se você optar por fornecer feedback, por exemplo, selecionando o polegar para cima ou o polegar para baixo em uma resposta, toda a conversa associada a esse feedback poderá ser usada para treinar modelos da OpenAI. Para obter mais informações, consulte o artigo Como seus dados são usados para melhorar o desempenho do modelo.
+Este artigo foi útil?
+Enviar
+Visão geral
+Encontre seus Controles de dados
+Desativar "Melhorar o modelo para todo mundo"
+Acesso de confiança em contas pessoais
+Web (sessão iniciada)
+iOS e Android
+Uso sem login
+Gerenciar o treinamento de modelos para tarefas do Codex
+O que acontece com os chats salvos
+Chat temporário
+Exporte seus dados
+Excluir sua conta
+Memória e contexto de segurança
+Workspaces gerenciados
+Controles de anúncios
+Perguntas Frequentes
+Posso alterar a configuração "Melhorar o modelo para todo mundo"?
+Desativar o treinamento de modelos exclui meus chats?
+O que acontece se eu enviar feedback depois de optar por não participar do treinamento?
+ChatGPT
+API
+Status do Serviço
+Preferências de Cookies
