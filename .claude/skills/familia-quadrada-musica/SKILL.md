@@ -72,7 +72,7 @@ No `scenes.json`, cada cena ganha:
 
 ## Como o código aplica
 
-Implementado em `marcas/shorts-blocos/src/schema/music.ts` (regras, ganho e plano de faixas), `remotion/audio/AudioBed.tsx` (mixagem) e `pipeline/audit.ts` (métrica `music`).
+Implementado em `marcas/afamiliaquadrada/src/schema/music.ts` (regras, ganho e plano de faixas), `remotion/audio/AudioBed.tsx` (mixagem) e `pipeline/audit.ts` (métrica `music`).
 
 - **`music` é opcional por cena.** Sem ele, a faixa sai automaticamente pela tabela acima: primeira e última cena `tema`, a cena que abre o DIA 3 `travessura`, a que abre o DIA 4 `escalada`, e as outras herdam a anterior. Só escreva `music` para as exceções de enredo e para a reviravolta.
 - **Reviravolta:** marque a cena com `"track": "none"`. A música para no início da cena, fica 30 frames (0,5s) em silêncio e volta com a faixa que tocava antes, a partir do começo. Ponha o SFX da reviravolta (`sfx` da primeira fala) nesse intervalo.

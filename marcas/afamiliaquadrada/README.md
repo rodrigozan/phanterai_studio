@@ -18,7 +18,7 @@ Shorts 1080x1920 a 60fps com personagens estilo blocos, montados por código a p
 yarn blocos <slug> --validate
 yarn blocos <slug>
 yarn blocos <slug> --preview
-yarn tsx marcas/shorts-blocos/src/pipeline/audit.ts <slug>
+yarn tsx marcas/afamiliaquadrada/src/pipeline/audit.ts <slug>
 ```
 
 `.env`: `ELEVENLABS_API_KEY` e `ELEVENLABS_NARRATOR_VOICE_ID` (se ausente, usa `ELEVENLABS_STORY_NARRATOR_VOICE_ID`). No `scenes.json`, `"voiceId": "$NARRATOR"` aponta para essa voz.

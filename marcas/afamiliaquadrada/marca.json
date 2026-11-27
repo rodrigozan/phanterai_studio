@@ -13,7 +13,7 @@
     "episodios": "public/shorts-blocos/episodes",
     "musicas": "public/shorts-blocos/music",
     "saida": "out/shorts-blocos",
-    "videos": "marcas/shorts-blocos/videos/<slug>",
+    "videos": "marcas/afamiliaquadrada/videos/<slug>",
     "skill": ".claude/skills/shorts-blocos/SKILL.md"
   }
 }

@@ -1,6 +1,6 @@
 # Metas da auditoria
 
-Calculadas por `marcas/shorts-blocos/src/pipeline/audit.ts`. Reprovou em qualquer uma, o vídeo não sai, exceto as marcadas como aviso.
+Calculadas por `marcas/afamiliaquadrada/src/pipeline/audit.ts`. Reprovou em qualquer uma, o vídeo não sai, exceto as marcadas como aviso.
 
 | Métrica | Fonte | Meta |
 |---|---|---|

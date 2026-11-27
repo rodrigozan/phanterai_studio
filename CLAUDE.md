@@ -108,7 +108,7 @@ which Rod calls "master"). Add files by name, author Rod Zandonadi, push over SS
 
 Shorts 1080x1920 at 60fps with block-style characters drawn in code (no third-party game branding).
 Recipe: `.claude/skills/shorts-blocos/SKILL.md`; subagents `animador`/`roteirista`/`auditor`/`operador`
-in `.claude/agents/`. Code in `marcas/shorts-blocos/src/` (TypeScript: Zod schema, Remotion components,
+in `.claude/agents/`. Code in `marcas/afamiliaquadrada/src/` (TypeScript: Zod schema, Remotion components,
 `pipeline/` run with tsx). `yarn blocos <slug>` = validate → ElevenLabs TTS (hash cache) → `timing.json`
 → render `ShortBlocos` → `audit.json` (exit 2 if any metric fails). `TesteBlocos` is the 10s
 expression/shot test composition.

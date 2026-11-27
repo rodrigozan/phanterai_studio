@@ -5,7 +5,7 @@
 import { Composition, Folder, registerRoot } from "remotion";
 import { ComposicoesPhanterAI } from "../marcas/phanterai/src/composicoes";
 import { ComposicoesRodZandonadi } from "../marcas/rodzandonadi/src/composicoes";
-import { ComposicoesShortsBlocos } from "../marcas/shorts-blocos/src/composicoes";
+import { ComposicoesShortsBlocos } from "../marcas/afamiliaquadrada/src/composicoes";
 import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
 
 const RemotionRoot = () => (

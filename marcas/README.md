@@ -9,7 +9,7 @@ O studio atende mais de uma marca. Cada marca tem a própria pasta e nada de uma
 | Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram e YouTube @animepowerbiblia  |
 | Afro WW2 Tales | `marcas/afro-ww2-tales` | YouTube @AfroWW2Tales |
 | Rod Zandonadi | `marcas/rodzandonadi` | YouTube e Instagram @rodzandonadi |
-| Família Quadrada | `marcas/shorts-blocos` | YouTube Shorts e Instagram Reels @afamiliaquadrada  |
+| Família Quadrada | `marcas/afamiliaquadrada` | YouTube Shorts e Instagram Reels @afamiliaquadrada  |
 | Palitempo | `marcas/palitempo` | YouTube @palitempo |
 
 ## Onde fica cada coisa
