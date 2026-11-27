@@ -1,0 +1,215 @@
+{
+ "slug": "yt-short-2026-11-27-1700-video-relacionado",
+ "musica": "public/phanterai/music/Code_and_Coffe.mp3 (loop, 0.17)",
+ "panterinha": [
+  [
+   "surpresa",
+   0,
+   3.54
+  ],
+  [
+   "apontando",
+   28.37,
+   32.13
+  ],
+  [
+   "comemorando",
+   38.69,
+   "fim"
+  ]
+ ],
+ "cenas": [
+  {
+   "componente": "Hook",
+   "acao": "celular com Short + link na descrição tocado pelo cursor; flash; carimbo NÃO CLICÁVEL",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Link",
+     "inicio": 0.0
+    },
+    {
+     "palavra_gatilho": "Short?",
+     "inicio": 1.12
+    },
+    {
+     "palavra_gatilho": "CLICAR!",
+     "inicio": 2.8
+    }
+   ]
+  },
+  {
+   "componente": "Motivo",
+   "acao": "escudo rebatendo chips spam/golpe; links riscados; card 🔗 ??? vira CLICÁVEL; cartas 1-2-3, a 3 trava",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "propósito",
+     "inicio": 3.78
+    },
+    {
+     "palavra_gatilho": "spam",
+     "inicio": 5.06
+    },
+    {
+     "palavra_gatilho": "golpe",
+     "inicio": 5.7
+    },
+    {
+     "palavra_gatilho": "UM",
+     "inicio": 7.3
+    },
+    {
+     "palavra_gatilho": "funciona",
+     "inicio": 7.94
+    },
+    {
+     "palavra_gatilho": "passo",
+     "inicio": 8.87
+    },
+    {
+     "palavra_gatilho": "trava",
+     "inicio": 9.59
+    }
+   ]
+  },
+  {
+   "componente": "Relacionado",
+   "acao": "celular com @seucanal; link 'Vídeo completo' surge; zoom no @; cursor clica, abre vídeo longo",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "RELACIONADO",
+     "inicio": 11.75
+    },
+    {
+     "palavra_gatilho": "abaixo",
+     "inicio": 13.95
+    },
+    {
+     "palavra_gatilho": "arroba",
+     "inicio": 14.39
+    },
+    {
+     "palavra_gatilho": "clicar",
+     "inicio": 16.08
+    }
+   ]
+  },
+  {
+   "componente": "Item1",
+   "acao": "janela Studio: menu, clique em Conteúdo, lista, clique no Short, carimbo ABERTO",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número um",
+     "inicio": 16.63
+    },
+    {
+     "palavra_gatilho": "Studio",
+     "inicio": 17.64
+    },
+    {
+     "palavra_gatilho": "Conteúdo",
+     "inicio": 18.76
+    },
+    {
+     "palavra_gatilho": "clica",
+     "inicio": 19.72
+    },
+    {
+     "palavra_gatilho": "Short",
+     "inicio": 20.12
+    }
+   ]
+  },
+  {
+   "componente": "Item2",
+   "acao": "Editar Short: dropdown Vídeo relacionado, só do SEU canal, ✓ longo/Short/live, SALVAR → SALVO",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "escolhe",
+     "inicio": 21.75
+    },
+    {
+     "palavra_gatilho": "SEU",
+     "inicio": 23.35
+    },
+    {
+     "palavra_gatilho": "longo",
+     "inicio": 24.75
+    },
+    {
+     "palavra_gatilho": "Short",
+     "inicio": 25.55
+    },
+    {
+     "palavra_gatilho": "live",
+     "inicio": 26.03
+    },
+    {
+     "palavra_gatilho": "Salva",
+     "inicio": 26.64
+    }
+   ]
+  },
+  {
+   "componente": "Item3",
+   "acao": "card Recursos avançados com cadeado, cliques falhando, toggle liga; Público ✓ Não listado ✓ Privado ✕",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "trava",
+     "inicio": 28.37
+    },
+    {
+     "palavra_gatilho": "AVANÇADOS",
+     "inicio": 30.61
+    },
+    {
+     "palavra_gatilho": "liberados",
+     "inicio": 31.25
+    },
+    {
+     "palavra_gatilho": "público",
+     "inicio": 33.17
+    },
+    {
+     "palavra_gatilho": "não listado",
+     "inicio": 33.89
+    }
+   ]
+  },
+  {
+   "componente": "Ponte",
+   "acao": "Short ligado ao vídeo longo por ponte com pessoas passando; HORA DE MORPHAR com troca de cores",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "ponte",
+     "inicio": 36.29
+    },
+    {
+     "palavra_gatilho": "longo",
+     "inicio": 37.13
+    },
+    {
+     "palavra_gatilho": "Hora",
+     "inicio": 37.41
+    },
+    {
+     "palavra_gatilho": "morphar",
+     "inicio": 37.81
+    }
+   ]
+  },
+  {
+   "componente": "CTA",
+   "acao": "caixa de comentário digitando LINK 🔗, chip 'link na descrição' riscado",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "LINK",
+     "inicio": 39.17
+    },
+    {
+     "palavra_gatilho": "descrição",
+     "inicio": 40.85
+    }
+   ]
+  }
+ ]
+}
