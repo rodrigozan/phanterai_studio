@@ -13,7 +13,7 @@
 import { AbsoluteFill, Img, Loop, OffthreadVideo, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { colors } from "../theme";
 import { CIANO, LARANJA, FONT, MONO, clamp, pasta, FundoMarca, Faiscas169, Pop, Pant, Sfx, Cursor, Digita } from "./base";
-import { Faisca } from "./CapaV2";
+import { Faisca } from "./CapaFormatos";
 
 const SANS = "Inter, 'Helvetica Neue', Arial, sans-serif";
 const fade = (f, em, d = 8) => interpolate(f - em, [0, d], [0, 1], clamp);
