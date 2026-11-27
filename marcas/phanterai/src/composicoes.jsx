@@ -1,4 +1,4 @@
-// Composições da marca PhanterAI (Instagram @phanteraicreative, YouTube Aprenda YouTube).
+// Composições da marca PhanterAI (Instagram e YouTube @phanteraicreative). O Aprenda YouTube tem as dele em marcas/aprendayoutube.
 // Reel novo: crie o arquivo em ./short/ e registre a <Composition> aqui. O src/Root.jsx só junta as marcas.
 import { Composition } from "remotion";
 import { Episode, calculateEpisodeMetadata } from "./Episode";
@@ -35,14 +35,6 @@ import { ShortGeminiNeon, CapaGeminiNeon, SGN_FPS, calculateGeminiNeonMetadata }
 import { ShortEditarVideos, CapaEditarVideos, SEV_FPS, calculateEditarVideosMetadata } from "./short/ShortEditarVideos";
 import { ShortVozCentavo, CapaVozCentavo, SVC_FPS, calculateVozCentavoMetadata } from "./short/ShortVozCentavo";
 import { ShortAnimacao3D, CapaAnimacao3D, S3D_FPS, calculate3DMetadata } from "./short/ShortAnimacao3D";
-import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
-import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
-import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
-import { ShortTagsQuaseNada, CapaTagsQuaseNada, STQ_FPS, calculateTagsQuaseNadaMetadata } from "./short/ShortTagsQuaseNada";
-import { ShortCapitulos, CapaCapitulos, SCP_FPS, calculateCapitulosMetadata } from "./short/ShortCapitulos";
-import { ShortShorts3Min, CapaShorts3Min, S3M_FPS, calculateShorts3MinMetadata } from "./short/ShortShorts3Min";
-import { ShortHype, CapaHype, HYP_FPS, calculateHypeMetadata } from "./short/ShortHype";
-import { ShortVideoRelacionado, CapaVideoRelacionado, VRL_FPS, calculateVideoRelacionadoMetadata } from "./short/ShortVideoRelacionado";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -419,94 +411,6 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculate3DMetadata}
   />
   <Composition id="CapaAnimacao3D" component={CapaAnimacao3D} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortViewsShorts"
-    component={ShortViewsShorts}
-    width={1080}
-    height={1920}
-    fps={SVS_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateViewsShortsMetadata}
-  />
-  <Composition id="CapaViewsShorts" component={CapaViewsShorts} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortTesteAB"
-    component={ShortTesteAB}
-    width={1080}
-    height={1920}
-    fps={STA_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateTesteABMetadata}
-  />
-  <Composition id="CapaTesteAB" component={CapaTesteAB} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortHorarioPostar"
-    component={ShortHorarioPostar}
-    width={1080}
-    height={1920}
-    fps={SHP_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateHorarioPostarMetadata}
-  />
-  <Composition id="CapaHorarioPostar" component={CapaHorarioPostar} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortTagsQuaseNada"
-    component={ShortTagsQuaseNada}
-    width={1080}
-    height={1920}
-    fps={STQ_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateTagsQuaseNadaMetadata}
-  />
-  <Composition id="CapaTagsQuaseNada" component={CapaTagsQuaseNada} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortCapitulos"
-    component={ShortCapitulos}
-    width={1080}
-    height={1920}
-    fps={SCP_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateCapitulosMetadata}
-  />
-  <Composition id="CapaCapitulos" component={CapaCapitulos} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortShorts3Min"
-    component={ShortShorts3Min}
-    width={1080}
-    height={1920}
-    fps={S3M_FPS}
-    durationInFrames={1800}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateShorts3MinMetadata}
-  />
-  <Composition id="CapaShorts3Min" component={CapaShorts3Min} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortHype"
-    component={ShortHype}
-    width={1080}
-    height={1920}
-    fps={HYP_FPS}
-    durationInFrames={1300}
-    defaultProps={{ words: [], endSec: 0 }}
-    calculateMetadata={calculateHypeMetadata}
-  />
-  <Composition id="CapaHype" component={CapaHype} width={1080} height={1920} fps={30} durationInFrames={1} />
-  <Composition
-    id="ShortVideoRelacionado"
-    component={ShortVideoRelacionado}
-    width={1080}
-    height={1920}
-    fps={VRL_FPS}
-    durationInFrames={30 * 45}
-    defaultProps={{ words: [], endSec: 45 }}
-    calculateMetadata={calculateVideoRelacionadoMetadata}
-  />
-  <Composition id="CapaVideoRelacionado" component={CapaVideoRelacionado} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}

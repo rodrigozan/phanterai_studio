@@ -12,8 +12,12 @@ root: `src/Root.jsx` (joins each brand's `composicoes.jsx`), `src/shotcraft/`, `
 (brand via `MARCA=<marca>`, default `phanterai`). Never put brand files loose at the root and never
 recreate `public/episodes`, `public/music`, `public/pantera` or `src/short`. See `marcas/README.md`.
 
-Two things in one repo: a Claude Code **skills library** for Rodrigo's "Aprenda YouTube" (pantera)
-channel (`.claude/skills/`), and the **Remotion video project** those skills operate on (`src/`,
+**Aprenda YouTube and PhanterAI are separate projects (since 2026-11-27).** Aprenda YouTube (`marcas/aprendayoutube`,
+`public/aprendayoutube`, `out/aprendayoutube`) uses the channel banner identity (magenta `#9A015C`, yellow shape
+`#DFD011`, play `#E6335D`, no mascot) and has its own long-video engine (`AYLongVideo`/`AYLongCapa`); run every
+episode script with `MARCA=aprendayoutube`. Never share visual code or media between the two.
+
+Two things in one repo: a Claude Code **skills library** for Rodrigo's channels (`.claude/skills/`), and the **Remotion video project** those skills operate on (`src/`,
 `public/`, `scripts/` at the repo root). Yarn is Berry with `nodeLinker: node-modules` (see
 `.yarnrc.yml`) — PnP does not work with Remotion's native compositor/Chrome-headless binaries, so
 don't remove that override or re-add `.pnp.*`.

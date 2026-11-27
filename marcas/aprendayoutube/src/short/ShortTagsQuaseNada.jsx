@@ -13,9 +13,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 // Meme (só na fala e no texto animado, sem imagem do personagem): "Narruto" com dois erres.
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
 // Balança e barras são ilustração do conceito (sem números), não dado de canal.
-export const STQ_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-25-1700-tags-quase-nada";
+export const STQ_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-25-1700-tags-quase-nada";
 export const STQ_FPS = 30;
-const MUSIC = "phanterai/music/Coding_at_Night.mp3";
+const MUSIC = "aprendayoutube/music/Coding_at_Night.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

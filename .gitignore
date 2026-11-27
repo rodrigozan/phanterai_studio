@@ -31,8 +31,8 @@ public/*/episodes/*/timeline.json
 /public/shotcraft-runs/
 
 # Generated blog scheduling receipts for the video creation workflow
-/public/phanterai/episodes/**/blog-publication.json
-/public/phanterai/episodes/**/blog-link.txt
+/public/*/episodes/**/blog-publication.json
+/public/*/episodes/**/blog-link.txt
 
 # Gerados pelo pipeline afamiliaquadrada
 public/afamiliaquadrada/episodes/*/timing.json

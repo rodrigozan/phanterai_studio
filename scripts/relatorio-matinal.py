@@ -12,7 +12,7 @@ DEST = os.environ.get("WA_DEST", "5512988358895")
 agora = datetime.now(ZoneInfo("America/Sao_Paulo"))
 DATA = os.environ.get("DATA", agora.strftime("%F"))
 dow = datetime.strptime(DATA, "%Y-%m-%d").weekday()  # 0=seg
-REEL = f"{STUDIO}/out/{MARCA}/agendador"; LONGO = f"{STUDIO}/out/{MARCA}/agendador-longos"
+REEL = f"{STUDIO}/out/{MARCA}/agendador"; LONGO = f"{STUDIO}/out/aprendayoutube/agendador-longos"   # longos e Shorts são do canal Aprenda YouTube
 OK = ("agendado", "publicado")
 
 def ler(p):
@@ -51,7 +51,7 @@ for x in hoje:
     itens += l; falhas += (not ok)
 if len(hoje) < esperados and hoje:
     itens.append(f"⚠️ Só {len(hoje)} reel(s) no calendário de hoje (esperado {esperados})"); falhas += 1
-YTS=f"{STUDIO}/out/{MARCA}/agendador-yt-shorts"
+YTS=f"{STUDIO}/out/aprendayoutube/agendador-yt-shorts"
 for h in ("10:00", "17:00"):
     ok, l = linhas_item(f"Short YouTube {h}", ler(f"{YTS}/{DATA}-{h.replace(':','')}.json"), f"{DATA} {h}")
     itens += l; falhas += (not ok)

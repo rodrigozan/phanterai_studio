@@ -1,6 +1,10 @@
 // Capa livre de 27/11 (algoritmo não odeia seu canal): placa de "PROCURADO" do vilão, carimbada de INOCENTE.
 import { AbsoluteFill } from "remotion";
-import { ANTON, SERIF } from "../CapaFormatos";
+import { loadFont } from "@remotion/google-fonts/Anton";
+import { SERIF } from "../CapaFormatos";
+
+// Capa já publicada (27/11/2026): guarda a fonte original, senão o texto estoura a placa.
+const ANTON = loadFont("normal", { weights: ["400"] }).fontFamily;
 
 export default () => (
   <AbsoluteFill style={{ background: "repeating-linear-gradient(90deg,#4a2c17 0 150px,#3d2312 150px 156px)" }}>

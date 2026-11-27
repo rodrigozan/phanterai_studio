@@ -3,10 +3,12 @@
 import { loadFont as loadSora } from "@remotion/google-fonts/Sora";
 import { loadFont as loadMono } from "@remotion/google-fonts/JetBrainsMono";
 import { loadFont as loadPoppins } from "@remotion/google-fonts/Poppins";
+import { loadFont as loadOpenSans } from "@remotion/google-fonts/OpenSans";
 import { colors as pantera } from "../../marcas/phanterai/src/theme";
 
 const sora = loadSora("normal", { weights: ["800"], subsets: ["latin", "latin-ext"] }).fontFamily;
 const mono = loadMono("normal", { weights: ["500", "700"], subsets: ["latin", "latin-ext"] }).fontFamily;
+const openSans = loadOpenSans("normal", { weights: ["700", "800"], subsets: ["latin", "latin-ext"] }).fontFamily;
 const poppins = loadPoppins("normal", { weights: ["700", "900"], subsets: ["latin", "latin-ext"] }).fontFamily;
 
 export const LOOKS = {
@@ -21,7 +23,18 @@ export const LOOKS = {
     flash: "rgba(255,91,214,0.55)",
     shadow: "0 6px 30px rgba(0,0,0,0.65)",
   },
-  // canal Aprenda YouTube (marcas/phanterai/src/theme.js: Poppins 900, violeta/dourado)
+  // Aprenda YouTube: identidade do banner do canal (marcas/aprendayoutube/identidade/visual.md)
+  aprendayoutube: {
+    title: { fontFamily: openSans, fontWeight: 800, color: "#FFFFFF" },
+    label: { fontFamily: openSans, fontWeight: 700, color: "#FFFFFF", letterSpacing: "0.1em", textTransform: "uppercase" },
+    accent: "#DFD011",
+    accentGrad: "linear-gradient(90deg, #DFD011 0%, #DFD011 100%)",
+    scrim: "rgba(78,0,47,0.72)",
+    chapterBackdrop: "#9A015C",
+    flash: "rgba(223,208,17,0.6)",
+    shadow: "0 6px 30px rgba(78,0,47,0.65)",
+  },
+  // PhanterAI, série pantera (marcas/phanterai/src/theme.js: Poppins 900, violeta/dourado). Não usar no Aprenda YouTube.
   pantera: {
     title: { fontFamily: poppins, fontWeight: 900, color: pantera.text },
     label: { fontFamily: poppins, fontWeight: 700, color: pantera.text, letterSpacing: "0.12em", textTransform: "uppercase" },

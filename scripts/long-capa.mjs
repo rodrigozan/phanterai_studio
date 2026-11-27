@@ -17,6 +17,8 @@ const canal = opt("canal");
 const MARCA = process.env.MARCA || "phanterai";
 const saida = resto.find((a) => !a.startsWith("--")) || `out/${MARCA}/long-videos/${slug}/capa.jpg`;
 const HIST = `marcas/${MARCA}/capas-historico.json`;
+// cada canal tem o próprio projeto: capa do Aprenda YouTube só sai com a identidade dele
+if (canal && (canal === "aprenda") !== (MARCA === "aprendayoutube")) throw new Error("--canal=aprenda exige MARCA=aprendayoutube (e --canal=creative, MARCA=phanterai)");
 const ep = `${MARCA}/episodes/long-videos/${slug}`;
 const spec = JSON.parse(fs.readFileSync(opt("spec") || `public/${ep}/capas.json`, "utf8"));
 if (!amostra) {
@@ -27,14 +29,14 @@ if (!amostra) {
 fs.mkdirSync(path.dirname(saida), { recursive: true });
 const pub = `/tmp/pub-capa-${slug}`;
 fs.rmSync(pub, { recursive: true, force: true });
-for (const rel of [`${MARCA}/pantera`, ep]) { fs.mkdirSync(path.dirname(`${pub}/${rel}`), { recursive: true }); fs.symlinkSync(path.resolve("public", rel), `${pub}/${rel}`); }
+for (const rel of [`${MARCA}/pantera`, ep].filter((r) => fs.existsSync(path.resolve("public", r)))) { fs.mkdirSync(path.dirname(`${pub}/${rel}`), { recursive: true }); fs.symlinkSync(path.resolve("public", rel), `${pub}/${rel}`); }
 const serveUrl = await bundle({ entryPoint: path.resolve("src/Root.jsx"), publicDir: pub });
 const arquivos = [];
 for (const [i, capa] of spec.entries()) {
   const letra = "abc"[i];
   const inputProps = { slug, formato: capa.formato, dados: capa.dados || {} };
   const out = saida.replace(/\.jpg$/, `-${letra}.jpg`);
-  const composition = await selectComposition({ serveUrl, id: "LongCapa", inputProps });
+  const composition = await selectComposition({ serveUrl, id: MARCA === "aprendayoutube" ? "AYLongCapa" : "LongCapa", inputProps });
   await renderStill({ composition, serveUrl, output: out, inputProps, imageFormat: "jpeg", jpegQuality: 90 });
   arquivos.push(out);
   console.log(`capa ${letra}: ${capa.formato} -> ${out}`);

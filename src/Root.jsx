@@ -4,6 +4,7 @@
 // dela e acrescente uma <Folder> abaixo. O id da composição continua único no projeto inteiro.
 import { Composition, Folder, registerRoot } from "remotion";
 import { ComposicoesPhanterAI } from "../marcas/phanterai/src/composicoes";
+import { ComposicoesAprendaYouTube } from "../marcas/aprendayoutube/src/composicoes";
 import { ComposicoesRodZandonadi } from "../marcas/rodzandonadi/src/composicoes";
 import { ComposicoesFamiliaQuadrada } from "../marcas/afamiliaquadrada/src/composicoes";
 import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
@@ -12,6 +13,9 @@ const RemotionRoot = () => (
   <>
     <Folder name="phanterai">
       <ComposicoesPhanterAI />
+    </Folder>
+    <Folder name="aprendayoutube">
+      <ComposicoesAprendaYouTube />
     </Folder>
     <Folder name="rodzandonadi">
       <ComposicoesRodZandonadi />

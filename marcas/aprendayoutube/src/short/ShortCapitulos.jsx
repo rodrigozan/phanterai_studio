@@ -12,9 +12,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 // Meme (só na fala e no texto animado, sem imagem do personagem): "mais rápido que o Flash".
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
 // Os títulos/tempos de capítulo na tela são exemplo ilustrativo, não dado de canal.
-export const SCP_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-26-1000-capitulos";
+export const SCP_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-26-1000-capitulos";
 export const SCP_FPS = 30;
-const MUSIC = "phanterai/music/CuriousFocus.mp3";
+const MUSIC = "aprendayoutube/music/CuriousFocus.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

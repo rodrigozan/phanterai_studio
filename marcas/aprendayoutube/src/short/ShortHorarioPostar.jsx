@@ -17,9 +17,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 // Meme (só na fala e em texto animado, sem imagem do personagem): Doutor Estranho e os 14 milhões de futuros.
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
 // Curvas e mapa de calor são ilustração do conceito (sem números), não dado de canal.
-export const SHP_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-25-1000-horario-de-postar";
+export const SHP_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-25-1000-horario-de-postar";
 export const SHP_FPS = 30;
-const MUSIC = "phanterai/music/CuriousFocus.mp3";
+const MUSIC = "aprendayoutube/music/CuriousFocus.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

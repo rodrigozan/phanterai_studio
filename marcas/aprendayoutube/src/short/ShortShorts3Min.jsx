@@ -12,10 +12,10 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 //   be viewable and eligible for monetization." / "use a wider aspect ratio such as 16:9 for long-form videos".
 // Meme (só na fala e no texto animado, sem imagem/personagem): "nem os Power Rangers salvam".
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
-export const S3M_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-26-1700-shorts-3-minutos";
+export const S3M_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-26-1700-shorts-3-minutos";
 export const S3M_FPS = 30;
 const SCP_SLUG = S3M_SLUG, SCP_FPS = S3M_FPS;
-const MUSIC = "phanterai/music/Coding_at_Night.mp3";
+const MUSIC = "aprendayoutube/music/Coding_at_Night.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

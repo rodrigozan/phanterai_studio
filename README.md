@@ -3,7 +3,8 @@
 Repositório único com duas partes:
 
 1. **Biblioteca de skills do Claude Code** (`.claude/skills/`) para o canal de YouTube
-   "Aprenda YouTube" (mascote: a pantera / "pantera"), de Rodrigo Zandonadi.
+   "Aprenda YouTube" e dos demais canais de Rodrigo Zandonadi. Desde 27/11/2026 o Aprenda YouTube é um
+   projeto separado da PhanterAI (`marcas/aprendayoutube`, identidade do banner do canal); a pantera é só da PhanterAI.
 2. **Projeto Remotion** (`src/`, `public/`, `scripts/` na raiz) que essas skills operam para
    montar os vídeos do canal a partir de roteiro + voz + assets.
 

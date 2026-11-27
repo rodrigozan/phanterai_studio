@@ -218,8 +218,8 @@ def normalized(text):
 
 
 def script_for(video):
-    base = ROOT / 'public/phanterai/episodes'
-    scripts = [p for p in base.rglob('*') if p.is_file() and
+    marcas = ('phanterai', 'aprendayoutube')
+    scripts = [p for m in marcas for p in (ROOT / 'public' / m / 'episodes').rglob('*') if p.is_file() and
                (p.name.startswith('roteiro') or p.name == 'narracao-reel.md') and p.suffix in ('.md', '.json')]
     # The actual upload's file path is the authoritative association, never the date alone.
     exact = [p for p in scripts if p.parent.name in Path(video.get('videoPath') or '').parts
@@ -232,8 +232,8 @@ def script_for(video):
         folder = script.parent
         titles = []
         for candidate in (folder / 'roteiro.json', folder / 'youtube-metadata.json',
-                          ROOT / 'out/phanterai' / folder.name / 'packaging.json',
-                          ROOT / 'out/phanterai/long-videos' / folder.name / 'packaging.json'):
+                          *(ROOT / 'out' / m / sub / folder.name / 'packaging.json'
+                            for m in marcas for sub in ('', 'long-videos'))):
             if candidate.exists():
                 data = json.loads(candidate.read_text())
                 titles.extend(data.get(k, '') for k in ('titulo', 'title', 'title_chosen'))

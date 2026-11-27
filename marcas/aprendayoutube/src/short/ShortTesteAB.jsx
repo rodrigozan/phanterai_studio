@@ -14,9 +14,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 //   "we recommend testing older videos first".
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
 // As barras de cliques/tempo são ilustração do critério (sem números), não dado de canal.
-export const STA_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-24-1700-teste-ab-capa";
+export const STA_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-24-1700-teste-ab-capa";
 export const STA_FPS = 30;
-const MUSIC = "phanterai/music/Coding_at_Night.mp3";
+const MUSIC = "aprendayoutube/music/Coding_at_Night.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

@@ -1,9 +1,11 @@
 ---
 name: montagem-video-pantera
-description: Monta vídeos do canal Aprenda YouTube em Remotion a partir de um roteiro .md marcado, um áudio MP3 da voz do Rod e assets enviados por ele. Use quando o Rod pedir para montar, renderizar ou gerar preview de um vídeo do canal, ou mencionar roteiro marcado, pantera ou /montar.
+description: Pipeline antiga com a identidade da PhanterAI (pantera); NÃO usar para o Aprenda YouTube (use make-long-videos-aprenda-youtube ou make-reels-aprendayoutube). Monta vídeos em Remotion a partir de um roteiro .md marcado, um áudio MP3 da voz do Rod e assets enviados por ele. Use quando o Rod pedir para montar, renderizar ou gerar preview de um vídeo do canal, ou mencionar roteiro marcado, pantera ou /montar.
 ---
 
-# Montagem de vídeo — Aprenda YouTube (pantera)
+# Montagem de vídeo — PhanterAI (pantera)
+
+> Desde 27/11/2026 o Aprenda YouTube tem projeto e identidade próprios (`marcas/aprendayoutube`). Esta receita gera vídeo com a identidade da PhanterAI.
 
 Pipeline fixo. Siga as etapas na ordem e não pule nenhuma.
 

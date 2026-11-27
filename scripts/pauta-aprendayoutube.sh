@@ -6,7 +6,7 @@ set -euo pipefail
 export HOME=/root
 export PATH="/root/.local/bin:/root/.nvm/versions/node/v22.23.3/bin:/usr/local/bin:/usr/bin:/bin"
 VAULT=/root/obsidian/brainiac/pauta/aprendayoutube
-LOGDIR=/root/phanterai_studio/out/phanterai/agendador-pauta
+LOGDIR=/root/phanterai_studio/out/aprendayoutube/agendador-pauta
 DATA_USO="${DATA_USO:-$(TZ=America/Sao_Paulo date -d tomorrow +%F)}"
 SAIDA="$VAULT/$DATA_USO.md"
 LOG="$LOGDIR/aprendayoutube-$DATA_USO.log"

@@ -11,10 +11,10 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 // - answer/15509925 (elegibilidade): YouTube Shorts não são elegíveis; answer/15334500: "you can't hype your own videos".
 // 7.500 / 50 = 150 (conta refeita). Meme só na fala/texto: "modo Naruto" (sem imagem/personagem).
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
-export const HYP_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-27-1000-hype-canal-pequeno";
+export const HYP_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-27-1000-hype-canal-pequeno";
 export const HYP_FPS = 30;
 const SCP_FPS = HYP_FPS;
-const MUSIC = "phanterai/music/CuriousFocus.mp3";
+const MUSIC = "aprendayoutube/music/CuriousFocus.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

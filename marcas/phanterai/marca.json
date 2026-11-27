@@ -1,10 +1,10 @@
 {
   "id": "phanterai",
   "nome": "PhanterAI",
-  "descricao": "Conteúdo de IA do Rod: reels e carrosséis da PhanterAI e vídeos do canal Aprenda YouTube (mascote pantera).",
+  "descricao": "Conteúdo de IA do Rod (mascote pantera): reels, carrosséis e vídeos da PhanterAI. O Aprenda YouTube é outro projeto (marcas/aprendayoutube).",
   "contas": {
     "instagram": "@phanteraicreative",
-    "youtube": { "canal": "Aprenda YouTube", "channelId": "UCYHsuiYTaYCV_bfuyvW86Kw" }
+    "youtube": { "canal": "PhanterAI Creative", "channelId": "UCOpUYDXKoiQcfypbFD0CNjw" }
   },
   "pauta": ["Só tema de IA."],
   "musica": "Sorteada de public/phanterai/music, em loop, volume 0.2, diferente do reel anterior.",

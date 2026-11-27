@@ -5,7 +5,7 @@ O studio atende mais de uma marca. Cada marca tem a própria pasta e nada de uma
 | Marca | Pasta | Contas |
 |---|---|---|
 | PhanterAI | `marcas/phanterai` | Instagram e YouTube @phanteraicreative |
-| Aprenda YouTube | `marcas/aprendayoutube` | Instagram e YouTube @aprendayoutube |
+| Aprenda YouTube | `marcas/aprendayoutube` | Instagram e YouTube @aprendayoutube (projeto e identidade próprios, sem relação visual com a PhanterAI) |
 | Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram e YouTube @animepowerbiblia  |
 | Afro WW2 Tales | `marcas/afro-ww2-tales` | YouTube @AfroWW2Tales |
 | Rod Zandonadi | `marcas/rodzandonadi` | YouTube e Instagram @rodzandonadi |

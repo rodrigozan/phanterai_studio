@@ -10,9 +10,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 //   canal > SALVAR; pode ser Vídeos, Shorts e Lives; só com acesso aos recursos avançados; o vídeo escolhido tem que
 //   ser público ou não listado; o espectador vê um link clicável abaixo do identificador (@) do canal.
 // Meme só na fala/texto: "Hora de morphar!" (sem imagem/personagem/áudio). Tudo é interface recriada em motion.
-export const VRL_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-27-1700-video-relacionado";
+export const VRL_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-27-1700-video-relacionado";
 export const VRL_FPS = 30;
-const MUSIC = "phanterai/music/Code_and_Coffe.mp3";
+const MUSIC = "aprendayoutube/music/Code_and_Coffe.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

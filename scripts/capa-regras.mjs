@@ -1,5 +1,5 @@
 // Regras de variedade das capas (Rod, 27/11/2026: "não dá para sempre gerar o mesmo modelo").
-// O histórico é UM só para os dois canais: o que o outro Claude usou também conta.
+// Um histórico por marca (marcas/<marca>/capas-historico.json): cada canal tem projeto e identidade próprios.
 import fs from "node:fs";
 import { dirname } from "node:path";
 

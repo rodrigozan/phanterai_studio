@@ -13,9 +13,9 @@ import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 // - Números do canal: marcas/phanterai/dados-canal-2026-11-22.md (Studio, 28 dias até 22/11/2026): Shorts 7,6 mil views,
 //   2,9 mil views engajadas, +22 dos +26 inscritos vindos dos Shorts.
 // Tudo é interface recriada em motion (estilo PhanterAI): nenhum print, nada gerado por IA, nenhum logo oficial.
-export const SVS_SLUG = "phanterai/episodes/shorts-reels-tiktok/yt-short-2026-11-24-1000-views-de-shorts";
+export const SVS_SLUG = "aprendayoutube/episodes/shorts-reels-tiktok/yt-short-2026-11-24-1000-views-de-shorts";
 export const SVS_FPS = 30;
-const MUSIC = "phanterai/music/Code_and_Coffe.mp3";
+const MUSIC = "aprendayoutube/music/Code_and_Coffe.mp3";
 const inter = loadInter("normal", { weights: ["400", "800"] }).fontFamily;
 const lora = loadLora("italic", { weights: ["500"] }).fontFamily;
 const MONO = "'DejaVu Sans Mono', monospace";

@@ -7,9 +7,9 @@ set -euo pipefail
 export HOME=/root
 export PATH="/root/.local/bin:/root/.nvm/versions/node/v22.23.3/bin:/usr/local/bin:/usr/bin:/bin"
 STUDIO=/root/phanterai_studio
-MARCA="${MARCA:-phanterai}"
+export MARCA=aprendayoutube   # projeto próprio do canal: marcas/, public/ e out/aprendayoutube
 LOGDIR="$STUDIO/out/$MARCA/agendador-yt-shorts"
-REELDIR="$STUDIO/out/$MARCA/agendador"
+REELDIR="$STUDIO/out/phanterai/agendador"   # lock de render COMUM às marcas (dois renders juntos estouram a memória)
 HORA="${1:?informe o horário, ex.: 10:00}"
 DRY="${2:-}"
 DATA="${DATA:-$(TZ=America/Sao_Paulo date +%F)}"
@@ -22,18 +22,19 @@ log() { echo "[$(TZ=America/Sao_Paulo date '+%F %T')] $*" | tee -a "$LOG"; }
 
 PROMPT="Rodada agendada de Short do canal Aprenda YouTube. Ninguém está acompanhando: não faça perguntas, decida e registre.
 
-Use a skill make-reels-phanterai (formato vertical, voz do Rod, motion graphics, legendas curtas, gancho forte nos 5 primeiros segundos) para criar, renderizar e agendar UM Short.
+Use a skill make-reels-aprendayoutube (formato vertical, voz do Rod, motion graphics, legendas curtas, gancho forte nos 5 primeiros segundos) para criar, renderizar e agendar UM Short.
 
 Short de hoje
 - Publicação: $DATA às $HORA de Brasília (UTC-3) = publishAt $PUBLISH_AT, private + publishAt, canal Aprenda YouTube
 - Slug: yt-short-$ID-<tema-curto>
 
 Regras desta rodada
+PROJETO (27/11/2026): este canal tem projeto próprio em $STUDIO/marcas/aprendayoutube, public/aprendayoutube e out/aprendayoutube, com a identidade do banner do canal (magenta, forma amarela, play). NUNCA use código, mídia, mascote ou cores de marcas/phanterai ou public/phanterai. Todo script de episódio roda com MARCA=aprendayoutube (já exportada).
 1. DESTINO (regra do Rod, 25/11/2026): o MESMO vídeo, criado uma vez, vai para o YouTube (canal Aprenda YouTube) E para o Instagram @aprendayoutube, no mesmo horário. NUNCA publique em @phanteraicreative nem em outra conta do Instagram: o @phanteraicreative é só de conteúdo de IA, feito por outro agendador. Veja o passo 7b.
 2. TEMA (regra do Rod, 23/11/2026): só CRESCER NO YOUTUBE e GERENCIAR CANAIS DO YOUTUBE (com IA como aliada, mas abrangendo tudo de crescimento no YouTube, não só IA: nicho, título e capa, roteiro, retenção, SEO, Shorts, algoritmo, métricas, rotina e automação do canal, monetização). Pesquise os melhores temas nos MELHORES e MAIS FAMOSOS canais do nicho, de preferência gringos (skills yt-*, ex.: yt-viral e yt-shorts, sem vidIQ). O que originou o tema é só pista: não copie roteiro, texto nem imagem. Confira em $STUDIO/out/$MARCA/agendador-yt-shorts/ e nos Shorts já publicados do canal que o tema não se repete.
-IDENTIDADE (obrigatória, definida pelo Rod em 23/11/2026): leia $STUDIO/marcas/phanterai/identidade-aprenda-youtube.md ANTES de escolher o tema e escrever. Tom do Cobaia Honesto, PRA FRENTE e com energia, narração em frases curtas com exclamações e a moldura da conquista pequena, mais HUMOR LEVE com piadas e memes de heróis, animes, desenhos e Power Rangers só na fala, texto e panterinha, sem usar cena ou áudio protegido (veja as seções Tom e energia e Humor e memes do arquivo) (leve, bem-humorado, autoironia, sem pose de guru), título curto com contraste, quadro fixo (Garimpo da Semana ou Mito vs. Realidade; Teste na Prática só com os números reais de $STUDIO/marcas/phanterai/dados-canal-2026-11-22.md, nunca invente nem arredonde resultado). Isso vale acima das regras de duração e tom da skill: longo de 5 a 7 min, Short de 30 a 50 s. Sobre a regra do público leigo/Claude Desktop: aplique só quando o vídeo usar uma ferramenta.
+IDENTIDADE (obrigatória, definida pelo Rod em 23/11/2026): leia $STUDIO/marcas/aprendayoutube/identidade/tom-e-editorial.md e $STUDIO/marcas/aprendayoutube/identidade/visual.md ANTES de escolher o tema e escrever. Tom do Cobaia Honesto, PRA FRENTE e com energia, narração em frases curtas com exclamações e a moldura da conquista pequena, mais HUMOR LEVE com piadas e memes de heróis, animes, desenhos e Power Rangers só na fala, no texto animado e nas peças da marca (sem mascote), sem usar cena ou áudio protegido (veja as seções Tom e energia e Humor e memes do arquivo) (leve, bem-humorado, autoironia, sem pose de guru), título curto com contraste, quadro fixo (Garimpo da Semana ou Mito vs. Realidade; Teste na Prática só com os números reais de $STUDIO/marcas/aprendayoutube/dados-canal-2026-11-22.md, nunca invente nem arredonde resultado). Isso vale acima das regras de duração e tom da skill: longo de 5 a 7 min, Short de 30 a 50 s. Sobre a regra do público leigo/Claude Desktop: aplique só quando o vídeo usar uma ferramenta.
 3. Confira cada fato e número em fonte primária (documentação oficial do YouTube, Creator Insider, dados do próprio canal). Se não confirmar, NÃO gere narração, NÃO renderize e NÃO publique: grave o motivo e encerre.
-4. Siga a Direção visual da skill: interface recriada em motion graphics, algo mudando a cada 0,5 a 1 s, legendas de 1 a 3 palavras, panterinha em 2 ou 3 reações, 40 a 60 s, sem print, sem imagem/vídeo de IA, sem crédito escrito no vídeo. Roteiro com lista numerada e CTA de comentário. Narração ElevenLabs uma única vez (eleven_v4, stability 0.5, sem style/speed). Música aleatória conforme a skill.
+4. Siga a Direção visual da skill: interface recriada em motion graphics, algo mudando a cada 0,5 a 1 s, legendas de 1 a 3 palavras, 2 ou 3 reações com as peças da marca (forma amarela, play, caixa amarela; sem mascote), 40 a 60 s, sem print, sem imagem/vídeo de IA, sem crédito escrito no vídeo. Roteiro com lista numerada e CTA de comentário. Narração ElevenLabs uma única vez (eleven_v4, stability 0.5, sem style/speed). Música aleatória conforme a skill.
 5. Se faltar menos de 10 minutos para $PUBLISH_AT (ou já tiver passado), agende para 15 minutos depois do momento atual.
 6. Nunca refaça nem republique o que já foi publicado ou agendado; confira na API do canal antes.
 7. Depois do upload, capa e descrição (padrão: tags/keywords, 'Você também pode gostar de:', 5 hashtags no fim), ANTES, escreva o artigo e grave em /root/phanterai_studio/out/phanterai/blog/VIDEO_ID/article.json (o script não gera mais artigo; schema em scripts/blog-article.schema.json, regras em docs/video-blog-handoff.md: no mínimo 500 palavras, HTML simples, passo a passo, link do vídeo e todos os links de fonte da descrição, sem inventar). Depois execute python3 -I /root/phanterai_studio/scripts/blog-youtube.py --schedule VIDEO_ID (ID real) e leia docs/video-blog-handoff.md; registre blog_url, blog_status e description_linked, ou blog_pendente com o motivo.

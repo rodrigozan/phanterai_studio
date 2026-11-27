@@ -8,17 +8,20 @@ Substitui a regra de 20/11 (A pantera gigante, B pedido no Desktop, C antes x de
    Abrir `canais.jpg` e `tema.jpg`. Thumbnails baixadas são só referência de composição, nunca copiar arte, rosto ou marca de ninguém.
 2. **Anotar** em `capas.json` (campo `referencia`) qual outlier inspirou cada capa e o que foi aproveitado.
 3. **Criar 3 ideias diferentes de verdade** (promessa, emoção e composição, não só o texto):
-   - 1 `livre`: componente novo `marcas/phanterai/src/long/capas-livres/<slug>.jsx`, desenhado em cima de UMA metáfora do assunto
+   - 1 `livre`: componente novo `marcas/<marca>/src/long/capas-livres/<slug>.jsx`, desenhado em cima de UMA metáfora do assunto
      (ex.: cartaz de "procurado" para o algoritmo vilão). `export default ({slug, ...dados}) => ...`, 1280x720. Nunca copiar a livre de outro vídeo.
    - 2 da biblioteca, com fundos diferentes e fora dos usados recentemente.
-4. Renderizar: `node scripts/long-capa.mjs <slug> out/<marca>/long-videos/<slug>/capa.jpg --canal=aprenda|creative`.
+4. Renderizar: `MARCA=<aprendayoutube|phanterai> node scripts/long-capa.mjs <slug> out/<marca>/long-videos/<slug>/capa.jpg --canal=aprenda|creative`.
 5. **Olhar `capa-folha.jpg`**: lê no tamanho de celular? texto cortado ou coberto? as 3 parecem de canais diferentes? parecem com as dos últimos vídeos? Corrigir.
 6. **A = a ideia mais forte para este vídeo**, não um modelo fixo.
 
 O script recusa: sem `livre`, formatos repetidos, fundos iguais, A usada nos últimos 6 vídeos, B/C usadas nos últimos 2.
-O histórico `marcas/phanterai/capas-historico.json` é um só para os dois canais: commitar junto. Não contornar com `--amostra`.
+Cada canal tem o próprio histórico, `marcas/<marca>/capas-historico.json`: commitar junto. Não contornar com `--amostra`.
 
-## capas.json (em public/phanterai/episodes/long-videos/<slug>/)
+Cada canal tem a própria biblioteca (`marcas/<marca>/src/long/CapaFormatos.jsx`): a do Aprenda YouTube usa a paleta do banner
+(magenta, amarelo, play) e a assinatura "APRENDA youtube" no lugar da pantera; a pantera só existe na PhanterAI.
+
+## capas.json (em public/<marca>/episodes/long-videos/<slug>/)
 ```json
 [
  {"formato": "livre", "referencia": "...", "dados": {}},

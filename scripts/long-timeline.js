@@ -179,6 +179,6 @@ if (!musica) {
 
 const totalFrames = cenas[cenas.length - 1].endFrame;
 const seg = (f) => cenas.filter(f).reduce((n, c) => n + (c.endFrame - c.startFrame), 0) / totalFrames;
-console.log(`pexels em tela cheia: ${(seg((c) => c.dados.bg) * 100).toFixed(0)}% | panterinha: ${(seg((c) => c.pantera !== false) * 100).toFixed(0)}% (por cena)`);
+console.log(`pexels em tela cheia: ${(seg((c) => c.dados.bg) * 100).toFixed(0)}%${MARCA === "phanterai" ? ` | panterinha: ${(seg((c) => c.pantera !== false) * 100).toFixed(0)}% (por cena)` : ""}`);
 fs.writeFileSync(tlPath, JSON.stringify({ slug, fps: FPS, lead: LEAD, musica, musicaVolume: 0.17, totalFrames, scenes: cenas, cortes, words: globais }, null, 1));
 console.log(`${cenas.length} cenas, ${(totalFrames / FPS / 60).toFixed(2)} min, música: ${musica}`);

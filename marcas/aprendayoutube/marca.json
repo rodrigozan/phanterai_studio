@@ -1,0 +1,23 @@
+{
+  "id": "aprendayoutube",
+  "nome": "Aprenda YouTube",
+  "descricao": "Canal sobre criar, crescer, gerenciar e monetizar canais no YouTube. Projeto separado da PhanterAI.",
+  "contas": {
+    "instagram": "@aprendayoutube",
+    "youtube": {
+      "canal": "Aprenda YouTube",
+      "channelId": "UCYHsuiYTaYCV_bfuyvW86Kw"
+    }
+  },
+  "pauta": [
+    "Só crescer e gerenciar canais no YouTube (IA como aliada, nunca como tema solto)."
+  ],
+  "identidade": "identidade/visual.md (banner do canal) e identidade/tom-e-editorial.md. Sem mascote.",
+  "musica": "Sorteada de public/aprendayoutube/music, em loop, volume 0.17, diferente do vídeo anterior.",
+  "pastas": {
+    "codigo": "marcas/aprendayoutube/src",
+    "calendario": "marcas/aprendayoutube/calendario",
+    "publico": "public/aprendayoutube",
+    "saida": "out/aprendayoutube"
+  }
+}

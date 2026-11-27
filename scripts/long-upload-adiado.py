@@ -14,6 +14,7 @@ Roda desacoplado (sobrevive ao timeout da rodada agendada) e, depois de `--nao-a
 Lê out/phanterai/long-videos/<slug>/ (video.mp4, packaging.json, capa-a/b/c.jpg) e o roteiro (fontes).
 Log: out/phanterai/long-videos/<slug>/upload-adiado.log. Nenhuma credencial é impressa.
 """
+import os
 import fcntl
 import json
 import subprocess
@@ -24,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 STUDIO = Path("/root/phanterai_studio")
+MARCA = os.environ.get("MARCA", "aprendayoutube")  # o canal deste script é o Aprenda YouTube
 CANAL = "UCYHsuiYTaYCV_bfuyvW86Kw"
 API = "http://127.0.0.1:3930/api"
 KEY = Path("/root/.config/phantertools/operator.key")
@@ -34,12 +36,12 @@ slug, publish_at = sys.argv[1], sys.argv[2]
 nao_antes = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--nao-antes=")), None)
 # --artigo=script.py: escreve out/phanterai/blog/<VIDEO_ID>/article.json (o blog-youtube.py não gera mais artigo)
 artigo = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--artigo=")), None)
-pasta = STUDIO / "out/phanterai/long-videos" / slug
+pasta = STUDIO / "out" / MARCA / "long-videos" / slug
 logf = pasta / "upload-adiado.log"
 data = slug[:10]
-feito = STUDIO / "out/phanterai/agendador-longos" / f"{data}.json"
+feito = STUDIO / "out" / MARCA / "agendador-longos" / f"{data}.json"
 pk = json.loads((pasta / "packaging.json").read_text())
-roteiro = json.loads((STUDIO / "public/phanterai/episodes/long-videos" / slug / "roteiro.json").read_text())
+roteiro = json.loads((STUDIO / "public" / MARCA / "episodes/long-videos" / slug / "roteiro.json").read_text())
 
 
 def agora():
