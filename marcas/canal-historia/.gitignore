@@ -1,6 +1,6 @@
 .env
 *.env
 videos/*/out/
-videos/*/clips/*.mp4
+#videos/*/clips/*.mp4
 videos/_teste/
 __pycache__/
