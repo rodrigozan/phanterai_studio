@@ -4,11 +4,13 @@ O studio atende mais de uma marca. Cada marca tem a própria pasta e nada de uma
 
 | Marca | Pasta | Contas |
 |---|---|---|
-| PhanterAI | `marcas/phanterai` | Instagram @phanteraicreative, YouTube Aprenda YouTube |
-| Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram @animepowerbiblia, YouTube Anime Power Biblia |
+| PhanterAI | `marcas/phanterai` | Instagram e YouTube @phanteraicreative |
+| Aprenda YouTube | `marcas/aprendayoutube` | Instagram e YouTube @aprendayoutube |
+| Anime Power Bíblia | `marcas/anime-power-biblia` | Instagram e YouTube @animepowerbiblia  |
 | Afro WW2 Tales | `marcas/afro-ww2-tales` | YouTube @AfroWW2Tales |
 | Rod Zandonadi | `marcas/rodzandonadi` | YouTube e Instagram @rodzandonadi |
-| Shorts Blocos | `marcas/shorts-blocos` | YouTube Shorts e Instagram Reels (a definir) |
+| Família Quadrada | `marcas/shorts-blocos` | YouTube Shorts e Instagram Reels @afamiliaquadrada  |
+| Palitempo | `marcas/palitempo` | YouTube @palitempo |
 
 ## Onde fica cada coisa
 
