@@ -10,7 +10,7 @@ const [slug, ...flags] = process.argv.slice(2);
 const has = (f: string) => flags.includes(f);
 
 async function main() {
-  if (!slug) throw new Error("uso: yarn blocos <slug> [--validate] [--no-render] [--preview]");
+  if (!slug) throw new Error("uso: yarn familiaquadrada <slug> [--validate] [--no-render] [--preview]");
   const ep = loadEpisode(slug);
   console.log(`scenes.json ok: ${ep.scenes.length} cenas, ${ep.scenes.flatMap((s) => s.lines).length} falas`);
   if (has("--validate")) return;
@@ -19,7 +19,7 @@ async function main() {
   if (has("--no-render")) return;
   const p = paths(slug);
   fs.mkdirSync(path.dirname(p.out), { recursive: true });
-  const args = ["remotion", "render", "src/Root.jsx", "ShortBlocos", p.out, `--props=${p.props}`, "--log=error", "--concurrency=3"];
+  const args = ["remotion", "render", "src/Root.jsx", "ShortFamiliaQuadrada", p.out, `--props=${p.props}`, "--log=error", "--concurrency=3"];
   if (has("--preview")) args.push("--scale=0.5");
   const r = spawnSync("yarn", args, { cwd: ROOT, stdio: "inherit" });
   if (r.status !== 0) throw new Error("render falhou");

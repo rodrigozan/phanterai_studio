@@ -18,7 +18,7 @@ Hashtags padrão: #shorts #humor #familia
 
 ## Regras visuais gerais
 
-- Estilo: personagens de blocos com cabeça cúbica, tronco retangular, braços e pernas retangulares, sombreamento lateral simples (uma face mais escura) e contorno sem traço.
+- Estilo: personagens quadrados com cabeça cúbica, tronco retangular, braços e pernas retangulares, sombreamento lateral simples (uma face mais escura) e contorno sem traço.
 - Olhos: quadrados brancos com pupila quadrada preta. Boca: retângulo escuro com interior rosa quando aberta.
 - Proporção: a cabeça tem 1,1x a largura do tronco. Altura total = 4 cabeças (adultos) ou 3,5 cabeças (filho).
 - Proibido: logos, nomes ou elementos de jogos de terceiros.
@@ -47,7 +47,7 @@ Hashtags padrão: #shorts #humor #familia
 - **Papel:** a figura principal da maioria das histórias. Exagerada, vaidosa, competitiva, adora novidade. Às vezes vilã, às vezes heroína.
 - **Idade aparente:** 40 anos.
 - **Pele:** `#C68642` (face lateral `#A86E33`).
-- **Cabelo:** preto `#2B1B12`, em bloco volumoso ocupando o topo e as laterais da cabeça.
+- **Cabelo:** preto `#2B1B12`, em volume cheio ocupando o topo e as laterais da cabeça.
 - **Óculos:** armação quadrada preta `#1A1A1A`, grossa. **Sempre de óculos.**
 - **Bochechas:** quadradinhos rosados `#F08A8A`.
 - **Blusa:** coral `#E85A5A`.
@@ -63,7 +63,7 @@ Hashtags padrão: #shorts #humor #familia
 - **Idade aparente:** 45 anos.
 - **Pele:** `#E0AC69` (face lateral `#C4914F`).
 - **Cabelo:** castanho `#5A3A22`, com entradas (topo da cabeça na cor da pele, cabelo só nas laterais).
-- **Bigode:** bloco retangular castanho `#5A3A22` acima da boca. **Sempre de bigode.**
+- **Bigode:** retângulo castanho `#5A3A22` acima da boca. **Sempre de bigode.**
 - **Camiseta:** regata branca `#F5F5F5`, com uma barriguinha (tronco 10% mais largo embaixo).
 - **Bermuda:** verde-oliva `#6B7A3A`.
 - **Chinelo:** azul `#2459A8`.
@@ -181,5 +181,5 @@ Hashtags padrão: #shorts #humor #familia
 
 - Os agentes devem ler este arquivo antes de gerar qualquer `scenes.json`.
 - Os campos `characters[].look` do schema devem copiar exatamente as cores e os acessórios definidos aqui.
-- Salvar este arquivo como `.claude/skills/shorts-blocos/references/personagens.md`.
+- Salvar este arquivo como `.claude/skills/familiaquadrada/references/personagens.md`.
 - Toda nova história deve usar só esses 4 personagens, a não ser que o Rod peça outro.

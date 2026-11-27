@@ -1,6 +1,6 @@
-# shorts-blocos
+# familiaquadrada
 
-Shorts 1080x1920 a 60fps com personagens estilo blocos, montados por código a partir de `scenes.json`. Receita completa em `.claude/skills/shorts-blocos/SKILL.md`.
+Shorts 1080x1920 a 60fps com personagens quadrados, montados por código a partir de `scenes.json`. Receita completa em `.claude/skills/familiaquadrada/SKILL.md`.
 
 | O quê | Onde |
 |---|---|
@@ -9,15 +9,15 @@ Shorts 1080x1920 a 60fps com personagens estilo blocos, montados por código a p
 | Câmera (close/medium/wide, punchIn, shake, pan) | `src/remotion/camera/Camera.tsx` |
 | Cenários (sala, cozinha, quarto, escola) | `src/remotion/scenery/Room.tsx` |
 | Música com ducking + SFX | `src/remotion/audio/AudioBed.tsx` |
-| Composição final / teste de 10s | `src/remotion/Short.tsx` (`ShortBlocos`) / `TesteBlocos.tsx` |
+| Composição final / teste de 10s | `src/remotion/Short.tsx` (`ShortFamiliaQuadrada`) / `TesteFamiliaQuadrada.tsx` |
 | TTS, timing, auditoria, orquestração | `src/pipeline/` |
 | Episódios | `public/afamiliaquadrada/episodes/<slug>/` |
 | Roteiro e narração entregues | `videos/<slug>/` |
 
 ```
-yarn blocos <slug> --validate
-yarn blocos <slug>
-yarn blocos <slug> --preview
+yarn familiaquadrada <slug> --validate
+yarn familiaquadrada <slug>
+yarn familiaquadrada <slug> --preview
 yarn tsx marcas/afamiliaquadrada/src/pipeline/audit.ts <slug>
 ```
 

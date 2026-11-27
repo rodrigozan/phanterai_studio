@@ -5,7 +5,7 @@
 import { Composition, Folder, registerRoot } from "remotion";
 import { ComposicoesPhanterAI } from "../marcas/phanterai/src/composicoes";
 import { ComposicoesRodZandonadi } from "../marcas/rodzandonadi/src/composicoes";
-import { ComposicoesShortsBlocos } from "../marcas/afamiliaquadrada/src/composicoes";
+import { ComposicoesFamiliaQuadrada } from "../marcas/afamiliaquadrada/src/composicoes";
 import { ShotcraftFinish, calculateShotcraftMetadata } from "./shotcraft/ShotcraftFinish";
 
 const RemotionRoot = () => (
@@ -17,7 +17,7 @@ const RemotionRoot = () => (
       <ComposicoesRodZandonadi />
     </Folder>
     <Folder name="afamiliaquadrada">
-      <ComposicoesShortsBlocos />
+      <ComposicoesFamiliaQuadrada />
     </Folder>
     <Composition
       id="ShotcraftFinish"

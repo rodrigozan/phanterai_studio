@@ -4,7 +4,7 @@ import type { ExpressionT, ItemT, LookT, PoseT } from "../../schema/scenes";
 import { BODY_UNITS, FLOOR_Y, FPS, HEAD, TORSO_UNITS, UNIT } from "../layout";
 import { EXPRESSION_FACES, POSE_ARMS, type Face } from "./expressions";
 
-export type BlockCharacterProps = {
+export type FamiliaQuadradaCharacterProps = {
   frame: number;
   x: number;
   look: LookT;
@@ -297,7 +297,7 @@ const Item: React.FC<{ kind: ItemT; x: number; y: number; floorY: number; color?
   }
 };
 
-export const BlockCharacter: React.FC<BlockCharacterProps> = ({ frame, x, look, expression, pose, item, talking, seed, facing = 1 }) => {
+export const FamiliaQuadradaCharacter: React.FC<FamiliaQuadradaCharacterProps> = ({ frame, x, look, expression, pose, item, talking, seed, facing = 1 }) => {
   const face = EXPRESSION_FACES[expression];
   const arms = POSE_ARMS[pose];
   const held: ItemT = pose === "phone" ? "phone" : (item ?? look.item ?? "none");

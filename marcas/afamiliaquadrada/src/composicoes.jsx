@@ -1,12 +1,12 @@
 import { Composition } from "remotion";
 import { Short, calculateShortMetadata } from "./remotion/Short";
-import { TesteBlocos, TESTE_FRAMES } from "./remotion/TesteBlocos";
+import { TesteFamiliaQuadrada, TESTE_FRAMES } from "./remotion/TesteFamiliaQuadrada";
 import { FPS, WIDTH, HEIGHT } from "./remotion/layout";
 
-export const ComposicoesShortsBlocos = () => (
+export const ComposicoesFamiliaQuadrada = () => (
   <>
     <Composition
-      id="ShortBlocos"
+      id="ShortFamiliaQuadrada"
       component={Short}
       width={WIDTH}
       height={HEIGHT}
@@ -15,6 +15,6 @@ export const ComposicoesShortsBlocos = () => (
       defaultProps={{ episode: null, timing: null }}
       calculateMetadata={calculateShortMetadata}
     />
-    <Composition id="TesteBlocos" component={TesteBlocos} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={TESTE_FRAMES} />
+    <Composition id="TesteFamiliaQuadrada" component={TesteFamiliaQuadrada} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={TESTE_FRAMES} />
   </>
 );

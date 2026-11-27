@@ -1,13 +1,13 @@
 ---
-name: shorts-blocos
-description: Cria Shorts/Reels animados com personagens estilo blocos (Remotion 60fps, vozes ElevenLabs, auditoria de retenção). Use quando o Rod pedir "faz um short de blocos", "short estilo jogo de blocos", "episódio novo do shorts-blocos", "e se a mãe/vó/professor começasse a...", ou /shorts-blocos.
+name: familiaquadrada
+description: Cria Shorts/Reels animados da Família Quadrada com personagens quadrados (Remotion 60fps, vozes ElevenLabs, auditoria de retenção). Use quando o Rod pedir "faz um short da Família Quadrada", "episódio novo da Família Quadrada", "e se a mãe/vó/professor começasse a...", ou /familiaquadrada.
 ---
 
-# shorts-blocos
+# familiaquadrada
 
-Pipeline de Shorts 1080x1920 a 60fps com personagens estilo blocos, totalmente em código. Marca `shorts-blocos`: código em `marcas/afamiliaquadrada/src/`, episódios em `public/afamiliaquadrada/episodes/<slug>/`, render em `out/afamiliaquadrada/<slug>.mp4`.
+Pipeline de Shorts 1080x1920 a 60fps com personagens quadrados, totalmente em código. Marca `afamiliaquadrada`: código em `marcas/afamiliaquadrada/src/`, episódios em `public/afamiliaquadrada/episodes/<slug>/`, render em `out/afamiliaquadrada/<slug>.mp4`.
 
-Visual só "estilo blocos". Nada de marca, logo, nome ou personagem oficial de jogo de terceiros, nem no roteiro, nem no título, nem nas tags. Isso protege o canal de strike e de desmonetização.
+Visual só de personagens quadrados. Nada de marca, logo, nome ou personagem oficial de jogo de terceiros, nem no roteiro, nem no título, nem nas tags. Isso protege o canal de strike e de desmonetização.
 
 Comandos sempre com yarn, um por linha.
 
@@ -39,14 +39,14 @@ Gere `public/afamiliaquadrada/episodes/<slug>/scenes.json` no contrato de `marca
 
 Valide:
 ```
-yarn blocos <slug> --validate
+yarn familiaquadrada <slug> --validate
 ```
 
 ### 4. Áudio, timing e render
 ```
-yarn blocos <slug>
+yarn familiaquadrada <slug>
 ```
-Faz TTS (com cache por hash), `timing.json`, `props.json`, render e auditoria. Para preview rápido: `yarn blocos <slug> --preview`. Só áudio e timing: `--no-render`.
+Faz TTS (com cache por hash), `timing.json`, `props.json`, render e auditoria. Para preview rápido: `yarn familiaquadrada <slug> --preview`. Só áudio e timing: `--no-render`.
 
 ### 5. Auditoria
 `audit.json` fica na pasta do episódio. Saída 2 = reprovado. Erro de roteiro ou de beats volta para o `roteirista`; erro de animação ou de enquadramento vai para o `animador`. No máximo 3 iterações, depois pare e reporte as métricas.

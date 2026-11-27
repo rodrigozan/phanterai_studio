@@ -1,10 +1,10 @@
 {
   "id": "afamiliaquadrada",
-  "nome": "Shorts Blocos",
-  "descricao": "Shorts/Reels animados por código com personagens estilo blocos, roteiro brasileiro, vozes ElevenLabs e auditoria de retenção.",
+  "nome": "Família Quadrada",
+  "descricao": "Shorts/Reels animados por código com personagens quadrados, roteiro brasileiro, vozes ElevenLabs e auditoria de retenção.",
   "dono": "Phanter AI",
   "pauta": [
-    "Visual só estilo blocos: sem marca, logo, nome ou personagem oficial de jogo de terceiros.",
+    "Visual só de personagens quadrados: sem marca, logo, nome ou personagem oficial de jogo de terceiros.",
     "Escalada de 5 dias, reviravolta, CTA de comentário de uma palavra, loop perfeito.",
     "Sem pedido de inscrição no meio. Yarn, nunca npm. Sem comentários no código."
   ],
@@ -14,6 +14,6 @@
     "musicas": "public/afamiliaquadrada/music",
     "saida": "out/afamiliaquadrada",
     "videos": "marcas/afamiliaquadrada/videos/<slug>",
-    "skill": ".claude/skills/shorts-blocos/SKILL.md"
+    "skill": ".claude/skills/familiaquadrada/SKILL.md"
   }
 }

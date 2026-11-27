@@ -1,6 +1,6 @@
 # public/afamiliaquadrada/music/
 
-`bed.mp3`: trilha contínua do shorts-blocos. Gerada de `public/phanterai/music/CuriousFocus.mp3` com nível achatado, para a auditoria de quedas de volume passar:
+`bed.mp3`: trilha contínua da Família Quadrada. Gerada de `public/phanterai/music/CuriousFocus.mp3` com nível achatado, para a auditoria de quedas de volume passar:
 
 ```
 ffmpeg -i public/phanterai/music/CuriousFocus.mp3 -af "dynaudnorm=f=100:g=5:p=0.7:m=30,acompressor=threshold=-24dB:ratio=4:attack=5:release=120,loudnorm=I=-18:TP=-2" -ar 44100 -b:a 192k public/afamiliaquadrada/music/bed.mp3

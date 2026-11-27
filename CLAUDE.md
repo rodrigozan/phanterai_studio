@@ -104,11 +104,11 @@ Every new episode (any brand) ends with a commit and a push to the main branch (
 which Rod calls "master"). Add files by name, author Rod Zandonadi, push over SSH
 (`git@github.com:rodrigozan/phanterai_studio.git`). No side branches, no PRs.
 
-## `shorts-blocos` pipeline
+## `familiaquadrada` pipeline
 
-Shorts 1080x1920 at 60fps with block-style characters drawn in code (no third-party game branding).
-Recipe: `.claude/skills/shorts-blocos/SKILL.md`; subagents `animador`/`roteirista`/`auditor`/`operador`
+Shorts 1080x1920 at 60fps with square characters drawn in code (no third-party game branding).
+Recipe: `.claude/skills/familiaquadrada/SKILL.md`; subagents `animador`/`roteirista`/`auditor`/`operador`
 in `.claude/agents/`. Code in `marcas/afamiliaquadrada/src/` (TypeScript: Zod schema, Remotion components,
-`pipeline/` run with tsx). `yarn blocos <slug>` = validate → ElevenLabs TTS (hash cache) → `timing.json`
-→ render `ShortBlocos` → `audit.json` (exit 2 if any metric fails). `TesteBlocos` is the 10s
+`pipeline/` run with tsx). `yarn familiaquadrada <slug>` = validate → ElevenLabs TTS (hash cache) → `timing.json`
+→ render `ShortFamiliaQuadrada` → `audit.json` (exit 2 if any metric fails). `TesteFamiliaQuadrada` is the 10s
 expression/shot test composition.

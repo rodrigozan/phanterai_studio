@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { AbsoluteFill, spring, useCurrentFrame } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Poppins";
 import type { EpisodeT, Timing } from "../schema/scenes";
-import { BlockCharacter } from "./characters/BlockCharacter";
+import { FamiliaQuadradaCharacter } from "./characters/FamiliaQuadradaCharacter";
 import { Camera } from "./camera/Camera";
 import { Room } from "./scenery/Room";
 import { AudioBed } from "./audio/AudioBed";
@@ -89,7 +89,7 @@ export const Short: React.FC<ShortProps> = ({ episode, timing }) => {
         <Room setting={scene.setting} props={scene.props} frame={frame} />
         {cast.map((c) => {
           const st = states.get(c.id) ?? { expression: "neutral" as const, pose: "idle" as const };
-          return <BlockCharacter key={c.id} frame={frame} x={c.x} look={c.look} expression={st.expression} pose={st.pose} item={st.item} talking={talking && speaking === c.id} seed={c.id} facing={c.facing} />;
+          return <FamiliaQuadradaCharacter key={c.id} frame={frame} x={c.x} look={c.look} expression={st.expression} pose={st.pose} item={st.item} talking={talking && speaking === c.id} seed={c.id} facing={c.facing} />;
         })}
       </Camera>
       {tl && !showHook && <Captions words={tl.words} t={(frame - tl.startFrame) / FPS} />}
