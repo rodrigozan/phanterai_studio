@@ -1,0 +1,52 @@
+{
+  "env_file": "../.env",
+  "env_prefixes": [
+    "ELEVENLABS_",
+    "GOOGLE_AI_STUDIO"
+  ],
+  "tts": {
+    "voice_id": "",
+    "voice_id_env": "ELEVENLABS_STORY_NARRATOR_VOICE_ID",
+    "model_id": "eleven_v4",
+    "language_code": "pt",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.2,
+      "use_speaker_boost": true
+    },
+    "usar_contexto_vizinho": true
+  },
+  "imagem": {
+    "api_key_env": "GOOGLE_AI_STUDIO",
+    "modelo": "gemini-nano-banana-2.1",
+    "api_revision": "2026-05-20",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "elenco_aspect_ratio": "1:1"
+  },
+  "estilo": "Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm colors, simple but cinematic background, high readability, no text, 16:9.",
+  "elenco": {
+    "narrador": "Stickman narrator wearing a brown explorer hat (safari style), friendly curious expression.",
+    "farao": "Stickman pharaoh wearing a striped blue and gold nemes headdress and a gold false ceremonial beard, regal posture.",
+    "sacerdote": "Stickman ancient Egyptian priest with a shaved head and a flowing white linen robe, calm solemn expression.",
+    "campones": "Stickman ancient Egyptian peasant farmer wearing a white linen loincloth and carrying a woven basket.",
+    "escriba": "Stickman ancient Egyptian scribe holding a papyrus scroll and a reed pen, sitting or standing attentively.",
+    "soldado": "Stickman ancient Egyptian soldier holding a leather shield and a spear, alert stance.",
+    "rainha": "Stickman ancient Egyptian queen wearing a slim golden crown with a cobra at the forehead and a long flowing white and gold gown, elegant posture.",
+    "general_estrangeiro": "Stickman foreign general wearing a plumed bronze helmet and a short red cape, holding a round shield, confident stance."
+  },
+  "render": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": 30,
+    "respiro": 0.35,
+    "zoom_max": 1.18,
+    "upscale": 4,
+    "musica_volume": 0.12,
+    "fade_out": 3,
+    "crf": 18,
+    "preset": "medium"
+  }
+}
