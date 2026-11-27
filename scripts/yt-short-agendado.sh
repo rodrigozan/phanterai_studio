@@ -51,7 +51,7 @@ for T in $(seq 1 $MAX); do
   [ "$T" -gt 1 ] && P="$PROMPT
 
 ATENÇÃO: tentativa $T de $MAX. A anterior falhou (ver $LOG e $FEITO.tentativa$((T-1))). Reaproveite o que existe, corrija a causa e termine. Se já estiver agendado no YouTube, não suba outro: só grave o resultado."
-  set +e; IS_SANDBOX=1 timeout 40m claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1; RC=$?; set -e
+  set +e; timeout 40m /root/phanterai_studio/scripts/claude-roteado.sh claude "$P" >>"$LOG" 2>&1; RC=$?; set -e
   log "claude terminou com código $RC (tentativa $T)"
   [ -e "$FEITO" ] || printf '{"slug": "%s", "status": "nao_publicado", "motivo": "o Claude encerrou (codigo %s) sem gravar resultado; ver %s"}\n' "$ID" "$RC" "$LOG" >"$FEITO"
   if ok; then log "short $ID ok"; exit 0; fi

@@ -91,7 +91,7 @@ for T in $(seq 1 $MAX); do
 
 ATENÇÃO: esta é a tentativa $T de $MAX. A anterior falhou (ver $LOG e $FEITO.tentativa$((T-1))). Reaproveite o que já existe na pasta do reel, corrija a causa da falha e termine. Se este reel já estiver agendado no Instagram/YouTube, não suba outro: só grave o resultado. Se o tema não se confirmar em fonte primária, escolha outro tema de IA do calendário para este horário."; fi
   set +e
-  IS_SANDBOX=1 timeout 40m claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1
+  timeout 40m /root/phanterai_studio/scripts/claude-roteado.sh claude-dev "$P" >>"$LOG" 2>&1
   RC=$?
   set -e
   log "claude terminou com código $RC (tentativa $T)"

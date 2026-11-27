@@ -68,7 +68,7 @@ for T in $(seq 1 $MAX); do
 
 ATENÇÃO: esta é a tentativa $T de $MAX. A anterior falhou (ver $LOG e $FEITO.tentativa$((T-1))). Reaproveite o que já existe na pasta do episódio (roteiro, voz, prints), corrija a causa da falha e termine o processo. Se o vídeo deste dia já estiver agendado no YouTube, não suba outro: só grave o resultado."; fi
   set +e
-  IS_SANDBOX=1 timeout 2h claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1
+  timeout 2h /root/phanterai_studio/scripts/claude-roteado.sh claude "$P" >>"$LOG" 2>&1
   RC=$?
   set -e
   log "claude terminou com código $RC (tentativa $T)"

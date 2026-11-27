@@ -49,7 +49,7 @@ for T in $(seq 1 $MAX); do
   P="$PROMPT"; [ "$T" -gt 1 ] && P="$PROMPT
 
 ATENÇÃO: tentativa $T de $MAX. A anterior não gravou a pauta (ver $LOG). Reaproveite o que já foi coletado e termine."
-  set +e; cd /root/phanterai_studio; IS_SANDBOX=1 timeout 40m claude -p "$P" --permission-mode bypassPermissions >>"$LOG" 2>&1; RC=$?; set -e
+  set +e; cd /root/phanterai_studio; timeout 40m /root/phanterai_studio/scripts/claude-roteado.sh claude "$P" antigravity >>"$LOG" 2>&1; RC=$?; set -e
   log "claude terminou com código $RC (tentativa $T)"
   if pronta; then log "pauta $DATA_USO ok ($(wc -c <"$SAIDA") bytes)"; exit 0; fi
 done
