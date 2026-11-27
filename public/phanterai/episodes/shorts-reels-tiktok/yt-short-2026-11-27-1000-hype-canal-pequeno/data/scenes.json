@@ -1,0 +1,234 @@
+{
+ "slug": "yt-short-2026-11-27-1000-hype-canal-pequeno",
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (loop, volume 0.17)",
+ "panterinha": [
+  {
+   "pose": "surpresa",
+   "inicio": 0
+  },
+  {
+   "pose": "apontando",
+   "inicio": 26.19
+  },
+  {
+   "pose": "comemorando",
+   "inicio": 38.73
+  }
+ ],
+ "cenas": [
+  {
+   "componente": "Hook",
+   "acao": "Dois cards de canal (500 x 500 mil) com pontos contando desde o quadro 0; Big 'Canal pequeno'→'150x'→'150x MAIS!', flash e impacto; pill 'por 1 hype'",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Canal",
+     "inicio": 0
+    },
+    {
+     "palavra_gatilho": "vale",
+     "inicio": 0.8
+    },
+    {
+     "palavra_gatilho": "CENTO",
+     "inicio": 1.28
+    },
+    {
+     "palavra_gatilho": "mais",
+     "inicio": 2.64
+    }
+   ]
+  },
+  {
+   "componente": "Hype",
+   "acao": "Player 'vídeo novo' + botão 🔥 Hype clicado pelo cursor (+7.500 sobe); Big 'HYPE'; cartas 1-2-3 viram, a 3ª fica vermelha; Big 'pegadinha'",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "HYPE",
+     "inicio": 3.68
+    },
+    {
+     "palavra_gatilho": "YouTube",
+     "inicio": 4.44
+    },
+    {
+     "palavra_gatilho": "Três",
+     "inicio": 4.89
+    },
+    {
+     "palavra_gatilho": "terceira",
+     "inicio": 6.01
+    },
+    {
+     "palavra_gatilho": "pegadinha",
+     "inicio": 7.13
+    }
+   ]
+  },
+  {
+   "componente": "Item1",
+   "acao": "Header Nº1 O placar; linha 500 inscritos conta até 7.500, linha 500 mil até 50, pills e carimbo 150x; 'modo Naruto': ranking da turma, canal 500 marcado 'o mais fraco' sobe pra 1º com '+ bônus'",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número",
+     "inicio": 7.98
+    },
+    {
+     "palavra_gatilho": "SETE",
+     "inicio": 10.78
+    },
+    {
+     "palavra_gatilho": "hype",
+     "inicio": 12.42
+    },
+    {
+     "palavra_gatilho": "mil",
+     "inicio": 13.49
+    },
+    {
+     "palavra_gatilho": "cinquenta",
+     "inicio": 14.09
+    },
+    {
+     "palavra_gatilho": "Modo",
+     "inicio": 14.91
+    },
+    {
+     "palavra_gatilho": "fraco",
+     "inicio": 16.36
+    },
+    {
+     "palavra_gatilho": "bônus",
+     "inicio": 17.64
+    }
+   ]
+  },
+  {
+   "componente": "Item2",
+   "acao": "Header Nº2 Quem dá o hype; avatar espectador, cursor clica no botão; 3 fichas 🔥 e pill '3 por semana'; etiqueta 'R$ 0' balançando; card 'Seu próprio vídeo' com botão apagado e carimbo NÃO VALE",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número",
+     "inicio": 18.29
+    },
+    {
+     "palavra_gatilho": "hype",
+     "inicio": 19.7
+    },
+    {
+     "palavra_gatilho": "espectador",
+     "inicio": 20.34
+    },
+    {
+     "palavra_gatilho": "Três",
+     "inicio": 21.22
+    },
+    {
+     "palavra_gatilho": "de",
+     "inicio": 22.34
+    },
+    {
+     "palavra_gatilho": "próprio",
+     "inicio": 23.38
+    },
+    {
+     "palavra_gatilho": "não",
+     "inicio": 24.3
+    }
+   ]
+  },
+  {
+   "componente": "Item3",
+   "acao": "Header Nº3 A pegadinha; player 'qual vídeo?', chips Short/Live/Longo (Longo acende), 7 dias enchendo; tela de Short com cadeado + NÃO ENTRA; checklist do canal (Programa de Parcerias, 500 a 500 mil, longo até 7 dias)",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Número",
+     "inicio": 24.99
+    },
+    {
+     "palavra_gatilho": "pegadinha",
+     "inicio": 26.19
+    },
+    {
+     "palavra_gatilho": "Só",
+     "inicio": 27.11
+    },
+    {
+     "palavra_gatilho": "LONGO",
+     "inicio": 27.95
+    },
+    {
+     "palavra_gatilho": "primeiros",
+     "inicio": 28.67
+    },
+    {
+     "palavra_gatilho": "Short",
+     "inicio": 30.19
+    },
+    {
+     "palavra_gatilho": "entra",
+     "inicio": 30.99
+    },
+    {
+     "palavra_gatilho": "Programa",
+     "inicio": 33.0
+    },
+    {
+     "palavra_gatilho": "Parcerias",
+     "inicio": 33.44
+    }
+   ]
+  },
+  {
+   "componente": "Ranking",
+   "acao": "Ranking 'Mais hypados' com vídeo D subindo de 4º a 1º e pontos contando; pill 'um ranking por país', chips de países, Brasil acende; carimbo TÁ NA LISTA",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Os",
+     "inicio": 34.4
+    },
+    {
+     "palavra_gatilho": "sobem",
+     "inicio": 35.32
+    },
+    {
+     "palavra_gatilho": "ranking",
+     "inicio": 35.84
+    },
+    {
+     "palavra_gatilho": "país",
+     "inicio": 36.4
+    },
+    {
+     "palavra_gatilho": "Brasil",
+     "inicio": 37.2
+    },
+    {
+     "palavra_gatilho": "lista",
+     "inicio": 38.16
+    }
+   ]
+  },
+  {
+   "componente": "CTA",
+   "acao": "Caixa de comentário digitando 'HYPE 🔥', botão Hype pulsando e acendendo, 🔥/💬 subindo",
+   "gatilhos": [
+    {
+     "palavra_gatilho": "Comenta",
+     "inicio": 38.73
+    },
+    {
+     "palavra_gatilho": "HYPE",
+     "inicio": 39.13
+    },
+    {
+     "palavra_gatilho": "viu",
+     "inicio": 40.25
+    },
+    {
+     "palavra_gatilho": "botão",
+     "inicio": 40.69
+    }
+   ]
+  }
+ ]
+}

@@ -41,6 +41,7 @@ import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarM
 import { ShortTagsQuaseNada, CapaTagsQuaseNada, STQ_FPS, calculateTagsQuaseNadaMetadata } from "./short/ShortTagsQuaseNada";
 import { ShortCapitulos, CapaCapitulos, SCP_FPS, calculateCapitulosMetadata } from "./short/ShortCapitulos";
 import { ShortShorts3Min, CapaShorts3Min, S3M_FPS, calculateShorts3MinMetadata } from "./short/ShortShorts3Min";
+import { ShortHype, CapaHype, HYP_FPS, calculateHypeMetadata } from "./short/ShortHype";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -483,6 +484,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateShorts3MinMetadata}
   />
   <Composition id="CapaShorts3Min" component={CapaShorts3Min} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortHype"
+    component={ShortHype}
+    width={1080}
+    height={1920}
+    fps={HYP_FPS}
+    durationInFrames={1300}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateHypeMetadata}
+  />
+  <Composition id="CapaHype" component={CapaHype} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}

@@ -1,0 +1,6 @@
+{
+ "fontes": ["https://support.google.com/youtube/answer/15333273", "https://support.google.com/youtube/answer/15509925", "https://support.google.com/youtube/answer/15334500", "https://support.google.com/youtube/answer/15509364"],
+ "musica": "public/phanterai/music/CuriousFocus.mp3 (biblioteca do canal, loop, volume 0.17)",
+ "sfx": "public/sfx (Mixkit, ver mixkit-sources.json)",
+ "visual": "motion graphics próprios no Remotion; sem print, sem Pexels, nada gerado por IA"
+}
