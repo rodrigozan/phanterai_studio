@@ -1,6 +1,6 @@
 {
   "conta_instagram": "@phanteraicreative",
-  "canal_youtube": "Aprenda YouTube",
+  "canal_youtube": "PhanterAI Creative",
   "fuso": "America/Sao_Paulo",
   "antecedencia_minutos": 45,
   "regras": [
@@ -344,7 +344,7 @@
       "promessa": "MAI Realtime 1: conversa por voz em tempo real, barata",
       "sinal": "notícia (Microsoft lança 7 modelos MAI, entre eles MAI Realtime 1)",
       "referencia": "https://microsoft.ai/news/",
-      "status": "pendente"
+      "status": "agendado"
     },
     {
       "data": "2026-11-27",
