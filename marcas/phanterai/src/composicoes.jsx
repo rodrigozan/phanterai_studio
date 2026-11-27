@@ -34,6 +34,7 @@ import { ShortPalitinho, CapaPalitinho, SPA_FPS, calculatePalitinhoMetadata } fr
 import { ShortGeminiNeon, CapaGeminiNeon, SGN_FPS, calculateGeminiNeonMetadata } from "./short/ShortGeminiNeon";
 import { ShortEditarVideos, CapaEditarVideos, SEV_FPS, calculateEditarVideosMetadata } from "./short/ShortEditarVideos";
 import { ShortVozCentavo, CapaVozCentavo, SVC_FPS, calculateVozCentavoMetadata } from "./short/ShortVozCentavo";
+import { ShortAnimacao3D, CapaAnimacao3D, S3D_FPS, calculate3DMetadata } from "./short/ShortAnimacao3D";
 import { ShortViewsShorts, CapaViewsShorts, SVS_FPS, calculateViewsShortsMetadata } from "./short/ShortViewsShorts";
 import { ShortTesteAB, CapaTesteAB, STA_FPS, calculateTesteABMetadata } from "./short/ShortTesteAB";
 import { ShortHorarioPostar, CapaHorarioPostar, SHP_FPS, calculateHorarioPostarMetadata } from "./short/ShortHorarioPostar";
@@ -405,6 +406,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateVozCentavoMetadata}
   />
   <Composition id="CapaVozCentavo" component={CapaVozCentavo} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortAnimacao3D"
+    component={ShortAnimacao3D}
+    width={1080}
+    height={1920}
+    fps={S3D_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculate3DMetadata}
+  />
+  <Composition id="CapaAnimacao3D" component={CapaAnimacao3D} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortViewsShorts"
     component={ShortViewsShorts}
