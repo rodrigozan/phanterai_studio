@@ -1,6 +1,6 @@
 # Publicação — EP03 "Meu avô aprendeu a usar o WhatsApp"
 
-Arquivo: `out/shorts-blocos/vo-whatsapp.mp4` (1080x1920, 60fps, 56,3s)
+Arquivo: `out/afamiliaquadrada/vo-whatsapp.mp4` (1080x1920, 60fps, 56,3s)
 Capa: `capa.jpg` (frame de 16s: close do Vô Zé de óculos dourados, "Ô, MENINO!")
 Mesmo mp4 para YouTube Shorts e Instagram Reels.
 

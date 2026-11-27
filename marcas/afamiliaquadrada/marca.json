@@ -1,5 +1,5 @@
 {
-  "id": "shorts-blocos",
+  "id": "afamiliaquadrada",
   "nome": "Shorts Blocos",
   "descricao": "Shorts/Reels animados por código com personagens estilo blocos, roteiro brasileiro, vozes ElevenLabs e auditoria de retenção.",
   "dono": "Phanter AI",
@@ -9,10 +9,10 @@
     "Sem pedido de inscrição no meio. Yarn, nunca npm. Sem comentários no código."
   ],
   "pastas": {
-    "publico": "public/shorts-blocos",
-    "episodios": "public/shorts-blocos/episodes",
-    "musicas": "public/shorts-blocos/music",
-    "saida": "out/shorts-blocos",
+    "publico": "public/afamiliaquadrada",
+    "episodios": "public/afamiliaquadrada/episodes",
+    "musicas": "public/afamiliaquadrada/music",
+    "saida": "out/afamiliaquadrada",
     "videos": "marcas/afamiliaquadrada/videos/<slug>",
     "skill": ".claude/skills/shorts-blocos/SKILL.md"
   }

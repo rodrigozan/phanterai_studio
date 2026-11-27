@@ -1,6 +1,6 @@
 # Publicação — EP06 "Meu avô ganhou um celular novo"
 
-Arquivo: `out/shorts-blocos/vo-celular-novo.mp4` (1080x1920, 60fps, 47,3s)
+Arquivo: `out/afamiliaquadrada/vo-celular-novo.mp4` (1080x1920, 60fps, 47,3s)
 Capa: `capa.jpg` (frame de 40s: close do Vô Zé rindo, "DENTE RESERVA!")
 Mesmo mp4 para YouTube Shorts e Instagram Reels.
 
@@ -36,7 +36,7 @@ Família Quadrada: a família brasileira mais normal do mundo, só que feita de 
 #shorts #humor #familia #celular #avo
 ```
 
-Episódio anterior: EP05 "Meu pai virou técnico do meu time" (`yIiZpieLmII`, no ar a partir de 27/11 às 18h). O pacote que o cron envia está em `out/shorts-blocos/upload-vo-celular-novo/packaging.json`.
+Episódio anterior: EP05 "Meu pai virou técnico do meu time" (`yIiZpieLmII`, no ar a partir de 27/11 às 18h). O pacote que o cron envia está em `out/afamiliaquadrada/upload-vo-celular-novo/packaging.json`.
 
 ## Tags (YouTube)
 

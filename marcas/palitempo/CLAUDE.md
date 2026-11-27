@@ -1,4 +1,4 @@
-# canal-historia — pipeline de vídeos de história com bonecos palito
+# Palitempo — pipeline de vídeos de história com bonecos palito
 
 Canal de YouTube no formato **"A HISTÓRIA INTEIRA de X em N minutos"**: 10–14 min, 16:9, narração PT-BR,
 bonecos palito. Primeiro vídeo: **Egito Antigo** (`videos/egito/`).
@@ -19,7 +19,7 @@ bonecos palito. Primeiro vídeo: **Egito Antigo** (`videos/egito/`).
 7. Antes de escrever código de API novo, conferir a documentação atual (endpoint e nome de modelo mudam).
 8. Música: Rod fornece `audio/musica.mp3` (livre de direitos). Não gerar nem baixar música.
 9. Upload no YouTube é manual por enquanto.
-10. Tudo que mudar no projeto também vai para o Obsidian (`projetos/canal-historia.md`), no mesmo turno.
+10. Tudo que mudar no projeto também vai para o Obsidian (`projetos/palitempo.md`), no mesmo turno.
 
 ## Estilo (PROMPT DE ESTILO)
 Classic 2D stickman cartoon, clean thick black line art, round white head, simple expressive face, flat warm

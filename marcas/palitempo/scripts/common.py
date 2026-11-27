@@ -10,7 +10,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent  # canal-historia/
+ROOT = Path(__file__).resolve().parent.parent  # marcas/palitempo/
 CONFIG_PATH = ROOT / "config.json"
 
 

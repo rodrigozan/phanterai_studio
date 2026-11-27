@@ -1,6 +1,6 @@
 # Publicação — EP04 "Minha mãe viu meu histórico do celular"
 
-Arquivo: `out/shorts-blocos/mae-historico.mp4` (1080x1920, 60fps, 46,6s)
+Arquivo: `out/afamiliaquadrada/mae-historico.mp4` (1080x1920, 60fps, 46,6s)
 Capa: `capa.jpg` (frame de 37,2s: close do Seu Carlos envergonhado, "ISSO AÍ... É")
 Mesmo mp4 para YouTube Shorts e Instagram Reels.
 

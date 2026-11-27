@@ -16,7 +16,7 @@ const RemotionRoot = () => (
     <Folder name="rodzandonadi">
       <ComposicoesRodZandonadi />
     </Folder>
-    <Folder name="shorts-blocos">
+    <Folder name="afamiliaquadrada">
       <ComposicoesShortsBlocos />
     </Folder>
     <Composition

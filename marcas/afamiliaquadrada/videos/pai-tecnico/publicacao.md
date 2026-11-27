@@ -1,6 +1,6 @@
 # Publicação — EP05 "Meu pai virou técnico do meu time"
 
-Arquivo: `out/shorts-blocos/pai-tecnico.mp4` (1080x1920, 60fps, 49,2s)
+Arquivo: `out/afamiliaquadrada/pai-tecnico.mp4` (1080x1920, 60fps, 49,2s)
 Capa: `capa.jpg` (frame de 37,3s: close do Vô Zé comemorando, "GOL!")
 Mesmo mp4 para YouTube Shorts e Instagram Reels.
 

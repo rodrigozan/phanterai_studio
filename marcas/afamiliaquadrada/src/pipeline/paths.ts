@@ -6,7 +6,7 @@ import { Episode, type EpisodeT } from "../schema/scenes";
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../../../..");
 config({ path: path.join(ROOT, ".env"), quiet: true });
 
-export const MARCA = "shorts-blocos";
+export const MARCA = "afamiliaquadrada";
 
 export function paths(slug: string) {
   const ep = path.join(ROOT, "public", MARCA, "episodes", slug);

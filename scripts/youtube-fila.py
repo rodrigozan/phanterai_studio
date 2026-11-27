@@ -2,7 +2,7 @@
 """youtube-fila.py - envia ao YouTube os vídeos aprovados que estão na fila, pela API do Phantertools.
 
 Disparado pelo cron de hora em hora. Cada trabalho é um JSON em
-out/shorts-blocos/fila-youtube/pendentes/<slug>.json:
+out/afamiliaquadrada/fila-youtube/pendentes/<slug>.json:
 
   {"slug", "pasta" (com video.mp4 e packaging.json), "channelId", "publishAt" (ISO, futuro),
    "capa" (opcional), "naoAntesDe" (ISO, opcional)}
@@ -31,7 +31,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-FILA = Path("/root/phanterai_studio/out/shorts-blocos/fila-youtube")
+FILA = Path("/root/phanterai_studio/out/afamiliaquadrada/fila-youtube")
 API = "http://127.0.0.1:3930/api"
 KEY_FILE = Path("/root/.config/phantertools/operator.key")
 YT_UPLOAD = "/root/phantertools/phantertools_api/tools/yt-upload.mjs"

@@ -1,6 +1,6 @@
 # Publicação — EP02 "Meu pai descobriu a airfryer"
 
-Arquivo: `out/shorts-blocos/pai-airfryer.mp4` (1080x1920, 60fps, 48,8s)
+Arquivo: `out/afamiliaquadrada/pai-airfryer.mp4` (1080x1920, 60fps, 48,8s)
 Capa: `capa.jpg` (frame de 19,8s: Léo em choque, "CROCANTE?")
 Mesmo mp4 para YouTube Shorts e Instagram Reels.
 

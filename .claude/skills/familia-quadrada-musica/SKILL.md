@@ -9,14 +9,14 @@ O canal usa **somente estas 4 faixas** como música de fundo. Não buscar, gerar
 
 ## Arquivos
 
-Salvar em `public/shorts-blocos/music/` com estes nomes:
+Salvar em `public/afamiliaquadrada/music/` com estes nomes:
 
 | Id | Arquivo | Título original | Papel |
 |---|---|---|---|
-| `tema` | `public/shorts-blocos/music/whistle-and-bounce.mp3` | Whistle & Bounce | Tema principal: ukulele, assobio, 115 BPM |
-| `travessura` | `public/shorts-blocos/music/tiptoe-and-trouble.mp3` | Tiptoe & Trouble | Travessura: pizzicato, fagote, 110 BPM |
-| `escalada` | `public/shorts-blocos/music/slapstick-dash.mp3` | Slapstick Dash | Caos e perseguição: cordas staccato, tuba, 130 BPM |
-| `brasil` | `public/shorts-blocos/music/tamborzao-mischief.mp3` | Tamborzão Mischief | Funk leve brasileiro: tamborzão, cavaquinho, 125 BPM |
+| `tema` | `public/afamiliaquadrada/music/whistle-and-bounce.mp3` | Whistle & Bounce | Tema principal: ukulele, assobio, 115 BPM |
+| `travessura` | `public/afamiliaquadrada/music/tiptoe-and-trouble.mp3` | Tiptoe & Trouble | Travessura: pizzicato, fagote, 110 BPM |
+| `escalada` | `public/afamiliaquadrada/music/slapstick-dash.mp3` | Slapstick Dash | Caos e perseguição: cordas staccato, tuba, 130 BPM |
+| `brasil` | `public/afamiliaquadrada/music/tamborzao-mischief.mp3` | Tamborzão Mischief | Funk leve brasileiro: tamborzão, cavaquinho, 125 BPM |
 
 Se algum arquivo não existir, parar e pedir ao Rod. Nunca substituir.
 
@@ -78,7 +78,7 @@ Implementado em `marcas/afamiliaquadrada/src/schema/music.ts` (regras, ganho e p
 - **Reviravolta:** marque a cena com `"track": "none"`. A música para no início da cena, fica 30 frames (0,5s) em silêncio e volta com a faixa que tocava antes, a partir do começo. Ponha o SFX da reviravolta (`sfx` da primeira fala) nesse intervalo.
 - **Crossfade** de 8 frames no início da cena (o frame do selo "DIA X"). `cut` e `stop` usam uma micro-rampa de 2 frames para não estalar.
 - **Tempo forte:** cada faixa entra a partir do primeiro tempo forte (`downbeat` em `TRACKS`; o `tema` tem 1,39s de silêncio no começo do arquivo, que é pulado).
-- **Volume:** o código toca as cópias de `public/shorts-blocos/music/nivelado/` (nível achatado, receita no README da pasta), e o ganho de cada faixa leva o arquivo a -18 LUFS (`lufs` medido em `TRACKS`; se refizer a cópia, meça de novo com `ffmpeg -i x.mp3 -af ebur128 -f null -`). Ducking de -10 dB, ataque de 5 frames e release de 15.
+- **Volume:** o código toca as cópias de `public/afamiliaquadrada/music/nivelado/` (nível achatado, receita no README da pasta), e o ganho de cada faixa leva o arquivo a -18 LUFS (`lufs` medido em `TRACKS`; se refizer a cópia, meça de novo com `ffmpeg -i x.mp3 -af ebur128 -f null -`). Ducking de -10 dB, ataque de 5 frames e release de 15.
 - **Loop:** quando abre e fecha com `tema`, o frame 0 começa o `tema` na mesma posição de compasso em que o final termina.
 - Uma faixa com o mesmo id em cenas seguidas continua tocando, sem reiniciar.
 - O campo antigo `music` do episódio (`bed.mp3`) não existe mais e é ignorado.

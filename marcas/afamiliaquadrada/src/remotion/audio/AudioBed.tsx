@@ -41,7 +41,7 @@ export const AudioBed: React.FC<{ timing: Timing; music: MusicPlan; sfx: { frame
     {music.segments.map((s, i) => (
       <Sequence key={`music-${i}`} from={s.from} durationInFrames={s.to - s.from} layout="none">
         <Audio
-          src={staticFile(`shorts-blocos/music/${TRACKS[s.track].file}`)}
+          src={staticFile(`afamiliaquadrada/music/${TRACKS[s.track].file}`)}
           trimBefore={Math.round(s.offsetSeconds * timing.fps)}
           loop
           volume={(f) => MUSIC_BASE * trackGain(s.track) * segmentEnvelope(s, s.from + f) * duckAt(timing, s.from + f)}

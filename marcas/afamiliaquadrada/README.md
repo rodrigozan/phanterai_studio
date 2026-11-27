@@ -11,7 +11,7 @@ Shorts 1080x1920 a 60fps com personagens estilo blocos, montados por código a p
 | Música com ducking + SFX | `src/remotion/audio/AudioBed.tsx` |
 | Composição final / teste de 10s | `src/remotion/Short.tsx` (`ShortBlocos`) / `TesteBlocos.tsx` |
 | TTS, timing, auditoria, orquestração | `src/pipeline/` |
-| Episódios | `public/shorts-blocos/episodes/<slug>/` |
+| Episódios | `public/afamiliaquadrada/episodes/<slug>/` |
 | Roteiro e narração entregues | `videos/<slug>/` |
 
 ```

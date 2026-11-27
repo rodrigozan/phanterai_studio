@@ -5,7 +5,7 @@ description: Cria Shorts/Reels animados com personagens estilo blocos (Remotion 
 
 # shorts-blocos
 
-Pipeline de Shorts 1080x1920 a 60fps com personagens estilo blocos, totalmente em código. Marca `shorts-blocos`: código em `marcas/afamiliaquadrada/src/`, episódios em `public/shorts-blocos/episodes/<slug>/`, render em `out/shorts-blocos/<slug>.mp4`.
+Pipeline de Shorts 1080x1920 a 60fps com personagens estilo blocos, totalmente em código. Marca `shorts-blocos`: código em `marcas/afamiliaquadrada/src/`, episódios em `public/afamiliaquadrada/episodes/<slug>/`, render em `out/afamiliaquadrada/<slug>.mp4`.
 
 Visual só "estilo blocos". Nada de marca, logo, nome ou personagem oficial de jogo de terceiros, nem no roteiro, nem no título, nem nas tags. Isso protege o canal de strike e de desmonetização.
 
@@ -29,7 +29,7 @@ vidIQ MCP `vidiq_outliers` (Shorts, nicho comédia/família/animação). Pegue v
 Leia antes `references/personagens.md` (bíblia da Família Quadrada): só os 4 personagens fixos, com os nomes, cores e bordões de lá, e a pauta dos 10 primeiros episódios. História inédita, adaptada ao Brasil, usando `references/expressoes-br.md`. Escalada de **5 dias** com absurdo crescente, reviravolta final, e a última fala emendando na primeira (loop). Se houver afirmação factual (número, data, nome real), verifique na web e liste as fontes no roteiro.
 
 ### 3. Decupagem
-Gere `public/shorts-blocos/episodes/<slug>/scenes.json` no contrato de `marcas/afamiliaquadrada/src/schema/scenes.ts`, respeitando `references/metas.md`. A música de cada cena segue a skill `familia-quadrada-musica` (só as 4 faixas fixas). Regras práticas que fazem a auditoria passar de primeira:
+Gere `public/afamiliaquadrada/episodes/<slug>/scenes.json` no contrato de `marcas/afamiliaquadrada/src/schema/scenes.ts`, respeitando `references/metas.md`. A música de cada cena segue a skill `familia-quadrada-musica` (só as 4 faixas fixas). Regras práticas que fazem a auditoria passar de primeira:
 - Primeira fala: personagem principal em `close`, cena igual à última (mesmo `setting`, `cast`, sem `props`).
 - Cada fala com 2–4 `visualBeats` (`punchIn`, `cut` com plano, `shake`, `expression`, `pan`) amarrados a palavras do texto.
 - Pelo menos um terço das falas em `close`.
@@ -63,7 +63,7 @@ Na pasta `marcas/afamiliaquadrada/videos/<slug>/`:
 - `narracao.md`: só a narração em parágrafos corridos, sem título nem nenhum outro texto.
 - `pos-publicacao.md`: o checklist abaixo, com a data de conferência (publicação + 48h).
 
-Entregue `out/shorts-blocos/<slug>.mp4`, o `audit.json` e 3–5 sugestões de título (sem nome de jogo).
+Entregue `out/afamiliaquadrada/<slug>.mp4`, o `audit.json` e 3–5 sugestões de título (sem nome de jogo).
 
 ## Pós-publicação (48h)
 1. Continuou assistindo vs. deslizou: meta > 80%. Baixo → refazer gancho e primeiro frame.
