@@ -2,7 +2,7 @@
 
 Duas pastas, por formato:
 
-- `long-videos/<slug>/` — vídeos longos do Aprenda YouTube (16:9, 4 a 9 minutos).
+- `long-videos/<slug>/` — vídeos longos 16:9 (4 a 9 minutos) da PhanterAI. Os do Aprenda YouTube ficam em `public/aprendayoutube/episodes/`.
 - `shorts-reels-tiktok/<slug>/` — Shorts, Reels e TikTok (9:16).
 
 ## Vídeo longo: o que tem em `long-videos/<slug>/`
