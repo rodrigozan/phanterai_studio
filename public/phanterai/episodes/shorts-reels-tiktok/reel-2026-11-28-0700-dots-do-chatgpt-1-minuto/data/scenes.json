@@ -1,0 +1,74 @@
+{
+ "musica": "phanterai/music/CuriousFocus.mp3",
+ "composicao": "ShortDotsChatGPT",
+ "panterinha": [
+  "surpresa 0–1,8 s",
+  "apontando item 5",
+  "comemorando no CTA"
+ ],
+ "trechos": [
+  {
+   "fala": "Você dorme. Ele continua trabalhando!",
+   "componente": "janela 'você · offline' com relógio 03:xx correndo → 'seu dot · trabalhando' com orbe e checklist (investigar bug, rascunhar posts, preparar fatura)",
+   "acao": "zoom 1,15→1 no quadro 0, palavra gigante 'Você dorme' → 'ele trabalha!' com flash, checks ficando verdes",
+   "palavra_gatilho": "dorme",
+   "inicio": 0
+  },
+  {
+   "fala": "Cinco coisas que o dot do ChatGPT faz sozinho... e a quinta vem antes de você pedir.",
+   "componente": "5 cards numerados + cartão do dot; selo '👀 o 5º vem antes de você pedir'",
+   "acao": "cards entram um a um, 5º com ❓ treme e vira ⚡",
+   "palavra_gatilho": "Cinco",
+   "inicio": 2.84
+  },
+  {
+   "fala": "É o agente da OpenAI que trabalha 24 horas por dia, num computador só dele.",
+   "componente": "orbe + 'agente' digitado + pílula 'da OpenAI · GPT-6 Astra'; relógio 00:00→24h com 24 barras; janela 'computador do dot'",
+   "acao": "relógio conta, barras acendem, selo 24/7, selo 'só dele'",
+   "palavra_gatilho": "agente",
+   "inicio": 8.8
+  },
+  {
+   "fala": "Número um: tem computador e navegador próprios...",
+   "componente": "chip 1 + janela do computador do dot com navegador e cursor; cartão 'seu notebook 🔒 separado'",
+   "acao": "abas abrindo, cursor clicando, notebook desliza, clique abre o computador e o checklist vira ✓",
+   "palavra_gatilho": "computador",
+   "inicio": 13.48
+  },
+  {
+   "fala": "Número dois: conecta em mais de quatro mil apps.",
+   "componente": "chip 2 + contador 0→+4.000 + grade 6x4 de apps",
+   "acao": "apps acendem um a um, contador dourado",
+   "palavra_gatilho": "conecta",
+   "inicio": 20.48
+  },
+  {
+   "fala": "Número três: ChatGPT, Slack e Teams. Ou por ligação!",
+   "componente": "chip 3 + 3 cartões de conversa + celular chamando",
+   "acao": "cartões entram e acendem no nome, mensagens digitadas, celular toca e atende",
+   "palavra_gatilho": "ChatGPT",
+   "inicio": 23.92
+  },
+  {
+   "fala": "Número quatro: transcrição → cortes, notas, posts",
+   "componente": "chip 4 + arquivo caindo + timeline de cortes + notas.md + posts rascunho",
+   "acao": "arquivo cai, cortes marcados, notas digitadas, posts surgem, selo 'aguardando sua aprovação'",
+   "palavra_gatilho": "transcrição",
+   "inicio": 29.4
+  },
+  {
+   "fala": "Número cinco: testador esqueceu a fatura...",
+   "componente": "chip 5 + alerta 'fatura não emitida' + janela de fatura do dot + botão Aprovar",
+   "acao": "alerta vermelho treme, dot percebe, campos preenchem, 'aguardando você', clique → '✓ fatura enviada'",
+   "palavra_gatilho": "fatura",
+   "inicio": 35.96
+  },
+  {
+   "fala": "Pro e Business Premium. Comenta DOT e me segue!",
+   "componente": "pílulas de plano + pergunta + orbe + comentário + botão seguir",
+   "acao": "pílulas entram, DOT digitado, ❤️, 'Seguindo'",
+   "palavra_gatilho": "DOT",
+   "inicio": 43.51
+  }
+ ]
+}

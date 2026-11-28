@@ -35,6 +35,7 @@ import { ShortGeminiNeon, CapaGeminiNeon, SGN_FPS, calculateGeminiNeonMetadata }
 import { ShortEditarVideos, CapaEditarVideos, SEV_FPS, calculateEditarVideosMetadata } from "./short/ShortEditarVideos";
 import { ShortVozCentavo, CapaVozCentavo, SVC_FPS, calculateVozCentavoMetadata } from "./short/ShortVozCentavo";
 import { ShortAnimacao3D, CapaAnimacao3D, S3D_FPS, calculate3DMetadata } from "./short/ShortAnimacao3D";
+import { ShortDotsChatGPT, CapaDotsChatGPT, SDOT_FPS, calculateDotsMetadata } from "./short/ShortDotsChatGPT";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -411,6 +412,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculate3DMetadata}
   />
   <Composition id="CapaAnimacao3D" component={CapaAnimacao3D} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortDotsChatGPT"
+    component={ShortDotsChatGPT}
+    width={1080}
+    height={1920}
+    fps={SDOT_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateDotsMetadata}
+  />
+  <Composition id="CapaDotsChatGPT" component={CapaDotsChatGPT} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}
