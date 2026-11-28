@@ -36,6 +36,7 @@ import { ShortEditarVideos, CapaEditarVideos, SEV_FPS, calculateEditarVideosMeta
 import { ShortVozCentavo, CapaVozCentavo, SVC_FPS, calculateVozCentavoMetadata } from "./short/ShortVozCentavo";
 import { ShortAnimacao3D, CapaAnimacao3D, S3D_FPS, calculate3DMetadata } from "./short/ShortAnimacao3D";
 import { ShortDotsChatGPT, CapaDotsChatGPT, SDOT_FPS, calculateDotsMetadata } from "./short/ShortDotsChatGPT";
+import { ShortAngulosCamera, CapaAngulosCamera, SANG_FPS, calculateAngulosMetadata } from "./short/ShortAngulosCamera";
 import { ShortClaudeAjustes, CapaClaudeAjustes, SCA_FPS, calculateClaudeAjustesMetadata } from "./short/ShortClaudeAjustes";
 import { ShortPrimeiroAgente, CapaPrimeiroAgente, SPA_FPS, calculatePrimeiroAgenteMetadata } from "./short/ShortPrimeiroAgente";
 import { TesteSfx, TESTE_SFX_FRAMES } from "./TesteSfx";
@@ -423,6 +424,17 @@ export const ComposicoesPhanterAI = () => (
     calculateMetadata={calculateDotsMetadata}
   />
   <Composition id="CapaDotsChatGPT" component={CapaDotsChatGPT} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition
+    id="ShortAngulosCamera"
+    component={ShortAngulosCamera}
+    width={1080}
+    height={1920}
+    fps={SANG_FPS}
+    durationInFrames={1800}
+    defaultProps={{ words: [], endSec: 0 }}
+    calculateMetadata={calculateAngulosMetadata}
+  />
+  <Composition id="CapaAngulosCamera" component={CapaAngulosCamera} width={1080} height={1920} fps={30} durationInFrames={1} />
   <Composition
     id="ShortClaudeAjustes"
     component={ShortClaudeAjustes}

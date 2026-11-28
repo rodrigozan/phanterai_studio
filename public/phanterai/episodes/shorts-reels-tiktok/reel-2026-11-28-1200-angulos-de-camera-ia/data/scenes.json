@@ -1,0 +1,330 @@
+{
+ "slug": "reel-2026-11-28-1200-angulos-de-camera-ia",
+ "composicao": "ShortAngulosCamera",
+ "musica": "phanterai/music/Code_and_Coffe.mp3",
+ "panterinha": [
+  "surpresa 0–1,8 s",
+  "apontando no item 5",
+  "comemorando no CTA"
+ ],
+ "cenas": [
+  {
+   "cena": "Hook",
+   "visual": "Big 'sem graça?' + visor cinza com xícara; pill '0 curtidas'; selo GENÉRICA; flash + 'falta algo…' + '⚠ prompt sem câmera'; '📷 a câmera!' + visor colorido com grãos; 5 chips + selo do 5º",
+   "acoes": [
+    {
+     "componente": "visor",
+     "acao": "entra com zoom",
+     "palavra_gatilho": "Sua",
+     "inicio": 0
+    },
+    {
+     "componente": "pill",
+     "acao": "0 curtidas",
+     "palavra_gatilho": "IA",
+     "inicio": 0.96
+    },
+    {
+     "componente": "stamp",
+     "acao": "GENÉRICA",
+     "palavra_gatilho": "sem",
+     "inicio": 1.6
+    },
+    {
+     "componente": "flash",
+     "acao": "falta algo",
+     "palavra_gatilho": "Falta",
+     "inicio": 2.56
+    },
+    {
+     "componente": "visor",
+     "acao": "vira close-up colorido",
+     "palavra_gatilho": "câmera!",
+     "inicio": 4.08
+    },
+    {
+     "componente": "chips",
+     "acao": "5 ângulos",
+     "palavra_gatilho": "Cinco",
+     "inicio": 5.04
+    },
+    {
+     "componente": "chip 5",
+     "acao": "treme/acende",
+     "palavra_gatilho": "quinto",
+     "inicio": 7.28
+    }
+   ]
+  },
+  {
+   "cena": "Guia",
+   "visual": "janela 'guia de prompt · Google' com checklist assunto/contexto/estilo + linha rosa 'onde a câmera está'; notas.txt",
+   "acoes": [
+    {
+     "componente": "stamp",
+     "acao": "OFICIAL",
+     "palavra_gatilho": "oficial",
+     "inicio": 10.1
+    },
+    {
+     "componente": "check",
+     "acao": "assunto",
+     "palavra_gatilho": "prompt",
+     "inicio": 10.66
+    },
+    {
+     "componente": "check",
+     "acao": "contexto",
+     "palavra_gatilho": "Google",
+     "inicio": 11.22
+    },
+    {
+     "componente": "check",
+     "acao": "estilo",
+     "palavra_gatilho": "manda",
+     "inicio": 11.54
+    },
+    {
+     "componente": "linha",
+     "acao": "câmera",
+     "palavra_gatilho": "câmera",
+     "inicio": 12.66
+    },
+    {
+     "componente": "notas",
+     "acao": "5 ângulos",
+     "palavra_gatilho": "Anota",
+     "inicio": 13.54
+    }
+   ]
+  },
+  {
+   "cena": "Item1 close-up",
+   "visual": "prompt 'A close-up photo of coffee beans' + visor com zoom nos grãos",
+   "acoes": [
+    {
+     "componente": "prompt",
+     "acao": "digita",
+     "palavra_gatilho": "close-up.",
+     "inicio": 15.24
+    },
+    {
+     "componente": "zoom",
+     "acao": "1x→2,4x",
+     "palavra_gatilho": "câmera",
+     "inicio": 16.06
+    },
+    {
+     "componente": "etiqueta",
+     "acao": "textura",
+     "palavra_gatilho": "textura,",
+     "inicio": 17.82
+    },
+    {
+     "componente": "etiqueta",
+     "acao": "detalhe",
+     "palavra_gatilho": "detalhe,",
+     "inicio": 18.7
+    },
+    {
+     "componente": "anel",
+     "acao": "1 grão",
+     "palavra_gatilho": "grão",
+     "inicio": 19.82
+    },
+    {
+     "componente": "stamp",
+     "acao": "NÍTIDO",
+     "palavra_gatilho": "café.",
+     "inicio": 20.26
+    }
+   ]
+  },
+  {
+   "cena": "Item2 aerial",
+   "visual": "prompt 'aerial photo of urban city with skyscrapers' + cidade em 3D que inclina até virar mapa, altitude contando",
+   "acoes": [
+    {
+     "componente": "prompt",
+     "acao": "digita",
+     "palavra_gatilho": "aerial",
+     "inicio": 22.04
+    },
+    {
+     "componente": "altitude",
+     "acao": "2→500 m",
+     "palavra_gatilho": "Foto",
+     "inicio": 23.14
+    },
+    {
+     "componente": "ruas",
+     "acao": "acendem",
+     "palavra_gatilho": "cidade",
+     "inicio": 25.06
+    },
+    {
+     "componente": "pins+stamp",
+     "acao": "VIROU MAPA",
+     "palavra_gatilho": "mapa.",
+     "inicio": 26.42
+    }
+   ]
+  },
+  {
+   "cena": "Item3 from below",
+   "visual": "prompt 'A photo of a forest canopy with blue skies from below' + visor de baixo pra cima das árvores, diagrama com câmera descendo",
+   "acoes": [
+    {
+     "componente": "prompt",
+     "acao": "digita",
+     "palavra_gatilho": "from",
+     "inicio": 27.92
+    },
+    {
+     "componente": "câmera",
+     "acao": "desce ao chão",
+     "palavra_gatilho": "Câmera",
+     "inicio": 28.78
+    },
+    {
+     "componente": "ângulo",
+     "acao": "0→90°",
+     "palavra_gatilho": "olhando",
+     "inicio": 29.66
+    },
+    {
+     "componente": "árvores",
+     "acao": "crescem",
+     "palavra_gatilho": "floresta",
+     "inicio": 30.94
+    },
+    {
+     "componente": "stamp",
+     "acao": "GIGANTE",
+     "palavra_gatilho": "gigante,",
+     "inicio": 31.66
+    },
+    {
+     "componente": "céu",
+     "acao": "fica azul",
+     "palavra_gatilho": "céu",
+     "inicio": 32.62
+    }
+   ]
+  },
+  {
+   "cena": "Item4 top-down",
+   "visual": "prompt 'top-down shot of a plate on a wooden table' + mesa que gira até 90°",
+   "acoes": [
+    {
+     "componente": "prompt",
+     "acao": "digita",
+     "palavra_gatilho": "top-down",
+     "inicio": 34.92
+    },
+    {
+     "componente": "mesa",
+     "acao": "inclina→90°",
+     "palavra_gatilho": "Reto,",
+     "inicio": 36.02
+    },
+    {
+     "componente": "flash",
+     "acao": "clique",
+     "palavra_gatilho": "fotografa",
+     "inicio": 37.94
+    },
+    {
+     "componente": "anel",
+     "acao": "prato",
+     "palavra_gatilho": "prato",
+     "inicio": 38.66
+    },
+    {
+     "componente": "stamp",
+     "acao": "90° CRAVADO",
+     "palavra_gatilho": "mesa.",
+     "inicio": 39.14
+    }
+   ]
+  },
+  {
+   "cena": "Item5 POV",
+   "visual": "prompt 'A POV shot from a vintage car driving in the rain, Canada at night, cinematic.' + painel do carro, estrada, chuva, limpador",
+   "acoes": [
+    {
+     "componente": "prompt",
+     "acao": "digita",
+     "palavra_gatilho": "P",
+     "inicio": 40.68
+    },
+    {
+     "componente": "leitura",
+     "acao": "1ª pessoa",
+     "palavra_gatilho": "Você",
+     "inicio": 41.98
+    },
+    {
+     "componente": "etiqueta",
+     "acao": "você está aqui",
+     "palavra_gatilho": "olhos",
+     "inicio": 43.02
+    },
+    {
+     "componente": "velocidade",
+     "acao": "sobe",
+     "palavra_gatilho": "dirigindo",
+     "inicio": 45.18
+    },
+    {
+     "componente": "chuva",
+     "acao": "aumenta",
+     "palavra_gatilho": "chuva,",
+     "inicio": 45.9
+    },
+    {
+     "componente": "noite",
+     "acao": "faróis",
+     "palavra_gatilho": "noite.",
+     "inicio": 46.54
+    }
+   ]
+  },
+  {
+   "cena": "CTA",
+   "visual": "molde 'A photo of [assunto], shot from [ângulo] with [lente]' preenchendo; comentário CÂMERA; Seguir; recap dos 5",
+   "acoes": [
+    {
+     "componente": "slot",
+     "acao": "coffee beans",
+     "palavra_gatilho": "tudo,",
+     "inicio": 47.68
+    },
+    {
+     "componente": "slot",
+     "acao": "ângulo gira e para em low angle",
+     "palavra_gatilho": "ângulo...",
+     "inicio": 51.2
+    },
+    {
+     "componente": "slot",
+     "acao": "35mm lens",
+     "palavra_gatilho": "lente.",
+     "inicio": 52.64
+    },
+    {
+     "componente": "comentário",
+     "acao": "CÂMERA",
+     "palavra_gatilho": "CÂMERA",
+     "inicio": 53.7
+    },
+    {
+     "componente": "botão",
+     "acao": "Seguindo",
+     "palavra_gatilho": "segue",
+     "inicio": 54.42
+    }
+   ]
+  }
+ ]
+}

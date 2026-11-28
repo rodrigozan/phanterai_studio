@@ -1,9 +1,1 @@
-{
- "fontes": [
-  "https://support.google.com/youtube/answer/14075157",
-  "https://support.google.com/youtube/answer/13748639"
- ],
- "musica": "Code and Coffee (biblioteca do canal)",
- "sfx": "Mixkit (public/sfx)",
- "visual": "motion graphics próprios, sem print, sem Pexels, sem IA"
-}
+{"slug":"reel-2026-11-28-1200-angulos-de-camera-ia","musica":"phanterai/music/Code_and_Coffe.mp3 (loop, volume 0.2)","sfx":"public/sfx (whoosh, pop, ding, riser, coin, error)","fontes":["https://cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide","https://ai.google.dev/gemini-api/docs/video","https://ai.google.dev/gemini-api/docs/image-generation"],"imagens":"nenhuma; tudo é motion graphic no Remotion (sem Pexels, sem prints, nada gerado por IA)"}
