@@ -14,6 +14,8 @@ import { ShortCapitulos, CapaCapitulos, SCP_FPS, calculateCapitulosMetadata } fr
 import { ShortShorts3Min, CapaShorts3Min, S3M_FPS, calculateShorts3MinMetadata } from "./short/ShortShorts3Min";
 import { ShortHype, CapaHype, HYP_FPS, calculateHypeMetadata } from "./short/ShortHype";
 import { ShortVideoRelacionado, CapaVideoRelacionado, VRL_FPS, calculateVideoRelacionadoMetadata } from "./short/ShortVideoRelacionado";
+// Shorts no visual novo (identidade do banner, 27/11/2026 em diante).
+import { ShortTelaFinal, CapaTelaFinal, TLF_FPS, calculateTelaFinalMetadata } from "./short/ShortTelaFinal";
 
 export const ComposicoesAprendaYouTube = () => (
   <>
@@ -110,5 +112,7 @@ export const ComposicoesAprendaYouTube = () => (
     calculateMetadata={calculateVideoRelacionadoMetadata}
   />
   <Composition id="CapaVideoRelacionado" component={CapaVideoRelacionado} width={1080} height={1920} fps={30} durationInFrames={1} />
+  <Composition id="AYTelaFinal" component={ShortTelaFinal} width={1080} height={1920} fps={TLF_FPS} durationInFrames={1800} defaultProps={{ words: [], endSec: 0 }} calculateMetadata={calculateTelaFinalMetadata} />
+  <Composition id="AYCapaTelaFinal" component={CapaTelaFinal} width={1080} height={1920} fps={30} durationInFrames={1} />
   </>
 );
